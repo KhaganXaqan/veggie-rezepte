@@ -2,10 +2,6 @@
 const nextConfig = {
   images: { 
     domains: ['images.unsplash.com'],
-    unoptimized: false,
-  },
-  experimental: {
-    optimizeCss: false,
   },
 };
 
