@@ -48,11 +48,11 @@ export default function Home() {
               priority
             />
           </div>
-          <div className="relative z-20 text-center text-white">
-            <h1 className="text-5xl font-bold mb-4">
+          <div className="relative z-20 text-center text-white px-4">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Entdecke köstliche vegetarische Rezepte
             </h1>
-            <p className="text-xl mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
               Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche
             </p>
             <Link href="/suche">

@@ -187,5 +187,142 @@ export const recipes = [
     category: "Suppen",
     slug: "suesskartoffel-kokos-suppe",
     tags: ["Suppe", "Exotisch", "Cremig"]
+  },
+  {
+    title: "Bunter Quinoa-Salat",
+    image: "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "25 Min.",
+    rating: 4.6,
+    category: "Salate",
+    slug: "bunter-quinoa-salat",
+    tags: ["Salat", "Gesund", "Quinoa"]
+  },
+  {
+    title: "Gemüse-Couscous-Salat",
+    image: "https://images.unsplash.com/photo-1534938665420-4193effeacc4?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "20 Min.",
+    rating: 4.5,
+    category: "Salate",
+    slug: "gemuese-couscous-salat",
+    tags: ["Salat", "Orientalisch", "Couscous"]
+  },
+  {
+    title: "Blumenkohl-Käse-Auflauf",
+    image: "https://images.unsplash.com/photo-1601063458289-77247ba485ec?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "45 Min.",
+    rating: 4.7,
+    category: "Aufläufe",
+    slug: "blumenkohl-kaese-auflauf",
+    tags: ["Auflauf", "Gemüse", "Käse"]
+  },
+  {
+    title: "Gemüse-Polenta-Auflauf",
+    image: "https://images.unsplash.com/photo-1586032633407-49c8a76b521e?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "55 Min.",
+    rating: 4.6,
+    category: "Aufläufe",
+    slug: "gemuese-polenta-auflauf",
+    tags: ["Auflauf", "Italienisch", "Polenta"]
+  },
+  {
+    title: "Zucchini-Reis-Auflauf",
+    image: "https://images.unsplash.com/photo-1594834749740-74b3f6764be4?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "50 Min.",
+    rating: 4.5,
+    category: "Aufläufe",
+    slug: "zucchini-reis-auflauf",
+    tags: ["Auflauf", "Gemüse", "Reis"]
+  },
+  // New Breakfast Recipes
+  {
+    title: "Overnight Oats mit Beeren",
+    image: "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "10 Min. + 8 Std.",
+    rating: 4.7,
+    category: "Frühstück",
+    slug: "overnight-oats-beeren",
+    tags: ["Frühstück", "Gesund", "Haferflocken"]
+  },
+  {
+    title: "Veganes Banana Bread",
+    image: "https://images.unsplash.com/photo-1605286658031-68f5f1d3bcc1?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "55 Min.",
+    rating: 4.8,
+    category: "Frühstück",
+    slug: "veganes-banana-bread",
+    tags: ["Frühstück", "Vegan", "Gebäck"]
+  },
+  {
+    title: "Smoothie Bowl",
+    image: "https://images.unsplash.com/photo-1626074353765-517a681e40be?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "15 Min.",
+    rating: 4.6,
+    category: "Frühstück",
+    slug: "smoothie-bowl",
+    tags: ["Frühstück", "Gesund", "Obst"]
+  },
+  {
+    title: "Französische Crêpes",
+    image: "https://images.unsplash.com/photo-1519676867240-f03562e64548?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "30 Min.",
+    rating: 4.9,
+    category: "Frühstück",
+    slug: "franzoesische-crepes",
+    tags: ["Frühstück", "Französisch", "Süß"]
+  },
+  {
+    title: "Granola mit Nüssen",
+    image: "https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "40 Min.",
+    rating: 4.7,
+    category: "Frühstück",
+    slug: "granola-nuesse",
+    tags: ["Frühstück", "Gesund", "Müsli"]
+  },
+  // New Dessert Recipes
+  {
+    title: "Apfelstrudel",
+    image: "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "60 Min.",
+    rating: 4.8,
+    category: "Desserts",
+    slug: "apfelstrudel",
+    tags: ["Dessert", "Traditionell", "Gebäck"]
+  },
+  {
+    title: "Schokoladen-Mousse",
+    image: "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "20 Min. + 2 Std.",
+    rating: 4.9,
+    category: "Desserts",
+    slug: "schokoladen-mousse",
+    tags: ["Dessert", "Schokolade", "Cremig"]
+  },
+  {
+    title: "Beeren-Crumble",
+    image: "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "45 Min.",
+    rating: 4.7,
+    category: "Desserts",
+    slug: "beeren-crumble",
+    tags: ["Dessert", "Obst", "Gebacken"]
+  },
+  {
+    title: "Rhabarber-Kompott",
+    image: "https://images.unsplash.com/photo-1528252941458-c0c936c37d5e?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "25 Min.",
+    rating: 4.6,
+    category: "Desserts",
+    slug: "rhabarber-kompott",
+    tags: ["Dessert", "Frucht", "Traditionell"]
+  },
+  {
+    title: "Zimtschnecken",
+    image: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=2670&auto=format&fit=crop",
+    prepTime: "90 Min.",
+    rating: 4.8,
+    category: "Desserts",
+    slug: "zimtschnecken",
+    tags: ["Dessert", "Gebäck", "Zimt"]
   }
 ]

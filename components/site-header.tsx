@@ -1,11 +1,12 @@
 "use client"
 
 import Link from "next/link"
-import { Search, Menu } from "lucide-react"
+import { Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
+import { MobileNav } from "@/components/mobile-nav"
 
 export function SiteHeader() {
   const router = useRouter()
@@ -21,6 +22,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
+        <MobileNav />
         <div className="flex items-center space-x-4 lg:space-x-6">
           <Link href="/" className="flex items-center space-x-2">
             <span className="text-xl font-bold text-primary">Veggie-Rezepte.de</span>
@@ -47,14 +49,11 @@ export function SiteHeader() {
               />
             </div>
           </form>
-          <nav className="flex items-center space-x-2">
-            <Button variant="ghost" size="icon" className="lg:hidden">
-              <Menu className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" className="hidden lg:flex">
+          <nav className="hidden lg:flex items-center space-x-2">
+            <Button variant="ghost">
               Rezept einreichen
             </Button>
-            <Button variant="default" className="hidden lg:flex">
+            <Button variant="default">
               Anmelden
             </Button>
           </nav>

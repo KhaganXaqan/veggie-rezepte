@@ -1,28 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { 
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
-    ],
-  },
+  output: 'export',
   eslint: {
-    // Add this to ignore specific ESLint rules during build
     ignoreDuringBuilds: true,
   },
-  // Add these settings for proper route handling
-  output: 'standalone',
+  images: { 
+    unoptimized: true,
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+  },
   experimental: {
-    outputFileTracingRoot: undefined, // Let Next.js handle the file tracing
-    outputFileTracingExcludes: {
-      '*': [
-        'node_modules/@swc/core-linux-x64-gnu',
-        'node_modules/@swc/core-linux-x64-musl',
-        'node_modules/@esbuild/linux-x64',
-      ],
-    },
+    optimizeCss: true,
+    optimizePackageImports: ['lucide-react'],
   },
 };
 
