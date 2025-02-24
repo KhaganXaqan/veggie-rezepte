@@ -1,21 +1,12 @@
 import { SiteHeader } from "@/components/site-header"
 import { RecipeCard } from "@/components/recipe-card"
 import { recipes } from "@/lib/data"
-
-// Create a mapping of category slugs to display names
-const categoryNames: { [key: string]: string } = {
-  "hauptgerichte": "Hauptgerichte",
-  "suppen": "Suppen",
-  "salate": "Salate",
-  "auflaeufe": "Aufläufe",
-  "desserts": "Desserts",
-  "fruehstueck": "Frühstück"
-}
+import { categoryNames } from '@/lib/constants'
 
 // This function is required for static site generation with dynamic routes
 export function generateStaticParams() {
   return Object.keys(categoryNames).map((category) => ({
-    category: category,
+    category,
   }))
 }
 
