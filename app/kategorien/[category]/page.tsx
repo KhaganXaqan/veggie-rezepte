@@ -1,62 +1,59 @@
-import { SiteHeader } from "@/components/site-header"
 import { RecipeCard } from "@/components/recipe-card"
-import { recipes } from "@/lib/data"
-
-// Create a mapping of category slugs to display names
-const categoryNames: { [key: string]: string } = {
-  "hauptgerichte": "Hauptgerichte",
-  "suppen": "Suppen",
-  "salate": "Salate",
-  "auflaeufe": "Aufläufe",
-  "desserts": "Desserts",
-  "fruehstueck": "Frühstück"
-}
+import { getAllRecipes, getAllCategories } from "@/lib/recipes"
+import { notFound } from "next/navigation"
+import Image from "next/image"
 
 // This function is required for static site generation with dynamic routes
 export function generateStaticParams() {
-  return Object.keys(categoryNames).map((category) => ({
-    category: category,
+  const categories = getAllCategories()
+  return categories.map((category) => ({
+    category: category.slug,
   }))
 }
 
 export default function CategoryPage({ params }: { params: { category: string } }) {
-  const categoryName = categoryNames[params.category]
+  const categories = getAllCategories()
+  const category = categories.find(c => c.slug === params.category)
   
-  // Filter recipes by category
-  const categoryRecipes = recipes.filter(recipe => 
-    recipe.category.toLowerCase() === categoryName?.toLowerCase()
-  )
-
-  if (!categoryName) {
-    return (
-      <div className="min-h-screen flex flex-col">
-        <SiteHeader />
-        <main className="flex-1 container py-8">
-          <h1 className="text-4xl font-bold mb-8">Kategorie nicht gefunden</h1>
-          <p className="text-muted-foreground">Diese Kategorie existiert leider nicht.</p>
-        </main>
-      </div>
-    )
+  if (!category) {
+    notFound()
   }
 
-  return (
-    <div className="min-h-screen flex flex-col">
-      <SiteHeader />
-      <main className="flex-1 container py-8">
-        <h1 className="text-4xl font-bold mb-8">{categoryName}</h1>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {categoryRecipes.map((recipe) => (
-            <RecipeCard key={recipe.slug} {...recipe} />
-          ))}
-        </div>
+  const recipes = getAllRecipes()
+  const categoryRecipes = recipes.filter(recipe => recipe.categoryId === category.id)
 
-        {categoryRecipes.length === 0 && (
-          <div className="text-center text-muted-foreground py-12">
-            Keine Rezepte in dieser Kategorie gefunden.
-          </div>
-        )}
-      </main>
-    </div>
+  return (
+    <main className="container py-6 md:py-12">
+      <div className="relative aspect-[5/2] overflow-hidden rounded-lg mb-8">
+        <div className="absolute inset-0 bg-black/40 z-10" />
+        <Image
+          src={category.imagePath}
+          alt={category.name}
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 flex flex-col items-center justify-center z-20 text-white text-center p-6">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{category.name}</h1>
+          <p className="text-lg md:text-xl max-w-2xl">{category.description}</p>
+        </div>
+      </div>
+      
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {categoryRecipes.map((recipe) => (
+          <RecipeCard 
+            key={recipe.id} 
+            recipe={recipe}
+            categoryName={category.name}
+          />
+        ))}
+      </div>
+
+      {categoryRecipes.length === 0 && (
+        <div className="text-center text-muted-foreground py-12">
+          Keine Rezepte in dieser Kategorie gefunden.
+        </div>
+      )}
+    </main>
   )
 }

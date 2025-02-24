@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Hauptgerichte",
+      "slug": "hauptgerichte",
+      "description": "Herzhafte vegetarische Hauptgerichte für jeden Tag",
+      "imagePath": "/uploads/images/Gefüllte Paprika.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Suppen",
+      "slug": "suppen",
+      "description": "Warme und sättigende Suppen für jede Jahreszeit",
+      "imagePath": "/uploads/images/Kartoffelsuppe.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Salate",
+      "slug": "salate",
+      "description": "Frische und knackige Salate voller Vitamine",
+      "imagePath": "/uploads/images/Griechischer Salat.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Aufläufe",
+      "slug": "auflaufe",
+      "description": "Überbackene Köstlichkeiten aus dem Ofen",
+      "imagePath": "/uploads/images/Kartoffel-Brokkoli-Auflauf.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Desserts",
+      "slug": "desserts",
+      "description": "Süße Nachspeisen für jeden Geschmack",
+      "imagePath": "/uploads/images/Rote Grütze.jpeg"
+    },
+    {
+      "id": "6",
+      "name": "Frühstück",
+      "slug": "fruhstuck",
+      "description": "Der perfekte Start in den Tag",
+      "imagePath": "/uploads/images/Französische Toast.jpg"
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "categoryId": "1",
+      "title": "Spätzle mit Pilzrahmsauce",
+      "slug": "spatzle-mit-pilzrahmsauce",
+      "description": "Hausgemachte Spätzle mit cremiger Pilzrahmsauce - ein klassisches vegetarisches Hauptgericht aus Süddeutschland.",
+      "prepTime": "45",
+      "cookTime": "30",
+      "servings": "4",
+      "difficulty": "mittel",
+      "imagePath": "/uploads/images/frische-spaetzle-in-champignonsauce-und-karottensalat-147374.jpg",
+      "ingredients": [
+        "400g Mehl",
+        "4 Eier",
+        "125ml Wasser",
+        "1 TL Salz",
+        "500g gemischte Pilze",
+        "2 Zwiebeln",
+        "200ml Sahne",
+        "Petersilie",
+        "Butter zum Braten"
+      ],
+      "instructions": [
+        "Spätzleteig aus Mehl, Eiern, Wasser und Salz zubereiten",
+        "Teig 10 Minuten ruhen lassen",
+        "Spätzle in kochendes Salzwasser schaben",
+        "Pilze und Zwiebeln in Butter anbraten",
+        "Mit Sahne ablöschen und würzen",
+        "Spätzle unterheben und mit Petersilie garnieren"
+      ],
+      "createdAt": "2025-02-24T00:38:17+01:00"
+    },
+    {
+      "id": "2",
+      "categoryId": "1",
+      "title": "Kartoffelpuffer mit Apfelmus",
+      "slug": "kartoffelpuffer-mit-apfelmus",
+      "description": "Knusprige Kartoffelpuffer serviert mit hausgemachtem Apfelmus - ein beliebter deutscher Klassiker.",
+      "prepTime": "30",
+      "cookTime": "30",
+      "servings": "4",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/kartoffelpuffer-mit-apfelmus-rezept-bild-nr-6.jpg",
+      "ingredients": [
+        "1kg Kartoffeln",
+        "2 Zwiebeln",
+        "2 Eier",
+        "3 EL Mehl",
+        "Salz und Pfeffer",
+        "500g Äpfel für Apfelmus",
+        "2 EL Zucker",
+        "1 Zimtstange"
+      ],
+      "instructions": [
+        "Kartoffeln und Zwiebeln reiben",
+        "Mit Eiern, Mehl, Salz und Pfeffer vermischen",
+        "In Öl goldbraun ausbacken",
+        "Äpfel mit Zucker und Zimt zu Apfelmus kochen",
+        "Kartoffelpuffer mit Apfelmus servieren"
+      ],
+      "createdAt": "2025-02-24T00:38:17+01:00"
+    },
+    {
+      "id": "3",
+      "categoryId": "1",
+      "title": "Spinat-Käse-Knödel",
+      "slug": "spinat-kase-knodel",
+      "description": "Flaumige Knödel mit Spinat und Käse gefüllt - eine herzhafte vegetarische Hauptspeise.",
+      "prepTime": "40",
+      "cookTime": "20",
+      "servings": "4",
+      "difficulty": "mittel",
+      "imagePath": "/uploads/images/20240403094816-spinat-kaese-knoedel.webp",
+      "ingredients": [
+        "400g Spinat",
+        "300g altes Brötchen",
+        "2 Eier",
+        "150ml Milch",
+        "1 Zwiebel",
+        "150g Bergkäse",
+        "Muskat",
+        "Salz und Pfeffer",
+        "100g Butter zum Servieren"
+      ],
+      "instructions": [
+        "Brötchen in Würfel schneiden und mit warmer Milch übergießen",
+        "Spinat blanchieren und hacken",
+        "Zwiebel anschwitzen und mit Spinat vermischen",
+        "Käse reiben und alle Zutaten vermengen",
+        "Knödel formen und in Salzwasser garen",
+        "Mit gebräunter Butter servieren"
+      ],
+      "createdAt": "2025-02-24T00:38:17+01:00"
+    },
+    {
+      "id": "4",
+      "categoryId": "2",
+      "title": "Cremige Kürbissuppe",
+      "slug": "cremige-kurbissuppe",
+      "description": "Samtige Kürbissuppe mit Hokkaido-Kürbis und feinen Gewürzen.",
+      "prepTime": "20",
+      "cookTime": "30",
+      "servings": "6",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Kuerbis-1-Hokkaido-Kuerbissuppe_1920x1920.webp",
+      "ingredients": [
+        "1 Hokkaido-Kürbis",
+        "2 Kartoffeln",
+        "1 Zwiebel",
+        "2 Knoblauchzehen",
+        "1L Gemüsebrühe",
+        "200ml Sahne",
+        "Ingwer",
+        "Kürbiskerne zum Garnieren",
+        "Kürbiskernöl"
+      ],
+      "instructions": [
+        "Kürbis und Kartoffeln würfeln",
+        "Zwiebel und Knoblauch anschwitzen",
+        "Gemüse zugeben und mit Brühe aufgießen",
+        "20 Minuten köcheln lassen",
+        "Pürieren und Sahne zugeben",
+        "Mit gerösteten Kürbiskernen und Öl servieren"
+      ],
+      "createdAt": "2025-02-24T00:38:17+01:00"
+    },
+    {
+      "id": "5",
+      "categoryId": "3",
+      "title": "Kartoffel-Gurken-Salat",
+      "slug": "kartoffel-gurken-salat",
+      "description": "Erfrischender Kartoffelsalat mit Gurken und Dill, perfekt für warme Tage.",
+      "prepTime": "20",
+      "cookTime": "20",
+      "servings": "4",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/2024_kartoffel-gurken-salat_aufmacher_0.jpg",
+      "ingredients": [
+        "800g festkochende Kartoffeln",
+        "2 Salatgurken",
+        "1 Bund Dill",
+        "1 Zwiebel",
+        "3 EL Weißweinessig",
+        "6 EL Öl",
+        "1 TL Senf",
+        "Salz und Pfeffer"
+      ],
+      "instructions": [
+        "Kartoffeln kochen und pellen",
+        "In Scheiben schneiden",
+        "Gurken in dünne Scheiben hobeln",
+        "Zwiebel fein würfeln",
+        "Dressing aus Essig, Öl und Senf zubereiten",
+        "Alles vermengen und mit Dill garnieren"
+      ],
+      "createdAt": "2025-02-24T00:38:17+01:00"
+    },
+    {
+      "id": "6",
+      "categoryId": "4",
+      "title": "Gemüse-Lasagne",
+      "slug": "gemuse-lasagne",
+      "description": "Klassische vegetarische Lasagne mit verschiedenem Gemüse und Bechamelsauce.",
+      "prepTime": "45",
+      "cookTime": "40",
+      "servings": "6",
+      "difficulty": "mittel",
+      "imagePath": "/uploads/images/Gemüse-Lasagne.jpeg",
+      "ingredients": [
+        "Lasagneplatten",
+        "2 Zucchini",
+        "2 Auberginen",
+        "500g Champignons",
+        "2 Paprika",
+        "800g passierte Tomaten",
+        "500ml Bechamelsauce",
+        "300g geriebener Käse",
+        "2 Zwiebeln",
+        "3 Knoblauchzehen",
+        "Italienische Kräuter"
+      ],
+      "instructions": [
+        "Gemüse in Scheiben schneiden",
+        "Zwiebeln und Knoblauch anschwitzen",
+        "Gemüse anbraten und mit Tomaten ablöschen",
+        "Lasagne schichten: Sauce, Platten, Gemüse, Bechamel",
+        "Mit Käse bestreuen",
+        "Bei 180°C 40 Minuten backen"
+      ],
+      "createdAt": "2025-02-24T00:38:17+01:00"
+    },
+    {
+      "id": "7",
+      "categoryId": "5",
+      "title": "Apfelstrudel",
+      "slug": "apfelstrudel",
+      "description": "Traditioneller Apfelstrudel mit knusprigem Strudelteig und saftiger Apfelfüllung.",
+      "prepTime": "60",
+      "cookTime": "45",
+      "servings": "8",
+      "difficulty": "schwer",
+      "imagePath": "/uploads/images/Apfelstrudel.jpeg",
+      "ingredients": [
+        "300g Mehl",
+        "1 Ei",
+        "125ml lauwarmes Wasser",
+        "3 EL Öl",
+        "1kg Äpfel",
+        "100g Rosinen",
+        "100g gehackte Mandeln",
+        "100g Zucker",
+        "2 TL Zimt",
+        "100g Butter"
+      ],
+      "instructions": [
+        "Strudelteig zubereiten und ruhen lassen",
+        "Äpfel schälen und in Spalten schneiden",
+        "Mit Rosinen, Mandeln, Zucker und Zimt mischen",
+        "Teig dünn ausziehen",
+        "Füllung verteilen und einrollen",
+        "Mit Butter bestreichen und backen"
+      ],
+      "createdAt": "2025-02-24T00:38:17+01:00"
+    },
+    {
+      "id": "8",
+      "categoryId": "6",
+      "title": "Overnight Oats mit Beeren",
+      "slug": "overnight-oats-mit-beeren",
+      "description": "Gesundes Frühstück aus eingeweichten Haferflocken mit frischen Beeren und Nüssen.",
+      "prepTime": "10",
+      "cookTime": "0",
+      "servings": "2",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/OvernightOatsmitBeeren-1.jpeg",
+      "ingredients": [
+        "100g Haferflocken",
+        "250ml Pflanzenmilch",
+        "2 EL Chiasamen",
+        "2 EL Ahornsirup",
+        "200g gemischte Beeren",
+        "50g gehackte Nüsse",
+        "1 TL Vanilleextrakt"
+      ],
+      "instructions": [
+        "Haferflocken mit Milch, Chia und Sirup mischen",
+        "Vanilleextrakt hinzufügen",
+        "Über Nacht im Kühlschrank ziehen lassen",
+        "Am nächsten Morgen Beeren und Nüsse darüber geben"
+      ],
+      "createdAt": "2025-02-24T00:38:17+01:00"
+    },
+    {
+      "id": "9",
+      "categoryId": "1",
+      "title": "Vegetarische Schnitzel",
+      "slug": "vegetarische-schnitzel",
+      "description": "Knusprige Gemüseschnitzel aus Blumenkohl und Käse, serviert mit Kartoffelpüree.",
+      "prepTime": "30",
+      "cookTime": "20",
+      "servings": "4",
+      "difficulty": "mittel",
+      "imagePath": "/uploads/images/Vegetarische Schnitzel.webp",
+      "ingredients": [
+        "1 Blumenkohl",
+        "200g geriebener Käse",
+        "2 Eier",
+        "100g Semmelbrösel",
+        "50g Mehl",
+        "1 TL Paprikapulver",
+        "Salz und Pfeffer",
+        "Öl zum Braten"
+      ],
+      "instructions": [
+        "Blumenkohl kochen und zerkleinern",
+        "Mit Käse und Gewürzen vermischen",
+        "Schnitzel formen",
+        "In Mehl, Ei und Bröseln wenden",
+        "In Öl goldbraun braten"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "10",
+      "categoryId": "1",
+      "title": "Gefüllte Paprika",
+      "slug": "gefullte-paprika",
+      "description": "Bunte Paprikaschoten gefüllt mit Quinoa, Gemüse und Käse.",
+      "prepTime": "25",
+      "cookTime": "35",
+      "servings": "4",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Gefüllte Paprika.jpg",
+      "ingredients": [
+        "8 große Paprikaschoten",
+        "250g Quinoa",
+        "1 Zucchini",
+        "1 Zwiebel",
+        "2 Knoblauchzehen",
+        "200g Champignons",
+        "200g geriebener Käse",
+        "400ml Gemüsebrühe",
+        "Italienische Kräuter"
+      ],
+      "instructions": [
+        "Quinoa in Gemüsebrühe kochen",
+        "Gemüse klein schneiden und anbraten",
+        "Mit Quinoa und Gewürzen mischen",
+        "Paprika halbieren und entkernen",
+        "Mit der Mischung füllen",
+        "Mit Käse bestreuen und backen"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "11",
+      "categoryId": "2",
+      "title": "Kartoffelsuppe",
+      "slug": "kartoffelsuppe",
+      "description": "Cremige Kartoffelsuppe mit Wurzelgemüse und frischen Kräutern.",
+      "prepTime": "20",
+      "cookTime": "40",
+      "servings": "6",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Kartoffelsuppe.jpg",
+      "ingredients": [
+        "1kg Kartoffeln",
+        "2 Möhren",
+        "1 Stange Lauch",
+        "2 Zwiebeln",
+        "2L Gemüsebrühe",
+        "200ml Sahne",
+        "Muskatnuss",
+        "Petersilie"
+      ],
+      "instructions": [
+        "Gemüse würfeln",
+        "Zwiebeln glasig dünsten",
+        "Gemüse kurz mitdünsten",
+        "Mit Brühe aufgießen und kochen",
+        "Pürieren und Sahne zugeben",
+        "Mit Muskat würzen und Petersilie garnieren"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "12",
+      "categoryId": "2",
+      "title": "Linsensuppe",
+      "slug": "linsensuppe",
+      "description": "Herzhafte Linsensuppe mit Wurzelgemüse und Gewürzen.",
+      "prepTime": "15",
+      "cookTime": "45",
+      "servings": "6",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Linsensuppe.jpeg",
+      "ingredients": [
+        "500g rote Linsen",
+        "2 Möhren",
+        "2 Kartoffeln",
+        "1 Zwiebel",
+        "2 Knoblauchzehen",
+        "2L Gemüsebrühe",
+        "2 TL Kreuzkümmel",
+        "1 TL Kurkuma",
+        "Zitronensaft"
+      ],
+      "instructions": [
+        "Linsen waschen",
+        "Gemüse würfeln",
+        "Zwiebeln und Knoblauch andünsten",
+        "Gewürze kurz mitrösten",
+        "Alles mit Brühe aufgießen und kochen",
+        "Mit Zitronensaft abschmecken"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "13",
+      "categoryId": "3",
+      "title": "Bunter Quinoa-Salat",
+      "slug": "bunter-quinoa-salat",
+      "description": "Frischer Quinoa-Salat mit knackigem Gemüse und Kräutern.",
+      "prepTime": "20",
+      "cookTime": "15",
+      "servings": "4",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Bunter Quinoa-Salat.jpeg",
+      "ingredients": [
+        "250g Quinoa",
+        "1 rote Paprika",
+        "1 gelbe Paprika",
+        "1 Gurke",
+        "250g Kirschtomaten",
+        "1 rote Zwiebel",
+        "Frische Kräuter",
+        "Olivenöl",
+        "Zitronensaft"
+      ],
+      "instructions": [
+        "Quinoa nach Packungsanweisung kochen",
+        "Gemüse klein würfeln",
+        "Zwiebeln fein hacken",
+        "Kräuter klein schneiden",
+        "Alles vermischen",
+        "Mit Öl und Zitrone abschmecken"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "14",
+      "categoryId": "4",
+      "title": "Kartoffel-Brokkoli-Auflauf",
+      "slug": "kartoffel-brokkoli-auflauf",
+      "description": "Cremiger Auflauf mit Kartoffeln, Brokkoli und Käsesauce.",
+      "prepTime": "30",
+      "cookTime": "45",
+      "servings": "6",
+      "difficulty": "mittel",
+      "imagePath": "/uploads/images/Kartoffel-Brokkoli-Auflauf.jpeg",
+      "ingredients": [
+        "800g Kartoffeln",
+        "500g Brokkoli",
+        "500ml Milch",
+        "50g Butter",
+        "50g Mehl",
+        "200g geriebener Käse",
+        "Muskatnuss",
+        "Salz und Pfeffer"
+      ],
+      "instructions": [
+        "Kartoffeln in Scheiben schneiden",
+        "Brokkoli in Röschen teilen",
+        "Bechamelsauce zubereiten",
+        "Auflaufform schichten",
+        "Mit Käse bestreuen",
+        "Bei 180°C backen"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "15",
+      "categoryId": "5",
+      "title": "Rote Grütze",
+      "slug": "rote-grutze",
+      "description": "Klassisches norddeutsches Dessert aus roten Beeren mit Vanillesauce.",
+      "prepTime": "20",
+      "cookTime": "15",
+      "servings": "6",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Rote Grütze.jpeg",
+      "ingredients": [
+        "500g gemischte rote Beeren",
+        "500ml Fruchtsaft",
+        "40g Speisestärke",
+        "80g Zucker",
+        "1 Vanilleschote",
+        "500ml Milch",
+        "30g Zucker",
+        "20g Speisestärke"
+      ],
+      "instructions": [
+        "Beeren mit Saft und Zucker aufkochen",
+        "Mit Stärke binden",
+        "Vanillesauce zubereiten",
+        "Grütze in Schalen füllen",
+        "Mit Vanillesauce servieren"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "16",
+      "categoryId": "6",
+      "title": "Veganes Bircher Müsli",
+      "slug": "veganes-bircher-muesli",
+      "description": "Klassisches Bircher Müsli mit Haferflocken und frischem Obst.",
+      "prepTime": "15",
+      "cookTime": "0",
+      "servings": "4",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Veganes Bircher Müsli.jpg",
+      "ingredients": [
+        "200g Haferflocken",
+        "500ml Mandelmilch",
+        "2 Äpfel",
+        "1 Banane",
+        "50g Rosinen",
+        "50g gehackte Haselnüsse",
+        "2 EL Agavensirup",
+        "1 TL Zimt"
+      ],
+      "instructions": [
+        "Haferflocken in Mandelmilch einweichen",
+        "Äpfel reiben, Banane zerdrücken",
+        "Rosinen und Nüsse zugeben",
+        "Mit Agavensirup und Zimt abschmecken",
+        "Über Nacht ziehen lassen"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "17",
+      "categoryId": "1",
+      "title": "Gemüse-Curry mit Reis",
+      "slug": "gemuse-curry-mit-reis",
+      "description": "Aromatisches Gemüsecurry mit Kokosmilch und Basmatireis.",
+      "prepTime": "25",
+      "cookTime": "30",
+      "servings": "4",
+      "difficulty": "mittel",
+      "imagePath": "/uploads/images/Gemüse-Curry mit Reis.jpeg",
+      "ingredients": [
+        "300g Basmatireis",
+        "400ml Kokosmilch",
+        "2 Karotten",
+        "1 Zucchini",
+        "200g Blumenkohl",
+        "200g Erbsen",
+        "2 Zwiebeln",
+        "3 Knoblauchzehen",
+        "2 EL Currypulver",
+        "1 TL Kurkuma",
+        "Ingwer"
+      ],
+      "instructions": [
+        "Reis nach Packungsanweisung kochen",
+        "Gemüse in mundgerechte Stücke schneiden",
+        "Zwiebeln und Knoblauch andünsten",
+        "Gewürze kurz mitrösten",
+        "Gemüse und Kokosmilch zugeben",
+        "20 Minuten köcheln lassen"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "18",
+      "categoryId": "2",
+      "title": "Tomatensuppe",
+      "slug": "tomatensuppe",
+      "description": "Cremige Tomatensuppe mit frischem Basilikum.",
+      "prepTime": "15",
+      "cookTime": "30",
+      "servings": "4",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Tomatensuppe.webp",
+      "ingredients": [
+        "1kg reife Tomaten",
+        "2 Zwiebeln",
+        "2 Knoblauchzehen",
+        "1L Gemüsebrühe",
+        "100ml Sahne",
+        "Basilikum",
+        "Olivenöl",
+        "Salz und Pfeffer"
+      ],
+      "instructions": [
+        "Tomaten kreuzweise einschneiden und häuten",
+        "Zwiebeln und Knoblauch andünsten",
+        "Tomaten zugeben und kurz mitköcheln",
+        "Mit Brühe aufgießen",
+        "Pürieren und Sahne zugeben",
+        "Mit Basilikum garnieren"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "19",
+      "categoryId": "3",
+      "title": "Griechischer Salat",
+      "slug": "griechischer-salat",
+      "description": "Klassischer griechischer Salat mit Feta und Oliven.",
+      "prepTime": "20",
+      "cookTime": "0",
+      "servings": "4",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Griechischer Salat.jpeg",
+      "ingredients": [
+        "4 Tomaten",
+        "1 Gurke",
+        "1 rote Zwiebel",
+        "200g Feta",
+        "100g Kalamata Oliven",
+        "Olivenöl",
+        "Oregano",
+        "Salz und Pfeffer"
+      ],
+      "instructions": [
+        "Tomaten und Gurken in Stücke schneiden",
+        "Zwiebel in Ringe schneiden",
+        "Feta würfeln",
+        "Alles in einer Schüssel mischen",
+        "Mit Olivenöl und Oregano würzen"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "20",
+      "categoryId": "4",
+      "title": "Spinat-Ricotta-Cannelloni",
+      "slug": "spinat-ricotta-cannelloni",
+      "description": "Überbackene Cannelloni mit Spinat-Ricotta-Füllung.",
+      "prepTime": "40",
+      "cookTime": "35",
+      "servings": "4",
+      "difficulty": "mittel",
+      "imagePath": "/uploads/images/Spinat-Ricotta-Cannelloni.jpeg",
+      "ingredients": [
+        "250g Cannelloni",
+        "500g Spinat",
+        "250g Ricotta",
+        "1 Ei",
+        "500ml Tomatensoße",
+        "200ml Bechamelsoße",
+        "100g geriebener Parmesan",
+        "Muskatnuss",
+        "Salz und Pfeffer"
+      ],
+      "instructions": [
+        "Spinat blanchieren und hacken",
+        "Mit Ricotta und Ei vermischen",
+        "Cannelloni füllen",
+        "Soßen in Form geben",
+        "Cannelloni einschichten",
+        "Mit Käse bestreuen und backen"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "21",
+      "categoryId": "5",
+      "title": "Kaiserschmarrn",
+      "slug": "kaiserschmarrn",
+      "description": "Fluffiger Kaiserschmarrn mit Puderzucker und Apfelmus.",
+      "prepTime": "15",
+      "cookTime": "15",
+      "servings": "4",
+      "difficulty": "mittel",
+      "imagePath": "/uploads/images/kaiserschmarrn-tiroler-landgasthofrezept.jpg",
+      "ingredients": [
+        "250g Mehl",
+        "500ml Milch",
+        "4 Eier",
+        "50g Zucker",
+        "1 Pck Vanillezucker",
+        "Rosinen (optional)",
+        "Butter zum Backen",
+        "Puderzucker zum Bestreuen"
+      ],
+      "instructions": [
+        "Eier trennen",
+        "Eigelb mit Milch und Zucker verrühren",
+        "Mehl unterheben",
+        "Eiweiß steif schlagen und unterheben",
+        "In Butter goldbraun backen",
+        "In Stücke reißen und mit Zucker bestreuen"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    },
+    {
+      "id": "22",
+      "categoryId": "6",
+      "title": "Französische Toast",
+      "slug": "franzosische-toast",
+      "description": "Klassischer French Toast mit Ahornsirup und frischen Beeren.",
+      "prepTime": "10",
+      "cookTime": "15",
+      "servings": "4",
+      "difficulty": "einfach",
+      "imagePath": "/uploads/images/Französische Toast.jpg",
+      "ingredients": [
+        "8 Scheiben Brioche",
+        "3 Eier",
+        "200ml Milch",
+        "1 TL Vanilleextrakt",
+        "1 TL Zimt",
+        "Butter zum Braten",
+        "Ahornsirup",
+        "Frische Beeren"
+      ],
+      "instructions": [
+        "Eier mit Milch, Vanille und Zimt verquirlen",
+        "Brot darin einweichen",
+        "In Butter goldbraun braten",
+        "Mit Ahornsirup übergießen",
+        "Mit frischen Beeren servieren"
+      ],
+      "createdAt": "2025-02-24T00:42:04+01:00"
+    }
+  ]
+}

@@ -1,25 +1,23 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter as InterFont } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme-provider';
-import { Toaster } from '@/components/ui/toaster';
-import { Analytics } from '@vercel/analytics/react';
+import "../src/styles/globals.css"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import { SiteHeader } from "@/components/site-header"
+import { SiteFooter } from "@/components/site-footer"
+import { Providers } from "@/components/providers"
+import { cn } from "@/lib/utils"
 
-const inter = InterFont({
-  subsets: ['latin'],
-  display: 'swap',
-});
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Veggie-Rezepte.de - Entdecke köstliche vegetarische Gerichte',
-  description: 'Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung. Finde über 1000 getestete vegetarische Rezepte.',
-  keywords: 'vegetarische rezepte, veggie rezepte, deutsche küche, kochen, vegetarisch',
+  title: "Veggie-Rezepte - Köstliche vegetarische Rezepte",
+  description: "Entdecke eine Vielfalt an vegetarischen Rezepten für jeden Geschmack. Von traditionellen deutschen Gerichten bis zu internationalen Spezialitäten.",
+  keywords: "vegetarische rezepte, veggie, kochen, deutsche küche, gesund kochen",
   openGraph: {
     title: 'Veggie-Rezepte.de - Köstliche vegetarische Gerichte',
     description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche.',
     type: 'website',
     locale: 'de_DE',
-    siteName: 'Veggie-Rezepte.de',
+    url: 'https://veggie-rezepte.de',
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,34 +28,34 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  alternates: {
-    canonical: 'https://veggie-rezepte.de',
-  },
-};
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="de" suppressHydrationWarning>
+    <html lang="de" className="h-full">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#16a34a" />
       </head>
-      <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-          <Toaster />
-          <Analytics />
-        </ThemeProvider>
+      <body className={cn(
+        "min-h-screen bg-background font-sans antialiased",
+        inter.className
+      )}>
+        <Providers>
+          <div className="relative flex min-h-screen flex-col">
+            <SiteHeader />
+            <div className="flex-1">
+              {children}
+            </div>
+            <SiteFooter />
+          </div>
+        </Providers>
       </body>
     </html>
-  );
+  )
 }
