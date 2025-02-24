@@ -1,8 +1,9 @@
 import './globals.css';
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import { Inter as InterFont } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
+import { siteConfig } from '@/lib/constants';
 
 const inter = InterFont({
   subsets: ['latin'],
@@ -10,6 +11,7 @@ const inter = InterFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: 'Veggie-Rezepte.de - Entdecke köstliche vegetarische Gerichte',
   description: 'Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung. Finde über 1000 getestete vegetarische Rezepte.',
   keywords: 'vegetarische rezepte, veggie rezepte, deutsche küche, kochen, vegetarisch',
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'de_DE',
     siteName: 'Veggie-Rezepte.de',
+    url: siteConfig.url,
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,7 +33,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://veggie-rezepte.de',
+    canonical: siteConfig.url,
   },
 };
 
