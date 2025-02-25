@@ -76,21 +76,23 @@ export function RecipeIngredients({ initialServings, ingredients }: RecipeIngred
       </div>
 
       {/* Ingredients list */}
-      <div className="space-y-3 mb-10">
-        {ingredients?.map((ingredient, index) => (
-          <div
-            key={index}
-            className="grid grid-cols-[80px_1fr] gap-6 text-lg items-baseline"
-          >
-            <div className="text-right font-medium">
-              {getAdjustedAmount(ingredient.amount)}
-              {ingredient.unit && (
-                <span className="ml-1">{ingredient.unit}</span>
-              )}
+      <div className="max-w-sm mx-auto mb-10 text-center">
+        <div className="inline-block space-y-3">
+          {ingredients?.map((ingredient, index) => (
+            <div
+              key={index}
+              className="grid grid-cols-[80px_1fr] gap-6 text-lg items-baseline"
+            >
+              <div className="text-right font-medium">
+                {getAdjustedAmount(ingredient.amount)}
+                {ingredient.unit && (
+                  <span className="ml-1">{ingredient.unit}</span>
+                )}
+              </div>
+              <div>{ingredient.name}</div>
             </div>
-            <div>{ingredient.name}</div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       {/* Shopping link */}
