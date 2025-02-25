@@ -6,12 +6,40 @@ import { Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { useRouter } from "next/navigation"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { MobileNav } from "@/components/mobile-nav"
+import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
   const router = useRouter()
   const [searchQuery, setSearchQuery] = useState("")
+  const [isVisible, setIsVisible] = useState(true)
+  const [lastScrollY, setLastScrollY] = useState(0)
+
+  useEffect(() => {
+    const controlNavbar = () => {
+      if (typeof window !== 'undefined') {
+        // If scrolling down, hide the navbar
+        if (window.scrollY > lastScrollY && window.scrollY > 100) {
+          setIsVisible(false)
+        } 
+        // If scrolling up, show the navbar
+        else {
+          setIsVisible(true)
+        }
+        setLastScrollY(window.scrollY)
+      }
+    }
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', controlNavbar)
+
+      // Cleanup
+      return () => {
+        window.removeEventListener('scroll', controlNavbar)
+      }
+    }
+  }, [lastScrollY])
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
@@ -21,7 +49,10 @@ export function SiteHeader() {
   }
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className={cn(
+      "sticky top-0 z-50 w-full border-b bg-background transition-transform duration-300",
+      !isVisible && "-translate-y-full"
+    )}>
       <div className="container flex h-16 items-center">
         <MobileNav />
         <div className="flex items-center space-x-4 lg:space-x-6">
