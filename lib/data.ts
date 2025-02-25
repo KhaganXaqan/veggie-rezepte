@@ -1,11 +1,11 @@
 // First, let's define the type for a recipe
-type Recipe = {
+export interface Recipe {
+  slug: string
   title: string
   image: string
   prepTime: string
   rating: number
   category: string
-  slug: string
   tags: string[]
   servings: number
   description: string
