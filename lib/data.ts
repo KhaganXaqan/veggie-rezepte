@@ -1,5 +1,5 @@
 // First, let's define the type for a recipe
-type Recipe = {
+export type Recipe = {
   title: string
   image: string
   prepTime: string
@@ -9,7 +9,11 @@ type Recipe = {
   tags: string[]
   servings: number
   description: string
-  ingredients: string[]
+  ingredients: { 
+    amount: number
+    unit?: string
+    name: string 
+  }[]
   instructions: string[]
   nutrition: {
     calories: number
@@ -32,11 +36,11 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Traditionelle deutsche Kartoffelklöße - perfekt als Beilage oder eigenständiges Gericht.",
     ingredients: [
-      "1kg mehligkochende Kartoffeln",
-      "200g Kartoffelstärke",
-      "2 Eier",
-      "Salz",
-      "Muskatnuss"
+      { amount: 1, unit: "kg", name: "mehligkochende Kartoffeln" },
+      { amount: 200, unit: "g", name: "Kartoffelstärke" },
+      { amount: 2, name: "Eier" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Muskatnuss" }
     ],
     instructions: [
       "Kartoffeln kochen und stampfen",
@@ -49,7 +53,7 @@ export const recipes: Recipe[] = [
       calories: 220,
       protein: "4g",
       carbs: "48g",
-      fat: "1g"
+      fat: "2g"
     }
   },
   {
@@ -63,15 +67,13 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Eine klassische Lasagne mit Spinat und Käse.",
     ingredients: [
-      "1kg Spinat",
-      "200g Käse",
-      "2 Eier",
-      "Pasta",
-      "Tomaten",
-      "Zwiebeln",
-      "Knoblauch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Spinat" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 500, unit: "g", name: "Pasta" },
+      { amount: 4, name: "Tomaten" },
+      { amount: 2, name: "Zwiebeln" },
+      { amount: 2, name: "Knoblauchzehen" }
     ],
     instructions: [
       "Spinat kochen und stampfen",
@@ -101,12 +103,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine traditionelle deutsche Pasta-Art aus der Region Schwaben.",
     ingredients: [
-      "200g Mehl",
-      "2 Eier",
-      "100ml Milch",
-      "100g Käse",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 2, name: "Eier" },
+      { amount: 100, unit: "ml", name: "Milch" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Muskatnuss" }
     ],
     instructions: [
       "Mehl und Eier vermengen",
@@ -134,12 +136,12 @@ export const recipes: Recipe[] = [
     servings: 2,
     description: "Ein leckerer Kartoffelpuffer als Snack oder Beilage.",
     ingredients: [
-      "200g Kartoffeln",
-      "2 Eier",
-      "100g Mehl",
-      "Milch",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Kartoffeln" },
+      { amount: 2, name: "Eier" },
+      { amount: 100, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "ml", name: "Milch" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Muskatnuss" }
     ],
     instructions: [
       "Kartoffeln kochen und stampfen",
@@ -167,12 +169,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein traditionelles deutsches Brotgebäck aus Kartoffeln und Mehl.",
     ingredients: [
-      "200g Kartoffeln",
-      "200g Mehl",
-      "2 Eier",
-      "Milch",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Kartoffeln" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 2, name: "Eier" },
+      { amount: 100, unit: "ml", name: "Milch" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Muskatnuss" }
     ],
     instructions: [
       "Kartoffeln kochen und stampfen",
@@ -200,12 +202,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Pilzsuppe aus verschiedenen Pilzen.",
     ingredients: [
-      "1kg Pilze",
-      "1 Zwiebel",
-      "2 Knoblauchzehen",
-      "1 Liter Gemüsebrühe",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Pilze" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 2, name: "Knoblauchzehen" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Pilze waschen und trocken tupfen",
@@ -233,13 +235,13 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein traditionelles deutsches Gebäck aus verschiedenen Gemüsen.",
     ingredients: [
-      "200g Mehl",
-      "100g Butter",
-      "100g Zucker",
-      "1 Ei",
-      "100g Gemüse",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 1, name: "Ei" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Muskatnuss" }
     ],
     instructions: [
       "Mehl, Butter, Zucker und Ei vermengen",
@@ -266,12 +268,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine traditionelle deutsche Suppe aus Grießnocken.",
     ingredients: [
-      "200g Grießnocken",
-      "1 Liter Gemüsebrühe",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Grießnocken" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Grießnocken in Wasser einweichen",
@@ -298,12 +300,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine traditionelle deutsche Knödel aus Spinat.",
     ingredients: [
-      "200g Spinat",
-      "200g Mehl",
-      "2 Eier",
-      "Milch",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Spinat" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 2, name: "Eier" },
+      { amount: 100, unit: "ml", name: "Milch" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Muskatnuss" }
     ],
     instructions: [
       "Spinat kochen und stampfen",
@@ -331,10 +333,10 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine einfache und leckere Gemüsesuppe.",
     ingredients: [
-      "1kg Gemüse",
-      "1 Liter Gemüsebrühe",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Gemüse waschen und schneiden",
@@ -360,13 +362,13 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein klassisches Kartoffelaufläuf aus der Region Schwaben.",
     ingredients: [
-      "1kg Kartoffeln",
-      "200g Butter",
-      "200g Mehl",
-      "1 Liter Milch",
-      "100g Käse",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Kartoffeln" },
+      { amount: 200, unit: "g", name: "Butter" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Kartoffeln schälen und in Scheiben schneiden",
@@ -397,13 +399,13 @@ export const recipes: Recipe[] = [
     servings: 2,
     description: "Ein leckerer Buddha-Bowl aus Quinoa und verschiedenen Gemüsen.",
     ingredients: [
-      "100g Quinoa",
-      "100g Gemüse",
-      "100g Fisch",
-      "100g Nüsse",
-      "100g Käse",
-      "100g Sojasauce",
-      "100g Olivenöl"
+      { amount: 100, unit: "g", name: "Quinoa" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Fisch" },
+      { amount: 100, unit: "g", name: "Nüsse" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: 100, unit: "ml", name: "Sojasauce" },
+      { amount: 100, unit: "ml", name: "Olivenöl" }
     ],
     instructions: [
       "Quinoa kochen",
@@ -434,15 +436,15 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine französische Gemüseaufläuf aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Gemüse",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "1 Tomate",
-      "1 Aubergine",
-      "1 Paprika",
-      "1 Zucchini",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 1, name: "Tomate" },
+      { amount: 1, name: "Aubergine" },
+      { amount: 1, name: "Paprika" },
+      { amount: 1, name: "Zucchini" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Gemüse waschen und schneiden",
@@ -470,12 +472,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine traditionelle deutsche Gemüseart aus gefüllten Paprika.",
     ingredients: [
-      "4 Paprika",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "1 kg Gemüse",
-      "Salz",
-      "Pfeffer"
+      { amount: 4, name: "Paprika" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Paprika waschen und halbieren",
@@ -503,12 +505,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Kürbissuppe aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Kürbis",
-      "1 Liter Gemüsebrühe",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Kürbis" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Kürbis schälen und in Stücke schneiden",
@@ -536,14 +538,14 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Nudelsalat aus verschiedenen Gemüsen.",
     ingredients: [
-      "200g Nudeln",
-      "100g Gemüse",
-      "100g Fisch",
-      "100g Olivenöl",
-      "100g Tomaten",
-      "100g Käse",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Nudeln" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Fisch" },
+      { amount: 100, unit: "ml", name: "Olivenöl" },
+      { amount: 100, unit: "g", name: "Tomaten" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Nudeln kochen",
@@ -574,12 +576,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Gemüsecurry aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Gemüse",
-      "100g Currypaste",
-      "1 Liter Gemüsebrühe",
-      "100g Kokosnussöl",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Currypaste" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 100, unit: "g", name: "Kokosnussöl" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Gemüse waschen und schneiden",
@@ -608,13 +610,13 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Eine französische Quiche aus Brokkoli und Käse.",
     ingredients: [
-      "1kg Brokkoli",
-      "200g Käse",
-      "2 Eier",
-      "200g Mehl",
-      "1 Liter Milch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Brokkoli" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Brokkoli waschen und schneiden",
@@ -642,13 +644,13 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Griechischer Bauernsalat aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Gemüse",
-      "100g Olivenöl",
-      "100g Feta",
-      "100g Tomaten",
-      "100g Oliven",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 100, unit: "ml", name: "Olivenöl" },
+      { amount: 100, unit: "g", name: "Feta" },
+      { amount: 100, unit: "g", name: "Tomaten" },
+      { amount: 100, unit: "g", name: "Oliven" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Gemüse waschen und schneiden",
@@ -677,14 +679,14 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Bolognese aus Linsen und verschiedenen Gemüsen.",
     ingredients: [
-      "200g Linsen",
-      "1kg Gemüse",
-      "1 Tomate",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "100g Olivenöl",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Linsen" },
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, name: "Tomate" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 100, unit: "ml", name: "Olivenöl" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Linsen waschen und einweichen",
@@ -715,12 +717,12 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Süßkartoffel-Kokos-Suppe aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Süßkartoffeln",
-      "1 Liter Gemüsebrühe",
-      "100g Kokosnussöl",
-      "100g Zucker",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Süßkartoffeln" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 100, unit: "g", name: "Kokosnussöl" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Süßkartoffeln schälen und in Stücke schneiden",
@@ -748,25 +750,24 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Quinoa-Salat aus verschiedenen Gemüsen.",
     ingredients: [
-      "100g Quinoa",
-      "100g Gemüse",
-      "100g Fisch",
-      "100g Olivenöl",
-      "100g Tomaten",
-      "100g Käse",
-      "Salz",
-      "Pfeffer"
+      { amount: 100, unit: "g", name: "Quinoa" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Fisch" },
+      { amount: 100, unit: "g", name: "Nüsse" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: 100, unit: "ml", name: "Sojasauce" },
+      { amount: 100, unit: "ml", name: "Olivenöl" }
     ],
     instructions: [
       "Quinoa kochen",
       "Gemüse schneiden",
       "Fisch anbraten",
-      "Gemüse und Fisch vermischen",
-      "Tomaten hinzufügen",
-      "Käse hinzufügen",
-      "Olivenöl hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Salat zubereiten"
+      "Nüsse toasten",
+      "Käse schmelzen",
+      "Sojasauce und Olivenöl hinzufügen",
+      "Gemüse und Fisch hinzufügen",
+      "Quinoa hinzufügen",
+      "Bowl zubereiten"
     ],
     nutrition: {
       calories: 300,
@@ -786,14 +787,14 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Couscous-Salat aus verschiedenen Gemüsen.",
     ingredients: [
-      "200g Couscous",
-      "1kg Gemüse",
-      "1 Tomate",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "100g Olivenöl",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Couscous" },
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, name: "Tomate" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 100, unit: "g", name: "Olivenöl" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Couscous einweichen",
@@ -823,13 +824,13 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein leckerer Auflauf aus Blumenkohl und Käse.",
     ingredients: [
-      "1kg Blumenkohl",
-      "200g Käse",
-      "2 Eier",
-      "200g Mehl",
-      "1 Liter Milch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Blumenkohl" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Blumenkohl waschen und schneiden",
@@ -857,13 +858,13 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein leckerer Auflauf aus Gemüse und Polenta.",
     ingredients: [
-      "1kg Gemüse",
-      "200g Polenta",
-      "200g Käse",
-      "2 Eier",
-      "1 Liter Milch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 200, unit: "g", name: "Polenta" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Gemüse schneiden",
@@ -892,13 +893,13 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein leckerer Auflauf aus Zucchini und Reis.",
     ingredients: [
-      "1kg Zucchini",
-      "200g Reis",
-      "200g Käse",
-      "2 Eier",
-      "1 Liter Milch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Zucchini" },
+      { amount: 200, unit: "g", name: "Reis" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
       "Zucchini schälen und in Scheiben schneiden",
@@ -928,12 +929,12 @@ export const recipes: Recipe[] = [
     servings: 2,
     description: "Ein leckerer Frühstücks-Salat aus Haferflocken und Beeren.",
     ingredients: [
-      "100g Haferflocken",
-      "200g Milch",
-      "100g Beeren",
-      "1 Ei",
-      "Salz",
-      "Muskatnuss"
+      { amount: 100, unit: "g", name: "Haferflocken" },
+      { amount: 200, unit: "g", name: "Milch" },
+      { amount: 100, unit: "g", name: "Beeren" },
+      { amount: 1, name: "Ei" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Muskatnuss" }
     ],
     instructions: [
       "Haferflocken und Milch vermengen",
@@ -960,13 +961,13 @@ export const recipes: Recipe[] = [
     servings: 8,
     description: "Ein leckeres Vegan-Banana-Bread aus Bananen und verschiedenen Zutaten.",
     ingredients: [
-      "3 Bananen",
-      "100g Mehl",
-      "100g Zucker",
-      "100g Olivenöl",
-      "1 Ei",
-      "1 Teelöffel Backpulver",
-      "1 Teelöffel Backgewürz"
+      { amount: 3, name: "Bananen" },
+      { amount: 100, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Olivenöl" },
+      { amount: 1, name: "Ei" },
+      { amount: 1, unit: "Teelöffel", name: "Backpulver" },
+      { amount: 1, unit: "Teelöffel", name: "Backgewürz" }
     ],
     instructions: [
       "Bananen schälen und zerstampfen",
@@ -993,11 +994,11 @@ export const recipes: Recipe[] = [
     servings: 1,
     description: "Ein leckerer Smoothie-Bowl aus verschiedenen Früchten und Nüssen.",
     ingredients: [
-      "100g Früchte",
-      "100g Nüsse",
-      "100g Joghurt",
-      "100g Bananen",
-      "100g Kokosnussöl"
+      { amount: 100, unit: "g", name: "Früchte" },
+      { amount: 100, unit: "g", name: "Nüsse" },
+      { amount: 100, unit: "g", name: "Joghurt" },
+      { amount: 100, unit: "g", name: "Bananen" },
+      { amount: 100, unit: "g", name: "Kokosnussöl" }
     ],
     instructions: [
       "Früchte schneiden",
@@ -1025,16 +1026,16 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere französische Crêpe aus Mehl und Eiern.",
     ingredients: [
-      "200g Mehl",
-      "4 Eier",
-      "1 Liter Milch",
-      "100g Butter",
-      "100g Zucker",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 4, name: "Eier" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Pfeffer" }
     ],
     instructions: [
-      "Mehl und Eiern vermengen",
+      "Mehl und Eier vermengen",
       "Milch hinzufügen",
       "Butter und Zucker hinzufügen",
       "Salz und Pfeffer hinzufügen",
@@ -1059,11 +1060,11 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Granola aus verschiedenen Nüssen.",
     ingredients: [
-      "200g Nüsse",
-      "100g Zucker",
-      "100g Olivenöl",
-      "100g Mehl",
-      "100g Backpulver"
+      { amount: 200, unit: "g", name: "Nüsse" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Olivenöl" },
+      { amount: 100, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Backpulver" }
     ],
     instructions: [
       "Nüsse toasten",
@@ -1092,13 +1093,13 @@ export const recipes: Recipe[] = [
     servings: 8,
     description: "Ein traditionelles deutsches Apfelstrudel.",
     ingredients: [
-      "200g Mehl",
-      "100g Butter",
-      "100g Zucker",
-      "1 Ei",
-      "1kg Äpfel",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 1, name: "Ei" },
+      { amount: 1, unit: "kg", name: "Äpfel" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 1, unit: "Prise", name: "Muskatnuss" }
     ],
     instructions: [
       "Mehl, Butter und Zucker vermengen",
@@ -1125,11 +1126,11 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Schokoladen-Mousse aus Schokolade und Eiern.",
     ingredients: [
-      "200g Schokolade",
-      "4 Eier",
-      "100g Zucker",
-      "100g Butter",
-      "100g Sahne"
+      { amount: 200, unit: "g", name: "Schokolade" },
+      { amount: 4, name: "Eier" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Sahne" }
     ],
     instructions: [
       "Schokolade schmelzen",
@@ -1156,11 +1157,11 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein leckeres Beeren-Crumble aus verschiedenen Beeren.",
     ingredients: [
-      "200g Beeren",
-      "100g Mehl",
-      "100g Zucker",
-      "100g Butter",
-      "100g Nüsse"
+      { amount: 200, unit: "g", name: "Beeren" },
+      { amount: 100, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Nüsse" }
     ],
     instructions: [
       "Beeren waschen und trocken tupfen",
@@ -1188,9 +1189,9 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",
     ingredients: [
-      "200g Rhabarber",
-      "100g Zucker",
-      "100g Wasser"
+      { amount: 200, unit: "g", name: "Rhabarber" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Wasser" }
     ],
     instructions: [
       "Rhabarber waschen und schneiden",
@@ -1216,11 +1217,11 @@ export const recipes: Recipe[] = [
     servings: 12,
     description: "Eine leckere Zimtschnecken aus Mehl und Zimt.",
     ingredients: [
-      "200g Mehl",
-      "100g Butter",
-      "100g Zucker",
-      "1 Ei",
-      "10g Zimt"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 1, name: "Ei" },
+      { amount: 10, unit: "g", name: "Zimt" }
     ],
     instructions: [
       "Mehl, Butter und Zucker vermengen",

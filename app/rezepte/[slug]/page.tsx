@@ -5,6 +5,7 @@ import { Separator } from "@/components/ui/separator"
 import { Badge } from "@/components/ui/badge"
 import { RecipeComments } from "@/components/recipe-comments"
 import { SiteHeader } from "@/components/site-header"
+import { RecipeIngredients } from "@/components/recipe-ingredients"
 import { recipes } from '@/lib/data'
 
 // This function is required for static site generation with dynamic routes
@@ -90,15 +91,10 @@ export default function RecipePage({ params }: { params: { slug: string } }) {
 
             {/* Ingredients */}
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">Zutaten</h2>
-              <ul className="space-y-2">
-                {recipe.ingredients.map((ingredient, index) => (
-                  <li key={index} className="flex items-center gap-2">
-                    <input type="checkbox" className="rounded" />
-                    <span>{ingredient}</span>
-                  </li>
-                ))}
-              </ul>
+              <RecipeIngredients 
+                initialServings={recipe.servings}
+                ingredients={recipe.ingredients}
+              />
             </section>
 
             <Separator className="my-8" />
