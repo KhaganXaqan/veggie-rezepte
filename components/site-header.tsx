@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -25,6 +26,14 @@ export function SiteHeader() {
         <MobileNav />
         <div className="flex items-center space-x-4 lg:space-x-6">
           <Link href="/" className="flex items-center space-x-2">
+            <Image
+              src="/images/logo/logo.png"
+              alt="Veggie-Rezepte.de Logo"
+              width={40}
+              height={40}
+              className="h-10 w-auto"
+              priority
+            />
             <span className="text-xl font-bold text-primary">Veggie-Rezepte.de</span>
           </Link>
           <nav className="hidden lg:flex items-center space-x-4">

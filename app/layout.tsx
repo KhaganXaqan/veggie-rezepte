@@ -1,5 +1,5 @@
 import './globals.css';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import { Inter as InterFont } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
@@ -12,23 +12,48 @@ const inter = InterFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteConfig.url),
+  metadataBase: new URL('https://veggie-rezepte.de'),
   title: 'Veggie-Rezepte.de - Entdecke köstliche vegetarische Gerichte',
-  description: 'Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung. Finde über 1000 getestete vegetarische Rezepte.',
-  keywords: 'vegetarische rezepte, veggie rezepte, deutsche küche, kochen, vegetarisch',
+  description: 'Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung.',
+  icons: {
+    icon: [
+      { url: '/images/logo/favicon.ico' },
+      { url: '/images/logo/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/images/logo/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/images/logo/apple-touch-icon.png' },
+    ],
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/images/logo/safari-pinned-tab.svg',
+        color: '#00884f', // Your brand color
+      },
+    ],
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
-    title: 'Veggie-Rezepte.de - Köstliche vegetarische Gerichte',
-    description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche.',
     type: 'website',
     locale: 'de_DE',
+    url: 'https://veggie-rezepte.de',
     siteName: 'Veggie-Rezepte.de',
-    url: siteConfig.url,
+    title: 'Veggie-Rezepte.de - Köstliche vegetarische Gerichte',
+    description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche.',
+    images: [{
+      url: '/images/logo/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Veggie-Rezepte.de Logo',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Veggie-Rezepte.de - Köstliche vegetarische Gerichte',
-    description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche.',
+    title: 'Veggie-Rezepte.de',
+    description: 'Entdecke köstliche vegetarische Gerichte',
+    images: ['/images/logo/og-image.jpg'],
   },
+  keywords: 'vegetarische rezepte, veggie rezepte, deutsche küche, kochen, vegetarisch',
   robots: {
     index: true,
     follow: true,
