@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { RecipeComments } from "@/components/recipe-comments"
 import { SiteHeader } from "@/components/site-header"
 import { RecipeIngredients } from "@/components/recipe-ingredients"
+import { RecipeInstructions } from "@/components/recipe-instructions"
 import { recipes } from '@/lib/data'
 
 // This function is required for static site generation with dynamic routes
@@ -101,17 +102,9 @@ export default function RecipePage({ params }: { params: { slug: string } }) {
 
             {/* Instructions */}
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">Zubereitung</h2>
-              <ol className="space-y-4">
-                {recipe.instructions.map((step, index) => (
-                  <li key={index} className="flex gap-4">
-                    <span className="flex-none w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center">
-                      {index + 1}
-                    </span>
-                    <p>{step}</p>
-                  </li>
-                ))}
-              </ol>
+              <RecipeInstructions 
+                instructions={recipe.instructions}
+              />
             </section>
 
             <Separator className="my-8" />
