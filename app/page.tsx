@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 const featuredRecipes = [
   {
     title: "Kartoffelklöße",
-    image: "https://images.unsplash.com/photo-1599321644574-11c76fe332ed?q=80&w=2670&auto=format&fit=crop",
+    image: "images/Miscellaneous/kartoffelkloesse.webp",
     prepTime: "60 Min.",
     rating: 4.8,
     category: "Traditionell",
@@ -15,7 +15,7 @@ const featuredRecipes = [
   },
   {
     title: "Spinat-Käse Lasagne",
-    image: "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?q=80&w=2670&auto=format&fit=crop",
+    image: "images/MainCourses/spinat-kaese-lasagne.avif",
     prepTime: "50 Min.",
     rating: 4.7,
     category: "Aufläufe",
@@ -23,7 +23,7 @@ const featuredRecipes = [
   },
   {
     title: "Käsespätzle",
-    image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?q=80&w=2670&auto=format&fit=crop",
+    image: "images/MainCourses/kaesespaetzle.avif",
     prepTime: "45 Min.",
     rating: 4.9,
     category: "Traditionell",
@@ -99,7 +99,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t py-8 bg-muted">
         <div className="container text-center text-sm text-muted-foreground">
-          <p>© 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
+          <p> 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
         </div>
       </footer>
     </div>
