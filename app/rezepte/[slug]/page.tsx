@@ -7,6 +7,7 @@ import { RecipeComments } from "@/components/recipe-comments"
 import { SiteHeader } from "@/components/site-header"
 import { RecipeIngredients } from "@/components/recipe-ingredients"
 import { RecipeInstructions } from "@/components/recipe-instructions"
+import { RecipeNutrition } from '@/components/recipe-nutrition'
 import { recipes } from '@/lib/data'
 
 // This function is required for static site generation with dynamic routes
@@ -109,34 +110,19 @@ export default function RecipePage({ params }: { params: { slug: string } }) {
 
             <Separator className="my-8" />
 
+            {/* Nutrition */}
+            <section className="mb-8">
+              <RecipeNutrition 
+                servings={recipe.servings}
+                nutrition={recipe.nutrition}
+              />
+            </section>
+
+            <Separator className="my-8" />
+
             {/* Comments */}
             <RecipeComments recipeId={params.slug} />
           </div>
-
-          {/* Sidebar */}
-          <aside className="lg:col-span-1">
-            <div className="sticky top-24 bg-muted p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-4">Nährwerte pro Portion</h3>
-              <dl className="space-y-2">
-                <div className="flex justify-between">
-                  <dt>Kalorien</dt>
-                  <dd className="font-medium">{recipe.nutrition.calories} kcal</dd>
-                </div>
-                <div className="flex justify-between">
-                  <dt>Protein</dt>
-                  <dd className="font-medium">{recipe.nutrition.protein}</dd>
-                </div>
-                <div className="flex justify-between">
-                  <dt>Kohlenhydrate</dt>
-                  <dd className="font-medium">{recipe.nutrition.carbs}</dd>
-                </div>
-                <div className="flex justify-between">
-                  <dt>Fett</dt>
-                  <dd className="font-medium">{recipe.nutrition.fat}</dd>
-                </div>
-              </dl>
-            </div>
-          </aside>
         </div>
       </article>
     </div>
