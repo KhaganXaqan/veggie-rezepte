@@ -11,16 +11,22 @@ export default function SearchPage() {
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedTags, setSelectedTags] = useState<string[]>([])
 
-  // Get unique tags from all recipes
+  // Get unique tags from all recipes, sorted alphabetically
   const allTags = Array.from(new Set(recipes.flatMap(recipe => recipe.tags)))
+    .sort((a, b) => a.localeCompare(b))
 
-  // Filter recipes based on search query and selected tags
-  const filteredRecipes = recipes.filter(recipe => {
+  // Filter recipes based on search query and selected tags, ensuring no duplicates
+  const filteredRecipes = recipes.filter((recipe) => {
     const matchesSearch = recipe.title.toLowerCase().includes(searchQuery.toLowerCase())
     const matchesTags = selectedTags.length === 0 || 
       selectedTags.every(tag => recipe.tags.includes(tag))
+    
     return matchesSearch && matchesTags
   })
+
+  // Use a Set to ensure unique recipes based on slug
+  const uniqueRecipes = Array.from(new Set(filteredRecipes.map(recipe => recipe.slug)))
+    .map(slug => filteredRecipes.find(recipe => recipe.slug === slug))
 
   const toggleTag = (tag: string) => {
     setSelectedTags(prev => 
@@ -58,12 +64,12 @@ export default function SearchPage() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredRecipes.map((recipe) => (
-            <RecipeCard key={recipe.slug} {...recipe} />
+          {uniqueRecipes.map((recipe?) => (
+            <RecipeCard key={recipe?.slug} {...recipe} />
           ))}
         </div>
 
-        {filteredRecipes.length === 0 && (
+        {uniqueRecipes.length === 0 && (
           <div className="text-center text-muted-foreground py-12">
             Keine Rezepte gefunden. Versuche es mit anderen Suchbegriffen.
           </div>
