@@ -10,7 +10,7 @@ export type Recipe = {
   servings: number
   description: string
   ingredients: { 
-    amount: number
+    amount?: number
     unit?: string
     name: string 
   }[]
@@ -39,8 +39,8 @@ export const recipes: Recipe[] = [
       { amount: 1, unit: "kg", name: "mehligkochende Kartoffeln" },
       { amount: 200, unit: "g", name: "Kartoffelstärke" },
       { amount: 2, name: "Eier" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Muskatnuss" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
       "Die Kartoffeln schälen, in große Stücke schneiden und in Salzwasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und mit einem Kartoffelstampfer zerdrücken.",
@@ -105,8 +105,8 @@ export const recipes: Recipe[] = [
       { amount: 2, name: "Eier" },
       { amount: 100, unit: "ml", name: "Milch" },
       { amount: 100, unit: "g", name: "Käse" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Muskatnuss" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
       "Das Mehl in eine große Schüssel geben. Die Eier und die Milch hinzufügen und alles zu einem glatten Teig verrühren. Mit Salz und Muskatnuss würzen.",
@@ -137,8 +137,8 @@ export const recipes: Recipe[] = [
       { amount: 2, name: "Eier" },
       { amount: 100, unit: "g", name: "Mehl" },
       { amount: 100, unit: "ml", name: "Milch" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Muskatnuss" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
       "Die Kartoffeln schälen und grob reiben. Die geriebenen Kartoffeln in ein sauberes Küchentuch geben und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
@@ -169,8 +169,8 @@ export const recipes: Recipe[] = [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 2, name: "Eier" },
       { amount: 100, unit: "ml", name: "Milch" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Muskatnuss" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
       "Die Kartoffeln schälen, in Stücke schneiden und in Salzwasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und mit einem Kartoffelstampfer zerdrücken.",
@@ -201,8 +201,8 @@ export const recipes: Recipe[] = [
       { amount: 1, name: "Zwiebel" },
       { amount: 2, name: "Knoblauchzehen" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Pilze putzen, waschen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
@@ -234,8 +234,8 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Zucker" },
       { amount: 1, name: "Ei" },
       { amount: 100, unit: "g", name: "Gemüse" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Muskatnuss" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
       "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei, den Zucker, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
@@ -266,8 +266,8 @@ export const recipes: Recipe[] = [
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
       { amount: 1, name: "Zwiebel" },
       { amount: 1, name: "Knoblauchzehe" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Zwiebel und den Knoblauch schälen und fein hacken. In einem Topf etwas Öl erhitzen und die Zwiebel sowie den Knoblauch glasig dünsten.",
@@ -296,8 +296,8 @@ export const recipes: Recipe[] = [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 2, name: "Eier" },
       { amount: 100, unit: "ml", name: "Milch" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Muskatnuss" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
       "Den Spinat waschen, abtropfen lassen und in einem Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
@@ -327,8 +327,8 @@ export const recipes: Recipe[] = [
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Das Gemüse waschen, schälen und in gleichmäßige Stücke schneiden. Je nach Gemüseart (z. B. Karotten, Sellerie, Lauch) die Garzeit anpassen.",
@@ -359,8 +359,8 @@ export const recipes: Recipe[] = [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 1, unit: "Liter", name: "Milch" },
       { amount: 100, unit: "g", name: "Käse" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Kartoffeln schälen und in dünne Scheiben schneiden. Den Backofen auf 180°C vorheizen.",
@@ -426,8 +426,8 @@ export const recipes: Recipe[] = [
       { amount: 1, name: "Aubergine" },
       { amount: 1, name: "Paprika" },
       { amount: 1, name: "Zucchini" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Das Gemüse waschen und in gleichmäßige Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
@@ -457,8 +457,8 @@ export const recipes: Recipe[] = [
       { amount: 1, name: "Zwiebel" },
       { amount: 1, name: "Knoblauchzehe" },
       { amount: 1, unit: "kg", name: "Gemüse" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Paprika waschen, den Deckel abschneiden und die Kerne entfernen. Die Zwiebel und den Knoblauch schälen und fein hacken.",
@@ -489,8 +489,8 @@ export const recipes: Recipe[] = [
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
       { amount: 1, name: "Zwiebel" },
       { amount: 1, name: "Knoblauchzehe" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Den Kürbis schälen, entkernen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
@@ -523,8 +523,8 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "ml", name: "Olivenöl" },
       { amount: 100, unit: "g", name: "Tomaten" },
       { amount: 100, unit: "g", name: "Käse" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Nudeln nach Packungsanleitung in Salzwasser al dente kochen, abgießen und abkühlen lassen.",
@@ -555,8 +555,8 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Currypaste" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
       { amount: 100, unit: "g", name: "Kokosnussöl" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem großen Topf das Kokosnussöl erhitzen.",
@@ -587,8 +587,8 @@ export const recipes: Recipe[] = [
       { amount: 2, name: "Eier" },
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Den Brokkoli waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
@@ -619,8 +619,8 @@ export const recipes: Recipe[] = [
       { amount: 1, name: "Zwiebel" },
       { amount: 1, name: "Knoblauchzehe" },
       { amount: 1, unit: "kg", name: "Gemüse" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Paprika waschen, den Deckel abschneiden und die Kerne entfernen. Die Zwiebel und den Knoblauch schälen und fein hacken.",
@@ -651,8 +651,8 @@ export const recipes: Recipe[] = [
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
       { amount: 1, name: "Zwiebel" },
       { amount: 1, name: "Knoblauchzehe" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Den Kürbis schälen, entkernen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
@@ -685,8 +685,8 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "ml", name: "Olivenöl" },
       { amount: 100, unit: "g", name: "Tomaten" },
       { amount: 100, unit: "g", name: "Käse" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Nudeln nach Packungsanleitung in Salzwasser al dente kochen, abgießen und abkühlen lassen.",
@@ -717,8 +717,8 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Currypaste" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
       { amount: 100, unit: "g", name: "Kokosnussöl" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem großen Topf das Kokosnussöl erhitzen.",
@@ -749,8 +749,8 @@ export const recipes: Recipe[] = [
       { amount: 2, name: "Eier" },
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Den Brokkoli waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
@@ -782,8 +782,8 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Feta" },
       { amount: 100, unit: "g", name: "Tomaten" },
       { amount: 100, unit: "g", name: "Oliven" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Das Gemüse waschen und in mundgerechte Stücke schneiden. Die Tomaten in Scheiben schneiden, die Oliven halbieren und den Feta in Würfel schneiden.",
@@ -814,8 +814,8 @@ export const recipes: Recipe[] = [
       { amount: 1, name: "Zwiebel" },
       { amount: 1, name: "Knoblauchzehe" },
       { amount: 100, unit: "ml", name: "Olivenöl" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Linsen waschen und in einem Topf mit Wasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und beiseite stellen.",
@@ -846,8 +846,8 @@ export const recipes: Recipe[] = [
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
       { amount: 100, unit: "g", name: "Kokosnussöl" },
       { amount: 100, unit: "g", name: "Zucker" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Süßkartoffeln schälen und in grobe Stücke schneiden. In einem großen Topf das Kokosnussöl erhitzen.",
@@ -912,8 +912,8 @@ export const recipes: Recipe[] = [
       { amount: 1, name: "Zwiebel" },
       { amount: 1, name: "Knoblauchzehe" },
       { amount: 100, unit: "g", name: "Olivenöl" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Den Couscous nach Packungsanleitung in heißem Wasser einweichen, bis er weich ist. Anschließend abkühlen lassen.",
@@ -945,8 +945,8 @@ export const recipes: Recipe[] = [
       { amount: 2, name: "Eier" },
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Den Blumenkohl waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
@@ -978,8 +978,8 @@ export const recipes: Recipe[] = [
       { amount: 200, unit: "g", name: "Käse" },
       { amount: 2, name: "Eier" },
       { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem Topf die Milch zum Kochen bringen und die Polenta langsam unter Rühren hinzufügen. Etwa 10 Minuten köcheln lassen, bis die Polenta dick ist.",
@@ -1011,8 +1011,8 @@ export const recipes: Recipe[] = [
       { amount: 200, unit: "g", name: "Käse" },
       { amount: 2, name: "Eier" },
       { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Die Zucchini waschen und in dünne Scheiben schneiden. Den Reis nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
@@ -1042,8 +1042,8 @@ export const recipes: Recipe[] = [
       { amount: 200, unit: "g", name: "Milch" },
       { amount: 100, unit: "g", name: "Beeren" },
       { amount: 1, name: "Ei" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Muskatnuss" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
       "Die Haferflocken und Milch in einer Schüssel vermengen. Das Ei hinzufügen und alles gut verrühren.",
@@ -1137,8 +1137,8 @@ export const recipes: Recipe[] = [
       { amount: 1, unit: "Liter", name: "Milch" },
       { amount: 100, unit: "g", name: "Butter" },
       { amount: 100, unit: "g", name: "Zucker" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
       "Das Mehl in eine Schüssel geben. Die Eier hinzufügen und nach und nach die Milch unterrühren, bis ein glatter Teig entsteht.",
@@ -1201,8 +1201,8 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Zucker" },
       { amount: 1, name: "Ei" },
       { amount: 1, unit: "kg", name: "Äpfel" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 1, unit: "Prise", name: "Muskatnuss" }
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
       "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei, den Zucker, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
