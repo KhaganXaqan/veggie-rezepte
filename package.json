@@ -73,6 +73,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "critters": "^0.0.20"
+    "critters": "^0.0.20",
+    "postcss-nesting": "^13.0.1"
   }
 }
