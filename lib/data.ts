@@ -2,15 +2,15 @@
 export type Recipe = {
   title: string
   image: string
-  prepTime: string
-  rating: number
+  prepTime?: string
+  rating?: number
   category: string
   slug: string
   tags: string[]
   servings: number
   description: string
   ingredients: { 
-    amount?: number
+    amount?: number | string
     unit?: string
     name: string 
   }[]

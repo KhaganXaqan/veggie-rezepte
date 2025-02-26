@@ -1,65 +1,50 @@
 'use client'
 
 import { useState } from 'react'
-import { FileText, Minus, Plus } from 'lucide-react'
-
-type Ingredient = {
-  amount: number | string
-  unit?: string
-  name: string
-}
+import { Minus, Plus, UtensilsCrossed } from 'lucide-react'
+import { Button } from '@/components/ui/button'
 
 type RecipeIngredientsProps = {
   initialServings: number
-  ingredients: Ingredient[]
+  ingredients: {
+    amount?: number | string
+    unit?: string
+    name: string
+  }[]
 }
 
 export function RecipeIngredients({ initialServings, ingredients }: RecipeIngredientsProps) {
   const [servings, setServings] = useState(initialServings)
 
-  const decreaseServings = () => {
-    if (servings > 1) {
-      setServings(servings - 1)
-    }
-  }
-
-  const increaseServings = () => {
-    setServings(servings + 1)
-  }
-
-  // Calculate adjusted amounts based on servings
-  const getAdjustedAmount = (amount: number | string) => {
-    if (typeof amount === 'number') {
-      const adjusted = (amount * servings) / initialServings
-      return adjusted.toLocaleString('de-DE', {
-        minimumFractionDigits: adjusted % 1 === 0 ? 0 : 1,
-        maximumFractionDigits: 1
-      })
-    }
-    return amount
+  const adjustAmount = (amount?: number | string) => {
+    if (amount === undefined) return ''
+    if (typeof amount === 'string') return amount
+    return ((amount * servings) / initialServings).toFixed(1).replace(/\.0$/, '')
   }
 
   return (
     <div className="max-w-xl mx-auto px-4">
       {/* Title with decorative lines */}
-      <div className="flex items-center justify-center gap-6 mb-8">
+      <div className="flex items-center justify-center gap-4 mb-6">
         <div className="h-[1px] bg-black/60 flex-1" />
-        <div className="flex items-center gap-2">
-          <FileText className="h-5 w-5" />
-          <span className="text-xl font-medium tracking-wide">Zutaten</span>
-        </div>
+        <h2 className="text-2xl font-medium flex items-center gap-2">
+          <UtensilsCrossed className="h-5 w-5" />
+          Zutaten
+        </h2>
         <div className="h-[1px] bg-black/60 flex-1" />
       </div>
 
       {/* Servings control */}
-      <div className="flex items-center justify-center gap-3 mb-10">
-        <button 
-          onClick={decreaseServings}
+      <div className="flex items-center justify-center gap-4 mb-8">
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={() => setServings(s => Math.max(1, s - 1))}
           disabled={servings <= 1}
           className="bg-[#3A7D54] text-white w-6 h-6 flex items-center justify-center rounded-sm disabled:opacity-50 disabled:cursor-not-allowed"
         >
           <Minus className="h-3 w-3" />
-        </button>
+        </Button>
         <input 
           type="number" 
           value={servings}
@@ -67,26 +52,27 @@ export function RecipeIngredients({ initialServings, ingredients }: RecipeIngred
           className="w-10 text-center border-none focus:outline-none text-lg px-0"
         />
         <span className="text-lg">Personen</span>
-        <button 
-          onClick={increaseServings}
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={() => setServings(s => s + 1)}
           className="bg-[#3A7D54] text-white w-6 h-6 flex items-center justify-center rounded-sm"
         >
           <Plus className="h-3 w-3" />
-        </button>
+        </Button>
       </div>
 
       {/* Ingredients list */}
       <div className="max-w-sm mx-auto mb-10 text-center">
         <div className="inline-block space-y-3">
-          {ingredients?.map((ingredient, index) => (
-            <div
-              key={index}
-              className="grid grid-cols-[80px_1fr] gap-6 text-lg items-baseline"
-            >
+          {ingredients.map((ingredient, index) => (
+            <div key={index} className="grid grid-cols-[80px_1fr] gap-6 text-lg items-baseline">
               <div className="text-right font-medium">
-                {getAdjustedAmount(ingredient.amount)}
-                {ingredient.unit && (
-                  <span className="ml-1">{ingredient.unit}</span>
+                {ingredient.amount && (
+                  <>
+                    {adjustAmount(ingredient.amount)}
+                    {ingredient.unit && ` ${ingredient.unit}`}
+                  </>
                 )}
               </div>
               <div>{ingredient.name}</div>
