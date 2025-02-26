@@ -2,6 +2,7 @@ import { SiteHeader } from "@/components/site-header"
 import { RecipeCard } from "@/components/recipe-card"
 import { recipes } from "@/lib/data"
 import { categoryNames } from '@/lib/constants'
+import { RecipeCardMasonry } from "@/components/recipe-card-masonry"
 
 // This function is required for static site generation with dynamic routes
 export function generateStaticParams() {
@@ -35,6 +36,17 @@ export default function CategoryPage({ params }: { params: { category: string } 
       <SiteHeader />
       <main className="flex-1 container py-8">
         <h1 className="text-4xl font-bold mb-8">{categoryName}</h1>
+
+        <div className="category-recipes">
+          {categoryRecipes.map((recipe, index) => (
+            <RecipeCardMasonry 
+              key={recipe.slug} 
+              recipe={recipe}
+              index={index}
+            />     
+          ))}
+          </div>
+
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {categoryRecipes.map((recipe) => (

@@ -13,7 +13,7 @@ interface RecipeCardProps {
   slug: string
 }
 
-export function RecipeCard({ title, image, prepTime, rating = 0, category, slug }: RecipeCardProps) {
+export function RecipeCard({ title, image, prepTime, rating, category, slug }: RecipeCardProps) {
   return (
     <Link href={`/rezepte/${slug}`} className="block focus:outline-none focus:ring-2 focus:ring-primary rounded-lg">
       <Card className="overflow-hidden transition-all hover:shadow-lg h-full">
