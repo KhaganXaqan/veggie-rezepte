@@ -1,15 +1,19 @@
 // First, let's define the type for a recipe
-export interface Recipe {
+export type Recipe = {
   slug: string
   title: string
   image: string
-  prepTime: string
-  rating: number
+  prepTime?: string
+  rating?: number
   category: string
   tags: string[]
   servings: number
   description: string
-  ingredients: string[]
+  ingredients: { 
+    amount?: number | string
+    unit?: string
+    name: string 
+  }[]
   instructions: string[]
   nutrition: {
     calories: number
@@ -32,24 +36,24 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Traditionelle deutsche Kartoffelklöße - perfekt als Beilage oder eigenständiges Gericht.",
     ingredients: [
-      "1kg mehligkochende Kartoffeln",
-      "200g Kartoffelstärke",
-      "2 Eier",
-      "Salz",
-      "Muskatnuss"
+      { amount: 1, unit: "kg", name: "mehligkochende Kartoffeln" },
+      { amount: 200, unit: "g", name: "Kartoffelstärke" },
+      { amount: 2, name: "Eier" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Kartoffeln kochen und stampfen",
-      "Mit Kartoffelstärke und Eiern vermengen",
-      "Mit Salz und Muskat würzen",
-      "Klöße formen",
-      "In siedendem Salzwasser ziehen lassen"
+      "Die Kartoffeln schälen, in große Stücke schneiden und in Salzwasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und mit einem Kartoffelstampfer zerdrücken.",
+      "Die Kartoffelstärke, Eier, Salz und Muskatnuss zu den gestampften Kartoffeln geben und alles zu einem glatten Teig verkneten.",
+      "Den Teig zu gleichmäßigen Klößen formen. Dabei darauf achten, dass die Klöße fest genug sind, um nicht auseinanderzufallen.",
+      "Einen großen Topf mit Salzwasser zum Kochen bringen. Die Klöße vorsichtig ins Wasser geben und bei mittlerer Hitze etwa 15–20 Minuten ziehen lassen, bis sie an die Oberfläche steigen.",
+      "Die Klöße mit einer Schaumkelle herausheben, abtropfen lassen und warm servieren."
     ],
     nutrition: {
       calories: 220,
       protein: "4g",
       carbs: "48g",
-      fat: "1g"
+      fat: "2g"
     }
   },
   {
@@ -63,25 +67,21 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Eine klassische Lasagne mit Spinat und Käse.",
     ingredients: [
-      "1kg Spinat",
-      "200g Käse",
-      "2 Eier",
-      "Pasta",
-      "Tomaten",
-      "Zwiebeln",
-      "Knoblauch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Spinat" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 500, unit: "g", name: "Pasta" },
+      { amount: 4, name: "Tomaten" },
+      { amount: 2, name: "Zwiebeln" },
+      { amount: 2, name: "Knoblauchzehen" }
     ],
     instructions: [
-      "Spinat kochen und stampfen",
-      "Käse schmelzen",
-      "Pasta kochen",
-      "Tomaten und Zwiebeln anbraten",
-      "Spinat und Käse vermischen",
-      "Pasta und Spinat verrühren",
-      "Auflauf formen",
-      "In Ofen ziehen"
+      "Den Spinat waschen, abtropfen lassen und in einem großen Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
+      "Die Zwiebeln und den Knoblauch schälen und fein hacken. In einer Pfanne mit etwas Olivenöl glasig dünsten. Die Tomaten waschen, würfeln und zu den Zwiebeln geben. Alles etwa 10 Minuten köcheln lassen, bis eine dickflüssige Sauce entsteht.",
+      "Die Lasagneplatten nach Packungsanleitung in Salzwasser al dente kochen, abgießen und beiseite stellen.",
+      "Den Käse reiben und mit den Eiern und dem Spinat vermengen. Mit Salz und Pfeffer abschmecken.",
+      "Eine Auflaufform mit etwas Olivenöl ausstreichen. Schichtweise die Lasagneplatten, die Spinat-Käse-Mischung und die Tomatensauce in die Form geben. Mit einer Käseschicht abschließen.",
+      "Die Lasagne im vorgeheizten Backofen bei 180°C etwa 30 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
     ],
     nutrition: {
       calories: 350,
@@ -101,20 +101,19 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine traditionelle deutsche Pasta-Art aus der Region Schwaben.",
     ingredients: [
-      "200g Mehl",
-      "2 Eier",
-      "100ml Milch",
-      "100g Käse",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 2, name: "Eier" },
+      { amount: 100, unit: "ml", name: "Milch" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Mehl und Eier vermengen",
-      "Milch hinzufügen",
-      "Käse hinzufügen",
-      "Mit Salz und Muskat würzen",
-      "Spätzle formen",
-      "In siedendem Salzwasser ziehen lassen"
+      "Das Mehl in eine große Schüssel geben. Die Eier und die Milch hinzufügen und alles zu einem glatten Teig verrühren. Mit Salz und Muskatnuss würzen.",
+      "Einen großen Topf mit Salzwasser zum Kochen bringen. Den Spätzleteig portionsweise durch ein Spätzlesieb oder einen Spätzlehobel ins kochende Wasser drücken.",
+      "Die Spätzle etwa 2–3 Minuten kochen, bis sie an die Oberfläche steigen. Anschließend mit einer Schaumkelle herausheben und abtropfen lassen.",
+      "Den Käse reiben. In einer Pfanne etwas Butter erhitzen und die Spätzle darin anbraten. Den geriebenen Käse hinzufügen und schmelzen lassen, bis alles gut vermengt ist.",
+      "Die Käsespätzle heiß servieren, eventuell mit gerösteten Zwiebeln bestreuen."
     ],
     nutrition: {
       calories: 250,
@@ -134,20 +133,19 @@ export const recipes: Recipe[] = [
     servings: 2,
     description: "Ein leckerer Kartoffelpuffer als Snack oder Beilage.",
     ingredients: [
-      "200g Kartoffeln",
-      "2 Eier",
-      "100g Mehl",
-      "Milch",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Kartoffeln" },
+      { amount: 2, name: "Eier" },
+      { amount: 100, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "ml", name: "Milch" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Kartoffeln kochen und stampfen",
-      "Mit Mehl und Eiern vermengen",
-      "Milch hinzufügen",
-      "Mit Salz und Muskat würzen",
-      "Puffer formen",
-      "In heißem Öl frittieren"
+      "Die Kartoffeln schälen und grob reiben. Die geriebenen Kartoffeln in ein sauberes Küchentuch geben und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
+      "Die Eier in einer Schüssel verquirlen. Das Mehl, die Milch, Salz und Muskatnuss hinzufügen und zu einem glatten Teig verrühren.",
+      "Die geriebenen Kartoffeln unter den Teig heben und alles gut vermengen.",
+      "In einer großen Pfanne reichlich Öl erhitzen. Portionsweise den Teig in die Pfanne geben und flach drücken. Die Puffer bei mittlerer Hitze von beiden Seiten goldbraun braten, etwa 3–4 Minuten pro Seite.",
+      "Die Kartoffelpuffer auf Küchenpapier abtropfen lassen und warm servieren, z. B. mit Apfelmus oder Sauerrahm."
     ],
     nutrition: {
       calories: 200,
@@ -167,20 +165,19 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein traditionelles deutsches Brotgebäck aus Kartoffeln und Mehl.",
     ingredients: [
-      "200g Kartoffeln",
-      "200g Mehl",
-      "2 Eier",
-      "Milch",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Kartoffeln" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 2, name: "Eier" },
+      { amount: 100, unit: "ml", name: "Milch" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Kartoffeln kochen und stampfen",
-      "Mit Mehl und Eiern vermengen",
-      "Milch hinzufügen",
-      "Mit Salz und Muskat würzen",
-      "Knödel formen",
-      "In siedendem Wasser ziehen lassen"
+      "Die Kartoffeln schälen, in Stücke schneiden und in Salzwasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und mit einem Kartoffelstampfer zerdrücken.",
+      "Das Mehl, die Eier, die Milch, Salz und Muskatnuss zu den Kartoffeln geben und alles zu einem glatten Teig verkneten.",
+      "Aus dem Teig gleichmäßige Knödel formen. Dabei darauf achten, dass die Knödel fest genug sind, um nicht auseinanderzufallen.",
+      "Einen großen Topf mit Salzwasser zum Kochen bringen. Die Knödel vorsichtig ins Wasser geben und bei mittlerer Hitze etwa 15–20 Minuten ziehen lassen, bis sie an die Oberfläche steigen.",
+      "Die Knödel mit einer Schaumkelle herausheben, abtropfen lassen und warm servieren, z. B. mit Bratensauce oder Pilzrahm."
     ],
     nutrition: {
       calories: 250,
@@ -200,20 +197,19 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Pilzsuppe aus verschiedenen Pilzen.",
     ingredients: [
-      "1kg Pilze",
-      "1 Zwiebel",
-      "2 Knoblauchzehen",
-      "1 Liter Gemüsebrühe",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Pilze" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 2, name: "Knoblauchzehen" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Pilze waschen und trocken tupfen",
-      "Zwiebel und Knoblauch anbraten",
-      "Pilze hinzufügen",
-      "Gemüsebrühe hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Etwa 45 Minuten köcheln lassen"
+      "Die Pilze putzen, waschen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
+      "In einem großen Topf etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten.",
+      "Die Pilze zugeben und etwa 5 Minuten mitbraten, bis sie Flüssigkeit abgeben und leicht gebräunt sind.",
+      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und das Gulasch etwa 30 Minuten köcheln lassen, bis die Pilze weich sind und die Sauce leicht eingedickt ist.",
+      "Mit Salz und Pfeffer abschmecken und das Pilzgulasch heiß servieren, z. B. mit Semmelknödeln oder Reis."
     ],
     nutrition: {
       calories: 150,
@@ -233,20 +229,20 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein traditionelles deutsches Gebäck aus verschiedenen Gemüsen.",
     ingredients: [
-      "200g Mehl",
-      "100g Butter",
-      "100g Zucker",
-      "1 Ei",
-      "100g Gemüse",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 1, name: "Ei" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Mehl, Butter, Zucker und Ei vermengen",
-      "Gemüse hinzufügen",
-      "Mit Salz und Muskat würzen",
-      "Strudel formen",
-      "In Ofen ziehen"
+      "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei, den Zucker, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
+      "Das Gemüse waschen, schneiden und in einer Pfanne mit etwas Öl kurz anbraten. Mit Salz und Pfeffer würzen und abkühlen lassen.",
+      "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Das Gemüse gleichmäßig auf dem Teig verteilen, dabei einen Rand von ca. 2 cm frei lassen.",
+      "Den Teig vorsichtig von einer Seite aufrollen und die Enden gut verschließen. Den Strudel auf ein mit Backpapier ausgelegtes Backblech legen.",
+      "Den Backofen auf 180°C vorheizen. Den Strudel mit etwas verquirltem Ei bestreichen und etwa 30–35 Minuten backen, bis er goldbraun ist. Warm servieren."
     ],
     nutrition: {
       calories: 300,
@@ -266,19 +262,17 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine traditionelle deutsche Suppe aus Grießnocken.",
     ingredients: [
-      "200g Grießnocken",
-      "1 Liter Gemüsebrühe",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Grießnocken" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Grießnocken in Wasser einweichen",
-      "Zwiebel und Knoblauch anbraten",
-      "Gemüsebrühe hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Etwa 35 Minuten köcheln lassen"
+      "Die Zwiebel und den Knoblauch schälen und fein hacken. In einem Topf etwas Öl erhitzen und die Zwiebel sowie den Knoblauch glasig dünsten.",
+      "Die Gemüsebrühe hinzufügen und zum Kochen bringen. Die Grießnocken langsam unter Rühren in die Brühe geben und etwa 10 Minuten köcheln lassen, bis sie weich sind.",
+      "Mit Salz und Pfeffer abschmecken. Die Suppe heiß servieren, eventuell mit frischen Kräutern garnieren."
     ],
     nutrition: {
       calories: 150,
@@ -298,20 +292,20 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine traditionelle deutsche Knödel aus Spinat.",
     ingredients: [
-      "200g Spinat",
-      "200g Mehl",
-      "2 Eier",
-      "Milch",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Spinat" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 2, name: "Eier" },
+      { amount: 100, unit: "ml", name: "Milch" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Spinat kochen und stampfen",
-      "Mit Mehl und Eiern vermengen",
-      "Milch hinzufügen",
-      "Mit Salz und Muskat würzen",
-      "Knödel formen",
-      "In siedendem Wasser ziehen lassen"
+      "Den Spinat waschen, abtropfen lassen und in einem Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
+      "Das Mehl in eine Schüssel geben. Die Eier, Milch, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig verrühren.",
+      "Den Spinat fein hacken und unter den Teig heben. Alles gut vermengen, bis eine homogene Masse entsteht.",
+      "Aus dem Teig gleichmäßige Knödel formen. Dabei darauf achten, dass die Knödel fest genug sind, um nicht auseinanderzufallen.",
+      "Einen großen Topf mit Salzwasser zum Kochen bringen. Die Knödel vorsichtig ins Wasser geben und bei mittlerer Hitze etwa 15–20 Minuten ziehen lassen, bis sie an die Oberfläche steigen.",
+      "Die Knödel mit einer Schaumkelle herausheben, abtropfen lassen und warm servieren, z. B. mit Bratensauce oder Butter."
     ],
     nutrition: {
       calories: 200,
@@ -331,16 +325,16 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine einfache und leckere Gemüsesuppe.",
     ingredients: [
-      "1kg Gemüse",
-      "1 Liter Gemüsebrühe",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Gemüse waschen und schneiden",
-      "Gemüse und Gemüsebrühe in einem Topf köcheln",
-      "Salz und Pfeffer hinzufügen",
-      "Etwa 40 Minuten köcheln lassen"
+      "Das Gemüse waschen, schälen und in gleichmäßige Stücke schneiden. Je nach Gemüseart (z. B. Karotten, Sellerie, Lauch) die Garzeit anpassen.",
+      "In einem großen Topf etwas Öl erhitzen. Das Gemüse darin etwa 5 Minuten anbraten, bis es leicht Farbe annimmt.",
+      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und die Suppe etwa 30 Minuten köcheln lassen, bis das Gemüse weich ist.",
+      "Mit Salz und Pfeffer abschmecken. Die Suppe heiß servieren, eventuell mit frischen Kräutern oder einem Schuss Sahne verfeinern."
     ],
     nutrition: {
       calories: 100,
@@ -360,24 +354,20 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein klassisches Kartoffelaufläuf aus der Region Schwaben.",
     ingredients: [
-      "1kg Kartoffeln",
-      "200g Butter",
-      "200g Mehl",
-      "1 Liter Milch",
-      "100g Käse",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Kartoffeln" },
+      { amount: 200, unit: "g", name: "Butter" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Kartoffeln schälen und in Scheiben schneiden",
-      "Kartoffeln in einer Pfanne anbraten",
-      "Butter hinzufügen",
-      "Mehl hinzufügen",
-      "Milch hinzufügen",
-      "Käse hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Auflauf formen",
-      "In Ofen ziehen"
+      "Die Kartoffeln schälen und in dünne Scheiben schneiden. Den Backofen auf 180°C vorheizen.",
+      "In einem Topf die Butter schmelzen. Das Mehl unterrühren und kurz anschwitzen. Nach und nach die Milch hinzufügen und unter ständigem Rühren eine glatte Sauce kochen. Mit Salz und Pfeffer abschmecken.",
+      "Eine Auflaufform mit etwas Butter einfetten. Schichtweise die Kartoffelscheiben und die Sauce in die Form geben. Mit einer Schicht Sauce abschließen.",
+      "Den Käse reiben und gleichmäßig über das Gratin streuen. Im vorgeheizten Backofen etwa 45 Minuten backen, bis die Oberfläche goldbraun und die Kartoffeln weich sind.",
+      "Das Gratin vor dem Servieren kurz abkühlen lassen."
     ],
     nutrition: {
       calories: 400,
@@ -397,24 +387,19 @@ export const recipes: Recipe[] = [
     servings: 2,
     description: "Ein leckerer Buddha-Bowl aus Quinoa und verschiedenen Gemüsen.",
     ingredients: [
-      "100g Quinoa",
-      "100g Gemüse",
-      "100g Fisch",
-      "100g Nüsse",
-      "100g Käse",
-      "100g Sojasauce",
-      "100g Olivenöl"
+      { amount: 100, unit: "g", name: "Quinoa" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Fisch" },
+      { amount: 100, unit: "g", name: "Nüsse" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: 100, unit: "ml", name: "Sojasauce" },
+      { amount: 100, unit: "ml", name: "Olivenöl" }
     ],
     instructions: [
-      "Quinoa kochen",
-      "Gemüse schneiden",
-      "Fisch anbraten",
-      "Nüsse toasten",
-      "Käse schmelzen",
-      "Sojasauce und Olivenöl hinzufügen",
-      "Gemüse und Fisch hinzufügen",
-      "Quinoa hinzufügen",
-      "Bowl zubereiten"
+      "Den Quinoa nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
+      "Das Gemüse waschen und in mundgerechte Stücke schneiden. Den Fisch in einer Pfanne mit etwas Olivenöl anbraten, bis er gar ist. Die Nüsse in einer Pfanne ohne Fett kurz anrösten.",
+      "Den Käse in kleine Würfel schneiden. Die Sojasauce und das Olivenöl in einer Schüssel verrühren.",
+      "Den Quinoa in Schüsseln verteilen. Das Gemüse, den Fisch, die Nüsse und den Käse darauf anrichten. Mit der Sojasauce-Olivenöl-Mischung beträufeln und servieren."
     ],
     nutrition: {
       calories: 400,
@@ -434,23 +419,21 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine französische Gemüseaufläuf aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Gemüse",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "1 Tomate",
-      "1 Aubergine",
-      "1 Paprika",
-      "1 Zucchini",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 1, name: "Tomate" },
+      { amount: 1, name: "Aubergine" },
+      { amount: 1, name: "Paprika" },
+      { amount: 1, name: "Zucchini" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Gemüse waschen und schneiden",
-      "Zwiebel und Knoblauch anbraten",
-      "Tomate und Aubergine hinzufügen",
-      "Paprika und Zucchini hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Etwa 45 Minuten köcheln lassen"
+      "Das Gemüse waschen und in gleichmäßige Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
+      "In einem großen Topf etwas Olivenöl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten.",
+      "Die Aubergine, Paprika und Zucchini hinzufügen und etwa 5 Minuten anbraten. Die Tomaten hinzufügen und alles weitere 10 Minuten köcheln lassen.",
+      "Mit Salz und Pfeffer abschmecken. Das Ratatouille heiß oder kalt servieren, z. B. als Beilage oder Hauptgericht."
     ],
     nutrition: {
       calories: 150,
@@ -470,20 +453,19 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine traditionelle deutsche Gemüseart aus gefüllten Paprika.",
     ingredients: [
-      "4 Paprika",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "1 kg Gemüse",
-      "Salz",
-      "Pfeffer"
+      { amount: 4, name: "Paprika" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Paprika waschen und halbieren",
-      "Zwiebel und Knoblauch anbraten",
-      "Gemüse hinzufügen",
-      "Mit Salz und Pfeffer würzen",
-      "Gemüse füllen",
-      "In Ofen ziehen"
+      "Die Paprika waschen, den Deckel abschneiden und die Kerne entfernen. Die Zwiebel und den Knoblauch schälen und fein hacken.",
+      "In einer Pfanne etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten. Das Gemüse waschen, schneiden und zu den Zwiebeln geben. Alles etwa 10 Minuten anbraten, bis das Gemüse weich ist. Mit Salz und Pfeffer abschmecken.",
+      "Die Paprika mit der Gemüsemischung füllen und die Deckel darauflegen. Die gefüllten Paprika in eine ofenfeste Form setzen.",
+      "Den Backofen auf 180°C vorheizen. Die Paprika im Ofen etwa 25–30 Minuten backen, bis sie weich sind und leicht gebräunt aussehen.",
+      "Die gefüllten Paprika heiß servieren, z. B. mit Reis oder einem frischen Salat."
     ],
     nutrition: {
       calories: 150,
@@ -503,20 +485,19 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Kürbissuppe aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Kürbis",
-      "1 Liter Gemüsebrühe",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Kürbis" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Kürbis schälen und in Stücke schneiden",
-      "Zwiebel und Knoblauch anbraten",
-      "Kürbis hinzufügen",
-      "Gemüsebrühe hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Etwa 35 Minuten köcheln lassen"
+      "Den Kürbis schälen, entkernen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
+      "In einem großen Topf etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten. Den Kürbis hinzufügen und etwa 5 Minuten mitbraten.",
+      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und die Suppe etwa 20–25 Minuten köcheln lassen, bis der Kürbis weich ist.",
+      "Die Suppe mit einem Stabmixer pürieren, bis sie cremig ist. Mit Salz und Pfeffer abschmecken.",
+      "Die Kürbissuppe heiß servieren, eventuell mit einem Schuss Sahne oder gerösteten Kürbiskernen garnieren."
     ],
     nutrition: {
       calories: 100,
@@ -536,25 +517,21 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Nudelsalat aus verschiedenen Gemüsen.",
     ingredients: [
-      "200g Nudeln",
-      "100g Gemüse",
-      "100g Fisch",
-      "100g Olivenöl",
-      "100g Tomaten",
-      "100g Käse",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Nudeln" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Fisch" },
+      { amount: 100, unit: "ml", name: "Olivenöl" },
+      { amount: 100, unit: "g", name: "Tomaten" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Nudeln kochen",
-      "Gemüse schneiden",
-      "Fisch anbraten",
-      "Gemüse und Fisch vermischen",
-      "Tomaten hinzufügen",
-      "Olivenöl hinzufügen",
-      "Käse hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Salat zubereiten"
+      "Die Nudeln nach Packungsanleitung in Salzwasser al dente kochen, abgießen und abkühlen lassen.",
+      "Das Gemüse waschen und in mundgerechte Stücke schneiden. Den Fisch in einer Pfanne mit etwas Olivenöl anbraten, bis er gar ist.",
+      "Die Tomaten waschen und würfeln. Den Käse in kleine Stücke schneiden.",
+      "Die Nudeln, das Gemüse, den Fisch, die Tomaten und den Käse in einer großen Schüssel vermengen. Mit Olivenöl, Salz und Pfeffer abschmecken.",
+      "Den Nudelsalat kalt servieren, eventuell mit frischen Kräutern garnieren."
     ],
     nutrition: {
       calories: 300,
@@ -574,21 +551,18 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Gemüsecurry aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Gemüse",
-      "100g Currypaste",
-      "1 Liter Gemüsebrühe",
-      "100g Kokosnussöl",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Currypaste" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 100, unit: "g", name: "Kokosnussöl" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Gemüse waschen und schneiden",
-      "Currypaste anbraten",
-      "Gemüse hinzufügen",
-      "Gemüsebrühe hinzufügen",
-      "Kokosnussöl hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Etwa 30 Minuten köcheln lassen"
+      "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem großen Topf das Kokosnussöl erhitzen.",
+      "Die Currypaste hinzufügen und kurz anbraten, bis sie aromatisch duftet. Das Gemüse hinzufügen und etwa 5 Minuten unter Rühren anbraten.",
+      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und das Curry etwa 20 Minuten köcheln lassen, bis das Gemüse weich ist.",
+      "Mit Salz und Pfeffer abschmecken. Das Gemüse-Curry heiß servieren, z. B. mit Reis oder Naan-Brot."
     ],
     nutrition: {
       calories: 200,
@@ -608,21 +582,182 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Eine französische Quiche aus Brokkoli und Käse.",
     ingredients: [
-      "1kg Brokkoli",
-      "200g Käse",
-      "2 Eier",
-      "200g Mehl",
-      "1 Liter Milch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Brokkoli" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Brokkoli waschen und schneiden",
-      "Käse schmelzen",
-      "Mehl und Milch vermengen",
-      "Brokkoli hinzufügen",
-      "Auflauf formen",
-      "In Ofen ziehen"
+      "Den Brokkoli waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
+      "Den Backofen auf 180°C vorheizen. Eine Quicheform mit Butter einfetten.",
+      "Das Mehl, die Eier, die Milch, Salz und Pfeffer in einer Schüssel verrühren, bis ein glatter Teig entsteht. Den Käse reiben und unter den Teig heben.",
+      "Den Brokkoli gleichmäßig in der Quicheform verteilen. Den Teig darüber gießen.",
+      "Die Quiche im Ofen etwa 35–40 Minuten backen, bis sie goldbraun ist und der Teig fest ist. Vor dem Servieren etwas abkühlen lassen."
+    ],
+    nutrition: {
+      calories: 300,
+      protein: "10g",
+      carbs: "20g",
+      fat: "15g"
+    }
+  },
+  {
+    title: "Gefüllte Paprika",
+    image: "/images/MainCourses/gefuellte-paprika.jpg",
+    prepTime: "40 Min.",
+    rating: 4.5,
+    category: "Hauptgerichte",
+    slug: "gefuellte-paprika",
+    tags: ["Traditionell", "Gemüse", "Hauptgericht"],
+    servings: 4,
+    description: "Eine traditionelle deutsche Gemüseart aus gefüllten Paprika.",
+    ingredients: [
+      { amount: 4, name: "Paprika" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
+    ],
+    instructions: [
+      "Die Paprika waschen, den Deckel abschneiden und die Kerne entfernen. Die Zwiebel und den Knoblauch schälen und fein hacken.",
+      "In einer Pfanne etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten. Das Gemüse waschen, schneiden und zu den Zwiebeln geben. Alles etwa 10 Minuten anbraten, bis das Gemüse weich ist. Mit Salz und Pfeffer abschmecken.",
+      "Die Paprika mit der Gemüsemischung füllen und die Deckel darauflegen. Die gefüllten Paprika in eine ofenfeste Form setzen.",
+      "Den Backofen auf 180°C vorheizen. Die Paprika im Ofen etwa 25–30 Minuten backen, bis sie weich sind und leicht gebräunt aussehen.",
+      "Die gefüllten Paprika heiß servieren, z. B. mit Reis oder einem frischen Salat."
+    ],
+    nutrition: {
+      calories: 150,
+      protein: "5g",
+      carbs: "10g",
+      fat: "5g"
+    }
+  },
+  {
+    title: "Kürbissuppe",
+    image: "/images/Soups/kuerbissuppe.jpg",
+    prepTime: "35 Min.",
+    rating: 4.8,
+    category: "Suppen",
+    slug: "kuerbissuppe",
+    tags: ["Herbst", "Suppe", "Kürbis"],
+    servings: 4,
+    description: "Eine leckere Kürbissuppe aus verschiedenen Gemüsen.",
+    ingredients: [
+      { amount: 1, unit: "kg", name: "Kürbis" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
+    ],
+    instructions: [
+      "Den Kürbis schälen, entkernen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
+      "In einem großen Topf etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten. Den Kürbis hinzufügen und etwa 5 Minuten mitbraten.",
+      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und die Suppe etwa 20–25 Minuten köcheln lassen, bis der Kürbis weich ist.",
+      "Die Suppe mit einem Stabmixer pürieren, bis sie cremig ist. Mit Salz und Pfeffer abschmecken.",
+      "Die Kürbissuppe heiß servieren, eventuell mit einem Schuss Sahne oder gerösteten Kürbiskernen garnieren."
+    ],
+    nutrition: {
+      calories: 100,
+      protein: "2g",
+      carbs: "15g",
+      fat: "1g"
+    }
+  },
+  {
+    title: "Mediterraner Nudelsalat",
+    image: "/images/Salads/mediterraner-nudelsalat.jpg",
+    prepTime: "20 Min.",
+    rating: 4.4,
+    category: "Salate",
+    slug: "mediterraner-nudelsalat",
+    tags: ["Salat", "Pasta", "Mediterran"],
+    servings: 4,
+    description: "Ein leckerer Nudelsalat aus verschiedenen Gemüsen.",
+    ingredients: [
+      { amount: 200, unit: "g", name: "Nudeln" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Fisch" },
+      { amount: 100, unit: "ml", name: "Olivenöl" },
+      { amount: 100, unit: "g", name: "Tomaten" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
+    ],
+    instructions: [
+      "Die Nudeln nach Packungsanleitung in Salzwasser al dente kochen, abgießen und abkühlen lassen.",
+      "Das Gemüse waschen und in mundgerechte Stücke schneiden. Den Fisch in einer Pfanne mit etwas Olivenöl anbraten, bis er gar ist.",
+      "Die Tomaten waschen und würfeln. Den Käse in kleine Stücke schneiden.",
+      "Die Nudeln, das Gemüse, den Fisch, die Tomaten und den Käse in einer großen Schüssel vermengen. Mit Olivenöl, Salz und Pfeffer abschmecken.",
+      "Den Nudelsalat kalt servieren, eventuell mit frischen Kräutern garnieren."
+    ],
+    nutrition: {
+      calories: 300,
+      protein: "10g",
+      carbs: "30g",
+      fat: "15g"
+    }
+  },
+  {
+    title: "Gemüse-Curry",
+    image: "/images/MainCourses/gemuese-curry.webp",
+    prepTime: "30 Min.",
+    rating: 4.7,
+    category: "Hauptgerichte",
+    slug: "gemuese-curry",
+    tags: ["Indisch", "Curry", "Scharf"],
+    servings: 4,
+    description: "Ein leckerer Gemüsecurry aus verschiedenen Gemüsen.",
+    ingredients: [
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Currypaste" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 100, unit: "g", name: "Kokosnussöl" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
+    ],
+    instructions: [
+      "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem großen Topf das Kokosnussöl erhitzen.",
+      "Die Currypaste hinzufügen und kurz anbraten, bis sie aromatisch duftet. Das Gemüse hinzufügen und etwa 5 Minuten unter Rühren anbraten.",
+      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und das Curry etwa 20 Minuten köcheln lassen, bis das Gemüse weich ist.",
+      "Mit Salz und Pfeffer abschmecken. Das Gemüse-Curry heiß servieren, z. B. mit Reis oder Naan-Brot."
+    ],
+    nutrition: {
+      calories: 200,
+      protein: "5g",
+      carbs: "10g",
+      fat: "15g"
+    }
+  },
+  {
+    title: "Brokkoli-Quiche",
+    image: "/images/MainCourses/brokkoli-quiche.jpg",
+    prepTime: "55 Min.",
+    rating: 4.6,
+    category: "Hauptgerichte",
+    slug: "brokkoli-quiche",
+    tags: ["Französisch", "Gebäck", "Gemüse"],
+    servings: 6,
+    description: "Eine französische Quiche aus Brokkoli und Käse.",
+    ingredients: [
+      { amount: 1, unit: "kg", name: "Brokkoli" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
+    ],
+    instructions: [
+      "Den Brokkoli waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
+      "Den Backofen auf 180°C vorheizen. Eine Quicheform mit Butter einfetten.",
+      "Das Mehl, die Eier, die Milch, Salz und Pfeffer in einer Schüssel verrühren, bis ein glatter Teig entsteht. Den Käse reiben und unter den Teig heben.",
+      "Den Brokkoli gleichmäßig in der Quicheform verteilen. Den Teig darüber gießen.",
+      "Die Quiche im Ofen etwa 35–40 Minuten backen, bis sie goldbraun ist und der Teig fest ist. Vor dem Servieren etwas abkühlen lassen."
     ],
     nutrition: {
       calories: 300,
@@ -642,22 +777,18 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Griechischer Bauernsalat aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Gemüse",
-      "100g Olivenöl",
-      "100g Feta",
-      "100g Tomaten",
-      "100g Oliven",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 100, unit: "ml", name: "Olivenöl" },
+      { amount: 100, unit: "g", name: "Feta" },
+      { amount: 100, unit: "g", name: "Tomaten" },
+      { amount: 100, unit: "g", name: "Oliven" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Gemüse waschen und schneiden",
-      "Olivenöl hinzufügen",
-      "Gemüse vermischen",
-      "Tomaten hinzufügen",
-      "Feta hinzufügen",
-      "Oliven hinzufügen",
-      "Salz und Pfeffer hinzufügen"
+      "Das Gemüse waschen und in mundgerechte Stücke schneiden. Die Tomaten in Scheiben schneiden, die Oliven halbieren und den Feta in Würfel schneiden.",
+      "Alles in einer großen Schüssel vermengen. Das Olivenöl darüber träufeln und mit Salz und Pfeffer abschmecken.",
+      "Den Salat kalt servieren, eventuell mit frischem Oregano oder Basilikum garnieren."
     ],
     nutrition: {
       calories: 150,
@@ -677,25 +808,21 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Bolognese aus Linsen und verschiedenen Gemüsen.",
     ingredients: [
-      "200g Linsen",
-      "1kg Gemüse",
-      "1 Tomate",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "100g Olivenöl",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Linsen" },
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, name: "Tomate" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 100, unit: "ml", name: "Olivenöl" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Linsen waschen und einweichen",
-      "Gemüse schneiden",
-      "Tomate und Zwiebel anbraten",
-      "Knoblauch hinzufügen",
-      "Olivenöl hinzufügen",
-      "Linsen hinzufügen",
-      "Gemüse hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Etwa 40 Minuten köcheln lassen"
+      "Die Linsen waschen und in einem Topf mit Wasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und beiseite stellen.",
+      "Die Zwiebel und den Knoblauch schälen und fein hacken. In einer Pfanne das Olivenöl erhitzen und die Zwiebel sowie den Knoblauch glasig dünsten.",
+      "Das Gemüse waschen, schneiden und zu den Zwiebeln geben. Die Tomaten würfeln und ebenfalls hinzufügen. Alles etwa 10 Minuten köcheln lassen.",
+      "Die gekochten Linsen unter die Gemüsemischung heben und alles weitere 5 Minuten köcheln lassen. Mit Salz und Pfeffer abschmecken.",
+      "Die Linsen-Bolognese heiß servieren, z. B. mit Spaghetti oder frischem Brot."
     ],
     nutrition: {
       calories: 200,
@@ -715,20 +842,19 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Süßkartoffel-Kokos-Suppe aus verschiedenen Gemüsen.",
     ingredients: [
-      "1kg Süßkartoffeln",
-      "1 Liter Gemüsebrühe",
-      "100g Kokosnussöl",
-      "100g Zucker",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Süßkartoffeln" },
+      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
+      { amount: 100, unit: "g", name: "Kokosnussöl" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Süßkartoffeln schälen und in Stücke schneiden",
-      "Gemüsebrühe hinzufügen",
-      "Kokosnussöl hinzufügen",
-      "Zucker hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Etwa 35 Minuten köcheln lassen"
+      "Die Süßkartoffeln schälen und in grobe Stücke schneiden. In einem großen Topf das Kokosnussöl erhitzen.",
+      "Die Süßkartoffeln hinzufügen und etwa 5 Minuten anbraten. Die Gemüsebrühe hinzufügen und alles zum Kochen bringen.",
+      "Die Hitze reduzieren und die Suppe etwa 20 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.",
+      "Die Suppe mit einem Stabmixer pürieren, bis sie cremig ist. Mit Zucker, Salz und Pfeffer abschmecken.",
+      "Die Suppe heiß servieren, eventuell mit Kokosflocken oder frischem Koriander garnieren."
     ],
     nutrition: {
       calories: 150,
@@ -748,25 +874,19 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Quinoa-Salat aus verschiedenen Gemüsen.",
     ingredients: [
-      "100g Quinoa",
-      "100g Gemüse",
-      "100g Fisch",
-      "100g Olivenöl",
-      "100g Tomaten",
-      "100g Käse",
-      "Salz",
-      "Pfeffer"
+      { amount: 100, unit: "g", name: "Quinoa" },
+      { amount: 100, unit: "g", name: "Gemüse" },
+      { amount: 100, unit: "g", name: "Fisch" },
+      { amount: 100, unit: "g", name: "Nüsse" },
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: 100, unit: "ml", name: "Sojasauce" },
+      { amount: 100, unit: "ml", name: "Olivenöl" }
     ],
     instructions: [
-      "Quinoa kochen",
-      "Gemüse schneiden",
-      "Fisch anbraten",
-      "Gemüse und Fisch vermischen",
-      "Tomaten hinzufügen",
-      "Käse hinzufügen",
-      "Olivenöl hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Salat zubereiten"
+      "Den Quinoa nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
+      "Das Gemüse waschen und in mundgerechte Stücke schneiden. Den Fisch in einer Pfanne mit etwas Olivenöl anbraten, bis er gar ist. Die Nüsse in einer Pfanne ohne Fett kurz anrösten.",
+      "Den Käse in kleine Würfel schneiden. Die Sojasauce und das Olivenöl in einer Schüssel verrühren.",
+      "Den Quinoa, das Gemüse, den Fisch, die Nüsse und den Käse in einer großen Schüssel vermengen. Mit der Sojasauce-Olivenöl-Mischung beträufeln und servieren."
     ],
     nutrition: {
       calories: 300,
@@ -786,24 +906,21 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckerer Couscous-Salat aus verschiedenen Gemüsen.",
     ingredients: [
-      "200g Couscous",
-      "1kg Gemüse",
-      "1 Tomate",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "100g Olivenöl",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Couscous" },
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 1, name: "Tomate" },
+      { amount: 1, name: "Zwiebel" },
+      { amount: 1, name: "Knoblauchzehe" },
+      { amount: 100, unit: "g", name: "Olivenöl" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Couscous einweichen",
-      "Gemüse schneiden",
-      "Tomate und Zwiebel anbraten",
-      "Knoblauch hinzufügen",
-      "Olivenöl hinzufügen",
-      "Gemüse hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Salat zubereiten"
+      "Den Couscous nach Packungsanleitung in heißem Wasser einweichen, bis er weich ist. Anschließend abkühlen lassen.",
+      "Das Gemüse waschen und in mundgerechte Stücke schneiden. Die Tomaten würfeln, die Zwiebel und den Knoblauch fein hacken.",
+      "In einer Pfanne etwas Olivenöl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten. Das Gemüse hinzufügen und etwa 5 Minuten anbraten.",
+      "Den Couscous, das Gemüse und die Tomaten in einer Schüssel vermengen. Mit Olivenöl, Salz und Pfeffer abschmecken.",
+      "Den Salat kalt servieren, eventuell mit frischer Petersilie garnieren."
     ],
     nutrition: {
       calories: 200,
@@ -823,21 +940,20 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein leckerer Auflauf aus Blumenkohl und Käse.",
     ingredients: [
-      "1kg Blumenkohl",
-      "200g Käse",
-      "2 Eier",
-      "200g Mehl",
-      "1 Liter Milch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Blumenkohl" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Blumenkohl waschen und schneiden",
-      "Käse schmelzen",
-      "Mehl und Milch vermengen",
-      "Blumenkohl hinzufügen",
-      "Auflauf formen",
-      "In Ofen ziehen"
+      "Den Blumenkohl waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
+      "Den Backofen auf 180°C vorheizen. Eine Auflaufform mit Butter einfetten.",
+      "Das Mehl, die Eier, die Milch, Salz und Pfeffer in einer Schüssel verrühren, bis ein glatter Teig entsteht. Den Käse reiben und unter den Teig heben.",
+      "Den Blumenkohl gleichmäßig in der Auflaufform verteilen. Den Teig darüber gießen.",
+      "Den Auflauf im Ofen etwa 35–40 Minuten backen, bis er goldbraun ist und der Teig fest ist. Vor dem Servieren etwas abkühlen lassen."
     ],
     nutrition: {
       calories: 300,
@@ -857,22 +973,20 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein leckerer Auflauf aus Gemüse und Polenta.",
     ingredients: [
-      "1kg Gemüse",
-      "200g Polenta",
-      "200g Käse",
-      "2 Eier",
-      "1 Liter Milch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Gemüse" },
+      { amount: 200, unit: "g", name: "Polenta" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Gemüse schneiden",
-      "Polenta einweichen",
-      "Gemüse und Polenta vermengen",
-      "Milch hinzufügen",
-      "Käse hinzufügen",
-      "Auflauf formen",
-      "In Ofen ziehen"
+      "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem Topf die Milch zum Kochen bringen und die Polenta langsam unter Rühren hinzufügen. Etwa 10 Minuten köcheln lassen, bis die Polenta dick ist.",
+      "Den Käse reiben und die Eier verquirlen. Beides unter die Polenta heben und mit Salz und Pfeffer abschmecken.",
+      "Das Gemüse in einer Pfanne mit etwas Öl etwa 5 Minuten anbraten. Eine Auflaufform mit Butter einfetten.",
+      "Schichtweise die Polenta und das Gemüse in die Form geben. Mit einer Schicht Polenta abschließen.",
+      "Den Auflauf im vorgeheizten Backofen bei 180°C etwa 30 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
     ],
     nutrition: {
       calories: 300,
@@ -892,22 +1006,19 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein leckerer Auflauf aus Zucchini und Reis.",
     ingredients: [
-      "1kg Zucchini",
-      "200g Reis",
-      "200g Käse",
-      "2 Eier",
-      "1 Liter Milch",
-      "Salz",
-      "Pfeffer"
+      { amount: 1, unit: "kg", name: "Zucchini" },
+      { amount: 200, unit: "g", name: "Reis" },
+      { amount: 200, unit: "g", name: "Käse" },
+      { amount: 2, name: "Eier" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Zucchini schälen und in Scheiben schneiden",
-      "Reis einweichen",
-      "Zucchini und Reis vermengen",
-      "Milch hinzufügen",
-      "Käse hinzufügen",
-      "Auflauf formen",
-      "In Ofen ziehen"
+      "Die Zucchini waschen und in dünne Scheiben schneiden. Den Reis nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
+      "Den Käse reiben und die Eier verquirlen. Beides mit der Milch, Salz und Pfeffer in einer Schüssel vermengen.",
+      "Eine Auflaufform mit Butter einfetten. Schichtweise die Zucchini und den Reis in die Form geben. Die Milch-Eier-Mischung darüber gießen.",
+      "Den Auflauf im vorgeheizten Backofen bei 180°C etwa 35–40 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
     ],
     nutrition: {
       calories: 300,
@@ -916,7 +1027,6 @@ export const recipes: Recipe[] = [
       fat: "15g"
     }
   },
-  // New Breakfast Recipes
   {
     title: "Overnight Oats mit Beeren",
     image: "/images/Desserts/OvernightOatsmitBeeren.webp",
@@ -928,19 +1038,18 @@ export const recipes: Recipe[] = [
     servings: 2,
     description: "Ein leckerer Frühstücks-Salat aus Haferflocken und Beeren.",
     ingredients: [
-      "100g Haferflocken",
-      "200g Milch",
-      "100g Beeren",
-      "1 Ei",
-      "Salz",
-      "Muskatnuss"
+      { amount: 100, unit: "g", name: "Haferflocken" },
+      { amount: 200, unit: "g", name: "Milch" },
+      { amount: 100, unit: "g", name: "Beeren" },
+      { amount: 1, name: "Ei" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Haferflocken und Milch vermengen",
-      "Ei hinzufügen",
-      "Salz und Muskat hinzufügen",
-      "Salat ziehen lassen",
-      "Frühstück zubereiten"
+      "Die Haferflocken und Milch in einer Schüssel vermengen. Das Ei hinzufügen und alles gut verrühren.",
+      "Mit Salz und Muskatnuss würzen. Die Beeren waschen und unter die Haferflocken heben.",
+      "Die Mischung in ein verschließbares Glas füllen und über Nacht im Kühlschrank ziehen lassen.",
+      "Am nächsten Morgen die Overnight Oats kalt servieren, eventuell mit zusätzlichen Beeren oder Nüssen garnieren."
     ],
     nutrition: {
       calories: 200,
@@ -960,20 +1069,19 @@ export const recipes: Recipe[] = [
     servings: 8,
     description: "Ein leckeres Vegan-Banana-Bread aus Bananen und verschiedenen Zutaten.",
     ingredients: [
-      "3 Bananen",
-      "100g Mehl",
-      "100g Zucker",
-      "100g Olivenöl",
-      "1 Ei",
-      "1 Teelöffel Backpulver",
-      "1 Teelöffel Backgewürz"
+      { amount: 3, name: "Bananen" },
+      { amount: 100, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Olivenöl" },
+      { amount: 1, name: "Ei" },
+      { amount: 1, unit: "Teelöffel", name: "Backpulver" },
+      { amount: 1, unit: "Teelöffel", name: "Backgewürz" }
     ],
     instructions: [
-      "Bananen schälen und zerstampfen",
-      "Mehl, Zucker, Olivenöl und Ei vermengen",
-      "Backpulver und Backgewürz hinzufügen",
-      "Bananenmasse in eine Form geben",
-      "In Ofen ziehen"
+      "Die Bananen schälen und in einer Schüssel mit einer Gabel zerdrücken. Das Mehl, den Zucker, das Olivenöl und das Ei hinzufügen und alles gut vermengen.",
+      "Das Backpulver und das Backgewürz unterheben. Den Teig in eine gefettete Kastenform füllen.",
+      "Den Backofen auf 180°C vorheizen. Das Banana Bread etwa 45 Minuten backen, bis es goldbraun ist und ein Zahnstocher sauber herauskommt.",
+      "Vor dem Servieren abkühlen lassen und in Scheiben schneiden."
     ],
     nutrition: {
       calories: 200,
@@ -993,19 +1101,18 @@ export const recipes: Recipe[] = [
     servings: 1,
     description: "Ein leckerer Smoothie-Bowl aus verschiedenen Früchten und Nüssen.",
     ingredients: [
-      "100g Früchte",
-      "100g Nüsse",
-      "100g Joghurt",
-      "100g Bananen",
-      "100g Kokosnussöl"
+      { amount: 100, unit: "g", name: "Früchte" },
+      { amount: 100, unit: "g", name: "Nüsse" },
+      { amount: 100, unit: "g", name: "Joghurt" },
+      { amount: 100, unit: "g", name: "Bananen" },
+      { amount: 100, unit: "g", name: "Kokosnussöl" }
     ],
     instructions: [
-      "Früchte schneiden",
-      "Nüsse toasten",
-      "Joghurt hinzufügen",
-      "Bananen hinzufügen",
-      "Kokosnussöl hinzufügen",
-      "Smoothie zubereiten"
+      "Die Früchte waschen und in Stücke schneiden. Die Bananen schälen und in Scheiben schneiden.",
+      "Die Früchte, Bananen und den Joghurt in einen Mixer geben und zu einem cremigen Smoothie pürieren.",
+      "Die Nüsse in einer Pfanne ohne Fett kurz anrösten, bis sie duften.",
+      "Den Smoothie in eine Schüssel gießen. Die gerösteten Nüsse und etwas Kokosnussöl darüber geben.",
+      "Die Smoothie Bowl sofort servieren, eventuell mit zusätzlichen Früchten oder Kokosflocken garnieren."
     ],
     nutrition: {
       calories: 200,
@@ -1025,21 +1132,20 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere französische Crêpe aus Mehl und Eiern.",
     ingredients: [
-      "200g Mehl",
-      "4 Eier",
-      "1 Liter Milch",
-      "100g Butter",
-      "100g Zucker",
-      "Salz",
-      "Pfeffer"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 4, name: "Eier" },
+      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Mehl und Eiern vermengen",
-      "Milch hinzufügen",
-      "Butter und Zucker hinzufügen",
-      "Salz und Pfeffer hinzufügen",
-      "Crêpes formen",
-      "In Ofen ziehen"
+      "Das Mehl in eine Schüssel geben. Die Eier hinzufügen und nach und nach die Milch unterrühren, bis ein glatter Teig entsteht.",
+      "Die Butter schmelzen und unter den Teig rühren. Mit Zucker, Salz und Pfeffer abschmecken.",
+      "Eine Pfanne bei mittlerer Hitze erhitzen und leicht mit Butter einfetten. Eine Kelle Teig in die Pfanne geben und gleichmäßig verteilen.",
+      "Die Crêpe etwa 2 Minuten backen, bis die Unterseite goldbraun ist. Wenden und weitere 1–2 Minuten backen.",
+      "Die Crêpes warm servieren, z. B. mit Nutella, frischen Früchten oder Zucker und Zimt."
     ],
     nutrition: {
       calories: 200,
@@ -1059,19 +1165,18 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Granola aus verschiedenen Nüssen.",
     ingredients: [
-      "200g Nüsse",
-      "100g Zucker",
-      "100g Olivenöl",
-      "100g Mehl",
-      "100g Backpulver"
+      { amount: 200, unit: "g", name: "Nüsse" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Olivenöl" },
+      { amount: 100, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Backpulver" }
     ],
     instructions: [
-      "Nüsse toasten",
-      "Zucker hinzufügen",
-      "Olivenöl hinzufügen",
-      "Mehl hinzufügen",
-      "Backpulver hinzufügen",
-      "Granola ziehen lassen"
+      "Die Nüsse grob hacken. In einer Schüssel den Zucker, das Olivenöl, das Mehl und das Backpulver vermengen.",
+      "Die Nüsse unter die Mischung heben und alles gut vermengen, bis eine krümelige Masse entsteht.",
+      "Den Backofen auf 160°C vorheizen. Die Granola-Mischung auf ein mit Backpapier ausgelegtes Blech verteilen.",
+      "Die Granola etwa 25–30 Minuten backen, bis sie goldbraun und knusprig ist. Gelegentlich umrühren, um ein gleichmäßiges Backen zu gewährleisten.",
+      "Die Granola abkühlen lassen und in einem luftdichten Behälter aufbewahren. Zum Servieren mit Joghurt oder Milch kombinieren."
     ],
     nutrition: {
       calories: 200,
@@ -1080,7 +1185,6 @@ export const recipes: Recipe[] = [
       fat: "10g"
     }
   },
-  // New Dessert Recipes
   {
     title: "Apfelstrudel",
     image: "/images/Desserts/apfelstrudel.jpg",
@@ -1092,20 +1196,20 @@ export const recipes: Recipe[] = [
     servings: 8,
     description: "Ein traditionelles deutsches Apfelstrudel.",
     ingredients: [
-      "200g Mehl",
-      "100g Butter",
-      "100g Zucker",
-      "1 Ei",
-      "1kg Äpfel",
-      "Salz",
-      "Muskatnuss"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 1, name: "Ei" },
+      { amount: 1, unit: "kg", name: "Äpfel" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Mehl, Butter und Zucker vermengen",
-      "Ei hinzufügen",
-      "Äpfel schälen und in Scheiben schneiden",
-      "Strudel formen",
-      "In Ofen ziehen"
+      "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei, den Zucker, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
+      "Die Äpfel schälen, entkernen und in dünne Scheiben schneiden. In einer Schüssel mit etwas Zucker und Zimt vermengen.",
+      "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Die Apfelmischung gleichmäßig auf dem Teig verteilen, dabei einen Rand von ca. 2 cm frei lassen.",
+      "Den Teig vorsichtig von einer Seite aufrollen und die Enden gut verschließen. Den Strudel auf ein mit Backpapier ausgelegtes Backblech legen.",
+      "Den Backofen auf 180°C vorheizen. Den Strudel mit etwas verquirltem Ei bestreichen und etwa 30–35 Minuten backen, bis er goldbraun ist. Warm servieren."
     ],
     nutrition: {
       calories: 300,
@@ -1125,18 +1229,17 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Eine leckere Schokoladen-Mousse aus Schokolade und Eiern.",
     ingredients: [
-      "200g Schokolade",
-      "4 Eier",
-      "100g Zucker",
-      "100g Butter",
-      "100g Sahne"
+      { amount: 200, unit: "g", name: "Schokolade" },
+      { amount: 4, name: "Eier" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Sahne" }
     ],
     instructions: [
-      "Schokolade schmelzen",
-      "Eiern und Zucker verrühren",
-      "Butter hinzufügen",
-      "Sahne hinzufügen",
-      "Mousse formen"
+      "Die Schokolade in einer Schüssel über einem Wasserbad schmelzen. Die Butter hinzufügen und unterrühren, bis alles glatt ist.",
+      "Die Eier trennen. Das Eiweiß steif schlagen und den Zucker langsam unterrühren. Das Eigelb unter die geschmolzene Schokolade heben.",
+      "Die Sahne steif schlagen und vorsichtig unter die Schokoladenmasse heben. Anschließend den Eischnee unterheben, bis eine luftige Mousse entsteht.",
+      "Die Mousse in Dessertschälchen füllen und mindestens 2 Stunden im Kühlschrank fest werden lassen. Vor dem Servieren mit Sahne oder Schokoraspeln garnieren."
     ],
     nutrition: {
       calories: 200,
@@ -1156,19 +1259,18 @@ export const recipes: Recipe[] = [
     servings: 6,
     description: "Ein leckeres Beeren-Crumble aus verschiedenen Beeren.",
     ingredients: [
-      "200g Beeren",
-      "100g Mehl",
-      "100g Zucker",
-      "100g Butter",
-      "100g Nüsse"
+      { amount: 200, unit: "g", name: "Beeren" },
+      { amount: 100, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Nüsse" }
     ],
     instructions: [
-      "Beeren waschen und trocken tupfen",
-      "Mehl und Zucker vermengen",
-      "Butter hinzufügen",
-      "Nüsse hinzufügen",
-      "Crumble formen",
-      "In Ofen ziehen"
+      "Die Beeren waschen und trocken tupfen. In einer Schüssel mit etwas Zucker vermengen und in eine ofenfeste Form geben.",
+      "Das Mehl, den restlichen Zucker und die Butter in einer Schüssel zu einer krümeligen Masse verarbeiten. Die Nüsse hacken und unter die Mischung heben.",
+      "Die Krümel gleichmäßig über die Beeren streuen. Den Backofen auf 180°C vorheizen.",
+      "Das Crumble etwa 25–30 Minuten backen, bis die Krümel goldbraun sind und die Beeren leicht blubbern.",
+      "Das Beeren-Crumble warm servieren, z. B. mit Vanilleeis oder Schlagsahne."
     ],
     nutrition: {
       calories: 200,
@@ -1188,15 +1290,14 @@ export const recipes: Recipe[] = [
     servings: 4,
     description: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",
     ingredients: [
-      "200g Rhabarber",
-      "100g Zucker",
-      "100g Wasser"
+      { amount: 200, unit: "g", name: "Rhabarber" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 100, unit: "g", name: "Wasser" }
     ],
     instructions: [
-      "Rhabarber waschen und schneiden",
-      "Rhabarber und Zucker in einem Topf köcheln",
-      "Wasser hinzufügen",
-      "Etwa 25 Minuten köcheln lassen"
+      "Den Rhabarber waschen, schälen und in kleine Stücke schneiden. In einem Topf mit dem Zucker und dem Wasser vermengen.",
+      "Das Rhabarber-Kompott bei mittlerer Hitze etwa 15–20 Minuten köcheln lassen, bis der Rhabarber weich ist und die Flüssigkeit leicht eingedickt ist.",
+      "Das Kompott abkühlen lassen und in Gläser füllen. Kalt oder warm servieren, z. B. mit Joghurt oder Vanillepudding."
     ],
     nutrition: {
       calories: 100,
@@ -1216,18 +1317,18 @@ export const recipes: Recipe[] = [
     servings: 12,
     description: "Eine leckere Zimtschnecken aus Mehl und Zimt.",
     ingredients: [
-      "200g Mehl",
-      "100g Butter",
-      "100g Zucker",
-      "1 Ei",
-      "10g Zimt"
+      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 100, unit: "g", name: "Butter" },
+      { amount: 100, unit: "g", name: "Zucker" },
+      { amount: 1, name: "Ei" },
+      { amount: 10, unit: "g", name: "Zimt" }
     ],
     instructions: [
-      "Mehl, Butter und Zucker vermengen",
-      "Ei hinzufügen",
-      "Zimt hinzufügen",
-      "Schnecken formen",
-      "In Ofen ziehen"
+      "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei und den Zucker hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
+      "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Den Zimt mit etwas Zucker vermengen und gleichmäßig auf dem Teig verteilen.",
+      "Den Teig von einer Seite aufrollen und in gleichmäßige Scheiben schneiden. Die Schnecken auf ein mit Backpapier ausgelegtes Backblech legen.",
+      "Den Backofen auf 180°C vorheizen. Die Zimtschnecken etwa 20–25 Minuten backen, bis sie goldbraun sind.",
+      "Die Zimtschnecken warm servieren, z. B. mit einem Glas Milch oder Kaffee."
     ],
     nutrition: {
       calories: 200,
@@ -1236,4 +1337,8 @@ export const recipes: Recipe[] = [
       fat: "10g"
     }
   }
-]
+];
+
+export function getRecipeBySlug(slug: string) {
+  return recipes.find((recipe) => recipe.slug === slug)
+}
