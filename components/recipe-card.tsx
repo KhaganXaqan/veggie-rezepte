@@ -7,13 +7,13 @@ import { Clock, Star } from "lucide-react"
 interface RecipeCardProps {
   title: string
   image: string
-  prepTime: string
-  rating: number
+  prepTime?: string
+  rating?: number
   category: string
   slug: string
 }
 
-export function RecipeCard({ title, image, prepTime, rating, category, slug }: RecipeCardProps) {
+export function RecipeCard({ title, image, prepTime, rating = 0, category, slug }: RecipeCardProps) {
   return (
     <Link href={`/rezepte/${slug}`} className="block focus:outline-none focus:ring-2 focus:ring-primary rounded-lg">
       <Card className="overflow-hidden transition-all hover:shadow-lg h-full">
@@ -36,14 +36,18 @@ export function RecipeCard({ title, image, prepTime, rating, category, slug }: R
             {title}
           </h3>
           <div className="flex items-center text-sm text-muted-foreground gap-4">
-            <span className="flex items-center">
-              <Clock className="mr-1 h-4 w-4" aria-hidden="true" />
-              <span>{prepTime}</span>
-            </span>
-            <span className="flex items-center ml-auto">
-              <Star className="mr-1 h-4 w-4 fill-yellow-400 text-yellow-400" aria-hidden="true" />
-              <span>{rating.toFixed(1)}</span>
-            </span>
+            {prepTime && (
+              <span className="flex items-center">
+                <Clock className="mr-1 h-4 w-4" aria-hidden="true" />
+                <span>{prepTime}</span>
+              </span>
+            )}
+            {rating > 0 && (
+              <span className="flex items-center ml-auto">
+                <Star className="mr-1 h-4 w-4 fill-yellow-400 text-yellow-400" aria-hidden="true" />
+                <span>{rating.toFixed(1)}</span>
+              </span>
+            )}
           </div>
         </CardContent>
       </Card>
