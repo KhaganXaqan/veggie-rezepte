@@ -8,6 +8,7 @@ import { SiteHeader } from "@/components/site-header"
 import { RecipeIngredients } from "@/components/recipe-ingredients"
 import { RecipeInstructions } from "@/components/recipe-instructions"
 import { RecipeNutrition } from '@/components/recipe-nutrition'
+import { RecipeSimilar } from '@/components/recipe-similar'
 import { recipes } from '@/lib/data'
 
 // This function is required for static site generation with dynamic routes
@@ -91,6 +92,16 @@ export default function RecipePage({ params }: { params: { slug: string } }) {
 
             <Separator className="my-8" />
 
+            {/* Similar Recipes */}
+            <section className="mb-8">
+              <RecipeSimilar 
+                recipes={recipes}
+                currentRecipe={recipe}
+              />
+            </section>
+
+            <Separator className="my-8" />
+
             {/* Ingredients */}
             <section className="mb-8">
               <RecipeIngredients 
@@ -119,6 +130,8 @@ export default function RecipePage({ params }: { params: { slug: string } }) {
             </section>
 
             <Separator className="my-8" />
+
+
 
             {/* Comments */}
             <RecipeComments recipeId={params.slug} />
