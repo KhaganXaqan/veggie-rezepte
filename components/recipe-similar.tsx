@@ -58,7 +58,7 @@ export function RecipeSimilar({ recipes, currentRecipe }: RecipeSimilarProps) {
             'absolute left-0 top-[calc(50%-1.5rem)] -translate-y-1/2 -translate-x-4 rounded-full p-2 shadow-md z-10 transition-all',
             canNavigatePrevious
               ? 'bg-white hover:bg-gray-50 hover:scale-110 cursor-pointer'
-              : 'opacity-0 cursor-not-allowed' // Hide and disable when no previous items
+              : 'opacity-0 ' // Hide when no previous items
           )}
           aria-label="Previous recipes"
         >
@@ -73,7 +73,7 @@ export function RecipeSimilar({ recipes, currentRecipe }: RecipeSimilarProps) {
             'absolute right-0 top-[calc(50%-1.5rem)] -translate-y-1/2 translate-x-4 rounded-full p-2 shadow-md z-10 transition-all',
             canNavigateNext
               ? 'bg-white hover:bg-gray-50 hover:scale-110 cursor-pointer'
-              : 'opacity-0 cursor-not-allowed' // Hide and disable when no next items
+              : 'opacity-0' // Hide when no next items
           )}
           aria-label="Next recipes"
         >
