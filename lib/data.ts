@@ -91,6 +91,42 @@ export const recipes: Recipe[] = [
     }
   },
   {
+    title: "Flammkuchen",
+    image: "/images/MainCourses/flammkuchen.webp",
+    prepTime: "30 Min.",
+    rating: 4.8,
+    category: "Hauptgerichte",
+    slug: "flammkuchen",
+    tags: ["Traditionell", "Hauptgerichte", "Flammkuchen"],
+    servings: 4,
+    description: "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
+    ingredients: [
+      { amount: 250, unit: "g", name: "Mehl" },
+      { amount: 125, unit: "ml", name: "Wasser" },
+      { amount: 2, unit: "EL", name: "Olivenöl" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 200, unit: "g", name: "Crème fraîche" },
+      { amount: 2, unit: "", name: "Zwiebeln (dünn geschnitten)" },
+      { amount: 100, unit: "g", name: "Gruyère oder Emmentaler (gerieben)" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
+    ],
+    instructions: [
+      "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
+      "Für den Teig Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig verkneten. Den Teig dünn ausrollen und auf das Backblech legen.",
+      "Die Crème fraîche gleichmäßig auf dem Teig verteilen. Mit Salz und Pfeffer würzen.",
+      "Die dünn geschnittenen Zwiebeln gleichmäßig auf der Crème fraîche verteilen. Den geriebenen Käse darüberstreuen.",
+      "Den Flammkuchen im vorgeheizten Ofen für 10–12 Minuten backen, bis der Rand knusprig und der Käse goldbraun ist.",
+      "Heiß servieren und genießen!"
+    ],
+    nutrition: {
+      calories: 350,
+      protein: "10g",
+      carbs: "40g",
+      fat: "15g"
+    }
+  },
+  {
     title: "Käsespätzle",
     image: "/images/MainCourses/kaesespaetzle.jpg",
     prepTime: "45 Min.",
