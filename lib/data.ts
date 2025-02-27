@@ -508,7 +508,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Gefüllte Paprika",
-    image: "/images/MainCourses/gefuellte-paprika.jpg",
+    image: "/images/MainCourses/gefuellte-paprika.webp",
     prepTime: "40 Min.",
     rating: 4.5,
     category: "Hauptgerichte",
