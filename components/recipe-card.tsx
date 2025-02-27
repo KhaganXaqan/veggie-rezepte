@@ -25,7 +25,6 @@ export function RecipeCard({ title, image, prepTime, rating, category, slug }: R
             alt={title || 'Recipe image'}
             fill
             className="object-cover"
-            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
             loading="lazy"
             priority={false}
           />
