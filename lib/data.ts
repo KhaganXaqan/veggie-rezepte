@@ -866,6 +866,36 @@ export const recipes: Recipe[] = [
     }
   },
   {
+    "title": "Klassisches Rührei",
+    "image": "/images/Frühstück/klassisches-ruehrei.webp",
+    "prepTime": "10 Min.",
+    "rating": 4.7,
+    "category": "Frühstück",
+    "slug": "klassisches-ruehrei",
+    "tags": ["Frühstück", "Eier", "Klassisch"],
+    "servings": 2,
+    "description": "Ein einfaches und leckeres Rezept für klassisches Rührei, das perfekt zum Frühstück passt.",
+    "ingredients": [
+      { "amount": 4, "unit": "Stück", "name": "Eier" },
+      { "amount": 2, "unit": "EL", "name": "Milch" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+      { "amount": 1, "unit": "EL", "name": "Butter" }
+    ],
+    "instructions": [
+      "Die Eier in einer Schüssel aufschlagen und mit Milch, Salz und Pfeffer gut verquirlen.",
+      "Eine Pfanne bei mittlerer Hitze erhitzen und die Butter darin schmelzen lassen.",
+      "Die Eiermischung in die Pfanne geben und langsam unter Rühren stocken lassen. Gelegentlich umrühren, um eine gleichmäßige Konsistenz zu erreichen.",
+      "Das Rührei nach Wunsch cremig oder fester kochen und sofort servieren."
+    ],
+    "nutrition": {
+      "calories": 200,
+      "protein": "12g",
+      "carbs": "1.5g",
+      "fat": "16g"
+    }
+  },
+  {
     title: "Overnight Oats mit Beeren",
     image: "/images/Desserts/OvernightOatsmitBeeren.webp",
     prepTime: "10 Min. + 8 Std.",
