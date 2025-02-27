@@ -4,6 +4,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Clock, Star } from "lucide-react"
 
+const defaultImage = "https://placehold.co/600x400/png"
+
 interface RecipeCardProps {
   title?: string
   image?: string
@@ -19,8 +21,8 @@ export function RecipeCard({ title, image, prepTime, rating, category, slug }: R
       <Card className="overflow-hidden transition-all hover:shadow-lg h-full">
         <div className="aspect-video relative">
           <Image
-            src={image}
-            alt={title}
+            src={image || defaultImage}
+            alt={title || 'Recipe image'}
             fill
             className="object-cover"
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
