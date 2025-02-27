@@ -5,12 +5,12 @@ import { Badge } from "@/components/ui/badge"
 import { Clock, Star } from "lucide-react"
 
 interface RecipeCardProps {
-  title: string
-  image: string
-  prepTime: string
-  rating: number
-  category: string
-  slug: string
+  title?: string
+  image?: string
+  prepTime?: string
+  rating?: number
+  category?: string
+  slug?: string
 }
 
 export function RecipeCard({ title, image, prepTime, rating, category, slug }: RecipeCardProps) {
@@ -42,7 +42,7 @@ export function RecipeCard({ title, image, prepTime, rating, category, slug }: R
             </span>
             <span className="flex items-center ml-auto">
               <Star className="mr-1 h-4 w-4 fill-yellow-400 text-yellow-400" aria-hidden="true" />
-              <span>{rating.toFixed(1)}</span>
+              <span>{rating?.toFixed(1)}</span>
             </span>
           </div>
         </CardContent>

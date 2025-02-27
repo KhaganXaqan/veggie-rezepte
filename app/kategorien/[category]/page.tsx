@@ -37,6 +37,8 @@ export default function CategoryPage({ params }: { params: { category: string } 
       <main className="flex-1 container py-8">
         <h1 className="text-4xl font-bold mb-8">{categoryName}</h1>
         
+        
+
         <div className="category-recipes">
           {categoryRecipes.map((recipe, index) => (
             <RecipeCardMasonry 
