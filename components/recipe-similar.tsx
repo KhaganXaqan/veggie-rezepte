@@ -91,7 +91,7 @@ export function RecipeSimilar({ recipes, currentRecipe }: RecipeSimilarProps) {
             {similarRecipes.map((recipe, index) => (
               <Link
                 key={recipe.slug}
-                href={`/rezepte/${recipe.slug}`}
+                href={`/${recipe.slug}`}
                 className={cn(
                   'flex-none w-[calc(33.333%-0.67rem)] transition-opacity duration-500',
                   index >= currentIndex && index < currentIndex + recipesPerPage
