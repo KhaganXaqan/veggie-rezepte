@@ -55,7 +55,7 @@ export default function Home() {
             <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
               Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche
             </p>
-            <Link href="/suche">
+            <Link href="/rezepte/alle">
               <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
                 Rezepte entdecken
               </Button>

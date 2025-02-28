@@ -56,23 +56,26 @@ export function SiteHeader() {
       <div className="container flex h-16 items-center">
         <MobileNav />
         <div className="flex items-center space-x-4 lg:space-x-6">
-          <Link href="/" className="flex items-center space-x-2">
-            <Image
-              src="/images/logo/logo.png"
-              alt="Veggie-Rezepte.de Logo"
-              width={40}
-              height={40}
-              className="h-10 w-auto"
-              priority
-            />
-            <span className="text-xl font-bold text-primary">Veggie-Rezepte.de</span>
+          <Link href="/" className="flex items-center space-x-2" aria-label="Veggie Rezepte - Startseite">
+            <div className="flex items-center">
+              <span className="text-lg font-bold text-orange-500">Veggie</span>
+              <Image
+                src="/images/logo/logo.png"
+                alt="Veggie Rezepte Logo"
+                width={40}
+                height={40}
+                className="h-10 w-auto"
+                priority
+              />
+              <span className="text-lg font-bold text-orange-500">Rezepte</span>
+            </div>
           </Link>
-          <nav className="hidden lg:flex items-center space-x-4">
-            <Link href="/kategorien" className="text-muted-foreground hover:text-foreground">
-              Kategorien
-            </Link>
-            <Link href="/suche" className="text-muted-foreground hover:text-foreground">
+          <nav className="flex items-center space-x-6 text-sm font-medium">
+            <Link href="/rezepte/alle" className="transition-colors hover:text-foreground/80">
               Rezepte
+            </Link>
+            <Link href="/kategorien" className="transition-colors hover:text-foreground/80">
+              Kategorien
             </Link>
           </nav>
         </div>

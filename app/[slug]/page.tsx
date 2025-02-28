@@ -96,4 +96,4 @@ export default function RecipePage({ params }: RecipePageProps) {
       </div>
     </div>
   )
-}
+} 
