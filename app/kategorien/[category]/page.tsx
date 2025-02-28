@@ -1,5 +1,4 @@
 import { SiteHeader } from "@/components/site-header"
-import { RecipeCard } from "@/components/recipe-card"
 import { recipes } from "@/lib/data"
 import { categoryNames } from '@/lib/constants'
 import { RecipeCardMasonry } from "@/components/recipe-card-masonry"
@@ -34,11 +33,11 @@ export default function CategoryPage({ params }: { params: { category: string } 
   return (
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
-      <main className="flex-1 container py-8">
-        <h1 className="text-4xl font-bold mb-8">{categoryName}</h1>
+      <main className="flex-1">
+        <div className="container py-8">
+          <h1 className="text-4xl font-bold mb-8">{categoryName}</h1>
+        </div>
         
-        
-
         <div className="category-recipes">
           {categoryRecipes.map((recipe, index) => (
             <RecipeCardMasonry 
@@ -50,8 +49,10 @@ export default function CategoryPage({ params }: { params: { category: string } 
         </div>
 
         {categoryRecipes.length === 0 && (
-          <div className="text-center text-muted-foreground py-12">
-            Keine Rezepte in dieser Kategorie gefunden.
+          <div className="container">
+            <div className="text-center text-muted-foreground py-12">
+              Keine Rezepte in dieser Kategorie gefunden.
+            </div>
           </div>
         )}
       </main>

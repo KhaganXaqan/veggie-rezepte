@@ -86,11 +86,18 @@ export default function Home() {
         </section>
 
         {/* Featured Recipes */}
-        <section className="container py-16">
-          <h2 className="text-3xl font-bold mb-8">Beliebte Rezepte</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <section className="container py-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {featuredRecipes.map((recipe) => (
-              <RecipeCard key={recipe.slug} {...recipe} />
+              <RecipeCard
+                key={recipe.slug}
+                title={recipe.title}
+                image={recipe.image}
+                prepTime={recipe.prepTime}
+                rating={recipe.rating}
+                category={recipe.category}
+                slug={recipe.slug}
+              />
             ))}
           </div>
         </section>

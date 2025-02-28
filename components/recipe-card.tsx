@@ -17,9 +17,9 @@ interface RecipeCardProps {
 
 export function RecipeCard({ title, image, prepTime, rating, category, slug }: RecipeCardProps) {
   return (
-    <Link href={`/rezepte/${slug}`} className="block focus:outline-none focus:ring-2 focus:ring-primary rounded-lg">
-      <Card className="overflow-hidden transition-all hover:shadow-lg h-full">
-        <div className="aspect-video relative">
+    <Link href={`/rezepte/${slug}`} className="block w-full h-full focus:outline-none focus:ring-2 focus:ring-primary rounded-lg">
+      <Card className="overflow-hidden transition-all hover:shadow-lg h-full flex flex-col">
+        <div className="aspect-[4/3] relative w-full">
           <Image
             src={image || defaultImage}
             alt={title || 'Recipe image'}
@@ -29,14 +29,14 @@ export function RecipeCard({ title, image, prepTime, rating, category, slug }: R
             priority={false}
           />
         </div>
-        <CardContent className="p-4">
-          <Badge variant="secondary" className="mb-2">
+        <CardContent className="p-4 flex flex-col flex-grow">
+          <Badge variant="secondary" className="mb-2 w-fit">
             {category}
           </Badge>
-          <h3 className="text-lg font-semibold line-clamp-2 mb-2 group-hover:text-primary transition-colors">
+          <h3 className="text-lg font-semibold line-clamp-2 mb-2 flex-grow">
             {title}
           </h3>
-          <div className="flex items-center text-sm text-muted-foreground gap-4">
+          <div className="flex items-center text-sm text-muted-foreground gap-4 mt-auto">
             <span className="flex items-center">
               <Clock className="mr-1 h-4 w-4" aria-hidden="true" />
               <span>{prepTime}</span>
