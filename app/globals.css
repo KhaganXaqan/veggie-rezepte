@@ -128,12 +128,21 @@
   }
 
   .fav-recipe-card-title a {
-    color: inherit;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.4;
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    line-height: 1em !important;
+    color: #0b3558 !important;
     display: block;
+    transition: .3s;
+    text-decoration: none !important;
+    text-align: left;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+
+    &:hover {
+      color: #db747a !important;
+    }
   }
 
   .fav-button {
@@ -237,18 +246,6 @@
       color: var(--bs-body-color);
       -webkit-font-smoothing: antialiased;
       box-sizing: border-box;
-
-      &.tall {
-        .fav-recipe-card-thumb {
-          height: 405px !important;
-        }
-      }
-
-      &.short {
-        .fav-recipe-card-thumb {
-          height: 250px !important;
-        }
-      }
     }
 
     .fav-recipe-card-thumb {
@@ -304,7 +301,7 @@
       -webkit-font-smoothing: antialiased;
 
       a {
-        font-size: 18px !important;
+        font-size: 15px !important;
         font-weight: 700 !important;
         line-height: 1.1 !important;
         color: #db747a !important;

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from "next/link"
+import Image from "next/image"
 import type { Recipe } from "@/lib/data"
 
 export function RecipeCardMasonry({ 
@@ -22,37 +23,58 @@ export function RecipeCardMasonry({
     ? (positionInRow === 0 || positionInRow === 2) // First row pattern
     : (positionInRow === 1 || positionInRow === 2) // Second row pattern
 
+  const baseStyles = {
+    margin: 0,
+    padding: 0,
+    fontFamily: '"Source Sans 3", sans-serif',
+    outline: 0,
+    color: "#0b3558",
+    fontSize: "18px",
+    lineHeight: 1.625,
+    WebkitFontSmoothing: "antialiased",
+    MozOsxFontSmoothing: "grayscale"
+  }
+
   return (
     <div className={`fav-recipe-card ${isTall ? 'tall' : 'short'}`}>
       <div className="fav-recipe-card-thumb">
-        <Link 
-          href={`/rezepte/${recipe.slug}`}
-          title={recipe.title}
-        >
-          <img
-            src={recipe.image}
-            alt={recipe.title}
-            width={292.75}
-            height={isTall ? 405 : 250}
-            className="w-full h-full object-cover"
-          />
-        </Link>
+        <Image
+          src={recipe.image}
+          alt={recipe.title}
+          width={292}
+          height={isTall ? 405 : 250}
+          className="object-cover"
+        />
       </div>
       <div className="fav-recipe-card-title">
-        <Link 
-          href={`/rezepte/${recipe.slug}`}
-          title={recipe.title}
-        >
+        <Link href={`/rezepte/${recipe.slug}`} style={{
+          ...baseStyles,
+          fontSize: "22px !important",
+          fontWeight: "800 !important",
+          lineHeight: "1em !important",
+          color: "#0b3558 !important",
+          display: "block",
+          transition: ".3s",
+          textDecoration: "none !important",
+          textAlign: "left"
+        }}>
           {recipe.title}
         </Link>
-        <div className="details-link">
-          <Link 
-            href={`/rezepte/${recipe.slug}`}
-            title={recipe.title}
-          >
-            Rezeptdetails <i className="fas fa-arrow-right"></i>
-          </Link>
-        </div>
+      </div>
+      <div className="details-link">
+        <Link href={`/rezepte/${recipe.slug}`} style={{
+          ...baseStyles,
+          fontSize: "15px",
+          fontWeight: 700,
+          lineHeight: 1.1,
+          color: "#db747a",
+          display: "inline-block",
+          transition: ".3s",
+          position: "relative",
+          paddingBottom: "5px"
+        }}>
+          Rezeptdetails <i className="fas fa-arrow-right"></i>
+        </Link>
       </div>
     </div>
   )
