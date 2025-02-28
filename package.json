@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "postinstall": "npm install critters@0.0.20 --save-dev"
+    "postinstall": "npm install critters@0.0.20 --save-dev",
+    "clean": "rimraf .next out"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -74,6 +75,7 @@
   },
   "devDependencies": {
     "critters": "^0.0.20",
-    "postcss-nesting": "^13.0.1"
+    "postcss-nesting": "^13.0.1",
+    "rimraf": "^6.0.1"
   }
 }

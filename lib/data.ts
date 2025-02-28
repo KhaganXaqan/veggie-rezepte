@@ -58,7 +58,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Spinat-Käse Lasagne",
-    image: "/images/MainCourses/spinat-kaese-lasagne.jpg",
+    image: "/images/MainCourses/spinat-kaese-lasagne.webp",
     prepTime: "50 Min.",
     rating: 4.7,
     category: "Aufläufe",
@@ -91,8 +91,44 @@ export const recipes: Recipe[] = [
     }
   },
   {
+    title: "Flammkuchen",
+    image: "/images/MainCourses/flammkuchen.webp",
+    prepTime: "30 Min.",
+    rating: 4.8,
+    category: "Hauptgerichte",
+    slug: "flammkuchen",
+    tags: ["Traditionell", "Hauptgerichte", "Flammkuchen"],
+    servings: 4,
+    description: "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
+    ingredients: [
+      { amount: 250, unit: "g", name: "Mehl" },
+      { amount: 125, unit: "ml", name: "Wasser" },
+      { amount: 2, unit: "EL", name: "Olivenöl" },
+      { amount: 1, unit: "Prise", name: "Salz" },
+      { amount: 200, unit: "g", name: "Crème fraîche" },
+      { amount: 2, unit: "", name: "Zwiebeln (dünn geschnitten)" },
+      { amount: 100, unit: "g", name: "Gruyère oder Emmentaler (gerieben)" },
+      { amount: undefined, unit: "", name: "Salz" },
+      { amount: undefined, unit: "", name: "Pfeffer" }
+    ],
+    instructions: [
+      "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
+      "Für den Teig Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig verkneten. Den Teig dünn ausrollen und auf das Backblech legen.",
+      "Die Crème fraîche gleichmäßig auf dem Teig verteilen. Mit Salz und Pfeffer würzen.",
+      "Die dünn geschnittenen Zwiebeln gleichmäßig auf der Crème fraîche verteilen. Den geriebenen Käse darüberstreuen.",
+      "Den Flammkuchen im vorgeheizten Ofen für 10–12 Minuten backen, bis der Rand knusprig und der Käse goldbraun ist.",
+      "Heiß servieren und genießen!"
+    ],
+    nutrition: {
+      calories: 350,
+      protein: "10g",
+      carbs: "40g",
+      fat: "15g"
+    }
+  },
+  {
     title: "Käsespätzle",
-    image: "/images/MainCourses/kaesespaetzle.jpg",
+    image: "/images/MainCourses/kaesespaetzle.webp",
     prepTime: "45 Min.",
     rating: 4.9,
     category: "Hauptgerichte",
@@ -124,7 +160,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Kartoffelpuffer",
-    image: "/images/Miscellaneous/kartoffelpuffer.jpg",
+    image: "/images/Miscellaneous/kartoffelpuffer.webp",
     prepTime: "30 Min.",
     rating: 4.8,
     category: "Hauptgerichte",
@@ -156,7 +192,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Semmelknödel",
-    image: "/images/Miscellaneous/semmelknoedel.jpg",
+    image: "/images/Miscellaneous/semmelknoedel.webp",
     prepTime: "40 Min.",
     rating: 4.6,
     category: "Hauptgerichte",
@@ -220,7 +256,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Gemüsestrudel",
-    image: "/images/Miscellaneous/gemuesestrudel.jpg",
+    image: "/images/Miscellaneous/gemuesestrudel.webp",
     prepTime: "75 Min.",
     rating: 4.7,
     category: "Hauptgerichte",
@@ -253,7 +289,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Grießnockerl",
-    image: "/images/Miscellaneous/griessnockerl.jpg",
+    image: "/images/Miscellaneous/griessnockerl.webp",
     prepTime: "35 Min.",
     rating: 4.6,
     category: "Suppen",
@@ -283,7 +319,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Spinatknödel",
-    image: "/images/Miscellaneous/spinatknoedel.jpg",
+    image: "/images/Miscellaneous/spinatknoedel.webp",
     prepTime: "55 Min.",
     rating: 4.8,
     category: "Hauptgerichte",
@@ -316,7 +352,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Gemüsesuppe",
-    image: "/images/Soups/gemuesesuppe.jpg",
+    image: "/images/Soups/gemuesesuppe.webp",
     prepTime: "40 Min.",
     rating: 4.5,
     category: "Suppen",
@@ -345,7 +381,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Kartoffelgratin",
-    image: "/images/MainCourses/kartoffelgratin.jpg",
+    image: "/images/MainCourses/kartoffelgratin.webp",
     prepTime: "60 Min.",
     rating: 4.9,
     category: "Aufläufe",
@@ -378,7 +414,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Quinoa-Buddha-Bowl",
-    image: "/images/MainCourses/quinoa-buddha-bowl.jpg",
+    image: "/images/MainCourses/quinoa-buddha-bowl.webp",
     prepTime: "25 Min.",
     rating: 4.7,
     category: "Hauptgerichte",
@@ -410,7 +446,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Ratatouille",
-    image: "/images/Miscellaneous/ratatouille.jpeg",
+    image: "/images/Miscellaneous/ratatouille.webp",
     prepTime: "45 Min.",
     rating: 4.6,
     category: "Hauptgerichte",
@@ -475,7 +511,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Brokkoli-Quiche",
-    image: "/images/MainCourses/brokkoli-quiche.jpg",
+    image: "/images/MainCourses/brokkoli-quiche.webp",
     prepTime: "55 Min.",
     rating: 4.6,
     category: "Hauptgerichte",
@@ -540,7 +576,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Kürbissuppe",
-    image: "/images/Soups/kuerbissuppe.jpg",
+    image: "/images/Soups/kuerbissuppe.webp",
     prepTime: "35 Min.",
     rating: 4.8,
     category: "Suppen",
@@ -572,7 +608,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Mediterraner Nudelsalat",
-    image: "/images/Salads/mediterraner-nudelsalat.jpg",
+    image: "/images/Salads/mediterraner-nudelsalat.webp",
     prepTime: "20 Min.",
     rating: 4.4,
     category: "Salate",
@@ -606,7 +642,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Griechischer Bauernsalat",
-    image: "/images/Salads/griechischer-bauernsalat.jpg",
+    image: "/images/Salads/griechischer-bauernsalat.webp",
     prepTime: "15 Min.",
     rating: 4.5,
     category: "Salate",
@@ -637,7 +673,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Linsen-Bolognese",
-    image: "/images/MainCourses/linsen-bolognese.jpg",
+    image: "/images/MainCourses/linsen-bolognese.webp",
     prepTime: "40 Min.",
     rating: 4.7,
     category: "Hauptgerichte",
@@ -671,7 +707,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Süßkartoffel-Kokos-Suppe",
-    image: "/images/Soups/suesskartoffel-kokos-suppe.jpg",
+    image: "/images/Soups/suesskartoffel-kokos-suppe.webp",
     prepTime: "35 Min.",
     rating: 4.8,
     category: "Suppen",
@@ -703,7 +739,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Bunter Quinoa-Salat",
-    image: "/images/Salads/bunter-quinoa-salat.jpg",
+    image: "/images/Salads/bunter-quinoa-salat.webp",
     prepTime: "25 Min.",
     rating: 4.6,
     category: "Salate",
@@ -735,7 +771,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Gemüse-Couscous-Salat",
-    image: "/images/Salads/gemuese-couscous-salat.jpg",
+    image: "/images/Salads/gemuese-couscous-salat.webp",
     prepTime: "20 Min.",
     rating: 4.5,
     category: "Salate",
@@ -897,7 +933,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Overnight Oats mit Beeren",
-    image: "/images/Desserts/OvernightOatsmitBeeren.webp",
+    image: "/images/Frühstück/overnight-oats-beeren.webp",
     prepTime: "10 Min. + 8 Std.",
     rating: 4.7,
     category: "Frühstück",
@@ -960,7 +996,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Smoothie Bowl",
-    image: "/images/Frühstück/smoothie-bowl.jpg",
+    image: "/images/Frühstück/smoothie-bowl.webp",
     prepTime: "15 Min.",
     rating: 4.6,
     category: "Frühstück",
@@ -991,7 +1027,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Französische Crêpes",
-    image: "/images/Frühstück/franzoesische-crepes.jpg",
+    image: "/images/Frühstück/franzoesische-crepes.webp",
     prepTime: "30 Min.",
     rating: 4.9,
     category: "Frühstück",
@@ -1024,7 +1060,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Granola mit Nüssen",
-    image: "/images/Desserts/granola-nuesse.jpg",
+    image: "/images/Frühstück/granola-nuesse.webp",
     prepTime: "40 Min.",
     rating: 4.7,
     category: "Frühstück",
@@ -1055,7 +1091,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Apfelstrudel",
-    image: "/images/Desserts/apfelstrudel.jpg",
+    image: "/images/Desserts/apfelstrudel.webp",
     prepTime: "60 Min.",
     rating: 4.8,
     category: "Desserts",
@@ -1176,7 +1212,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Zimtschnecken",
-    image: "/images/Desserts/zimtschnecken.jpg",
+    image: "/images/Desserts/zimtschnecken.webp",
     prepTime: "90 Min.",
     rating: 4.8,
     category: "Desserts",

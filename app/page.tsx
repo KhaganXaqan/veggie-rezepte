@@ -15,7 +15,7 @@ const featuredRecipes = [
   },
   {
     title: "Spinat-Käse Lasagne",
-    image: "images/MainCourses/spinat-kaese-lasagne.avif",
+    image: "images/MainCourses/spinat-kaese-lasagne.jpg",
     prepTime: "50 Min.",
     rating: 4.7,
     category: "Aufläufe",
@@ -23,7 +23,7 @@ const featuredRecipes = [
   },
   {
     title: "Käsespätzle",
-    image: "images/MainCourses/kaesespaetzle.avif",
+    image: "images/MainCourses/kaesespaetzle.jpg",
     prepTime: "45 Min.",
     rating: 4.9,
     category: "Traditionell",
@@ -41,7 +41,7 @@ export default function Home() {
           <div className="absolute inset-0">
             <div className="absolute inset-0 bg-black/40 z-10" />
             <Image
-              src="https://images.unsplash.com/photo-1540914124281-342587941389?q=80&w=2671&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1540914124281-342587941389?q=80&w=1920&auto=format&fit=crop&fm=webp"
               alt="Hero Background"
               fill
               className="object-cover"
