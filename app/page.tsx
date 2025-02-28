@@ -1,8 +1,14 @@
+import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { SiteHeader } from "@/components/site-header"
 import { RecipeCard } from "@/components/recipe-card"
 import { Button } from "@/components/ui/button"
+
+export const metadata: Metadata = {
+  title: "Vegetarische Rezepte | Veggie Rezepte",
+  description: "Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche",
+}
 
 const featuredRecipes = [
   {
@@ -49,9 +55,11 @@ export default function Home() {
             />
           </div>
           <div className="relative z-20 text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Entdecke köstliche vegetarische Rezepte
-            </h1>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                Vegetarische Rezepte
+              </h1>
+            </div>
             <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
               Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche
             </p>

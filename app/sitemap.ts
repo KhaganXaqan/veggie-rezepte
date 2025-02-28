@@ -1,27 +1,34 @@
 import { MetadataRoute } from 'next'
 import { recipes } from '@/lib/data'
-import { categoryNames } from '@/lib/constants'
 
-export default async function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://veggie-rezepte.de'
 
   // Base routes
   const routes = [
-    "",
-    "/rezepte/alle",
-    "/kategorien",
+    '',
+    '/rezepte/alle',
+    '/kategorien',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date().toISOString(),
   }))
 
   // Category routes
-  const categoryRoutes = Object.keys(categoryNames).map((category) => ({
+  const categories = [
+    'hauptgerichte',
+    'auflaeufe',
+    'suppen',
+    'salate',
+    'traditionell'
+  ]
+  
+  const categoryRoutes = categories.map((category) => ({
     url: `${baseUrl}/kategorien/${category}`,
     lastModified: new Date().toISOString(),
   }))
 
-  // Recipe routes - now at root level
+  // Recipe routes - using the recipes array directly
   const recipeRoutes = recipes.map((recipe) => ({
     url: `${baseUrl}/${recipe.slug}`,
     lastModified: new Date().toISOString(),
