@@ -38,13 +38,15 @@ export function RecipeCardMasonry({
   return (
     <div className={`fav-recipe-card ${isTall ? 'tall' : 'short'}`}>
       <div className="fav-recipe-card-thumb">
-        <Image
-          src={recipe.image}
-          alt={recipe.title}
-          width={292}
-          height={isTall ? 405 : 250}
-          className="object-cover"
-        />
+        <Link href={`/rezepte/${recipe.slug}`}>
+          <Image
+            src={recipe.image}
+            alt={recipe.title}
+            width={292}
+            height={isTall ? 405 : 250}
+            className="object-cover"
+          />
+        </Link>
       </div>
       <div className="fav-recipe-card-title">
         <Link href={`/rezepte/${recipe.slug}`} style={{
