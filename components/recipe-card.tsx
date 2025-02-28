@@ -17,7 +17,7 @@ interface RecipeCardProps {
 
 export function RecipeCard({ title, image, prepTime, rating, category, slug }: RecipeCardProps) {
   return (
-    <Link href={`/rezepte/${slug}`} className="block w-full h-full focus:outline-none focus:ring-2 focus:ring-primary rounded-lg">
+    <Link href={`/${slug}`} className="block w-full h-full focus:outline-none focus:ring-2 focus:ring-primary rounded-lg">
       <Card className="overflow-hidden transition-all hover:shadow-lg h-full flex flex-col">
         <div className="aspect-[4/3] relative w-full">
           <Image

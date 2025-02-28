@@ -38,7 +38,7 @@ export function RecipeCardMasonry({
   return (
     <div className={`fav-recipe-card ${isTall ? 'tall' : 'short'}`}>
       <div className="fav-recipe-card-thumb">
-        <Link href={`/rezepte/${recipe.slug}`}>
+        <Link href={`/${recipe.slug}`}>
           <Image
             src={recipe.image}
             alt={recipe.title}
@@ -49,7 +49,7 @@ export function RecipeCardMasonry({
         </Link>
       </div>
       <div className="fav-recipe-card-title">
-        <Link href={`/rezepte/${recipe.slug}`} style={{
+        <Link href={`/${recipe.slug}`} style={{
           ...baseStyles,
           fontSize: "22px !important",
           fontWeight: "800 !important",
@@ -64,7 +64,7 @@ export function RecipeCardMasonry({
         </Link>
       </div>
       <div className="details-link">
-        <Link href={`/rezepte/${recipe.slug}`} style={{
+        <Link href={`/${recipe.slug}`} style={{
           ...baseStyles,
           fontSize: "15px",
           fontWeight: 700,
