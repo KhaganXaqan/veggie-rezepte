@@ -21,7 +21,7 @@ const featuredRecipes = [
   },
   {
     title: "Spinat-Käse Lasagne",
-    image: "images/MainCourses/spinat-kaese-lasagne.jpg",
+    image: "images/MainCourses/spinat-kaese-lasagne.webp",
     prepTime: "50 Min.",
     rating: 4.7,
     category: "Aufläufe",
@@ -29,7 +29,7 @@ const featuredRecipes = [
   },
   {
     title: "Käsespätzle",
-    image: "images/MainCourses/kaesespaetzle.jpg",
+    image: "images/MainCourses/kaesespaetzle.webp",
     prepTime: "45 Min.",
     rating: 4.9,
     category: "Traditionell",
