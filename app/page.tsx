@@ -62,6 +62,148 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Categories Section */}
+        <section className="cp-list layout-beta max-w-[1168px] mx-auto my-[50px] relative">
+          <div className="cp-list__inner grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-4">
+            <Link href="/rezepte/alle?tag=Mediterran" className="cat flex flex-col items-center">
+              <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
+                <Image
+                  alt="Mediterrane Rezepte"
+                  loading="lazy"
+                  decoding="async"
+                  width={120}
+                  height={120}
+                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=120&auto=format&fit=crop&fm=webp"
+                  sizes="(max-width: 120px) 100vw, 120px"
+                />
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Mediterran</span>
+            </Link>
+
+            <Link href="/rezepte/alle?tag=Schnell" className="cat flex flex-col items-center">
+              <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
+                <Image
+                  alt="Schnelle Rezepte"
+                  loading="lazy"
+                  decoding="async"
+                  width={120}
+                  height={120}
+                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?q=80&w=120&auto=format&fit=crop&fm=webp"
+                  sizes="(max-width: 120px) 100vw, 120px"
+                />
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Schnell</span>
+            </Link>
+
+            <Link href="/rezepte/alle?tag=Gemüse" className="cat flex flex-col items-center">
+              <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
+                <Image
+                  alt="Gemüse Rezepte"
+                  loading="lazy"
+                  decoding="async"
+                  width={120}
+                  height={120}
+                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?q=80&w=120&auto=format&fit=crop&fm=webp"
+                  sizes="(max-width: 120px) 100vw, 120px"
+                />
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Gemüse</span>
+            </Link>
+
+            <Link href="/rezepte/alle?tag=Bowl" className="cat flex flex-col items-center">
+              <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
+                <Image
+                  alt="Bowl Rezepte"
+                  loading="lazy"
+                  decoding="async"
+                  width={120}
+                  height={120}
+                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=120&auto=format&fit=crop&fm=webp"
+                  sizes="(max-width: 120px) 100vw, 120px"
+                />
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Bowl</span>
+            </Link>
+
+            <Link href="/rezepte/alle?tag=Beilage" className="cat flex flex-col items-center">
+              <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
+                <Image
+                  alt="Beilage Rezepte"
+                  loading="lazy"
+                  decoding="async"
+                  width={120}
+                  height={120}
+                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=120&auto=format&fit=crop&fm=webp"
+                  sizes="(max-width: 120px) 100vw, 120px"
+                />
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Beilage</span>
+            </Link>
+
+            <Link href="/rezepte/alle?tag=Käse" className="cat flex flex-col items-center">
+              <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
+                <Image
+                  alt="Käse Rezepte"
+                  loading="lazy"
+                  decoding="async"
+                  width={120}
+                  height={120}
+                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=120&auto=format&fit=crop&fm=webp"
+                  sizes="(max-width: 120px) 100vw, 120px"
+                />
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Käse</span>
+            </Link>
+
+            <Link href="/rezepte/alle?tag=Pasta" className="cat flex flex-col items-center">
+              <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
+                <Image
+                  alt="Pasta Rezepte"
+                  loading="lazy"
+                  decoding="async"
+                  width={120}
+                  height={120}
+                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?q=80&w=120&auto=format&fit=crop&fm=webp"
+                  sizes="(max-width: 120px) 100vw, 120px"
+                />
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Pasta</span>
+            </Link>
+
+            <Link href="/rezepte/alle?tag=Indisch" className="cat flex flex-col items-center">
+              <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
+                <Image
+                  alt="Indische Rezepte"
+                  loading="lazy"
+                  decoding="async"
+                  width={120}
+                  height={120}
+                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=120&auto=format&fit=crop&fm=webp"
+                  sizes="(max-width: 120px) 100vw, 120px"
+                />
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Indisch</span>
+            </Link>
+
+            <Link href="/rezepte/alle" className="cat cat--all-recipes flex flex-col items-center">
+              <span className="cat__icon w-[120px] h-[120px] flex items-center justify-center rounded-full bg-brand">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-black">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </span>
+              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Alle Rezepte</span>
+            </Link>
+          </div>
+        </section>
+
         {/* Recipe Sections */}
         <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
@@ -124,11 +266,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-lg font-bold">
+                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
@@ -164,11 +306,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-lg font-bold">
+                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
@@ -204,11 +346,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-lg font-bold">
+                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
@@ -244,11 +386,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-lg font-bold">
+                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
@@ -284,11 +426,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-lg font-bold">
+                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
