@@ -58,7 +58,7 @@ export function SiteHeader() {
         <div className="flex items-center space-x-4 lg:space-x-6">
           <Link href="/" className="flex items-center space-x-2" aria-label="Veggie Rezepte - Startseite">
             <div className="flex items-center">
-              <span className="text-lg font-bold text-orange-500">Veggie</span>
+              <span className="text-xl font-bold text-brand">Veggie</span>
               <Image
                 src="/images/logo/logo.png"
                 alt="Veggie Rezepte Logo"
@@ -67,7 +67,7 @@ export function SiteHeader() {
                 className="h-10 w-auto"
                 priority
               />
-              <span className="text-lg font-bold text-orange-500">Rezepte</span>
+              <span className="text-xl font-bold text-brand">Rezepte</span>
             </div>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
