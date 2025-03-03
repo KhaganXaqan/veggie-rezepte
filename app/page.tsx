@@ -72,7 +72,7 @@ export default function Home() {
           <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {mainCourses.slice(0, 4).map((recipe: Recipe) => (
               <article key={recipe.slug} className="post-summary post-summary--quinary">
-                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                <Link href={`/${recipe.slug}`} className="block">
                   <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
                     <Image
                       alt={recipe.title}
@@ -112,7 +112,7 @@ export default function Home() {
           <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {casseroles.slice(0, 4).map((recipe: Recipe) => (
               <article key={recipe.slug} className="post-summary post-summary--quinary">
-                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                <Link href={`/${recipe.slug}`} className="block">
                   <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
                     <Image
                       alt={recipe.title}
@@ -152,7 +152,7 @@ export default function Home() {
           <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {soups.slice(0, 4).map((recipe: Recipe) => (
               <article key={recipe.slug} className="post-summary post-summary--quinary">
-                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                <Link href={`/${recipe.slug}`} className="block">
                   <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
                     <Image
                       alt={recipe.title}
@@ -192,7 +192,7 @@ export default function Home() {
           <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {salads.slice(0, 4).map((recipe: Recipe) => (
               <article key={recipe.slug} className="post-summary post-summary--quinary">
-                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                <Link href={`/${recipe.slug}`} className="block">
                   <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
                     <Image
                       alt={recipe.title}
@@ -232,7 +232,7 @@ export default function Home() {
           <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {breakfast.slice(0, 4).map((recipe: Recipe) => (
               <article key={recipe.slug} className="post-summary post-summary--quinary">
-                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                <Link href={`/${recipe.slug}`} className="block">
                   <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
                     <Image
                       alt={recipe.title}
@@ -272,7 +272,7 @@ export default function Home() {
           <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {desserts.slice(0, 4).map((recipe: Recipe) => (
               <article key={recipe.slug} className="post-summary post-summary--quinary">
-                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                <Link href={`/${recipe.slug}`} className="block">
                   <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
                     <Image
                       alt={recipe.title}
