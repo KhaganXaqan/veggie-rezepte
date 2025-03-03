@@ -6,6 +6,7 @@ const config: Config = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{ts,tsx}',
   ],
   theme: {
     container: {
@@ -17,6 +18,7 @@ const config: Config = {
     },
     extend: {
       colors: {
+        brand: "rgb(251,196,27)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
