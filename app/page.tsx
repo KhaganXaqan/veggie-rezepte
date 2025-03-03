@@ -47,11 +47,11 @@ export default function Home() {
           </div>
           <div className="relative z-20 text-center text-white px-4">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-['Montserrat'] uppercase">
                 Vegetarische Rezepte
               </h1>
             </div>
-            <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto font-['Montserrat'] uppercase">
               Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche
             </p>
             <Link href="/rezepte/alle">
@@ -84,19 +84,19 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-lg font-bold">
+                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
               </article>
             ))}
           </div>
-          <footer className="mt-8 text-center">
-            <Link href="/kategorien/hauptgerichte" className="block-post-listing__more text-brand hover:text-brand/80">
+          <footer className="mt-8 text-left">
+            <Link href="/kategorien/hauptgerichte" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
               Mehr Hauptgerichte Rezepte
             </Link>
           </footer>
@@ -135,8 +135,8 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <footer className="mt-8 text-center">
-            <Link href="/kategorien/aufläufe" className="block-post-listing__more text-brand hover:text-brand/80">
+          <footer className="mt-8 text-left">
+            <Link href="/kategorien/auflaeufe" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
               Mehr Aufläufe Rezepte
             </Link>
           </footer>
@@ -175,8 +175,8 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <footer className="mt-8 text-center">
-            <Link href="/kategorien/suppen" className="block-post-listing__more text-brand hover:text-brand/80">
+          <footer className="mt-8 text-left">
+            <Link href="/kategorien/suppen" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
               Mehr Suppen Rezepte
             </Link>
           </footer>
@@ -215,8 +215,8 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <footer className="mt-8 text-center">
-            <Link href="/kategorien/salate" className="block-post-listing__more text-brand hover:text-brand/80">
+          <footer className="mt-8 text-left">
+            <Link href="/kategorien/salate" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
               Mehr Salate Rezepte
             </Link>
           </footer>
@@ -255,8 +255,8 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <footer className="mt-8 text-center">
-            <Link href="/kategorien/frühstück" className="block-post-listing__more text-brand hover:text-brand/80">
+          <footer className="mt-8 text-left">
+            <Link href="/kategorien/fruehstueck" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
               Mehr Frühstück Rezepte
             </Link>
           </footer>
@@ -295,8 +295,8 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <footer className="mt-8 text-center">
-            <Link href="/kategorien/desserts" className="block-post-listing__more text-brand hover:text-brand/80">
+          <footer className="mt-8 text-left">
+            <Link href="/kategorien/desserts" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
               Mehr Desserts Rezepte
             </Link>
           </footer>
@@ -304,9 +304,9 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t py-8 bg-muted">
+      <footer className="border-t-2 border-black py-8 bg-muted">
         <div className="container text-center text-sm text-muted-foreground">
-          <p>© 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
+          <p className="font-['Montserrat'] font-bold">© 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
         </div>
       </footer>
     </div>
