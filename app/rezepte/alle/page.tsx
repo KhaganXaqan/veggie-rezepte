@@ -1,19 +1,29 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { SiteHeader } from "@/components/site-header"
 import { RecipeCardMasonry } from "@/components/recipe-card-masonry"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { recipes } from "@/lib/data"
+import { useSearchParams } from "next/navigation"
 
 export default function AllRecipesPage() {
+  const searchParams = useSearchParams()
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedTags, setSelectedTags] = useState<string[]>([])
 
   // Get unique tags from all recipes, sorted alphabetically
   const allTags = Array.from(new Set(recipes.flatMap(recipe => recipe.tags)))
     .sort((a, b) => a.localeCompare(b))
+
+  // Handle URL parameters
+  useEffect(() => {
+    const tag = searchParams.get('tag')
+    if (tag) {
+      setSelectedTags([tag])
+    }
+  }, [searchParams])
 
   // Filter recipes based on search query and selected tags
   const filteredRecipes = recipes.filter((recipe) => {
