@@ -2,42 +2,23 @@ import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { SiteHeader } from "@/components/site-header"
-import { RecipeCard } from "@/components/recipe-card"
+import { recipes } from "@/lib/data"
 import { Button } from "@/components/ui/button"
+import type { Recipe } from "@/lib/data"
 
 export const metadata: Metadata = {
   title: "Vegetarische Rezepte | Veggie Rezepte",
   description: "Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche",
 }
 
-const featuredRecipes = [
-  {
-    title: "Kartoffelklöße",
-    image: "images/Miscellaneous/kartoffelkloesse.webp",
-    prepTime: "60 Min.",
-    rating: 4.8,
-    category: "Traditionell",
-    slug: "kartoffelkloesse"
-  },
-  {
-    title: "Spinat-Käse Lasagne",
-    image: "images/MainCourses/spinat-kaese-lasagne.webp",
-    prepTime: "50 Min.",
-    rating: 4.7,
-    category: "Aufläufe",
-    slug: "spinat-kaese-lasagne"
-  },
-  {
-    title: "Käsespätzle",
-    image: "images/MainCourses/kaesespaetzle.webp",
-    prepTime: "45 Min.",
-    rating: 4.9,
-    category: "Traditionell",
-    slug: "kaesespaetzle"
-  }
-]
-
 export default function Home() {
+  const mainCourses = recipes.filter((recipe: Recipe) => recipe.category === "Hauptgerichte")
+  const casseroles = recipes.filter((recipe: Recipe) => recipe.category === "Aufläufe")
+  const soups = recipes.filter((recipe: Recipe) => recipe.category === "Suppen")
+  const salads = recipes.filter((recipe: Recipe) => recipe.category === "Salate")
+  const breakfast = recipes.filter((recipe: Recipe) => recipe.category === "Frühstück")
+  const desserts = recipes.filter((recipe: Recipe) => recipe.category === "Desserts")
+
   return (
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
@@ -52,6 +33,16 @@ export default function Home() {
               fill
               className="object-cover"
               priority
+              style={{
+                position: 'absolute',
+                height: '100%',
+                width: '100%',
+                left: 0,
+                top: 0,
+                right: 0,
+                bottom: 0,
+                color: 'transparent'
+              }}
             />
           </div>
           <div className="relative z-20 text-center text-white px-4">
@@ -64,57 +55,258 @@ export default function Home() {
               Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche
             </p>
             <Link href="/rezepte/alle">
-              <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+              <Button size="lg" className="bg-white text-[rgb(58,125,84)] hover:bg-white/90">
                 Rezepte entdecken
               </Button>
             </Link>
           </div>
         </section>
 
-        {/* Categories Section */}
-        <section className="container py-16">
-          <h2 className="text-3xl font-bold mb-8">Beliebte Kategorien</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              { name: "Hauptgerichte", slug: "hauptgerichte" },
-              { name: "Aufläufe", slug: "auflaeufe" },
-              { name: "Suppen", slug: "suppen" },
-              { name: "Salate", slug: "salate" }
-            ].map((category) => (
-              <Link key={category.slug} href={`/kategorien/${category.slug}`}>
-                <Button
-                  variant="outline"
-                  className="h-24 text-lg w-full"
-                >
-                  {category.name}
-                </Button>
-              </Link>
+        {/* Recipe Sections */}
+        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
+          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
+              Hauptgerichte Rezepte
+            </h2>
+          </header>
+          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {mainCourses.slice(0, 4).map((recipe: Recipe) => (
+              <article key={recipe.slug} className="post-summary post-summary--quinary">
+                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
+                    <Image
+                      alt={recipe.title}
+                      loading="lazy"
+                      decoding="async"
+                      fill
+                      className="object-cover"
+                      src={recipe.image}
+                    />
+                  </div>
+                  <div className="post-summary__content mt-4">
+                    <h2 className="post-summary__title text-lg font-bold">
+                      <span>{recipe.title}</span>
+                    </h2>
+                    {recipe.prepTime && (
+                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                    )}
+                  </div>
+                </Link>
+              </article>
             ))}
           </div>
+          <footer className="mt-8 text-center">
+            <Link href="/kategorien/hauptgerichte" className="block-post-listing__more text-brand hover:text-brand/80">
+              Mehr Hauptgerichte Rezepte
+            </Link>
+          </footer>
         </section>
 
-        {/* Featured Recipes */}
-        <section className="container py-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {featuredRecipes.map((recipe) => (
-              <RecipeCard
-                key={recipe.slug}
-                title={recipe.title}
-                image={recipe.image}
-                prepTime={recipe.prepTime}
-                rating={recipe.rating}
-                category={recipe.category}
-                slug={recipe.slug}
-              />
+        {/* Casseroles Section */}
+        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
+          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
+              Aufläufe Rezepte
+            </h2>
+          </header>
+          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {casseroles.slice(0, 4).map((recipe: Recipe) => (
+              <article key={recipe.slug} className="post-summary post-summary--quinary">
+                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
+                    <Image
+                      alt={recipe.title}
+                      loading="lazy"
+                      decoding="async"
+                      fill
+                      className="object-cover"
+                      src={recipe.image}
+                    />
+                  </div>
+                  <div className="post-summary__content mt-4">
+                    <h2 className="post-summary__title text-lg font-bold">
+                      <span>{recipe.title}</span>
+                    </h2>
+                    {recipe.prepTime && (
+                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                    )}
+                  </div>
+                </Link>
+              </article>
             ))}
           </div>
+          <footer className="mt-8 text-center">
+            <Link href="/kategorien/aufläufe" className="block-post-listing__more text-brand hover:text-brand/80">
+              Mehr Aufläufe Rezepte
+            </Link>
+          </footer>
+        </section>
+
+        {/* Soups Section */}
+        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
+          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
+              Suppen Rezepte
+            </h2>
+          </header>
+          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {soups.slice(0, 4).map((recipe: Recipe) => (
+              <article key={recipe.slug} className="post-summary post-summary--quinary">
+                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
+                    <Image
+                      alt={recipe.title}
+                      loading="lazy"
+                      decoding="async"
+                      fill
+                      className="object-cover"
+                      src={recipe.image}
+                    />
+                  </div>
+                  <div className="post-summary__content mt-4">
+                    <h2 className="post-summary__title text-lg font-bold">
+                      <span>{recipe.title}</span>
+                    </h2>
+                    {recipe.prepTime && (
+                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                    )}
+                  </div>
+                </Link>
+              </article>
+            ))}
+          </div>
+          <footer className="mt-8 text-center">
+            <Link href="/kategorien/suppen" className="block-post-listing__more text-brand hover:text-brand/80">
+              Mehr Suppen Rezepte
+            </Link>
+          </footer>
+        </section>
+
+        {/* Salads Section */}
+        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
+          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
+              Salate Rezepte
+            </h2>
+          </header>
+          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {salads.slice(0, 4).map((recipe: Recipe) => (
+              <article key={recipe.slug} className="post-summary post-summary--quinary">
+                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
+                    <Image
+                      alt={recipe.title}
+                      loading="lazy"
+                      decoding="async"
+                      fill
+                      className="object-cover"
+                      src={recipe.image}
+                    />
+                  </div>
+                  <div className="post-summary__content mt-4">
+                    <h2 className="post-summary__title text-lg font-bold">
+                      <span>{recipe.title}</span>
+                    </h2>
+                    {recipe.prepTime && (
+                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                    )}
+                  </div>
+                </Link>
+              </article>
+            ))}
+          </div>
+          <footer className="mt-8 text-center">
+            <Link href="/kategorien/salate" className="block-post-listing__more text-brand hover:text-brand/80">
+              Mehr Salate Rezepte
+            </Link>
+          </footer>
+        </section>
+
+        {/* Breakfast Section */}
+        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
+          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
+              Frühstück Rezepte
+            </h2>
+          </header>
+          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {breakfast.slice(0, 4).map((recipe: Recipe) => (
+              <article key={recipe.slug} className="post-summary post-summary--quinary">
+                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
+                    <Image
+                      alt={recipe.title}
+                      loading="lazy"
+                      decoding="async"
+                      fill
+                      className="object-cover"
+                      src={recipe.image}
+                    />
+                  </div>
+                  <div className="post-summary__content mt-4">
+                    <h2 className="post-summary__title text-lg font-bold">
+                      <span>{recipe.title}</span>
+                    </h2>
+                    {recipe.prepTime && (
+                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                    )}
+                  </div>
+                </Link>
+              </article>
+            ))}
+          </div>
+          <footer className="mt-8 text-center">
+            <Link href="/kategorien/frühstück" className="block-post-listing__more text-brand hover:text-brand/80">
+              Mehr Frühstück Rezepte
+            </Link>
+          </footer>
+        </section>
+
+        {/* Desserts Section */}
+        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
+          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
+              Desserts Rezepte
+            </h2>
+          </header>
+          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {desserts.slice(0, 4).map((recipe: Recipe) => (
+              <article key={recipe.slug} className="post-summary post-summary--quinary">
+                <Link href={`/rezepte/${recipe.slug}`} className="block">
+                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
+                    <Image
+                      alt={recipe.title}
+                      loading="lazy"
+                      decoding="async"
+                      fill
+                      className="object-cover"
+                      src={recipe.image}
+                    />
+                  </div>
+                  <div className="post-summary__content mt-4">
+                    <h2 className="post-summary__title text-lg font-bold">
+                      <span>{recipe.title}</span>
+                    </h2>
+                    {recipe.prepTime && (
+                      <span className="text-sm text-muted-foreground">{recipe.prepTime}</span>
+                    )}
+                  </div>
+                </Link>
+              </article>
+            ))}
+          </div>
+          <footer className="mt-8 text-center">
+            <Link href="/kategorien/desserts" className="block-post-listing__more text-brand hover:text-brand/80">
+              Mehr Desserts Rezepte
+            </Link>
+          </footer>
         </section>
       </main>
 
       {/* Footer */}
       <footer className="border-t py-8 bg-muted">
         <div className="container text-center text-sm text-muted-foreground">
-          <p> 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
+          <p>© 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
         </div>
       </footer>
     </div>
