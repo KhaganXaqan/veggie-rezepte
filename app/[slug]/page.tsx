@@ -38,7 +38,7 @@ export default function RecipePage({ params }: RecipePageProps) {
               {/* Recipe Header */}
               <RecipeHeader 
                 title={recipe.title}
-                description={recipe.description}
+                description={recipe.descriptionOnImage}
                 image={recipe.image}
                 category={recipe.category}
                 tags={recipe.tags}
@@ -46,6 +46,51 @@ export default function RecipePage({ params }: RecipePageProps) {
                 servings={recipe.servings}
                 rating={recipe.rating}
               />
+
+              <Separator className="my-8" />
+
+              {/* Recipe Description */}
+              <section className="mb-8 prose prose-lg max-w-none">
+                <h2 className="text-2xl font-semibold mb-4">Über dieses Rezept</h2>
+                <div className="text-gray-700 leading-relaxed mb-8 whitespace-pre-line">
+                  {recipe.description}
+                </div>
+                
+                <h3 className="text-xl font-semibold mb-6">Das kommt rein:</h3>
+                {recipe.ingredientGroups ? (
+                  <div className="space-y-8">
+                    {recipe.ingredientGroups.map((group, index) => (
+                      <div key={index}>
+                        <h4 className="text-lg font-medium text-[#3A7D54] mb-2">{group.title}</h4>
+                        <p className="text-gray-700 mb-4">{group.description}</p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          {group.ingredients.map((ingredient, idx) => (
+                            <div key={idx} className="flex items-start">
+                              <div className="h-2.5 w-2.5 bg-[#3A7D54] rounded-full mt-2.5 mr-4 flex-shrink-0" />
+                              <p className="text-gray-700">
+                                {ingredient.amount && `${ingredient.amount}${ingredient.unit ? ` ${ingredient.unit}` : ''} `}
+                                {ingredient.name}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    {recipe.ingredients.map((ingredient, index) => (
+                      <div key={index} className="flex items-start">
+                        <div className="h-2.5 w-2.5 bg-[#3A7D54] rounded-full mt-2.5 mr-4 flex-shrink-0" />
+                        <p className="text-gray-700">
+                          {ingredient.amount && `${ingredient.amount}${ingredient.unit ? ` ${ingredient.unit}` : ''} `}
+                          {ingredient.name}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </section>
 
               <Separator className="my-8" />
 

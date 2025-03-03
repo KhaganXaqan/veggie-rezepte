@@ -9,6 +9,7 @@ export type Recipe = {
   tags: string[]
   servings: number
   description: string
+  descriptionOnImage: string
   ingredients: { 
     amount?: number | string
     unit?: string
@@ -21,6 +22,15 @@ export type Recipe = {
     carbs: string
     fat: string
   }
+  ingredientGroups?: {
+    title: string
+    description: string
+    ingredients: {
+      amount?: number | string
+      unit?: string
+      name: string
+    }[]
+  }[]
 }
 
 // Then update the recipes array with all required properties
@@ -35,6 +45,7 @@ export const recipes: Recipe[] = [
     tags: ["Traditionell", "Beilage", "Kartoffeln"],
     servings: 4,
     description: "Traditionelle deutsche Kartoffelklöße - perfekt als Beilage oder eigenständiges Gericht.",
+    descriptionOnImage: "Traditionelle deutsche Kartoffelklöße - perfekt als Beilage oder eigenständiges Gericht.",
     ingredients: [
       { amount: 1, unit: "kg", name: "mehligkochende Kartoffeln" },
       { amount: 200, unit: "g", name: "Kartoffelstärke" },
@@ -66,6 +77,7 @@ export const recipes: Recipe[] = [
     tags: ["Auflauf", "Pasta", "Käse"],
     servings: 6,
     description: "Eine klassische Lasagne mit Spinat und Käse.",
+    descriptionOnImage: "Eine klassische Lasagne mit Spinat und Käse.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Spinat" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -99,7 +111,37 @@ export const recipes: Recipe[] = [
     slug: "flammkuchen",
     tags: ["Traditionell", "Hauptgerichte", "Flammkuchen"],
     servings: 4,
-    description: "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
+    description: "Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis.\n\nDas Besondere an meinem Rezept ist die perfekte Balance zwischen dem knusprigen Boden und dem cremigen Belag. Die Crème fraîche bildet eine herrlich cremige Basis, während die dünn geschnittenen Zwiebeln beim Backen eine leichte Süße entwickeln. Der würzige Gruyère oder Emmentaler rundet das Geschmackserlebnis perfekt ab.",
+    descriptionOnImage: "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
+    ingredientGroups: [
+      {
+        title: "Der Grundteig",
+        description: "Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig.",
+        ingredients: [
+          { amount: 250, unit: "g", name: "Mehl" },
+          { amount: 125, unit: "ml", name: "Wasser" },
+          { amount: 2, unit: "EL", name: "Olivenöl" },
+          { amount: 1, unit: "Prise", name: "Salz" }
+        ]
+      },
+      {
+        title: "Die cremige Basis",
+        description: "Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack.",
+        ingredients: [
+          { amount: 200, unit: "g", name: "Crème fraîche" }
+        ]
+      },
+      {
+        title: "Der würzige Belag",
+        description: "Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss.",
+        ingredients: [
+          { amount: 2, unit: "", name: "Zwiebeln (dünn geschnitten)" },
+          { amount: 100, unit: "g", name: "Gruyère oder Emmentaler (gerieben)" },
+          { amount: undefined, unit: "", name: "Salz" },
+          { amount: undefined, unit: "", name: "Pfeffer" }
+        ]
+      }
+    ],
     ingredients: [
       { amount: 250, unit: "g", name: "Mehl" },
       { amount: 125, unit: "ml", name: "Wasser" },
@@ -136,6 +178,7 @@ export const recipes: Recipe[] = [
     tags: ["Traditionell", "Pasta", "Käse"],
     servings: 4,
     description: "Eine traditionelle deutsche Pasta-Art aus der Region Schwaben.",
+    descriptionOnImage: "Eine traditionelle deutsche Pasta-Art aus der Region Schwaben.",
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 2, name: "Eier" },
@@ -168,6 +211,7 @@ export const recipes: Recipe[] = [
     tags: ["Traditionell", "Kartoffeln", "Snack"],
     servings: 2,
     description: "Ein leckerer Kartoffelpuffer als Snack oder Beilage.",
+    descriptionOnImage: "Ein leckerer Kartoffelpuffer als Snack oder Beilage.",
     ingredients: [
       { amount: 200, unit: "g", name: "Kartoffeln" },
       { amount: 2, name: "Eier" },
@@ -200,6 +244,7 @@ export const recipes: Recipe[] = [
     tags: ["Traditionell", "Beilage", "Brot"],
     servings: 4,
     description: "Ein traditionelles deutsches Brotgebäck aus Kartoffeln und Mehl.",
+    descriptionOnImage: "Ein traditionelles deutsches Brotgebäck aus Kartoffeln und Mehl.",
     ingredients: [
       { amount: 200, unit: "g", name: "Kartoffeln" },
       { amount: 200, unit: "g", name: "Mehl" },
@@ -232,6 +277,7 @@ export const recipes: Recipe[] = [
     tags: ["Traditionell", "Pilze", "Hauptgericht"],
     servings: 4,
     description: "Ein leckerer Pilzsuppe aus verschiedenen Pilzen.",
+    descriptionOnImage: "Ein leckerer Pilzsuppe aus verschiedenen Pilzen.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Pilze" },
       { amount: 1, name: "Zwiebel" },
@@ -264,6 +310,7 @@ export const recipes: Recipe[] = [
     tags: ["Traditionell", "Gebäck", "Gemüse"],
     servings: 6,
     description: "Ein traditionelles deutsches Gebäck aus verschiedenen Gemüsen.",
+    descriptionOnImage: "Ein traditionelles deutsches Gebäck aus verschiedenen Gemüsen.",
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
@@ -360,6 +407,7 @@ export const recipes: Recipe[] = [
     tags: ["Traditionell", "Suppe", "Gemüse"],
     servings: 4,
     description: "Eine einfache und leckere Gemüsesuppe.",
+    descriptionOnImage: "Eine einfache und leckere Gemüsesuppe.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
@@ -389,6 +437,7 @@ export const recipes: Recipe[] = [
     tags: ["Traditionell", "Auflauf", "Kartoffeln"],
     servings: 6,
     description: "Ein klassisches Kartoffelaufläuf aus der Region Schwaben.",
+    descriptionOnImage: "Ein klassisches Kartoffelaufläuf aus der Region Schwaben.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Kartoffeln" },
       { amount: 200, unit: "g", name: "Butter" },
@@ -454,6 +503,7 @@ export const recipes: Recipe[] = [
     tags: ["Französisch", "Gemüse", "Hauptgericht"],
     servings: 4,
     description: "Eine französische Gemüseaufläuf aus verschiedenen Gemüsen.",
+    descriptionOnImage: "Eine französische Gemüseaufläuf aus verschiedenen Gemüsen.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 1, name: "Zwiebel" },
@@ -519,6 +569,7 @@ export const recipes: Recipe[] = [
     tags: ["Französisch", "Gebäck", "Gemüse"],
     servings: 6,
     description: "Eine französische Quiche aus Brokkoli und Käse.",
+    descriptionOnImage: "Eine französische Quiche aus Brokkoli und Käse.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Brokkoli" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -584,6 +635,7 @@ export const recipes: Recipe[] = [
     tags: ["Herbst", "Suppe", "Kürbis"],
     servings: 4,
     description: "Eine leckere Kürbissuppe aus verschiedenen Gemüsen.",
+    descriptionOnImage: "Eine leckere Kürbissuppe aus verschiedenen Gemüsen.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Kürbis" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
@@ -715,6 +767,7 @@ export const recipes: Recipe[] = [
     tags: ["Suppe", "Exotisch", "Cremig"],
     servings: 4,
     description: "Eine leckere Süßkartoffel-Kokos-Suppe aus verschiedenen Gemüsen.",
+    descriptionOnImage: "Eine leckere Süßkartoffel-Kokos-Suppe aus verschiedenen Gemüsen.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Süßkartoffeln" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
@@ -813,6 +866,7 @@ export const recipes: Recipe[] = [
     tags: ["Auflauf", "Gemüse", "Käse"],
     servings: 6,
     description: "Ein leckerer Auflauf aus Blumenkohl und Käse.",
+    descriptionOnImage: "Ein leckerer Auflauf aus Blumenkohl und Käse.",
     ingredients: [
       { amount: 1, unit: "kg", name: "Blumenkohl" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -911,6 +965,7 @@ export const recipes: Recipe[] = [
     "tags": ["Frühstück", "Eier", "Klassisch"],
     "servings": 2,
     "description": "Ein einfaches und leckeres Rezept für klassisches Rührei, das perfekt zum Frühstück passt.",
+    "descriptionOnImage": "Ein einfaches und leckeres Rezept für klassisches Rührei, das perfekt zum Frühstück passt.",
     "ingredients": [
       { "amount": 4, "unit": "Stück", "name": "Eier" },
       { "amount": 2, "unit": "EL", "name": "Milch" },
@@ -941,6 +996,7 @@ export const recipes: Recipe[] = [
     tags: ["Frühstück", "Gesund", "Haferflocken"],
     servings: 2,
     description: "Ein leckerer Frühstücks-Salat aus Haferflocken und Beeren.",
+    descriptionOnImage: "Ein leckerer Frühstücks-Salat aus Haferflocken und Beeren.",
     ingredients: [
       { amount: 100, unit: "g", name: "Haferflocken" },
       { amount: 200, unit: "g", name: "Milch" },
@@ -972,6 +1028,7 @@ export const recipes: Recipe[] = [
     tags: ["Frühstück", "Vegan", "Gebäck"],
     servings: 8,
     description: "Ein leckeres Vegan-Banana-Bread aus Bananen und verschiedenen Zutaten.",
+    descriptionOnImage: "Ein leckeres Vegan-Banana-Bread aus Bananen und verschiedenen Zutaten.",
     ingredients: [
       { amount: 3, name: "Bananen" },
       { amount: 100, unit: "g", name: "Mehl" },
@@ -1035,6 +1092,7 @@ export const recipes: Recipe[] = [
     tags: ["Frühstück", "Französisch", "Süß"],
     servings: 4,
     description: "Eine leckere französische Crêpe aus Mehl und Eiern.",
+    descriptionOnImage: "Eine leckere französische Crêpe aus Mehl und Eiern.",
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 4, name: "Eier" },
@@ -1099,6 +1157,7 @@ export const recipes: Recipe[] = [
     tags: ["Dessert", "Traditionell", "Gebäck"],
     servings: 8,
     description: "Ein traditionelles deutsches Apfelstrudel.",
+    descriptionOnImage: "Ein traditionelles deutsches Apfelstrudel.",
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
@@ -1132,6 +1191,7 @@ export const recipes: Recipe[] = [
     tags: ["Dessert", "Schokolade", "Cremig"],
     servings: 4,
     description: "Eine leckere Schokoladen-Mousse aus Schokolade und Eiern.",
+    descriptionOnImage: "Eine leckere Schokoladen-Mousse aus Schokolade und Eiern.",
     ingredients: [
       { amount: 200, unit: "g", name: "Schokolade" },
       { amount: 4, name: "Eier" },
@@ -1162,6 +1222,7 @@ export const recipes: Recipe[] = [
     tags: ["Dessert", "Obst", "Gebacken"],
     servings: 6,
     description: "Ein leckeres Beeren-Crumble aus verschiedenen Beeren.",
+    descriptionOnImage: "Ein leckeres Beeren-Crumble aus verschiedenen Beeren.",
     ingredients: [
       { amount: 200, unit: "g", name: "Beeren" },
       { amount: 100, unit: "g", name: "Mehl" },
@@ -1193,6 +1254,7 @@ export const recipes: Recipe[] = [
     tags: ["Dessert", "Frucht", "Traditionell"],
     servings: 4,
     description: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",
+    descriptionOnImage: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",
     ingredients: [
       { amount: 200, unit: "g", name: "Rhabarber" },
       { amount: 100, unit: "g", name: "Zucker" },
@@ -1220,6 +1282,7 @@ export const recipes: Recipe[] = [
     tags: ["Dessert", "Gebäck", "Zimt"],
     servings: 12,
     description: "Eine leckere Zimtschnecken aus Mehl und Zimt.",
+    descriptionOnImage: "Eine leckere Zimtschnecken aus Mehl und Zimt.",
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
