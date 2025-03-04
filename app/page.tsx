@@ -204,6 +204,83 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Popular Recipes Section */}
+        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
+          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
+              Beliebte Rezepte
+            </h2>
+          </header>
+          <div className="block-post-listing__inner grid grid-cols-1 lg:grid-cols-12 gap-6">
+            {/* Large vertical image */}
+            <article className="post-summary post-summary--quinary lg:col-span-4">
+              <Link href={`/${casseroles[0].slug}`} className="block h-full">
+                <div className="post-summary__image relative w-[368px] h-full overflow-hidden rounded-lg">
+                  <Image
+                    alt={casseroles[0].title}
+                    loading="lazy"
+                    decoding="async"
+                    fill
+                    className="object-cover"
+                    src={casseroles[0].image}
+                    sizes="368px"
+                  />
+                  <div className="absolute bottom-5 left-5 flex flex-col gap-0.5">
+                    <div className="bg-white px-3 py-[7px] w-fit whitespace-normal mr-[20px]">
+                      <h2 className="post-summary__title text-3xl font-bold font-['Montserrat'] uppercase text-black">
+                        <span className="inline-block">{casseroles[0].title}</span>
+                      </h2>
+                    </div>
+                    {casseroles[0].prepTime && (
+                      <div className="bg-white px-2 py-0 w-fit mr-[20px]">
+                        <span className="text-xs text-black/80 font-['Montserrat'] uppercase">{casseroles[0].prepTime}</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </Link>
+            </article>
+
+            {/* Grid of 4 smaller images */}
+            <div className="lg:col-span-8 grid grid-cols-2 gap-4">
+              {[
+                soups[0],
+                salads[0],
+                breakfast[0],
+                desserts[0]
+              ].map((recipe: Recipe) => (
+                <article key={recipe.slug} className="post-summary post-summary--quinary">
+                  <Link href={`/${recipe.slug}`} className="block">
+                    <div className="post-summary__image relative w-[368px] aspect-[4/3] overflow-hidden rounded-lg">
+                      <Image
+                        alt={recipe.title}
+                        loading="lazy"
+                        decoding="async"
+                        fill
+                        className="object-cover"
+                        src={recipe.image}
+                        sizes="368px"
+                      />
+                      <div className="absolute bottom-5 left-5 flex flex-col gap-0.5">
+                        <div className="bg-white px-3 py-[7px] inline-block mr-[20px]">
+                          <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase text-black">
+                            <span>{recipe.title}</span>
+                          </h2>
+                        </div>
+                        {recipe.prepTime && (
+                          <div className="bg-white px-2 py-0 w-fit mr-[20px]">
+                            <span className="text-[10px] text-black/80 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </Link>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Recipe Sections */}
         <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
@@ -212,7 +289,7 @@ export default function Home() {
             </h2>
           </header>
           <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {mainCourses.slice(0, 4).map((recipe: Recipe) => (
+            {mainCourses.slice(0, 8).map((recipe: Recipe) => (
               <article key={recipe.slug} className="post-summary post-summary--quinary">
                 <Link href={`/${recipe.slug}`} className="block">
                   <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
@@ -240,46 +317,6 @@ export default function Home() {
           <footer className="mt-8 text-left">
             <Link href="/kategorien/hauptgerichte" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
               Mehr Hauptgerichte Rezepte
-            </Link>
-          </footer>
-        </section>
-
-        {/* Casseroles Section */}
-        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
-          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
-            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
-              Aufläufe Rezepte
-            </h2>
-          </header>
-          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {casseroles.slice(0, 4).map((recipe: Recipe) => (
-              <article key={recipe.slug} className="post-summary post-summary--quinary">
-                <Link href={`/${recipe.slug}`} className="block">
-                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
-                    <Image
-                      alt={recipe.title}
-                      loading="lazy"
-                      decoding="async"
-                      fill
-                      className="object-cover"
-                      src={recipe.image}
-                    />
-                  </div>
-                  <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
-                      <span>{recipe.title}</span>
-                    </h2>
-                    {recipe.prepTime && (
-                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
-                    )}
-                  </div>
-                </Link>
-              </article>
-            ))}
-          </div>
-          <footer className="mt-8 text-left">
-            <Link href="/kategorien/auflaeufe" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
-              Mehr Aufläufe Rezepte
             </Link>
           </footer>
         </section>
@@ -371,31 +408,73 @@ export default function Home() {
               Frühstück Rezepte
             </h2>
           </header>
-          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {breakfast.slice(0, 4).map((recipe: Recipe) => (
-              <article key={recipe.slug} className="post-summary post-summary--quinary">
-                <Link href={`/${recipe.slug}`} className="block">
-                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
-                    <Image
-                      alt={recipe.title}
-                      loading="lazy"
-                      decoding="async"
-                      fill
-                      className="object-cover"
-                      src={recipe.image}
-                    />
-                  </div>
-                  <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
-                      <span>{recipe.title}</span>
-                    </h2>
-                    {recipe.prepTime && (
-                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+          <div className="block-post-listing__inner grid grid-cols-1 lg:grid-cols-12 gap-6">
+            {/* Large vertical image */}
+            <article className="post-summary post-summary--quinary lg:col-span-4">
+              <Link href={`/${breakfast[0].slug}`} className="block h-full">
+                <div className="post-summary__image relative w-[368px] h-full overflow-hidden rounded-lg">
+                  <Image
+                    alt={breakfast[0].title}
+                    loading="lazy"
+                    decoding="async"
+                    fill
+                    className="object-cover"
+                    src={breakfast[0].image}
+                    sizes="368px"
+                  />
+                  <div className="absolute bottom-5 left-5 flex flex-col gap-0.5">
+                    <div className="bg-white px-3 py-[7px] w-fit whitespace-normal mr-[20px]">
+                      <h2 className="post-summary__title text-3xl font-bold font-['Montserrat'] uppercase text-black">
+                        <span className="inline-block">{breakfast[0].title}</span>
+                      </h2>
+                    </div>
+                    {breakfast[0].prepTime && (
+                      <div className="bg-white px-2 py-0 w-fit mr-[20px]">
+                        <span className="text-xs text-black/80 font-['Montserrat'] uppercase">{breakfast[0].prepTime}</span>
+                      </div>
                     )}
                   </div>
-                </Link>
-              </article>
-            ))}
+                </div>
+              </Link>
+            </article>
+
+            {/* Grid of 4 smaller images */}
+            <div className="lg:col-span-8 grid grid-cols-2 gap-4">
+              {[
+                breakfast[1],
+                breakfast[2],
+                breakfast[3],
+                breakfast[4]
+              ].map((recipe: Recipe) => (
+                <article key={recipe.slug} className="post-summary post-summary--quinary">
+                  <Link href={`/${recipe.slug}`} className="block">
+                    <div className="post-summary__image relative w-[368px] aspect-[4/3] overflow-hidden rounded-lg">
+                      <Image
+                        alt={recipe.title}
+                        loading="lazy"
+                        decoding="async"
+                        fill
+                        className="object-cover"
+                        src={recipe.image}
+                        sizes="368px"
+                      />
+                      <div className="absolute bottom-5 left-5 flex flex-col gap-0.5">
+                        <div className="bg-white px-3 py-[7px] inline-block mr-[20px]">
+                          <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase text-black">
+                            <span>{recipe.title}</span>
+                          </h2>
+                        </div>
+                        {recipe.prepTime && (
+                          <div className="bg-white px-2 py-0 w-fit mr-[20px]">
+                            <span className="text-[10px] text-black/80 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </Link>
+                </article>
+              ))}
+            </div>
           </div>
           <footer className="mt-8 text-left">
             <Link href="/kategorien/fruehstueck" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
@@ -443,6 +522,47 @@ export default function Home() {
             </Link>
           </footer>
         </section>
+        
+        {/* Casseroles Section */}
+        <section className="block-post-listing layout-echo max-w-[1168px] mx-auto my-[50px] relative">
+          <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[33.59px] uppercase text-[33.59px] m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[calc(100vw-100%-22px)] after:bg-brand">
+              Aufläufe Rezepte
+            </h2>
+          </header>
+          <div className="block-post-listing__inner grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {casseroles.slice(0, 4).map((recipe: Recipe) => (
+              <article key={recipe.slug} className="post-summary post-summary--quinary">
+                <Link href={`/${recipe.slug}`} className="block">
+                  <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
+                    <Image
+                      alt={recipe.title}
+                      loading="lazy"
+                      decoding="async"
+                      fill
+                      className="object-cover"
+                      src={recipe.image}
+                    />
+                  </div>
+                  <div className="post-summary__content mt-4">
+                    <h2 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase">
+                      <span>{recipe.title}</span>
+                    </h2>
+                    {recipe.prepTime && (
+                      <span className="text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                    )}
+                  </div>
+                </Link>
+              </article>
+            ))}
+          </div>
+          <footer className="mt-8 text-left">
+            <Link href="/kategorien/auflaeufe" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-6 py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
+              Mehr Aufläufe Rezepte
+            </Link>
+          </footer>
+        </section>
+
       </main>
 
       {/* Footer */}

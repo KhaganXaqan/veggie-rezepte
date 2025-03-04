@@ -53,33 +53,33 @@ export function SiteHeader() {
       "sticky top-0 z-50 w-full border-b bg-background transition-transform duration-300",
       !isVisible && "-translate-y-full"
     )}>
-      <div className="container flex h-16 items-center">
+      <div className="container max-w-7xl mx-auto pl-7 pr-10 sm:pl-9 sm:pr-12 lg:pl-14 lg:pr-[62px] flex h-16 items-center">
         <MobileNav />
         <div className="flex items-center space-x-4 lg:space-x-6">
           <Link href="/" className="flex items-center space-x-2" aria-label="Veggie Rezepte - Startseite">
             <div className="flex items-center">
-              <span className="text-xl font-bold text-brand">Veggie</span>
+              <span className="text-2xl font-bold text-brand">Veggie</span>
               <Image
                 src="/images/logo/logo.png"
                 alt="Veggie Rezepte Logo"
                 width={40}
                 height={40}
-                className="h-10 w-auto"
+                className="h-14 w-auto"
                 priority
               />
-              <span className="text-xl font-bold text-brand">Rezepte</span>
+              <span className="text-2xl font-bold text-brand">Rezepte</span>
             </div>
           </Link>
-          <nav className="flex items-center space-x-6 text-sm font-medium">
-            <Link href="/rezepte/alle" className="transition-colors hover:text-foreground/80">
-              Rezepte
+          <div className="flex items-center gap-8">
+            <Link href="/rezepte/alle" className="text-base font-black font-['Copperplate', 'Papyrus', 'fantasy'] text-black transition-colors hover:text-brand">
+              Alle Rezepte
             </Link>
-            <Link href="/kategorien" className="transition-colors hover:text-foreground/80">
+            <Link href="/kategorien" className="text-base font-black font-['Copperplate', 'Papyrus', 'fantasy'] text-black transition-colors hover:text-brand">
               Kategorien
             </Link>
-          </nav>
+          </div>
         </div>
-        <div className="flex flex-1 items-center justify-end space-x-4">
+        <div className="flex flex-1 items-center justify-end space-x-2">
           <form onSubmit={handleSearch} className="w-full max-w-xl lg:flex">
             <div className="relative w-full">
               <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
@@ -92,14 +92,6 @@ export function SiteHeader() {
               />
             </div>
           </form>
-          <nav className="hidden lg:flex items-center space-x-2">
-            <Button variant="ghost">
-              Rezept einreichen
-            </Button>
-            <Button variant="default">
-              Anmelden
-            </Button>
-          </nav>
         </div>
       </div>
     </header>
