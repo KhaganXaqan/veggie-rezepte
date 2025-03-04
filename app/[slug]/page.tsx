@@ -28,6 +28,10 @@ export default function RecipePage({ params }: RecipePageProps) {
     notFound()
   }
 
+  // Get a random recipe for Empfohlener Beitrag
+  const otherRecipes = recipes.filter(r => r.slug !== params.slug)
+  const randomRecipe = otherRecipes[Math.floor(Math.random() * otherRecipes.length)]
+
   return (
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
@@ -95,9 +99,30 @@ export default function RecipePage({ params }: RecipePageProps) {
               <Separator className="my-8" />
 
               {/* Images before Similar Recipes */}
-              <div className="flex justify-center gap-4 my-8">
-                <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-1/2 h-auto rounded-2xl" />
-                <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-1/2 h-auto rounded-2xl" />
+              <div className="flex flex-col items-center gap-8 my-8">
+                <div className="flex justify-center gap-4">
+                  <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-1/3 h-auto rounded-2xl" />
+                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-1/3 h-auto rounded-2xl" />
+                </div>
+                
+                {/* Empfohlener Beitrag */}
+                <div className="w-full max-w-2xl mx-auto">
+                  <a href={`/${randomRecipe.slug}`} className="block transition-transform hover:scale-[1.02]">
+                    <div className="bg-white p-6 rounded-lg shadow-md">
+                      <h3 className="font-serif text-2xl font-bold mb-6 text-[#3A7D54] text-center">Empfohlener Beitrag</h3>
+                      <div className="flex items-center gap-6">
+                        <img src={randomRecipe.image} alt={randomRecipe.title} className="w-1/3 h-auto rounded-lg" />
+                        <div>
+                          <h4 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">{randomRecipe.title}</h4>
+                          <p className="font-sans text-gray-700 mb-4">{randomRecipe.descriptionOnImage}</p>
+                          <span className="text-[#3A7D54] font-semibold hover:text-[#db747a] transition-colors">
+                            Mehr erfahren →
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
 
               {/* Similar Recipes */}
