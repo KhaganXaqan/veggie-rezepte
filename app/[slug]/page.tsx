@@ -94,6 +94,12 @@ export default function RecipePage({ params }: RecipePageProps) {
 
               <Separator className="my-8" />
 
+              {/* Images before Similar Recipes */}
+              <div className="flex justify-center gap-4 my-8">
+                <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-1/2 h-auto rounded-2xl" />
+                <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-1/2 h-auto rounded-2xl" />
+              </div>
+
               {/* Similar Recipes */}
               <section className="mb-8">
                 <RecipeSimilar 
