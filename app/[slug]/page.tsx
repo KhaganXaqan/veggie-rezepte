@@ -107,17 +107,29 @@ export default function RecipePage({ params }: RecipePageProps) {
                 
                 {/* Empfohlener Beitrag */}
                 <div className="w-full max-w-2xl mx-auto">
-                  <a href={`/${randomRecipe.slug}`} className="block transition-transform hover:scale-[1.02]">
-                    <div className="bg-white p-6 rounded-lg shadow-md">
-                      <h3 className="font-serif text-2xl font-bold mb-6 text-[#3A7D54] text-center">Empfohlener Beitrag</h3>
-                      <div className="flex items-center gap-6">
-                        <img src={randomRecipe.image} alt={randomRecipe.title} className="w-1/3 h-auto rounded-lg" />
-                        <div>
-                          <h4 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">{randomRecipe.title}</h4>
-                          <p className="font-sans text-gray-700 mb-4">{randomRecipe.descriptionOnImage}</p>
-                          <span className="text-[#3A7D54] font-semibold hover:text-[#db747a] transition-colors">
-                            Mehr erfahren →
+                  <a href={`/${randomRecipe.slug}`} className="block">
+                    <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
+                      <div className="flex items-start gap-6">
+                        <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
+                          <img 
+                            src={randomRecipe.image} 
+                            alt={randomRecipe.title} 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex-grow">
+                          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
+                            Empfohlener Beitrag
                           </span>
+                          <h4 className="font-bold text-xl text-[#0b3558] mb-3">
+                            {randomRecipe.title}
+                          </h4>
+                          <p className="text-gray-600 text-sm mb-4 line-clamp-2">
+                            {randomRecipe.descriptionOnImage}
+                          </p>
+                          <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#db747a] transition-colors">
+                            Zum Beitrag
+                          </button>
                         </div>
                       </div>
                     </div>
