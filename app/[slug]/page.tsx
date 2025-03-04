@@ -106,7 +106,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 </div>
                 
                 {/* Empfohlener Beitrag */}
-                <div className="w-full max-w-2xl mx-auto">
+                <div className="w-full max-w-2xl mx-auto mb-16">
                   <a href={`/${randomRecipe.slug}`} className="block">
                     <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
                       <div className="flex items-start gap-6">
@@ -122,9 +122,9 @@ export default function RecipePage({ params }: RecipePageProps) {
                             Empfohlener Beitrag
                           </span>
                           <h4 className="font-bold text-xl text-[#0b3558] mb-3">
-                            {randomRecipe.title}
+                            <span className='hover:text-[#db747a] transition-colors"'>{randomRecipe.title}</span>
                           </h4>
-                          <p className="text-gray-600 text-sm mb-4 line-clamp-2">
+                          <p className="text-gray-600 text-sm mb-10 line-clamp-2">
                             {randomRecipe.descriptionOnImage}
                           </p>
                           <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#db747a] transition-colors">
