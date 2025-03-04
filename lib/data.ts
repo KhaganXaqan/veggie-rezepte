@@ -65,7 +65,32 @@ export const recipes: Recipe[] = [
       protein: "4g",
       carbs: "48g",
       fat: "2g"
-    }
+    },
+    ingredientGroups: [
+      {
+        title: "Die Kartoffelbasis",
+        description: "Mehligkochende Kartoffeln sind die Grundlage für diese traditionellen Klöße.",
+        ingredients: [
+          { amount: 1, unit: "kg", name: "mehligkochende Kartoffeln" }
+        ]
+      },
+      {
+        title: "Die Bindung",
+        description: "Diese Zutaten sorgen dafür, dass die Klöße ihre Form behalten.",
+        ingredients: [
+          { amount: 200, unit: "g", name: "Kartoffelstärke" },
+          { amount: 2, name: "Eier" }
+        ]
+      },
+      {
+        title: "Die Würzung",
+        description: "Die richtige Würzung verleiht den Klößen ihren typischen Geschmack.",
+        ingredients: [
+          { amount: undefined, unit: "", name: "Salz" },
+          { amount: undefined, unit: "", name: "Muskatnuss" }
+        ]
+      }
+    ]
   },
   {
     title: "Spinat-Käse Lasagne",
@@ -100,7 +125,40 @@ export const recipes: Recipe[] = [
       protein: "15g",
       carbs: "30g",
       fat: "18g"
-    }
+    },
+    ingredientGroups: [
+      {
+        title: "Die Spinatbasis",
+        description: "Frischer Spinat bildet die Grundlage dieser Lasagne.",
+        ingredients: [
+          { amount: 1, unit: "kg", name: "Spinat" }
+        ]
+      },
+      {
+        title: "Die Käsemischung",
+        description: "Eine Mischung aus Käse und Eiern sorgt für die cremige Konsistenz.",
+        ingredients: [
+          { amount: 200, unit: "g", name: "Käse" },
+          { amount: 2, name: "Eier" }
+        ]
+      },
+      {
+        title: "Die Tomatensauce",
+        description: "Eine würzige Tomatensauce rundet das Gericht ab.",
+        ingredients: [
+          { amount: 4, name: "Tomaten" },
+          { amount: 2, name: "Zwiebeln" },
+          { amount: 2, name: "Knoblauchzehen" }
+        ]
+      },
+      {
+        title: "Die Pasta",
+        description: "Lasagneplatten bilden die Schichten dieser köstlichen Lasagne.",
+        ingredients: [
+          { amount: 500, unit: "g", name: "Pasta" }
+        ]
+      }
+    ]
   },
   {
     title: "Flammkuchen",
@@ -324,7 +382,41 @@ export const recipes: Recipe[] = [
       protein: "8g",
       carbs: "35g",
       fat: "6g"
-    }
+    },
+    ingredientGroups: [
+      {
+        title: "Die Brotbasis",
+        description: "Altbackene Brötchen bilden die Grundlage für diese traditionellen Knödel.",
+        ingredients: [
+          { amount: 8, name: "altbackene Brötchen" }
+        ]
+      },
+      {
+        title: "Die Bindung",
+        description: "Diese Zutaten sorgen dafür, dass die Knödel ihre Form behalten.",
+        ingredients: [
+          { amount: 250, unit: "ml", name: "Milch" },
+          { amount: 2, name: "Eier" }
+        ]
+      },
+      {
+        title: "Die Aromabasis",
+        description: "Zwiebeln und Petersilie verleihen den Knödeln ihren typischen Geschmack.",
+        ingredients: [
+          { amount: 1, name: "Zwiebel" },
+          { amount: undefined, unit: "", name: "Petersilie" }
+        ]
+      },
+      {
+        title: "Die Würzung",
+        description: "Die richtige Würzung rundet den Geschmack der Knödel ab.",
+        ingredients: [
+          { amount: undefined, unit: "", name: "Salz" },
+          { amount: undefined, unit: "", name: "Pfeffer" },
+          { amount: undefined, unit: "", name: "Muskatnuss" }
+        ]
+      }
+    ]
   },
   {
     title: "Pilzgulasch",
@@ -357,7 +449,39 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "10g",
       fat: "5g"
-    }
+    },
+    ingredientGroups: [
+      {
+        title: "Die Pilzbasis",
+        description: "Eine Mischung aus verschiedenen Pilzen bildet die Grundlage dieses Gulaschs.",
+        ingredients: [
+          { amount: 1, unit: "kg", name: "Pilze" }
+        ]
+      },
+      {
+        title: "Die Aromabasis",
+        description: "Zwiebeln und Knoblauch sorgen für die geschmackliche Grundlage.",
+        ingredients: [
+          { amount: 1, name: "Zwiebel" },
+          { amount: 2, name: "Knoblauchzehen" }
+        ]
+      },
+      {
+        title: "Die Flüssigkeit",
+        description: "Gemüsebrühe sorgt für die richtige Konsistenz und Geschmack.",
+        ingredients: [
+          { amount: 1, unit: "Liter", name: "Gemüsebrühe" }
+        ]
+      },
+      {
+        title: "Die Würzung",
+        description: "Die richtige Würzung bringt den Pilzgeschmack zur Geltung.",
+        ingredients: [
+          { amount: undefined, unit: "", name: "Salz" },
+          { amount: undefined, unit: "", name: "Pfeffer" }
+        ]
+      }
+    ]
   },
   {
     title: "Gemüsestrudel",
@@ -391,84 +515,166 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "40g",
       fat: "15g"
-    }
+    },
+    ingredientGroups: [
+      {
+        title: "Der Teig",
+        description: "Ein knuspriger Teig bildet die Grundlage für diesen herzhaften Strudel.",
+        ingredients: [
+          { amount: 200, unit: "g", name: "Mehl" },
+          { amount: 100, unit: "g", name: "Butter" },
+          { amount: 1, name: "Ei" }
+        ]
+      },
+      {
+        title: "Die Füllung",
+        description: "Eine bunte Mischung aus Gemüse sorgt für den herzhaften Geschmack.",
+        ingredients: [
+          { amount: 100, unit: "g", name: "Gemüse" }
+        ]
+      },
+      {
+        title: "Die Würzung",
+        description: "Die richtige Würzung bringt den Geschmack des Strudels zur Geltung.",
+        ingredients: [
+          { amount: undefined, unit: "", name: "Salz" },
+          { amount: undefined, unit: "", name: "Muskatnuss" }
+        ]
+      }
+    ]
   },
   {
     title: "Grießnockerl",
-    image: "/images/Miscellaneous/griessnockerl.webp",
-    prepTime: "35 Min.",
+    image: "/images/Miscellaneous/griesnockerl.webp",
+    prepTime: "45 Min.",
     rating: 4.6,
-    category: "Suppen",
-    slug: "griessnockerl",
-    tags: ["Traditionell", "Suppe", "Beilage"],
+    category: "Hauptgerichte",
+    slug: "griesnockerl",
+    tags: ["Traditionell", "Beilage", "Grieß"],
     servings: 4,
-    description: "Eine traditionelle deutsche Suppe aus Grießnocken.",
-    descriptionOnImage: "Traditionelle Grießnockerl in klarer Brühe serviert",
+    description: "Traditionelle österreichische Grießnockerl mit Apfelmus und Rosinen.",
+    descriptionOnImage: "Fluffige Grießnockerl mit Apfelmus und Rosinen",
     ingredients: [
-      { amount: 200, unit: "g", name: "Grießnocken" },
-      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
-      { amount: 1, name: "Zwiebel" },
-      { amount: 1, name: "Knoblauchzehe" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
+      { amount: 200, unit: "g", name: "Grieß" },
+      { amount: 2, name: "Eier" },
+      { amount: 200, unit: "ml", name: "Milch" },
+      { amount: 1, unit: "TL", name: "Salz" },
+      { amount: 1, unit: "TL", name: "Zucker" },
+      { amount: 1, unit: "TL", name: "Vanillezucker" },
+      { amount: 100, unit: "g", name: "Rosinen" },
+      { amount: 200, unit: "g", name: "Apfelmus" }
     ],
     instructions: [
-      "Die Zwiebel und den Knoblauch schälen und fein hacken. In einem Topf etwas Öl erhitzen und die Zwiebel sowie den Knoblauch glasig dünsten.",
-      "Die Gemüsebrühe hinzufügen und zum Kochen bringen. Die Grießnocken langsam unter Rühren in die Brühe geben und etwa 10 Minuten köcheln lassen, bis sie weich sind.",
-      "Mit Salz und Pfeffer abschmecken. Die Suppe heiß servieren, eventuell mit frischen Kräutern garnieren."
+      "Das Grieß in eine Schüssel geben. Die Eier, Milch, Salz, Zucker und Vanillezucker hinzufügen und alles zu einem glatten Teig verrühren.",
+      "Die Rosinen unter den Teig heben. Den Teig in eine Pfanne gießen und bei mittlerer Hitze etwa 10 Minuten lang köcheln lassen, bis er anfängt, sich vom Rand zu lösen.",
+      "Den Teig vorsichtig mit einem Holzlöffel vom Rand lösen und in die Pfanne geben. Wieder etwa 10 Minuten köcheln lassen, bis der Teig fest ist.",
+      "Die Pfanne vom Herd nehmen und den Teig mit einem Messer in Stücke schneiden. Mit Apfelmus servieren."
     ],
     nutrition: {
-      calories: 150,
-      protein: "5g",
-      carbs: "30g",
-      fat: "2g"
-    }
+      calories: 250,
+      protein: "8g",
+      carbs: "40g",
+      fat: "8g"
+    },
+    ingredientGroups: [
+      {
+        title: "Die Nockerl",
+        description: "Das Grieß bildet die Grundlage für die fluffigen Nockerl.",
+        ingredients: [
+          { amount: 200, unit: "g", name: "Grieß" },
+          { amount: 2, name: "Eier" },
+          { amount: 200, unit: "ml", name: "Milch" },
+          { amount: 1, unit: "TL", name: "Salz" },
+          { amount: 1, unit: "TL", name: "Zucker" },
+          { amount: 1, unit: "TL", name: "Vanillezucker" }
+        ]
+      },
+      {
+        title: "Die Extras",
+        description: "Rosinen und Apfelmus geben den Nockerln eine besondere Note.",
+        ingredients: [
+          { amount: 100, unit: "g", name: "Rosinen" },
+          { amount: 200, unit: "g", name: "Apfelmus" }
+        ]
+      }
+    ]
   },
   {
     title: "Spinatknödel",
     image: "/images/Miscellaneous/spinatknoedel.webp",
-    prepTime: "55 Min.",
-    rating: 4.8,
+    prepTime: "45 Min.",
+    rating: 4.7,
     category: "Hauptgerichte",
     slug: "spinatknoedel",
-    tags: ["Traditionell", "Spinat", "Knödel"],
+    tags: ["Traditionell", "Beilage", "Spinat"],
     servings: 4,
-    description: "Eine traditionelle deutsche Knödel aus Spinat.",
-    descriptionOnImage: "Saftig grüne Spinatknödel mit Parmesan bestreut",
+    description: "Traditionelle österreichische Spinatknödel mit Semmelbröseln und Käse.",
+    descriptionOnImage: "Fluffige Spinatknödel mit Semmelbröseln und Käse",
     ingredients: [
-      { amount: 200, unit: "g", name: "Spinat" },
-      { amount: 200, unit: "g", name: "Mehl" },
+      { amount: 500, unit: "g", name: "Spinat" },
+      { amount: 200, unit: "g", name: "Semmelbrösel" },
       { amount: 2, name: "Eier" },
-      { amount: 100, unit: "ml", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
+      { amount: 100, unit: "g", name: "Käse" },
+      { amount: 1, unit: "TL", name: "Salz" },
+      { amount: 1, unit: "TL", name: "Pfeffer" },
+      { amount: 1, unit: "TL", name: "Muskatnuss" }
     ],
     instructions: [
-      "Den Spinat waschen, abtropfen lassen und in einem Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
-      "Das Mehl in eine Schüssel geben. Die Eier, Milch, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig verrühren.",
-      "Den Spinat fein hacken und unter den Teig heben. Alles gut vermengen, bis eine homogene Masse entsteht.",
-      "Aus dem Teig gleichmäßige Knödel formen. Dabei darauf achten, dass die Knödel fest genug sind, um nicht auseinanderzufallen.",
-      "Einen großen Topf mit Salzwasser zum Kochen bringen. Die Knödel vorsichtig ins Wasser geben und bei mittlerer Hitze etwa 15–20 Minuten ziehen lassen, bis sie an die Oberfläche steigen.",
-      "Die Knödel mit einer Schaumkelle herausheben, abtropfen lassen und warm servieren, z. B. mit Bratensauce oder Butter."
+      "Den Spinat waschen, trocken schleudern und fein hacken. Die Semmelbrösel in einer Schüssel mit den Eiern vermengen. Den Spinat, Käse, Salz, Pfeffer und Muskatnuss hinzufügen und alles gut vermengen.",
+      "Mit feuchten Händen etwa 12 gleichgroße Knödel formen. Die Knödel in siedendes Salzwasser geben und bei mittlerer Hitze etwa 20 Minuten ziehen lassen.",
+      "Die Spinatknödel heiß servieren, z. B. mit einer leichten Buttersoße."
     ],
     nutrition: {
-      calories: 200,
-      protein: "10g",
-      carbs: "30g",
-      fat: "5g"
-    }
+      calories: 280,
+      protein: "15g",
+      carbs: "35g",
+      fat: "10g"
+    },
+    ingredientGroups: [
+      {
+        title: "Die Spinatbasis",
+        description: "Frischer Spinat bildet die Grundlage für diese köstlichen Knödel.",
+        ingredients: [
+          { amount: 500, unit: "g", name: "Spinat" }
+        ]
+      },
+      {
+        title: "Die Bindung",
+        description: "Semmelbrösel und Eier sorgen für die perfekte Bindung.",
+        ingredients: [
+          { amount: 200, unit: "g", name: "Semmelbrösel" },
+          { amount: 2, name: "Eier" }
+        ]
+      },
+      {
+        title: "Die Würzung",
+        description: "Die richtige Würzung rundet den Geschmack der Knödel ab.",
+        ingredients: [
+          { amount: 1, unit: "TL", name: "Salz" },
+          { amount: 1, unit: "TL", name: "Pfeffer" },
+          { amount: 1, unit: "TL", name: "Muskatnuss" }
+        ]
+      },
+      {
+        title: "Zum Garnieren",
+        description: "Ein Hauch von Käse verleiht den Knödeln eine besondere Note.",
+        ingredients: [
+          { amount: 100, unit: "g", name: "Käse" }
+        ]
+      }
+    ]
   },
   {
     title: "Gemüsesuppe",
-    image: "/images/Soups/gemuesesuppe.webp",
-    prepTime: "40 Min.",
+    image: "/images/Miscellaneous/gemuesesuppe.webp",
+    prepTime: "30 Min.",
     rating: 4.5,
-    category: "Suppen",
+    category: "Hauptgerichte",
     slug: "gemuesesuppe",
     tags: ["Traditionell", "Suppe", "Gemüse"],
     servings: 4,
-    description: "Eine einfache und leckere Gemüsesuppe.",
-    descriptionOnImage: "Eine einfache und leckere Gemüsesuppe.",
+    description: "Eine leckere Gemüsesuppe mit verschiedenen saisonalen Gemüsen.",
+    descriptionOnImage: "Eine leckere Gemüsesuppe mit verschiedenen saisonalen Gemüsen",
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
@@ -476,51 +682,113 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
     instructions: [
-      "Das Gemüse waschen, schälen und in gleichmäßige Stücke schneiden. Je nach Gemüseart (z. B. Karotten, Sellerie, Lauch) die Garzeit anpassen.",
-      "In einem großen Topf etwas Öl erhitzen. Das Gemüse darin etwa 5 Minuten anbraten, bis es leicht Farbe annimmt.",
-      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und die Suppe etwa 30 Minuten köcheln lassen, bis das Gemüse weich ist.",
-      "Mit Salz und Pfeffer abschmecken. Die Suppe heiß servieren, eventuell mit frischen Kräutern oder einem Schuss Sahne verfeinern."
+      "Das Gemüse waschen, schälen und in grobe Stücke schneiden. In einem großen Topf etwas Öl erhitzen und das Gemüse darin anbraten.",
+      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und die Suppe etwa 20 Minuten köcheln lassen, bis das Gemüse weich ist.",
+      "Mit Salz und Pfeffer abschmecken und die Gemüsesuppe pürieren. Heiß servieren."
     ],
     nutrition: {
-      calories: 100,
-      protein: "2g",
-      carbs: "10g",
-      fat: "1g"
-    }
+      calories: 150,
+      protein: "5g",
+      carbs: "20g",
+      fat: "5g"
+    },
+    ingredientGroups: [
+      {
+        title: "Das Gemüse",
+        description: "Eine bunte Mischung aus saisonalen Gemüsen bildet die Grundlage dieser Suppe.",
+        ingredients: [
+          { amount: 1, unit: "kg", name: "Gemüse" }
+        ]
+      },
+      {
+        title: "Die Brühe",
+        description: "Gemüsebrühe sorgt für die richtige Konsistenz und Geschmack.",
+        ingredients: [
+          { amount: 1, unit: "Liter", name: "Gemüsebrühe" }
+        ]
+      },
+      {
+        title: "Die Würzung",
+        description: "Die richtige Würzung bringt den Geschmack der Suppe zur Geltung.",
+        ingredients: [
+          { amount: undefined, unit: "", name: "Salz" },
+          { amount: undefined, unit: "", name: "Pfeffer" }
+        ]
+      }
+    ]
   },
   {
     title: "Kartoffelgratin",
-    image: "/images/MainCourses/kartoffelgratin.webp",
-    prepTime: "60 Min.",
-    rating: 4.9,
-    category: "Aufläufe",
+    image: "/images/Miscellaneous/kartoffelgratin.webp",
+    prepTime: "45 Min.",
+    rating: 4.7,
+    category: "Hauptgerichte",
     slug: "kartoffelgratin",
-    tags: ["Traditionell", "Auflauf", "Kartoffeln"],
-    servings: 6,
-    description: "Ein klassisches Kartoffelaufläuf aus der Region Schwaben.",
-    descriptionOnImage: "Ein klassisches Kartoffelaufläuf aus der Region Schwaben.",
+    tags: ["Traditionell", "Kartoffeln", "Gratin"],
+    servings: 4,
+    description: "Ein klassisches Kartoffelgratin mit einer cremigen Bechamelsauce und einer goldbraunen Käsekruste.",
+    descriptionOnImage: "Ein klassisches Kartoffelgratin mit einer cremigen Bechamelsauce und einer goldbraunen Käsekruste",
     ingredients: [
       { amount: 1, unit: "kg", name: "Kartoffeln" },
-      { amount: 200, unit: "g", name: "Butter" },
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 1, unit: "Liter", name: "Milch" },
+      { amount: 500, unit: "ml", name: "Milch" },
+      { amount: 50, unit: "g", name: "Butter" },
+      { amount: 50, unit: "g", name: "Mehl" },
+      { amount: 2, name: "Eier" },
       { amount: 100, unit: "g", name: "Käse" },
       { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
+      { amount: undefined, unit: "", name: "Pfeffer" },
+      { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
     instructions: [
-      "Die Kartoffeln schälen und in dünne Scheiben schneiden. Den Backofen auf 180°C vorheizen.",
-      "In einem Topf die Butter schmelzen. Das Mehl unterrühren und kurz anschwitzen. Nach und nach die Milch hinzufügen und unter ständigem Rühren eine glatte Sauce kochen. Mit Salz und Pfeffer abschmecken.",
-      "Eine Auflaufform mit etwas Butter einfetten. Schichtweise die Kartoffelscheiben und die Sauce in die Form geben. Mit einer Schicht Sauce abschließen.",
-      "Den Käse reiben und gleichmäßig über das Gratin streuen. Im vorgeheizten Backofen etwa 45 Minuten backen, bis die Oberfläche goldbraun und die Kartoffeln weich sind.",
-      "Das Gratin vor dem Servieren kurz abkühlen lassen."
+      "Die Kartoffeln schälen und in Scheiben schneiden. In einer gefetteten Auflaufform schichten.",
+      "Für die Bechamelsauce die Milch in einem Topf erhitzen. Die Butter darin schmelzen und das Mehl unterrühren. Die Mischung unter ständigem Rühren etwa 2 Minuten köcheln lassen, bis sie andickt.",
+      "Die Eier und den Käse unter die Bechamelsauce rühren. Mit Salz, Pfeffer und Muskatnuss würzen.",
+      "Die Bechamelsauce über die Kartoffelscheiben gießen und mit Käse bestreuen.",
+      "Im vorgeheizten Backofen bei 180°C etwa 30 Minuten backen, bis die Käsekruste goldbraun ist."
     ],
     nutrition: {
-      calories: 400,
-      protein: "15g",
-      carbs: "30g",
-      fat: "20g"
-    }
+      calories: 300,
+      protein: "10g",
+      carbs: "40g",
+      fat: "15g"
+    },
+    ingredientGroups: [
+      {
+        title: "Die Kartoffelbasis",
+        description: "Die Kartoffeln bilden die Grundlage für dieses klassische Gratin.",
+        ingredients: [
+          { amount: 1, unit: "kg", name: "Kartoffeln" }
+        ]
+      },
+      {
+        title: "Die Bechamelsauce",
+        description: "Eine cremige Bechamelsauce sorgt für den perfekten Geschmack.",
+        ingredients: [
+          { amount: 50, unit: "g", name: "Butter" },
+          { amount: 50, unit: "g", name: "Mehl" },
+          { amount: 1, unit: "Liter", name: "Milch" }
+        ]
+      },
+      {
+        title: "Die Käsekruste",
+        description: "Eine goldbraun gebackene Käsekruste verleiht dem Gratin seinen typischen Geschmack.",
+        ingredients: [
+          { amount: 100, unit: "g", name: "Käse" }
+        ]
+      },
+      {
+        title: "Die Würzung",
+        description: "Mediterrane Kräuter und Gewürze verleihen dem Gratin seinen authentischen Geschmack.",
+        ingredients: [
+          { amount: 4, unit: "EL", name: "natives Olivenöl extra" },
+          { amount: 1, unit: "TL", name: "getrockneter Oregano" },
+          { amount: 2, unit: "Blätter", name: "frischer Lorbeer" },
+          { amount: 100, unit: "ml", name: "trockener Rotwein" },
+          { amount: undefined, unit: "", name: "Meersalz" },
+          { amount: undefined, unit: "", name: "frisch gemahlener Pfeffer" }
+        ]
+      }
+    ]
   },
   {
     title: "Quinoa-Buddha-Bowl",

@@ -65,8 +65,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                         <p className="font-sans text-gray-700 mb-4">{group.description}</p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                           {group.ingredients.map((ingredient, idx) => (
-                            <div key={idx} className="flex items-start">
-                              <div className="h-3 w-3 bg-[#3A7D54] rounded-full mt-2.5 mr-4 flex-shrink-0" />
+                            <div key={idx} className="flex items-center">
+                              <div className="h-3 w-3 bg-[#3A7D54] rounded-full mr-4 flex-shrink-0" />
                               <p className="font-sans text-gray-700">
                                 {ingredient.amount && `${ingredient.amount}${ingredient.unit ? ` ${ingredient.unit}` : ''} `}
                                 {ingredient.name}
@@ -80,8 +80,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                 ) : (
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     {recipe.ingredients.map((ingredient, index) => (
-                      <div key={index} className="flex items-start">
-                        <div className="h-3 w-3 bg-[#3A7D54] rounded-full mt-2.5 mr-4 flex-shrink-0" />
+                      <div key={index} className="flex items-center">
+                        <div className="h-3 w-3 bg-[#3A7D54] rounded-full mr-4 flex-shrink-0" />
                         <p className="font-sans text-gray-700">
                           {ingredient.amount && `${ingredient.amount}${ingredient.unit ? ` ${ingredient.unit}` : ''} `}
                           {ingredient.name}
