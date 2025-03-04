@@ -55,55 +55,91 @@ export default function RecipePage({ params }: RecipePageProps) {
 
               {/* Recipe Description */}
               <section className="mb-8 prose prose-lg max-w-none">
-                <h2 className="font-serif text-3xl font-bold mb-6 text-[#3A7D54]">{recipe.title}</h2>
-                <div className="font-sans text-gray-700 leading-relaxed mb-8 whitespace-pre-line">
-                  {recipe.description}
-                </div>
-                
-                <h3 className="font-serif text-2xl font-bold mb-4 text-[#3A7D54]">Das kommt rein:</h3>
-                {recipe.ingredientGroups ? (
-                  <div className="space-y-8">
-                    {recipe.ingredientGroups.map((group, index) => (
-                      <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                        <h4 className="font-serif text-xl font-semibold text-[#3A7D54] mb-4">{group.title}</h4>
-                        <p className="font-sans text-gray-700 mb-4">{group.description}</p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                          {group.ingredients.map((ingredient, idx) => (
-                            <div key={idx} className="flex items-center">
-                              <div className="h-3 w-3 bg-[#3A7D54] rounded-full mr-4 flex-shrink-0" />
-                              <p className="font-sans text-gray-700">
-                                {ingredient.amount && `${ingredient.amount}${ingredient.unit ? ` ${ingredient.unit}` : ''} `}
-                                {ingredient.name}
-                              </p>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                ) : (
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                    {recipe.ingredients.map((ingredient, index) => (
-                      <div key={index} className="flex items-center">
-                        <div className="h-3 w-3 bg-[#3A7D54] rounded-full mr-4 flex-shrink-0" />
-                        <p className="font-sans text-gray-700">
-                          {ingredient.amount && `${ingredient.amount}${ingredient.unit ? ` ${ingredient.unit}` : ''} `}
-                          {ingredient.name}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </section>
+  {/* Title */}
+  <h2 className="font-serif text-3xl font-bold mb-6 text-[#3A7D54]">Flammkuchen</h2>
+
+  {/* Introduction Paragraph */}
+  <div className="font-sans text-gray-700 leading-relaxed mb-8 whitespace-pre-line">
+    Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken, und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis. Perfekt für eine schnelle Mahlzeit oder als Party-Snack!
+  </div>
+
+  {/* Ingredients Section */}
+  <div className="space-y-6">
+    {/* Der Grundteig */}
+    <div>
+      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Der Grundteig</h3>
+      <p className="font-sans text-gray-700">
+        Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig. Der Teig lässt sich einfach vorbereiten und kann auch im Voraus zubereitet werden.
+      </p>
+      <ul className="list-disc pl-6 mt-4">
+        <li className="font-sans text-gray-700"><span className="font-semibold">62 g</span> Mehl</li>
+        <li className="font-sans text-gray-700"><span className="font-semibold">31 ml</span> Wasser</li>
+        <li className="font-sans text-gray-700"><span className="font-semibold">0.5 EL</span> Olivenöl</li>
+        <li className="font-sans text-gray-700"><span className="font-semibold">1 Prise</span> Salz</li>
+      </ul>
+    </div>
+
+    {/* Die cremige Basis */}
+    <div>
+      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Die cremige Basis</h3>
+      <p className="font-sans text-gray-700">
+        Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack. Für eine leichtere Variante kannst du auch Sauerrahm oder Joghurt verwenden.
+      </p>
+      <ul className="list-disc pl-6 mt-4">
+        <li className="font-sans text-gray-700"><span className="font-semibold">50 g</span> Crème fraîche</li>
+      </ul>
+    </div>
+
+    {/* Der würzige Belag */}
+    <div>
+      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Der würzige Belag</h3>
+      <p className="font-sans text-gray-700">
+        Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss. Du kannst auch andere Käsesorten wie Gouda oder Mozzarella verwenden, je nach Geschmack.
+      </p>
+      <ul className="list-disc pl-6 mt-4">
+        <li className="font-sans text-gray-700"><span className="font-semibold">0.5</span> Zwiebel (dünn geschnitten)</li>
+        <li className="font-sans text-gray-700"><span className="font-semibold">25 g</span> Gruyère oder Emmentaler (gerieben)</li>
+        <li className="font-sans text-gray-700">Salz (nach Geschmack)</li>
+        <li className="font-sans text-gray-700">Pfeffer (nach Geschmack)</li>
+      </ul>
+    </div>
+
+    {/* Tipps und Variationen */}
+    <div>
+      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Tipps und Variationen</h3>
+      <p className="font-sans text-gray-700">
+        - Für eine vegane Variante kannst du die Crème fraîche durch pflanzliche Sahne ersetzen und den Käse weglassen oder durch veganen Käse austauschen.<br />
+        - Füge Pilze, Spinat oder Paprika hinzu, um den Belag abwechslungsreicher zu gestalten.<br />
+        - Serviere den Flammkuchen mit einem frischen Salat oder einem Glas Weißwein für ein komplettes Mahlzeiterlebnis.<br />
+        - Der Teig lässt sich auch einfrieren – einfach zwischen Backpapier legen und in einem Gefrierbeutel aufbewahren.
+      </p>
+    </div>
+
+    {/* Zubereitung */}
+    <div>
+      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Zubereitung</h3>
+      <p className="font-sans text-gray-700">
+        1. Heize den Backofen auf 220°C vor.<br />
+        2. Vermische Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig. Rolle den Teig auf einem bemehlten Brett hauchdünn aus.<br />
+        3. Bestreiche den Teig gleichmäßig mit der Crème fraîche.<br />
+        4. Verteile die dünn geschnittenen Zwiebeln und den geriebenen Käse auf dem Teig.<br />
+        5. Würze mit Salz und Pfeffer nach Geschmack.<br />
+        6. Backe den Flammkuchen für 10–12 Minuten im vorgeheizten Ofen, bis der Teig knusprig und der Käse goldbraun ist.<br />
+        7. Serviere warm und genieße!
+      </p>
+    </div>
+  </div>
+</section>
 
               <Separator className="my-8" />
 
               {/* Images before Similar Recipes */}
               <div className="flex flex-col items-center gap-8 my-8">
-                <div className="flex justify-center gap-4 w-full max-w-[66.666%]">
+                <div className="flex justify-center gap-4 w-full max-w-[66.666%] mb-8">
                   <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
                   <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
                 </div>
+
 
                 {/* Empfohlener Beitrag */}
                 <div className="w-full max-w-[66.666%] mx-auto mb-8">
