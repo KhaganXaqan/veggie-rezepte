@@ -100,16 +100,16 @@ export default function RecipePage({ params }: RecipePageProps) {
 
               {/* Images before Similar Recipes */}
               <div className="flex flex-col items-center gap-8 my-8">
-                <div className="flex justify-center gap-4">
-                  <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-1/3 h-auto rounded-2xl" />
-                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-1/3 h-auto rounded-2xl" />
+                <div className="flex justify-center gap-4 w-full max-w-[66.666%]">
+                  <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
+                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
                 </div>
-                
+
                 {/* Empfohlener Beitrag */}
-                <div className="w-full max-w-2xl mx-auto mb-16">
+                <div className="w-full max-w-[66.666%] mx-auto mb-8">
                   <a href={`/${randomRecipe.slug}`} className="block">
-                    <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
-                      <div className="flex items-start gap-6">
+                    <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
+                      <div className="flex items-start gap-6 p-6">
                         <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
                           <img 
                             src={randomRecipe.image} 
@@ -131,6 +131,40 @@ export default function RecipePage({ params }: RecipePageProps) {
                             Zum Beitrag
                           </button>
                         </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                {/* Schritt für Schritt - Flammkuchen */}
+                <div className="w-full max-w-[66.666%] mx-auto mb-16">
+                  <a href="/flammkuchen" className="block">
+                    <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
+                      <div className="p-6">
+                        <h4 className="font-bold text-xl text-[#0b3558] mb-3">
+                          <span className='hover:text-[#db747a] transition-colors"'>Elsässer Flammkuchen: Ein kulinarisches Meisterwerk</span>
+                        </h4>
+                        <div className="text-gray-600 text-sm mb-6">
+                          <p className="font-bold mb-2">Schritt 1: Die Kunst des Teiges</p>
+                          <p className="mb-4 italic">Der hauchdünne, knusprige Teig ist das Fundament eines authentischen Flammkuchens. Die perfekte Mischung aus Mehl, Wasser, Öl und einer Prise Salz ergibt einen Teig, der beim Backen wunderbar knusprig wird.</p>
+                          
+                          <p className="font-bold mb-2">Schritt 2: Die Aromenbasis</p>
+                          <p className="mb-4"><span className="font-semibold">Die Schmand-Crème-fraîche-Mischung</span> bildet die cremige Grundlage, die mit einer Prise Muskat und frisch gemahlenem Pfeffer verfeinert wird. Darauf werden hauchdünn geschnittene Zwiebeln verteilt, die beim Backen karamellisieren und ihr süßlich-würziges Aroma entfalten.</p>
+                          
+                          <p className="font-bold mb-2">Schritt 3: Die Verfeinerung</p>
+                          <p className="mb-4">Fein gewürfelter Speck verleiht dem Flammkuchen seine charakteristische, herzhafte Note. <span className="italic">Optional können auch Lauchzwiebeln oder frische Kräuter den Geschmack abrunden.</span></p>
+
+                          <p className="font-bold mb-2">Schritt 4: Die Backtechnik</p>
+                          <p className="mb-4">Der Schlüssel zum Erfolg liegt in der <span className="font-semibold">hohen Backtemperatur von 250°C</span>. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern.</p>
+
+                          <p className="font-bold mb-2">Serviervorschlag</p>
+                          <p>Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. <span className="italic">Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.</span></p>
+                        </div>
+                        <img 
+                          src="/images/MainCourses/flammkuchen3.jpeg" 
+                          alt="Flammkuchen Schritt für Schritt" 
+                          className="w-full h-auto rounded-lg mb-6"
+                        />
                       </div>
                     </div>
                   </a>
