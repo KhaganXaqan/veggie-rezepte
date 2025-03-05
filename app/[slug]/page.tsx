@@ -141,7 +141,7 @@ export default function RecipePage({ params }: RecipePageProps) {
 
 
                 {/* Empfohlener Beitrag */}
-                <div className="w-full max-w-[86.666%] mx-auto mb-8">
+                <div className="w-full max-w-[86.666%] mx-auto mb-4">
                   <a href={`/${randomRecipe.slug}`} className="block">
                     <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
                       <div className="flex items-start gap-6 p-6">
@@ -172,7 +172,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 </div>
 
                 {/* Schritt für Schritt - Flammkuchen */}
-                <div className="w-full max-w-[86.666%] mx-auto mb-16">
+                <div className="w-full max-w-[86.666%] mx-auto mb-4">
                   <a href="/flammkuchen" className="block">
                     <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
                       <div className="p-6">
@@ -206,7 +206,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 </div>
 
                 {/* Empfohlene Beiträge */}
-                <div className="w-full max-w-[86.666%] mx-auto mb-16">
+                <div className="w-full max-w-[86.666%] mx-auto mb-4">
                   <div className="bg-gray-50 rounded-xl shadow-sm p-6">
                     <div className="flex items-center gap-4 mb-6">
                       <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
@@ -245,7 +245,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 </div>
 
                 {/* Why Flammkuchen is a Favorite */}
-                <div className="w-full max-w-[86.666%] mx-auto mb-16">
+                <div className="w-full max-w-[86.666%] mx-auto mb-4">
                   <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 p-8">
                     <div className="flex items-start gap-8">
                       <div className="flex-grow">
@@ -254,63 +254,90 @@ export default function RecipePage({ params }: RecipePageProps) {
                         </h2>
                         <ul className="space-y-4">
                           <li className="flex items-start gap-3">
-                            <span className="text-[#db747a] font-bold text-xl leading-none mt-1">•</span>
+                            <span className="text-[#0b3558] font-bold text-xl leading-none mt-1">•</span>
                             <div>
                               <span className="font-semibold text-gray-800">Knuspriger Teig und cremiger Belag</span>
                               <p className="text-gray-600 mt-1 leading-relaxed">Die perfekte Kombination aus hauchdünnem, knusprigem Teig und einer cremigen Basis.</p>
                             </div>
                           </li>
                           <li className="flex items-start gap-3">
-                            <span className="text-[#db747a] font-bold text-xl leading-none mt-1">•</span>
+                            <span className="text-[#0b3558] font-bold text-xl leading-none mt-1">•</span>
                             <div>
                               <span className="font-semibold text-gray-800">Schnell und einfach zuzubereiten</span>
                               <p className="text-gray-600 mt-1 leading-relaxed">In nur 30 Minuten von der Zubereitung bis zum Servieren.</p>
                             </div>
                           </li>
                           <li className="flex items-start gap-3">
-                            <span className="text-[#db747a] font-bold text-xl leading-none mt-1">•</span>
+                            <span className="text-[#0b3558] font-bold text-xl leading-none mt-1">•</span>
                             <div>
                               <span className="font-semibold text-gray-800">Perfekt für Partys oder als Hauptgericht</span>
                               <p className="text-gray-600 mt-1 leading-relaxed">Eignet sich hervorragend zum Teilen oder als vollwertige Mahlzeit.</p>
                             </div>
                           </li>
                           <li className="flex items-start gap-3">
-                            <span className="text-[#db747a] font-bold text-xl leading-none mt-1">•</span>
+                            <span className="text-[#0b3558] font-bold text-xl leading-none mt-1">•</span>
                             <div>
                               <span className="font-semibold text-gray-800">Vegetarisch, aber auch mit Speck oder Schinken möglich</span>
                               <p className="text-gray-600 mt-1 leading-relaxed">Flexibel anpassbar an verschiedene Ernährungsweisen.</p>
                             </div>
                           </li>
                           <li className="flex items-start gap-3">
-                            <span className="text-[#db747a] font-bold text-xl leading-none mt-1">•</span>
+                            <span className="text-[#0b3558] font-bold text-xl leading-none mt-1">•</span>
                             <div>
                               <span className="font-semibold text-gray-800">Kann mit verschiedenen Zutaten variiert werden</span>
                               <p className="text-gray-600 mt-1 leading-relaxed">Von klassischen Zwiebeln bis zu Pilzen oder Käse – der Kreativität sind keine Grenzen gesetzt.</p>
                             </div>
                           </li>
                           <li className="flex items-start gap-3">
-                            <span className="text-[#db747a] font-bold text-xl leading-none mt-1">•</span>
+                            <span className="text-[#0b3558] font-bold text-xl leading-none mt-1">•</span>
                             <div>
                               <span className="font-semibold text-gray-800">Ideal zum Vorbereiten – Meal Prep geeignet</span>
                               <p className="text-gray-600 mt-1 leading-relaxed">Der Teig kann vorgeknetet und eingefroren werden.</p>
                             </div>
                           </li>
                         </ul>
-                        <div className="mt-8 text-center text-gray-600 italic">
-                          Probier doch auch mal die Variante mit frischem Rucola aus!
-                        </div>
-                      </div>
-                      <div className="w-1/3 flex-shrink-0">
-                        <img
-                          src="/images/MainCourses/flammkuchen2.jpeg"
-                          alt="Flammkuchen"
-                          className="w-full h-auto rounded-lg shadow-sm"
-                        />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+
+                                      
+                        {/* Handwritten-style message */}
+                        <div className="mt-10 pt-6 flex justify-center">
+                          <div className="relative max-w-md transform rotate-[-1deg]">
+                            <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                              <div 
+                                className="relative z-10 font-['Segoe_Script','Brush_Script_MT',cursive] text-center"
+                                style={{
+                                  textShadow: '0px 0px 1px rgba(0,0,0,0.1)',
+                                  color: '#0b3558',
+                                  lineHeight: '1.5'
+                                }}
+                              >
+                                <p className="text-xl mb-2">Und jetzt lass dir meinen Flammkuchen richtig gut schmecken!</p>
+                                <p className="text-lg mt-3">Ich bin schon ganz gespannt auf dein Feedback!</p>
+                                
+                                {/* Handwritten signature */}
+                                <div className="mt-4 flex justify-end">
+                                  <div 
+                                    className="font-['Segoe_Script','Brush_Script_MT',cursive] text-right text-[#db747a]"
+                                    style={{ transform: 'rotate(-3deg)' }}
+                                  >
+                                    <span className="text-lg">Dein Veggie-Rezepte Team</span>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              {/* Decorative elements */}
+                              <div className="absolute -top-2 -right-2 w-8 h-8 bg-[#db747a]/10 rounded-full"></div>
+                              <div className="absolute -bottom-3 -left-3 w-10 h-10 bg-[#0b3558]/5 rounded-full"></div>
+                            </div>
+                            
+                            {/* Paper tape effect */}
+                            <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-[#db747a]/20 rounded-sm"></div>
+                          </div>
+                        </div>
 
               {/* Similar Recipes */}
               <section className="mb-8">
