@@ -32,6 +32,20 @@ export default function RecipePage({ params }: RecipePageProps) {
   const otherRecipes = recipes.filter(r => r.slug !== params.slug)
   const randomRecipe = otherRecipes[Math.floor(Math.random() * otherRecipes.length)]
 
+  // Get random recipes from the same category for Empfohlene Beiträge
+  const recipesFromSameCategory = recipes.filter(r => 
+    r.slug !== params.slug && 
+    r.category === recipe.category
+  )
+  
+  // Get 3 random recipes from the filtered list
+  const getRandomRecipes = (arr: typeof recipes, count: number) => {
+    const shuffled = [...arr].sort(() => 0.5 - Math.random())
+    return shuffled.slice(0, count)
+  }
+  
+  const recommendedRecipes = getRandomRecipes(recipesFromSameCategory, 3)
+
   return (
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
@@ -194,77 +208,32 @@ export default function RecipePage({ params }: RecipePageProps) {
                 {/* Empfohlene Beiträge */}
                 <div className="w-full max-w-[66.666%] mx-auto mb-16">
                   <h3 className="font-serif text-2xl font-bold mb-6 text-[#0b3558] text-center">
-                    Empfohlene Beiträge
+                    Empfohlene {recipe.category}
                   </h3>
                   <div className="grid grid-cols-3 gap-4">
-                    {/* Post 1 */}
-                    <a href="/semmelknoedel" className="block">
-                      <div className="bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl shadow-sm h-full">
-                        <div className="flex flex-col p-4">
-                          <div className="w-full aspect-square rounded-lg overflow-hidden mb-4">
-                            <img
-                              src="/images/MainCourses/semmelknoedel.webp"
-                              alt="Semmelknödel"
-                              className="w-full h-full object-cover"
-                            />
-                          </div>
-                          <div>
-                            <h4 className="font-bold text-lg text-[#0b3558] mb-2">
-                              Semmelknödel
-                            </h4>
-                            <p className="text-gray-600 text-sm line-clamp-2">
-                              Klassische bayerische Semmelknödel - perfekt zu Pilzragout oder als Beilage zu Braten und Soßen.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-
-                    {/* Post 2 */}
-                    <a href="/kaesespaetzle" className="block">
-                      <div className="bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl shadow-sm h-full">
-                        <div className="flex flex-col p-4">
-                          <div className="w-full aspect-square rounded-lg overflow-hidden mb-4">
-                            <img
-                              src="/images/MainCourses/kaesespaetzle.webp"
-                              alt="Käsespätzle"
-                              className="w-full h-full object-cover"
-                            />
-                          </div>
-                          <div>
-                            <h4 className="font-bold text-lg text-[#0b3558] mb-2">
-                              Käsespätzle
-                            </h4>
-                            <p className="text-gray-600 text-sm line-clamp-2">
-                              Hausgemachte Spätzle mit würzigem Bergkäse und knusprigen Röstzwiebeln - der schwäbische Klassiker.
-                            </p>
+                    {recommendedRecipes.map((recommendedRecipe, index) => (
+                      <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
+                        <div className="bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl shadow-sm h-full">
+                          <div className="flex flex-col p-4">
+                            <div className="w-full aspect-square rounded-lg overflow-hidden mb-4">
+                              <img
+                                src={recommendedRecipe.image}
+                                alt={recommendedRecipe.title}
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                            <div>
+                              <h4 className="font-bold text-lg text-[#0b3558] mb-2">
+                                {recommendedRecipe.title}
+                              </h4>
+                              <p className="text-gray-600 text-sm line-clamp-2">
+                                {recommendedRecipe.descriptionOnImage}
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </a>
-
-                    {/* Post 3 */}
-                    <a href="/kartoffelgratin" className="block">
-                      <div className="bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl shadow-sm h-full">
-                        <div className="flex flex-col p-4">
-                          <div className="w-full aspect-square rounded-lg overflow-hidden mb-4">
-                            <img
-                              src="/images/MainCourses/kartoffelgratin.webp"
-                              alt="Kartoffelgratin"
-                              className="w-full h-full object-cover"
-                            />
-                          </div>
-                          <div>
-                            <h4 className="font-bold text-lg text-[#0b3558] mb-2">
-                              Kartoffelgratin
-                            </h4>
-                            <p className="text-gray-600 text-sm line-clamp-2">
-                              Cremiges Kartoffelgratin mit frischen Kräutern und einer goldbraunen Käsekruste.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
+                      </a>
+                    ))}
                   </div>
                 </div>
               </div>
