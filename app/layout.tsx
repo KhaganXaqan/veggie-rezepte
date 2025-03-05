@@ -6,6 +6,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { Analytics } from '@vercel/analytics/react';
 import { siteConfig } from '@/lib/constants';
 import Script from 'next/script';
+import { cn } from '@/lib/utils';
 
 const inter = InterFont({
   subsets: ['latin'],
@@ -79,14 +80,16 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
         />
       </head>
-      <body className={inter.className}>
+      <body className={cn("min-h-screen bg-white font-sans antialiased", inter.className)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <div className="relative flex min-h-screen flex-col bg-white">
+            {children}
+          </div>
           <Toaster />
           <Analytics />
         </ThemeProvider>

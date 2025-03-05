@@ -43,9 +43,9 @@ export default function AllRecipesPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       <SiteHeader />
-      <main className="flex-1">
+      <main className="flex-1 bg-white">
         <div className="container py-8">
           <div className="max-w-2xl mx-auto mb-8">
             <h1 className="text-4xl font-bold mb-8">Alle Rezepte</h1>
