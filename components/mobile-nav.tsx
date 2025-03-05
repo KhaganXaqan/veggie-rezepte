@@ -53,14 +53,6 @@ export function MobileNav() {
                 {route.label}
               </Link>
             ))}
-            <div className="mt-4 space-y-2">
-              <Button variant="outline" className="w-full justify-start" onClick={() => setOpen(false)}>
-                Rezept einreichen
-              </Button>
-              <Button className="w-full justify-start" onClick={() => setOpen(false)}>
-                Anmelden
-              </Button>
-            </div>
           </div>
         </ScrollArea>
       </SheetContent>
