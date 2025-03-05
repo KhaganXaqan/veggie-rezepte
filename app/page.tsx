@@ -207,7 +207,7 @@ export default function Home() {
         {/* Popular Recipes Section */}
         <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
-            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[100vw] after:bg-brand">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[100vw] after:bg-brand">
               Beliebte Rezepte
             </h2>
           </header>
@@ -286,7 +286,7 @@ export default function Home() {
         {/* Recipe Sections - Hauptgerichte */}
         <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
-            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[100vw] after:bg-brand">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[100vw] after:bg-brand">
               Hauptgerichte Rezepte
             </h2>
           </header>
@@ -327,7 +327,7 @@ export default function Home() {
         {/* Soups Section */}
         <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
-            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Suppen Rezepte
             </h2>
           </header>
@@ -368,7 +368,7 @@ export default function Home() {
         {/* Salads Section */}
         <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
-            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Salate Rezepte
             </h2>
           </header>
@@ -409,7 +409,7 @@ export default function Home() {
         {/* Breakfast Section */}
         <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
-            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Frühstück Rezepte
             </h2>
           </header>
@@ -493,7 +493,7 @@ export default function Home() {
         {/* Desserts Section */}
         <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
-            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Desserts Rezepte
             </h2>
           </header>
@@ -534,7 +534,7 @@ export default function Home() {
         {/* Casseroles Section */}
         <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
-            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
+            <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Aufläufe Rezepte
             </h2>
           </header>
