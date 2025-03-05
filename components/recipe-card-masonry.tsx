@@ -78,6 +78,16 @@ export function RecipeCardMasonry({
           Rezeptdetails <i className="fas fa-arrow-right"></i>
         </Link>
       </div>
+      <div className="recipe-card__content mt-4">
+        <h2 className="recipe-card__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black">
+          {recipe.title}
+        </h2>
+        {recipe.prepTime && (
+          <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">
+            {recipe.prepTime}
+          </span>
+        )}
+      </div>
     </div>
   )
 } 
