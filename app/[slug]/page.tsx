@@ -40,7 +40,7 @@ export default function RecipePage({ params }: RecipePageProps) {
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
             <div className="lg:col-span-3">
               {/* Recipe Header */}
-              <RecipeHeader 
+              <RecipeHeader
                 title={recipe.title}
                 description={recipe.descriptionOnImage}
                 image={recipe.image}
@@ -51,71 +51,71 @@ export default function RecipePage({ params }: RecipePageProps) {
                 rating={recipe.rating}
               />
 
-              
 
-              
 
-              {/* Images before Similar Recipes */}
+
+
+              {/* Images before Similar Recipes */}              
               <div className="flex flex-col items-center gap-8 my-8">
-                  {/* Title */}
-  <h2 className="font-serif text-3xl font-bold mb-2 text-[#3A7D54]">Flammkuchen</h2>
+                {/* Title */}
+                <h2 className="font-serif text-3xl font-bold mb-2 text-[#3A7D54]">Flammkuchen</h2>
 
-{/* Introduction Paragraph */}
-<div className="font-sans text-gray-700 leading-relaxed mb-2 whitespace-pre-line max-w-[66.666%] ">
-  Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken, und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis. Perfekt für eine schnelle Mahlzeit oder als Party-Snack!
-</div>
-                  {/* Ingredients Section */}
+                {/* Introduction Paragraph */}
+                <div className="font-sans text-gray-700 leading-relaxed mb-2 whitespace-pre-line max-w-[66.666%] ">
+                  Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken, und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis. Perfekt für eine schnelle Mahlzeit oder als Party-Snack!
+                </div>
+                {/* Ingredients Section */}
   <div className="max-w-[66.666%] mb-2">
-    {/* Der Grundteig */}
-    <div>
-      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Der Grundteig</h3>
-      <p className="font-sans text-gray-700 mb-2">
-        Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig. Der Teig lässt sich einfach vorbereiten und kann auch im Voraus zubereitet werden.
-      </p>
-      <ul className="list-disc pl-6 mt-4" mb-2>
-        <li className="font-sans text-gray-700"><span className="font-semibold">62 g</span> Mehl</li>
-        <li className="font-sans text-gray-700"><span className="font-semibold">31 ml</span> Wasser</li>
-        <li className="font-sans text-gray-700"><span className="font-semibold">0.5 EL</span> Olivenöl</li>
-        <li className="font-sans text-gray-700"><span className="font-semibold">1 Prise</span> Salz</li>
-      </ul>
-    </div>
+                  {/* Der Grundteig */}
+                  <div>
+                    <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Der Grundteig</h3>
+                    <p className="font-sans text-gray-700 mb-2">
+                      Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig. Der Teig lässt sich einfach vorbereiten und kann auch im Voraus zubereitet werden.
+                    </p>
+                    <ul className="list-disc pl-6 mt-4" mb-2>
+                      <li className="font-sans text-gray-700"><span className="font-semibold">62 g</span> Mehl</li>
+                      <li className="font-sans text-gray-700"><span className="font-semibold">31 ml</span> Wasser</li>
+                      <li className="font-sans text-gray-700"><span className="font-semibold">0.5 EL</span> Olivenöl</li>
+                      <li className="font-sans text-gray-700"><span className="font-semibold">1 Prise</span> Salz</li>
+                    </ul>
+                  </div>
 
-    {/* Die cremige Basis */}
-    <div className='mb-2'>
-      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Die cremige Basis</h3>
-      <p className="font-sans text-gray-700 mb-2">
-        Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack. Für eine leichtere Variante kannst du auch Sauerrahm oder Joghurt verwenden.
-      </p>
-      <ul className="list-disc pl-6 mt-4" mb-2>
-        <li className="font-sans text-gray-700"><span className="font-semibold">50 g</span> Crème fraîche</li>
-      </ul>
-    </div>
+                  {/* Die cremige Basis */}
+                  <div className='mb-2'>
+                    <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Die cremige Basis</h3>
+                    <p className="font-sans text-gray-700 mb-2">
+                      Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack. Für eine leichtere Variante kannst du auch Sauerrahm oder Joghurt verwenden.
+                    </p>
+                    <ul className="list-disc pl-6 mt-4" mb-2>
+                      <li className="font-sans text-gray-700"><span className="font-semibold">50 g</span> Crème fraîche</li>
+                    </ul>
+                  </div>
 
-    {/* Der würzige Belag */}
-    <div>
-      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Der würzige Belag</h3>
-      <p className="font-sans text-gray-700 mb-2">
-        Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss. Du kannst auch andere Käsesorten wie Gouda oder Mozzarella verwenden, je nach Geschmack.
-      </p>
-      <ul className="list-disc pl-6 mt-4 mb-2">
-        <li className="font-sans text-gray-700"><span className="font-semibold">0.5</span> Zwiebel (dünn geschnitten)</li>
-        <li className="font-sans text-gray-700"><span className="font-semibold">25 g</span> Gruyère oder Emmentaler (gerieben)</li>
-        <li className="font-sans text-gray-700">Salz (nach Geschmack)</li>
-        <li className="font-sans text-gray-700">Pfeffer (nach Geschmack)</li>
-      </ul>
-    </div>
+                  {/* Der würzige Belag */}
+                  <div>
+                    <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Der würzige Belag</h3>
+                    <p className="font-sans text-gray-700 mb-2">
+                      Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss. Du kannst auch andere Käsesorten wie Gouda oder Mozzarella verwenden, je nach Geschmack.
+                    </p>
+                    <ul className="list-disc pl-6 mt-4 mb-2">
+                      <li className="font-sans text-gray-700"><span className="font-semibold">0.5</span> Zwiebel (dünn geschnitten)</li>
+                      <li className="font-sans text-gray-700"><span className="font-semibold">25 g</span> Gruyère oder Emmentaler (gerieben)</li>
+                      <li className="font-sans text-gray-700">Salz (nach Geschmack)</li>
+                      <li className="font-sans text-gray-700">Pfeffer (nach Geschmack)</li>
+                    </ul>
+                  </div>
 
-    {/* Tipps und Variationen */}
-    <div>
-      <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Tipps und Variationen</h3>
-      <p className="font-sans text-gray-700">
-      <li className="font-sans text-gray-700">Für eine vegane Variante kannst du die Crème fraîche durch pflanzliche Sahne ersetzen und den Käse weglassen oder durch veganen Käse austauschen.</li>
-      <li className="font-sans text-gray-700">Füge Pilze, Spinat oder Paprika hinzu, um den Belag abwechslungsreicher zu gestalten.</li>
-      <li className="font-sans text-gray-700">Serviere den Flammkuchen mit einem frischen Salat oder einem Glas Weißwein für ein komplettes Mahlzeiterlebnis.</li>
-      <li className="font-sans text-gray-700">Der Teig lässt sich auch einfrieren – einfach zwischen Backpapier legen und in einem Gefrierbeutel aufbewahren.</li>
-      </p>
-    </div>
-  </div>
+                  {/* Tipps und Variationen */}
+                  <div>
+                    <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Tipps und Variationen</h3>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li className="font-sans text-gray-700">Für eine vegane Variante kannst du die Crème fraîche durch pflanzliche Sahne ersetzen und den Käse weglassen oder durch veganen Käse austauschen.</li>
+                      <li className="font-sans text-gray-700">Füge Pilze, Spinat oder Paprika hinzu, um den Belag abwechslungsreicher zu gestalten.</li>
+                      <li className="font-sans text-gray-700">Serviere den Flammkuchen mit einem frischen Salat oder einem Glas Weißwein für ein komplettes Mahlzeiterlebnis.</li>
+                      <li className="font-sans text-gray-700">Der Teig lässt sich auch einfrieren – einfach zwischen Backpapier legen und in einem Gefrierbeutel aufbewahren.</li>
+                    </ul>
+                  </div>
+                </div>
                 <div className="flex justify-center gap-4 w-full max-w-[66.666%] mb-8">
                   <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
                   <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
@@ -128,9 +128,9 @@ export default function RecipePage({ params }: RecipePageProps) {
                     <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
                       <div className="flex items-start gap-6 p-6">
                         <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
-                          <img 
-                            src={randomRecipe.image} 
-                            alt={randomRecipe.title} 
+                          <img
+                            src={randomRecipe.image}
+                            alt={randomRecipe.title}
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -164,10 +164,10 @@ export default function RecipePage({ params }: RecipePageProps) {
                         <div className="text-gray-600 text-sm mb-6">
                           <p className="font-bold mb-2">Schritt 1: Die Kunst des Teiges</p>
                           <p className="mb-4 italic">Der hauchdünne, knusprige Teig ist das Fundament eines authentischen Flammkuchens. Die perfekte Mischung aus Mehl, Wasser, Öl und einer Prise Salz ergibt einen Teig, der beim Backen wunderbar knusprig wird.</p>
-                          
+
                           <p className="font-bold mb-2">Schritt 2: Die Aromenbasis</p>
                           <p className="mb-4"><span className="font-semibold">Die Schmand-Crème-fraîche-Mischung</span> bildet die cremige Grundlage, die mit einer Prise Muskat und frisch gemahlenem Pfeffer verfeinert wird. Darauf werden hauchdünn geschnittene Zwiebeln verteilt, die beim Backen karamellisieren und ihr süßlich-würziges Aroma entfalten.</p>
-                          
+
                           <p className="font-bold mb-2">Schritt 3: Die Verfeinerung</p>
                           <p className="mb-4">Fein gewürfelter Speck verleiht dem Flammkuchen seine charakteristische, herzhafte Note. <span className="italic">Optional können auch Lauchzwiebeln oder frische Kräuter den Geschmack abrunden.</span></p>
 
@@ -177,9 +177,9 @@ export default function RecipePage({ params }: RecipePageProps) {
                           <p className="font-bold mb-2">Serviervorschlag</p>
                           <p>Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. <span className="italic">Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.</span></p>
                         </div>
-                        <img 
-                          src="/images/MainCourses/flammkuchen3.jpeg" 
-                          alt="Flammkuchen Schritt für Schritt" 
+                        <img
+                          src="/images/MainCourses/flammkuchen3.jpeg"
+                          alt="Flammkuchen Schritt für Schritt"
                           className="w-full h-auto rounded-lg mb-6"
                         />
                       </div>
@@ -190,7 +190,7 @@ export default function RecipePage({ params }: RecipePageProps) {
 
               {/* Similar Recipes */}
               <section className="mb-8">
-                <RecipeSimilar 
+                <RecipeSimilar
                   recipes={recipes}
                   currentRecipe={recipe}
                 />
@@ -200,7 +200,7 @@ export default function RecipePage({ params }: RecipePageProps) {
 
               {/* Ingredients */}
               <section className="mb-8">
-                <RecipeIngredients 
+                <RecipeIngredients
                   initialServings={recipe.servings}
                   ingredients={recipe.ingredients}
                 />
@@ -210,7 +210,7 @@ export default function RecipePage({ params }: RecipePageProps) {
 
               {/* Instructions */}
               <section className="mb-8">
-                <RecipeInstructions 
+                <RecipeInstructions
                   instructions={recipe.instructions}
                 />
               </section>
@@ -219,7 +219,7 @@ export default function RecipePage({ params }: RecipePageProps) {
 
               {/* Nutrition */}
               <section className="mb-8">
-                <RecipeNutrition 
+                <RecipeNutrition
                   servings={recipe.servings}
                   nutrition={recipe.nutrition}
                 />
