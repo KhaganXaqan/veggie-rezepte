@@ -63,7 +63,7 @@ export default function Home() {
         </section>
 
         {/* Categories Section */}
-        <section className="cp-list layout-beta max-w-[1168px] mx-auto my-[50px] relative">
+        <section className="cp-list layout-beta max-w-[1168px] mx-auto mt-[50px] mb-[50px] lg:mb-[50px] relative">
           <div className="cp-list__inner flex sm:grid sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-4 overflow-x-auto pb-4 sm:pb-0 scrollbar-none px-4">
             <Link href="/rezepte/alle?tag=Mediterran" className="cat flex-shrink-0 sm:flex-auto flex flex-col items-center w-[120px] sm:w-auto">
               <span className="cat__image w-[120px] h-[120px] overflow-hidden rounded-full">
@@ -205,7 +205,7 @@ export default function Home() {
         </section>
 
         {/* Popular Recipes Section */}
-        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] my-[50px] relative">
+        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
             <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[100vw] after:bg-brand">
               Beliebte Rezepte
@@ -284,7 +284,7 @@ export default function Home() {
         </section>
 
         {/* Recipe Sections - Hauptgerichte */}
-        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] my-[50px] relative">
+        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
             <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-[100vw] after:bg-brand">
               Hauptgerichte Rezepte
@@ -325,7 +325,7 @@ export default function Home() {
         </section>
 
         {/* Soups Section */}
-        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] my-[50px] relative">
+        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
             <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Suppen Rezepte
@@ -366,7 +366,7 @@ export default function Home() {
         </section>
 
         {/* Salads Section */}
-        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] my-[50px] relative">
+        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
             <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Salate Rezepte
@@ -407,7 +407,7 @@ export default function Home() {
         </section>
 
         {/* Breakfast Section */}
-        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] my-[50px] relative">
+        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
             <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Frühstück Rezepte
@@ -491,7 +491,7 @@ export default function Home() {
         </section>
 
         {/* Desserts Section */}
-        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] my-[50px] relative">
+        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
             <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Desserts Rezepte
@@ -532,7 +532,7 @@ export default function Home() {
         </section>
 
         {/* Casseroles Section */}
-        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] my-[50px] relative">
+        <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
           <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
             <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
               Aufläufe Rezepte
