@@ -75,7 +75,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 <h2 className="font-serif text-3xl font-bold mb-2 text-[#0b3558]">Flammkuchen</h2>
 
                 {/* Introduction Paragraph */}
-                <div className="w-full max-w-[66.666%]">
+                <div className="w-full max-w-[86.666%]">
                   <div className="bg-gray-50 rounded-xl shadow-sm p-6 mb-2">
                     <div className="font-sans text-gray-700 leading-relaxed">
                       Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken, und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis. Perfekt für eine schnelle Mahlzeit oder als Party-Snack!
@@ -83,7 +83,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                   </div>
                 </div>
                 {/* Ingredients Section */}
-                <div className="max-w-[66.666%] mb-2">
+                <div className="max-w-[86.666%] mb-2">
                   {/* Der Grundteig */}
                   <div className="bg-gray-50 rounded-xl shadow-sm mb-6 p-6">
                     <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Der Grundteig</h3>
@@ -134,14 +134,14 @@ export default function RecipePage({ params }: RecipePageProps) {
                     </ul>
                   </div>
                 </div>
-                <div className="flex justify-center gap-4 w-full max-w-[66.666%] mb-8">
+                <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
                   <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
                   <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
                 </div>
 
 
                 {/* Empfohlener Beitrag */}
-                <div className="w-full max-w-[66.666%] mx-auto mb-8">
+                <div className="w-full max-w-[86.666%] mx-auto mb-8">
                   <a href={`/${randomRecipe.slug}`} className="block">
                     <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
                       <div className="flex items-start gap-6 p-6">
@@ -172,7 +172,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 </div>
 
                 {/* Schritt für Schritt - Flammkuchen */}
-                <div className="w-full max-w-[66.666%] mx-auto mb-16">
+                <div className="w-full max-w-[86.666%] mx-auto mb-16">
                   <a href="/flammkuchen" className="block">
                     <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
                       <div className="p-6">
@@ -206,7 +206,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 </div>
 
                 {/* Empfohlene Beiträge */}
-                <div className="w-full max-w-[66.666%] mx-auto mb-16">
+                <div className="w-full max-w-[86.666%] mx-auto mb-16">
                   <h3 className="font-serif text-2xl font-bold mb-6 text-[#0b3558] text-center">
                     Empfohlene {recipe.category}
                   </h3>
