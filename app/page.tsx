@@ -271,7 +271,7 @@ export default function Home() {
                         </div>
                         {recipe.prepTime && (
                           <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                            <span className="text-[10px] text-black/80 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                            <span className="text-[10px] text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                           </div>
                         )}
                       </div>
@@ -306,11 +306,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase">
+                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-xs sm:text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                      <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
@@ -347,11 +347,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase">
+                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-xs sm:text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                      <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
@@ -388,11 +388,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase">
+                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-xs sm:text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                      <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
@@ -473,7 +473,7 @@ export default function Home() {
                         </div>
                         {recipe.prepTime && (
                           <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                            <span className="text-[10px] text-black/80 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                            <span className="text-[10px] text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                           </div>
                         )}
                       </div>
@@ -513,14 +513,14 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase">
+                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-xs sm:text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                      <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
-              </Link>
+                </Link>
               </article>
             ))}
           </div>
@@ -554,11 +554,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="post-summary__content mt-4">
-                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase">
+                    <h2 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black">
                       <span>{recipe.title}</span>
                     </h2>
                     {recipe.prepTime && (
-                      <span className="text-xs sm:text-sm text-muted-foreground font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                      <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
                 </Link>
