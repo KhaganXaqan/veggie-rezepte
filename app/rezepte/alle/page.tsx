@@ -48,7 +48,7 @@ export default function AllRecipesPage() {
       <main className="flex-1 bg-white">
         <div className="container py-8">
           <div className="max-w-2xl mx-auto mb-8">
-            <h1 className="text-4xl font-bold mb-8">Alle Rezepte</h1>
+            <h1 className="text-4xl font-bold mb-8 text-black">Alle Rezepte</h1>
             <Input
               type="search"
               placeholder="Nach Rezepten suchen..."
@@ -61,7 +61,7 @@ export default function AllRecipesPage() {
                 <Badge
                   key={tag}
                   variant={selectedTags.includes(tag) ? "default" : "outline"}
-                  className="cursor-pointer"
+                  className="cursor-pointer hover:bg-gray-100"
                   onClick={() => toggleTag(tag)}
                 >
                   {tag}
@@ -83,7 +83,7 @@ export default function AllRecipesPage() {
 
         {filteredRecipes.length === 0 && (
           <div className="container">
-            <div className="text-center text-muted-foreground py-12">
+            <div className="text-center text-black/70 py-12">
               Keine Rezepte gefunden. Versuche es mit anderen Suchbegriffen.
             </div>
           </div>
