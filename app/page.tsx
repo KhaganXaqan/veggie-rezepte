@@ -20,9 +20,9 @@ export default function Home() {
   const desserts = recipes.filter((recipe: Recipe) => recipe.category === "Desserts")
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       <SiteHeader />
-      <main className="flex-1">
+      <main className="flex-1 bg-white">
         {/* Hero Section */}
         <section className="relative h-[600px] flex items-center justify-center">
           <div className="absolute inset-0">
