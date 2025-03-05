@@ -58,21 +58,25 @@ export default function RecipePage({ params }: RecipePageProps) {
               {/* Images before Similar Recipes */}              
               <div className="flex flex-col items-center gap-8 my-8">
                 {/* Title */}
-                <h2 className="font-serif text-3xl font-bold mb-2 text-[#3A7D54]">Flammkuchen</h2>
+                <h2 className="font-serif text-3xl font-bold mb-2 text-[#0b3558]">Flammkuchen</h2>
 
                 {/* Introduction Paragraph */}
-                <div className="font-sans text-gray-700 leading-relaxed mb-2 whitespace-pre-line max-w-[66.666%] ">
-                  Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken, und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis. Perfekt für eine schnelle Mahlzeit oder als Party-Snack!
+                <div className="w-full max-w-[66.666%]">
+                  <div className="bg-gray-50 rounded-xl shadow-sm p-6 mb-2">
+                    <div className="font-sans text-gray-700 leading-relaxed">
+                      Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken, und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis. Perfekt für eine schnelle Mahlzeit oder als Party-Snack!
+                    </div>
+                  </div>
                 </div>
                 {/* Ingredients Section */}
-  <div className="max-w-[66.666%] mb-2">
+                <div className="max-w-[66.666%] mb-2">
                   {/* Der Grundteig */}
-                  <div>
-                    <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Der Grundteig</h3>
-                    <p className="font-sans text-gray-700 mb-2">
+                  <div className="bg-gray-50 rounded-xl shadow-sm mb-6 p-6">
+                    <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Der Grundteig</h3>
+                    <p className="font-sans text-gray-700 mb-4">
                       Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig. Der Teig lässt sich einfach vorbereiten und kann auch im Voraus zubereitet werden.
                     </p>
-                    <ul className="list-disc pl-6 mt-4" mb-2>
+                    <ul className="list-disc pl-6 space-y-2">
                       <li className="font-sans text-gray-700"><span className="font-semibold">62 g</span> Mehl</li>
                       <li className="font-sans text-gray-700"><span className="font-semibold">31 ml</span> Wasser</li>
                       <li className="font-sans text-gray-700"><span className="font-semibold">0.5 EL</span> Olivenöl</li>
@@ -81,23 +85,23 @@ export default function RecipePage({ params }: RecipePageProps) {
                   </div>
 
                   {/* Die cremige Basis */}
-                  <div className='mb-2'>
-                    <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Die cremige Basis</h3>
-                    <p className="font-sans text-gray-700 mb-2">
+                  <div className="bg-gray-50 rounded-xl shadow-sm mb-6 p-6">
+                    <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Die cremige Basis</h3>
+                    <p className="font-sans text-gray-700 mb-4">
                       Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack. Für eine leichtere Variante kannst du auch Sauerrahm oder Joghurt verwenden.
                     </p>
-                    <ul className="list-disc pl-6 mt-4" mb-2>
+                    <ul className="list-disc pl-6 space-y-2">
                       <li className="font-sans text-gray-700"><span className="font-semibold">50 g</span> Crème fraîche</li>
                     </ul>
                   </div>
 
                   {/* Der würzige Belag */}
-                  <div>
-                    <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Der würzige Belag</h3>
-                    <p className="font-sans text-gray-700 mb-2">
+                  <div className="bg-gray-50 rounded-xl shadow-sm mb-6 p-6">
+                    <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Der würzige Belag</h3>
+                    <p className="font-sans text-gray-700 mb-4">
                       Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss. Du kannst auch andere Käsesorten wie Gouda oder Mozzarella verwenden, je nach Geschmack.
                     </p>
-                    <ul className="list-disc pl-6 mt-4 mb-2">
+                    <ul className="list-disc pl-6 space-y-2">
                       <li className="font-sans text-gray-700"><span className="font-semibold">0.5</span> Zwiebel (dünn geschnitten)</li>
                       <li className="font-sans text-gray-700"><span className="font-semibold">25 g</span> Gruyère oder Emmentaler (gerieben)</li>
                       <li className="font-sans text-gray-700">Salz (nach Geschmack)</li>
@@ -106,8 +110,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                   </div>
 
                   {/* Tipps und Variationen */}
-                  <div>
-                    <h3 className="font-serif text-xl font-semibold text-[#3A7D54] mb-2">Tipps und Variationen</h3>
+                  <div className="bg-gray-50 rounded-xl shadow-sm mb-6 p-6">
+                    <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Tipps und Variationen</h3>
                     <ul className="list-disc pl-6 space-y-2">
                       <li className="font-sans text-gray-700">Für eine vegane Variante kannst du die Crème fraîche durch pflanzliche Sahne ersetzen und den Käse weglassen oder durch veganen Käse austauschen.</li>
                       <li className="font-sans text-gray-700">Füge Pilze, Spinat oder Paprika hinzu, um den Belag abwechslungsreicher zu gestalten.</li>
