@@ -378,11 +378,14 @@ export default function RecipePage({ params }: RecipePageProps) {
               <section className="mb-8">
                 <RecipeNutrition
                   servings={recipe.servings}
-                  nutrition={recipe.nutrition}
+                  nutrition={{
+                    calories: recipe.nutrition.calories,
+                    protein: recipe.nutrition.protein,
+                    carbs: recipe.nutrition.carbs,
+                    fat: recipe.nutrition.fat
+                  }}
                 />
               </section>
-
-              <Separator className="my-8" />
 
               {/* Comments */}
               <RecipeComments recipeId={params.slug} />
