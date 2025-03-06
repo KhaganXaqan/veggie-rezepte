@@ -33,17 +33,17 @@ export default function RecipePage({ params }: RecipePageProps) {
   const randomRecipe = otherRecipes[Math.floor(Math.random() * otherRecipes.length)]
 
   // Get random recipes from the same category for Empfohlene Beiträge
-  const recipesFromSameCategory = recipes.filter(r => 
-    r.slug !== params.slug && 
+  const recipesFromSameCategory = recipes.filter(r =>
+    r.slug !== params.slug &&
     r.category === recipe.category
   )
-  
+
   // Get 3 random recipes from the filtered list
   const getRandomRecipes = (arr: typeof recipes, count: number) => {
     const shuffled = [...arr].sort(() => 0.5 - Math.random())
     return shuffled.slice(0, count)
   }
-  
+
   const recommendedRecipes = getRandomRecipes(recipesFromSameCategory, 3)
 
   return (
@@ -69,7 +69,7 @@ export default function RecipePage({ params }: RecipePageProps) {
 
 
 
-              {/* Images before Similar Recipes */}              
+              {/* Images before Similar Recipes */}
               <div className="flex flex-col items-center gap-8 my-8">
                 {/* Title */}
                 <h2 className="font-serif text-3xl font-bold mb-2 text-[#0b3558]">Flammkuchen</h2>
@@ -210,7 +210,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                   <div className="bg-gray-50 rounded-xl shadow-sm p-6">
                     <div className="flex items-center gap-4 mb-6">
                       <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
-                          Empfohlene {recipe.category}
+                        Empfohlene {recipe.category}
                       </span>
                     </div>
                     <div className="grid grid-cols-3 gap-4">
@@ -299,45 +299,55 @@ export default function RecipePage({ params }: RecipePageProps) {
                       </div>
                     </div>
                   </div>
+                </div>                
+              </div>
+
+
+              {/* Handwritten-style message */}
+              <div className="mb-4">
+                <div className="flex justify-center">
+                  <div className="relative max-w-md transform rotate-[-1deg]">
+                    <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                      <div
+                        className="relative z-10 font-['Segoe_Script','Brush_Script_MT',cursive] text-center"
+                        style={{
+                          textShadow: '0px 0px 1px rgba(0,0,0,0.1)',
+                          color: '#0b3558',
+                          lineHeight: '1.5'
+                        }}
+                      >
+                        <p className="text-xl mb-2">Und jetzt lass dir meinen Flammkuchen richtig gut schmecken!</p>
+                        <p className="text-lg mt-3">Ich bin schon ganz gespannt auf dein Feedback!</p>
+
+                        {/* Handwritten signature */}
+                        <div className="mt-4 flex justify-end">
+                          <div
+                            className="font-['Segoe_Script','Brush_Script_MT',cursive] text-right text-[#db747a]"
+                            style={{ transform: 'rotate(-3deg)' }}
+                          >
+                            <span className="text-lg">Dein Veggie-Rezepte Team</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Decorative elements */}
+                      <div className="absolute -top-2 -right-2 w-8 h-8 bg-[#db747a]/10 rounded-full"></div>
+                      <div className="absolute -bottom-3 -left-3 w-10 h-10 bg-[#0b3558]/5 rounded-full"></div>
+                    </div>
+
+                    {/* Paper tape effect */}
+                    <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-[#db747a]/20 rounded-sm"></div>
+                  </div>
                 </div>
               </div>
 
-                                      
-                        {/* Handwritten-style message */}
-                        <div className="mt-10 pt-6 flex justify-center">
-                          <div className="relative max-w-md transform rotate-[-1deg]">
-                            <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
-                              <div 
-                                className="relative z-10 font-['Segoe_Script','Brush_Script_MT',cursive] text-center"
-                                style={{
-                                  textShadow: '0px 0px 1px rgba(0,0,0,0.1)',
-                                  color: '#0b3558',
-                                  lineHeight: '1.5'
-                                }}
-                              >
-                                <p className="text-xl mb-2">Und jetzt lass dir meinen Flammkuchen richtig gut schmecken!</p>
-                                <p className="text-lg mt-3">Ich bin schon ganz gespannt auf dein Feedback!</p>
-                                
-                                {/* Handwritten signature */}
-                                <div className="mt-4 flex justify-end">
-                                  <div 
-                                    className="font-['Segoe_Script','Brush_Script_MT',cursive] text-right text-[#db747a]"
-                                    style={{ transform: 'rotate(-3deg)' }}
-                                  >
-                                    <span className="text-lg">Dein Veggie-Rezepte Team</span>
-                                  </div>
-                                </div>
-                              </div>
-                              
-                              {/* Decorative elements */}
-                              <div className="absolute -top-2 -right-2 w-8 h-8 bg-[#db747a]/10 rounded-full"></div>
-                              <div className="absolute -bottom-3 -left-3 w-10 h-10 bg-[#0b3558]/5 rounded-full"></div>
-                            </div>
-                            
-                            {/* Paper tape effect */}
-                            <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-[#db747a]/20 rounded-sm"></div>
-                          </div>
-                        </div>
+              <div className="flex flex-col items-center gap-8 my-8">
+                <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
+                  <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
+                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
+                </div>
+              </div>
+
 
               {/* Similar Recipes */}
               <section className="mb-8">
