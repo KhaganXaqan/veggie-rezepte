@@ -357,8 +357,6 @@ export default function RecipePage({ params }: RecipePageProps) {
                 />
               </section>
 
-              <Separator className="my-8" />
-
               {/* Ingredients */}
               <section className="mb-8">
                 <RecipeIngredients
@@ -367,7 +365,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 />
               </section>
 
-              <Separator className="my-8" />
+              
 
               {/* Instructions */}
               <section className="mb-8">
@@ -375,8 +373,6 @@ export default function RecipePage({ params }: RecipePageProps) {
                   instructions={recipe.instructions}
                 />
               </section>
-
-              <Separator className="my-8" />
 
               {/* Nutrition */}
               <section className="mb-8">
