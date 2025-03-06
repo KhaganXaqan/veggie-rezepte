@@ -45,6 +45,7 @@ export default function RecipePage({ params }: RecipePageProps) {
   }
 
   const recommendedRecipes = getRandomRecipes(recipesFromSameCategory, 3)
+  const recommendedRecipes2 = getRandomRecipes(recipesFromSameCategory, 9)
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -393,17 +394,13 @@ export default function RecipePage({ params }: RecipePageProps) {
                     Empfohlene Beiträge
                   </span>
                 </div>
-                <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
-                  <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[31%]  rounded-2xl" />
-                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[34%]  rounded-2xl" />
-                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[31%]  rounded-2xl" />
-                </div>
+                
 
                 <div className="w-full max-w-[86.666%] mx-auto mb-4">
                   <div className="bg-gray-50 rounded-xl shadow-sm p-6">
 
                     <div className="grid grid-cols-3 gap-4">
-                      {recommendedRecipes.map((recommendedRecipe, index) => (
+                      {recommendedRecipes2.map((recommendedRecipe, index) => (
                         <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
                           <div className="relative group">
                             <div className="w-full aspect-square rounded-lg overflow-hidden">
@@ -431,11 +428,6 @@ export default function RecipePage({ params }: RecipePageProps) {
                       ))}
                     </div>
                   </div>
-                </div>
-                <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
-                  <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[31%]  rounded-2xl" />
-                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[34%]  rounded-2xl" />
-                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[31%]  rounded-2xl" />
                 </div>
               </div>
             </div>
