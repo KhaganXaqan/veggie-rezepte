@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { getRecipeBySlug, recipes } from '@/lib/data'
+import { getRecipeBySlug, recipes } from '@/lib/data1'
 import { RecipeHeader } from '@/components/recipe-header'
 import { RecipeIngredients } from '@/components/recipe-ingredients'
 import { RecipeInstructions } from '@/components/recipe-instructions'

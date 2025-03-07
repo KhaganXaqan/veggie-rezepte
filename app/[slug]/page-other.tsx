@@ -7,7 +7,7 @@ import { RecipeIngredients } from '@/components/recipe-ingredients'
 import { RecipeInstructions } from '@/components/recipe-instructions'
 import { RecipeNutrition } from '@/components/recipe-nutrition'
 import { RecipeSimilar } from '@/components/recipe-similar'
-import { getRecipeBySlug, recipes, Recipe } from '@/lib/data1'
+import { getRecipeBySlug, recipes, Recipe } from '@/lib/data'
 
 type OtherRecipePageProps = {
   slug: string
