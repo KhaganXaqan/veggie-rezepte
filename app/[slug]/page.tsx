@@ -77,13 +77,13 @@ export default function RecipePage({ params }: RecipePageProps) {
               {/* Images before Similar Recipes */}
               <div className="flex flex-col items-center gap-8 my-8">
                 {/* Title */}
-                <h2 className="font-serif text-3xl font-bold mb-2 text-[#0b3558]">Flammkuchen</h2>
+                <h2 className="font-serif text-3xl font-bold mb-2 text-[#0b3558]">{recipe.title}</h2>
 
                 {/* Introduction Paragraph */}
                 <div className="w-full max-w-[86.666%]">
                   <div className="bg-gray-50 rounded-xl shadow-sm p-6 mb-2">
                     <div className="font-sans text-gray-700 leading-relaxed">
-                      Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken, und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis. Perfekt für eine schnelle Mahlzeit oder als Party-Snack!
+                        {recipe.introductionParagraph}
                     </div>
                   </div>
                 </div>
