@@ -6,6 +6,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { Analytics } from '@vercel/analytics/react';
 import { siteConfig } from '@/lib/constants';
 import Script from 'next/script';
+import { cn } from '@/lib/utils';
 
 const inter = InterFont({
   subsets: ['latin'],
@@ -18,9 +19,10 @@ export const metadata: Metadata = {
   description: 'Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung.',
   icons: {
     icon: [
-      { url: '/images/logo/favicon.ico' },
+      { url: '/images/logo/favicon.ico', sizes: 'any' },
       { url: '/images/logo/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
       { url: '/images/logo/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/images/logo/icon.svg', type: 'image/svg+xml' }
     ],
     apple: [
       { url: '/images/logo/apple-touch-icon.png' },
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
       {
         rel: 'mask-icon',
         url: '/images/logo/safari-pinned-tab.svg',
-        color: '#00884f', // Your brand color
+        color: '#00884f',
       },
     ],
   },
@@ -73,20 +75,21 @@ export default function RootLayout({
     <html lang="de" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <link rel="icon" href="/favicon.ico" />
         <link 
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
         />
       </head>
-      <body className={inter.className}>
+      <body className={cn("min-h-screen bg-white font-sans antialiased", inter.className)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <div className="relative flex min-h-screen flex-col bg-white">
+            {children}
+          </div>
           <Toaster />
           <Analytics />
         </ThemeProvider>

@@ -1,19 +1,29 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { SiteHeader } from "@/components/site-header"
 import { RecipeCardMasonry } from "@/components/recipe-card-masonry"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { recipes } from "@/lib/data"
+import { useSearchParams } from "next/navigation"
 
 export default function AllRecipesPage() {
+  const searchParams = useSearchParams()
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedTags, setSelectedTags] = useState<string[]>([])
 
   // Get unique tags from all recipes, sorted alphabetically
   const allTags = Array.from(new Set(recipes.flatMap(recipe => recipe.tags)))
     .sort((a, b) => a.localeCompare(b))
+
+  // Handle URL parameters
+  useEffect(() => {
+    const tag = searchParams.get('tag')
+    if (tag) {
+      setSelectedTags([tag])
+    }
+  }, [searchParams])
 
   // Filter recipes based on search query and selected tags
   const filteredRecipes = recipes.filter((recipe) => {
@@ -33,12 +43,12 @@ export default function AllRecipesPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       <SiteHeader />
-      <main className="flex-1">
+      <main className="flex-1 bg-white">
         <div className="container py-8">
           <div className="max-w-2xl mx-auto mb-8">
-            <h1 className="text-4xl font-bold mb-8">Alle Rezepte</h1>
+            <h1 className="text-4xl font-bold mb-8 text-black">Alle Rezepte</h1>
             <Input
               type="search"
               placeholder="Nach Rezepten suchen..."
@@ -51,7 +61,7 @@ export default function AllRecipesPage() {
                 <Badge
                   key={tag}
                   variant={selectedTags.includes(tag) ? "default" : "outline"}
-                  className="cursor-pointer"
+                  className="cursor-pointer hover:bg-gray-100"
                   onClick={() => toggleTag(tag)}
                 >
                   {tag}
@@ -73,7 +83,7 @@ export default function AllRecipesPage() {
 
         {filteredRecipes.length === 0 && (
           <div className="container">
-            <div className="text-center text-muted-foreground py-12">
+            <div className="text-center text-black/70 py-12">
               Keine Rezepte gefunden. Versuche es mit anderen Suchbegriffen.
             </div>
           </div>
