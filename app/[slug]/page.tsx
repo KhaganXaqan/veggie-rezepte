@@ -8,6 +8,7 @@ import { RecipeSimilar } from '@/components/recipe-similar'
 import { RecipeComments } from '@/components/recipe-comments'
 import { Separator } from '@/components/ui/separator'
 import { SiteHeader } from "@/components/site-header"
+import OtherRecipePage from './page-other'
 
 type RecipePageProps = {
   params: {
@@ -22,6 +23,13 @@ export function generateStaticParams() {
 }
 
 export default function RecipePage({ params }: RecipePageProps) {
+  // Check if we should use the current page or redirect to page-other.tsx
+  if (params.slug !== 'flammkuchen') {
+    // For any recipe other than flammkuchen, use page-other.tsx
+    return <OtherRecipePage slug={params.slug} />;
+  }
+
+  // Continue with the flammkuchen-specific page using data.ts
   const recipe = getRecipeBySlug(params.slug)
 
   if (!recipe) {
@@ -65,10 +73,6 @@ export default function RecipePage({ params }: RecipePageProps) {
                 servings={recipe.servings}
                 rating={recipe.rating}
               />
-
-
-
-
 
               {/* Images before Similar Recipes */}
               <div className="flex flex-col items-center gap-8 my-8">
@@ -224,7 +228,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                                 alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
-                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0  transition-opacity duration-300">
                                 <span className="text-white text-sm font-medium text-center px-4">
                                   Empfohlene Hauptgerichte
                                 </span>
@@ -409,7 +413,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                                 alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
-                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 transition-opacity duration-300">
                                 <span className="text-white text-sm font-medium text-center px-4">
                                   Empfohlene Hauptgerichte
                                 </span>
