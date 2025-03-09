@@ -545,7 +545,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Grießnockerl",
-    image: "/images/Miscellaneous/griesnockerl.webp",
+    image: "/images/Miscellaneous/griessnockerl.webp",
     prepTime: "45 Min.",
     rating: 4.6,
     category: "Hauptgerichte",
@@ -666,7 +666,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Gemüsesuppe",
-    image: "/images/Miscellaneous/gemuesesuppe.webp",
+    image: "/images/Soups/gemuesesuppe.webp",
     prepTime: "30 Min.",
     rating: 4.5,
     category: "Hauptgerichte",
@@ -719,7 +719,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Kartoffelgratin",
-    image: "/images/Miscellaneous/kartoffelgratin.webp",
+    image: "/images/MainCourses/kartoffelgratin.webp",
     prepTime: "45 Min.",
     rating: 4.7,
     category: "Hauptgerichte",

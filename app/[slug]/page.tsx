@@ -43,7 +43,7 @@ export default function RecipePage({ params }: RecipePageProps) {
   // Get random recipes from the same category for Empfohlene Beiträge
   const recipesFromSameCategory = recipes.filter(r =>
     r.slug !== params.slug &&
-    r.category === recipe.category
+    r.category === recipe.category    
   )
 
   // Get 3 random recipes from the filtered list
