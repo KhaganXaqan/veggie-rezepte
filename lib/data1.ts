@@ -504,44 +504,44 @@ export const recipes: Recipe[] = [
     }
   },
   {
-    "title": "Kartoffelpuffer, wie sie Oma und Opa gemacht haben!",
-    "image": "/images/Miscellaneous/kartoffelpuffer.webp",
-    "prepTime": "15 Min.",
-    "rating": 5.0,
+    title: "Kartoffelpuffer",
+    image: "/images/Miscellaneous/kartoffelpuffer.webp",
+    prepTime: "25 Min.",
+    rating: 5.0,
     category: "Hauptgerichte",
     slug: "kartoffelpuffer",
     tags: ["Traditionell", "Kartoffeln", "Snack"],
-    "servings": 8,
-    "description": "Knusprige, goldbraune Kartoffelpuffer, verfeinert mit einer milden Zwiebelnote – ein zeitloser Klassiker, der sowohl Groß als auch Klein begeistert. Schnell zuzubereiten und dabei unglaublich lecker!",
-    "descriptionOnImage": "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
-    "introductionParagraph": "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit cremigen Dips, sie sind immer eine Freude für den Gaumen.",
-    "ingredientGroups": [
+    servings: 2,
+    description: "Knusprige, goldbraune Kartoffelpuffer, verfeinert mit einer milden Zwiebelnote – ein zeitloser Klassiker, der sowohl Groß als auch Klein begeistert. Schnell zuzubereiten und dabei unglaublich lecker!",
+    descriptionOnImage: "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
+    introductionParagraph: "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit cremigen Dips, sie sind immer eine Freude für den Gaumen.",
+    ingredientGroups: [
       {
-        "title": "Der Kartoffelpuffer-Teig",
-        "description": "Ein einfach zuzubereitender, klassischer Teig mit wenigen, preiswerten Zutaten, die man fast immer zu Hause hat.",
-        "ingredients": [
-          { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
-          { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
-          { "amount": 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
-          { "amount": 3, "unit": "EL", "name": "Mehl" },
-          { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
-          { "amount": 1, "unit": "Prise", "name": "Salz" },
-          { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
-          { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
+        title: "Der Kartoffelpuffer-Teig",
+        description: "Ein einfach zuzubereitender, klassischer Teig mit wenigen, preiswerten Zutaten, die man fast immer zu Hause hat.",
+        ingredients: [
+          { amount: 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
+          { amount: 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+          { amount: 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
+          { amount: 3, "unit": "EL", "name": "Mehl" },
+          { amount: 1, "unit": "Prise", "name": "Muskatnuss" },
+          { amount: 1, "unit": "Prise", "name": "Salz" },
+          { amount: 1, "unit": "Prise", "name": "Pfeffer" },
+          { amount: undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
         ]
       }
     ],
-    "ingredients": [
-      { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
-      { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
-      { "amount": 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
-      { "amount": 3, "unit": "EL", "name": "Mehl" },
-      { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
-      { "amount": 1, "unit": "Prise", "name": "Salz" },
-      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
-      { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
+    ingredients: [
+      { amount: 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
+      { amount: 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+      { amount: 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
+      { amount: 3, "unit": "EL", "name": "Mehl" },
+      { amount: 1, "unit": "Prise", "name": "Muskatnuss" },
+      { amount: 1, "unit": "Prise", "name": "Salz" },
+      { amount: 1, "unit": "Prise", "name": "Pfeffer" },
+      { amount: undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
     ],
-    "instructions": [
+    instructions: [
       "Die geriebenen Kartoffeln gut ausdrücken, um überschüssige Flüssigkeit zu entfernen.",
       "Kartoffeln und die fein gehackte Zwiebel in eine große Schüssel geben und mit dem vorbereiteten Kichererbsenmehl gut vermengen.",
       "Mehl, Muskatnuss, Salz und Pfeffer hinzufügen und alles zu einem gleichmäßigen Teig vermengen.",
@@ -550,54 +550,54 @@ export const recipes: Recipe[] = [
       "Die Kartoffelpuffer von beiden Seiten goldbraun und knusprig braten.",
       "Mit Apfelmus oder einem Deiner liebsten Dips servieren. Auch ohne Beilage schmecken sie hervorragend!"
     ],
-    "whyFavorite": {
-      "title": "Warum dieses Kartoffelpuffer-Rezept besonders ist",
-      "reasons": [
+    whyFavorite: {
+      title: "Warum dieses Kartoffelpuffer-Rezept besonders ist",
+      reasons: [
         {
-          "title": "Schnell und einfach zuzubereiten",
-          "description": "Mit wenigen Zutaten lässt sich dieses Gericht im Handumdrehen zubereiten – perfekt für ein schnelles Abendessen oder einen kleinen Snack zwischendurch."
+          title: "Schnell und einfach zuzubereiten",
+          description: "Mit wenigen Zutaten lässt sich dieses Gericht im Handumdrehen zubereiten – perfekt für ein schnelles Abendessen oder einen kleinen Snack zwischendurch."
         },
         {
-          "title": "Knusprig und aromatisch",
-          "description": "Außen knusprig, innen zart und mit einer feinen Zwiebelnote – einfach unwiderstehlich."
+          title: "Knusprig und aromatisch",
+          description: "Außen knusprig, innen zart und mit einer feinen Zwiebelnote – einfach unwiderstehlich."
         },
         {
-          "title": "Vielseitig und flexibel",
-          "description": "Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip – Kartoffelpuffer passen immer und sind wahre Allrounder in der Küche."
+          title: "Vielseitig und flexibel",
+          description: "Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip – Kartoffelpuffer passen immer und sind wahre Allrounder in der Küche."
         }
       ]
     },
-    "handwrittenMessage": {
-      "mainText": "Guten Appetit! Lass Dir meine Kartoffelpuffer schmecken!",
-      "subText": "Ich bin gespannt auf Dein Feedback und Deine eigenen Variationen!",
-      "signature": "Dein Veggie-Rezepte Team"
+    handwrittenMessage: {
+      mainText: "Guten Appetit! Lass Dir meine Kartoffelpuffer schmecken!",
+      subText: "Ich bin gespannt auf Dein Feedback und Deine eigenen Variationen!",
+      signature: "Dein Veggie-Rezepte Team"
     },
-    "steps": [
+    steps: [
       {
-        "title": "Schritt 1: Die Vorbereitung",
-        "description": "Kartoffeln schälen, reiben und gut ausdrücken, damit die überschüssige Flüssigkeit entfernt wird. Die Zwiebel fein hacken."
+        title: "Schritt 1: Die Vorbereitung",
+        description: "Kartoffeln schälen, reiben und gut ausdrücken, damit die überschüssige Flüssigkeit entfernt wird. Die Zwiebel fein hacken."
       },
       {
-        "title": "Schritt 2: Der Teig",
-        "description": "Alle Zutaten gut miteinander vermengen, sodass ein geschmeidiger Teig entsteht."
+        title: "Schritt 2: Der Teig",
+        description: "Alle Zutaten gut miteinander vermengen, sodass ein geschmeidiger Teig entsteht."
       },
       {
-        "title": "Schritt 3: Das Braten",
-        "description": "Öl in einer Pfanne erhitzen und die Kartoffelpuffer von beiden Seiten goldbraun braten."
+        title: "Schritt 3: Das Braten",
+        description: "Öl in einer Pfanne erhitzen und die Kartoffelpuffer von beiden Seiten goldbraun braten."
       },
       {
-        "title": "Schritt 4: Das Servieren",
-        "description": "Die frisch gebratenen Kartoffelpuffer mit Apfelmus oder Deinem Lieblingsdip servieren und genießen!"
+        title: "Schritt 4: Das Servieren",
+        description: "Die frisch gebratenen Kartoffelpuffer mit Apfelmus oder Deinem Lieblingsdip servieren und genießen!"
       }
     ],
-    "servingSuggestion": "Am besten direkt heiß servieren, begleitet von Apfelmus oder einem leckeren, cremigen Dip.",
-    "nutrition": {
-      "calories": 250,
-      "protein": "4g",
-      "carbs": "35g",
-      "fat": "10g"
+    servingSuggestion: "Am besten direkt heiß servieren, begleitet von Apfelmus oder einem leckeren, cremigen Dip.",
+    nutrition: {
+      calories: 803,
+      protein: "20.6g",
+      carbs: "157.5g",
+      fat: "13.2g"
     },
-    "tips": [
+    tips: [
       "Achte darauf, die Kartoffeln gut auszudrücken, damit die Puffer schön knusprig werden.",
       "Für ein zusätzliches Aroma kannst Du frische Kräuter wie Petersilie oder Schnittlauch in den Teig einarbeiten.",
       "Wenn Du die Puffer noch knuspriger haben möchtest, füge einen Esslöffel Semmelbrösel hinzu."
@@ -921,7 +921,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Grießnockerl",
-    image: "/images/Miscellaneous/griesnockerl.webp",
+    image: "/images/Miscellaneous/griessnockerl.webp",
     prepTime: "45 Min.",
     rating: 4.6,
     category: "Hauptgerichte",
@@ -1118,7 +1118,7 @@ export const recipes: Recipe[] = [
   },
   {
     title: "Gemüsesuppe",
-    image: "/images/Miscellaneous/gemuesesuppe.webp",
+    image: "/images/Soups/gemuesesuppe.webp",
     prepTime: "30 Min.",
     rating: 4.5,
     category: "Hauptgerichte",
