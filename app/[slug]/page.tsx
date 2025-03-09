@@ -22,27 +22,27 @@ export function generateStaticParams() {
   }))
 }
 
-export default function RecipePage({ params }: RecipePageProps) {
+export default async function RecipePage({ params }: RecipePageProps) {
+  const slug =  params?.slug;  // Access slug after ensuring it's available
+
   // Check if we should use the current page or redirect to page-other.tsx
-  if (params.slug !== 'flammkuchen' && params.slug !== 'kartoffelpuffer') {
+  if (!slug || (slug !== 'flammkuchen' && slug !== 'kartoffelpuffer')) {
     // For any recipe other than flammkuchen, use page-other.tsx
-    return <OtherRecipePage slug={params.slug} />;
+    return <OtherRecipePage slug={slug} />;
   }
 
-  // Continue with the flammkuchen-specific page using data.ts
-  const recipe = getRecipeBySlug(params.slug)
-
+  const recipe = await getRecipeBySlug(slug);  // This is synchronous, ensure async if needed.
   if (!recipe) {
     notFound()
   }
 
   // Get a random recipe for Empfohlener Beitrag
-  const otherRecipes = recipes.filter(r => r.slug !== params.slug)
+  const otherRecipes = recipes.filter(r => r.slug !== slug)
   const randomRecipe = otherRecipes[Math.floor(Math.random() * otherRecipes.length)]
 
   // Get random recipes from the same category for Empfohlene Beiträge
   const recipesFromSameCategory = recipes.filter(r =>
-    r.slug !== params.slug &&
+    r.slug !== slug &&
     r.category === recipe.category    
   )
 
