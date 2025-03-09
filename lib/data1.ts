@@ -464,95 +464,105 @@ export const recipes: Recipe[] = [
     servingSuggestion: ""
   },
   {
-    title: "Kartoffelpuffer",
-    image: "/images/Miscellaneous/kartoffelpuffer.webp",
-    prepTime: "30 Min.",
-    rating: 4.8,
-    category: "Hauptgerichte",
-    slug: "kartoffelpuffer",
-    tags: ["Traditionell", "Kartoffeln", "Snack"],
-    servings: 2,
-    description: "Mein Familienrezept für knusprige Kartoffelpuffer! Diese traditionelle deutsche Spezialität ist bei uns ein beliebter Klassiker, der sowohl herzhaft als auch süß serviert werden kann. Die Puffer werden außen wunderbar knusprig und bleiben innen saftig. Das Geheimnis liegt in der richtigen Reibetechnik und dem sorgfältigen Auspressen der Kartoffeln.\n\nDas Besondere an meinem Rezept ist die perfekte Balance zwischen Kartoffeln und Bindemitteln. Die frischen Kartoffeln werden grob gerieben, was für eine besonders schöne Textur sorgt. Ein Hauch Muskatnuss verleiht den Puffern ihre charakteristische Note, während die goldbraune Kruste für das perfekte Geschmackserlebnis sorgt.",
-    descriptionOnImage: "Knusprige Kartoffelpuffer nach traditionellem Rezept",
-    introductionParagraph: "",
-    ingredientGroups: [
+    "title": "Kartoffelpuffer, wie sie Oma und Opa gemacht haben!",
+    "image": "/images/Miscellaneous/kartoffelpuffer.webp",
+    "prepTime": "15 Min.",
+    "rating": 5.0,
+    "category": "Miscellaneous",
+    "slug": "kartoffelpuffer",
+    "tags": ["Vegetarisch", "Traditionell", "Miscellaneous", "Kartoffelpuffer"],
+    "servings": 8,
+    "description": "Knusprige, goldbraune Kartoffelpuffer, verfeinert mit einer milden Zwiebelnote – ein zeitloser Klassiker, der sowohl Groß als auch Klein begeistert. Schnell zuzubereiten und dabei unglaublich lecker!",
+    "descriptionOnImage": "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
+    "introductionParagraph": "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit cremigen Dips, sie sind immer eine Freude für den Gaumen.",
+    "ingredientGroups": [
       {
-        title: "Die Kartoffelbasis",
-        description: "Frisch geriebene Kartoffeln sind das Herzstück eines perfekten Kartoffelpuffers. Sie sorgen für den authentischen Geschmack und die richtige Textur.",
-        ingredients: [
-          { amount: 500, unit: "g", name: "festkochende Kartoffeln" },
-          { amount: 1, unit: "große", name: "Zwiebel" }
-        ]
-      },
-      {
-        title: "Die Bindung",
-        description: "Diese Zutaten sorgen dafür, dass die Puffer beim Braten nicht zerfallen und schön saftig bleiben.",
-        ingredients: [
-          { amount: 2, name: "Eier" },
-          { amount: 2, unit: "EL", name: "Mehl" }
-        ]
-      },
-      {
-        title: "Die Würzung",
-        description: "Die richtige Würzung macht den Unterschied zwischen guten und herausragenden Kartoffelpuffern.",
-        ingredients: [
-          { amount: 1, unit: "TL", name: "Salz" },
-          { amount: 1, unit: "Prise", name: "Muskatnuss" },
-          { amount: undefined, unit: "", name: "Pfeffer" }
-        ]
-      },
-      {
-        title: "Zum Braten",
-        description: "Reichlich Öl sorgt für die perfekte knusprige Kruste.",
-        ingredients: [
-          { amount: 4, unit: "EL", name: "Pflanzenöl zum Ausbacken" }
+        "title": "Der Kartoffelpuffer-Teig",
+        "description": "Ein einfach zuzubereitender, klassischer Teig mit wenigen, preiswerten Zutaten, die man fast immer zu Hause hat.",
+        "ingredients": [
+          { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
+          { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+          { "amount": 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
+          { "amount": 3, "unit": "EL", "name": "Mehl" },
+          { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+          { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
         ]
       }
     ],
-    ingredients: [],
-    instructions: [
-      "Die Kartoffeln schälen und grob reiben. Die geriebenen Kartoffeln in ein sauberes Küchentuch geben und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
-      "Die Eier in einer Schüssel verquirlen. Das Mehl, die Milch, Salz und Muskatnuss hinzufügen und zu einem glatten Teig verrühren.",
-      "Die geriebenen Kartoffeln unter den Teig heben und alles gut vermengen.",
-      "In einer großen Pfanne reichlich Öl erhitzen. Portionsweise den Teig in die Pfanne geben und flach drücken. Die Puffer bei mittlerer Hitze von beiden Seiten goldbraun braten, etwa 3–4 Minuten pro Seite.",
-      "Die Kartoffelpuffer auf Küchenpapier abtropfen lassen und warm servieren, z. B. mit Apfelmus oder Sauerrahm."
+    "ingredients": [
+      { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
+      { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+      { "amount": 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
+      { "amount": 3, "unit": "EL", "name": "Mehl" },
+      { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+      { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
     ],
-    nutrition: {
-      calories: 250,
-      protein: "8g",
-      carbs: "30g",
-      fat: "12g"
+    "instructions": [
+      "Die geriebenen Kartoffeln gut ausdrücken, um überschüssige Flüssigkeit zu entfernen.",
+      "Kartoffeln und die fein gehackte Zwiebel in eine große Schüssel geben und mit dem vorbereiteten Kichererbsenmehl gut vermengen.",
+      "Mehl, Muskatnuss, Salz und Pfeffer hinzufügen und alles zu einem gleichmäßigen Teig vermengen.",
+      "Öl in einer beschichteten Pfanne erhitzen.",
+      "Mit einem Esslöffel den Teig in die Pfanne geben und zu flachen, runden Fladen formen.",
+      "Die Kartoffelpuffer von beiden Seiten goldbraun und knusprig braten.",
+      "Mit Apfelmus oder einem Deiner liebsten Dips servieren. Auch ohne Beilage schmecken sie hervorragend!"
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Kartoffelpuffer-Rezept besonders ist",
+      "reasons": [
+        {
+          "title": "Schnell und einfach zuzubereiten",
+          "description": "Mit wenigen Zutaten lässt sich dieses Gericht im Handumdrehen zubereiten – perfekt für ein schnelles Abendessen oder einen kleinen Snack zwischendurch."
+        },
+        {
+          "title": "Knusprig und aromatisch",
+          "description": "Außen knusprig, innen zart und mit einer feinen Zwiebelnote – einfach unwiderstehlich."
+        },
+        {
+          "title": "Vielseitig und flexibel",
+          "description": "Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip – Kartoffelpuffer passen immer und sind wahre Allrounder in der Küche."
+        }
+      ]
     },
-    tips: [],
-    whyFavorite: {
-      title: "",
-    reasons: []
+    "handwrittenMessage": {
+      "mainText": "Guten Appetit! Lass Dir meine Kartoffelpuffer schmecken!",
+      "subText": "Ich bin gespannt auf Dein Feedback und Deine eigenen Variationen!",
+      "signature": "Dein Veggie-Rezepte Team"
     },
-    handwrittenMessage: {
-      mainText: "",
-      subText: "",
-      signature: ""
-    },
-    steps: [
+    "steps": [
       {
-        title: "",
-        description: ""
+        "title": "Schritt 1: Die Vorbereitung",
+        "description": "Kartoffeln schälen, reiben und gut ausdrücken, damit die überschüssige Flüssigkeit entfernt wird. Die Zwiebel fein hacken."
       },
       {
-        title: "",
-        description: ""
+        "title": "Schritt 2: Der Teig",
+        "description": "Alle Zutaten gut miteinander vermengen, sodass ein geschmeidiger Teig entsteht."
       },
       {
-        title: "",
-        description: ""
+        "title": "Schritt 3: Das Braten",
+        "description": "Öl in einer Pfanne erhitzen und die Kartoffelpuffer von beiden Seiten goldbraun braten."
       },
       {
-        title: "",
-        description: ""
+        "title": "Schritt 4: Das Servieren",
+        "description": "Die frisch gebratenen Kartoffelpuffer mit Apfelmus oder Deinem Lieblingsdip servieren und genießen!"
       }
     ],
-    servingSuggestion: ""
-  },
+    "servingSuggestion": "Am besten direkt heiß servieren, begleitet von Apfelmus oder einem leckeren, cremigen Dip.",
+    "nutrition": {
+      "calories": 250,
+      "protein": "4g",
+      "carbs": "35g",
+      "fat": "10g"
+    },
+    "tips": [
+      "Achte darauf, die Kartoffeln gut auszudrücken, damit die Puffer schön knusprig werden.",
+      "Für ein zusätzliches Aroma kannst Du frische Kräuter wie Petersilie oder Schnittlauch in den Teig einarbeiten.",
+      "Wenn Du die Puffer noch knuspriger haben möchtest, füge einen Esslöffel Semmelbrösel hinzu."
+    ]
+  },  
   {
     title: "Semmelknödel",
     image: "/images/Miscellaneous/semmelknoedel.webp",

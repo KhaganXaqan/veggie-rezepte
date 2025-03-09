@@ -24,7 +24,7 @@ export function generateStaticParams() {
 
 export default function RecipePage({ params }: RecipePageProps) {
   // Check if we should use the current page or redirect to page-other.tsx
-  if (params.slug !== 'flammkuchen') {
+  if (params.slug !== 'flammkuchen' && params.slug !== 'kartoffelpuffer') {
     // For any recipe other than flammkuchen, use page-other.tsx
     return <OtherRecipePage slug={params.slug} />;
   }
@@ -118,8 +118,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                   )}
                 </div>
                 <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
-                  <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
-                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
+                  <img src="/images/Ingredients/kartoffelpufferIngredient.jpeg" alt="Kartoffelpuffer Ingredients" className="w-[49%] h-auto rounded-2xl" />
+                  <img src="/images/Miscellaneous/kartoffelpuffer1.jpeg" alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
                 </div>
 
 
@@ -171,8 +171,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                         ))}
                       </div>
                       <img
-                        src="/images/MainCourses/flammkuchen3.jpeg"
-                        alt="Flammkuchen Schritt für Schritt"
+                        src="/images/Miscellaneous/kartoffelpuffer2.jpeg"
+                        alt="Kartoffelpuffer Schritt für Schritt"
                         className="w-full h-auto rounded-lg mb-6"
                       />
                     </div>
@@ -285,8 +285,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                 )}
                 <div className="flex flex-col items-center gap-8 my-8">
                   <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
-                    <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
-                    <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
+                    <img src="/images/Miscellaneous/kartoffelpuffer4.jpeg" alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
+                    <img src="/images/Miscellaneous/kartoffelpuffer5.jpeg" alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
                   </div>
                 </div>
 
