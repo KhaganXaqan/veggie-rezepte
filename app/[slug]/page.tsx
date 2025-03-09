@@ -83,7 +83,7 @@ export default function RecipePage({ params }: RecipePageProps) {
                 <div className="w-full max-w-[86.666%]">
                   <div className="bg-gray-50 rounded-xl shadow-sm p-6 mb-2">
                     <div className="font-sans text-gray-700 leading-relaxed">
-                        {recipe.introductionParagraph}
+                      {recipe.introductionParagraph}
                     </div>
                   </div>
                 </div>
@@ -155,37 +155,28 @@ export default function RecipePage({ params }: RecipePageProps) {
                 </div>
 
                 {/* Schritt für Schritt - Flammkuchen */}
+
                 <div className="w-full max-w-[86.666%] mx-auto mb-4">
-                  <a href="/flammkuchen" className="block">
-                    <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
-                      <div className="p-6">
-                        <h4 className="font-bold text-xl text-[#0b3558] mb-3">
-                          <span className='hover:text-[#db747a] transition-colors"'>Elsässer Flammkuchen: Ein kulinarisches Meisterwerk</span>
-                        </h4>
-                        <div className="text-gray-600 text-sm mb-6">
-                          <p className="font-bold mb-2">Schritt 1: Die Kunst des Teiges</p>
-                          <p className="mb-4 italic">Der hauchdünne, knusprige Teig ist das Fundament eines authentischen Flammkuchens. Die perfekte Mischung aus Mehl, Wasser, Öl und einer Prise Salz ergibt einen Teig, der beim Backen wunderbar knusprig wird.</p>
-
-                          <p className="font-bold mb-2">Schritt 2: Die Aromenbasis</p>
-                          <p className="mb-4"><span className="font-semibold">Die Schmand-Crème-fraîche-Mischung</span> bildet die cremige Grundlage, die mit einer Prise Muskat und frisch gemahlenem Pfeffer verfeinert wird. Darauf werden hauchdünn geschnittene Zwiebeln verteilt, die beim Backen karamellisieren und ihr süßlich-würziges Aroma entfalten.</p>
-
-                          <p className="font-bold mb-2">Schritt 3: Die Verfeinerung</p>
-                          <p className="mb-4">Fein gewürfelter Speck verleiht dem Flammkuchen seine charakteristische, herzhafte Note. <span className="italic">Optional können auch Lauchzwiebeln oder frische Kräuter den Geschmack abrunden.</span></p>
-
-                          <p className="font-bold mb-2">Schritt 4: Die Backtechnik</p>
-                          <p className="mb-4">Der Schlüssel zum Erfolg liegt in der <span className="font-semibold">hohen Backtemperatur von 250°C</span>. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern.</p>
-
-                          <p className="font-bold mb-2">Serviervorschlag</p>
-                          <p>Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. <span className="italic">Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.</span></p>
-                        </div>
-                        <img
-                          src="/images/MainCourses/flammkuchen3.jpeg"
-                          alt="Flammkuchen Schritt für Schritt"
-                          className="w-full h-auto rounded-lg mb-6"
-                        />
+                  <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
+                    <div className="p-6">
+                      <h4 className="font-bold text-xl text-[#0b3558] mb-3">
+                        <span className='hover:text-[#db747a] transition-colors'>{recipe.title}: Ein kulinarisches Meisterwerk</span>
+                      </h4>
+                      <div className="text-gray-600 text-sm mb-6">
+                        {recipe.steps.map((step, index) => (
+                          <div key={index}>
+                            <p className="font-bold mb-2">Schritt {index + 1}: {step.title}</p>
+                            <p className={`mb-4 ${index === 1 ? 'italic' : ''}`}>{step.description}</p>
+                          </div>
+                        ))}
                       </div>
+                      <img
+                        src="/images/MainCourses/flammkuchen3.jpeg"
+                        alt="Flammkuchen Schritt für Schritt"
+                        className="w-full h-auto rounded-lg mb-6"
+                      />
                     </div>
-                  </a>
+                  </div>
                 </div>
 
                 {/* Empfohlene Beiträge */}
@@ -253,54 +244,54 @@ export default function RecipePage({ params }: RecipePageProps) {
                   </div>
                 )}
 
-              {/* Handwritten-style message */}
-              {recipe.handwrittenMessage && (
-                <div className="mb-4">
-                  <div className="flex justify-center">
-                    <div className="relative max-w-md transform rotate-[-1deg]">
-                      <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
-                        <div
-                          className="relative z-10 font-['Segoe_Script','Brush_Script_MT',cursive] text-center"
-                          style={{
-                            textShadow: '0px 0px 1px rgba(0,0,0,0.1)',
-                            color: '#0b3558',
-                            lineHeight: '1.5'
-                          }}
-                        >
-                          <p className="text-xl mb-2">{recipe.handwrittenMessage.mainText}</p>
-                          <p className="text-lg mt-3">{recipe.handwrittenMessage.subText}</p>
+                {/* Handwritten-style message */}
+                {recipe.handwrittenMessage && (
+                  <div className="mb-4">
+                    <div className="flex justify-center">
+                      <div className="relative max-w-md transform rotate-[-1deg]">
+                        <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                          <div
+                            className="relative z-10 font-['Segoe_Script','Brush_Script_MT',cursive] text-center"
+                            style={{
+                              textShadow: '0px 0px 1px rgba(0,0,0,0.1)',
+                              color: '#0b3558',
+                              lineHeight: '1.5'
+                            }}
+                          >
+                            <p className="text-xl mb-2">{recipe.handwrittenMessage.mainText}</p>
+                            <p className="text-lg mt-3">{recipe.handwrittenMessage.subText}</p>
 
-                          {/* Handwritten signature */}
-                          <div className="mt-4 flex justify-end">
-                            <div
-                              className="font-['Segoe_Script','Brush_Script_MT',cursive] text-right text-[#db747a]"
-                              style={{ transform: 'rotate(-3deg)' }}
-                            >
-                              <span className="text-lg">{recipe.handwrittenMessage.signature}</span>
+                            {/* Handwritten signature */}
+                            <div className="mt-4 flex justify-end">
+                              <div
+                                className="font-['Segoe_Script','Brush_Script_MT',cursive] text-right text-[#db747a]"
+                                style={{ transform: 'rotate(-3deg)' }}
+                              >
+                                <span className="text-lg">{recipe.handwrittenMessage.signature}</span>
+                              </div>
                             </div>
                           </div>
+
+                          {/* Decorative elements */}
+                          <div className="absolute -top-2 -right-2 w-8 h-8 bg-[#db747a]/10 rounded-full"></div>
+                          <div className="absolute -bottom-3 -left-3 w-10 h-10 bg-[#0b3558]/5 rounded-full"></div>
                         </div>
 
-                        {/* Decorative elements */}
-                        <div className="absolute -top-2 -right-2 w-8 h-8 bg-[#db747a]/10 rounded-full"></div>
-                        <div className="absolute -bottom-3 -left-3 w-10 h-10 bg-[#0b3558]/5 rounded-full"></div>
+                        {/* Paper tape effect */}
+                        <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-[#db747a]/20 rounded-sm"></div>
                       </div>
-
-                      {/* Paper tape effect */}
-                      <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-[#db747a]/20 rounded-sm"></div>
                     </div>
                   </div>
+                )}
+                <div className="flex flex-col items-center gap-8 my-8">
+                  <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
+                    <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
+                    <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
+                  </div>
                 </div>
-              )}
-              <div className="flex flex-col items-center gap-8 my-8">
-                <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
-                  <img src="/images/MainCourses/flammkuchneIngredinet.jpeg" alt="Flammkuchen Ingredients" className="w-[49%] h-auto rounded-2xl" />
-                  <img src="/images/MainCourses/flammkuchen2.jpeg" alt="Flammkuchen" className="w-[49%] h-auto rounded-2xl" />
-                </div>
-              </div>
 
 
-              {/* Similar Recipes
+                {/* Similar Recipes
               <section className="mb-8">
                   <RecipeSimilar
                     recipes={recipes}
@@ -308,77 +299,77 @@ export default function RecipePage({ params }: RecipePageProps) {
                   />
                 </section> TODO check why style hier ist bad */}
 
-              {/* Ingredients */}
-              <section className="mb-8">
-                <RecipeIngredients
-                  initialServings={recipe.servings}
-                  ingredients={recipe.ingredients}
-                />
-              </section>
+                {/* Ingredients */}
+                <section className="mb-8">
+                  <RecipeIngredients
+                    initialServings={recipe.servings}
+                    ingredients={recipe.ingredients}
+                  />
+                </section>
 
-              {/* Instructions */}
-              <section className="mb-8">
-                <RecipeInstructions
-                  instructions={recipe.instructions}
-                />
-              </section>
+                {/* Instructions */}
+                <section className="mb-8">
+                  <RecipeInstructions
+                    instructions={recipe.instructions}
+                  />
+                </section>
 
-              {/* Nutrition */}
-              <section className="mb-8">
-                <RecipeNutrition
-                  servings={recipe.servings}
-                  nutrition={{
-                    calories: recipe.nutrition.calories,
-                    protein: recipe.nutrition.protein,
-                    carbs: recipe.nutrition.carbs,
-                    fat: recipe.nutrition.fat
-                  }}
-                />
-              </section>
+                {/* Nutrition */}
+                <section className="mb-8">
+                  <RecipeNutrition
+                    servings={recipe.servings}
+                    nutrition={{
+                      calories: recipe.nutrition.calories,
+                      protein: recipe.nutrition.protein,
+                      carbs: recipe.nutrition.carbs,
+                      fat: recipe.nutrition.fat
+                    }}
+                  />
+                </section>
 
-              <div className="flex flex-col items-center gap-8 my-8">
-                <div className="flex items-center gap-4 mb-6">
-                  <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
-                    Empfohlene Beiträge
-                  </span>
-                </div>
-                
+                <div className="flex flex-col items-center gap-8 my-8">
+                  <div className="flex items-center gap-4 mb-6">
+                    <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
+                      Empfohlene Beiträge
+                    </span>
+                  </div>
 
-                <div className="w-full max-w-[86.666%] mx-auto mb-4">
-                  <div className="bg-gray-50 rounded-xl shadow-sm p-6">
 
-                    <div className="grid grid-cols-3 gap-4">
-                      {recommendedRecipes2.map((recommendedRecipe, index) => (
-                        <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
-                          <div className="relative group">
-                            <div className="w-full aspect-square rounded-lg overflow-hidden">
-                              <img
-                                src={recommendedRecipe.image}
-                                alt={recommendedRecipe.title}
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                              />
-                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                                <span className="text-white text-sm font-medium text-center px-4">
-                                  Empfohlene Hauptgerichte
-                                </span>
+                  <div className="w-full max-w-[86.666%] mx-auto mb-4">
+                    <div className="bg-gray-50 rounded-xl shadow-sm p-6">
+
+                      <div className="grid grid-cols-3 gap-4">
+                        {recommendedRecipes2.map((recommendedRecipe, index) => (
+                          <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
+                            <div className="relative group">
+                              <div className="w-full aspect-square rounded-lg overflow-hidden">
+                                <img
+                                  src={recommendedRecipe.image}
+                                  alt={recommendedRecipe.title}
+                                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                />
+                                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                                  <span className="text-white text-sm font-medium text-center px-4">
+                                    Empfohlene Hauptgerichte
+                                  </span>
+                                </div>
+                              </div>
+                              <div className="mt-4">
+                                <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
+                                  {recommendedRecipe.title}
+                                </h4>
+                                <p className="text-gray-600 text-sm line-clamp-2">
+                                  {recommendedRecipe.descriptionOnImage}
+                                </p>
                               </div>
                             </div>
-                            <div className="mt-4">
-                              <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
-                                {recommendedRecipe.title}
-                              </h4>
-                              <p className="text-gray-600 text-sm line-clamp-2">
-                                {recommendedRecipe.descriptionOnImage}
-                              </p>
-                            </div>
-                          </div>
-                        </a>
-                      ))}
+                          </a>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </article>

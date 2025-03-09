@@ -45,6 +45,11 @@ export type Recipe = {
       name: string
     }[]
   }[]
+  steps: {
+    title: string
+    description: string
+  }[]
+  servingSuggestion: string
 }
 
 // Then update the recipes array with all required properties
@@ -115,7 +120,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "Schritt 1: Die Kunst des Teiges",
+        description: "Der hauchdünne, knusprige Teig ist das Fundament eines authentischen Flammkuchens. Die perfekte Mischung aus Mehl, Wasser, Öl und einer Prise Salz ergibt einen Teig, der beim Backen wunderbar knusprig wird."
+      },
+      {
+        title: "Schritt 2: Die Aromenbasis",
+        description: "Die Schmand-Crème-fraîche-Mischung bildet die cremige Grundlage, die mit einer Prise Muskat und frisch gemahlenem Pfeffer verfeinert wird. Darauf werden hauchdünn geschnittene Zwiebeln verteilt, die beim Backen karamellisieren und ihr süßlich-würziges Aroma entfalten."
+      },
+      {
+        title: "Schritt 3: Die Verfeinerung",
+        description: "Fein gewürfelter Speck verleiht dem Flammkuchen seine charakteristische, herzhafte Note. Optional können auch Lauchzwiebeln oder frische Kräuter den Geschmack abrunden."
+      },
+      {
+        title: "Schritt 4: Die Backtechnik",
+        description: "Der Schlüssel zum Erfolg liegt in der hohen Backtemperatur von 250°C. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern."
+      }
+    ],
+    servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert."
   },
   {
     title: "Spinat-Käse Lasagne",
@@ -194,7 +218,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     "title": "Flammkuchen",
@@ -301,7 +344,26 @@ export const recipes: Recipe[] = [
       "mainText": "Und jetzt lass dir meinen Flammkuchen richtig gut schmecken!",
       "subText": "Ich bin schon ganz gespannt auf dein Feedback!",
       "signature": "Dein Veggie-Rezepte Team"
-    }
+    },
+    steps: [
+      {
+        title: "Schritt 1: Die Kunst des Teiges",
+        description: "Der hauchdünne, knusprige Teig ist das Fundament eines authentischen Flammkuchens. Die perfekte Mischung aus Mehl, Wasser, Öl und einer Prise Salz ergibt einen Teig, der beim Backen wunderbar knusprig wird."
+      },
+      {
+        title: "Schritt 2: Die Aromenbasis",
+        description: "Die Schmand-Crème-fraîche-Mischung bildet die cremige Grundlage, die mit einer Prise Muskat und frisch gemahlenem Pfeffer verfeinert wird. Darauf werden hauchdünn geschnittene Zwiebeln verteilt, die beim Backen karamellisieren und ihr süßlich-würziges Aroma entfalten."
+      },
+      {
+        title: "Schritt 3: Die Verfeinerung",
+        description: "Fein gewürfelter Speck verleiht dem Flammkuchen seine charakteristische, herzhafte Note. Optional können auch Lauchzwiebeln oder frische Kräuter den Geschmack abrunden."
+      },
+      {
+        title: "Schritt 4: Die Backtechnik",
+        description: "Der Schlüssel zum Erfolg liegt in der hohen Backtemperatur von 250°C. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern."
+      }
+    ],
+    servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert."
   },
   {
     title: "Käsespätzle",
@@ -380,7 +442,26 @@ export const recipes: Recipe[] = [
       mainText: "Und jetzt lass dir meinen Flammkuchen richtig gut schmecken!",
       subText:"",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Kartoffelpuffer",
@@ -451,7 +532,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Semmelknödel",
@@ -531,7 +631,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Pilzgulasch",
@@ -607,7 +726,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Gemüsestrudel",
@@ -678,7 +816,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Grießnockerl",
@@ -745,7 +902,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Spinatknödel",
@@ -821,7 +997,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Gemüsesuppe",
@@ -885,7 +1080,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Kartoffelgratin",
@@ -969,7 +1183,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Quinoa-Buddha-Bowl",
@@ -1013,7 +1246,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Ratatouille",
@@ -1059,7 +1311,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Gemüse-Curry",
@@ -1102,7 +1373,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Brokkoli-Quiche",
@@ -1147,7 +1437,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },    
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Gefüllte Paprika",
@@ -1221,7 +1530,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Kürbissuppe",
@@ -1304,7 +1632,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Mediterraner Nudelsalat",
@@ -1382,7 +1729,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Griechischer Bauernsalat",
@@ -1451,7 +1817,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Gemüse-Couscous-Salat",
@@ -1497,7 +1882,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Blumenkohl-Käse-Auflauf",
@@ -1542,7 +1946,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Gemüse-Polenta-Auflauf",
@@ -1587,7 +2010,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Zucchini-Reis-Auflauf",
@@ -1631,7 +2073,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     "title": "Klassisches Rührei",
@@ -1673,7 +2134,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Overnight Oats mit Beeren",
@@ -1716,7 +2196,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Veganes Banana Bread",
@@ -1760,7 +2259,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Smoothie Bowl",
@@ -1803,7 +2321,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Französische Crêpes",
@@ -1848,7 +2385,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Granola mit Nüssen",
@@ -1891,7 +2447,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Apfelstrudel",
@@ -1936,7 +2511,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Schokoladen-Mousse",
@@ -1978,7 +2572,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Beeren-Crumble",
@@ -2021,7 +2634,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Rhabarber-Kompott",
@@ -2060,7 +2692,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Zimtschnecken",
@@ -2103,7 +2754,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Bunter Quinoa-Salat",
@@ -2185,7 +2855,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Süßkartoffel-Kokos-Suppe",
@@ -2264,7 +2953,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   },
   {
     title: "Linsen-Bolognese",
@@ -2353,7 +3061,26 @@ export const recipes: Recipe[] = [
       mainText: "",
       subText: "",
       signature: ""
-    }
+    },
+    steps: [
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      },
+      {
+        title: "",
+        description: ""
+      }
+    ],
+    servingSuggestion: ""
   }
 ];
 
