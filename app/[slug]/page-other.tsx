@@ -59,10 +59,10 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
           {/* Recipe Header */}
           <RecipeHeader
             title={recipe.title}
-            description={recipe.descriptionOnImage}
+            description={recipe.description || ""}
             image={recipe.image}
             category={recipe.category}
-            tags={recipe.tags}
+            tags={recipe.tags || []}
             prepTime={recipe.prepTime}
             servings={recipe.servings}
             rating={recipe.rating}
@@ -71,7 +71,7 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
           {/* Ingredients */}
           <section className="mb-12">
             <RecipeIngredients
-              initialServings={recipe.servings}
+              initialServings={recipe.servings || 4}
               ingredients={recipe.ingredients}
             />
           </section>
@@ -85,15 +85,19 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
 
           {/* Nutrition */}
           <section className="mb-12">
-            <RecipeNutrition
-              servings={recipe.servings}
-              nutrition={{
-                calories: recipe.nutrition.calories,
-                protein: recipe.nutrition.protein,
-                carbs: recipe.nutrition.carbs,
-                fat: recipe.nutrition.fat
-              }}
-            />
+            {recipe.nutrition && (
+              <RecipeNutrition
+                servings={recipe.servings || 4}
+                nutrition={{
+                  calories: typeof recipe.nutrition.calories === 'string' 
+                    ? parseInt(recipe.nutrition.calories) 
+                    : recipe.nutrition.calories,
+                  protein: recipe.nutrition.protein,
+                  carbs: recipe.nutrition.carbs,
+                  fat: recipe.nutrition.fat
+                }}
+              />
+            )}
           </section>
 
           {/* Empfohlene Beiträge */}
@@ -126,7 +130,7 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
                           {recommendedRecipe.title}
                         </h4>
                         <p className="text-gray-600 text-sm line-clamp-2">
-                          {recommendedRecipe.descriptionOnImage}
+                          {recommendedRecipe.description || ""}
                         </p>
                       </div>
                     </div>

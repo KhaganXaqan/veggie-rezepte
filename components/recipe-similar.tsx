@@ -126,7 +126,7 @@ export function RecipeSimilar({ recipes, currentRecipe }: RecipeSimilarProps) {
                     </div>
                     <h3 className="font-bold text-lg text-[#0b3558] mb-2 hover:text-[#db747a] transition-colors">{recipe.title}</h3>
                     <p className="text-gray-600 text-sm line-clamp-2">
-                      {recipe.descriptionOnImage}
+                      {recipe.description || ""}
                     </p>
                   </div>
                 </Link>

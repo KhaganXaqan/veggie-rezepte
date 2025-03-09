@@ -4,24 +4,34 @@ import { useState } from 'react'
 import { Minus, Plus, UtensilsCrossed } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
-type RecipeIngredientsProps = {
-  initialServings: number
-  ingredients: {
-    amount?: number | string
-    unit?: string
-    name: string
-  }[]
+type Ingredient = {
+  amount?: number | string | undefined;
+  unit?: string;
+  name: string;
 }
 
-export function RecipeIngredients({ initialServings, ingredients }: RecipeIngredientsProps) {
+export function RecipeIngredients({
+  initialServings = 4,
+  ingredients
+}: {
+  initialServings?: number;
+  ingredients: Ingredient[];
+}) {
   const [servings, setServings] = useState(initialServings)
-
-  const adjustAmount = (amount?: number | string) => {
-    if (amount === undefined) return ''
-    if (typeof amount === 'string') return amount
-    return ((amount * servings) / initialServings).toFixed(1).replace(/\.0$/, '')
+  
+  const increaseServings = () => {
+    setServings(prev => prev + 1)
   }
-
+  
+  const decreaseServings = () => {
+    if (servings > 1) {
+      setServings(prev => prev - 1)
+    }
+  }
+  
+  // Calculate the multiplier for ingredient amounts
+  const multiplier = initialServings ? servings / initialServings : 1
+  
   return (
     <div className="max-w-[86.666%] mx-auto">
       {/* Title with decorative elements */}
@@ -42,7 +52,7 @@ export function RecipeIngredients({ initialServings, ingredients }: RecipeIngred
           <Button
             variant="outline"
             size="icon"
-            onClick={() => setServings(s => Math.max(1, s - 1))}
+            onClick={decreaseServings}
             disabled={servings <= 1}
             className="bg-[#0b3558] text-white w-8 h-8 flex items-center justify-center rounded-full disabled:opacity-50 disabled:cursor-not-allowed hover:bg-[#db747a] transition-colors"
           >
@@ -60,7 +70,7 @@ export function RecipeIngredients({ initialServings, ingredients }: RecipeIngred
           <Button
             variant="outline"
             size="icon"
-            onClick={() => setServings(s => s + 1)}
+            onClick={increaseServings}
             className="bg-[#0b3558] text-white w-8 h-8 flex items-center justify-center rounded-full hover:bg-[#db747a] transition-colors"
           >
             <Plus className="h-4 w-4" />
@@ -75,9 +85,11 @@ export function RecipeIngredients({ initialServings, ingredients }: RecipeIngred
                 <span className="text-[#0b3558] mr-3 font-bold">•</span>
                 <div className="flex-1">
                   <span className="font-medium text-[#0b3558]">
-                    {ingredient.amount && (
+                    {ingredient.amount !== undefined && (
                       <>
-                        {adjustAmount(ingredient.amount)}
+                        {typeof ingredient.amount === 'number' 
+                          ? Math.round((ingredient.amount * multiplier) * 10) / 10
+                          : ingredient.amount}
                         {ingredient.unit && ` ${ingredient.unit}`}
                       </>
                     )}

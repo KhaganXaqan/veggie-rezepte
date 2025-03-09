@@ -1,22 +1,23 @@
 // First, let's define the type for a recipe
 export type Recipe = {
   title: string
-  image: string
-  prepTime?: string
-  rating?: number
-  category: string
   slug: string
-  tags: string[]
-  servings: number
-  description: string
-  ingredients: { 
-    amount?: number | string
-    unit?: string
-    name: string 
-  }[]
+  image: string
+  category: string
+  tags?: string[]
+  prepTime?: string
+  cookTime?: string
+  description?: string
+  ingredients: {
+    amount?: number | undefined;
+    unit?: string;
+    name: string;
+  }[];
   instructions: string[]
-  nutrition: {
-    calories: number
+  servings?: number
+  rating?: number
+  nutrition?: {
+    calories: number | string
     protein: string
     carbs: string
     fat: string
