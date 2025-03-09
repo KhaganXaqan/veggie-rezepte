@@ -78,7 +78,7 @@ export default function Home() {
                   sizes="(max-width: 120px) 100vw, 120px"
                 />
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Mediterran</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Mediterran</span>
             </Link>
 
             <Link href="/rezepte/alle?tag=Schnell" className="cat flex-[0_0_calc(50%-8px)] sm:flex-auto flex flex-col items-center">
@@ -94,7 +94,7 @@ export default function Home() {
                   sizes="(max-width: 120px) 100vw, 120px"
                 />
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Schnell</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Schnell</span>
             </Link>
 
             <Link href="/rezepte/alle?tag=Gemüse" className="cat flex-[0_0_calc(50%-8px)] sm:flex-auto flex flex-col items-center">
@@ -110,7 +110,7 @@ export default function Home() {
                   sizes="(max-width: 120px) 100vw, 120px"
                 />
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Gemüse</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Gemüse</span>
             </Link>
 
             <Link href="/rezepte/alle?tag=Bowl" className="cat flex-[0_0_calc(50%-8px)] sm:flex-auto flex flex-col items-center">
@@ -126,7 +126,7 @@ export default function Home() {
                   sizes="(max-width: 120px) 100vw, 120px"
                 />
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Bowl</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Bowl</span>
             </Link>
 
             <Link href="/rezepte/alle?tag=Beilage" className="cat flex-[0_0_calc(50%-8px)] sm:flex-auto flex flex-col items-center">
@@ -142,7 +142,7 @@ export default function Home() {
                   sizes="(max-width: 120px) 100vw, 120px"
                 />
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Beilage</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Beilage</span>
             </Link>
 
             <Link href="/rezepte/alle?tag=Käse" className="cat flex-[0_0_calc(50%-8px)] sm:flex-auto flex flex-col items-center">
@@ -158,7 +158,7 @@ export default function Home() {
                   sizes="(max-width: 120px) 100vw, 120px"
                 />
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Käse</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Käse</span>
             </Link>
 
             <Link href="/rezepte/alle?tag=Pasta" className="cat flex-[0_0_calc(50%-8px)] sm:flex-auto flex flex-col items-center">
@@ -174,7 +174,7 @@ export default function Home() {
                   sizes="(max-width: 120px) 100vw, 120px"
                 />
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Pasta</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Pasta</span>
             </Link>
 
             <Link href="/rezepte/alle?tag=Indisch" className="cat flex-[0_0_calc(50%-8px)] sm:flex-auto flex flex-col items-center">
@@ -190,7 +190,7 @@ export default function Home() {
                   sizes="(max-width: 120px) 100vw, 120px"
                 />
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Indisch</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Indisch</span>
             </Link>
 
             <Link href="/rezepte/alle" className="cat cat--all-recipes flex-[0_0_calc(50%-8px)] sm:flex-auto flex flex-col items-center">
@@ -199,7 +199,7 @@ export default function Home() {
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
               </span>
-              <span className="cat__name mt-2 text-[var(--wp--preset--font-size--normal)] font-['Montserrat'] font-bold uppercase text-center w-full">Alle Rezepte</span>
+              <span className="cat__name mt-2 font-['Montserrat'] text-base font-bold uppercase text-center w-full !text-black">Alle Rezepte</span>
             </Link>
           </div>
         </section>
@@ -520,7 +520,7 @@ export default function Home() {
                       <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
                     )}
                   </div>
-                </Link>
+              </Link>
               </article>
             ))}
           </div>

@@ -7,48 +7,56 @@ import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { recipes } from "@/lib/data"
 import { useSearchParams } from "next/navigation"
+import type { Recipe } from "@/lib/data"
 
-export default function AllRecipesPage() {
+export default function AllRecipes() {
   const searchParams = useSearchParams()
-  const [searchQuery, setSearchQuery] = useState("")
-  const [selectedTags, setSelectedTags] = useState<string[]>([])
-
-  // Get unique tags from all recipes, sorted alphabetically
-  const allTags = Array.from(new Set(recipes.flatMap(recipe => recipe.tags)))
-    .sort((a, b) => a.localeCompare(b))
-
-  // Handle URL parameters
-  useEffect(() => {
-    const tag = searchParams.get('tag')
-    if (tag) {
-      setSelectedTags([tag])
-    }
-  }, [searchParams])
-
+  const initialTag = searchParams.get('tag') || ""
+  const initialQuery = searchParams.get('q') || ""
+  
+  const [searchQuery, setSearchQuery] = useState(initialQuery)
+  const [selectedTags, setSelectedTags] = useState<string[]>(initialTag ? [initialTag] : [])
+  
+  // Get all unique tags from recipes
+  const allTags = Array.from(new Set(recipes.flatMap(recipe => recipe.tags || [])))
+  
+  const toggleTag = (tag: string) => {
+    setSelectedTags(prev => 
+      prev.includes(tag) 
+        ? prev.filter(t => t !== tag) 
+        : [...prev, tag]
+    )
+  }
+  
   // Filter recipes based on search query and selected tags
-  const filteredRecipes = recipes.filter((recipe) => {
-    const matchesSearch = recipe.title.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredRecipes = recipes.filter((recipe: Recipe) => {
+    const matchesSearch = searchQuery === "" || 
+      recipe.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (recipe.description && recipe.description.toLowerCase().includes(searchQuery.toLowerCase()))
+    
     const matchesTags = selectedTags.length === 0 || 
-      selectedTags.every(tag => recipe.tags.includes(tag))
+      selectedTags.every(tag => recipe.tags && recipe.tags.includes(tag))
     
     return matchesSearch && matchesTags
   })
 
-  const toggleTag = (tag: string) => {
-    setSelectedTags(prev => 
-      prev.includes(tag) 
-        ? prev.filter(t => t !== tag)
-        : [...prev, tag]
-    )
-  }
-
+  // Update URL when filters change
+  useEffect(() => {
+    const params = new URLSearchParams()
+    if (searchQuery) params.set('q', searchQuery)
+    if (selectedTags.length > 0) params.set('tag', selectedTags.join(','))
+    
+    const url = `/rezepte/alle${params.toString() ? `?${params.toString()}` : ''}`
+    window.history.replaceState({}, '', url)
+  }, [searchQuery, selectedTags])
+  
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <SiteHeader />
       <main className="flex-1 bg-white">
         <div className="container py-8">
           <div className="max-w-2xl mx-auto mb-8">
-            <h1 className="text-4xl font-bold mb-8 text-black">Alle Rezepte</h1>
+            <h1 className="text-4xl font-['Montserrat'] font-bold uppercase mb-8 !text-black">Alle Rezepte</h1>
             <Input
               type="search"
               placeholder="Nach Rezepten suchen..."
@@ -61,7 +69,7 @@ export default function AllRecipesPage() {
                 <Badge
                   key={tag}
                   variant={selectedTags.includes(tag) ? "default" : "outline"}
-                  className="cursor-pointer hover:bg-gray-100"
+                  className="cursor-pointer hover:bg-gray-100 font-['Montserrat'] uppercase"
                   onClick={() => toggleTag(tag)}
                 >
                   {tag}

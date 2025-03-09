@@ -1,50 +1,69 @@
-import { Cookie } from 'lucide-react'
+"use client"
 
-type RecipeNutritionProps = {
-  servings: number
+import { Activity } from 'lucide-react'
+
+export function RecipeNutrition({
+  servings = 4,
+  nutrition
+}: {
+  servings?: number;
   nutrition: {
-    calories: number
-    protein: string
-    carbs: string
-    fat: string
-  }
-}
-
-export function RecipeNutrition({ servings, nutrition }: RecipeNutritionProps) {
+    calories: number;
+    protein: string;
+    carbs: string;
+    fat: string;
+  };
+}) {
   return (
-    <div className="max-w-xl mx-auto px-4">
-      {/* Title with decorative lines */}
-      <div className="flex items-center justify-center gap-6 mb-8">
-        <div className="h-[1px] bg-black/60 flex-1" />
-        <div className="flex items-center gap-2">
-          <Cookie className="h-5 w-5" />
-          <span className="text-xl font-medium tracking-wide">Nährwerte</span>
-        </div>
-        <div className="h-[1px] bg-black/60 flex-1" />
+    <div className="max-w-[86.666%] mx-auto">
+      {/* Title with decorative elements */}
+      <div className="flex items-center justify-center gap-4 mb-8">
+        <div className="h-[1px] w-16 bg-[#db747a]/30" />
+        <h2 className="font-serif text-2xl font-bold text-[#0b3558] flex items-center gap-2">
+          <span className="inline-block w-10 h-10 bg-[#db747a]/10 rounded-full flex items-center justify-center text-[#db747a]">
+            <Activity className="h-5 w-5" />
+          </span>
+          Nährwerte
+        </h2>
+        <div className="h-[1px] w-16 bg-[#db747a]/30" />
       </div>
 
-      {/* Per person subtitle */}
-      <div className="text-center mb-6">
-        <span className="text-sm text-black/70">Pro Person</span>
-      </div>
+      {/* Nutrition card */}
+      <div className="bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 mb-8">
+        <p className="text-center text-gray-600 mb-6 font-sans">
+          Nährwerte pro Portion (basierend auf {servings} {servings === 1 ? 'Person' : 'Personen'})
+        </p>
 
-      {/* Nutrition values */}
-      <div className="flex justify-center gap-8 text-center">
-        <div className="flex items-center gap-2">
-          <div className="text-lg font-medium">{nutrition.calories}</div>
-          <div className="text-sm text-black/70">kcal</div>
+        {/* Nutrition grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div className="bg-gray-50 p-4 rounded-lg text-center">
+            <div className="text-2xl font-bold text-[#db747a]">{nutrition.calories}</div>
+            <div className="text-sm text-gray-600">Kalorien</div>
+            <div className="text-xs text-gray-500">pro Portion</div>
+          </div>
+          
+          <div className="bg-gray-50 p-4 rounded-lg text-center">
+            <div className="text-2xl font-bold text-[#0b3558]">{nutrition.protein}</div>
+            <div className="text-sm text-gray-600">Protein</div>
+            <div className="text-xs text-gray-500">pro Portion</div>
+          </div>
+          
+          <div className="bg-gray-50 p-4 rounded-lg text-center">
+            <div className="text-2xl font-bold text-[#0b3558]">{nutrition.carbs}</div>
+            <div className="text-sm text-gray-600">Kohlenhydrate</div>
+            <div className="text-xs text-gray-500">pro Portion</div>
+          </div>
+          
+          <div className="bg-gray-50 p-4 rounded-lg text-center">
+            <div className="text-2xl font-bold text-[#0b3558]">{nutrition.fat}</div>
+            <div className="text-sm text-gray-600">Fett</div>
+            <div className="text-xs text-gray-500">pro Portion</div>
+          </div>
         </div>
-        <div className="flex items-center gap-2">
-          <div className="text-lg font-medium">{parseInt(nutrition.protein)}</div>
-          <div className="text-sm text-black/70">gm Eiweiß</div>
-        </div>
-        <div className="flex items-center gap-2">
-          <div className="text-lg font-medium">{parseInt(nutrition.fat)}</div>
-          <div className="text-sm text-black/70">gm Fett</div>
-        </div>
-        <div className="flex items-center gap-2">
-          <div className="text-lg font-medium">{parseInt(nutrition.carbs)}</div>
-          <div className="text-sm text-black/70">gm Kohlenhydrate</div>
+
+        {/* Disclaimer */}
+        <div className="mt-8 text-center text-xs text-gray-500 max-w-lg mx-auto">
+          <p>Die angegebenen Nährwerte sind Schätzwerte und können je nach genauen Zutaten und Portionsgrößen variieren.</p>
         </div>
       </div>
     </div>

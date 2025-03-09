@@ -49,44 +49,14 @@ export function RecipeCardMasonry({
         </Link>
       </div>
       <div className="fav-recipe-card-title">
-        <Link href={`/${recipe.slug}`} style={{
-          ...baseStyles,
-          fontSize: "22px !important",
-          fontWeight: "800 !important",
-          lineHeight: "1em !important",
-          color: "#0b3558 !important",
-          display: "block",
-          transition: ".3s",
-          textDecoration: "none !important",
-          textAlign: "left"
-        }}>
+        <Link href={`/${recipe.slug}`} className="!text-black font-['Montserrat'] text-base sm:text-lg font-bold uppercase hover:text-[#db747a]">
           {recipe.title}
         </Link>
       </div>
       <div className="details-link">
-        <Link href={`/${recipe.slug}`} style={{
-          ...baseStyles,
-          fontSize: "15px",
-          fontWeight: 700,
-          lineHeight: 1.1,
-          color: "#db747a",
-          display: "inline-block",
-          transition: ".3s",
-          position: "relative",
-          paddingBottom: "5px"
-        }}>
+        <Link href={`/${recipe.slug}`} className="text-[#db747a] font-bold text-sm hover:text-[#db747a]/80">
           Rezeptdetails <i className="fas fa-arrow-right"></i>
         </Link>
-      </div>
-      <div className="recipe-card__content mt-4">
-        <h2 className="recipe-card__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black">
-          {recipe.title}
-        </h2>
-        {recipe.prepTime && (
-          <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">
-            {recipe.prepTime}
-          </span>
-        )}
       </div>
     </div>
   )

@@ -78,6 +78,33 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+
+  body {
+    @apply bg-white text-black;
+  }
+
+  .post-summary__title,
+  .recipe-card__title,
+  .fav-recipe-card-title,
+  .cat__name {
+    @apply !text-black;
+  }
+
+  .post-summary__title span,
+  .recipe-card__title span,
+  .fav-recipe-card-title a,
+  .cat__name {
+    @apply !text-black;
+  }
+
+  /* Consistent styling for category names */
+  .cat__name {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 1.2em !important;
+    text-transform: uppercase !important;
+    font-family: 'Montserrat', sans-serif !important;
+  }
 }
 
 @layer base {
@@ -123,8 +150,32 @@
   }
 
   .fav-recipe-card-title {
-    width: 292.75px;
+    width: 292.75px !important;
     padding: 0;
+    margin: 0;
+    text-align: left;
+    font-family: var(--bs-font-sans-serif);
+    -webkit-font-smoothing: antialiased;
+
+    a {
+      font-size: 16px !important;
+      font-weight: 700 !important;
+      line-height: 1.2em !important;
+      color: #0b3558 !important;
+      display: block;
+      transition: .3s;
+      text-decoration: none !important;
+      text-align: left;
+      outline: 0;
+      padding: 0;
+      margin: 0;
+      text-transform: uppercase !important;
+      font-family: 'Montserrat', sans-serif !important;
+
+      &:hover {
+        color: #db747a !important;
+      }
+    }
   }
 
   .fav-recipe-card-title a {
@@ -350,6 +401,17 @@
 
   .fav-recipe-card-thumb:hover img {
     transform: scale(1.05);
+  }
+
+  .flamkuchen-font {
+    font-family: 'YourDesiredFont', sans-serif;
+    font-size: 18px; /* Adjust the size as needed */
+    color: #0b3558; /* Adjust the color as needed */
+  }
+
+  /* Remove duplicate recipe-card__content styles that were causing double titles */
+  .recipe-card__content {
+    display: none;
   }
 }
 

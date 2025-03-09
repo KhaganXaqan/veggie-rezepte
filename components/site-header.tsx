@@ -15,6 +15,7 @@ export function SiteHeader() {
   const [searchQuery, setSearchQuery] = useState("")
   const [isVisible, setIsVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
+  const [showMobileMenu, setShowMobileMenu] = useState(false)
 
   useEffect(() => {
     const controlNavbar = () => {
@@ -44,7 +45,9 @@ export function SiteHeader() {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
     if (searchQuery.trim()) {
-      router.push(`/suche?q=${encodeURIComponent(searchQuery)}`)
+      router.push(`/rezepte/alle?q=${encodeURIComponent(searchQuery.trim())}`)
+      setSearchQuery("")
+      setShowMobileMenu(false)
     }
   }
 
