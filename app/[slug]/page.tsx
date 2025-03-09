@@ -118,8 +118,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                   )}
                 </div>
                 <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
-                  <img src="/images/Ingredients/kartoffelpufferIngredient.jpeg" alt="Kartoffelpuffer Ingredients" className="w-[49%] h-auto rounded-2xl" />
-                  <img src="/images/Miscellaneous/kartoffelpuffer1.jpeg" alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
+                  <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-[49%] h-auto rounded-2xl" />
+                  <img src={recipe.images.image1} alt={recipe.title} className="w-[49%] h-auto rounded-2xl" />
                 </div>
 
 
@@ -171,8 +171,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                         ))}
                       </div>
                       <img
-                        src="/images/Miscellaneous/kartoffelpuffer2.jpeg"
-                        alt="Kartoffelpuffer Schritt für Schritt"
+                        src={recipe.images.image2}
+                        alt={recipe.title}
                         className="w-full h-auto rounded-lg mb-6"
                       />
                     </div>
@@ -285,8 +285,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                 )}
                 <div className="flex flex-col items-center gap-8 my-8">
                   <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
-                    <img src="/images/Miscellaneous/kartoffelpuffer4.jpeg" alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
-                    <img src="/images/Miscellaneous/kartoffelpuffer5.jpeg" alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
+                    <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
+                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
                   </div>
                 </div>
 

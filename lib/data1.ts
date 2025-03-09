@@ -50,6 +50,14 @@ export type Recipe = {
     description: string
   }[]
   servingSuggestion: string
+  images: {
+    imageIngredient: string
+    image1: string
+    image2: string
+    image3: string
+    image4: string
+    image5: string
+  }
 }
 
 // Then update the recipes array with all required properties
@@ -139,7 +147,15 @@ export const recipes: Recipe[] = [
         description: "Der Schlüssel zum Erfolg liegt in der hohen Backtemperatur von 250°C. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern."
       }
     ],
-    servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert."
+    servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Spinat-Käse Lasagne",
@@ -237,7 +253,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     "title": "Flammkuchen",
@@ -363,7 +387,15 @@ export const recipes: Recipe[] = [
         description: "Der Schlüssel zum Erfolg liegt in der hohen Backtemperatur von 250°C. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern."
       }
     ],
-    servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert."
+    servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Käsespätzle",
@@ -461,7 +493,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     "title": "Kartoffelpuffer, wie sie Oma und Opa gemacht haben!",
@@ -561,7 +601,15 @@ export const recipes: Recipe[] = [
       "Achte darauf, die Kartoffeln gut auszudrücken, damit die Puffer schön knusprig werden.",
       "Für ein zusätzliches Aroma kannst Du frische Kräuter wie Petersilie oder Schnittlauch in den Teig einarbeiten.",
       "Wenn Du die Puffer noch knuspriger haben möchtest, füge einen Esslöffel Semmelbrösel hinzu."
-    ]
+    ],
+    images: {
+      imageIngredient: "/images/Ingredients/kartoffelpufferIngredient.jpeg",
+      image1: "/images/Miscellaneous/kartoffelpuffer1.jpeg",
+      image2: "/images/Miscellaneous/kartoffelpuffer2.jpeg",
+      image3: "/images/Miscellaneous/kartoffelpuffer3.jpeg",
+      image4: "/images/Miscellaneous/kartoffelpuffer4.jpeg",
+      image5: "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
+    }
   },  
   {
     title: "Semmelknödel",
@@ -660,7 +708,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Pilzgulasch",
@@ -755,7 +811,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Gemüsestrudel",
@@ -845,7 +909,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Grießnockerl",
@@ -931,7 +1003,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Spinatknödel",
@@ -1026,7 +1106,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Gemüsesuppe",
@@ -1109,7 +1197,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Kartoffelgratin",
@@ -1212,7 +1308,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Quinoa-Buddha-Bowl",
@@ -1275,7 +1379,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Ratatouille",
@@ -1340,7 +1452,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Gemüse-Curry",
@@ -1402,7 +1522,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Brokkoli-Quiche",
@@ -1466,7 +1594,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Gefüllte Paprika",
@@ -1559,7 +1695,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Kürbissuppe",
@@ -1661,7 +1805,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Mediterraner Nudelsalat",
@@ -1758,7 +1910,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Griechischer Bauernsalat",
@@ -1846,7 +2006,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Gemüse-Couscous-Salat",
@@ -1911,7 +2079,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Blumenkohl-Käse-Auflauf",
@@ -1975,7 +2151,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Gemüse-Polenta-Auflauf",
@@ -2039,7 +2223,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Zucchini-Reis-Auflauf",
@@ -2102,7 +2294,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     "title": "Klassisches Rührei",
@@ -2163,7 +2363,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Overnight Oats mit Beeren",
@@ -2225,7 +2433,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Veganes Banana Bread",
@@ -2288,7 +2504,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Smoothie Bowl",
@@ -2350,7 +2574,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Französische Crêpes",
@@ -2414,7 +2646,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Granola mit Nüssen",
@@ -2476,7 +2716,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Apfelstrudel",
@@ -2540,7 +2788,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Schokoladen-Mousse",
@@ -2601,7 +2857,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Beeren-Crumble",
@@ -2663,7 +2927,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Rhabarber-Kompott",
@@ -2721,7 +2993,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Zimtschnecken",
@@ -2783,7 +3063,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Bunter Quinoa-Salat",
@@ -2884,7 +3172,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Süßkartoffel-Kokos-Suppe",
@@ -2982,7 +3278,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   },
   {
     title: "Linsen-Bolognese",
@@ -3090,7 +3394,15 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
-    servingSuggestion: ""
+    servingSuggestion: "",
+    images: {
+      imageIngredient: "",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: ""
+    }
   }
 ];
 
