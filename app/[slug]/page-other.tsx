@@ -126,10 +126,10 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
                         </div>
                       </div>
                       <div className="mt-4">
-                        <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
+                        <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors break-words hyphens-auto overflow-wrap-anywhere line-clamp-2">
                           {recommendedRecipe.title}
                         </h4>
-                        <p className="text-gray-600 text-sm line-clamp-2">
+                        <p className="text-gray-600 text-sm line-clamp-2 break-words">
                           {recommendedRecipe.description || ""}
                         </p>
                       </div>

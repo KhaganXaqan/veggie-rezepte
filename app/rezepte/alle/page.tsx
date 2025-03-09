@@ -69,7 +69,9 @@ export default function AllRecipes() {
                 <Badge
                   key={tag}
                   variant={selectedTags.includes(tag) ? "default" : "outline"}
-                  className="cursor-pointer hover:bg-gray-100 font-['Montserrat'] uppercase"
+                  className={`cursor-pointer hover:bg-gray-100 font-['Montserrat'] uppercase ${
+                    selectedTags.includes(tag) ? 'bg-[#0b3558] text-white' : 'text-black border-gray-300'
+                  }`}
                   onClick={() => toggleTag(tag)}
                 >
                   {tag}
