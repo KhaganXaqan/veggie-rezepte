@@ -22,13 +22,6 @@ export function generateStaticParams() {
   }))
 }
 
-async function slug1({ params }: { params: { slug: string } }) {
-  // asynchronous access of `params.id`.
-  const { slug } = params
-  return slug
-}
-
-
 export default async function RecipePage({ params }: RecipePageProps) {
   const slug =  params?.slug;  // Access slug after ensuring it's available
 
