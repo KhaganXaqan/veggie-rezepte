@@ -26,7 +26,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const slug =  params?.slug;  // Access slug after ensuring it's available
 
   // Check if we should use the current page or redirect to page-other.tsx
-  if (!slug || (slug !== 'flammkuchen' && slug !== 'kartoffelpuffer')) {
+  if (slug !== 'kartoffelpuffer') {
     // For any recipe other than flammkuchen, use page-other.tsx
     return <OtherRecipePage slug={slug} />;
   }

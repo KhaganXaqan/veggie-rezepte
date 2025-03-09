@@ -116,15 +116,15 @@ export function RecipeSimilar({ recipes, currentRecipe }: RecipeSimilarProps) {
                         src={recipe.image}
                         alt={recipe.title}
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        className="object-cover hover:scale-105 transition-transform duration-300"
                       />
-                      <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                         <span className="text-white text-sm font-medium text-center px-4">
                           Zum Rezept
                         </span>
                       </div>
                     </div>
-                    <h3 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">{recipe.title}</h3>
+                    <h3 className="font-bold text-lg text-[#0b3558] mb-2 hover:text-[#db747a] transition-colors">{recipe.title}</h3>
                     <p className="text-gray-600 text-sm line-clamp-2">
                       {recipe.descriptionOnImage}
                     </p>
