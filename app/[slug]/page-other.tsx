@@ -45,7 +45,7 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
       <div className="min-h-screen flex flex-col">
         <SiteHeader />
         <div className="container py-8">
-          <p>Loading recipe...</p>
+          <p>Rezept wird geladen...</p>
         </div>
       </div>
     );
@@ -67,15 +67,6 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
             servings={recipe.servings}
             rating={recipe.rating}
           />
-
-          {/* Recipe Description */}
-          <div className="w-full mb-12">
-            <div className="bg-gray-50 rounded-xl shadow-sm p-6 mb-8">
-              <p className="font-sans text-gray-700 leading-relaxed">
-                {recipe.descriptionOnImage}
-              </p>
-            </div>
-          </div>
 
           {/* Ingredients */}
           <section className="mb-12">
@@ -124,7 +115,7 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
                           alt={recommendedRecipe.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 transition-opacity duration-300">
                           <span className="text-white text-sm font-medium text-center px-4">
                             Empfohlene {recipe.category}
                           </span>
