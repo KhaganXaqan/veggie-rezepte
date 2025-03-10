@@ -925,7 +925,7 @@ export const recipes: Recipe[] = [
     prepTime: "45 Min.",
     rating: 4.6,
     category: "Hauptgerichte",
-    slug: "griesnockerl",
+    slug: "griessnockerl",
     tags: ["Traditionell", "Beilage", "Grieß"],
     servings: 4,
     description: "Traditionelle österreichische Grießnockerl mit Apfelmus und Rosinen.",

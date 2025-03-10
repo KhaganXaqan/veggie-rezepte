@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 import type { Recipe } from "@/lib/data"
 
 export const metadata: Metadata = {
-  title: "Vegetarische Rezepte | Veggie Rezepte",
-  description: "Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche",
+  title: "Vegetarische & Vegane Rezepte | Lecker & Gesund | Veggie Rezepte",
+  description:"Entdecke köstliche vegetarische und vegane Rezepte für jeden Tag. Von schnellen Gerichten bis zu festlichen Menüs - einfach zubereitet und gesund.",
 }
 
 export default function Home() {
