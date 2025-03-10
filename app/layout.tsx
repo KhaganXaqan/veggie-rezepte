@@ -14,7 +14,7 @@ const inter = InterFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://veggie-rezepte.de'),
+  metadataBase: new URL('https://www.veggie-rezepte.de'),
   title: 'Veggie-Rezepte.de - Entdecke köstliche vegetarische Gerichte',
   description: 'Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung.',
   icons: {
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'de_DE',
-    url: 'https://veggie-rezepte.de',
+    url: 'https://www.veggie-rezepte.de',
     siteName: 'Veggie-Rezepte.de',
     title: 'Veggie-Rezepte.de - Köstliche vegetarische Gerichte',
     description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche.',
