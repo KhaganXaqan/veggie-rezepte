@@ -20,7 +20,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'auflaeufe',
     'suppen',
     'salate',
-    'traditionell'
+    'fruehstueck',
+    'desserts'
   ]
   
   const categoryRoutes = categories.map((category) => ({
