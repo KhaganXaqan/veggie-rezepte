@@ -3,19 +3,19 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Search } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { useRouter } from "next/navigation"
 import { useState, useEffect } from "react"
 import { MobileNav } from "@/components/mobile-nav"
 import { cn } from "@/lib/utils"
+import React from "react"
 
 export function SiteHeader() {
   const router = useRouter()
   const [searchQuery, setSearchQuery] = useState("")
   const [isVisible, setIsVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
-  const [showMobileMenu, setShowMobileMenu] = useState(false)
+  const [hoveredItem, setHoveredItem] = useState<string | null>(null)
 
   useEffect(() => {
     const controlNavbar = () => {
@@ -23,6 +23,7 @@ export function SiteHeader() {
         // If scrolling down, hide the navbar
         if (window.scrollY > lastScrollY && window.scrollY > 100) {
           setIsVisible(false)
+          setHoveredItem(null)
         } 
         // If scrolling up, show the navbar
         else {
@@ -47,16 +48,16 @@ export function SiteHeader() {
     if (searchQuery.trim()) {
       router.push(`/rezepte/alle?q=${encodeURIComponent(searchQuery.trim())}`)
       setSearchQuery("")
-      setShowMobileMenu(false)
+      setHoveredItem(null)
     }
   }
 
   return (
     <header className={cn(
-      "sticky top-0 z-50 w-full border-b bg-white transition-transform duration-300",
+      "sticky top-0 z-50 w-full bg-white transition-transform duration-300",
       !isVisible && "-translate-y-full"
     )}>
-      <div className="w-full px-3 sm:container sm:max-w-7xl sm:mx-auto sm:pl-9 sm:pr-12 lg:pl-14 lg:pr-[62px] flex h-14 sm:h-16 items-center justify-between">
+      <div className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 flex h-14 sm:h-16 items-center justify-between">
         <div className="flex items-center">
           <MobileNav />
           <Link href="/" className="flex items-center ml-2 sm:ml-0" aria-label="Veggie Rezepte - Startseite">
@@ -75,13 +76,161 @@ export function SiteHeader() {
           </Link>
         </div>
         
-        <div className="hidden sm:flex items-center gap-8">
-          <Link href="/rezepte/alle" className="text-base font-black font-['Copperplate', 'Papyrus', 'fantasy'] text-black transition-colors hover:text-brand">
-            Alle Rezepte
-          </Link>
-          <Link href="/kategorien" className="text-base font-black font-['Copperplate', 'Papyrus', 'fantasy'] text-black transition-colors hover:text-brand">
-            Kategorien
-          </Link>
+        <div className="hidden sm:flex items-center h-full">
+          <nav className="flex items-center h-full">
+            <div 
+              className="relative h-full"
+              onMouseEnter={() => setHoveredItem('rezepte')}
+              onMouseLeave={() => setHoveredItem(null)}
+            >
+              <Link 
+                href="/rezepte/alle"
+                className={`flex items-center text-base font-medium px-4 h-full transition-colors ${
+                  hoveredItem === 'rezepte' 
+                    ? 'bg-[#f9d24f] border-r-[3px] border-r-black' 
+                    : 'hover:bg-[#f9d24f] hover:border-r-[3px] hover:border-r-black'
+                }`}
+              >
+                Rezepte <span className="ml-1">+</span>
+              </Link>
+              
+              {hoveredItem === 'rezepte' && (
+                <div className="absolute right-0 top-full w-[200px] bg-[#f9d24f] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]">
+                  <div className="py-4 px-4 flex flex-col space-y-3">
+                    <Link href="/rezepte/alle" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Alle Rezepte
+                    </Link>
+                    <Link href="/rezepte/alle?sort=newest" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Neueste
+                    </Link>
+                    <Link href="/rezepte/alle?sort=popular" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Beliebteste
+                    </Link>
+                    <Link href="/rezepte/alle?tag=schnell" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Schnelle
+                    </Link>
+                    <Link href="/rezepte/alle?tag=einfach" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Einfache
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
+            
+            <div 
+              className="relative h-full"
+              onMouseEnter={() => setHoveredItem('jahreszeiten')}
+              onMouseLeave={() => setHoveredItem(null)}
+            >
+              <Link 
+                href="/rezepte/alle?tag=saison"
+                className={`flex items-center text-base font-medium px-4 h-full transition-colors ${
+                  hoveredItem === 'jahreszeiten' 
+                    ? 'bg-[#f9d24f] border-r-[3px] border-r-black' 
+                    : 'hover:bg-[#f9d24f] hover:border-r-[3px] hover:border-r-black'
+                }`}
+              >
+                Saisonale Rezepte <span className="ml-1">+</span>
+              </Link>
+              
+              {hoveredItem === 'jahreszeiten' && (
+                <div className="absolute right-0 top-full w-[200px] bg-[#f9d24f] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]">
+                  <div className="py-4 px-4 flex flex-col space-y-3">
+                    <Link href="/rezepte/alle?tag=Frühling" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Frühlingsrezepte
+                    </Link>
+                    <Link href="/rezepte/alle?tag=Sommer" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Sommerrezepte
+                    </Link>
+                    <Link href="/rezepte/alle?tag=Herbst" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Herbstrezepte
+                    </Link>
+                    <Link href="/rezepte/alle?tag=Winter" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Winterrezepte
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
+            
+            <div 
+              className="relative h-full"
+              onMouseEnter={() => setHoveredItem('kategorien')}
+              onMouseLeave={() => setHoveredItem(null)}
+            >
+              <Link 
+                href="/kategorien"
+                className={`flex items-center text-base font-medium px-4 h-full transition-colors ${
+                  hoveredItem === 'kategorien' 
+                    ? 'bg-[#f9d24f] border-r-[3px] border-r-black' 
+                    : 'hover:bg-[#f9d24f] hover:border-r-[3px] hover:border-r-black'
+                }`}
+              >
+                Kategorien <span className="ml-1">+</span>
+              </Link>
+              
+              {hoveredItem === 'kategorien' && (
+                <div className="absolute right-0 top-full w-[200px] bg-[#f9d24f] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]">
+                  <div className="py-4 px-4 flex flex-col space-y-3">
+                    <Link href="/kategorien" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Alle Kategorien
+                    </Link>
+                    <Link href="/kategorien/hauptgerichte" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Hauptgerichte
+                    </Link>
+                    <Link href="/kategorien/suppen" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Suppen
+                    </Link>
+                    <Link href="/kategorien/salate" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Salate
+                    </Link>
+                    <Link href="/kategorien/fruehstueck" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Frühstück
+                    </Link>
+                    <Link href="/kategorien/desserts" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Desserts
+                    </Link>
+                    <Link href="/kategorien/auflaeufe" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Aufläufe
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
+            
+            <div 
+              className="relative h-full"
+              onMouseEnter={() => setHoveredItem('ueber')}
+              onMouseLeave={() => setHoveredItem(null)}
+            >
+              <Link 
+                href="/about"
+                className={`flex items-center text-base font-medium px-4 h-full transition-colors ${
+                  hoveredItem === 'ueber' 
+                    ? 'bg-[#f9d24f] border-r-[3px] border-r-black' 
+                    : 'hover:bg-[#f9d24f] hover:border-r-[3px] hover:border-r-black'
+                }`}
+              >
+                Über uns <span className="ml-1">+</span>
+              </Link>
+              
+              {hoveredItem === 'ueber' && (
+                <div className="absolute right-0 top-full w-[200px] bg-[#f9d24f] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]">
+                  <div className="py-4 px-4 flex flex-col space-y-3">
+                    <Link href="/about" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Über Uns
+                    </Link>
+                    <Link href="/contact" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      Kontakt
+                    </Link>
+                    <Link href="/faq" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                      FAQ
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
+          </nav>
         </div>
 
         <div className="flex items-center">
