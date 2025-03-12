@@ -9,6 +9,7 @@ import { useState, useEffect } from "react"
 import { MobileNav } from "@/components/mobile-nav"
 import { cn } from "@/lib/utils"
 import React from "react"
+import { brandColors } from "@/lib/theme"
 
 export function SiteHeader() {
   const router = useRouter()
@@ -52,6 +53,15 @@ export function SiteHeader() {
     }
   }
 
+  // We can't use dynamic values in Tailwind classes, so we'll use style for the brand colors
+  const navItemStyle = (isHovered: boolean) => ({
+    backgroundColor: isHovered ? brandColors.primary.yellow : undefined
+  });
+
+  const dropdownStyle = {
+    backgroundColor: brandColors.primary.yellow
+  };
+
   return (
     <header className={cn(
       "sticky top-0 z-50 w-full bg-white transition-transform duration-300",
@@ -87,15 +97,16 @@ export function SiteHeader() {
                 href="/rezepte/alle"
                 className={`flex items-center text-base font-medium px-4 h-full transition-colors ${
                   hoveredItem === 'rezepte' 
-                    ? 'bg-[#f9d24f] border-r-[3px] border-r-black' 
-                    : 'hover:bg-[#f9d24f] hover:border-r-[3px] hover:border-r-black'
+                    ? 'border-r-[3px] border-r-black' 
+                    : 'hover:border-r-[3px] hover:border-r-black'
                 }`}
+                style={navItemStyle(hoveredItem === 'rezepte')}
               >
                 Rezepte <span className="ml-1">+</span>
               </Link>
               
               {hoveredItem === 'rezepte' && (
-                <div className="absolute right-0 top-full w-[200px] bg-[#f9d24f] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]">
+                <div className="absolute right-0 top-full w-[200px] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]" style={dropdownStyle}>
                   <div className="py-4 px-4 flex flex-col space-y-3">
                     <Link href="/rezepte/alle" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Alle Rezepte
@@ -126,15 +137,16 @@ export function SiteHeader() {
                 href="/rezepte/alle?tag=saison"
                 className={`flex items-center text-base font-medium px-4 h-full transition-colors ${
                   hoveredItem === 'jahreszeiten' 
-                    ? 'bg-[#f9d24f] border-r-[3px] border-r-black' 
-                    : 'hover:bg-[#f9d24f] hover:border-r-[3px] hover:border-r-black'
+                    ? 'border-r-[3px] border-r-black' 
+                    : 'hover:border-r-[3px] hover:border-r-black'
                 }`}
+                style={navItemStyle(hoveredItem === 'jahreszeiten')}
               >
                 Saisonale Rezepte <span className="ml-1">+</span>
               </Link>
               
               {hoveredItem === 'jahreszeiten' && (
-                <div className="absolute right-0 top-full w-[200px] bg-[#f9d24f] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]">
+                <div className="absolute right-0 top-full w-[200px] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]" style={dropdownStyle}>
                   <div className="py-4 px-4 flex flex-col space-y-3">
                     <Link href="/rezepte/alle?tag=Frühling" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Frühlingsrezepte
@@ -162,15 +174,16 @@ export function SiteHeader() {
                 href="/kategorien"
                 className={`flex items-center text-base font-medium px-4 h-full transition-colors ${
                   hoveredItem === 'kategorien' 
-                    ? 'bg-[#f9d24f] border-r-[3px] border-r-black' 
-                    : 'hover:bg-[#f9d24f] hover:border-r-[3px] hover:border-r-black'
+                    ? 'border-r-[3px] border-r-black' 
+                    : 'hover:border-r-[3px] hover:border-r-black'
                 }`}
+                style={navItemStyle(hoveredItem === 'kategorien')}
               >
                 Kategorien <span className="ml-1">+</span>
               </Link>
               
               {hoveredItem === 'kategorien' && (
-                <div className="absolute right-0 top-full w-[200px] bg-[#f9d24f] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]">
+                <div className="absolute right-0 top-full w-[200px] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]" style={dropdownStyle}>
                   <div className="py-4 px-4 flex flex-col space-y-3">
                     <Link href="/kategorien" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Alle Kategorien
@@ -207,15 +220,16 @@ export function SiteHeader() {
                 href="/about"
                 className={`flex items-center text-base font-medium px-4 h-full transition-colors ${
                   hoveredItem === 'ueber' 
-                    ? 'bg-[#f9d24f] border-r-[3px] border-r-black' 
-                    : 'hover:bg-[#f9d24f] hover:border-r-[3px] hover:border-r-black'
+                    ? 'border-r-[3px] border-r-black' 
+                    : 'hover:border-r-[3px] hover:border-r-black'
                 }`}
+                style={navItemStyle(hoveredItem === 'ueber')}
               >
                 Über uns <span className="ml-1">+</span>
               </Link>
               
               {hoveredItem === 'ueber' && (
-                <div className="absolute right-0 top-full w-[200px] bg-[#f9d24f] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]">
+                <div className="absolute right-0 top-full w-[200px] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]" style={dropdownStyle}>
                   <div className="py-4 px-4 flex flex-col space-y-3">
                     <Link href="/about" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Über Uns

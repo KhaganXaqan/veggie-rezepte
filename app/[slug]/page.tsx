@@ -8,6 +8,7 @@ import { RecipeSimilar } from '@/components/recipe-similar'
 import { RecipeComments } from '@/components/recipe-comments'
 import { Separator } from '@/components/ui/separator'
 import { SiteHeader } from "@/components/site-header"
+import { brandColors } from "@/lib/theme"
 import OtherRecipePage from './page-other'
 
 type RecipePageProps = {
@@ -58,10 +59,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
   return (
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
-      <div className="container py-8">
+      <div className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 py-8">
         <article>
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-            <div className="lg:col-span-3">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            {/* Main Content - Left Column (8/12) */}
+            <div className="lg:col-span-8 border-r lg:pr-10">
               {/* Recipe Header */}
               <RecipeHeader
                 title={recipe.title}
@@ -77,18 +79,19 @@ export default async function RecipePage({ params }: RecipePageProps) {
               {/* Images before Similar Recipes */}
               <div className="flex flex-col items-center gap-8 my-8">
                 {/* Title */}
-                <h2 className="font-serif text-3xl font-bold mb-2 text-[#0b3558]">{recipe.title}</h2>
+                <h2 className="font-serif text-3xl font-bold mb-2 text-[#0b3558] w-full">{recipe.title}</h2>
 
                 {/* Introduction Paragraph */}
-                <div className="w-full max-w-[86.666%]">
+                <div className="w-full">
                   <div className="bg-gray-50 rounded-xl shadow-sm p-6 mb-2">
                     <div className="font-sans text-gray-700 leading-relaxed">
                       {recipe.introductionParagraph}
                     </div>
                   </div>
                 </div>
+                
                 {/* Ingredients Section */}
-                <div className="max-w-[86.666%] mb-2">
+                <div className="w-full mb-2">
                   {recipe.ingredientGroups?.map((group, index) => (
                     <div key={index} className="bg-gray-50 rounded-xl shadow-sm mb-6 p-6">
                       <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">{group.title}</h3>
@@ -117,14 +120,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   )}
                 </div>
-                <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
+                
+                <div className="flex justify-center gap-4 w-full mb-8">
                   <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-[49%] h-auto rounded-2xl" />
                   <img src={recipe.images.image1} alt={recipe.title} className="w-[49%] h-auto rounded-2xl" />
                 </div>
 
-
                 {/* Empfohlener Beitrag */}
-                <div className="w-full max-w-[86.666%] mx-auto mb-4">
+                <div className="w-full mx-auto mb-4">
                   <a href={`/${randomRecipe.slug}`} className="block">
                     <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
                       <div className="flex items-start gap-6 p-6">
@@ -154,9 +157,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </a>
                 </div>
 
-                {/* Schritt für Schritt - Flammkuchen */}
-
-                <div className="w-full max-w-[86.666%] mx-auto mb-4">
+                {/* Schritt für Schritt - Recipe */}
+                <div className="w-full mx-auto mb-4">
                   <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
                     <div className="p-6">
                       <h4 className="font-bold text-xl text-[#0b3558] mb-3">
@@ -178,9 +180,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </div>
                 </div>
-
-                {/* Empfohlene Beiträge */}
-                <div className="w-full max-w-[86.666%] mx-auto mb-4">
+                  {/* Empfohlene Beiträge - Grid with 3 images */}
+                  <div className="w-full mx-auto mb-8">
                   <div className="bg-gray-50 rounded-xl shadow-sm p-6">
                     <div className="flex items-center gap-4 mb-6">
                       <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
@@ -197,9 +198,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
                                 alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
-                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <span className="text-white text-sm font-medium text-center px-4">
-                                  Empfohlene Hauptgerichte
+                                  Empfohlene {recipe.category}
                                 </span>
                               </div>
                             </div>
@@ -218,9 +219,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </div>
                 </div>
 
-                {/* Why Flammkuchen is a Favorite */}
+                {/* Why Recipe is a Favorite */}
                 {recipe.whyFavorite && (
-                  <div className="w-full max-w-[86.666%] mx-auto mb-4">
+                  <div className="w-full mx-auto mb-4">
                     <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 p-8">
                       <div className="flex items-start gap-8">
                         <div className="flex-grow">
@@ -246,7 +247,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                 {/* Handwritten-style message */}
                 {recipe.handwrittenMessage && (
-                  <div className="mb-4">
+                  <div className="mb-8 w-full">
                     <div className="flex justify-center">
                       <div className="relative max-w-md transform rotate-[-1deg]">
                         <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
@@ -283,91 +284,150 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </div>
                 )}
-                <div className="flex flex-col items-center gap-8 my-8">
-                  <div className="flex justify-center gap-4 w-full max-w-[86.666%] mb-8">
-                    <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
-                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
-                  </div>
+
+                {/* Recipe Images */}
+                <div className="flex justify-center gap-4 w-full mb-8">
+                  <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
+                  <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-auto rounded-2xl" />
                 </div>
 
-
-                {/* Similar Recipes
-              <section className="mb-8">
-                  <RecipeSimilar
-                    recipes={recipes}
-                    currentRecipe={recipe}
-                  />
-                </section> TODO check why style hier ist bad */}
-
-                {/* Ingredients */}
-                <section className="mb-8">
-                  <RecipeIngredients
-                    initialServings={recipe.servings}
-                    ingredients={recipe.ingredients}
-                  />
-                </section>
-
-                {/* Instructions */}
-                <section className="mb-8">
-                  <RecipeInstructions
-                    instructions={recipe.instructions}
-                  />
-                </section>
-
-                {/* Nutrition */}
-                <section className="mb-8">
-                  <RecipeNutrition
-                    servings={recipe.servings}
-                    nutrition={{
-                      calories: recipe.nutrition.calories,
-                      protein: recipe.nutrition.protein,
-                      carbs: recipe.nutrition.carbs,
-                      fat: recipe.nutrition.fat
-                    }}
-                  />
-                </section>
-
-                <div className="flex flex-col items-center gap-8 my-8">
-                  <div className="flex items-center gap-4 mb-6">
-                    <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
-                      Empfohlene Beiträge
-                    </span>
-                  </div>
-
-
-                  <div className="w-full max-w-[86.666%] mx-auto mb-4">
-                    <div className="bg-gray-50 rounded-xl shadow-sm p-6">
-
-                      <div className="grid grid-cols-3 gap-4">
-                        {recommendedRecipes2.map((recommendedRecipe, index) => (
-                          <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
-                            <div className="relative group">
-                              <div className="w-full aspect-square rounded-lg overflow-hidden">
-                                <img
-                                  src={recommendedRecipe.image}
-                                  alt={recommendedRecipe.title}
-                                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                                />
-                                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                                  <span className="text-white text-sm font-medium text-center px-4">
-                                    Empfohlene Hauptgerichte
-                                  </span>
-                                </div>
-                              </div>
-                              <div className="mt-4">
-                                <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
-                                  {recommendedRecipe.title}
-                                </h4>
-                                <p className="text-gray-600 text-sm line-clamp-2">
-                                  {recommendedRecipe.descriptionOnImage}
-                                </p>
-                              </div>
-                            </div>
-                          </a>
-                        ))}
+                {/* Recipes details card*/}
+                <section className="mb-8 w-full">
+                  <div className="bg-white border-2 border-gray-800 rounded-lg overflow-visible relative" style={{ boxShadow: `5px 5px 0 ${brandColors.primary.yellowRGBA}` }}>
+                    {/* Image positioned to extend outside the box */}
+                    <div className="absolute -top-5 right-6 z-0">
+                      <div style={{ width: '268px', height: '268px', minWidth: '268px', minHeight: '268px' }} className="rounded-lg overflow-hidden border-2 border-gray-200 flex-shrink-0 shadow-md">
+                        <img 
+                          src={recipe.image} 
+                          alt={recipe.title} 
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                     </div>
+                    
+                    {/* Recipe Card Header with Image */}
+                    <div className="flex flex-col md:flex-row border-b border-gray-200 relative">
+                      {/* Content with title on top */}
+                      <div className="w-full md:w-2/3 z-10">
+                        {/* Full-width yellow title banner with border */}
+                        <div className="w-full mt-4 pt-4 pb-4 px-5 mb-4 -ml-5 rounded-lg" style={{ backgroundColor: brandColors.primary.yellow }}>
+                          <h2 className="text-3xl md:text-4xl font-black uppercase text-white" 
+                              style={{
+                                textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -3px 3px 0 #000, 2px 2px 0 #000',
+                                fontFamily: 'Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif',
+                                lineHeight: '1.1',
+                                letterSpacing: '0.12em'
+                              }}>
+                            {recipe.title}
+                          </h2>
+                        </div>
+                        
+                        <div className="px-5 pb-6">
+                          <div className="flex items-center mb-4">
+                            <div className="flex text-yellow-400">
+                              {[...Array(5)].map((_, i) => (
+                                <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                              ))}
+                            </div>
+                            <span className="ml-2 text-sm font-normal text-black">{recipe.rating} von {recipe.rating || 0} Bewertungen</span>
+                          </div>
+                          <p className="text-xl text-black mb-6 pr-8 md:pr-5 leading-relaxed font-normal">{recipe.descriptionOnImage}</p>
+                        </div>
+                      </div>
+                      
+                      {/* Spacer div to maintain layout height */}
+                      <div className="hidden md:block md:w-1/3 h-[300px]"></div>
+                    </div>
+
+                    <div className="p-5">
+                      <RecipeIngredients
+                        initialServings={recipe.servings}
+                        ingredients={recipe.ingredients}
+                      />
+                    
+                      {/* Instructions */}
+                      <RecipeInstructions
+                        instructions={recipe.instructions}
+                      />
+
+                      <RecipeNutrition
+                        servings={recipe.servings}
+                        nutrition={{
+                          calories: recipe.nutrition.calories,
+                          protein: recipe.nutrition.protein,
+                          carbs: recipe.nutrition.carbs,
+                          fat: recipe.nutrition.fat
+                        }}
+                      />
+                    </div>
                   </div>
+                </section>
+
+                {/* Empfohlene Beiträge - Grid with 9 images */}
+                <div className="w-full mx-auto mb-4">
+                  <div className="bg-gray-50 rounded-xl shadow-sm p-6">
+                    <div className="flex items-center gap-4 mb-6">
+                      <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
+                        Empfohlene {recipe.category}
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-3 gap-4">
+                      {recommendedRecipes2.map((recommendedRecipe, index) => (
+                        <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
+                          <div className="relative group">
+                            <div className="w-full aspect-square rounded-lg overflow-hidden">
+                              <img
+                                src={recommendedRecipe.image}
+                                alt={recommendedRecipe.title}
+                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                              />
+                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                                <span className="text-white text-sm font-medium text-center px-4">
+                                  Empfohlene Hauptgerichte
+                                </span>
+                              </div>
+                            </div>
+                            <div className="mt-4">
+                              <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
+                                {recommendedRecipe.title}
+                              </h4>
+                              <p className="text-gray-600 text-sm line-clamp-2">
+                                {recommendedRecipe.descriptionOnImage}
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Sidebar - Right Column (4/12) */}
+            <div className="lg:col-span-4">
+              {/* Beliebste Rezepte - will be populated later */}
+              <div className="sticky top-24">
+                <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-6">Beliebste Rezepte</h3>
+                <div className="space-y-6">
+                  {recommendedRecipes2.slice(0, 5).map((recipe, index) => (
+                    <a href={`/${recipe.slug}`} className="flex items-center gap-4 group" key={index}>
+                      <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0 border-2 border-gray-100">
+                        <img 
+                          src={recipe.image} 
+                          alt={recipe.title}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" 
+                        />
+                      </div>
+                      <div>
+                        <h4 className="font-medium text-[#0b3558] group-hover:text-[#db747a] transition-colors line-clamp-2">
+                          {recipe.title}
+                        </h4>
+                      </div>
+                    </a>
+                  ))}
                 </div>
               </div>
             </div>

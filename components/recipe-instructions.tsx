@@ -6,7 +6,7 @@ type RecipeInstructionsProps = {
 
 export function RecipeInstructions({ instructions }: RecipeInstructionsProps) {
   return (
-    <div className="max-w-[86.666%] mx-auto">
+    <div className="w-full mx-auto mb-4">
       {/* Title with decorative elements */}
       <div className="flex items-center justify-center gap-4 mb-8">
         <div className="h-[1px] w-16 bg-[#db747a]/30" />
