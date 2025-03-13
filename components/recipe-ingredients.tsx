@@ -174,7 +174,7 @@ export function RecipeIngredients({
       
       {/* Action buttons */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-        <button className="border-2 border-black py-3 px-4 font-black text-base uppercase hover:bg-gray-100 transition-colors">
+        <button className="border-2 border-black py-3 px-4 font-black text-base uppercase hover:bg-gray-100 rounded-md transition-colors">
           REZEPT SPEICHERN
         </button>
         <button 
@@ -403,11 +403,11 @@ export function RecipeIngredients({
               alert('Rezept konnte nicht zum Drucken vorbereitet werden. Bitte versuchen Sie es später erneut.');
             }
           }}
-          className="border-2 border-black py-3 px-4 font-black text-base uppercase hover:bg-gray-100 transition-colors"
+          className="border-2 border-black py-3 px-4 font-black text-base uppercase hover:bg-gray-100 rounded-md transition-colors"
         >
           REZEPT DRUCKEN
         </button>
-        <button className="border-2 border-black py-3 px-4 font-black text-base uppercase col-span-1 md:col-span-2 hover:bg-gray-100 transition-colors">
+        <button className="border-2 border-black py-3 px-4 font-black text-base uppercase col-span-1 md:col-span-2 hover:bg-gray-100 rounded-md transition-colors">
           BEWERTUNGEN LESEN
         </button>
       </div>
