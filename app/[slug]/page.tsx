@@ -12,6 +12,7 @@ import { brandColors } from "@/lib/theme"
 import OtherRecipePage from './page-other'
 import Image from 'next/image'
 import { Metadata } from 'next'
+import Script from 'next/script'
 
 type RecipePageProps = {
   params: {
@@ -23,36 +24,83 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
   const recipe = await getRecipeBySlug(params.slug)
   if (!recipe) {
     return {
-      title: 'Recipe Not Found - Veggie Rezepte',
+      title: 'Recipe Not Found - Veggie-Rezepte',
     }
   }
 
+  const url = `https://veggie-rezepte.de/${params.slug}`;
+
   return {
-    title: `${recipe.title} - Veggie Rezepte`,
-    description: recipe.descriptionOnImage,
+    title: `${recipe.title} - Veggie-Rezepte`,
+    description: recipe.descriptionOnImage || recipe.description || '',
     openGraph: {
-      title: `${recipe.title} - Veggie Rezepte`,
-      description: recipe.descriptionOnImage,
+      title: `${recipe.title} - Veggie-Rezepte`,
+      description: recipe.descriptionOnImage || recipe.description || '',
       images: [recipe.image],
       type: 'article',
+      url: url,
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${recipe.title} - Veggie Rezepte`,
-      description: recipe.descriptionOnImage,
+      title: `${recipe.title} - Veggie-Rezepte`,
+      description: recipe.descriptionOnImage || recipe.description || '',
       images: [recipe.image],
+    },
+    alternates: {
+      canonical: url,
     },
   }
 }
 
+// Generate structured data for recipe
+export async function generateStructuredData({ params }: RecipePageProps) {
+  const recipe = await getRecipeBySlug(params.slug);
+  if (!recipe) return null;
+  
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Recipe',
+    name: recipe.title,
+    image: recipe.image,
+    description: recipe.descriptionOnImage || recipe.description || '',
+    author: {
+      '@type': 'Organization',
+      name: 'Veggie-Rezepte'
+    },
+    datePublished: new Date().toISOString().split('T')[0],
+    recipeCategory: recipe.category,
+    recipeCuisine: 'Vegetarisch',
+    prepTime: `PT${recipe.prepTime || 30}M`,
+    cookTime: 'PT30M',
+    recipeYield: `${recipe.servings || 4} Portionen`,
+    nutrition: recipe.nutrition ? {
+      '@type': 'NutritionInformation',
+      calories: `${recipe.nutrition.calories} kcal`,
+      proteinContent: `${recipe.nutrition.protein}g`,
+      carbohydrateContent: `${recipe.nutrition.carbs}g`,
+      fatContent: `${recipe.nutrition.fat}g`
+    } : undefined,
+    recipeIngredient: recipe.ingredients.map(ing => 
+      `${ing.amount || ''} ${ing.unit || ''} ${ing.name}`
+    ),
+    recipeInstructions: recipe.instructions.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      text: step
+    })),
+    keywords: recipe.tags ? recipe.tags.join(', ') : 'vegetarisch, rezept'
+  };
+}
+
 export function generateStaticParams() {
+  // Return all recipe slugs for static generation
   return recipes.map((recipe) => ({
     slug: recipe.slug,
   }))
 }
 
 export default async function RecipePage({ params }: RecipePageProps) {
-  const slug =  params?.slug;  // Access slug after ensuring it's available
+  const slug = params?.slug;  // Access slug after ensuring it's available
 
   // Check if we should use the current page or redirect to page-other.tsx
   if (slug !== 'kartoffelpuffer') {
@@ -64,6 +112,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
   if (!recipe) {
     notFound()
   }
+
+  // Generate structured data for this recipe
+  const structuredData = await generateStructuredData({ params });
 
   // Get a random recipe for Empfohlener Beitrag
   const otherRecipes = recipes.filter(r => r.slug !== slug)
@@ -86,6 +137,15 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
   return (
     <>
+      {/* Add structured data script */}
+      {structuredData && (
+        <Script
+          id="recipe-structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      )}
+      
       <div className="min-h-screen flex flex-col">
         <SiteHeader />
         <div className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 py-8">
