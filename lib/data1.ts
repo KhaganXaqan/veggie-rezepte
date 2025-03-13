@@ -506,7 +506,7 @@ export const recipes: Recipe[] = [
   {
     title: "Kartoffelpuffer",
     image: "/images/Miscellaneous/kartoffelpuffer.webp",
-    prepTime: "25 Min.",
+    prepTime: "25 Min",
     rating: 5.0,
     category: "Hauptgerichte",
     slug: "kartoffelpuffer",
