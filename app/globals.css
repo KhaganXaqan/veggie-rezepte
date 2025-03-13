@@ -425,3 +425,59 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+@media print {
+  /* Hide elements that shouldn't be printed */
+  header, 
+  footer,
+  nav,
+  .site-header,
+  button,
+  .no-print {
+    display: none !important;
+  }
+  
+  /* Ensure the recipe content is visible and properly formatted */
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Make sure the recipe fits on the page */
+  .recipe-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensure images print well */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+  
+  /* Avoid breaking inside elements */
+  h1, h2, h3, h4, h5, h6, 
+  .recipe-ingredients, 
+  .recipe-instructions,
+  .recipe-nutrition {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  
+  /* Ensure proper page breaks */
+  .recipe-section {
+    page-break-inside: avoid;
+  }
+  
+  /* Remove shadows and fancy effects for better printing */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}

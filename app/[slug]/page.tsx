@@ -10,6 +10,7 @@ import { Separator } from '@/components/ui/separator'
 import { SiteHeader } from "@/components/site-header"
 import { brandColors } from "@/lib/theme"
 import OtherRecipePage from './page-other'
+import Image from 'next/image'
 
 type RecipePageProps = {
   params: {
@@ -63,45 +64,109 @@ export default async function RecipePage({ params }: RecipePageProps) {
         <article>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
             {/* Main Content - Left Column (8/12) */}
-            <div className="lg:col-span-8 border-r lg:pr-10">
-              {/* Recipe Header */}
-              <RecipeHeader
-                title={recipe.title}
-                description={recipe.descriptionOnImage}
-                image={recipe.image}
-                category={recipe.category}
-                tags={recipe.tags}
-                prepTime={recipe.prepTime}
-                servings={recipe.servings}
-                rating={recipe.rating}
-              />
+            <div className="lg:col-span-8  border-r border-black lg:pr-10">
 
               {/* Images before Similar Recipes */}
               <div className="flex flex-col items-center gap-8 my-8">
-                {/* Title */}
-                <h2 className="font-serif text-3xl font-bold mb-2 text-[#0b3558] w-full">{recipe.title}</h2>
-
-                {/* Introduction Paragraph */}
-                <div className="w-full">
-                  <div className="bg-gray-50 rounded-xl shadow-sm p-6 mb-2">
-                    <div className="font-sans text-gray-700 leading-relaxed">
-                      {recipe.introductionParagraph}
+                {/* Breadcrumb Navigation */}
+                <div className="w-full text-gray-500 text-lg mb-2">
+                  <div className="flex items-center gap-2">
+                    <span>Rezepte</span>
+                    <span className="text-sm">»</span>
+                    <span>{recipe.category} Rezepte</span>
+                  </div>
+                </div>
+                
+                {/* Title - Large and Bold */}
+                <h1 className="font-black text-5xl uppercase text-black w-full tracking-tight leading-tight mb-2">
+                  {recipe.title}
+                </h1>
+                
+                
+                {/* Author Information */}
+                <div className="w-full flex items-center gap-4 mb-6">
+                  <div className="w-16 h-16 rounded-full overflow-hidden">
+                    <img 
+                      src="/images/author.jpg" 
+                      alt="Autor" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-gray-700">Von</span>
+                      <span className="font-bold text-gray-900">Veggie Rezepte</span>
+                    </div>
+                    <div className="text-gray-500 text-xs">
+                      <span>Veröffentlicht am {new Date().toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                    </div>
+                    <div className="text-gray-500 text-xs">
+                      <span>Aktualisiert am {new Date().toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                    </div>
+                  </div>
+                  
+                  {/* Rating Stars */}
+                  <div className="ml-auto flex flex-col">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="flex text-yellow-400">
+                        {[...Array(5)].map((_, i) => (
+                          <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill={i < Math.floor(recipe.rating || 0) ? "currentColor" : "rgba(209, 213, 219, 0.5)"}>
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                        ))}
+                      </div>
+                      <span className="ml-2 text-sm font-normal text-black">{recipe.rating || 0}</span>
+                      <span className="ml-1 text-gray-500 text-xs">aus 93 Bewertungen</span>
+                    </div>
+                    
+                    {/* Recipe Metadata */}
+                    <div className="flex items-center gap-6">
+                      <div className="flex flex-col">
+                        <span className="text-gray-500 text-[10px] uppercase tracking-wide">Zubereitung</span>
+                        <span className="text-xs">{recipe.prepTime} </span>
+                      </div>
+                      <div className="flex flex-col">
+                        <span className="text-gray-500 text-[10px] uppercase tracking-wide">Kochen</span>
+                        <span className="text-xs">30 Min</span>
+                      </div>
+                      <div className="flex flex-col">
+                        <span className="text-gray-500 text-[10px] uppercase tracking-wide">Portionen</span>
+                        <span className="text-xs">{recipe.servings}</span>
+                      </div>
                     </div>
                   </div>
                 </div>
                 
+                {/* Introduction Paragraph */}
+                <div className="w-full ">
+                  <div className="text-lg text-black leading-relaxed font-normal">
+                    {recipe.introductionParagraph}
+                  </div>
+                </div>
+
+                {/* Recipe Header Image */}
+                <div className="w-full mb-8">
+                  <div className="w-full h-[960px] rounded-2xl overflow-hidden">
+                    <img
+                      src={recipe.image}
+                      alt={recipe.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                
                 {/* Ingredients Section */}
-                <div className="w-full mb-2">
+                <div className="w-full mb-8">
                   {recipe.ingredientGroups?.map((group, index) => (
-                    <div key={index} className="bg-gray-50 rounded-xl shadow-sm mb-6 p-6">
+                    <div key={index} className="mb-6">
                       <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">{group.title}</h3>
-                      <p className="font-sans text-gray-700 mb-4">
+                      <p className="text-lg text-black leading-relaxed font-normal mb-4">
                         {group.description}
                       </p>
                       <ul className="list-disc pl-6 space-y-2">
                         {group.ingredients.map((ingredient, i) => (
-                          <li key={i} className="font-sans text-gray-700">
-                            {ingredient.amount && <span className="font-semibold">{ingredient.amount} {ingredient.unit}</span>} {ingredient.name}
+                          <li key={i} className="text-lg text-black leading-relaxed font-normal">
+                            {ingredient.amount && <span className="font-medium">{ingredient.amount} {ingredient.unit}</span>} {ingredient.name}
                           </li>
                         ))}
                       </ul>
@@ -110,112 +175,105 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Tipps und Variationen */}
                   {recipe.tips && (
-                    <div className="bg-gray-50 rounded-xl shadow-sm mb-6 p-6">
+                    <div className="mt-8">
                       <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Tipps und Variationen</h3>
                       <ul className="list-disc pl-6 space-y-2">
                         {recipe.tips.map((tip, index) => (
-                          <li key={index} className="font-sans text-gray-700">{tip}</li>
+                          <li key={index} className="text-lg text-black leading-relaxed font-normal">{tip}</li>
                         ))}
                       </ul>
                     </div>
                   )}
                 </div>
                 
+                {/* Recipe Images */}
                 <div className="flex justify-center gap-4 w-full mb-8">
                   <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-[49%] h-auto rounded-2xl" />
                   <img src={recipe.images.image1} alt={recipe.title} className="w-[49%] h-auto rounded-2xl" />
                 </div>
 
                 {/* Empfohlener Beitrag */}
-                <div className="w-full mx-auto mb-4">
+                <div className="w-full mx-auto mb-8">
                   <a href={`/${randomRecipe.slug}`} className="block">
-                    <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
-                      <div className="flex items-start gap-6 p-6">
-                        <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
-                          <img
-                            src={randomRecipe.image}
-                            alt={randomRecipe.title}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="flex-grow">
-                          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
-                            Empfohlener Beitrag
-                          </span>
-                          <h4 className="font-bold text-xl text-[#0b3558] mb-3">
-                            <span className='hover:text-[#db747a] transition-colors"'>{randomRecipe.title}</span>
-                          </h4>
-                          <p className="text-gray-600 text-sm mb-10 line-clamp-2">
-                            {randomRecipe.descriptionOnImage}
-                          </p>
-                          <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#db747a] transition-colors">
-                            Zum Beitrag
-                          </button>
-                        </div>
+                    <div className="flex items-start gap-6">
+                      <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
+                        <img
+                          src={randomRecipe.image}
+                          alt={randomRecipe.title}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div className="flex-grow">
+                        <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
+                          Empfohlener Beitrag
+                        </span>
+                        <h4 className="font-bold text-xl text-[#0b3558] mb-3">
+                          <span className='hover:text-[#db747a] transition-colors"'>{randomRecipe.title}</span>
+                        </h4>
+                        <p className="text-lg text-black leading-relaxed font-normal mb-10 line-clamp-2">
+                          {randomRecipe.descriptionOnImage}
+                        </p>
+                        <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#f9d24f] hover:text-black transition-colors">
+                          Zum Beitrag
+                        </button>
                       </div>
                     </div>
                   </a>
                 </div>
 
                 {/* Schritt für Schritt - Recipe */}
-                <div className="w-full mx-auto mb-4">
-                  <div className="bg-gray-50 rounded-xl shadow-sm" style={{ width: '100%' }}>
-                    <div className="p-6">
-                      <h4 className="font-bold text-xl text-[#0b3558] mb-3">
-                        <span className='hover:text-[#db747a] transition-colors'>{recipe.title}: Ein kulinarisches Meisterwerk</span>
-                      </h4>
-                      <div className="text-gray-600 text-sm mb-6">
-                        {recipe.steps.map((step, index) => (
-                          <div key={index}>
-                            <p className="font-bold mb-2">Schritt {index + 1}: {step.title}</p>
-                            <p className={`mb-4 ${index === 1 ? 'italic' : ''}`}>{step.description}</p>
-                          </div>
-                        ))}
+                <div className="w-full mx-auto mb-8">
+                  <h4 className="font-bold text-xl text-[#0b3558] mb-3">
+                    <span className='hover:text-[#db747a] transition-colors'>{recipe.title}: Ein kulinarisches Meisterwerk</span>
+                  </h4>
+                  <div className="text-lg text-black leading-relaxed font-normal mb-6">
+                    {recipe.steps.map((step, index) => (
+                      <div key={index}>
+                        <p className="font-bold mb-2">Schritt {index + 1}: {step.title}</p>
+                        <p className={`text-lg text-black leading-relaxed font-normal mb-4 ${index === 1 ? 'italic' : ''}`}>{step.description}</p>
                       </div>
-                      <img
-                        src={recipe.images.image2}
-                        alt={recipe.title}
-                        className="w-full h-auto rounded-lg mb-6"
-                      />
-                    </div>
+                    ))}
                   </div>
+                  <img
+                    src={recipe.images.image2}
+                    alt={recipe.title}
+                    className="w-full h-auto rounded-lg mb-6"
+                  />
                 </div>
                   {/* Empfohlene Beiträge - Grid with 3 images */}
                   <div className="w-full mx-auto mb-8">
-                  <div className="bg-gray-50 rounded-xl shadow-sm p-6">
-                    <div className="flex items-center gap-4 mb-6">
-                      <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
-                        Empfohlene {recipe.category}
-                      </span>
-                    </div>
-                    <div className="grid grid-cols-3 gap-4">
-                      {recommendedRecipes.map((recommendedRecipe, index) => (
-                        <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
-                          <div className="relative group">
-                            <div className="w-full aspect-square rounded-lg overflow-hidden">
-                              <img
-                                src={recommendedRecipe.image}
-                                alt={recommendedRecipe.title}
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                              />
-                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <span className="text-white text-sm font-medium text-center px-4">
-                                  Empfohlene {recipe.category}
-                                </span>
-                              </div>
-                            </div>
-                            <div className="mt-4">
-                              <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
-                                {recommendedRecipe.title}
-                              </h4>
-                              <p className="text-gray-600 text-sm line-clamp-2">
-                                {recommendedRecipe.descriptionOnImage}
-                              </p>
+                  <div className="flex items-center gap-4 mb-6">
+                    <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
+                      Empfohlene {recipe.category}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-3 gap-4">
+                    {recommendedRecipes.map((recommendedRecipe, index) => (
+                      <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
+                        <div className="relative group">
+                          <div className="w-full aspect-square rounded-lg overflow-hidden">
+                            <img
+                              src={recommendedRecipe.image}
+                              alt={recommendedRecipe.title}
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                              <span className="text-white text-sm font-medium text-center px-4">
+                                Empfohlene {recipe.category}
+                              </span>
                             </div>
                           </div>
-                        </a>
-                      ))}
-                    </div>
+                          <div className="mt-4">
+                            <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
+                              {recommendedRecipe.title}
+                            </h4>
+                            <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
+                              {recommendedRecipe.descriptionOnImage}
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    ))}
                   </div>
                 </div>
 
@@ -234,7 +292,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                                 <span className="text-[#0b3558] font-bold text-xl leading-none mt-1">•</span>
                                 <div>
                                   <span className="font-semibold text-gray-800">{reason.title}</span>
-                                  <p className="text-gray-600 mt-1 leading-relaxed">{reason.description}</p>
+                                  <p className="text-lg text-black leading-relaxed font-normal mt-1">{reason.description}</p>
                                 </div>
                               </li>
                             ))}
@@ -326,13 +384,15 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           <div className="flex items-center mb-4">
                             <div className="flex text-yellow-400">
                               {[...Array(5)].map((_, i) => (
-                                <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                                <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill={i < Math.floor(recipe.rating || 0) ? "currentColor" : "rgba(209, 213, 219, 0.5)"}>
                                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                                 </svg>
                               ))}
                             </div>
-                            <span className="ml-2 text-sm font-normal text-black">{recipe.rating} von {recipe.rating || 0} Bewertungen</span>
-                          </div>
+                            <span className="ml-2 text-sm font-normal text-black">{recipe.rating || 0}</span>
+                            <span className="ml-1 text-gray-500 text-xs">aus 93 Bewertungen</span>
+                          </div>       
+                          
                           <p className="text-xl text-black mb-6 pr-8 md:pr-5 leading-relaxed font-normal">{recipe.descriptionOnImage}</p>
                         </div>
                       </div>
@@ -345,6 +405,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       <RecipeIngredients
                         initialServings={recipe.servings}
                         ingredients={recipe.ingredients}
+                        prepTime={recipe.prepTime ? parseInt(String(recipe.prepTime)) : undefined}
+                        cookTime={30}
                       />
                     
                       {/* Instructions */}
@@ -366,41 +428,39 @@ export default async function RecipePage({ params }: RecipePageProps) {
                 </section>
 
                 {/* Empfohlene Beiträge - Grid with 9 images */}
-                <div className="w-full mx-auto mb-4">
-                  <div className="bg-gray-50 rounded-xl shadow-sm p-6">
-                    <div className="flex items-center gap-4 mb-6">
-                      <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
-                        Empfohlene {recipe.category}
-                      </span>
-                    </div>
-                    <div className="grid grid-cols-3 gap-4">
-                      {recommendedRecipes2.map((recommendedRecipe, index) => (
-                        <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
-                          <div className="relative group">
-                            <div className="w-full aspect-square rounded-lg overflow-hidden">
-                              <img
-                                src={recommendedRecipe.image}
-                                alt={recommendedRecipe.title}
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                              />
-                              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                                <span className="text-white text-sm font-medium text-center px-4">
-                                  Empfohlene Hauptgerichte
-                                </span>
-                              </div>
-                            </div>
-                            <div className="mt-4">
-                              <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
-                                {recommendedRecipe.title}
-                              </h4>
-                              <p className="text-gray-600 text-sm line-clamp-2">
-                                {recommendedRecipe.descriptionOnImage}
-                              </p>
+                <div className="w-full mx-auto mb-8">
+                  <div className="flex items-center gap-4 mb-6">
+                    <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
+                      Empfohlene {recipe.category}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-3 gap-4">
+                    {recommendedRecipes2.map((recommendedRecipe, index) => (
+                      <a href={`/${recommendedRecipe.slug}`} className="block" key={index}>
+                        <div className="relative group">
+                          <div className="w-full aspect-square rounded-lg overflow-hidden">
+                            <img
+                              src={recommendedRecipe.image}
+                              alt={recommendedRecipe.title}
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                              <span className="text-white text-sm font-medium text-center px-4">
+                                Empfohlene {recipe.category}
+                              </span>
                             </div>
                           </div>
-                        </a>
-                      ))}
-                    </div>
+                          <div className="mt-4">
+                            <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#db747a] transition-colors">
+                              {recommendedRecipe.title}
+                            </h4>
+                            <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
+                              {recommendedRecipe.descriptionOnImage}
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    ))}
                   </div>
                 </div>
               </div>
