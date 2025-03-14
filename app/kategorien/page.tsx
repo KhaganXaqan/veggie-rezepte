@@ -1,10 +1,104 @@
-'use client'
-
+import React from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { SiteHeader } from "@/components/site-header"
+import { Metadata } from "next"
+import Script from 'next/script'
 
-export default function Categories() {
+export async function generateMetadata(): Promise<Metadata> {
+  // Determine if we're in development or production
+  const isDevelopment = process.env.NODE_ENV === 'development';
+  
+  // Set the base URL based on environment
+  const baseUrl = isDevelopment 
+    ? 'http://localhost:3000'
+    : 'https://veggie-rezepte.de';
+  
+  // Ensure canonical URL is properly set
+  const canonicalUrl = `${baseUrl}/kategorien`;
+
+  return {
+    title: "Rezept Kategorien | Vegetarische & Vegane Gerichte | Veggie Rezepte",
+    description: "Entdecke vegetarische Rezeptkategorien - von Hauptgerichten über Salate bis zu Desserts. Einfach zuzubereiten und garantiert lecker!",
+    openGraph: {
+      title: "Rezept Kategorien | Vegetarische & Vegane Gerichte | Veggie Rezepte",
+      description: "Entdecke vegetarische Rezeptkategorien - von Hauptgerichten über Salate bis zu Desserts. Einfach zuzubereiten und garantiert lecker!",
+      url: canonicalUrl,
+      siteName: "Veggie Rezepte",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Rezept Kategorien | Vegetarische & Vegane Gerichte | Veggie Rezepte",
+      description: "Entdecke vegetarische Rezeptkategorien - von Hauptgerichten über Salate bis zu Desserts. Einfach zuzubereiten und garantiert lecker!",
+    },
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  }
+}
+
+// Generate structured data for categories page
+export async function generateStructuredData() {
+  // Determine if we're in development or production
+  const isDevelopment = process.env.NODE_ENV === 'development';
+  
+  // Set the base URL based on environment
+  const baseUrl = isDevelopment 
+    ? 'http://localhost:3000'
+    : 'https://veggie-rezepte.de';
+  
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Rezept Kategorien',
+    description: 'Entdecke unsere vielfältigen Rezeptkategorien - von herzhaften Hauptgerichten über leichte Salate bis zu süßen Desserts.',
+    url: `${baseUrl}/kategorien`,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          url: `${baseUrl}/kategorien/hauptgerichte`,
+          name: 'Hauptgerichte'
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          url: `${baseUrl}/kategorien/auflaeufe`,
+          name: 'Aufläufe'
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          url: `${baseUrl}/kategorien/suppen`,
+          name: 'Suppen'
+        },
+        {
+          '@type': 'ListItem',
+          position: 4,
+          url: `${baseUrl}/kategorien/salate`,
+          name: 'Salate'
+        },
+        {
+          '@type': 'ListItem',
+          position: 5,
+          url: `${baseUrl}/kategorien/fruehstueck`,
+          name: 'Frühstück'
+        },
+        {
+          '@type': 'ListItem',
+          position: 6,
+          url: `${baseUrl}/kategorien/desserts`,
+          name: 'Desserts'
+        }
+      ]
+    }
+  };
+}
+
+export default async function Categories() {
   const categories = [
     {
       name: "Hauptgerichte",
@@ -44,44 +138,58 @@ export default function Categories() {
     }
   ]
   
+  // Generate structured data for this page
+  const structuredData = await generateStructuredData();
+  
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-      <SiteHeader />
-      <main className="flex-1 bg-white">
-        <div className="container py-8">
-          <div className="max-w-4xl mx-auto mb-8">
-            <h1 className="text-4xl font-['Montserrat'] font-bold uppercase mb-8 !text-black text-center">Kategorien</h1>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-              {categories.map(category => (
-                <div key={category.slug} className="flex flex-col">
-                  <Link 
-                    href={`/kategorien/${category.slug}`}
-                    className="group"
-                  >
-                    <div className="relative aspect-square overflow-hidden rounded-lg">
-                      <Image
-                        src={category.image}
-                        alt={`${category.name} Rezepte`}
-                        fill
-                        className="object-cover transition-transform group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                        <h2 className="text-2xl font-['Montserrat'] font-bold uppercase text-white">
-                          {category.name}
-                        </h2>
+    <>
+      {/* Add structured data script */}
+      {structuredData && (
+        <Script
+          id="categories-structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      )}
+      
+      <div className="min-h-screen flex flex-col bg-white">
+        <SiteHeader />
+        <main className="flex-1 bg-white">
+          <div className="container py-8">
+            <div className="max-w-4xl mx-auto mb-8">
+              <h1 className="text-4xl font-['Montserrat'] font-bold uppercase mb-8 !text-black text-center">Kategorien</h1>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                {categories.map(category => (
+                  <div key={category.slug} className="flex flex-col">
+                    <Link 
+                      href={`/kategorien/${category.slug}`}
+                      className="group"
+                    >
+                      <div className="relative aspect-square overflow-hidden rounded-lg">
+                        <Image
+                          src={category.image}
+                          alt={`${category.name} Rezepte`}
+                          fill
+                          className="object-cover transition-transform group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                          <h2 className="text-2xl font-['Montserrat'] font-bold uppercase text-white">
+                            {category.name}
+                          </h2>
+                        </div>
                       </div>
-                    </div>
-                  </Link>
-                  <p className="mt-3 text-sm text-black/80 font-['Montserrat']">
-                    {category.description}
-                  </p>
-                </div>
-              ))}
+                    </Link>
+                    <p className="mt-3 text-sm text-black/80 font-['Montserrat']">
+                      {category.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </main>
-    </div>
+        </main>
+      </div>
+    </>
   )
 }
