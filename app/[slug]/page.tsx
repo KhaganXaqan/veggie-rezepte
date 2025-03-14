@@ -342,8 +342,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       <div className="space-y-4">
                         <ul className="list-disc pl-5">
                           {recipe.ingredientsNeeded.map((ingredient, index) => (
-                            <li key={index} className="text-gray-700 text-lg leading-relaxed mb-4"> {/* Added mb-4 for spacing */}
-                              <strong className="font-semibold text-black">{ingredient.title}:</strong> {ingredient.description}
+                            <li key={index} className="text-gray-700 text-lg text-black leading-relaxed mb-4"> {/* Added mb-4 for spacing */}
+                              <strong className="font-semibold ">{ingredient.title}:</strong> {ingredient.description}
                             </li>
                           ))}
                         </ul>
