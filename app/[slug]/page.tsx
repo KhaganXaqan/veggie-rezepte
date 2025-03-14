@@ -39,12 +39,12 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 
   // Determine if we're in development or production
   const isDevelopment = process.env.NODE_ENV === 'development';
-  
+
   // Set the base URL based on environment
-  const baseUrl = isDevelopment 
+  const baseUrl = isDevelopment
     ? 'http://localhost:3000'
     : 'https://www.veggie-rezepte.de';
-  
+
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${params.slug}`;
 
@@ -82,18 +82,18 @@ export async function generateStructuredData({ params }: RecipePageProps) {
   }
 
   if (!recipe) return null;
-  
+
   // Determine if we're in development or production
   const isDevelopment = process.env.NODE_ENV === 'development';
-  
+
   // Set the base URL based on environment
-  const baseUrl = isDevelopment 
+  const baseUrl = isDevelopment
     ? 'http://localhost:3000'
     : 'https://veggie-rezepte.de';
-  
+
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${params.slug}`;
-  
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
@@ -117,7 +117,7 @@ export async function generateStructuredData({ params }: RecipePageProps) {
       carbohydrateContent: `${recipe.nutrition.carbs}g`,
       fatContent: `${recipe.nutrition.fat}g`
     } : undefined,
-    recipeIngredient: recipe.ingredients.map(ing => 
+    recipeIngredient: recipe.ingredients.map(ing =>
       `${ing.amount || ''} ${ing.unit || ''} ${ing.name}`
     ),
     recipeInstructions: recipe.instructions.map((step, index) => ({
@@ -134,7 +134,7 @@ export function generateStaticParams() {
   const data1Slugs = recipesData1.map((recipe) => ({
     slug: recipe.slug,
   }));
-  
+
   const dataSlugs = recipesData.map((recipe) => ({
     slug: recipe.slug,
   }));
@@ -171,7 +171,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   // Get random recipes from the same category for Empfohlene Beiträge
   const recipesFromSameCategory = recipesData.filter(r =>
     r.slug !== slug &&
-    r.category === recipe.category    
+    r.category === recipe.category
   )
 
   // Get 3 random recipes from the filtered list
@@ -193,7 +193,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       )}
-      
+
       <div className="min-h-screen flex flex-col">
         <SiteHeader />
         <div className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 py-8">
@@ -214,22 +214,22 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                 {/* Images before Similar Recipes */}
                 <div className="flex flex-col items-center gap-8 mt-2 mb-8">
-                  
+
                   {/* Title - Large and Bold */}
                   <h1 className="font-black text-5xl uppercase text-black w-full tracking-tight leading-tight">
                     {recipe.title}
                   </h1>
-                  
-                  
+
+
                   {/* Author Information and Ratings Section - Two Column Layout */}
                   <div className="w-full grid grid-cols-2 gap-4">
                     {/* Left Column - Author Info and Action Buttons */}
                     <div className="flex flex-col">
                       <div className="flex items-start gap-4">
                         <div className="w-16 h-16 overflow-hidden">
-                          <img 
-                            src="/images/logo/logo.png" 
-                            alt="Autor" 
+                          <img
+                            src="/images/logo/logo.png"
+                            alt="Autor"
                             className="w-full h-full object-contain"
                           />
                         </div>
@@ -246,10 +246,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           </div>
                         </div>
                       </div>
-                      
+
                       {/* Action Buttons */}
                       <div className="flex items-center gap-4 mt-4">
-                        <a 
+                        <a
                           href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://veggie-rezepte.de/${recipe.slug}`)}&media=${encodeURIComponent(`https://veggie-rezepte.de${recipe.image}`)}&description=${encodeURIComponent(`✨ ${recipe.title.toUpperCase()} ✨\n\nEin leckeres veganes Rezept von Veggie Rezepte! Probier es jetzt aus! #veggierezepte #vegetarisch #vegan #rezept`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -257,15 +257,15 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         >
                           REZEPT PINNEN
                         </a>
-                        <a 
-                          href="#recipe-card" 
+                        <a
+                          href="#recipe-card"
                           className="border border-black bg-[#f9d24f] py-2.5 px-6 font-bold text-black hover:bg-[#f0c840] transition-colors duration-200 flex items-center justify-center rounded-md text-sm shadow-[2px_2px_0px_rgba(0,0,0,0.8)]"
                         >
                           ZUM REZEPT ↓
                         </a>
                       </div>
                     </div>
-                    
+
                     {/* Right Column - Rating Stars and Recipe Metadata */}
                     <div className="flex flex-col items-end">
                       {/* Rating Stars */}
@@ -280,7 +280,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         <span className="ml-2 text-sm font-normal text-black">{recipe.rating || 0}</span>
                         <span className="ml-1 text-gray-500 text-xs">aus 93 Bewertungen</span>
                       </div>
-                      
+
                       {/* Recipe Metadata */}
                       <div className="flex items-center gap-6">
                         <div className="flex flex-col items-center">
@@ -327,36 +327,66 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Recipe Images */}
                   <div className="flex justify-center gap-4 w-full mb-10">
                     <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
-                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden"/>
+                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
                   </div>
 
                   {/* Ingredients Needed */}
                   {recipe.ingredientsNeeded && (
                     <div className="w-full mb-12">
-                      <h2 className="font-black text-4xl uppercase text-black w-full tracking-tight leading-tight mb-6">
-                        Ingredients Needed
+                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
+                        INGREDIENTS NEEDED
                       </h2>
-                      <p className="text-lg text-black leading-relaxed font-normal mb-8">
+                      <p className="text-lg text-gray-700 leading-relaxed font-normal mb-6">
                         Here's everything you need to make this easy {recipe.title}:
                       </p>
-                      <div className="space-y-8">
-                        {recipe.ingredientsNeeded.map((ingredient, index) => (
-                          <div key={index}>
-                            <h3 className="font-bold text-xl text-black mb-2">{ingredient.title}:</h3>
-                            <p className="text-lg text-black leading-relaxed">{ingredient.description}</p>
-                          </div>
-                        ))}
+                      <div className="space-y-4">
+                        <ul className="list-disc pl-5">
+                          {recipe.ingredientsNeeded.map((ingredient, index) => (
+                            <li key={index} className="text-gray-700 text-lg leading-relaxed mb-4"> {/* Added mb-4 for spacing */}
+                              <strong className="font-semibold text-black">{ingredient.title}:</strong> {ingredient.description}
+                            </li>
+                          ))}
+                        </ul>
                       </div>
                     </div>
                   )}
-
-                   {/* Ingredients Image */}
-                   <div className="flex justify-center gap-4 w-full mb-4">
-                    <div className="w-[100%] h-[543px] rounded-2xl overflow-hidden">
+                  {/* Ingredients Image */}
+                  <div className="flex justify-center gap-4 w-full mb-4">
+                    <div className="w-[98%] h-[543px] rounded-2xl overflow-hidden">
                       <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-full h-full object-cover object-center" />
-                    </div>                  
+                    </div>
                   </div>
-                  
+
+                  {/* Empfohlener Beitrag */}
+                  <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
+                    <a href={`/${randomRecipe.slug}`} className="block p-6 bg-[#f9d24f]/30">
+                      <div className="flex items-start gap-6">
+                        <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
+                          <img
+                            src={randomRecipe.image}
+                            alt={randomRecipe.title}
+                            className="w-full h-full object-cover"
+                          />
+
+                        </div>
+                        <div className="flex-grow">
+                          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
+                            Empfohlener Beitrag
+                          </span>
+                          <h4 className="font-bold text-xl text-[#0b3558] mb-3">
+                            <span className='hover:text-[#f9d24f] transition-colors"'>{randomRecipe.title}</span>
+                          </h4>
+                          <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
+                            {randomRecipe.descriptionOnImage}
+                          </p>
+                          <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#f9d24f] hover:text-black transition-colors">
+                            Zum Beitrag
+                          </button>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
                   {/* Ingredients Section */}
                   <div className="w-full ">
                     {/* {recipe.ingredientGroups?.map((group, index) => (
@@ -391,7 +421,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       </div>
                     )}
                   </div>
-                  
+
                   {/* Recipe Images */}
                   <div className="flex justify-center gap-4 w-full mb-4">
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
@@ -400,36 +430,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
                       <img src={recipe.images.image1} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
-                  </div>
-
-                  {/* Empfohlener Beitrag */}
-                  <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
-                    <a href={`/${randomRecipe.slug}`} className="block p-6 bg-[#f9d24f]/30">
-                      <div className="flex items-start gap-6">
-                        <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
-                          <img
-                            src={randomRecipe.image}
-                            alt={randomRecipe.title}
-                            className="w-full h-full object-cover"
-                          />
-                        
-                        </div>
-                        <div className="flex-grow">
-                          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
-                            Empfohlener Beitrag
-                          </span>
-                          <h4 className="font-bold text-xl text-[#0b3558] mb-3">
-                            <span className='hover:text-[#f9d24f] transition-colors"'>{randomRecipe.title}</span>
-                          </h4>
-                          <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
-                            {randomRecipe.descriptionOnImage}
-                          </p>
-                          <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#f9d24f] hover:text-black transition-colors">
-                            Zum Beitrag
-                          </button>
-                        </div>
-                      </div>
-                    </a>
                   </div>
 
                   {/* Schritt für Schritt - Recipe */}
@@ -451,8 +451,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       className="w-full h-[960px] rounded-lg"
                     />
                   </div>
-                    {/* Empfohlene Beiträge - Grid with 3 images */}
-                    <div className="w-full mx-auto mb-8">
+                  {/* Empfohlene Beiträge - Grid with 3 images */}
+                  <div className="w-full mx-auto mb-8">
                     <div className="flex items-center gap-4 mb-6">
                       <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
                         Empfohlene {recipe.category}
@@ -546,7 +546,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Recipe Images */}
                   <div className="flex justify-center gap-4 w-full mb-10">
                     <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
-                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden"/>
+                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
                   </div>
 
                   {/* Recipes details card*/}
@@ -555,31 +555,31 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       {/* Image positioned to extend outside the box */}
                       <div className="absolute -top-5 right-6 z-0">
                         <div style={{ width: '268px', height: '268px', minWidth: '268px', minHeight: '268px' }} className="rounded-lg overflow-hidden border-2 border-gray-200 flex-shrink-0 shadow-md">
-                          <img 
-                            src={recipe.image} 
-                            alt={recipe.title} 
+                          <img
+                            src={recipe.image}
+                            alt={recipe.title}
                             className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
-                      
+
                       {/* Recipe Card Header with Image */}
                       <div className="flex flex-col md:flex-row border-b border-gray-200 relative">
                         {/* Content with title on top */}
                         <div className="w-full md:w-2/3 z-10">
                           {/* Full-width yellow title banner with border */}
                           <div className="w-full mt-4 pt-4 pb-4 px-5 mb-4 -ml-5 rounded-lg" style={{ backgroundColor: brandColors.primary.yellow }}>
-                            <h2 className="text-3xl md:text-4xl font-black uppercase text-white" 
-                                style={{
-                                  textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -3px 3px 0 #000, 2px 2px 0 #000',
-                                  fontFamily: 'Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif',
-                                  lineHeight: '1.1',
-                                  letterSpacing: '0.12em'
-                                }}>
+                            <h2 className="text-3xl md:text-4xl font-black uppercase text-white"
+                              style={{
+                                textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -3px 3px 0 #000, 2px 2px 0 #000',
+                                fontFamily: 'Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif',
+                                lineHeight: '1.1',
+                                letterSpacing: '0.12em'
+                              }}>
                               {recipe.title}
                             </h2>
                           </div>
-                          
+
                           <div className="px-5 pb-6">
                             <div className="flex items-center mb-4">
                               <div className="flex text-yellow-400">
@@ -591,12 +591,12 @@ export default async function RecipePage({ params }: RecipePageProps) {
                               </div>
                               <span className="ml-2 text-sm font-normal text-black">{recipe.rating || 0}</span>
                               <span className="ml-1 text-gray-500 text-xs">aus 93 Bewertungen</span>
-                            </div>       
-                            
+                            </div>
+
                             <p className="text-xl text-black mb-6 pr-8 md:pr-5 leading-relaxed font-normal">{recipe.descriptionOnImage}</p>
                           </div>
                         </div>
-                        
+
                         {/* Spacer div to maintain layout height */}
                         <div className="hidden md:block md:w-1/3 h-[300px]"></div>
                       </div>
@@ -608,7 +608,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           prepTime={recipe.prepTime ? parseInt(String(recipe.prepTime)) : undefined}
                           cookTime={30}
                         />
-                      
+
                         {/* Instructions */}
                         <RecipeInstructions
                           instructions={recipe.instructions}
@@ -688,7 +688,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       ))}
                     </div>
                   </div>
-                  
+
                   <div className="mb-8">
                     <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
                       <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-3">Newsletter</h3>
@@ -705,7 +705,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div>
                     <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Folge uns</h3>
                     <div className="flex gap-4">
