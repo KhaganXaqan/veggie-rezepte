@@ -69,7 +69,7 @@ export function SiteHeader() {
     )}>
       <div className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 flex h-14 sm:h-16 items-center justify-between">
         <div className="flex items-center">
-          <MobileNav />
+        <MobileNav />
           <Link href="/" className="flex items-center ml-2 sm:ml-0" aria-label="Veggie Rezepte - Startseite">
             <div className="flex items-center">
               <span className="text-lg sm:text-2xl font-bold text-brand">Veggie</span>
@@ -236,10 +236,10 @@ export function SiteHeader() {
                     </Link>
                     <Link href="/contact" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Kontakt
-                    </Link>
+            </Link>
                     <Link href="/faq" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       FAQ
-                    </Link>
+            </Link>
                   </div>
                 </div>
               )}
@@ -250,13 +250,13 @@ export function SiteHeader() {
         <div className="flex items-center">
           <form onSubmit={handleSearch} className="relative w-[140px] sm:w-[200px] lg:w-[300px]">
             <Search className="absolute left-2 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <Input
-              type="search"
+              <Input
+                type="search"
               placeholder="Suchen..."
               className="w-full h-9 pl-8 text-sm"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
           </form>
         </div>
       </div>
