@@ -316,10 +316,17 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       />
                     </div>
                   </div>
+
+                  {/* Introduction Paragraph */}
+                  <div className="w-full ">
+                    <div className="text-lg text-black leading-relaxed font-normal">
+                      {recipe.introductionParagraph}
+                    </div>
+                  </div>
                   
                   {/* Ingredients Section */}
                   <div className="w-full ">
-                    {recipe.ingredientGroups?.map((group, index) => (
+                    {/* {recipe.ingredientGroups?.map((group, index) => (
                       <div key={index} className="mb-6">
                         <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
                           {group.title}
@@ -335,7 +342,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           ))}
                         </ul>
                       </div>
-                    ))}
+                    ))}*/}
 
                     {/* Tipps und Variationen */}
                     {recipe.tips && (
