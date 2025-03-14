@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   // Set the base URL based on environment
   const baseUrl = isDevelopment 
     ? 'http://localhost:3000'
-    : 'https://veggie-rezepte.de';
+    : 'https://www.veggie-rezepte.de';
   
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/`;
