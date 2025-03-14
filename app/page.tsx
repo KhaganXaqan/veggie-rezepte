@@ -87,18 +87,18 @@ export default async function Home() {
       )}
       
       <div className="min-h-screen flex flex-col bg-white">
-        <SiteHeader />
+      <SiteHeader />
         <main className="flex-1 bg-white">
-          {/* Hero Section */}
-          <section className="relative h-[600px] flex items-center justify-center">
-            <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-black/40 z-10" />
-              <Image
+        {/* Hero Section */}
+        <section className="relative h-[600px] flex items-center justify-center">
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-black/40 z-10" />
+            <Image
                 src="https://images.unsplash.com/photo-1540914124281-342587941389?q=80&w=1920&auto=format&fit=crop&fm=webp"
-                alt="Hero Background"
-                fill
-                className="object-cover"
-                priority
+              alt="Hero Background"
+              fill
+              className="object-cover"
+              priority
                 style={{
                   position: 'absolute',
                   height: '100%',
@@ -109,26 +109,26 @@ export default async function Home() {
                   bottom: 0,
                   color: 'transparent'
                 }}
-              />
-            </div>
-            <div className="relative z-20 text-center text-white px-4">
+            />
+          </div>
+          <div className="relative z-20 text-center text-white px-4">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-['Montserrat'] uppercase">
                   Vegetarische Rezepte
-                </h1>
+            </h1>
               </div>
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto font-['Montserrat'] uppercase">
-                Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche
-              </p>
+              Die besten traditionellen und modernen vegetarischen Gerichte aus der deutschen Küche
+            </p>
               <Link href="/rezepte/alle">
                 <Button size="lg" className="bg-white text-[rgb(58,125,84)] hover:bg-white/90">
-                  Rezepte entdecken
-                </Button>
-              </Link>
-            </div>
-          </section>
+                Rezepte entdecken
+              </Button>
+            </Link>
+          </div>
+        </section>
 
-          {/* Categories Section */}
+        {/* Categories Section */}
           <section className="cp-list layout-beta max-w-[1168px] mx-auto mt-[50px] mb-[50px] lg:mb-[50px] relative">
             <div className="cp-list__inner flex sm:grid sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-4 overflow-x-auto pb-4 sm:pb-0 scrollbar-none px-4">
               <Link href="/rezepte/alle?tag=Mediterran" className="cat flex-shrink-0 sm:flex-auto flex flex-col items-center w-[120px] sm:w-auto">
@@ -588,14 +588,14 @@ export default async function Home() {
                     </div>
                   </Link>
                 </article>
-              ))}
-            </div>
+            ))}
+          </div>
             <footer className="mt-8 text-left">
               <Link href="/kategorien/desserts" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[14px] sm:text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-4 sm:px-6 py-3 sm:py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
                 Mehr Desserts Rezepte
               </Link>
             </footer>
-          </section>
+        </section>
 
           {/* Casseroles Section */}
           <section className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative">
@@ -629,24 +629,24 @@ export default async function Home() {
                     </div>
                   </Link>
                 </article>
-              ))}
-            </div>
+            ))}
+          </div>
             <footer className="mt-8 text-left">
               <Link href="/kategorien/auflaeufe" className="block-post-listing__more inline-block font-['Montserrat'] font-black tracking-[2.5px] uppercase text-[14px] sm:text-[16px] border-2 border-[#292929] text-[#292929] bg-white px-4 sm:px-6 py-3 sm:py-4 no-underline hover:bg-[#f5f5f5] hover:text-[#292929] transition-colors rounded-md">
                 Mehr Aufläufe Rezepte
               </Link>
             </footer>
-          </section>
+        </section>
 
-        </main>
+      </main>
 
-        {/* Footer */}
+      {/* Footer */}
         <footer className="border-t-2 border-black py-8 bg-muted">
-          <div className="container text-center text-sm text-muted-foreground">
+        <div className="container text-center text-sm text-muted-foreground">
             <p className="font-['Montserrat'] font-bold">© 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
-          </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
+    </div>
     </>
   )
 }
