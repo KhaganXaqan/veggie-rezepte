@@ -317,11 +317,44 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </div>
 
-                  {/* Introduction Paragraph */}
-                  <div className="w-full ">
+                  {/* Additional Paragraph */}
+                  <div className="w-full mb-12">
                     <div className="text-lg text-black leading-relaxed font-normal">
-                      {recipe.introductionParagraph}
+                      {recipe.additionalParagraph}
                     </div>
+                  </div>
+
+                  {/* Recipe Images */}
+                  <div className="flex justify-center gap-4 w-full mb-10">
+                    <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
+                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden"/>
+                  </div>
+
+                  {/* Ingredients Needed */}
+                  {recipe.ingredientsNeeded && (
+                    <div className="w-full mb-12">
+                      <h2 className="font-black text-4xl uppercase text-black w-full tracking-tight leading-tight mb-6">
+                        Ingredients Needed
+                      </h2>
+                      <p className="text-lg text-black leading-relaxed font-normal mb-8">
+                        Here's everything you need to make this easy {recipe.title}:
+                      </p>
+                      <div className="space-y-8">
+                        {recipe.ingredientsNeeded.map((ingredient, index) => (
+                          <div key={index}>
+                            <h3 className="font-bold text-xl text-black mb-2">{ingredient.title}:</h3>
+                            <p className="text-lg text-black leading-relaxed">{ingredient.description}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                   {/* Ingredients Image */}
+                   <div className="flex justify-center gap-4 w-full mb-4">
+                    <div className="w-[100%] h-[543px] rounded-2xl overflow-hidden">
+                      <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-full h-full object-cover object-center" />
+                    </div>                  
                   </div>
                   
                   {/* Ingredients Section */}
@@ -435,7 +468,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
                                 alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
-                            
                             </div>
                             <div className="mt-4">
                               <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#f9d24f] transition-colors">

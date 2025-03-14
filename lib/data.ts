@@ -11,6 +11,11 @@ export type Recipe = {
   description: string
   descriptionOnImage: string
   introductionParagraph: string
+  additionalParagraph: string
+  ingredientsNeeded: {
+    title: string;
+    description: string;
+  }[];
   ingredients: { 
     amount?: number | string
     unit?: string
@@ -74,6 +79,10 @@ export const recipes: Recipe[] = [
     description: "Traditionelle deutsche Kartoffelklöße - perfekt als Beilage oder eigenständiges Gericht.",
     descriptionOnImage: "Traditionelle deutsche Kartoffelklöße - perfekt als Beilage oder eigenständiges Gericht.",
     introductionParagraph: "Mein liebstes Rezept für einen knusprigen ! Während der traditionelle elsässische  oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken, und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis. Perfekt für eine schnelle Mahlzeit oder als Party-Snack!",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "mehligkochende Kartoffeln" },
       { amount: 200, unit: "g", name: "Kartoffelstärke" },
@@ -169,6 +178,10 @@ export const recipes: Recipe[] = [
     description: "Eine klassische Lasagne mit Spinat und Käse.",
     descriptionOnImage: "Eine klassische Lasagne mit Spinat und Käse.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Spinat" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -275,6 +288,10 @@ export const recipes: Recipe[] = [
     "description": "Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis.",
     "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",    
     "introductionParagraph": "Backen von Flammkuchen ist in dieser Jahreszeit eine meiner liebsten Beschäftigungen in der Küche. Es ist so einfach und stressfrei, und dabei füllt der knusprige, goldbraune Teig das ganze Haus mit herrlichen Aromen. Und das Beste daran? Du kannst ihn nach Belieben mit deinen Lieblingszutaten belegen, und er schmeckt immer köstlich. Dieser vegetarische Flammkuchen ist mein absoluter Favorit – ein dünner, knuspriger Boden, bedeckt mit einer cremigen Mischung, süß karamellisierten Zwiebeln und einer großzügigen Portion Käse. Es ist ein einfaches, aber unglaublich leckeres Gericht, das jeder Mahlzeit eine besondere Note verleiht. Und das Beste: Es ist so einfach zuzubereiten und das Ergebnis ist so zufriedenstellend, dass du ihn immer wieder machen wirst!",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     "ingredientGroups": [
       {
         "title": "Der Grundteig",
@@ -409,6 +426,10 @@ export const recipes: Recipe[] = [
     description: "Mein traditionelles Rezept für schwäbische Käsespätzle! Diese herzhafte Spezialität ist der Inbegriff des deutschen Comfort Food. Die handgemachten Spätzle werden besonders luftig und der würzige Käse sorgt für den unwiderstehlichen Geschmack. In nur 45 Minuten zaubern Sie ein Gericht, das die ganze Familie lieben wird.\n\nDas Besondere an meinem Rezept ist die Kombination aus verschiedenen Käsesorten, die für den perfekten Schmelz und Geschmack sorgen. Die goldbraun gebratenen Zwiebeln geben dem Gericht eine zusätzliche geschmackliche Note und eine knusprige Textur.",
     descriptionOnImage: "Dampfende Käsespätzle mit knusprigen Röstzwiebeln",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredientGroups: [
       {
         title: "Der Spätzleteig",
@@ -515,6 +536,10 @@ export const recipes: Recipe[] = [
     description: "Knusprige, goldbraune Kartoffelpuffer, verfeinert mit einer milden Zwiebelnote – ein zeitloser Klassiker, der sowohl Groß als auch Klein begeistert. Schnell zuzubereiten und dabei unglaublich lecker!",
     descriptionOnImage: "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
     introductionParagraph: "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit cremigen Dips, sie sind immer eine Freude für den Gaumen.",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredientGroups: [
       {
         title: "Der Kartoffelpuffer-Teig",
@@ -623,6 +648,10 @@ export const recipes: Recipe[] = [
     description: "Traditionelle bayerische Semmelknödel aus altbackenen Brötchen.",
     descriptionOnImage: "Fluffige Semmelknödel serviert mit Sauce",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 8, name: "altbackene Brötchen" },
       { amount: 250, unit: "ml", name: "Milch" },
@@ -730,6 +759,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Pilzsuppe aus verschiedenen Pilzen.",
     descriptionOnImage: "Ein leckerer Pilzsuppe aus verschiedenen Pilzen.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Pilze" },
       { amount: 1, name: "Zwiebel" },
@@ -833,6 +866,10 @@ export const recipes: Recipe[] = [
     description: "Ein traditionelles deutsches Gebäck aus verschiedenen Gemüsen.",
     descriptionOnImage: "Ein traditionelles deutsches Gebäck aus verschiedenen Gemüsen.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
@@ -931,6 +968,10 @@ export const recipes: Recipe[] = [
     description: "Traditionelle österreichische Grießnockerl mit Apfelmus und Rosinen.",
     descriptionOnImage: "Fluffige Grießnockerl mit Apfelmus und Rosinen",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Grieß" },
       { amount: 2, name: "Eier" },
@@ -1025,6 +1066,10 @@ export const recipes: Recipe[] = [
     description: "Traditionelle österreichische Spinatknödel mit Semmelbröseln und Käse.",
     descriptionOnImage: "Fluffige Spinatknödel mit Semmelbröseln und Käse",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 500, unit: "g", name: "Spinat" },
       { amount: 200, unit: "g", name: "Semmelbrösel" },
@@ -1128,6 +1173,10 @@ export const recipes: Recipe[] = [
     description: "Eine leckere Gemüsesuppe mit verschiedenen saisonalen Gemüsen.",
     descriptionOnImage: "Eine leckere Gemüsesuppe mit verschiedenen saisonalen Gemüsen",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
@@ -1219,6 +1268,10 @@ export const recipes: Recipe[] = [
     description: "Ein klassisches Kartoffelgratin mit einer cremigen Bechamelsauce und einer goldbraunen Käsekruste.",
     descriptionOnImage: "Ein klassisches Kartoffelgratin mit einer cremigen Bechamelsauce und einer goldbraunen Käsekruste",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Kartoffeln" },
       { amount: 500, unit: "ml", name: "Milch" },
@@ -1330,6 +1383,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Buddha-Bowl aus Quinoa und verschiedenen Gemüsen.",
     descriptionOnImage: "Bunte Buddha Bowl mit Quinoa, frischem Gemüse und Avocado",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 100, unit: "g", name: "Quinoa" },
       { amount: 100, unit: "g", name: "Gemüse" },
@@ -1401,6 +1458,10 @@ export const recipes: Recipe[] = [
     description: "Eine französische Gemüseaufläuf aus verschiedenen Gemüsen.",
     descriptionOnImage: "Eine französische Gemüseaufläuf aus verschiedenen Gemüsen.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 1, name: "Zwiebel" },
@@ -1474,6 +1535,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Gemüsecurry aus verschiedenen Gemüsen.",
     descriptionOnImage: "Aromatisches Gemüse-Curry in cremiger Kokosnusssauce",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 100, unit: "g", name: "Currypaste" },
@@ -1544,6 +1609,10 @@ export const recipes: Recipe[] = [
     description: "Eine französische Quiche aus Brokkoli und Käse.",
     descriptionOnImage: "Eine französische Quiche aus Brokkoli und Käse.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Brokkoli" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -1616,6 +1685,10 @@ export const recipes: Recipe[] = [
     description: "Mein bewährtes Rezept für gefüllte Paprika! Diese farbenfrohe Gemüsespezialität ist nicht nur ein Augenschmaus, sondern auch ein wahres Geschmackserlebnis. Die saftigen Paprikaschoten werden mit einer aromatischen Gemüsemischung gefüllt und im Ofen gebacken, bis sie zart und geschmackvoll sind.\n\nDas Besondere an meinem Rezept ist die ausgewogene Würzung der Füllung und die schonende Garzeit, die dafür sorgt, dass die Paprika ihre Form behalten und dennoch perfekt gegart sind. Die Kombination aus knackigem Gemüse und würziger Füllung macht dieses Gericht zu einem beliebten Familienessen.",
     descriptionOnImage: "Bunte Paprikaschoten gefüllt mit würziger Gemüsemischung",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [],
     ingredientGroups: [
       {
@@ -1717,6 +1790,10 @@ export const recipes: Recipe[] = [
     description: "Mein wärmendes Rezept für eine cremige Kürbissuppe! Diese herbstliche Spezialität ist nicht nur ein Fest für die Augen, sondern auch ein wahrer Gaumenschmaus. Der Hokkaido-Kürbis verleiht der Suppe ihre charakteristische orangene Farbe und den unverwechselbaren, leicht nussigen Geschmack.\n\nDas Besondere an meinem Rezept ist die perfekte Balance zwischen der natürlichen Süße des Kürbisses und den würzigen Gewürzen. Die schonende Zubereitung erhält den vollen Geschmack des Kürbisses, während die Zugabe von Kokosmilch für eine besonders cremige Konsistenz sorgt.",
     descriptionOnImage: "Samtig cremige Kürbissuppe mit gerösteten Kürbiskernen",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [],
     ingredientGroups: [
       {
@@ -1827,6 +1904,10 @@ export const recipes: Recipe[] = [
     description: "Mein sommerlicher mediterraner Nudelsalat! Diese farbenfrohe Komposition bringt ein Stück Mittelmeer auf den Teller. Die al dente gekochten Nudeln werden mit knackigem Gemüse, würzigem Käse und aromatischen Kräutern zu einem erfrischenden Salat kombiniert.\n\nDas Besondere an meinem Rezept ist die ausgewogene Mischung mediterraner Zutaten. Sonnengereifte Tomaten, knackige Paprika und würzige Oliven werden durch hochwertiges Olivenöl und frische Kräuter perfekt ergänzt. Ein Hauch von Zitrone verleiht dem Salat seine erfrischende Note.",
     descriptionOnImage: "Bunter mediterraner Nudelsalat mit frischem Gemüse und Oliven",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [],
     ingredientGroups: [
       {
@@ -1932,6 +2013,10 @@ export const recipes: Recipe[] = [
     description: "Mein authentisches Rezept für einen griechischen Bauernsalat - auch bekannt als Choriatiki! Dieser erfrischende Salat ist die Essenz der mediterranen Küche und besteht ausschließlich aus frischen, unverarbeiteten Zutaten. Die Kombination aus sonnengereiften Tomaten, knackiger Gurke, mildem Feta und würzigen Oliven macht ihn zu einem perfekten Sommergenuss.\n\nDas Besondere an meinem Rezept ist die traditionelle Zubereitung mit großen, rustikalen Gemüsestücken und einem hochwertigen Olivenöl. Der Verzicht auf Blattsalate lässt die einzelnen Zutaten besonders gut zur Geltung kommen. Ein Hauch Oregano verleiht dem Salat seine typisch griechische Note.",
     descriptionOnImage: "Klassischer griechischer Bauernsalat mit Feta und Oliven",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [],
     ingredientGroups: [
       {
@@ -2028,6 +2113,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Couscous-Salat aus verschiedenen Gemüsen.",
     descriptionOnImage: "Orientalischer Couscous-Salat mit buntem Gemüse und Kräutern",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Couscous" },
       { amount: 1, unit: "kg", name: "Gemüse" },
@@ -2101,6 +2190,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Auflauf aus Blumenkohl und Käse.",
     descriptionOnImage: "Ein leckerer Auflauf aus Blumenkohl und Käse.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Blumenkohl" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -2173,6 +2266,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Auflauf aus Gemüse und Polenta.",
     descriptionOnImage: "Goldbrauner Polenta-Auflauf mit mediterranem Gemüse",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 200, unit: "g", name: "Polenta" },
@@ -2245,6 +2342,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Auflauf aus Zucchini und Reis.",
     descriptionOnImage: "Cremiger Zucchini-Reis-Auflauf mit goldener Käsekruste",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 1, unit: "kg", name: "Zucchini" },
       { amount: 200, unit: "g", name: "Reis" },
@@ -2316,6 +2417,10 @@ export const recipes: Recipe[] = [
     "description": "Ein einfaches und leckeres Rezept für klassisches Rührei, das perfekt zum Frühstück passt.",
     "descriptionOnImage": "Ein einfaches und leckeres Rezept für klassisches Rührei, das perfekt zum Frühstück passt.",
     "introductionParagraph": "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     "ingredients": [
       { "amount": 4, "unit": "Stück", "name": "Eier" },
       { "amount": 2, "unit": "EL", "name": "Milch" },
@@ -2385,6 +2490,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Frühstücks-Salat aus Haferflocken und Beeren.",
     descriptionOnImage: "Ein leckerer Frühstücks-Salat aus Haferflocken und Beeren.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 100, unit: "g", name: "Haferflocken" },
       { amount: 200, unit: "g", name: "Milch" },
@@ -2455,6 +2564,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckeres Vegan-Banana-Bread aus Bananen und verschiedenen Zutaten.",
     descriptionOnImage: "Ein leckeres Vegan-Banana-Bread aus Bananen und verschiedenen Zutaten.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 3, name: "Bananen" },
       { amount: 100, unit: "g", name: "Mehl" },
@@ -2526,6 +2639,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckerer Smoothie-Bowl aus verschiedenen Früchten und Nüssen.",
     descriptionOnImage: "Violette Smoothie Bowl mit frischen Beeren und Granola",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 100, unit: "g", name: "Früchte" },
       { amount: 100, unit: "g", name: "Nüsse" },
@@ -2596,6 +2713,10 @@ export const recipes: Recipe[] = [
     description: "Eine leckere französische Crêpe aus Mehl und Eiern.",
     descriptionOnImage: "Eine leckere französische Crêpe aus Mehl und Eiern.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 4, name: "Eier" },
@@ -2668,6 +2789,10 @@ export const recipes: Recipe[] = [
     description: "Eine leckere Granola aus verschiedenen Nüssen.",
     descriptionOnImage: "Knuspriges hausgemachtes Granola mit gerösteten Nüssen",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Nüsse" },
       { amount: 100, unit: "g", name: "Zucker" },
@@ -2738,6 +2863,10 @@ export const recipes: Recipe[] = [
     description: "Ein traditionelles deutsches Apfelstrudel.",
     descriptionOnImage: "Ein traditionelles deutsches Apfelstrudel.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
@@ -2810,6 +2939,10 @@ export const recipes: Recipe[] = [
     description: "Eine leckere Schokoladen-Mousse aus Schokolade und Eiern.",
     descriptionOnImage: "Eine leckere Schokoladen-Mousse aus Schokolade und Eiern.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Schokolade" },
       { amount: 4, name: "Eier" },
@@ -2879,6 +3012,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckeres Beeren-Crumble aus verschiedenen Beeren.",
     descriptionOnImage: "Ein leckeres Beeren-Crumble aus verschiedenen Beeren.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Beeren" },
       { amount: 100, unit: "g", name: "Mehl" },
@@ -2949,6 +3086,10 @@ export const recipes: Recipe[] = [
     description: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",
     descriptionOnImage: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",  
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Rhabarber" },
       { amount: 100, unit: "g", name: "Zucker" },
@@ -3015,6 +3156,10 @@ export const recipes: Recipe[] = [
     description: "Eine leckere Zimtschnecken aus Mehl und Zimt.",
     descriptionOnImage: "Eine leckere Zimtschnecken aus Mehl und Zimt.",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
@@ -3085,6 +3230,10 @@ export const recipes: Recipe[] = [
     description: "Dieser farbenfrohe Quinoa-Salat ist nicht nur ein Augenschmaus, sondern auch ein wahres Superfood-Fest! Die Kombination aus nussigem Quinoa, knackigem Gemüse und proteinreichen Kichererbsen macht ihn zu einer vollwertigen Mahlzeit. Die frischen Kräuter und der Granatapfel verleihen dem Salat eine besondere Note und machen ihn zu einem perfekten Gericht für warme Tage.\n\nDas Besondere an diesem Rezept ist die ausgewogene Mischung verschiedener Texturen und Geschmacksrichtungen. Der Quinoa wird perfekt al dente gekocht und mit einer Vielfalt an buntem Gemüse kombiniert. Ein leichtes Zitronen-Dressing rundet den Salat ab und lässt alle Aromen harmonisch zusammenspielen.",
     descriptionOnImage: "Farbenfroher Quinoa-Salat mit knackigem Gemüse und Nüssen",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [],
     ingredientGroups: [
       {
@@ -3194,6 +3343,10 @@ export const recipes: Recipe[] = [
     description: "Diese samtig-cremige Süßkartoffel-Kokos-Suppe vereint die natürliche Süße der Süßkartoffeln mit der exotischen Note der Kokosmilch zu einer harmonischen Geschmackskomposition. Die leichte Schärfe von Ingwer und Curry verleiht der Suppe eine wärmende Note, die besonders an kalten Tagen für Behaglichkeit sorgt.\n\nDas Besondere an diesem Rezept ist die perfekte Balance zwischen süßlichen und würzigen Aromen. Die Süßkartoffeln werden zunächst angeröstet, um ihr volles Aroma zu entwickeln, bevor sie mit den anderen Zutaten zu einer seidigen Suppe veredelt werden. Ein Hauch Limettensaft am Ende sorgt für die perfekte geschmackliche Abrundung.",
     descriptionOnImage: "Cremige Süßkartoffel-Kokos-Suppe mit frischen Kräutern garniert",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [],
     ingredientGroups: [
       {
@@ -3300,6 +3453,10 @@ export const recipes: Recipe[] = [
     description: "Diese vegetarische Linsen-Bolognese ist eine köstliche und gesunde Alternative zur klassischen Fleisch-Bolognese. Die roten Linsen geben der Sauce nicht nur eine herrlich sämige Konsistenz, sondern sind auch reich an Proteinen und Ballaststoffen. In Kombination mit frischem Gemüse und mediterranen Kräutern entsteht eine vollwertige Pasta-Sauce, die der traditionellen Bolognese in nichts nachsteht.\n\nDas Besondere an diesem Rezept ist die perfekte Balance zwischen Textur und Geschmack. Die Linsen werden genau richtig gegart, sodass sie eine angenehm bissfeste Konsistenz behalten. Die Kombination aus Tomaten, Gemüse und Gewürzen sorgt für ein authentisches italienisches Geschmackserlebnis.",
     descriptionOnImage: "Herzhafte Linsen-Bolognese mit frischen Kräutern garniert",
     introductionParagraph: "",
+    additionalParagraph: "",
+    ingredientsNeeded: [
+      { title: "", description: "" }
+    ],
     ingredients: [],
     ingredientGroups: [
       {

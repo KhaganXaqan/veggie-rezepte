@@ -12,6 +12,10 @@ export type Recipe = {
   descriptionOnImage: string
   introductionParagraph: string
   additionalParagraph: string
+  ingredientsNeeded: {
+    title: string;
+    description: string;
+  }[];
   ingredients: { 
     amount?: number | string
     unit?: string
@@ -76,6 +80,44 @@ export const recipes: Recipe[] = [
     "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",    
     "introductionParagraph": "Backen von Flammkuchen ist in dieser Jahreszeit eine meiner liebsten Beschäftigungen in der Küche. Es ist so einfach und stressfrei, und dabei füllt der knusprige, goldbraune Teig das ganze Haus mit herrlichen Aromen. Und das Beste daran? Du kannst ihn nach Belieben mit deinen Lieblingszutaten belegen, und er schmeckt immer köstlich. Dieser vegetarische Flammkuchen ist mein absoluter Favorit – ein dünner, knuspriger Boden, bedeckt mit einer cremigen Mischung, süß karamellisierten Zwiebeln und einer großzügigen Portion Käse. Es ist ein einfaches, aber unglaublich leckeres Gericht, das jeder Mahlzeit eine besondere Note verleiht. Und das Beste: Es ist so einfach zuzubereiten und das Ergebnis ist so zufriedenstellend, dass du ihn immer wieder machen wirst!",
     "additionalParagraph": "Jedes Mal, wenn ich einen Flammkuchen zubereite, überkommt mich ein Gefühl der Nostalgie. Es erinnert mich an gemütliche Abende mit Freunden und Familie, an unbeschwerte Zeiten, in denen wir zusammen saßen, gelacht haben und uns einfach gut fühlten. Der Duft des frisch gebackenen Flammkuchens, der durch die Küche zieht, lässt mich an all diese schönen Momente zurückdenken. Besonders dieser vegetarische Flammkuchen hat für mich eine besondere Bedeutung. Die Kombination aus dem knusprigen Teig, den karamellisierten Zwiebeln und der cremigen Basis ist nicht nur eine Gaumenfreude, sondern auch ein Stück Heimat. Es fühlt sich an, als würde jeder Bissen ein Stück Glück auf meinem Teller bringen. Und wenn ich dann mit den Menschen, die mir am meisten bedeuten, am Tisch sitze und den Flammkuchen genieße, weiß ich: Es gibt nichts Schöneres.",
+    "ingredientsNeeded": [
+      {
+        "title": "Flammkuchenteig",
+        "description": "Eine einfache Kombination aus Mehl, warmem Wasser, Olivenöl, Salz, Zucker und ein wenig Backpulver für den perfekten dünnen, knusprigen Boden. Er ist einfach zuzubereiten und gelingt immer perfekt!"
+      },
+      {
+        "title": "Crème Fraîche",
+        "description": "Die cremige Basis, die den Flammkuchen besonders lecker macht. Du kannst auch vegane Sahnealternativen verwenden, wenn du eine pflanzliche Version bevorzugst."
+      },
+      {
+        "title": "Dijon-Senf",
+        "description": "Ein Löffel Dijon-Senf gibt der cremigen Basis einen leichten, würzigen Kick und verleiht dem Flammkuchen das besondere Etwas."
+      },
+      {
+        "title": "Zwiebeln",
+        "description": "Süße, goldene Zwiebeln, die perfekt karamellisiert sind. Der langsame Kochprozess bringt ihre natürliche Süße hervor und fügt dem Flammkuchen eine wunderbare Tiefe hinzu."
+      },
+      {
+        "title": "Käse",
+        "description": "Gruyère oder Emmentaler Käse ist ideal für die klassische, schmelzende Käseschicht. Du kannst auch eine vegane Käsealternative verwenden, wenn du eine vollständig pflanzliche Version machen möchtest."
+      },
+      {
+        "title": "Olivenöl",
+        "description": "Zum Anbraten der Zwiebeln und zum Bestreichen des Teiges, damit er die goldene Farbe erhält."
+      },
+      {
+        "title": "Thymian",
+        "description": "Eine Prise getrockneter Thymian verleiht dem Flammkuchen ein aromatisches, erdiges Flair, das wunderbar mit den karamellisierten Zwiebeln und dem Käse harmoniert."
+      },
+      {
+        "title": "Frische Petersilie",
+        "description": "Ein wenig frische Petersilie am Ende bringt Farbe und einen frischen, krautigen Geschmack."
+      },
+      {
+        "title": "Optionale Beläge",
+        "description": "Wenn du kreativ werden möchtest, passen Pilze wie Champignons oder Shiitake, frischer Rosmarin oder sogar Basilikum wunderbar und verleihen dem Flammkuchen eine zusätzliche Geschmacksebene."
+      }
+    ],
     "ingredientGroups": [
       {
         "title": "Der Grundteig",
@@ -190,7 +232,7 @@ export const recipes: Recipe[] = [
     ],
     servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.",
     images: {
-      imageIngredient: "/images/Ingredients/kartoffelpufferIngredient.jpeg",
+      imageIngredient: "/images/Ingredients/flammkuchen-ingredients.webp",
       image1: "/images/Miscellaneous/kartoffelpuffer1.jpeg",
       image2: "/images/Miscellaneous/kartoffelpuffer2.jpeg",
       image3: "/images/Miscellaneous/kartoffelpuffer3.jpeg",
@@ -211,6 +253,32 @@ export const recipes: Recipe[] = [
     descriptionOnImage: "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
     introductionParagraph: "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit cremigen Dips, sie sind immer eine Freude für den Gaumen.",
     additionalParagraph: "Jedes Mal, wenn ich einen Flammkuchen zubereite, überkommt mich ein Gefühl der Nostalgie. Es erinnert mich an gemütliche Abende mit Freunden und Familie, an unbeschwerte Zeiten, in denen wir zusammen saßen, gelacht haben und uns einfach gut fühlten. Der Duft des frisch gebackenen Flammkuchens, der durch die Küche zieht, lässt mich an all diese schönen Momente zurückdenken. Besonders dieser vegetarische Flammkuchen hat für mich eine besondere Bedeutung. Die Kombination aus dem knusprigen Teig, den karamellisierten Zwiebeln und der cremigen Basis ist nicht nur eine Gaumenfreude, sondern auch ein Stück Heimat. Es fühlt sich an, als würde jeder Bissen ein Stück Glück auf meinem Teller bringen. Und wenn ich dann mit den Menschen, die mir am meisten bedeuten, am Tisch sitze und den Flammkuchen genieße, weiß ich: Es gibt nichts Schöneres.",
+    ingredientsNeeded: [
+      {
+        title: "Kartoffeln",
+        description: "Festkochende oder mehligkochende Kartoffeln, frisch gerieben für den besten Geschmack und die perfekte Textur."
+      },
+      {
+        title: "Zwiebeln",
+        description: "Fein gehackte Zwiebeln geben den Kartoffelpuffern ihre charakteristische Note und machen sie besonders aromatisch."
+      },
+      {
+        title: "Eier",
+        description: "Frische Eier binden den Teig und sorgen dafür, dass die Kartoffelpuffer beim Braten nicht zerfallen."
+      },
+      {
+        title: "Mehl",
+        description: "Eine kleine Menge Mehl hilft dabei, den Teig zu binden und macht die Kartoffelpuffer schön knusprig."
+      },
+      {
+        title: "Gewürze",
+        description: "Salz und frisch gemahlener Pfeffer zum Abschmecken. Optional auch etwas Muskatnuss für eine zusätzliche Geschmacksnote."
+      },
+      {
+        title: "Öl zum Braten",
+        description: "Neutrales Pflanzenöl oder Butterschmalz für das perfekte Bratergebnis und eine goldbraune Kruste."
+      }
+    ],
     ingredientGroups: [
       {
         title: "Der Kartoffelpuffer-Teig",
