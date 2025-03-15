@@ -11,10 +11,10 @@ type Ingredient = {
 }
 
 export function RecipeIngredients({
-  initialServings = 4,
+  initialServings = 1,
   ingredients,
-  prepTime,
-  cookTime = 30
+  prepTime = 0,
+  cookTime = 0
 }: {
   initialServings?: number;
   ingredients: Ingredient[];

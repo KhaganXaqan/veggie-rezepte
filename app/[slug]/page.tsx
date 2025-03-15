@@ -285,11 +285,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       <div className="flex items-center gap-6">
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Zubereitung</span>
-                          <span className="text-xs">{recipe.prepTime} Min</span>
+                          <span className="text-xs">{recipe.prepTime}</span>
                         </div>
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Kochen</span>
-                          <span className="text-xs">30 Min</span>
+                          <span className="text-xs">{recipe.cookingTime}</span>
                         </div>
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Portionen</span>
@@ -334,10 +334,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {recipe.ingredientsNeeded && (
                     <div className="w-full mb-1">
                       <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
-                        INGREDIENTS NEEDED
+                        Benötigte Zutaten
                       </h2>
                       <p className="text-lg text-black leading-relaxed font-normal mb-1">
-                        Here's everything you need to make this easy {recipe.title}:
+                        Hier ist alles, was du für dieses einfache Rezept brauchst {recipe.title}:
                       </p>
                       <div className="space-y-4">
                         <ul className="list-disc pl-5">
@@ -447,7 +447,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         ))}
                       </div>
                       <p className="text-lg text-black leading-relaxed font-normal mt-1">
-                        Egal, wofür du dich entscheidest – der vegetarische Flammkuchen bleibt der Star auf deinem Teller!
+                        {recipe.servingSuggestions.note}
                       </p>
                     </div>
                   )}
@@ -617,7 +617,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           initialServings={recipe.servings}
                           ingredients={recipe.ingredients}
                           prepTime={recipe.prepTime ? parseInt(String(recipe.prepTime)) : undefined}
-                          cookTime={30}
+                          cookTime={recipe.cookingTime ? parseInt(String(recipe.cookingTime)) : undefined}
                         />
 
                         {/* Instructions */}

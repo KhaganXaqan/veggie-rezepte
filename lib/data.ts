@@ -3,6 +3,7 @@ export type Recipe = {
   title: string
   image: string
   prepTime?: string
+  cookingTime : string
   rating?: number
   category: string
   slug: string
@@ -58,6 +59,7 @@ export type Recipe = {
   servingSuggestions?: {
     title: string;
     description: string;
+    note: string;
     items: {
       emoji: string;
       title: string;
@@ -86,6 +88,7 @@ export const recipes: Recipe[] = [
     title: "Kartoffelklöße",
     image: "/images/Miscellaneous/kartoffelkloesse.webp",
     prepTime: "60 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.8,
     category: "Hauptgerichte",
     slug: "kartoffelkloesse",
@@ -101,6 +104,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -202,6 +206,7 @@ export const recipes: Recipe[] = [
     title: "Spinat-Käse Lasagne",
     image: "/images/MainCourses/spinat-kaese-lasagne.webp",
     prepTime: "50 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Aufläufe",
     slug: "spinat-kaese-lasagne",
@@ -217,6 +222,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -329,6 +335,7 @@ export const recipes: Recipe[] = [
     "title": "Flammkuchen",
     "image": "/images/MainCourses/flammkuchen.webp",
     "prepTime": "30 Min.",
+    "cookingTime": "12 Min.", 
     "rating": 4.8,
     "category": "Hauptgerichte",
     "slug": "flammkuchen",
@@ -344,6 +351,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -484,6 +492,7 @@ export const recipes: Recipe[] = [
     title: "Käsespätzle",
     image: "/images/MainCourses/kaesespaetzle.webp",
     prepTime: "45 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.8,
     category: "Hauptgerichte",
     slug: "kaesespaetzle",
@@ -499,6 +508,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -611,6 +621,7 @@ export const recipes: Recipe[] = [
     title: "Kartoffelpuffer",
     image: "/images/Miscellaneous/kartoffelpuffer.webp",
     prepTime: "25 Min",
+    "cookingTime": "12 Min.", 
     rating: 5.0,
     category: "Hauptgerichte",
     slug: "kartoffelpuffer",
@@ -626,6 +637,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -741,6 +753,7 @@ export const recipes: Recipe[] = [
     title: "Semmelknödel",
     image: "/images/Miscellaneous/semmelknoedel.webp",
     prepTime: "40 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.6,
     category: "Hauptgerichte",
     slug: "semmelknoedel",
@@ -756,6 +769,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -869,6 +883,7 @@ export const recipes: Recipe[] = [
     title: "Pilzgulasch",
     image: "/images/Miscellaneous/pilzgulasch.webp",
     prepTime: "45 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Hauptgerichte",
     slug: "pilzgulasch",
@@ -884,6 +899,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -993,6 +1009,7 @@ export const recipes: Recipe[] = [
     title: "Gemüsestrudel",
     image: "/images/Miscellaneous/gemuesestrudel.webp",
     prepTime: "75 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Hauptgerichte",
     slug: "gemuese-strudel",
@@ -1008,6 +1025,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1112,6 +1130,7 @@ export const recipes: Recipe[] = [
     title: "Grießnockerl",
     image: "/images/Miscellaneous/griessnockerl.webp",
     prepTime: "45 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.6,
     category: "Hauptgerichte",
     slug: "griessnockerl",
@@ -1127,6 +1146,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1227,6 +1247,7 @@ export const recipes: Recipe[] = [
     title: "Spinatknödel",
     image: "/images/Miscellaneous/spinatknoedel.webp",
     prepTime: "45 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Hauptgerichte",
     slug: "spinatknoedel",
@@ -1242,6 +1263,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1351,6 +1373,7 @@ export const recipes: Recipe[] = [
     title: "Gemüsesuppe",
     image: "/images/Soups/gemuesesuppe.webp",
     prepTime: "30 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.5,
     category: "Hauptgerichte",
     slug: "gemuesesuppe",
@@ -1366,6 +1389,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1463,6 +1487,7 @@ export const recipes: Recipe[] = [
     title: "Kartoffelgratin",
     image: "/images/MainCourses/kartoffelgratin.webp",
     prepTime: "45 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Hauptgerichte",
     slug: "kartoffelgratin",
@@ -1478,6 +1503,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1595,6 +1621,7 @@ export const recipes: Recipe[] = [
     title: "Quinoa-Buddha-Bowl",
     image: "/images/MainCourses/quinoa-buddha-bowl.webp",
     prepTime: "25 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Hauptgerichte",
     slug: "quinoa-buddha-bowl",
@@ -1610,6 +1637,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1687,6 +1715,7 @@ export const recipes: Recipe[] = [
     title: "Ratatouille",
     image: "/images/Miscellaneous/ratatouille.webp",
     prepTime: "45 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.6,
     category: "Hauptgerichte",
     slug: "ratatouille",
@@ -1702,6 +1731,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1781,6 +1811,7 @@ export const recipes: Recipe[] = [
     title: "Gemüse-Curry",
     image: "/images/MainCourses/gemuese-curry.webp",
     prepTime: "30 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Hauptgerichte",
     slug: "gemuese-curry",
@@ -1796,6 +1827,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1872,6 +1904,7 @@ export const recipes: Recipe[] = [
     title: "Brokkoli-Quiche",
     image: "/images/MainCourses/brokkoli-quiche.webp",
     prepTime: "55 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.6,
     category: "Hauptgerichte",
     slug: "brokkoli-quiche",
@@ -1887,6 +1920,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -1965,6 +1999,7 @@ export const recipes: Recipe[] = [
     title: "Gefüllte Paprika",
     image: "/images/MainCourses/gefuellte-paprika.webp",
     prepTime: "40 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.5,
     category: "Hauptgerichte",
     slug: "gefuellte-paprika",
@@ -1980,6 +2015,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2087,6 +2123,7 @@ export const recipes: Recipe[] = [
     title: "Kürbissuppe",
     image: "/images/Soups/kuerbissuppe.webp",
     prepTime: "35 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.8,
     category: "Suppen",
     slug: "kuerbissuppe",
@@ -2102,6 +2139,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2218,6 +2256,7 @@ export const recipes: Recipe[] = [
     title: "Mediterraner Nudelsalat",
     image: "/images/Salads/mediterraner-nudelsalat.webp",
     prepTime: "20 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.4,
     category: "Salate",
     slug: "mediterraner-nudelsalat",
@@ -2233,6 +2272,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2344,6 +2384,7 @@ export const recipes: Recipe[] = [
     title: "Griechischer Bauernsalat",
     image: "/images/Salads/griechischer-bauernsalat.webp",
     prepTime: "15 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.5,
     category: "Salate",
     slug: "griechischer-bauernsalat",
@@ -2359,6 +2400,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2461,6 +2503,7 @@ export const recipes: Recipe[] = [
     title: "Gemüse-Couscous-Salat",
     image: "/images/Salads/gemuese-couscous-salat.webp",
     prepTime: "20 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.5,
     category: "Salate",
     slug: "gemuese-couscous-salat",
@@ -2476,6 +2519,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2555,6 +2599,7 @@ export const recipes: Recipe[] = [
     title: "Blumenkohl-Käse-Auflauf",
     image: "/images/MainCourses/blumenkohl-kaese-auflauf.webp",
     prepTime: "45 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Aufläufe",
     slug: "blumenkohl-kaese-auflauf",
@@ -2570,6 +2615,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2648,6 +2694,7 @@ export const recipes: Recipe[] = [
     title: "Gemüse-Polenta-Auflauf",
     image: "/images/MainCourses/gemuese-polenta-auflauf.webp",
     prepTime: "55 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.6,
     category: "Aufläufe",
     slug: "gemuese-polenta-auflauf",
@@ -2663,6 +2710,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2741,6 +2789,7 @@ export const recipes: Recipe[] = [
     title: "Zucchini-Reis-Auflauf",
     image: "/images/MainCourses/zucchini-reis-auflauf.webp",
     prepTime: "50 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.5,
     category: "Aufläufe",
     slug: "zucchini-reis-auflauf",
@@ -2756,6 +2805,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2833,6 +2883,7 @@ export const recipes: Recipe[] = [
     "title": "Klassisches Rührei",
     "image": "/images/Frühstück/klassisches-ruehrei.webp",
     "prepTime": "10 Min.",
+    "cookingTime": "12 Min.", 
     "rating": 4.7,
     "category": "Frühstück",
     "slug": "klassisches-ruehrei",
@@ -2848,6 +2899,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -2923,6 +2975,7 @@ export const recipes: Recipe[] = [
     title: "Overnight Oats mit Beeren",
     image: "/images/Frühstück/overnight-oats-beeren.webp",
     prepTime: "10 Min. + 8 Std.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Frühstück",
     slug: "overnight-oats-beeren",
@@ -2938,6 +2991,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3014,6 +3068,7 @@ export const recipes: Recipe[] = [
     title: "Veganes Banana Bread",
     image: "/images/Frühstück/veganes-banana-bread.webp",
     prepTime: "55 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.8,
     category: "Frühstück",
     slug: "veganes-banana-bread",
@@ -3029,6 +3084,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3106,6 +3162,7 @@ export const recipes: Recipe[] = [
     title: "Smoothie Bowl",
     image: "/images/Frühstück/smoothie-bowl.webp",
     prepTime: "15 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.6,
     category: "Frühstück",
     slug: "smoothie-bowl",
@@ -3128,6 +3185,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3197,6 +3255,7 @@ export const recipes: Recipe[] = [
     title: "Französische Crêpes",
     image: "/images/Frühstück/franzoesische-crepes.webp",
     prepTime: "30 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.9,
     category: "Frühstück",
     slug: "franzoesische-crepes",
@@ -3212,6 +3271,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3290,6 +3350,7 @@ export const recipes: Recipe[] = [
     title: "Granola mit Nüssen",
     image: "/images/Frühstück/granola-nuesse.webp",
     prepTime: "40 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Frühstück",
     slug: "granola-nuesse",
@@ -3305,6 +3366,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3381,6 +3443,7 @@ export const recipes: Recipe[] = [
     title: "Apfelstrudel",
     image: "/images/Desserts/apfelstrudel.webp",
     prepTime: "60 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.8,
     category: "Desserts",
     slug: "apfelstrudel",
@@ -3396,6 +3459,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3474,6 +3538,7 @@ export const recipes: Recipe[] = [
     title: "Schokoladen-Mousse",
     image: "/images/Desserts/schokoladen-mousse.webp",
     prepTime: "20 Min. + 2 Std.",
+    "cookingTime": "12 Min.", 
     rating: 4.9,
     category: "Desserts",
     slug: "schokoladen-mousse",
@@ -3489,6 +3554,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3564,6 +3630,7 @@ export const recipes: Recipe[] = [
     title: "Beeren-Crumble",
     image: "/images/Desserts/beeren-crumble.webp",
     prepTime: "45 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Desserts",
     slug: "beeren-crumble",
@@ -3579,6 +3646,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3655,6 +3723,7 @@ export const recipes: Recipe[] = [
     title: "Rhabarber-Kompott",
     image: "/images/Desserts/rhabarber-kompott.webp",
     prepTime: "25 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.6,
     category: "Desserts",
     slug: "rhabarber-kompott",
@@ -3670,6 +3739,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3742,6 +3812,7 @@ export const recipes: Recipe[] = [
     title: "Zimtschnecken",
     image: "/images/Desserts/zimtschnecken.webp",
     prepTime: "90 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.8,
     category: "Desserts",
     slug: "zimtschnecken",
@@ -3757,6 +3828,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3833,6 +3905,7 @@ export const recipes: Recipe[] = [
     title: "Bunter Quinoa-Salat",
     image: "/images/Salads/bunter-quinoa-salat.webp",
     prepTime: "25 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.6,
     category: "Salate",
     slug: "bunter-quinoa-salat",
@@ -3848,6 +3921,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -3963,6 +4037,7 @@ export const recipes: Recipe[] = [
     title: "Süßkartoffel-Kokos-Suppe",
     image: "/images/Soups/suesskartoffel-kokos-suppe.webp",
     prepTime: "35 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.8,
     category: "Suppen",
     slug: "suesskartoffel-kokos-suppe",
@@ -3978,6 +4053,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
@@ -4090,6 +4166,7 @@ export const recipes: Recipe[] = [
     title: "Linsen-Bolognese",
     image: "/images/MainCourses/linsen-bolognese.webp",
     prepTime: "40 Min.",
+    "cookingTime": "12 Min.", 
     rating: 4.7,
     category: "Hauptgerichte",
     slug: "linsen-bolognese",
@@ -4105,6 +4182,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",

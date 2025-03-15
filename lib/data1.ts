@@ -3,6 +3,7 @@ export type Recipe = {
   title: string
   image: string
   prepTime?: string
+  cookingTime : string
   rating?: number
   category: string
   slug: string
@@ -58,6 +59,7 @@ export type Recipe = {
   servingSuggestions?: {
     title: string;
     description: string;
+    note: string;
     items: {
       emoji: string;
       title: string;
@@ -83,14 +85,15 @@ export type Recipe = {
 // Then update the recipes array with all required properties
 export const recipes: Recipe[] = [
   {
-    "title": "Flammkuchen",
+    "title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
     "image": "/images/MainCourses/flammkuchen.webp",
     "prepTime": "30 Min.",
+    "cookingTime": "12 Min.", 
     "rating": 4.8,
     "category": "Hauptgerichte",
     "slug": "flammkuchen",
     "tags": ["Traditionell", "Hauptgerichte", "Flammkuchen"],
-    "servings": 1,
+    "servings": 2,
     "description": "Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis.",
     "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",    
     "introductionParagraph": "Backen von Flammkuchen ist in dieser Jahreszeit eine meiner liebsten Beschäftigungen in der Küche. Es ist so einfach und stressfrei, und dabei füllt der knusprige, goldbraune Teig das ganze Haus mit herrlichen Aromen. Und das Beste daran? Du kannst ihn nach Belieben mit deinen Lieblingszutaten belegen, und er schmeckt immer köstlich. Dieser vegetarische Flammkuchen ist mein absoluter Favorit – ein dünner, knuspriger Boden, bedeckt mit einer cremigen Mischung, süß karamellisierten Zwiebeln und einer großzügigen Portion Käse. Es ist ein einfaches, aber unglaublich leckeres Gericht, das jeder Mahlzeit eine besondere Note verleiht. Und das Beste: Es ist so einfach zuzubereiten und das Ergebnis ist so zufriedenstellend, dass du ihn immer wieder machen wirst!",
@@ -157,8 +160,8 @@ export const recipes: Recipe[] = [
         "ingredients": [
           { "amount": 0.5, "unit": "", "name": "Zwiebel (dünn geschnitten)" },
           { "amount": 25, "unit": "g", "name": "Gruyère oder Emmentaler (gerieben)" },
-          { "amount": undefined, "unit": "", "name": "Salz" },
-          { "amount": undefined, "unit": "", "name": "Pfeffer" }
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": undefined, "unit": "", "name": "Pfeffer (nach Geschmack)" }
         ]
       }
     ],
@@ -170,8 +173,8 @@ export const recipes: Recipe[] = [
       { "amount": 50, "unit": "g", "name": "Crème fraîche" },
       { "amount": 0.5, "unit": "", "name": "Zwiebel (dünn geschnitten)" },
       { "amount": 25, "unit": "g", "name": "Gruyère oder Emmentaler (gerieben)" },
-      { "amount": undefined, "unit": "", "name": "Salz" },
-      { "amount": undefined, "unit": "", "name": "Pfeffer" }
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": undefined, "unit": "", "name": "Pfeffer (nach Geschmack)" }
     ],
     "instructions": [
       "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
@@ -182,16 +185,18 @@ export const recipes: Recipe[] = [
       "Heiß servieren und genießen!"
     ],
     "nutrition": {
-      "calories": 87,
-      "protein": "2.5g",
-      "carbs": "10g",
-      "fat": "3.8g"
+      "calories": 169,
+      "protein": "4.83g",
+      "carbs": "11.67g",
+      "fat": "8.83g"
     },
     "tips": [
       "Für eine vegane Variante kannst du die Crème fraîche durch pflanzliche Sahne ersetzen und den Käse weglassen oder durch veganen Käse austauschen.",
       "Füge Pilze, Spinat oder Paprika hinzu, um den Belag abwechslungsreicher zu gestalten.",
       "Serviere den Flammkuchen mit einem frischen Salat oder einem Glas Weißwein für ein komplettes Mahlzeiterlebnis.",
-      "Der Teig lässt sich auch einfrieren – einfach zwischen Backpapier legen und in einem Gefrierbeutel aufbewahren."
+      "Der Teig lässt sich auch einfrieren – einfach zwischen Backpapier legen und in einem Gefrierbeutel aufbewahren.",
+      "Tomaten, Oliven und Feta-Käse verleihen dem Flammkuchen eine mediterrane Geschmacksrichtung.",
+      "Brokkoli passt ebenfalls hervorragend und sorgt für eine frische, leicht knackige Note."
     ],
     "whyFavorite": {
       "title": "Warum mein Flammkuchen ein echtes Lieblingsgericht ist",
@@ -249,6 +254,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "Was du zu vegetarischem Flammkuchen servieren kannst",
       "description": "Der vegetarische Flammkuchen ist für sich schon ein echtes Highlight, aber mit den richtigen Beilagen wird das Ganze noch besser!",
+      "note": "Egal, wofür du dich entscheidest – der vegetarische Flammkuchen bleibt der Star auf deinem Teller!",
       "items": [
         {
           "emoji": "🧑‍🍳",
@@ -296,6 +302,7 @@ export const recipes: Recipe[] = [
     "title": "Kartoffelpuffer",
     "image": "/images/Miscellaneous/kartoffelpuffer.webp",
     "prepTime": "25 Min",
+    "cookingTime": "12 Min.", 
     "rating": 5.0,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",
@@ -401,6 +408,7 @@ export const recipes: Recipe[] = [
     "servingSuggestions": {
       "title": "",
       "description": "",
+      "note": "",
       "items": [
         {
           "emoji": "",
