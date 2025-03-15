@@ -55,15 +55,6 @@ export type Recipe = {
     description: string
   }[]
   servingSuggestion: string
-  servingSuggestions?: {
-    title: string;
-    description: string;
-    items: {
-      emoji: string;
-      title: string;
-      description: string;
-    }[];
-  };
   images: {
     imageIngredient: string
     image1: string
@@ -92,17 +83,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "mehligkochende Kartoffeln" },
       { amount: 200, unit: "g", name: "Kartoffelstärke" },
@@ -202,17 +182,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Spinat" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -323,17 +292,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     "ingredientGroups": [
       {
         "title": "Der Grundteig",
@@ -472,17 +430,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredientGroups: [
       {
         title: "Der Spätzleteig",
@@ -593,17 +540,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredientGroups: [
       {
         title: "Der Kartoffelpuffer-Teig",
@@ -716,17 +652,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 8, name: "altbackene Brötchen" },
       { amount: 250, unit: "ml", name: "Milch" },
@@ -838,17 +763,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Pilze" },
       { amount: 1, name: "Zwiebel" },
@@ -956,17 +870,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
@@ -1069,17 +972,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Grieß" },
       { amount: 2, name: "Eier" },
@@ -1178,17 +1070,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 500, unit: "g", name: "Spinat" },
       { amount: 200, unit: "g", name: "Semmelbrösel" },
@@ -1296,17 +1177,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
@@ -1402,17 +1272,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Kartoffeln" },
       { amount: 500, unit: "ml", name: "Milch" },
@@ -1528,17 +1387,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 100, unit: "g", name: "Quinoa" },
       { amount: 100, unit: "g", name: "Gemüse" },
@@ -1614,17 +1462,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 1, name: "Zwiebel" },
@@ -1702,17 +1539,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 100, unit: "g", name: "Currypaste" },
@@ -1787,17 +1613,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Brokkoli" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -1874,17 +1689,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [],
     ingredientGroups: [
       {
@@ -1990,17 +1794,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [],
     ingredientGroups: [
       {
@@ -2115,17 +1908,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [],
     ingredientGroups: [
       {
@@ -2235,17 +2017,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [],
     ingredientGroups: [
       {
@@ -2346,17 +2117,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Couscous" },
       { amount: 1, unit: "kg", name: "Gemüse" },
@@ -2434,17 +2194,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Blumenkohl" },
       { amount: 200, unit: "g", name: "Käse" },
@@ -2521,17 +2270,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Gemüse" },
       { amount: 200, unit: "g", name: "Polenta" },
@@ -2608,17 +2346,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 1, unit: "kg", name: "Zucchini" },
       { amount: 200, unit: "g", name: "Reis" },
@@ -2694,17 +2421,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     "ingredients": [
       { "amount": 4, "unit": "Stück", "name": "Eier" },
       { "amount": 2, "unit": "EL", "name": "Milch" },
@@ -2778,17 +2494,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 100, unit: "g", name: "Haferflocken" },
       { amount: 200, unit: "g", name: "Milch" },
@@ -2863,17 +2568,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 3, name: "Bananen" },
       { amount: 100, unit: "g", name: "Mehl" },
@@ -2956,17 +2650,6 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Bananen" },
       { amount: 100, unit: "g", name: "Kokosnussöl" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     instructions: [
       "Die Früchte waschen und in Stücke schneiden. Die Bananen schälen und in Scheiben schneiden.",
       "Die Früchte, Bananen und den Joghurt in einen Mixer geben und zu einem cremigen Smoothie pürieren.",
@@ -3034,17 +2717,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 4, name: "Eier" },
@@ -3121,17 +2793,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Nüsse" },
       { amount: 100, unit: "g", name: "Zucker" },
@@ -3206,17 +2867,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
@@ -3293,17 +2943,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Schokolade" },
       { amount: 4, name: "Eier" },
@@ -3377,17 +3016,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Beeren" },
       { amount: 100, unit: "g", name: "Mehl" },
@@ -3462,17 +3090,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Rhabarber" },
       { amount: 100, unit: "g", name: "Zucker" },
@@ -3543,17 +3160,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [
       { amount: 200, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Butter" },
@@ -3628,17 +3234,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [],
     ingredientGroups: [
       {
@@ -3752,17 +3347,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [],
     ingredientGroups: [
       {
@@ -3873,17 +3457,6 @@ export const recipes: Recipe[] = [
     ingredientsNeeded: [
       { title: "", description: "" }
     ],
-    "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "items": [
-        {
-          "emoji": "",
-          "title": "",
-          "description": ""
-        }
-      ]
-    },
     ingredients: [],
     ingredientGroups: [
       {

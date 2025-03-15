@@ -422,8 +422,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     )}
                   </div>
 
-                  {/* Recipe Images */}
-                  <div className="flex justify-center gap-4 w-full mb-4">
+                  {/* Recipe Images 2*/}
+                  <div className="flex justify-center gap-4 w-full mb-12">
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
                       <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
@@ -431,6 +431,32 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       <img src={recipe.images.image1} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
+
+                  {/* Serving Suggestions */}
+                  {recipe.servingSuggestions && (
+                    <div className="w-full mb-12">
+                      <h2 className="font-black text-4xl uppercase text-black w-full tracking-tight leading-tight mb-6">
+                        {recipe.servingSuggestions.title}
+                      </h2>
+                      <p className="text-lg text-black leading-relaxed font-normal mb-8">
+                        {recipe.servingSuggestions.description}
+                      </p>
+                      <div className="space-y-6">
+                        {recipe.servingSuggestions.items.map((item, index) => (
+                          <div key={index} className="flex items-start gap-4">
+                            <span className="text-3xl">{item.emoji}</span>
+                            <div>
+                              <h3 className="font-bold text-xl text-black mb-2">{item.title}</h3>
+                              <p className="text-lg text-black leading-relaxed">{item.description}</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <p className="text-lg text-black leading-relaxed font-normal mt-8">
+                        Egal, wofür du dich entscheidest – der vegetarische Flammkuchen bleibt der Star auf deinem Teller!
+                      </p>
+                    </div>
+                  )}
 
                   {/* Schritt für Schritt - Recipe */}
                   <div className="w-full mx-auto mb-8">

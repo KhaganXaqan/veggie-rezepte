@@ -55,6 +55,15 @@ export type Recipe = {
     description: string
   }[]
   servingSuggestion: string
+  servingSuggestions?: {
+    title: string;
+    description: string;
+    items: {
+      emoji: string;
+      title: string;
+      description: string;
+    }[];
+  };
   images: {
     imageIngredient: string
     image1: string
@@ -212,100 +221,111 @@ export const recipes: Recipe[] = [
       "subText": "Ich bin schon ganz gespannt auf dein Feedback!",
       "signature": "Dein Veggie-Rezepte Team"
     },
-    steps: [
+    "steps": [
       {
-        title: "Schritt 1: Die Kunst des Teiges",
-        description: "Der hauchdünne, knusprige Teig ist das Fundament eines authentischen Flammkuchens. Die perfekte Mischung aus Mehl, Wasser, Öl und einer Prise Salz ergibt einen Teig, der beim Backen wunderbar knusprig wird."
+        "title": "Schritt 1: Die Kunst des Teiges",
+        "description": "Der hauchdünne, knusprige Teig ist das Fundament eines authentischen Flammkuchens. Die perfekte Mischung aus Mehl, Wasser, Öl und einer Prise Salz ergibt einen Teig, der beim Backen wunderbar knusprig wird."
       },
       {
-        title: "Schritt 2: Die Aromenbasis",
-        description: "Die Schmand-Crème-fraîche-Mischung bildet die cremige Grundlage, die mit einer Prise Muskat und frisch gemahlenem Pfeffer verfeinert wird. Darauf werden hauchdünn geschnittene Zwiebeln verteilt, die beim Backen karamellisieren und ihr süßlich-würziges Aroma entfalten."
+        "title": "Schritt 2: Die Aromenbasis",
+        "description": "Die Schmand-Crème-fraîche-Mischung bildet die cremige Grundlage, die mit einer Prise Muskat und frisch gemahlenem Pfeffer verfeinert wird. Darauf werden hauchdünn geschnittene Zwiebeln verteilt, die beim Backen karamellisieren und ihr süßlich-würziges Aroma entfalten."
       },
       {
-        title: "Schritt 3: Die Verfeinerung",
-        description: "Fein gewürfelter Speck verleiht dem Flammkuchen seine charakteristische, herzhafte Note. Optional können auch Lauchzwiebeln oder frische Kräuter den Geschmack abrunden."
+        "title": "Schritt 3: Die Verfeinerung",
+        "description": "Fein gewürfelter Speck verleiht dem Flammkuchen seine charakteristische, herzhafte Note. Optional können auch Lauchzwiebeln oder frische Kräuter den Geschmack abrunden."
       },
       {
-        title: "Schritt 4: Die Backtechnik",
-        description: "Der Schlüssel zum Erfolg liegt in der hohen Backtemperatur von 250°C. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern."
+        "title": "Schritt 4: Die Backtechnik",
+        "description": "Der Schlüssel zum Erfolg liegt in der hohen Backtemperatur von 250°C. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern."
       }
     ],
-    servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.",
-    images: {
-      imageIngredient: "/images/Ingredients/flammkuchen-ingredients.webp",
-      image1: "/images/Miscellaneous/kartoffelpuffer1.jpeg",
-      image2: "/images/Miscellaneous/kartoffelpuffer2.jpeg",
-      image3: "/images/Miscellaneous/kartoffelpuffer3.jpeg",
-      image4: "/images/Miscellaneous/kartoffelpuffer4.jpeg",
-      image5: "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
+    "servingSuggestion": "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.",
+    "servingSuggestions": {
+      "title": "Was du zu vegetarischem Flammkuchen servieren kannst",
+      "description": "Der vegetarische Flammkuchen ist für sich schon ein echtes Highlight, aber mit den richtigen Beilagen wird das Ganze noch besser!",
+      "items": [
+        {
+          "emoji": "🧑‍🍳",
+          "title": "Ein frischer Beilagensalat",
+          "description": "Ein einfacher Rucola- oder Feldsalat mit einem leichten Zitronen-Olivenöl-Dressing passt perfekt und sorgt für einen schönen, frischen Kontrast zum knusprigen, herzhaften Flammkuchen."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein gutes Glas Weißwein",
+          "description": "Flammkuchen und ein kühler, trockener Weißwein – das ist einfach eine unschlagbare Kombination. Besonders gut passen ein Riesling oder ein Pinot Blanc."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Eine wärmende Suppe",
+          "description": "Wenn es draußen kühler ist, kannst du den Flammkuchen wunderbar mit einer cremigen Kürbissuppe oder einer würzigen Tomatensuppe kombinieren."
+        },
+        {
+          "emoji": "🥖",
+          "title": "Knuspriges Baguette",
+          "description": "Für den extra Genuss kannst du noch ein Stück frisches Baguette dazu reichen – perfekt, um die restliche Crème fraîche-Basis vom Flammkuchen aufzutunken."
+        },
+        {
+          "emoji": "🌿",
+          "title": "Antipasti",
+          "description": "Gegrilltes Gemüse wie Zucchini, Auberginen oder Paprika bringt noch mehr mediterrane Aromen auf den Tisch und ergänzt den Flammkuchen perfekt."
+        }
+      ]
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/flammkuchen-ingredients.webp",
+      "image1": "/images/Miscellaneous/kartoffelpuffer1.jpeg",
+      "image2": "/images/Miscellaneous/kartoffelpuffer2.jpeg",
+      "image3": "/images/Miscellaneous/kartoffelpuffer3.jpeg",
+      "image4": "/images/Miscellaneous/kartoffelpuffer4.jpeg",
+      "image5": "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
     }
   },
   {
-    title: "Kartoffelpuffer",
-    image: "/images/Miscellaneous/kartoffelpuffer.webp",
-    prepTime: "25 Min",
-    rating: 5.0,
-    category: "Hauptgerichte",
-    slug: "kartoffelpuffer",
-    tags: ["Traditionell", "Kartoffeln", "Snack"],
-    servings: 2,
-    description: "Knusprige, goldbraune Kartoffelpuffer, verfeinert mit einer milden Zwiebelnote – ein zeitloser Klassiker, der sowohl Groß als auch Klein begeistert. Schnell zuzubereiten und dabei unglaublich lecker!",
-    descriptionOnImage: "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
-    introductionParagraph: "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit cremigen Dips, sie sind immer eine Freude für den Gaumen.",
-    additionalParagraph: "Jedes Mal, wenn ich einen Flammkuchen zubereite, überkommt mich ein Gefühl der Nostalgie. Es erinnert mich an gemütliche Abende mit Freunden und Familie, an unbeschwerte Zeiten, in denen wir zusammen saßen, gelacht haben und uns einfach gut fühlten. Der Duft des frisch gebackenen Flammkuchens, der durch die Küche zieht, lässt mich an all diese schönen Momente zurückdenken. Besonders dieser vegetarische Flammkuchen hat für mich eine besondere Bedeutung. Die Kombination aus dem knusprigen Teig, den karamellisierten Zwiebeln und der cremigen Basis ist nicht nur eine Gaumenfreude, sondern auch ein Stück Heimat. Es fühlt sich an, als würde jeder Bissen ein Stück Glück auf meinem Teller bringen. Und wenn ich dann mit den Menschen, die mir am meisten bedeuten, am Tisch sitze und den Flammkuchen genieße, weiß ich: Es gibt nichts Schöneres.",
-    ingredientsNeeded: [
+    "title": "Kartoffelpuffer",
+    "image": "/images/Miscellaneous/kartoffelpuffer.webp",
+    "prepTime": "25 Min",
+    "rating": 5.0,
+    "category": "Hauptgerichte",
+    "slug": "kartoffelpuffer",
+    "tags": ["Traditionell", "Kartoffeln", "Snack"],
+    "servings": 2,
+    "description": "Knusprige, goldbraune Kartoffelpuffer, verfeinert mit einer milden Zwiebelnote – ein zeitloser Klassiker, der sowohl Groß als auch Klein begeistert. Schnell zuzubereiten und dabei unglaublich lecker!",
+    "descriptionOnImage": "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
+    "introductionParagraph": "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip, sie sind immer eine Freude für den Gaumen.",
+    "additionalParagraph": "Jedes Mal, wenn ich einen Flammkuchen zubereite, überkommt mich ein Gefühl der Nostalgie. Es erinnert mich an gemütliche Abende mit Freunden und Familie, an unbeschwerte Zeiten, in denen wir zusammen saßen, gelacht haben und uns einfach gut fühlten. Der Duft des frisch gebackenen Flammkuchens, der durch die Küche zieht, lässt mich an all diese schönen Momente zurückdenken. Besonders dieser vegetarische Flammkuchen hat für mich eine besondere Bedeutung. Die Kombination aus dem knusprigen Teig, den karamellisierten Zwiebeln und der cremigen Basis ist nicht nur eine Gaumenfreude, sondern auch ein Stück Heimat. Es fühlt sich an, als würde jeder Bissen ein Stück Glück auf meinem Teller bringen. Und wenn ich dann mit den Menschen, die mir am meisten bedeuten, am Tisch sitze und den Flammkuchen genieße, weiß ich: Es gibt nichts Schöneres.",
+    "ingredientsNeeded": [
       {
-        title: "Kartoffeln",
-        description: "Festkochende oder mehligkochende Kartoffeln, frisch gerieben für den besten Geschmack und die perfekte Textur."
-      },
-      {
-        title: "Zwiebeln",
-        description: "Fein gehackte Zwiebeln geben den Kartoffelpuffern ihre charakteristische Note und machen sie besonders aromatisch."
-      },
-      {
-        title: "Eier",
-        description: "Frische Eier binden den Teig und sorgen dafür, dass die Kartoffelpuffer beim Braten nicht zerfallen."
-      },
-      {
-        title: "Mehl",
-        description: "Eine kleine Menge Mehl hilft dabei, den Teig zu binden und macht die Kartoffelpuffer schön knusprig."
-      },
-      {
-        title: "Gewürze",
-        description: "Salz und frisch gemahlener Pfeffer zum Abschmecken. Optional auch etwas Muskatnuss für eine zusätzliche Geschmacksnote."
-      },
-      {
-        title: "Öl zum Braten",
-        description: "Neutrales Pflanzenöl oder Butterschmalz für das perfekte Bratergebnis und eine goldbraune Kruste."
+        "title": "",
+        "description": ""
       }
     ],
-    ingredientGroups: [
+    "ingredientGroups": [
       {
-        title: "Der Kartoffelpuffer-Teig",
-        description: "Ein einfach zuzubereitender, klassischer Teig mit wenigen, preiswerten Zutaten, die man fast immer zu Hause hat.",
-        ingredients: [
-          { amount: 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
-          { amount: 1, "unit": "", "name": "Zwiebel, fein gehackt" },
-          { amount: 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
-          { amount: 3, "unit": "EL", "name": "Mehl" },
-          { amount: 1, "unit": "Prise", "name": "Muskatnuss" },
-          { amount: 1, "unit": "Prise", "name": "Salz" },
-          { amount: 1, "unit": "Prise", "name": "Pfeffer" },
-          { amount: undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
+        "title": "Der Kartoffelpuffer-Teig",
+        "description": "Ein einfach zuzubereitender, klassischer Teig mit wenigen, preiswerten Zutaten, die man fast immer zu Hause hat.",
+        "ingredients": [
+          { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
+          { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+          { "amount": 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
+          { "amount": 3, "unit": "EL", "name": "Mehl" },
+          { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+          { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
         ]
       }
     ],
-    ingredients: [
-      { amount: 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
-      { amount: 1, "unit": "", "name": "Zwiebel, fein gehackt" },
-      { amount: 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
-      { amount: 3, "unit": "EL", "name": "Mehl" },
-      { amount: 1, "unit": "Prise", "name": "Muskatnuss" },
-      { amount: 1, "unit": "Prise", "name": "Salz" },
-      { amount: 1, "unit": "Prise", "name": "Pfeffer" },
-      { amount: undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
+    "ingredients": [
+      { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
+      { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+      { "amount": 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
+      { "amount": 3, "unit": "EL", "name": "Mehl" },
+      { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+      { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
     ],
-    instructions: [
+    "instructions": [
       "Die geriebenen Kartoffeln gut ausdrücken, um überschüssige Flüssigkeit zu entfernen.",
       "Kartoffeln und die fein gehackte Zwiebel in eine große Schüssel geben und mit dem vorbereiteten Kichererbsenmehl gut vermengen.",
       "Mehl, Muskatnuss, Salz und Pfeffer hinzufügen und alles zu einem gleichmäßigen Teig vermengen.",
@@ -314,65 +334,76 @@ export const recipes: Recipe[] = [
       "Die Kartoffelpuffer von beiden Seiten goldbraun und knusprig braten.",
       "Mit Apfelmus oder einem Deiner liebsten Dips servieren. Auch ohne Beilage schmecken sie hervorragend!"
     ],
-    whyFavorite: {
-      title: "Warum dieses Kartoffelpuffer-Rezept besonders ist",
-      reasons: [
+    "whyFavorite": {
+      "title": "Warum dieses Kartoffelpuffer-Rezept besonders ist",
+      "reasons": [
         {
-          title: "Schnell und einfach zuzubereiten",
-          description: "Mit wenigen Zutaten lässt sich dieses Gericht im Handumdrehen zubereiten – perfekt für ein schnelles Abendessen oder einen kleinen Snack zwischendurch."
+          "title": "Schnell und einfach zuzubereiten",
+          "description": "Mit wenigen Zutaten lässt sich dieses Gericht im Handumdrehen zubereiten – perfekt für ein schnelles Abendessen oder einen kleinen Snack zwischendurch."
         },
         {
-          title: "Knusprig und aromatisch",
-          description: "Außen knusprig, innen zart und mit einer feinen Zwiebelnote – einfach unwiderstehlich."
+          "title": "Knusprig und aromatisch",
+          "description": "Außen knusprig, innen zart und mit einer feinen Zwiebelnote – einfach unwiderstehlich."
         },
         {
-          title: "Vielseitig und flexibel",
-          description: "Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip – Kartoffelpuffer passen immer und sind wahre Allrounder in der Küche."
+          "title": "Vielseitig und flexibel",
+          "description": "Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip – Kartoffelpuffer passen immer und sind wahre Allrounder in der Küche."
         }
       ]
     },
-    handwrittenMessage: {
-      mainText: "Guten Appetit! Lass Dir meine Kartoffelpuffer schmecken!",
-      subText: "Ich bin gespannt auf Dein Feedback und Deine eigenen Variationen!",
-      signature: "Dein Veggie-Rezepte Team"
+    "handwrittenMessage": {
+      "mainText": "Guten Appetit! Lass Dir meine Kartoffelpuffer schmecken!",
+      "subText": "Ich bin gespannt auf Dein Feedback und Deine eigenen Variationen!",
+      "signature": "Dein Veggie-Rezepte Team"
     },
-    steps: [
+    "steps": [
       {
-        title: "Schritt 1: Die Vorbereitung",
-        description: "Kartoffeln schälen, reiben und gut ausdrücken, damit die überschüssige Flüssigkeit entfernt wird. Die Zwiebel fein hacken."
+        "title": "Schritt 1: Die Vorbereitung",
+        "description": "Kartoffeln schälen, reiben und gut ausdrücken, damit die überschüssige Flüssigkeit entfernt wird. Die Zwiebel fein hacken."
       },
       {
-        title: "Schritt 2: Der Teig",
-        description: "Alle Zutaten gut miteinander vermengen, sodass ein geschmeidiger Teig entsteht."
+        "title": "Schritt 2: Der Teig",
+        "description": "Alle Zutaten gut miteinander vermengen, sodass ein geschmeidiger Teig entsteht."
       },
       {
-        title: "Schritt 3: Das Braten",
-        description: "Öl in einer Pfanne erhitzen und die Kartoffelpuffer von beiden Seiten goldbraun braten."
+        "title": "Schritt 3: Das Braten",
+        "description": "Öl in einer Pfanne erhitzen und die Kartoffelpuffer von beiden Seiten goldbraun braten."
       },
       {
-        title: "Schritt 4: Das Servieren",
-        description: "Die frisch gebratenen Kartoffelpuffer mit Apfelmus oder Deinem Lieblingsdip servieren und genießen!"
+        "title": "Schritt 4: Das Servieren",
+        "description": "Die frisch gebratenen Kartoffelpuffer mit Apfelmus oder Deinem Lieblingsdip servieren und genießen!"
       }
     ],
-    servingSuggestion: "Am besten direkt heiß servieren, begleitet von Apfelmus oder einem leckeren, cremigen Dip.",
-    nutrition: {
-      calories: 803,
-      protein: "20.6g",
-      carbs: "157.5g",
-      fat: "13.2g"
+    "servingSuggestion": "Am besten direkt heiß servieren, begleitet von Apfelmus oder einem leckeren, cremigen Dip.",
+    "nutrition": {
+      "calories": 803,
+      "protein": "20.6g",
+      "carbs": "157.5g",
+      "fat": "13.2g"
     },
-    tips: [
+    "tips": [
       "Achte darauf, die Kartoffeln gut auszudrücken, damit die Puffer schön knusprig werden.",
       "Für ein zusätzliches Aroma kannst Du frische Kräuter wie Petersilie oder Schnittlauch in den Teig einarbeiten.",
       "Wenn Du die Puffer noch knuspriger haben möchtest, füge einen Esslöffel Semmelbrösel hinzu."
     ],
-    images: {
-      imageIngredient: "/images/Ingredients/kartoffelpufferIngredient.jpeg",
-      image1: "/images/Miscellaneous/kartoffelpuffer1.jpeg",
-      image2: "/images/Miscellaneous/kartoffelpuffer2.jpeg",
-      image3: "/images/Miscellaneous/kartoffelpuffer3.jpeg",
-      image4: "/images/Miscellaneous/kartoffelpuffer4.jpeg",
-      image5: "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
+    "servingSuggestions": {
+      "title": "",
+      "description": "",
+      "items": [
+        {
+          "emoji": "",
+          "title": "",
+          "description": ""
+        }
+      ]
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/kartoffelpufferIngredient.jpeg",
+      "image1": "/images/Miscellaneous/kartoffelpuffer1.jpeg",
+      "image2": "/images/Miscellaneous/kartoffelpuffer2.jpeg",
+      "image3": "/images/Miscellaneous/kartoffelpuffer3.jpeg",
+      "image4": "/images/Miscellaneous/kartoffelpuffer4.jpeg",
+      "image5": "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
     }
   }
 ];
