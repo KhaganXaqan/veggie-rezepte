@@ -308,7 +308,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Recipe Header Image */}
                   <div className="w-full ">
-                    <div className="w-full h-[960px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black">
+                    <div className="w-full h-[960px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)]">
                       <img
                         src={recipe.image}
                         alt={recipe.title}
@@ -326,8 +326,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Recipe Images */}
                   <div className="flex justify-center gap-4 w-full mb-1">
-                    <img src={recipe.images.image1} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black" />
-                    <img src={recipe.images.image2} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black" />
+                    <img src={recipe.images.image1} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)]" />
+                    <img src={recipe.images.image2} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)]" />
                   </div>
 
                   {/* Ingredients Needed */}
@@ -352,7 +352,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   )}
                   {/* Ingredients Image */}
                   <div className="flex justify-center gap-4 w-full mb-4">
-                    <div className="w-[98%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black">
+                    <div className="w-[98%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)]">
                       <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
@@ -406,10 +406,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Recipe Images 2*/}
                   <div className="flex justify-center gap-4 w-full mb-1">
-                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black">
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)]">
                       <img src={recipe.images.image3} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
-                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black">
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)]">
                       <img src={recipe.images.image4} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
@@ -444,7 +444,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     <img
                       src={recipe.images.image5}
                       alt={recipe.title}
-                      className="w-full h-[960px] rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black"
+                      className="w-full h-[960px] rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)]"
                     />
                   </div>
                   {/* Empfohlene Beiträge - Grid with 3 images */}
@@ -543,8 +543,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Recipe Images */}
                   <div className="flex justify-center gap-4 w-full mb-10">
-                    <img src={recipe.images.image6} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black" />
-                    <img src={recipe.images.image7} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)] border border-black" />
+                    <img src={recipe.images.image6} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)]" />
+                    <img src={recipe.images.image7} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(249,210,79,0.6)]" />
                   </div>
 
                   {/* Recipes details card*/}
