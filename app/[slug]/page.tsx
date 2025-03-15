@@ -434,7 +434,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Serving Suggestions */}
                   {recipe.servingSuggestions && (
-                    <div className="w-full mb-12">
+                    <div className="w-full mb-1">
                       <h2 className="font-black text-4xl uppercase text-black w-full tracking-tight leading-tight mb-6">
                         {recipe.servingSuggestions.title}
                       </h2>
@@ -452,25 +452,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           </div>
                         ))}
                       </div>
-                      <p className="text-lg text-black leading-relaxed font-normal mt-8">
+                      <p className="text-lg text-black leading-relaxed font-normal mt-4">
                         Egal, wofür du dich entscheidest – der vegetarische Flammkuchen bleibt der Star auf deinem Teller!
                       </p>
                     </div>
                   )}
 
                   {/* Schritt für Schritt - Recipe */}
-                  <div className="w-full mx-auto mb-8">
-                    <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
-                      {recipe.title}: Ein kulinarisches Meisterwerk
-                    </h2>
-                    <div className="text-lg text-black leading-relaxed font-normal mb-6">
-                      {recipe.steps.map((step, index) => (
-                        <div key={index}>
-                          <p className="font-bold mb-2"> {step.title}</p>
-                          <p className={`text-lg text-black leading-relaxed font-normal mb-4 ${index === 1 ? 'italic' : ''}`}>{step.description}</p>
-                        </div>
-                      ))}
-                    </div>
+                  <div className="w-full mx-auto mb-1">
                     <img
                       src={recipe.images.image2}
                       alt={recipe.title}
