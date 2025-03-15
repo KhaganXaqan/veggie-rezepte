@@ -64,6 +64,10 @@ export type Recipe = {
       description: string;
     }[];
   };
+  funFact: {
+    title: string;
+    description: string;
+  }
   images: {
     imageIngredient: string
     image1: string
@@ -178,6 +182,10 @@ export const recipes: Recipe[] = [
         description: "Der Schlüssel zum Erfolg liegt in der hohen Backtemperatur von 250°C. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern."
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "Am besten schmeckt der  direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.",
     images: {
       imageIngredient: "",
@@ -301,6 +309,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -452,6 +464,10 @@ export const recipes: Recipe[] = [
         description: "Der Schlüssel zum Erfolg liegt in der hohen Backtemperatur von 250°C. In nur 12-15 Minuten verwandelt sich der Teig in eine knusprige Köstlichkeit mit perfekt gebräunten Rändern."
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "Am besten schmeckt der Flammkuchen direkt aus dem Ofen, wenn der Teig noch knusprig und die Zwiebeln goldbraun sind. Traditionell wird er mit einem Glas Weißwein oder Riesling serviert.",
     images: {
       imageIngredient: "/images/Ingredients/kartoffelpufferIngredient.jpeg",
@@ -575,6 +591,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -701,6 +721,11 @@ export const recipes: Recipe[] = [
       "Für ein zusätzliches Aroma kannst Du frische Kräuter wie Petersilie oder Schnittlauch in den Teig einarbeiten.",
       "Wenn Du die Puffer noch knuspriger haben möchtest, füge einen Esslöffel Semmelbrösel hinzu."
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
+    servingSuggestion: "",
     images: {
       imageIngredient: "/images/Ingredients/kartoffelpufferIngredient.jpeg",
       image1: "/images/Miscellaneous/kartoffelpuffer1.jpeg",
@@ -824,6 +849,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -944,6 +973,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1059,6 +1092,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1170,6 +1207,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1290,6 +1331,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1398,6 +1443,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1526,6 +1575,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1614,6 +1667,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1704,6 +1761,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1791,6 +1852,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1880,6 +1945,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -1998,6 +2067,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2125,6 +2198,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2247,6 +2324,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2360,6 +2441,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2450,6 +2535,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2539,6 +2628,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2628,6 +2721,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2716,6 +2813,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2802,6 +2903,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2889,6 +2994,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -2977,6 +3086,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3064,6 +3177,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3153,6 +3270,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3240,6 +3361,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3329,6 +3454,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3415,6 +3544,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3502,6 +3635,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3585,6 +3722,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3672,6 +3813,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3798,6 +3943,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -3921,6 +4070,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",
@@ -4054,6 +4207,10 @@ export const recipes: Recipe[] = [
         description: ""
       }
     ],
+    funFact: {
+      title: "",
+      description: ""
+    },
     servingSuggestion: "",
     images: {
       imageIngredient: "",

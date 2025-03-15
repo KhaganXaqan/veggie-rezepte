@@ -64,6 +64,10 @@ export type Recipe = {
       description: string;
     }[];
   };
+  funFact: {
+    title: string;
+    description: string;
+  }
   images: {
     imageIngredient: string
     image1: string
@@ -273,6 +277,10 @@ export const recipes: Recipe[] = [
         }
       ]
     },
+    funFact: {
+      title: "Fun Fact",
+      description: "Wusstest du, dass der Flammkuchen ursprünglich als „Test-Teig“ genutzt wurde? 🔥 Früher haben Bäcker einen dünnen Teig in den Holzofen geschoben, um die Temperatur zu prüfen – wenn er in wenigen Minuten knusprig wurde, war der Ofen perfekt vorgeheizt! So entstand ganz nebenbei das köstliche Rezept für Flammkuchen. Heute gibt es ihn in vielen Variationen, aber ein vegetarischer Flammkuchen mit cremiger Basis und karamellisierten Zwiebeln ist einfach unschlagbar! 😍"
+    },
     "images": {
       "imageIngredient": "/images/Ingredients/flammkuchen-ingredients.webp",
       "image1": "/images/MainCourses/flammkuchen1.webp",
@@ -400,6 +408,10 @@ export const recipes: Recipe[] = [
           "description": ""
         }
       ]
+    },
+    "funFact": {
+      "title": "",
+      "description": ""
     },
     "images": {
       "imageIngredient": "/images/Ingredients/kartoffelpufferIngredient.jpeg",
