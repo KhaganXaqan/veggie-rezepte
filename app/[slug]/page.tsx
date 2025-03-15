@@ -336,13 +336,13 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
                         INGREDIENTS NEEDED
                       </h2>
-                      <p className="text-lg text-gray-700 leading-relaxed font-normal mb-1">
+                      <p className="text-lg text-black leading-relaxed font-normal mb-1">
                         Here's everything you need to make this easy {recipe.title}:
                       </p>
                       <div className="space-y-4">
                         <ul className="list-disc pl-5">
                           {recipe.ingredientsNeeded.map((ingredient, index) => (
-                            <li key={index} className="text-gray-700 text-lg text-black leading-relaxed mb-2"> {/* Added mb-4 for spacing */}
+                            <li key={index} className="text-black text-lg text-black leading-relaxed mb-2"> {/* Added mb-4 for spacing */}
                               <strong className="font-semibold ">{ingredient.title}:</strong> {ingredient.description}
                             </li>
                           ))}
@@ -370,7 +370,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                         </div>
                         <div className="flex-grow">
-                          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
+                          <span className="text-xs font-medium text-black uppercase tracking-wider mb-2 block">
                             Empfohlener Beitrag
                           </span>
                           <h4 className="font-bold text-xl text-[#0b3558] mb-3">
@@ -448,11 +448,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     />
                   </div>
                   {/* Empfohlene Beiträge - Grid with 3 images */}
-                  <div className="w-full mx-auto mb-8">
+                  <div className="w-full mx-auto mb-4">
                     <div className="flex items-center gap-4 mb-6">
-                      <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
-                        Empfohlene {recipe.category}
-                      </span>
+                      <span className="font-bold text-lg text-black tracking-wider">
+                        <h2>Empfohlene {recipe.category}</h2>
+                      </span>                    
                     </div>
                     <div className="grid grid-cols-3 gap-4">
                       {recommendedRecipes.map((recommendedRecipe, index) => (
