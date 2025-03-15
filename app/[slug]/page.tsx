@@ -324,10 +324,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </div>
 
-                  {/* Recipe Images */}
+                  {/* Recipe Images 1*/}
                   <div className="flex justify-center gap-4 w-full mb-1">
-                    <img src={recipe.images.image1} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
-                    <img src={recipe.images.image2} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img src={recipe.images.image1} alt={recipe.title} className="w-full h-full object-cover object-center" />
+                    </div>
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img src={recipe.images.image2} alt={recipe.title} className="w-full h-full object-cover object-center" />
+                    </div>
                   </div>
 
                   {/* Ingredients Needed */}
@@ -554,10 +558,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   )}
 
-                  {/* Recipe Images */}
-                  <div className="flex justify-center gap-4 w-full mb-10">
-                    <img src={recipe.images.image6} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
-                    <img src={recipe.images.image7} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
+                  {/* Recipe Images 3*/}
+                  <div className="flex justify-center gap-4 w-full mb-1">
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img src={recipe.images.image6} alt={recipe.title} className="w-full h-full object-cover object-center" />
+                    </div>
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img src={recipe.images.image7} alt={recipe.title} className="w-full h-full object-cover object-center" />
+                    </div>
                   </div>
 
                   {/* Recipes details card*/}
