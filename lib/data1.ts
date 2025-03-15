@@ -294,8 +294,8 @@ export const recipes: Recipe[] = [
       "image3": "/images/MainCourses/flammkuchen-variation1.webp",
       "image4": "/images/MainCourses/flammkuchen-variation2.webp",
       "image5": "/images/MainCourses/flammkuchen5.webp",
-      "image6": "/images/MainCourses/flammkuchen3.webp",
-      "image7": "/images/MainCourses/flammkuchen4.webp",
+      "image6": "/images/MainCourses/flammkuchen6.webp",
+      "image7": "/images/MainCourses/flammkuchen7.webp",
     }
   },
   {
