@@ -448,12 +448,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     />
                   </div>
                   {/* Empfohlene Beiträge - Grid with 3 images */}
-                  <div className="w-full mx-auto mb-4">
-                    <div className="flex items-center gap-4 mb-6">
-                      <span className="font-bold text-lg text-black tracking-wider">
-                        <h2>Empfohlene {recipe.category}</h2>
-                      </span>                    
-                    </div>
+                                    
+                  <div className="w-full ">                   
+                    {/* Tipps und Variationen */}
+                      <div className="mt-4">
+                        <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
+                        Empfohlene {recipe.category}
+                      </h2>
+                      </div>
                     <div className="grid grid-cols-3 gap-4">
                       {recommendedRecipes.map((recommendedRecipe, index) => (
                         <a href={`/${recommendedRecipe.slug}`} className="block border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden" key={index}>
@@ -623,12 +625,12 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </section>
 
-                  {/* Empfohlene Beiträge - Grid with 6 images */}
-                  <div className="w-full mx-auto mb-1">
-                    <div className="flex items-center gap-4 mb-1">
-                      <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
+                  <div className="w-full ">                   
+                    {/* Tipps und Variationen */}
+                      <div className="mt-4">
+                        <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
                         Empfohlene Beiträge
-                      </span>
+                      </h2>
                     </div>
                     <div className="grid grid-cols-3 gap-4">
                       {recommendedRecipes2.map((recommendedRecipe, index) => (
