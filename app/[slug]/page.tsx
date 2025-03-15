@@ -326,8 +326,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Recipe Images */}
                   <div className="flex justify-center gap-4 w-full mb-1">
-                    <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
-                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
+                    <img src={recipe.images.image1} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
+                    <img src={recipe.images.image2} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
                   </div>
 
                   {/* Ingredients Needed */}
@@ -407,10 +407,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Recipe Images 2*/}
                   <div className="flex justify-center gap-4 w-full mb-1">
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-full h-full object-cover object-center" />
+                      <img src={recipe.images.image3} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={recipe.images.image1} alt={recipe.title} className="w-full h-full object-cover object-center" />
+                      <img src={recipe.images.image4} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
 
@@ -442,7 +442,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Schritt für Schritt - Recipe */}
                   <div className="w-full mx-auto mb-1">
                     <img
-                      src={recipe.images.image2}
+                      src={recipe.images.image5}
                       alt={recipe.title}
                       className="w-full h-[960px] rounded-lg"
                     />
@@ -543,8 +543,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Recipe Images */}
                   <div className="flex justify-center gap-4 w-full mb-10">
-                    <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
-                    <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
+                    <img src={recipe.images.image6} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
+                    <img src={recipe.images.image7} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
                   </div>
 
                   {/* Recipes details card*/}

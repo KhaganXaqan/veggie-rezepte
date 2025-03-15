@@ -16,10 +16,10 @@ export type Recipe = {
     title: string;
     description: string;
   }[];
-  ingredients: { 
+  ingredients: {
     amount?: number | string
     unit?: string
-    name: string 
+    name: string
   }[]
   instructions: string[]
   nutrition: {
@@ -71,6 +71,8 @@ export type Recipe = {
     image3: string
     image4: string
     image5: string
+    image6: string
+    image7: string
   }
 }
 
@@ -151,7 +153,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -183,7 +185,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: "",
     }
   },
   {
@@ -272,7 +276,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -304,7 +308,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -317,7 +323,7 @@ export const recipes: Recipe[] = [
     "tags": ["Traditionell", "Hauptgerichte", "Flammkuchen"],
     "servings": 1,
     "description": "Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis.",
-    "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",    
+    "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
     "introductionParagraph": "Backen von Flammkuchen ist in dieser Jahreszeit eine meiner liebsten Beschäftigungen in der Küche. Es ist so einfach und stressfrei, und dabei füllt der knusprige, goldbraune Teig das ganze Haus mit herrlichen Aromen. Und das Beste daran? Du kannst ihn nach Belieben mit deinen Lieblingszutaten belegen, und er schmeckt immer köstlich. Dieser vegetarische Flammkuchen ist mein absoluter Favorit – ein dünner, knuspriger Boden, bedeckt mit einer cremigen Mischung, süß karamellisierten Zwiebeln und einer großzügigen Portion Käse. Es ist ein einfaches, aber unglaublich leckeres Gericht, das jeder Mahlzeit eine besondere Note verleiht. Und das Beste: Es ist so einfach zuzubereiten und das Ergebnis ist so zufriedenstellend, dass du ihn immer wieder machen wirst!",
     additionalParagraph: "",
     ingredientsNeeded: [
@@ -453,7 +459,9 @@ export const recipes: Recipe[] = [
       image2: "/images/Miscellaneous/kartoffelpuffer2.jpeg",
       image3: "/images/Miscellaneous/kartoffelpuffer3.jpeg",
       image4: "/images/Miscellaneous/kartoffelpuffer4.jpeg",
-      image5: "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
+      image5: "/images/Miscellaneous/kartoffelpuffer5.jpeg",
+      image6: "/images/MainCourses/flammkuchen6.webp",
+      image7: "/images/MainCourses/flammkuchen7.webp"
     }
   },
   {
@@ -534,7 +542,7 @@ export const recipes: Recipe[] = [
       carbs: "50g",
       fat: "20g"
     },
-    tips: [ ],
+    tips: [],
     whyFavorite: {
       title: "",
       reasons: [
@@ -546,7 +554,7 @@ export const recipes: Recipe[] = [
     },
     handwrittenMessage: {
       mainText: "Und jetzt lass dir meinen Flammkuchen richtig gut schmecken!",
-      subText:"",
+      subText: "",
       signature: ""
     },
     steps: [
@@ -574,7 +582,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -697,9 +707,11 @@ export const recipes: Recipe[] = [
       image2: "/images/Miscellaneous/kartoffelpuffer2.jpeg",
       image3: "/images/Miscellaneous/kartoffelpuffer3.jpeg",
       image4: "/images/Miscellaneous/kartoffelpuffer4.jpeg",
-      image5: "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
+      image5: "/images/Miscellaneous/kartoffelpuffer5.jpeg",
+      image6: "",
+      image7: ""
     }
-  },  
+  },
   {
     title: "Semmelknödel",
     image: "/images/Miscellaneous/semmelknoedel.webp",
@@ -787,7 +799,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -819,7 +831,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -905,7 +919,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -937,7 +951,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1018,7 +1034,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1050,7 +1066,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1127,7 +1145,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1159,7 +1177,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1245,7 +1265,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1277,7 +1297,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1351,7 +1373,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1383,7 +1405,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1477,7 +1501,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1509,7 +1533,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1563,7 +1589,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1595,7 +1621,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1651,7 +1679,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1683,7 +1711,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1736,7 +1766,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1768,7 +1798,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1823,13 +1855,13 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
       subText: "",
       signature: ""
-    },    
+    },
     steps: [
       {
         title: "",
@@ -1855,7 +1887,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -1939,7 +1973,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -1971,7 +2005,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2064,7 +2100,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2096,7 +2132,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2184,7 +2222,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2216,7 +2254,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2295,7 +2335,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2327,7 +2367,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2383,7 +2425,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2415,7 +2457,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2470,7 +2514,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2502,7 +2546,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2557,7 +2603,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2589,7 +2635,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2643,7 +2691,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2675,7 +2723,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2727,7 +2777,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2759,7 +2809,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2812,7 +2864,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2844,7 +2896,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2898,7 +2952,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -2930,7 +2984,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -2983,7 +3039,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3015,7 +3071,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3070,7 +3128,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3102,7 +3160,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3155,7 +3215,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3187,7 +3247,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3242,7 +3304,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3274,7 +3336,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3326,7 +3390,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3358,7 +3422,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3411,7 +3477,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3443,7 +3509,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3456,7 +3524,7 @@ export const recipes: Recipe[] = [
     tags: ["Dessert", "Frucht", "Traditionell"],
     servings: 4,
     description: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",
-    descriptionOnImage: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",  
+    descriptionOnImage: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",
     introductionParagraph: "",
     additionalParagraph: "",
     ingredientsNeeded: [
@@ -3492,7 +3560,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3524,7 +3592,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3577,7 +3647,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3609,7 +3679,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3701,7 +3773,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3733,7 +3805,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
   {
@@ -3822,7 +3896,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3854,10 +3928,12 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   },
-    {
+  {
     title: "Linsen-Bolognese",
     image: "/images/MainCourses/linsen-bolognese.webp",
     prepTime: "40 Min.",
@@ -3953,7 +4029,7 @@ export const recipes: Recipe[] = [
     tips: [],
     whyFavorite: {
       title: "",
-    reasons: []
+      reasons: []
     },
     handwrittenMessage: {
       mainText: "",
@@ -3985,7 +4061,9 @@ export const recipes: Recipe[] = [
       image2: "",
       image3: "",
       image4: "",
-      image5: ""
+      image5: "",
+      image6: "",
+      image7: ""
     }
   }
 ];

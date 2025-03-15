@@ -71,6 +71,8 @@ export type Recipe = {
     image3: string
     image4: string
     image5: string
+    image6: string
+    image7: string
   }
 }
 
@@ -273,11 +275,13 @@ export const recipes: Recipe[] = [
     },
     "images": {
       "imageIngredient": "/images/Ingredients/flammkuchen-ingredients.webp",
-      "image1": "/images/Miscellaneous/kartoffelpuffer1.jpeg",
-      "image2": "/images/Miscellaneous/kartoffelpuffer2.jpeg",
-      "image3": "/images/Miscellaneous/kartoffelpuffer3.jpeg",
-      "image4": "/images/Miscellaneous/kartoffelpuffer4.jpeg",
-      "image5": "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
+      "image1": "/images/MainCourses/flammkuchen1.webp",
+      "image2": "/images/MainCourses/flammkuchen2.webp",
+      "image3": "/images/MainCourses/flammkuchen-variation1.webp",
+      "image4": "/images/MainCourses/flammkuchen-variation2.webp",
+      "image5": "/images/MainCourses/flammkuchen3.webp",
+      "image6": "/images/MainCourses/flammkuchen4.webp",
+      "image7": "/images/MainCourses/flammkuchen5.webp",
     }
   },
   {
@@ -403,7 +407,9 @@ export const recipes: Recipe[] = [
       "image2": "/images/Miscellaneous/kartoffelpuffer2.jpeg",
       "image3": "/images/Miscellaneous/kartoffelpuffer3.jpeg",
       "image4": "/images/Miscellaneous/kartoffelpuffer4.jpeg",
-      "image5": "/images/Miscellaneous/kartoffelpuffer5.jpeg" 
+      "image5": "/images/Miscellaneous/kartoffelpuffer5.jpeg" ,
+      "image6": "/images/MainCourses/flammkuchen6.webp",
+      "image7": "/images/MainCourses/flammkuchen7.webp"
     }
   }
 ];
