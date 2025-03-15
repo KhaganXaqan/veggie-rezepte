@@ -318,31 +318,31 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </div>
 
                   {/* Additional Paragraph */}
-                  <div className="w-full mb-12">
+                  <div className="w-full mb-1">
                     <div className="text-lg text-black leading-relaxed font-normal">
                       {recipe.additionalParagraph}
                     </div>
                   </div>
 
                   {/* Recipe Images */}
-                  <div className="flex justify-center gap-4 w-full mb-10">
+                  <div className="flex justify-center gap-4 w-full mb-1">
                     <img src={recipe.images.image4} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
                     <img src={recipe.images.image5} alt="Kartoffelpuffer" className="w-[49%] h-[543px] rounded-2xl overflow-hidden" />
                   </div>
 
                   {/* Ingredients Needed */}
                   {recipe.ingredientsNeeded && (
-                    <div className="w-full mb-12">
+                    <div className="w-full mb-1">
                       <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
                         INGREDIENTS NEEDED
                       </h2>
-                      <p className="text-lg text-gray-700 leading-relaxed font-normal mb-6">
+                      <p className="text-lg text-gray-700 leading-relaxed font-normal mb-1">
                         Here's everything you need to make this easy {recipe.title}:
                       </p>
                       <div className="space-y-4">
                         <ul className="list-disc pl-5">
                           {recipe.ingredientsNeeded.map((ingredient, index) => (
-                            <li key={index} className="text-gray-700 text-lg text-black leading-relaxed mb-4"> {/* Added mb-4 for spacing */}
+                            <li key={index} className="text-gray-700 text-lg text-black leading-relaxed mb-2"> {/* Added mb-4 for spacing */}
                               <strong className="font-semibold ">{ingredient.title}:</strong> {ingredient.description}
                             </li>
                           ))}
@@ -358,7 +358,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </div>
 
                   {/* Empfohlener Beitrag */}
-                  <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
+                  <div className="w-full mx-auto mb-1 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
                     <a href={`/${randomRecipe.slug}`} className="block p-6 bg-[#f9d24f]/30">
                       <div className="flex items-start gap-6">
                         <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
@@ -387,30 +387,12 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </a>
                   </div>
 
-                  {/* Ingredients Section */}
-                  <div className="w-full ">
-                    {/* {recipe.ingredientGroups?.map((group, index) => (
-                      <div key={index} className="mb-6">
-                        <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
-                          {group.title}
-                        </h2>
-                        <p className="text-lg text-black leading-relaxed font-normal mb-4">
-                          {group.description}
-                        </p>
-                        <ul className="list-disc pl-6 space-y-2">
-                          {group.ingredients.map((ingredient, i) => (
-                            <li key={i} className="text-lg text-black leading-relaxed font-normal">
-                              {ingredient.amount && <span className="font-medium">{ingredient.amount} {ingredient.unit}</span>} {ingredient.name}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}*/}
-
+                  
+                  <div className="w-full ">                   
                     {/* Tipps und Variationen */}
                     {recipe.tips && (
                       <div className="mt-4">
-                        <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
+                        <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-1">
                           Tipps und Variationen
                         </h2>
                         <ul className="list-disc pl-6 space-y-2">
@@ -423,7 +405,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </div>
 
                   {/* Recipe Images 2*/}
-                  <div className="flex justify-center gap-4 w-full mb-12">
+                  <div className="flex justify-center gap-4 w-full mb-1">
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
                       <img src={recipe.images.imageIngredient} alt={recipe.title} className="w-full h-full object-cover object-center" />
                     </div>
@@ -435,24 +417,23 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Serving Suggestions */}
                   {recipe.servingSuggestions && (
                     <div className="w-full mb-1">
-                      <h2 className="font-black text-4xl uppercase text-black w-full tracking-tight leading-tight mb-6">
+                      <h2 className="font-black text-4xl uppercase text-black w-full tracking-tight leading-tight mb-2">
                         {recipe.servingSuggestions.title}
                       </h2>
-                      <p className="text-lg text-black leading-relaxed font-normal mb-8">
+                      <p className="text-lg text-black leading-relaxed font-normal mb-1">
                         {recipe.servingSuggestions.description}
                       </p>
-                      <div className="space-y-6">
+                      <div className="space-y-2">
                         {recipe.servingSuggestions.items.map((item, index) => (
-                          <div key={index} className="flex items-start gap-4">
+                          <div key={index} className="flex items-start gap-2">
                             <span className="text-3xl">{item.emoji}</span>
                             <div>
-                              <h3 className="font-bold text-xl text-black mb-2">{item.title}</h3>
-                              <p className="text-lg text-black leading-relaxed">{item.description}</p>
+                              <strong className="font-semibold ">{item.title}:</strong> {item.description}
                             </div>
                           </div>
                         ))}
                       </div>
-                      <p className="text-lg text-black leading-relaxed font-normal mt-4">
+                      <p className="text-lg text-black leading-relaxed font-normal mt-1">
                         Egal, wofür du dich entscheidest – der vegetarische Flammkuchen bleibt der Star auf deinem Teller!
                       </p>
                     </div>
@@ -500,8 +481,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                   {/* Why Recipe is a Favorite */}
                   {recipe.whyFavorite && (
-                    <div className="w-full mx-auto mb-8">
-                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-6">
+                    <div className="w-full mx-auto mb-1">
+                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-1">
                         {recipe.whyFavorite.title}
                       </h2>
                       <ul className="space-y-4">
@@ -643,8 +624,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </section>
 
                   {/* Empfohlene Beiträge - Grid with 6 images */}
-                  <div className="w-full mx-auto mb-8">
-                    <div className="flex items-center gap-4 mb-6">
+                  <div className="w-full mx-auto mb-1">
+                    <div className="flex items-center gap-4 mb-1">
                       <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
                         Empfohlene Beiträge
                       </span>
