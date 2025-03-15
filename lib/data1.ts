@@ -2,8 +2,8 @@
 export type Recipe = {
   title: string
   image: string
-  prepTime?: string
-  cookingTime : string
+  prepTime?: number
+  cookingTime? : number
   rating?: number
   category: string
   slug: string
@@ -87,8 +87,8 @@ export const recipes: Recipe[] = [
   {
     "title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
     "image": "/images/MainCourses/flammkuchen.webp",
-    "prepTime": "30 Min.",
-    "cookingTime": "12 Min.", 
+    "prepTime": 30,
+    "cookingTime": 12, 
     "rating": 4.8,
     "category": "Hauptgerichte",
     "slug": "flammkuchen",
@@ -185,10 +185,10 @@ export const recipes: Recipe[] = [
       "Heiß servieren und genießen!"
     ],
     "nutrition": {
-      "calories": 169,
-      "protein": "4.83g",
-      "carbs": "11.67g",
-      "fat": "8.83g"
+      "calories": 565,
+      "protein": "14.5g",
+      "carbs": "52.5g",
+      "fat": "33g"
     },
     "tips": [
       "Für eine vegane Variante kannst du die Crème fraîche durch pflanzliche Sahne ersetzen und den Käse weglassen oder durch veganen Käse austauschen.",
@@ -293,16 +293,16 @@ export const recipes: Recipe[] = [
       "image2": "/images/MainCourses/flammkuchen2.webp",
       "image3": "/images/MainCourses/flammkuchen-variation1.webp",
       "image4": "/images/MainCourses/flammkuchen-variation2.webp",
-      "image5": "/images/MainCourses/flammkuchen3.webp",
-      "image6": "/images/MainCourses/flammkuchen4.webp",
-      "image7": "/images/MainCourses/flammkuchen5.webp",
+      "image5": "/images/MainCourses/flammkuchen5.webp",
+      "image6": "/images/MainCourses/flammkuchen3.webp",
+      "image7": "/images/MainCourses/flammkuchen4.webp",
     }
   },
   {
     "title": "Kartoffelpuffer",
     "image": "/images/Miscellaneous/kartoffelpuffer.webp",
-    "prepTime": "25 Min",
-    "cookingTime": "12 Min.", 
+    "prepTime": 25,
+    "cookingTime": 12, 
     "rating": 5.0,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",

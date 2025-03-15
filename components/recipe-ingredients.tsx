@@ -13,8 +13,8 @@ type Ingredient = {
 export function RecipeIngredients({
   initialServings = 1,
   ingredients,
-  prepTime = 0,
-  cookTime = 0
+  prepTime,
+  cookTime
 }: {
   initialServings?: number;
   ingredients: Ingredient[];
