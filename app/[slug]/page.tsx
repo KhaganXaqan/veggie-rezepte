@@ -157,7 +157,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   if (!recipe) {
     notFound();
   }
-  
+
   // After notFound(), recipe is guaranteed to be non-null
   const validRecipe = recipe;
 
@@ -396,8 +396,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </a>
                   </div>
 
-                  
-                  <div className="w-full ">                   
+
+                  <div className="w-full ">
                     {/* Tipps und Variationen */}
                     {validRecipe.tips && (
                       <div className="mt-4">
@@ -423,12 +423,12 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </div>
 
-                  
+
                   {/* Fun Fact */}
                   <div className="w-full mx-auto mb-1 border border-black rounded-lg overflow-hidden">
                     <div className="p-6 bg-[#f9d24f]/30">
                       <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
-                      {validRecipe.funFact.title}
+                        {validRecipe.funFact.title}
                       </h2>
                       <p className="text-lg text-black leading-relaxed font-normal mb-1">
                         {validRecipe.funFact.description}
@@ -470,11 +470,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     />
                   </div>
                   {/* Empfohlene Beiträge - Grid with 3 images */}
-                                    
-                  <div className="w-full ">                   
+
+                  <div className="w-full ">
                     {/* Tipps und Variationen */}
-                      <div className="mt-4">
-                        <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
+                    <div className="mt-4">
+                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
                         Empfohlene {validRecipe.category}
                       </h2>
                     </div>
@@ -651,16 +651,15 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </section>
 
-                  <div className="w-full ">                   
-                    {/* Tipps und Variationen */}
-                      <div className="mt-4">
-                        <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
+                  <div className="w-full ">
+                    <div className="mt-4">
+                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
                         Empfohlene Beiträge
                       </h2>
                     </div>
                     <div className="grid grid-cols-3 gap-4">
                       {recommendedRecipes2.map((recommendedRecipe, index) => (
-                        <a href={`/${recommendedRecipe.slug}`} className="block border border-black rounded-lg overflow-hidden h-full" key={index}>
+                        <a href={`/${recommendedRecipe.slug}`} className="block border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden h-full" key={index}>
                           <div className="relative group bg-[#f9d24f]/30 p-4 h-full flex flex-col">
                             <div className="w-full aspect-square rounded-lg overflow-hidden">
                               <img
