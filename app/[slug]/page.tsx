@@ -290,11 +290,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       <div className="flex items-center gap-6">
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Zubereitung</span>
-                          <span className="text-xs">{validRecipe.prepTime}</span>
+                          <span className="text-xs">{validRecipe.prepTime} Min</span>
                         </div>
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Kochen</span>
-                          <span className="text-xs">{validRecipe.cookingTime}</span>
+                          <span className="text-xs">{validRecipe.cookingTime} Min</span>
                         </div>
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Portionen</span>
