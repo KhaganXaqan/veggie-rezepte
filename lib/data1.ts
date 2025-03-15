@@ -428,8 +428,8 @@ export const recipes: Recipe[] = [
       "image3": "/images/Miscellaneous/kartoffelpuffer3.jpeg",
       "image4": "/images/Miscellaneous/kartoffelpuffer4.jpeg",
       "image5": "/images/Miscellaneous/kartoffelpuffer5.jpeg" ,
-      "image6": "/images/MainCourses/flammkuchen6.webp",
-      "image7": "/images/MainCourses/flammkuchen7.webp"
+      "image6": "/images/MainCourses/kartoffelpuffer1.jpeg",
+      "image7": "/images/MainCourses/kartoffelpuffer2.jpeg"
     }
   }
 ];

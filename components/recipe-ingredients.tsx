@@ -326,12 +326,12 @@ export function RecipeIngredients({
                       <div class="recipe-info-value">${prepTime} Min</div>
                     </div>
                     <div class="recipe-info-item">
-                      <div class="recipe-info-label">Kochzeit</div>
+                      <div class="recipe-info-label">Kochen</div>
                       <div class="recipe-info-value">${cookTime} Min</div>
                     </div>
                     <div class="recipe-info-item">
                       <div class="recipe-info-label">Gesamtzeit</div>
-                      <div class="recipe-info-value">${(prepTime || 0) + cookTime} Min</div>
+                      <div class="recipe-info-value">${(prepTime || 0) + (cookTime || 0)} Min</div>
                     </div>
                   </div>
                   

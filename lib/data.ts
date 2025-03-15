@@ -737,7 +737,6 @@ export const recipes: Recipe[] = [
       title: "",
       description: ""
     },
-    servingSuggestion: "",
     images: {
       imageIngredient: "/images/Ingredients/kartoffelpufferIngredient.jpeg",
       image1: "/images/Miscellaneous/kartoffelpuffer1.jpeg",
