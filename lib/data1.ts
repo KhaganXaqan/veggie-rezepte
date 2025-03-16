@@ -1,6 +1,7 @@
 // First, let's define the type for a recipe
 export type Recipe = {
   title: string
+  seo_title: string
   image: string
   prepTime?: number
   cookingTime?: number
@@ -86,7 +87,8 @@ export type Recipe = {
 // Then update the recipes array with all required properties
 export const recipes: Recipe[] = [
   {
-    "title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
+    "title": "Flammkuchen",
+    "seo_title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
     "image": "/images/MainCourses/flammkuchen.webp",
     "prepTime": 30,
     "cookingTime": 12,
@@ -305,7 +307,8 @@ export const recipes: Recipe[] = [
     }
   },
   {
-    "title": "Vegetarische Kartoffelpuffer Rezept – Schnell, einfach und knusprig",
+    "title": "Kartoffelpuffer",
+    "seo_title": "Vegetarische Kartoffelpuffer Rezept – Schnell, einfach und knusprig",
     "image": "/images/Miscellaneous/kartoffelpuffer.webp",
     "prepTime": 25,
     "cookingTime": 25,
