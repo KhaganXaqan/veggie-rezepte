@@ -9,7 +9,8 @@ type RecipeHeaderProps = {
   image: string
   category: string
   tags: string[]
-  prepTime?: string
+  prepTime?: number
+  cookingTime?: number
   servings?: number
   rating?: number
 }
@@ -21,6 +22,7 @@ export function RecipeHeader({
   category,
   tags,
   prepTime,
+  cookingTime,
   servings,
   rating
 }: RecipeHeaderProps) {

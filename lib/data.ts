@@ -1,26 +1,84 @@
 // First, let's define the type for a recipe
 export type Recipe = {
   title: string
-  slug: string
   image: string
-  category: string
-  tags?: string[]
-  prepTime?: string
-  cookTime?: string
-  description?: string
-  ingredients: {
-    amount?: number | undefined;
-    unit?: string;
-    name: string;
-  }[];
-  instructions: string[]
-  servings?: number
+  prepTime?: number
+  cookingTime? : number
   rating?: number
-  nutrition?: {
-    calories: number | string
+  category: string
+  slug: string
+  tags: string[]
+  servings: number
+  description: string
+  descriptionOnImage: string
+  introductionParagraph: string
+  additionalParagraph: string
+  ingredientsNeeded: {
+    title: string;
+    description: string;
+  }[];
+  ingredients: {
+    amount?: number | string
+    unit?: string
+    name: string
+  }[]
+  instructions: string[]
+  nutrition: {
+    calories: number
     protein: string
     carbs: string
     fat: string
+  }
+  tips: string[]
+  whyFavorite: {
+    title: string
+    reasons: {
+      title: string
+      description: string
+    }[]
+  }
+  handwrittenMessage: {
+    mainText: string
+    subText: string
+    signature: string
+  }
+  ingredientGroups?: {
+    title: string
+    description: string
+    ingredients: {
+      amount?: number | string
+      unit?: string
+      name: string
+    }[]
+  }[]
+  steps: {
+    title: string
+    description: string
+  }[]
+  servingSuggestion: string
+  servingSuggestions?: {
+    title: string;
+    description: string;
+    note: string;
+    items: {
+      emoji: string;
+      title: string;
+      description: string;
+    }[];
+  };
+  funFact: {
+    title: string;
+    description: string;
+  }
+  images: {
+    imageIngredient: string
+    image1: string
+    image2: string
+    image3: string
+    image4: string
+    image5: string
+    image6: string
+    image7: string
   }
 }
 
@@ -29,8 +87,9 @@ export const recipes: Recipe[] = [
   {
     title: "Kartoffelklöße",
     image: "/images/Miscellaneous/kartoffelkloesse.webp",
-    prepTime: "60 Min.",
-    rating: 4.8,
+    prepTime: 60,
+cookingTime: 20,
+rating: 4.8,
     category: "Hauptgerichte",
     slug: "kartoffelkloesse",
     tags: ["Traditionell", "Beilage", "Kartoffeln"],
@@ -43,7 +102,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Kartoffeln schälen, in große Stücke schneiden und in Salzwasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und mit einem Kartoffelstampfer zerdrücken.",
       "Die Kartoffelstärke, Eier, Salz und Muskatnuss zu den gestampften Kartoffeln geben und alles zu einem glatten Teig verkneten.",
       "Den Teig zu gleichmäßigen Klößen formen. Dabei darauf achten, dass die Klöße fest genug sind, um nicht auseinanderzufallen.",
@@ -55,13 +121,67 @@ export const recipes: Recipe[] = [
       protein: "4g",
       carbs: "48g",
       fat: "2g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Spinat-Käse Lasagne",
     image: "/images/MainCourses/spinat-kaese-lasagne.webp",
-    prepTime: "50 Min.",
-    rating: 4.7,
+    prepTime: 50,
+cookingTime: 20,
+rating: 4.7,
     category: "Aufläufe",
     slug: "spinat-kaese-lasagne",
     tags: ["Auflauf", "Pasta", "Käse"],
@@ -76,7 +196,14 @@ export const recipes: Recipe[] = [
       { amount: 2, name: "Zwiebeln" },
       { amount: 2, name: "Knoblauchzehen" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Spinat waschen, abtropfen lassen und in einem großen Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
       "Die Zwiebeln und den Knoblauch schälen und fein hacken. In einer Pfanne mit etwas Olivenöl glasig dünsten. Die Tomaten waschen, würfeln und zu den Zwiebeln geben. Alles etwa 10 Minuten köcheln lassen, bis eine dickflüssige Sauce entsteht.",
       "Die Lasagneplatten nach Packungsanleitung in Salzwasser al dente kochen, abgießen und beiseite stellen.",
@@ -89,13 +216,67 @@ export const recipes: Recipe[] = [
       protein: "15g",
       carbs: "30g",
       fat: "18g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Flammkuchen",
     image: "/images/MainCourses/flammkuchen.webp",
-    prepTime: "30 Min.",
-    rating: 4.8,
+    prepTime: 30,
+cookingTime: 20,
+rating: 4.8,
     category: "Hauptgerichte",
     slug: "flammkuchen",
     tags: ["Traditionell", "Hauptgerichte", "Flammkuchen"],
@@ -112,7 +293,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
       "Für den Teig Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig verkneten. Den Teig dünn ausrollen und auf das Backblech legen.",
       "Die Crème fraîche gleichmäßig auf dem Teig verteilen. Mit Salz und Pfeffer würzen.",
@@ -125,13 +313,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "40g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Käsespätzle",
     image: "/images/MainCourses/kaesespaetzle.webp",
-    prepTime: "45 Min.",
-    rating: 4.9,
+    prepTime: 45,
+cookingTime: 20,
+rating: 4.9,
     category: "Hauptgerichte",
     slug: "kaesespaetzle",
     tags: ["Traditionell", "Pasta", "Käse"],
@@ -145,7 +387,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Mehl in eine große Schüssel geben. Die Eier und die Milch hinzufügen und alles zu einem glatten Teig verrühren. Mit Salz und Muskatnuss würzen.",
       "Einen großen Topf mit Salzwasser zum Kochen bringen. Den Spätzleteig portionsweise durch ein Spätzlesieb oder einen Spätzlehobel ins kochende Wasser drücken.",
       "Die Spätzle etwa 2–3 Minuten kochen, bis sie an die Oberfläche steigen. Anschließend mit einer Schaumkelle herausheben und abtropfen lassen.",
@@ -157,13 +406,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "30g",
       fat: "12g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Kartoffelpuffer",
     image: "/images/Miscellaneous/kartoffelpuffer.webp",
-    prepTime: "30 Min.",
-    rating: 4.8,
+    prepTime: 30,
+cookingTime: 20,
+rating: 4.8,
     category: "Hauptgerichte",
     slug: "kartoffelpuffer",
     tags: ["Traditionell", "Kartoffeln", "Snack"],
@@ -177,7 +480,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Kartoffeln schälen und grob reiben. Die geriebenen Kartoffeln in ein sauberes Küchentuch geben und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
       "Die Eier in einer Schüssel verquirlen. Das Mehl, die Milch, Salz und Muskatnuss hinzufügen und zu einem glatten Teig verrühren.",
       "Die geriebenen Kartoffeln unter den Teig heben und alles gut vermengen.",
@@ -189,13 +499,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "20g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Semmelknödel",
     image: "/images/Miscellaneous/semmelknoedel.webp",
-    prepTime: "40 Min.",
-    rating: 4.6,
+    prepTime: 40,
+cookingTime: 20,
+rating: 4.6,
     category: "Hauptgerichte",
     slug: "semmelknoedel",
     tags: ["Traditionell", "Beilage", "Brot"],
@@ -209,7 +573,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Kartoffeln schälen, in Stücke schneiden und in Salzwasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und mit einem Kartoffelstampfer zerdrücken.",
       "Das Mehl, die Eier, die Milch, Salz und Muskatnuss zu den Kartoffeln geben und alles zu einem glatten Teig verkneten.",
       "Aus dem Teig gleichmäßige Knödel formen. Dabei darauf achten, dass die Knödel fest genug sind, um nicht auseinanderzufallen.",
@@ -221,13 +592,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "40g",
       fat: "2g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Pilzgulasch",
     image: "/images/Miscellaneous/pilzgulasch.webp",
-    prepTime: "45 Min.",
-    rating: 4.7,
+    prepTime: 45,
+cookingTime: 20,
+rating: 4.7,
     category: "Hauptgerichte",
     slug: "pilzgulasch",
     tags: ["Traditionell", "Pilze", "Hauptgericht"],
@@ -241,7 +666,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Pilze putzen, waschen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
       "In einem großen Topf etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten.",
       "Die Pilze zugeben und etwa 5 Minuten mitbraten, bis sie Flüssigkeit abgeben und leicht gebräunt sind.",
@@ -253,12 +685,66 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "10g",
       fat: "5g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Gemüsestrudel",
     image: "/images/Miscellaneous/gemuesestrudel.webp",
-    prepTime: "75 Min.",
+    prepTime: 75,
+    cookingTime: 20,
     rating: 4.7,
     category: "Hauptgerichte",
     slug: "gemuese-strudel",
@@ -274,7 +760,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei, den Zucker, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
       "Das Gemüse waschen, schneiden und in einer Pfanne mit etwas Öl kurz anbraten. Mit Salz und Pfeffer würzen und abkühlen lassen.",
       "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Das Gemüse gleichmäßig auf dem Teig verteilen, dabei einen Rand von ca. 2 cm frei lassen.",
@@ -286,13 +779,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "40g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Grießnockerl",
     image: "/images/Miscellaneous/griessnockerl.webp",
-    prepTime: "35 Min.",
-    rating: 4.6,
+    prepTime: 35,
+cookingTime: 20,
+rating: 4.6,
     category: "Suppen",
     slug: "griessnockerl",
     tags: ["Traditionell", "Suppe", "Beilage"],
@@ -306,7 +853,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Zwiebel und den Knoblauch schälen und fein hacken. In einem Topf etwas Öl erhitzen und die Zwiebel sowie den Knoblauch glasig dünsten.",
       "Die Gemüsebrühe hinzufügen und zum Kochen bringen. Die Grießnocken langsam unter Rühren in die Brühe geben und etwa 10 Minuten köcheln lassen, bis sie weich sind.",
       "Mit Salz und Pfeffer abschmecken. Die Suppe heiß servieren, eventuell mit frischen Kräutern garnieren."
@@ -316,13 +870,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "30g",
       fat: "2g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Spinatknödel",
     image: "/images/Miscellaneous/spinatknoedel.webp",
-    prepTime: "55 Min.",
-    rating: 4.8,
+    prepTime: 55,
+cookingTime: 20,
+rating: 4.8,
     category: "Hauptgerichte",
     slug: "spinatknoedel",
     tags: ["Traditionell", "Spinat", "Knödel"],
@@ -336,7 +944,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Spinat waschen, abtropfen lassen und in einem Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
       "Das Mehl in eine Schüssel geben. Die Eier, Milch, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig verrühren.",
       "Den Spinat fein hacken und unter den Teig heben. Alles gut vermengen, bis eine homogene Masse entsteht.",
@@ -349,13 +964,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "30g",
       fat: "5g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Gemüsesuppe",
     image: "/images/Soups/gemuesesuppe.webp",
-    prepTime: "40 Min.",
-    rating: 4.5,
+    prepTime: 40,
+cookingTime: 20,
+rating: 4.5,
     category: "Suppen",
     slug: "gemuesesuppe",
     tags: ["Traditionell", "Suppe", "Gemüse"],
@@ -367,7 +1036,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Gemüse waschen, schälen und in gleichmäßige Stücke schneiden. Je nach Gemüseart (z. B. Karotten, Sellerie, Lauch) die Garzeit anpassen.",
       "In einem großen Topf etwas Öl erhitzen. Das Gemüse darin etwa 5 Minuten anbraten, bis es leicht Farbe annimmt.",
       "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und die Suppe etwa 30 Minuten köcheln lassen, bis das Gemüse weich ist.",
@@ -378,13 +1054,67 @@ export const recipes: Recipe[] = [
       protein: "2g",
       carbs: "10g",
       fat: "1g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Kartoffelgratin",
     image: "/images/MainCourses/kartoffelgratin.webp",
-    prepTime: "60 Min.",
-    rating: 4.9,
+    prepTime: 60,
+cookingTime: 20,
+rating: 4.9,
     category: "Aufläufe",
     slug: "kartoffelgratin",
     tags: ["Traditionell", "Auflauf", "Kartoffeln"],
@@ -399,7 +1129,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Kartoffeln schälen und in dünne Scheiben schneiden. Den Backofen auf 180°C vorheizen.",
       "In einem Topf die Butter schmelzen. Das Mehl unterrühren und kurz anschwitzen. Nach und nach die Milch hinzufügen und unter ständigem Rühren eine glatte Sauce kochen. Mit Salz und Pfeffer abschmecken.",
       "Eine Auflaufform mit etwas Butter einfetten. Schichtweise die Kartoffelscheiben und die Sauce in die Form geben. Mit einer Schicht Sauce abschließen.",
@@ -411,13 +1148,67 @@ export const recipes: Recipe[] = [
       protein: "15g",
       carbs: "30g",
       fat: "20g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Quinoa-Buddha-Bowl",
     image: "/images/MainCourses/quinoa-buddha-bowl.webp",
-    prepTime: "25 Min.",
-    rating: 4.7,
+    prepTime: 25,
+cookingTime: 20,
+rating: 4.7,
     category: "Hauptgerichte",
     slug: "quinoa-buddha-bowl",
     tags: ["Modern", "Gesund", "Bowl"],
@@ -432,7 +1223,14 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "ml", name: "Sojasauce" },
       { amount: 100, unit: "ml", name: "Olivenöl" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Quinoa nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
       "Das Gemüse waschen und in mundgerechte Stücke schneiden. Den Fisch in einer Pfanne mit etwas Olivenöl anbraten, bis er gar ist. Die Nüsse in einer Pfanne ohne Fett kurz anrösten.",
       "Den Käse in kleine Würfel schneiden. Die Sojasauce und das Olivenöl in einer Schüssel verrühren.",
@@ -443,13 +1241,67 @@ export const recipes: Recipe[] = [
       protein: "15g",
       carbs: "40g",
       fat: "20g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Ratatouille",
     image: "/images/Miscellaneous/ratatouille.webp",
-    prepTime: "45 Min.",
-    rating: 4.6,
+    prepTime: 45,
+cookingTime: 20,
+rating: 4.6,
     category: "Hauptgerichte",
     slug: "ratatouille",
     tags: ["Französisch", "Gemüse", "Hauptgericht"],
@@ -466,7 +1318,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Gemüse waschen und in gleichmäßige Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
       "In einem großen Topf etwas Olivenöl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten.",
       "Die Aubergine, Paprika und Zucchini hinzufügen und etwa 5 Minuten anbraten. Die Tomaten hinzufügen und alles weitere 10 Minuten köcheln lassen.",
@@ -477,13 +1336,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "10g",
       fat: "5g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Gemüse-Curry",
     image: "/images/MainCourses/gemuese-curry.webp",
-    prepTime: "30 Min.",
-    rating: 4.7,
+    prepTime: 30,
+cookingTime: 20,
+rating: 4.7,
     category: "Hauptgerichte",
     slug: "gemuese-curry",
     tags: ["Indisch", "Curry", "Scharf"],
@@ -497,7 +1410,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem großen Topf das Kokosnussöl erhitzen.",
       "Die Currypaste hinzufügen und kurz anbraten, bis sie aromatisch duftet. Das Gemüse hinzufügen und etwa 5 Minuten unter Rühren anbraten.",
       "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und das Curry etwa 20 Minuten köcheln lassen, bis das Gemüse weich ist.",
@@ -508,13 +1428,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "10g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Brokkoli-Quiche",
     image: "/images/MainCourses/brokkoli-quiche.webp",
-    prepTime: "55 Min.",
-    rating: 4.6,
+    prepTime: 55,
+cookingTime: 20,
+rating: 4.6,
     category: "Hauptgerichte",
     slug: "brokkoli-quiche",
     tags: ["Französisch", "Gebäck", "Gemüse"],
@@ -529,7 +1503,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Brokkoli waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
       "Den Backofen auf 180°C vorheizen. Eine Quicheform mit Butter einfetten.",
       "Das Mehl, die Eier, die Milch, Salz und Pfeffer in einer Schüssel verrühren, bis ein glatter Teig entsteht. Den Käse reiben und unter den Teig heben.",
@@ -541,13 +1522,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "20g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Gefüllte Paprika",
     image: "/images/MainCourses/gefuellte-paprika.webp",
-    prepTime: "40 Min.",
-    rating: 4.5,
+    prepTime: 40,
+cookingTime: 20,
+rating: 4.5,
     category: "Hauptgerichte",
     slug: "gefuellte-paprika",
     tags: ["Traditionell", "Gemüse", "Hauptgericht"],
@@ -561,7 +1596,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Paprika waschen, den Deckel abschneiden und die Kerne entfernen. Die Zwiebel und den Knoblauch schälen und fein hacken.",
       "In einer Pfanne etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten. Das Gemüse waschen, schneiden und zu den Zwiebeln geben. Alles etwa 10 Minuten anbraten, bis das Gemüse weich ist. Mit Salz und Pfeffer abschmecken.",
       "Die Paprika mit der Gemüsemischung füllen und die Deckel darauflegen. Die gefüllten Paprika in eine ofenfeste Form setzen.",
@@ -573,13 +1615,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "10g",
       fat: "5g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Kürbissuppe",
     image: "/images/Soups/kuerbissuppe.webp",
-    prepTime: "35 Min.",
-    rating: 4.8,
+    prepTime: 35,
+cookingTime: 20,
+rating: 4.8,
     category: "Suppen",
     slug: "kuerbissuppe",
     tags: ["Herbst", "Suppe", "Kürbis"],
@@ -593,7 +1689,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Kürbis schälen, entkernen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
       "In einem großen Topf etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten. Den Kürbis hinzufügen und etwa 5 Minuten mitbraten.",
       "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und die Suppe etwa 20–25 Minuten köcheln lassen, bis der Kürbis weich ist.",
@@ -605,13 +1708,67 @@ export const recipes: Recipe[] = [
       protein: "2g",
       carbs: "15g",
       fat: "1g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Mediterraner Nudelsalat",
     image: "/images/Salads/mediterraner-nudelsalat.webp",
-    prepTime: "20 Min.",
-    rating: 4.4,
+    prepTime: 20,
+cookingTime: 20,
+rating: 4.4,
     category: "Salate",
     slug: "mediterraner-nudelsalat",
     tags: ["Salat", "Pasta", "Mediterran"],
@@ -627,7 +1784,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Nudeln nach Packungsanleitung in Salzwasser al dente kochen, abgießen und abkühlen lassen.",
       "Das Gemüse waschen und in mundgerechte Stücke schneiden. Den Fisch in einer Pfanne mit etwas Olivenöl anbraten, bis er gar ist.",
       "Die Tomaten waschen und würfeln. Den Käse in kleine Stücke schneiden.",
@@ -639,13 +1803,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "30g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Griechischer Bauernsalat",
     image: "/images/Salads/griechischer-bauernsalat.webp",
-    prepTime: "15 Min.",
-    rating: 4.5,
+    prepTime: 15,
+cookingTime: 20,
+rating: 4.5,
     category: "Salate",
     slug: "griechischer-bauernsalat",
     tags: ["Griechisch", "Salat", "Mediterran"],
@@ -660,7 +1878,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Gemüse waschen und in mundgerechte Stücke schneiden. Die Tomaten in Scheiben schneiden, die Oliven halbieren und den Feta in Würfel schneiden.",
       "Alles in einer großen Schüssel vermengen. Das Olivenöl darüber träufeln und mit Salz und Pfeffer abschmecken.",
       "Den Salat kalt servieren, eventuell mit frischem Oregano oder Basilikum garnieren."
@@ -670,13 +1895,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "10g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Linsen-Bolognese",
     image: "/images/MainCourses/linsen-bolognese.webp",
-    prepTime: "40 Min.",
-    rating: 4.7,
+    prepTime: 40,
+cookingTime: 20,
+rating: 4.7,
     category: "Hauptgerichte",
     slug: "linsen-bolognese",
     tags: ["Pasta", "Italienisch", "Proteinreich"],
@@ -692,7 +1971,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Linsen waschen und in einem Topf mit Wasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und beiseite stellen.",
       "Die Zwiebel und den Knoblauch schälen und fein hacken. In einer Pfanne das Olivenöl erhitzen und die Zwiebel sowie den Knoblauch glasig dünsten.",
       "Das Gemüse waschen, schneiden und zu den Zwiebeln geben. Die Tomaten würfeln und ebenfalls hinzufügen. Alles etwa 10 Minuten köcheln lassen.",
@@ -704,13 +1990,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "20g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Süßkartoffel-Kokos-Suppe",
     image: "/images/Soups/suesskartoffel-kokos-suppe.webp",
-    prepTime: "35 Min.",
-    rating: 4.8,
+    prepTime: 35,
+cookingTime: 20,
+rating: 4.8,
     category: "Suppen",
     slug: "suesskartoffel-kokos-suppe",
     tags: ["Suppe", "Exotisch", "Cremig"],
@@ -724,7 +2064,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Süßkartoffeln schälen und in grobe Stücke schneiden. In einem großen Topf das Kokosnussöl erhitzen.",
       "Die Süßkartoffeln hinzufügen und etwa 5 Minuten anbraten. Die Gemüsebrühe hinzufügen und alles zum Kochen bringen.",
       "Die Hitze reduzieren und die Suppe etwa 20 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.",
@@ -736,13 +2083,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "20g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Bunter Quinoa-Salat",
     image: "/images/Salads/bunter-quinoa-salat.webp",
-    prepTime: "25 Min.",
-    rating: 4.6,
+    prepTime: 25,
+cookingTime: 20,
+rating: 4.6,
     category: "Salate",
     slug: "bunter-quinoa-salat",
     tags: ["Salat", "Gesund", "Quinoa"],
@@ -757,7 +2158,14 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "ml", name: "Sojasauce" },
       { amount: 100, unit: "ml", name: "Olivenöl" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Quinoa nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
       "Das Gemüse waschen und in mundgerechte Stücke schneiden. Den Fisch in einer Pfanne mit etwas Olivenöl anbraten, bis er gar ist. Die Nüsse in einer Pfanne ohne Fett kurz anrösten.",
       "Den Käse in kleine Würfel schneiden. Die Sojasauce und das Olivenöl in einer Schüssel verrühren.",
@@ -768,13 +2176,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "30g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Gemüse-Couscous-Salat",
     image: "/images/Salads/gemuese-couscous-salat.webp",
-    prepTime: "20 Min.",
-    rating: 4.5,
+    prepTime: 20,
+cookingTime: 20,
+rating: 4.5,
     category: "Salate",
     slug: "gemuese-couscous-salat",
     tags: ["Salat", "Orientalisch", "Couscous"],
@@ -790,7 +2252,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Couscous nach Packungsanleitung in heißem Wasser einweichen, bis er weich ist. Anschließend abkühlen lassen.",
       "Das Gemüse waschen und in mundgerechte Stücke schneiden. Die Tomaten würfeln, die Zwiebel und den Knoblauch fein hacken.",
       "In einer Pfanne etwas Olivenöl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten. Das Gemüse hinzufügen und etwa 5 Minuten anbraten.",
@@ -802,13 +2271,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "30g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Blumenkohl-Käse-Auflauf",
     image: "/images/MainCourses/blumenkohl-kaese-auflauf.webp",
-    prepTime: "45 Min.",
-    rating: 4.7,
+    prepTime: 45,
+cookingTime: 20,
+rating: 4.7,
     category: "Aufläufe",
     slug: "blumenkohl-kaese-auflauf",
     tags: ["Auflauf", "Gemüse", "Käse"],
@@ -823,7 +2346,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Blumenkohl waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
       "Den Backofen auf 180°C vorheizen. Eine Auflaufform mit Butter einfetten.",
       "Das Mehl, die Eier, die Milch, Salz und Pfeffer in einer Schüssel verrühren, bis ein glatter Teig entsteht. Den Käse reiben und unter den Teig heben.",
@@ -835,13 +2365,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "20g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Gemüse-Polenta-Auflauf",
     image: "/images/MainCourses/gemuese-polenta-auflauf.webp",
-    prepTime: "55 Min.",
-    rating: 4.6,
+    prepTime: 55,
+cookingTime: 20,
+rating: 4.6,
     category: "Aufläufe",
     slug: "gemuese-polenta-auflauf",
     tags: ["Auflauf", "Italienisch", "Polenta"],
@@ -856,7 +2440,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem Topf die Milch zum Kochen bringen und die Polenta langsam unter Rühren hinzufügen. Etwa 10 Minuten köcheln lassen, bis die Polenta dick ist.",
       "Den Käse reiben und die Eier verquirlen. Beides unter die Polenta heben und mit Salz und Pfeffer abschmecken.",
       "Das Gemüse in einer Pfanne mit etwas Öl etwa 5 Minuten anbraten. Eine Auflaufform mit Butter einfetten.",
@@ -868,13 +2459,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "20g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Zucchini-Reis-Auflauf",
     image: "/images/MainCourses/zucchini-reis-auflauf.webp",
-    prepTime: "50 Min.",
-    rating: 4.5,
+    prepTime: 50,
+cookingTime: 20,
+rating: 4.5,
     category: "Aufläufe",
     slug: "zucchini-reis-auflauf",
     tags: ["Auflauf", "Gemüse", "Reis"],
@@ -889,7 +2534,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Zucchini waschen und in dünne Scheiben schneiden. Den Reis nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
       "Den Käse reiben und die Eier verquirlen. Beides mit der Milch, Salz und Pfeffer in einer Schüssel vermengen.",
       "Eine Auflaufform mit Butter einfetten. Schichtweise die Zucchini und den Reis in die Form geben. Die Milch-Eier-Mischung darüber gießen.",
@@ -900,12 +2552,65 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "20g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     "title": "Klassisches Rührei",
     "image": "/images/Frühstück/klassisches-ruehrei.webp",
-    "prepTime": "10 Min.",
+    "prepTime": 10,
     "rating": 4.7,
     "category": "Frühstück",
     "slug": "klassisches-ruehrei",
@@ -930,13 +2635,74 @@ export const recipes: Recipe[] = [
       "protein": "12g",
       "carbs": "1.5g",
       "fat": "16g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Overnight Oats mit Beeren",
     image: "/images/Frühstück/overnight-oats-beeren.webp",
-    prepTime: "10 Min. + 8 Std.",
-    rating: 4.7,
+    prepTime: 60,
+cookingTime: 20,
+rating: 4.7,
     category: "Frühstück",
     slug: "overnight-oats-beeren",
     tags: ["Frühstück", "Gesund", "Haferflocken"],
@@ -950,7 +2716,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Haferflocken und Milch in einer Schüssel vermengen. Das Ei hinzufügen und alles gut verrühren.",
       "Mit Salz und Muskatnuss würzen. Die Beeren waschen und unter die Haferflocken heben.",
       "Die Mischung in ein verschließbares Glas füllen und über Nacht im Kühlschrank ziehen lassen.",
@@ -961,13 +2734,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "20g",
       fat: "5g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Veganes Banana Bread",
     image: "/images/Frühstück/veganes-banana-bread.webp",
-    prepTime: "55 Min.",
-    rating: 4.8,
+    prepTime: 55,
+cookingTime: 20,
+rating: 4.8,
     category: "Frühstück",
     slug: "veganes-banana-bread",
     tags: ["Frühstück", "Vegan", "Gebäck"],
@@ -982,7 +2809,14 @@ export const recipes: Recipe[] = [
       { amount: 1, unit: "Teelöffel", name: "Backpulver" },
       { amount: 1, unit: "Teelöffel", name: "Backgewürz" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Bananen schälen und in einer Schüssel mit einer Gabel zerdrücken. Das Mehl, den Zucker, das Olivenöl und das Ei hinzufügen und alles gut vermengen.",
       "Das Backpulver und das Backgewürz unterheben. Den Teig in eine gefettete Kastenform füllen.",
       "Den Backofen auf 180°C vorheizen. Das Banana Bread etwa 45 Minuten backen, bis es goldbraun ist und ein Zahnstocher sauber herauskommt.",
@@ -993,13 +2827,67 @@ export const recipes: Recipe[] = [
       protein: "3g",
       carbs: "30g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Smoothie Bowl",
     image: "/images/Frühstück/smoothie-bowl.webp",
-    prepTime: "15 Min.",
-    rating: 4.6,
+    prepTime: 15,
+cookingTime: 20,
+rating: 4.6,
     category: "Frühstück",
     slug: "smoothie-bowl",
     tags: ["Frühstück", "Gesund", "Obst"],
@@ -1012,7 +2900,14 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Bananen" },
       { amount: 100, unit: "g", name: "Kokosnussöl" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Früchte waschen und in Stücke schneiden. Die Bananen schälen und in Scheiben schneiden.",
       "Die Früchte, Bananen und den Joghurt in einen Mixer geben und zu einem cremigen Smoothie pürieren.",
       "Die Nüsse in einer Pfanne ohne Fett kurz anrösten, bis sie duften.",
@@ -1024,13 +2919,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "20g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Französische Crêpes",
     image: "/images/Frühstück/franzoesische-crepes.webp",
-    prepTime: "30 Min.",
-    rating: 4.9,
+    prepTime: 30,
+cookingTime: 20,
+rating: 4.9,
     category: "Frühstück",
     slug: "franzoesische-crepes",
     tags: ["Frühstück", "Französisch", "Süß"],
@@ -1045,7 +2994,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Pfeffer" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Mehl in eine Schüssel geben. Die Eier hinzufügen und nach und nach die Milch unterrühren, bis ein glatter Teig entsteht.",
       "Die Butter schmelzen und unter den Teig rühren. Mit Zucker, Salz und Pfeffer abschmecken.",
       "Eine Pfanne bei mittlerer Hitze erhitzen und leicht mit Butter einfetten. Eine Kelle Teig in die Pfanne geben und gleichmäßig verteilen.",
@@ -1057,13 +3013,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "20g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Granola mit Nüssen",
     image: "/images/Frühstück/granola-nuesse.webp",
-    prepTime: "40 Min.",
-    rating: 4.7,
+    prepTime: 40,
+cookingTime: 20,
+rating: 4.7,
     category: "Frühstück",
     slug: "granola-nuesse",
     tags: ["Frühstück", "Gesund", "Müsli"],
@@ -1076,7 +3086,14 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Mehl" },
       { amount: 100, unit: "g", name: "Backpulver" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Nüsse grob hacken. In einer Schüssel den Zucker, das Olivenöl, das Mehl und das Backpulver vermengen.",
       "Die Nüsse unter die Mischung heben und alles gut vermengen, bis eine krümelige Masse entsteht.",
       "Den Backofen auf 160°C vorheizen. Die Granola-Mischung auf ein mit Backpapier ausgelegtes Blech verteilen.",
@@ -1088,13 +3105,67 @@ export const recipes: Recipe[] = [
       protein: "10g",
       carbs: "20g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Apfelstrudel",
     image: "/images/Desserts/apfelstrudel.webp",
-    prepTime: "60 Min.",
-    rating: 4.8,
+    prepTime: 60,
+cookingTime: 20,
+rating: 4.8,
     category: "Desserts",
     slug: "apfelstrudel",
     tags: ["Dessert", "Traditionell", "Gebäck"],
@@ -1109,7 +3180,14 @@ export const recipes: Recipe[] = [
       { amount: undefined, unit: "", name: "Salz" },
       { amount: undefined, unit: "", name: "Muskatnuss" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei, den Zucker, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
       "Die Äpfel schälen, entkernen und in dünne Scheiben schneiden. In einer Schüssel mit etwas Zucker und Zimt vermengen.",
       "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Die Apfelmischung gleichmäßig auf dem Teig verteilen, dabei einen Rand von ca. 2 cm frei lassen.",
@@ -1121,13 +3199,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "40g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Schokoladen-Mousse",
     image: "/images/Desserts/schokoladen-mousse.webp",
-    prepTime: "20 Min. + 2 Std.",
-    rating: 4.9,
+    prepTime: 140,
+cookingTime: 20,
+rating: 4.9,
     category: "Desserts",
     slug: "schokoladen-mousse",
     tags: ["Dessert", "Schokolade", "Cremig"],
@@ -1140,7 +3272,14 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Butter" },
       { amount: 100, unit: "g", name: "Sahne" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Schokolade in einer Schüssel über einem Wasserbad schmelzen. Die Butter hinzufügen und unterrühren, bis alles glatt ist.",
       "Die Eier trennen. Das Eiweiß steif schlagen und den Zucker langsam unterrühren. Das Eigelb unter die geschmolzene Schokolade heben.",
       "Die Sahne steif schlagen und vorsichtig unter die Schokoladenmasse heben. Anschließend den Eischnee unterheben, bis eine luftige Mousse entsteht.",
@@ -1151,13 +3290,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "20g",
       fat: "15g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Beeren-Crumble",
     image: "/images/Desserts/beeren-crumble.webp",
-    prepTime: "45 Min.",
-    rating: 4.7,
+    prepTime: 45,
+cookingTime: 20,
+rating: 4.7,
     category: "Desserts",
     slug: "beeren-crumble",
     tags: ["Dessert", "Obst", "Gebacken"],
@@ -1170,7 +3363,14 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Butter" },
       { amount: 100, unit: "g", name: "Nüsse" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Die Beeren waschen und trocken tupfen. In einer Schüssel mit etwas Zucker vermengen und in eine ofenfeste Form geben.",
       "Das Mehl, den restlichen Zucker und die Butter in einer Schüssel zu einer krümeligen Masse verarbeiten. Die Nüsse hacken und unter die Mischung heben.",
       "Die Krümel gleichmäßig über die Beeren streuen. Den Backofen auf 180°C vorheizen.",
@@ -1182,13 +3382,67 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "20g",
       fat: "10g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Rhabarber-Kompott",
     image: "/images/Desserts/rhabarber-kompott.webp",
-    prepTime: "25 Min.",
-    rating: 4.6,
+    prepTime: 25,
+cookingTime: 20,
+rating: 4.6,
     category: "Desserts",
     slug: "rhabarber-kompott",
     tags: ["Dessert", "Frucht", "Traditionell"],
@@ -1199,7 +3453,14 @@ export const recipes: Recipe[] = [
       { amount: 100, unit: "g", name: "Zucker" },
       { amount: 100, unit: "g", name: "Wasser" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Den Rhabarber waschen, schälen und in kleine Stücke schneiden. In einem Topf mit dem Zucker und dem Wasser vermengen.",
       "Das Rhabarber-Kompott bei mittlerer Hitze etwa 15–20 Minuten köcheln lassen, bis der Rhabarber weich ist und die Flüssigkeit leicht eingedickt ist.",
       "Das Kompott abkühlen lassen und in Gläser füllen. Kalt oder warm servieren, z. B. mit Joghurt oder Vanillepudding."
@@ -1209,13 +3470,67 @@ export const recipes: Recipe[] = [
       protein: "1g",
       carbs: "20g",
       fat: "0g"
-    }
+},
+ tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: "" 
+  }
   },
   {
     title: "Zimtschnecken",
     image: "/images/Desserts/zimtschnecken.webp",
-    prepTime: "90 Min.",
-    rating: 4.8,
+    prepTime: 90,
+cookingTime: 20,
+rating: 4.8,
     category: "Desserts",
     slug: "zimtschnecken",
     tags: ["Dessert", "Gebäck", "Zimt"],
@@ -1228,7 +3543,14 @@ export const recipes: Recipe[] = [
       { amount: 1, name: "Ei" },
       { amount: 10, unit: "g", name: "Zimt" }
     ],
-    instructions: [
+    descriptionOnImage: "",
+  introductionParagraph: "",
+  additionalParagraph: "",
+  ingredientsNeeded: [{
+    title: "",
+    description: ""
+  }],
+instructions: [
       "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei und den Zucker hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
       "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Den Zimt mit etwas Zucker vermengen und gleichmäßig auf dem Teig verteilen.",
       "Den Teig von einer Seite aufrollen und in gleichmäßige Scheiben schneiden. Die Schnecken auf ein mit Backpapier ausgelegtes Backblech legen.",
@@ -1240,7 +3562,60 @@ export const recipes: Recipe[] = [
       protein: "5g",
       carbs: "20g",
       fat: "10g"
-    }
+    },
+    tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: ""
+  }
   }
 ];
 
