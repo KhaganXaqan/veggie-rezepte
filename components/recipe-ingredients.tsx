@@ -11,10 +11,10 @@ type Ingredient = {
 }
 
 export function RecipeIngredients({
-  initialServings = 4,
+  initialServings = 1,
   ingredients,
   prepTime,
-  cookTime = 30
+  cookTime
 }: {
   initialServings?: number;
   ingredients: Ingredient[];
@@ -331,7 +331,7 @@ export function RecipeIngredients({
                     </div>
                     <div class="recipe-info-item">
                       <div class="recipe-info-label">Gesamtzeit</div>
-                      <div class="recipe-info-value">${(prepTime || 0) + cookTime} Min</div>
+                      <div class="recipe-info-value">${(prepTime || 0) + (cookTime || 0)} Min</div>
                     </div>
                   </div>
                   

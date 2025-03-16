@@ -165,6 +165,8 @@ export default function OtherRecipePage({ slug }: OtherRecipePageProps) {
               <RecipeIngredients
                 initialServings={recipe.servings || 4}
                 ingredients={recipe.ingredients}
+                prepTime={recipe.prepTime ? parseInt(String(recipe.prepTime)) : undefined}
+                cookTime={recipe.cookingTime ? parseInt(String(recipe.cookingTime)) : undefined}
               />
             </section>
 
