@@ -49,10 +49,10 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
   const canonicalUrl = `${baseUrl}/${params.slug}`;
 
   return {
-    title: `${recipe.title} - Veggie Rezepte`,
+    title: `${recipe.seo_title} - Veggie Rezepte`,
     description: recipe.description || '',
     openGraph: {
-      title: `${recipe.title} - Veggie Rezepte`,
+      title: `${recipe.seo_title} - Veggie Rezepte`,
       description: recipe.description || '',
       images: [recipe.image],
       type: 'article',
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${recipe.title} - Veggie Rezepte`,
+      title: `${recipe.seo_title} - Veggie Rezepte`,
       description: recipe.description || '',
       images: [recipe.image],
     },

@@ -1,6 +1,7 @@
 // First, let's define the type for a recipe
 export type Recipe = {
   title: string
+  seo_title?: string
   image: string
   prepTime?: number
   cookingTime? : number
