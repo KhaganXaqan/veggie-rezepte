@@ -366,7 +366,27 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </div>
 
-                  {/* Empfohlener Beitrag */}
+                  {/* Ingredients Section */}
+<div className="w-full ">
+                    {recipe.ingredientGroups?.map((group, index) => (
+                      <div key={index} className="mb-6">
+                        <h2 className="font-black text-xl uppercase text-black w-full tracking-tight leading-tight mb-4">
+                          {group.title}
+                        </h2>
+                        <p className="text-lg text-black leading-relaxed font-normal mb-4">
+                          {group.description}
+                        </p>
+                        <ul className="list-disc pl-6 space-y-2">
+                          {group.ingredients.map((ingredient, i) => (
+                            <li key={i} className="text-lg text-black leading-relaxed font-normal">
+                              {ingredient.amount && <span className="font-medium">{ingredient.amount} {ingredient.unit}</span>} {ingredient.name}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                    </div>
+
                   {/* Empfohlener Beitrag */}
                   <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
                     <a href={`/${randomRecipe.slug}`} className="block p-6 bg-[#f9d24f]/30">
