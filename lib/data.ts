@@ -3562,7 +3562,60 @@ instructions: [
       protein: "5g",
       carbs: "20g",
       fat: "10g"
-    }
+    },
+    tips: [""],
+  whyFavorite: {
+    title: "",
+    reasons: [{
+      title: "",
+      description: "",
+    }]
+  },
+  handwrittenMessage: {
+    mainText: "",
+    subText: "",
+    signature: ""
+  },
+  ingredientGroups: [{
+    title: "",
+    description: "",
+    ingredients: [{
+      amount: "",
+      unit: "",
+      name: ""
+    }]
+  }],
+  steps: [
+{
+    title: "",
+    description: ""
+  }
+],
+  servingSuggestion: "",
+  servingSuggestions: {
+    title: "",
+    description: "",
+    note: "",
+    items: [{
+      emoji: "",
+      title: "",
+      description: ""
+    }]
+  },
+  funFact: {
+    title: "",
+    description: ""
+  },
+  images: {
+    imageIngredient: "",
+    image1: "",
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    image6: "",
+    image7: ""
+  }
   }
 ];
 
