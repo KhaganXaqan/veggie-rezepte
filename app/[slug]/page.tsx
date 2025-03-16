@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
   const slug = params?.slug;
 
   let recipe;
-  if (['flammkuchen'].includes(slug)) {
+  if (['flammkuchen', 'kartoffelpuffer'].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
     recipe = recipesData.find((r) => r.slug === slug);
@@ -50,10 +50,10 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 
   return {
     title: `${recipe.title} - Veggie Rezepte`,
-    description: recipe.descriptionOnImage || recipe.description || '',
+    description: recipe.description || '',
     openGraph: {
       title: `${recipe.title} - Veggie Rezepte`,
-      description: recipe.descriptionOnImage || recipe.description || '',
+      description: recipe.description || '',
       images: [recipe.image],
       type: 'article',
       url: canonicalUrl,
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     twitter: {
       card: 'summary_large_image',
       title: `${recipe.title} - Veggie Rezepte`,
-      description: recipe.descriptionOnImage || recipe.description || '',
+      description: recipe.description || '',
       images: [recipe.image],
     },
     alternates: {
@@ -75,7 +75,7 @@ export async function generateStructuredData({ params }: RecipePageProps) {
   const slug = params?.slug;
 
   let recipe;
-  if (['flammkuchen'].includes(slug)) {
+  if (['flammkuchen', 'kartoffelpuffer'].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
     recipe = recipesData.find((r) => r.slug === slug);
@@ -99,7 +99,7 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     '@type': 'Recipe',
     name: recipe.title,
     image: recipe.image,
-    description: recipe.descriptionOnImage || recipe.description || '',
+    description: recipe.description || '',
     author: {
       '@type': 'Organization',
       name: 'Veggie-Rezepte'
@@ -146,7 +146,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const slug = params?.slug;
 
   let recipe: Recipe | Recipe1 | null = null;
-  if (['flammkuchen'].includes(slug)) {
+  if (['flammkuchen', 'kartoffelpuffer'].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
   } else {
@@ -162,7 +162,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const validRecipe = recipe;
 
   // For any recipe other than flammkuchen and kartoffelpuffer, use page-other.tsx
-  if (!['flammkuchen'].includes(slug)) {
+  if (!['flammkuchen', 'kartoffelpuffer'].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
 
@@ -367,7 +367,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </div>
 
                   {/* Empfohlener Beitrag */}
-                  <div className="w-full mx-auto mb-1 border border-black rounded-lg overflow-hidden">
+                  {/* Empfohlener Beitrag */}
+                  <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
                     <a href={`/${randomRecipe.slug}`} className="block p-6 bg-[#f9d24f]/30">
                       <div className="flex items-start gap-6">
                         <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
@@ -376,17 +377,16 @@ export default async function RecipePage({ params }: RecipePageProps) {
                             alt={randomRecipe.title}
                             className="w-full h-full object-cover"
                           />
-
                         </div>
                         <div className="flex-grow">
-                          <span className="text-xs font-medium text-black uppercase tracking-wider mb-2 block">
+                          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
                             Empfohlener Beitrag
                           </span>
                           <h4 className="font-bold text-xl text-[#0b3558] mb-3">
                             <span className='hover:text-[#f9d24f] transition-colors"'>{randomRecipe.title}</span>
                           </h4>
-                          <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
-                            {randomRecipe.descriptionOnImage}
+                          <p className="text-lg text-black leading-relaxed font-normal mb-10 line-clamp-2">
+                            {randomRecipe.description}
                           </p>
                           <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#f9d24f] hover:text-black transition-colors">
                             Zum Beitrag
@@ -450,7 +450,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           <div key={index} className="flex items-start gap-2">
                             <span className="text-3xl">{item.emoji}</span>
                             <div>
-                              <strong className="font-semibold ">{item.title}:</strong> {item.description}
+                              <strong className="font-semibold ">{item.title}</strong> {item.description}
                             </div>
                           </div>
                         ))}
@@ -469,18 +469,18 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       className="w-full h-[960px] rounded-lg"
                     />
                   </div>
-                  {/* Empfohlene Beiträge - Grid with 3 images */}
+                
 
-                  <div className="w-full ">
-                    {/* Tipps und Variationen */}
-                    <div className="mt-4">
-                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
-                        Empfohlene {validRecipe.category}
-                      </h2>
+                    {/* Empfohlene Beiträge - Grid with 3 images */}
+                    <div className="w-full mx-auto mb-8">
+                    <div className="flex items-center gap-4 mb-6">
+                      <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
+                        Empfohlene {recipe.category}
+                      </span>
                     </div>
                     <div className="grid grid-cols-3 gap-4">
                       {recommendedRecipes.map((recommendedRecipe, index) => (
-                        <a href={`/${recommendedRecipe.slug}`} className="block border border-black rounded-lg overflow-hidden" key={index}>
+                        <a href={`/${recommendedRecipe.slug}`} className="block border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden" key={index}>
                           <div className="relative group bg-[#f9d24f]/30 p-4">
                             <div className="w-full aspect-square rounded-lg overflow-hidden">
                               <img
@@ -488,13 +488,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
                                 alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
+                            
                             </div>
                             <div className="mt-4">
                               <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#f9d24f] transition-colors">
                                 {recommendedRecipe.title}
                               </h4>
                               <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
-                                {recommendedRecipe.descriptionOnImage}
+                                {recommendedRecipe.description}
                               </p>
                             </div>
                           </div>
@@ -617,7 +618,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                               <span className="ml-1 text-gray-500 text-xs">aus 93 Bewertungen</span>
                             </div>
 
-                            <p className="text-xl text-black mb-6 pr-8 md:pr-5 leading-relaxed font-normal">{validRecipe.descriptionOnImage}</p>
+                            <p className="text-xl text-black mb-6 pr-8 md:pr-5 leading-relaxed font-normal">{validRecipe.description}</p>
                           </div>
                         </div>
 
@@ -673,7 +674,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                                 {recommendedRecipe.title}
                               </h4>
                               <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
-                                {recommendedRecipe.descriptionOnImage}
+                                {recommendedRecipe.description}
                               </p>
                             </div>
                           </div>
@@ -704,7 +705,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                               {popularRecipe.title}
                             </h4>
                             <p className="text-sm text-gray-600 line-clamp-2">
-                              {popularRecipe.descriptionOnImage}
+                              {popularRecipe.description}
                             </p>
                           </div>
                         </a>

@@ -3,7 +3,8 @@ export type Recipe = {
   title: string
   image: string
   prepTime?: number
-  cookingTime? : number
+  cookingTime?: number
+  seo_keywords: string[]
   rating?: number
   category: string
   slug: string
@@ -17,10 +18,10 @@ export type Recipe = {
     title: string;
     description: string;
   }[];
-  ingredients: { 
+  ingredients: {
     amount?: number | string
     unit?: string
-    name: string 
+    name: string
   }[]
   instructions: string[]
   nutrition: {
@@ -88,14 +89,17 @@ export const recipes: Recipe[] = [
     "title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
     "image": "/images/MainCourses/flammkuchen.webp",
     "prepTime": 30,
-    "cookingTime": 12, 
+    "cookingTime": 12,
+    "seo_keywords": [
+      "",  
+    ],
     "rating": 4.8,
     "category": "Hauptgerichte",
     "slug": "flammkuchen",
     "tags": ["Traditionell", "Hauptgerichte", "Flammkuchen"],
     "servings": 2,
     "description": "Mein liebstes Rezept für einen knusprigen Flammkuchen! Während der traditionelle elsässische Flammkuchen oft mit Speck zubereitet wird, ist meine vegetarische Variante in nur 30 Minuten fertig und mindestens genauso lecker. Der hauchdünne Teig wird schön knusprig gebacken und die Kombination aus cremiger Basis und würzigen Zwiebeln macht dieses Gericht zu einem echten Geschmackserlebnis.",
-    "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",    
+    "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
     "introductionParagraph": "Backen von Flammkuchen ist in dieser Jahreszeit eine meiner liebsten Beschäftigungen in der Küche. Es ist so einfach und stressfrei, und dabei füllt der knusprige, goldbraune Teig das ganze Haus mit herrlichen Aromen. Und das Beste daran? Du kannst ihn nach Belieben mit deinen Lieblingszutaten belegen, und er schmeckt immer köstlich. Dieser vegetarische Flammkuchen ist mein absoluter Favorit – ein dünner, knuspriger Boden, bedeckt mit einer cremigen Mischung, süß karamellisierten Zwiebeln und einer großzügigen Portion Käse. Es ist ein einfaches, aber unglaublich leckeres Gericht, das jeder Mahlzeit eine besondere Note verleiht. Und das Beste: Es ist so einfach zuzubereiten und das Ergebnis ist so zufriedenstellend, dass du ihn immer wieder machen wirst!",
     "additionalParagraph": "Jedes Mal, wenn ich einen Flammkuchen zubereite, überkommt mich ein Gefühl der Nostalgie. Es erinnert mich an gemütliche Abende mit Freunden und Familie, an unbeschwerte Zeiten, in denen wir zusammen saßen, gelacht haben und uns einfach gut fühlten. Der Duft des frisch gebackenen Flammkuchens, der durch die Küche zieht, lässt mich an all diese schönen Momente zurückdenken. Besonders dieser vegetarische Flammkuchen hat für mich eine besondere Bedeutung. Die Kombination aus dem knusprigen Teig, den karamellisierten Zwiebeln und der cremigen Basis ist nicht nur eine Gaumenfreude, sondern auch ein Stück Heimat. Es fühlt sich an, als würde jeder Bissen ein Stück Glück auf meinem Teller bringen. Und wenn ich dann mit den Menschen, die mir am meisten bedeuten, am Tisch sitze und den Flammkuchen genieße, weiß ich: Es gibt nichts Schöneres.",
     "ingredientsNeeded": [
@@ -136,35 +140,37 @@ export const recipes: Recipe[] = [
         "description": "Wenn du kreativ werden möchtest, passen Pilze wie Champignons oder Shiitake, frischer Rosmarin oder sogar Basilikum wunderbar und verleihen dem Flammkuchen eine zusätzliche Geschmacksebene."
       }
     ],
-    "ingredientGroups": [
-      {
-        "title": "Der Grundteig",
-        "description": "Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig.",
-        "ingredients": [
-          { "amount": 62, "unit": "g", "name": "Mehl" },
-          { "amount": 31, "unit": "ml", "name": "Wasser" },
-          { "amount": 0.5, "unit": "EL", "name": "Olivenöl" },
-          { "amount": 1, "unit": "Prise", "name": "Salz" }
-        ]
-      },
-      {
-        "title": "Die cremige Basis",
-        "description": "Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack.",
-        "ingredients": [
-          { "amount": 50, "unit": "g", "name": "Crème fraîche" }
-        ]
-      },
-      {
-        "title": "Der würzige Belag",
-        "description": "Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss.",
-        "ingredients": [
-          { "amount": 0.5, "unit": "", "name": "Zwiebel (dünn geschnitten)" },
-          { "amount": 25, "unit": "g", "name": "Gruyère oder Emmentaler (gerieben)" },
-          { "amount": 1, "unit": "Prise", "name": "Salz" },
-          { "amount": undefined, "unit": "", "name": "Pfeffer (nach Geschmack)" }
-        ]
-      }
-    ],
+"ingredientGroups": [
+  {
+    "title": "Der Grundteig",
+    "description": "Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig.",
+    "ingredients": [
+      { "amount": 62, "unit": "g", "name": "Mehl" },
+      { "amount": 31, "unit": "ml", "name": "Wasser" },
+      { "amount": 0.5, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" }
+    ]
+  },
+  {
+    "title": "Die cremige Basis",
+    "description": "Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack.",
+    "ingredients": [
+      { "amount": 50, "unit": "g", "name": "Crème fraîche" },
+      { "amount": 0.5, "unit": "EL", "name": "Dijon-Senf" }
+    ]
+  },
+  {
+    "title": "Der würzige Belag",
+    "description": "Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss.",
+    "ingredients": [
+      { "amount": 0.5, "unit": "", "name": "Zwiebel (dünn geschnitten)" },
+      { "amount": 25, "unit": "g", "name": "Gruyère oder Emmentaler (gerieben)" },
+      { "amount": 1, "unit": "Prise", "name": "Thymian" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": undefined, "unit": "", "name": "Pfeffer (nach Geschmack)" }
+    ]
+  }
+],
     "ingredients": [
       { "amount": 62, "unit": "g", "name": "Mehl" },
       { "amount": 31, "unit": "ml", "name": "Wasser" },
@@ -176,14 +182,14 @@ export const recipes: Recipe[] = [
       { "amount": 1, "unit": "Prise", "name": "Salz" },
       { "amount": undefined, "unit": "", "name": "Pfeffer (nach Geschmack)" }
     ],
-    "instructions": [
-      "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
-      "Für den Teig Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig verkneten. Den Teig dünn ausrollen und auf das Backblech legen.",
-      "Die Crème fraîche gleichmäßig auf dem Teig verteilen. Mit Salz und Pfeffer würzen.",
-      "Die dünn geschnittenen Zwiebeln gleichmäßig auf der Crème fraîche verteilen. Den geriebenen Käse darüberstreuen.",
-      "Den Flammkuchen im vorgeheizten Ofen für 10–12 Minuten backen, bis der Rand knusprig und der Käse goldbraun ist.",
-      "Heiß servieren und genießen!"
-    ],
+"instructions": [
+  "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
+  "Für den Teig Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig verkneten. Den Teig dünn ausrollen und auf das Backblech legen.",
+  "Die Crème fraîche mit dem Dijon-Senf vermischen und gleichmäßig auf dem Teig verteilen. Mit Salz und Pfeffer würzen.",
+  "Die dünn geschnittenen Zwiebeln gleichmäßig auf der Crème fraîche verteilen. Den geriebenen Käse und den Thymian darüberstreuen.",
+  "Den Flammkuchen im vorgeheizten Ofen für 10–12 Minuten backen, bis der Rand knusprig und der Käse goldbraun ist.",
+  "Mit frischer Petersilie bestreuen und heiß servieren."
+],
     "nutrition": {
       "calories": 565,
       "protein": "14.5g",
@@ -299,23 +305,53 @@ export const recipes: Recipe[] = [
     }
   },
   {
-    "title": "Kartoffelpuffer",
+    "title": "Vegetarische Kartoffelpuffer Rezept – Schnell, einfach und knusprig",
     "image": "/images/Miscellaneous/kartoffelpuffer.webp",
     "prepTime": 25,
-    "cookingTime": 12, 
+    "cookingTime": 25,
+    "seo_keywords": [
+      "Vegetarische Kartoffelpuffer",
+      "Kartoffelpuffer vegetarisch",
+      "Vegetarisches Reibekuchen Rezept",
+      "Kartoffelpuffer ohne Ei"
+    ],
     "rating": 5.0,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",
-    "tags": ["Traditionell", "Kartoffeln", "Snack"],
-    "servings": 2,
+    "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
+    "servings": 4,
     "description": "Knusprige, goldbraune Kartoffelpuffer, verfeinert mit einer milden Zwiebelnote – ein zeitloser Klassiker, der sowohl Groß als auch Klein begeistert. Schnell zuzubereiten und dabei unglaublich lecker!",
     "descriptionOnImage": "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
     "introductionParagraph": "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip, sie sind immer eine Freude für den Gaumen.",
-    "additionalParagraph": "Jedes Mal, wenn ich einen Flammkuchen zubereite, überkommt mich ein Gefühl der Nostalgie. Es erinnert mich an gemütliche Abende mit Freunden und Familie, an unbeschwerte Zeiten, in denen wir zusammen saßen, gelacht haben und uns einfach gut fühlten. Der Duft des frisch gebackenen Flammkuchens, der durch die Küche zieht, lässt mich an all diese schönen Momente zurückdenken. Besonders dieser vegetarische Flammkuchen hat für mich eine besondere Bedeutung. Die Kombination aus dem knusprigen Teig, den karamellisierten Zwiebeln und der cremigen Basis ist nicht nur eine Gaumenfreude, sondern auch ein Stück Heimat. Es fühlt sich an, als würde jeder Bissen ein Stück Glück auf meinem Teller bringen. Und wenn ich dann mit den Menschen, die mir am meisten bedeuten, am Tisch sitze und den Flammkuchen genieße, weiß ich: Es gibt nichts Schöneres.",
+    "additionalParagraph": "Wenn ich Kartoffelpuffer serviere, spüre ich immer eine besondere Verbindung zu den Menschen am Tisch. Es ist, als würde dieses einfache Gericht eine unsichtbare Brücke zwischen uns schlagen, die Herzen öffnet und Erinnerungen weckt. Kartoffelpuffer sind mehr als nur Essen – sie sind ein Symbol für Gemeinschaft, für das Teilen von Momenten und für die Freude, die entsteht, wenn man zusammen am Tisch sitzt. Der Duft der knusprigen Puffer, die goldbraun in der Pfanne liegen, zieht alle magisch an, und schon bald versammeln sich alle um den Tisch, neugierig und voller Vorfreude. Egal, ob es ein schnelles Mittagessen ist, bei dem die Zeit knapp ist, aber die Stimmung dennoch warm und herzlich bleibt, oder ein gemütliches Abendessen, bei dem die Gespräche in die Länge gezogen werden und die Stunden wie Minuten verfliegen – Kartoffelpuffer passen immer. Selbst bei einem besonderen Brunch, wenn der Tag langsam beginnt und die Sonne durch die Fenster scheint, bringen sie eine Prise Freude und Genuss auf den Teller. Es ist erstaunlich, wie etwas so Einfaches wie geriebene Kartoffeln, Zwiebeln und ein paar Gewürze so viel Glück und Zufriedenheit schenken können.",
     "ingredientsNeeded": [
       {
-        "title": "",
-        "description": ""
+        "title": "Kartoffeln",
+        "description": "Die Hauptzutat! Am besten eignen sich mehligkochende Kartoffeln, da sie nach dem Reiben eine schöne, bindende Konsistenz ergeben und perfekt knusprig werden."
+      },
+      {
+        "title": "Zwiebeln",
+        "description": "Fein geriebene Zwiebeln verleihen den Puffern eine zarte Würze und eine leicht süßliche Note, die den Geschmack abrundet."
+      },
+      {
+        "title": "Mehl",
+        "description": "Ein paar Esslöffel Mehl sorgen dafür, dass die Masse gut zusammenhält und die Puffer ihre Form behalten."
+      },
+      {
+        "title": "Kichererbsenmehl",
+        "description": "Dient als Bindemittel und verleiht den Puffern eine schöne Konsistenz. Kann auch durch Sojamehl ersetzt werden."
+      },
+      {
+        "title": "Salz und Pfeffer",
+        "description": "Für die Grundwürze – einfach, aber essenziell, um den Geschmack der Kartoffeln und Zwiebeln hervorzuheben."
+      },
+      {
+        "title": "Muskatnuss",
+        "description": "Verleiht den Puffern eine warme, aromatische Note."
+      },
+      {
+        "title": "Öl oder Butterschmalz",
+        "description": "Zum Braten, damit die Puffer schön knusprig und goldbraun werden. Butterschmalz verleiht zusätzlich einen nussigen Geschmack."
       }
     ],
     "ingredientGroups": [
@@ -346,7 +382,8 @@ export const recipes: Recipe[] = [
     ],
     "instructions": [
       "Die geriebenen Kartoffeln gut ausdrücken, um überschüssige Flüssigkeit zu entfernen.",
-      "Kartoffeln und die fein gehackte Zwiebel in eine große Schüssel geben und mit dem vorbereiteten Kichererbsenmehl gut vermengen.",
+      "Das Kichererbsenmehl mit 2 EL Wasser vermischen, bis eine glatte Paste entsteht.",
+      "Kartoffeln, die fein gehackte Zwiebel und die Kichererbsenmehl-Paste in eine große Schüssel geben.",
       "Mehl, Muskatnuss, Salz und Pfeffer hinzufügen und alles zu einem gleichmäßigen Teig vermengen.",
       "Öl in einer beschichteten Pfanne erhitzen.",
       "Mit einem Esslöffel den Teig in die Pfanne geben und zu flachen, runden Fladen formen.",
@@ -367,12 +404,32 @@ export const recipes: Recipe[] = [
         {
           "title": "Vielseitig und flexibel",
           "description": "Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip – Kartoffelpuffer passen immer und sind wahre Allrounder in der Küche."
+        },
+        {
+          "title": "Tradition trifft Kreativität",
+          "description": "Kartoffelpuffer sind ein Klassiker, der sich wunderbar mit neuen Ideen kombinieren lässt – ob mit Käse, Kräutern oder pikanten Gewürzen, der Fantasie sind keine Grenzen gesetzt."
+        },
+        {
+          "title": "Perfekt für Resteverwertung",
+          "description": "Kartoffelpuffer sind ideal, um übrig gebliebene Kartoffeln zu verwerten. So wird nichts verschwendet, und es entsteht etwas Köstliches!"
+        },
+        {
+          "title": "Ein Gericht für jede Jahreszeit",
+          "description": "Im Winter wärmend und herzhaft, im Sommer leicht und frisch mit einem Salat – Kartoffelpuffer passen zu jeder Jahreszeit und Stimmung."
+        },
+        {
+          "title": "Kindheitserinnerungen auf dem Teller",
+          "description": "Kartoffelpuffer erinnern viele an gemütliche Familienessen und die Küche der Großeltern – ein Gericht, das nicht nur satt macht, sondern auch das Herz erwärmt."
+        },
+        {
+          "title": "Perfekt für große und kleine Runden",
+          "description": "Egal, ob für ein gemütliches Abendessen zu zweit oder für eine große Runde bei einem Brunch – Kartoffelpuffer sind immer ein Hit und lassen sich leicht in großen Mengen zubereiten."
         }
       ]
     },
     "handwrittenMessage": {
-      "mainText": "Guten Appetit! Lass Dir meine Kartoffelpuffer schmecken!",
-      "subText": "Ich bin gespannt auf Dein Feedback und Deine eigenen Variationen!",
+      "mainText": "Guten Appetit! Lass Dir meine knusprigen Kartoffelpuffer schmecken!",
+      "subText": "Ich freue mich auf Dein Feedback und Deine kreativen Variationen – ob süß oder herzhaft!",
       "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
@@ -393,43 +450,77 @@ export const recipes: Recipe[] = [
         "description": "Die frisch gebratenen Kartoffelpuffer mit Apfelmus oder Deinem Lieblingsdip servieren und genießen!"
       }
     ],
-    "servingSuggestion": "Am besten direkt heiß servieren, begleitet von Apfelmus oder einem leckeren, cremigen Dip.",
     "nutrition": {
-      "calories": 803,
-      "protein": "20.6g",
-      "carbs": "157.5g",
-      "fat": "13.2g"
+      "calories": 285,
+      "protein": "7g",
+      "carbs": "53g",
+      "fat": "5g"
     },
     "tips": [
       "Achte darauf, die Kartoffeln gut auszudrücken, damit die Puffer schön knusprig werden.",
       "Für ein zusätzliches Aroma kannst Du frische Kräuter wie Petersilie oder Schnittlauch in den Teig einarbeiten.",
-      "Wenn Du die Puffer noch knuspriger haben möchtest, füge einen Esslöffel Semmelbrösel hinzu."
+      "Wenn Du die Puffer noch knuspriger haben möchtest, füge einen Esslöffel Semmelbrösel hinzu.",
+      "Fein gehackter oder geriebener Knoblauch verleiht den Puffern eine extra würzige Note.",
+      "Geriebener Käse wie Gouda oder Parmesan kann unter die Masse gemischt werden, um die Puffer noch herzhafter zu machen.",
+      "Für eine pikante Variante kannst Du etwas Paprikapulver oder Chiliflocken hinzufügen.",
+      "Übrig gebliebene Kartoffelpuffer lassen sich im Kühlschrank aufbewahren und in der Pfanne oder im Ofen wieder knusprig aufwärmen."
     ],
+    "servingSuggestion": "Am besten schmecken Kartoffelpuffer frisch aus der Pfanne, wenn sie außen knusprig und innen weich sind. Traditionell werden sie mit Apfelmus oder einem cremigen Dip serviert.",
     "servingSuggestions": {
-      "title": "",
-      "description": "",
-      "note": "",
+      "title": "Was du zu Kartoffelpuffern servieren kannst",
+      "description": "Kartoffelpuffer sind an sich schon ein Genuss, aber mit den richtigen Beilagen wird das Ganze noch besser!",
+      "note": "Egal, wofür du dich entscheidest – Kartoffelpuffer bleiben der Star auf deinem Teller! Als Hauptgericht reichen 3–4 Puffer pro Person, als Beilage oder Snack genügen 1–2 Puffer.",
       "items": [
         {
-          "emoji": "",
-          "title": "",
-          "description": ""
+          "emoji": "🥗",
+          "title": "Ein frischer Beilagensalat",
+          "description": "Ein knackiger Gurkensalat oder ein gemischter Salat mit einem leichten Joghurt-Dressing passt perfekt und sorgt für einen frischen Kontrast zu den knusprigen Puffern."
+        },
+        {
+          "emoji": "🍎",
+          "title": "Apfelmus",
+          "description": "Der Klassiker! Die süß-säuerliche Note des Apfelmus harmoniert wunderbar mit den herzhaften Kartoffelpuffern und schafft eine perfekte Balance."
+        },
+        {
+          "emoji": "🥣",
+          "title": "Sauerrahm oder Kräuterquark",
+          "description": "Cremig und erfrischend – ob pur oder mit Kräutern verfeinert, diese Dips sind die perfekte Begleitung zu den knusprigen Puffern."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Eine warme Suppe",
+          "description": "An kühleren Tagen passt eine cremige Kartoffelsuppe oder eine würzige Gemüsesuppe hervorragend zu Kartoffelpuffern und macht das Essen noch gemütlicher."
+        },
+        {
+          "emoji": "🥓",
+          "title": "Herzhafte Beilagen",
+          "description": "Gebratener Speck, Räucherlachs oder ein Spiegelei ergänzen die Kartoffelpuffer perfekt und machen sie zu einer vollwertigen Mahlzeit."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein Glas Weißwein",
+          "description": "Ein trockener Weißwein wie ein Riesling oder ein Grauburgunder passt hervorragend zu den herzhaften und knusprigen Kartoffelpuffern."
+        },
+        {
+          "emoji": "🧀",
+          "title": "Käsevariationen",
+          "description": "Geriebener Käse wie Gouda, Emmentaler oder sogar Blauschimmelkäse kann als Topping oder Beilage die Kartoffelpuffer noch herzhafter und interessanter machen."
         }
       ]
     },
     "funFact": {
-      "title": "",
-      "description": ""
+      "title": "Fun Fact",
+      "description": "Wusstest du, dass Kartoffelpuffer eine lange Tradition haben und in vielen Kulturen unter verschiedenen Namen bekannt sind? 🥔 In Deutschland heißen sie je nach Region auch Reibekuchen oder Reiberdatschi, in der Schweiz heißen sie Rösti, und in Polen nennt man sie Placki ziemniaczane. Ursprünglich waren sie eine einfache und günstige Mahlzeit, die aus wenigen Zutaten zubereitet wurde – perfekt, um Reste zu verwerten. In einigen Regionen werden sie auch als Fastenspeise serviert, da sie ohne Fleisch zubereitet werden können. Heute sind sie ein echter Klassiker, der sowohl süß mit Apfelmus als auch herzhaft mit Dips genossen wird. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kartoffelpufferIngredient.jpeg",
-      "image1": "/images/Miscellaneous/kartoffelpuffer1.jpeg",
-      "image2": "/images/Miscellaneous/kartoffelpuffer2.jpeg",
-      "image3": "/images/Miscellaneous/kartoffelpuffer3.jpeg",
-      "image4": "/images/Miscellaneous/kartoffelpuffer4.jpeg",
-      "image5": "/images/Miscellaneous/kartoffelpuffer5.jpeg" ,
-      "image6": "/images/MainCourses/kartoffelpuffer1.jpeg",
-      "image7": "/images/MainCourses/kartoffelpuffer2.jpeg"
+      "imageIngredient": "/images/Ingredients/kartoffelpufferIngredient.webp",
+      "image1": "/images/Miscellaneous/kartoffelpuffer1.webp",
+      "image2": "/images/Miscellaneous/kartoffelpuffer2.webp",
+      "image3": "/images/Miscellaneous/kartoffelpuffer3.webp",
+      "image4": "/images/Miscellaneous/kartoffelpuffer4.webp",
+      "image5": "/images/Miscellaneous/kartoffelpuffer5.webp",
+      "image6": "/images/Miscellaneous/kartoffelpuffer6.webp",
+      "image7": "/images/Miscellaneous/kartoffelpuffer7.webp"
     }
   }
 ];

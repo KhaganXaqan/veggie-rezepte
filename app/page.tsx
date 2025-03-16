@@ -300,7 +300,7 @@ export default async function Home() {
                         </div>
                         {casseroles[0].prepTime && (
                           <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                            <span className="text-xs text-black/80 font-['Montserrat'] uppercase">{casseroles[0].prepTime}</span>
+                            <span className="text-xs text-black/80 font-['Montserrat'] uppercase">{casseroles[0].prepTime}  Min</span>
                           </div>
                         )}
                       </div>
@@ -337,7 +337,7 @@ export default async function Home() {
                           </div>
                           {recipe.prepTime && (
                             <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                              <span className="text-[10px] text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                              <span className="text-[10px] text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}  Min</span>
                             </div>
                           )}
                         </div>
@@ -376,7 +376,7 @@ export default async function Home() {
                         <span>{recipe.title}</span>
                       </h2>
                       {recipe.prepTime && (
-                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}  Min</span>
                       )}
                     </div>
                   </Link>
@@ -417,7 +417,7 @@ export default async function Home() {
                         <span>{recipe.title}</span>
                       </h2>
                       {recipe.prepTime && (
-                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}  Min</span>
                       )}
                     </div>
                   </Link>
@@ -458,7 +458,7 @@ export default async function Home() {
                         <span>{recipe.title}</span>
                       </h2>
                       {recipe.prepTime && (
-                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}  Min</span>
                       )}
                     </div>
                   </Link>
@@ -502,7 +502,7 @@ export default async function Home() {
                         </div>
                         {breakfast[0].prepTime && (
                           <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                            <span className="text-xs text-black/80 font-['Montserrat'] uppercase">{breakfast[0].prepTime}</span>
+                            <span className="text-xs text-black/80 font-['Montserrat'] uppercase">{breakfast[0].prepTime}  Min</span>
                           </div>
                         )}
                       </div>
@@ -539,7 +539,7 @@ export default async function Home() {
                           </div>
                           {recipe.prepTime && (
                             <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                              <span className="text-[10px] text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                              <span className="text-[10px] text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}  Min</span>
                             </div>
                           )}
                         </div>
@@ -583,7 +583,7 @@ export default async function Home() {
                         <span>{recipe.title}</span>
                       </h2>
                       {recipe.prepTime && (
-                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}  Min</span>
                       )}
                     </div>
                   </Link>
@@ -624,7 +624,7 @@ export default async function Home() {
                         <span>{recipe.title}</span>
                       </h2>
                       {recipe.prepTime && (
-                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}</span>
+                        <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase">{recipe.prepTime}  Min</span>
                       )}
                     </div>
                   </Link>
