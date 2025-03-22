@@ -946,6 +946,214 @@ export const recipes: Recipe[] = [
       "image6": "/images/Miscellaneous/kartoffelkloesse6.webp",
       "image7": "/images/Miscellaneous/kartoffelkloesse7.webp"
     }
+  },
+  {
+    "title": "Semmelknödel",
+    "seo_title": "Vegetarische Semmelknödel Rezept – Einfach und lecker",
+    "image": "/images/Miscellaneous/semmelknoedel.webp",
+    "prepTime": 30,
+    "cookingTime": 20,
+    "seo_keywords": [
+      "Vegetarische Semmelknödel Rezept",
+      "Semmelknödel selber machen",
+      "Vegetarische Klöße",
+      "Deutsche vegetarische Küche",
+      "Semmelknödel ohne Fleisch"
+    ],
+    "rating": 4.8,
+    "category": "Beilagen",
+    "slug": "semmelknoedel",
+    "tags": ["Traditionell", "Beilage", "Kartoffeln"],
+    "servings": 4,
+    "description": "Fluffige vegetarische Semmelknödel, die mit ihrer goldenen Kruste und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
+    "descriptionOnImage": "Traditionelle vegetarische Semmelknödel – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
+    "introductionParagraph": "Semmelknödel sind für mich wie ein kleines Wunder der vegetarischen Küche. Es ist erstaunlich, wie aus altbackenen Brötchen etwas so Köstliches entstehen kann. Jedes Mal, wenn ich sie zubereite, fühle ich mich wie eine Alchemistin, die aus einfachen Zutaten Gold macht. Diese vegetarischen Klöße sind nicht nur eine Beilage – sie sind ein Symbol für Nachhaltigkeit und Kreativität. Ob zu einer cremigen vegetarischen Pilzsoße oder zu einem würzigen vegetarischen Gulasch, sie machen jedes Gericht zu etwas Besonderem. Und das Beste? Sie sind so einfach zuzubereiten, dass jeder sie nachmachen kann. Egal, ob du ein erfahrener Koch bist oder gerade erst anfängst – diese vegetarischen Semmelknödel werden dich begeistern.",
+    "additionalParagraph": "Es gibt etwas so Befriedigendes daran, vegetarische Semmelknödel zuzubereiten. Vielleicht ist es das Gefühl, altbackene Brötchen in etwas Köstliches zu verwandeln, oder der Duft, der durch die Küche zieht, wenn sie in der Pfanne goldbraun werden. Für mich ist es ein Moment der Freude, in dem ich alles andere vergesse und mich ganz auf das Kochen konzentriere. Diese vegetarischen Klöße sind mehr als nur ein Gericht – sie sind eine Einladung, kreativ zu sein und die kleinen Freuden des Lebens zu genießen. Und wenn ich dann sehe, wie meine Familie und Freunde genüsslich zugreifen, weiß ich, dass ich alles richtig gemacht habe. Vegetarische Semmelknödel sind für mich ein Stück Glück auf dem Teller.",
+    "ingredientsNeeded": [
+      {
+        "title": "Altbackene Brötchen",
+        "description": "Die Basis für perfekte vegetarische Semmelknödel – altbackene Brötchen, die in Würfel geschnitten werden."
+      },
+      {
+        "title": "Milch",
+        "description": "Zum Einweichen der Brötchen – für eine saftige und fluffige Konsistenz."
+      },
+      {
+        "title": "Zwiebeln",
+        "description": "Fein gehackte Zwiebeln verleihen den vegetarischen Knödeln eine würzige Note."
+      },
+      {
+        "title": "Butter",
+        "description": "Zum Anbraten der Zwiebeln – für ein extra Aroma in der vegetarischen Küche."
+      },
+      {
+        "title": "Eier",
+        "description": "Bindet die Masse und sorgt dafür, dass die vegetarischen Knödel ihre Form behalten."
+      },
+      {
+        "title": "Petersilie",
+        "description": "Frische Petersilie verleiht den Knödeln eine frische, krautige Note."
+      },
+      {
+        "title": "Muskatnuss",
+        "description": "Verleiht den vegetarischen Knödeln eine warme, aromatische Note."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Brötchenmasse",
+        "description": "Die Basis für perfekte vegetarische Semmelknödel – altbackene Brötchen, die in Würfel geschnitten und in Milch eingeweicht werden.",
+        "ingredients": [
+          { "amount": 250, "unit": "g", "name": "altbackene Brötchen, in Würfel geschnitten" },
+          { "amount": 250, "unit": "ml", "name": "Milch" }
+        ]
+      },
+      {
+        "title": "Die aromatische Basis",
+        "description": "Zwiebeln und Butter verleihen den vegetarischen Knödeln ihren würzigen Geschmack.",
+        "ingredients": [
+          { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+          { "amount": 2, "unit": "EL", "name": "Butter" }
+        ]
+      },
+      {
+        "title": "Die Bindemittel",
+        "description": "Eier und Gewürze sorgen dafür, dass die vegetarischen Knödel ihre Form behalten und nicht auseinanderfallen.",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Eier" },
+          { "amount": 1, "unit": "Handvoll", "name": "frische Petersilie, gehackt" },
+          { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 250, "unit": "g", "name": "altbackene Brötchen, in Würfel geschnitten" },
+      { "amount": 250, "unit": "ml", "name": "Milch" },
+      { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+      { "amount": 2, "unit": "EL", "name": "Butter" },
+      { "amount": 2, "unit": "", "name": "Eier" },
+      { "amount": 1, "unit": "Handvoll", "name": "frische Petersilie, gehackt" },
+      { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+    ],
+    "instructions": [
+      "Die altbackenen Brötchen in Würfel schneiden und in einer Schüssel mit der Milch übergießen. Etwa 15 Minuten einweichen lassen.",
+      "In der Zwischenzeit die Zwiebel in Butter goldbraun anbraten.",
+      "Die eingeweichten Brötchen, die angebratenen Zwiebeln, Eier, Petersilie, Muskatnuss, Salz und Pfeffer in einer Schüssel vermengen.",
+      "Aus der Masse gleichmäßige vegetarische Knödel formen (etwa so groß wie ein Tennisball).",
+      "Die vegetarischen Knödel in kochendem Salzwasser etwa 15–20 Minuten gar ziehen lassen, bis sie an die Oberfläche steigen.",
+      "Die gekochten vegetarischen Knödel aus dem Wasser nehmen, abtropfen lassen und heiß servieren."
+    ],
+    "nutrition": {
+      "calories": 1185,
+      "protein": "41.5g",
+      "carbs": "144g",
+      "fat": "45g"
+    },
+    "tips": [
+      "Achte darauf, die Brötchen nicht zu lange einzuweichen – sie sollten weich, aber nicht matschig sein.",
+      "Wenn der Teig zu klebrig ist, gib etwas mehr Semmelbrösel hinzu.",
+      "Serviere die vegetarischen Knödel mit einer cremigen Pilzsoße oder vegetarischem Gulasch – sie schmecken einfach himmlisch!",
+      "Für eine vegane Variante kannst du die Eier durch eine Mischung aus Stärke und Wasser ersetzen.",
+      "Die vegetarischen Knödel lassen sich auch einfrieren – einfach vor dem Kochen einfrieren und später direkt ins kochende Wasser geben."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese vegetarischen Semmelknödel ein echtes Lieblingsgericht sind",
+      "reasons": [
+        {
+          "title": "Traditionell und unwiderstehlich",
+          "description": "Ein Klassiker der vegetarischen deutschen Küche, der jeden überzeugt."
+        },
+        {
+          "title": "Einfach zuzubereiten",
+          "description": "Mit nur wenigen Zutaten entsteht etwas so Köstliches in der vegetarischen Küche."
+        },
+        {
+          "title": "Perfekt zu vielen vegetarischen Gerichten",
+          "description": "Ob zu Pilzrahm, vegetarischem Gulasch oder einfach pur – diese vegetarischen Knödel passen immer."
+        },
+        {
+          "title": "Nachhaltig und kreativ",
+          "description": "Altbackene Brötchen werden zu etwas Köstlichem verwandelt – perfekt für eine nachhaltige Küche."
+        },
+        {
+          "title": "Flexibel und anpassbar",
+          "description": "Du kannst die vegetarischen Knödel nach Belieben variieren – zum Beispiel mit Kräutern oder Käse."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dir diese vegetarischen Semmelknödel richtig gut schmecken!",
+      "subText": "Ich bin schon gespannt auf dein Feedback!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Brötchen vorbereiten",
+        "description": "Altbackene Brötchen in Würfel schneiden und in Milch einweichen – die Basis für perfekte vegetarische Knödel."
+      },
+      {
+        "title": "Schritt 2: Die aromatische Basis",
+        "description": "Zwiebeln in Butter goldbraun anbraten – für den würzigen Geschmack der vegetarischen Knödel."
+      },
+      {
+        "title": "Schritt 3: Den Teig herstellen",
+        "description": "Eingeweichte Brötchen, angebratene Zwiebeln, Eier und Gewürze vermengen und zu einem glatten Teig verkneten."
+      },
+      {
+        "title": "Schritt 4: Die Knödel formen",
+        "description": "Aus der Masse gleichmäßige vegetarische Knödel formen – etwa so groß wie ein Tennisball."
+      },
+      {
+        "title": "Schritt 5: Die Knödel kochen",
+        "description": "Die vegetarischen Knödel in kochendem Salzwasser gar ziehen lassen, bis sie an die Oberfläche steigen."
+      }
+    ],
+    "servingSuggestion": "Am besten schmecken die vegetarischen Knödel frisch zubereitet, wenn sie noch warm und fluffig sind. Serviere sie mit einer cremigen Pilzsoße oder vegetarischem Gulasch.",
+    "servingSuggestions": {
+      "title": "Was du zu vegetarischen Semmelknödeln servieren kannst",
+      "description": "Diese vegetarischen Knödel sind an sich schon ein Genuss, aber mit den richtigen Beilagen wird das Ganze noch besser!",
+      "note": "Egal, wofür du dich entscheidest – die vegetarischen Semmelknödel bleiben der Star auf deinem Teller!",
+      "items": [
+        {
+          "emoji": "🍄",
+          "title": "Cremige Pilzsoße",
+          "description": "Eine cremige vegetarische Pilzsoße verleiht den Knödeln eine extra herzhafte Note."
+        },
+        {
+          "emoji": "🥘",
+          "title": "Vegetarisches Gulasch",
+          "description": "Ein würziges vegetarisches Gulasch passt perfekt zu den Knödeln."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Ein frischer Salat",
+          "description": "Ein knackiger Gurkensalat oder ein gemischter Salat ergänzt die vegetarischen Knödel perfekt."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein Glas Rotwein",
+          "description": "Ein kräftiger Rotwein passt hervorragend zu diesem herzhaften vegetarischen Gericht."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact",
+      "description": "Wusstest du, dass Semmelknödel ursprünglich als Resteverwertung erfunden wurden? 🥖 In der bayerischen Küche wurden altbackene Brötchen verwendet, um daraus etwas Köstliches zu zaubern. Heute sind sie ein fester Bestandteil der vegetarischen deutschen Küche und werden zu festlichen Anlässen genauso serviert wie im Alltag. Einfach, aber genial! 😍"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/semmelknoedel-ingredients.webp",
+      "image1": "/images/Miscellaneous/semmelknoedel1.webp",
+      "image2": "/images/Miscellaneous/semmelknoedel2.webp",
+      "image3": "/images/Miscellaneous/semmelknoedel3.webp",
+      "image4": "/images/Miscellaneous/semmelknoedel4.webp",
+      "image5": "/images/Miscellaneous/semmelknoedel5.webp",
+      "image6": "/images/Miscellaneous/semmelknoedel6.webp",
+      "image7": "/images/Miscellaneous/semmelknoedel7.webp"
+    }
   }
 ];
 

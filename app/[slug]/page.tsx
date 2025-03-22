@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
   const slug = params?.slug;
 
   let recipe;
-  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse'].includes(slug)) {
+  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'semmelknoedel'].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
     recipe = recipesData.find((r) => r.slug === slug);
@@ -75,7 +75,7 @@ export async function generateStructuredData({ params }: RecipePageProps) {
   const slug = params?.slug;
 
   let recipe;
-  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse'].includes(slug)) {
+  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'semmelknoedel'].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
     recipe = recipesData.find((r) => r.slug === slug);
@@ -146,7 +146,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const slug = params?.slug;
 
   let recipe: Recipe | Recipe1 | null = null;
-  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse'].includes(slug)) {
+  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'semmelknoedel'].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
   } else {
@@ -162,7 +162,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const validRecipe = recipe;
 
   // For any recipe other than flammkuchen and kartoffelpuffer, use page-other.tsx
-  if (!['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'kartoffelkloesse'].includes(slug)) {
+  if (!['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'semmelknoedel'].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
 
