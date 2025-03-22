@@ -1157,7 +1157,7 @@ export const recipes: Recipe[] = [
   },
   {
     "title": "Quinoa-Buddha-Bowl",
-    "seo_title": "Vegetarische Quinoa-Buddha-Bowl Rezept – Gesund, bunt und lecker",
+    "seo_title": "Vegetarische Quinoa-Buddha-Bowl Rezept – Gesund - lecker",
     "image": "/images/MainCourses/quinoa-buddha-bowl.webp",
     "prepTime": 25,
     "cookingTime": 20,
@@ -1173,7 +1173,7 @@ export const recipes: Recipe[] = [
     "slug": "quinoa-buddha-bowl",
     "tags": ["Modern", "Gesund", "Bowl"],
     "servings": 2,
-    "description": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl, die mit frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings überzeugt – perfekt für ein nahrhaftes Mittag- oder Abendessen!",
+    "description": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl, die mit frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings überzeugt",
     "descriptionOnImage": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl – voller frischer Zutaten und voller Geschmack.",
     "introductionParagraph": "Eine Quinoa-Buddha-Bowl ist für mich wie ein kulinarisches Kunstwerk auf dem Teller. Jede Zutat hat ihre eigene Farbe, Textur und Geschmacksnote, und zusammen ergeben sie ein harmonisches Ganzes. Diese vegetarische Bowl ist nicht nur ein Gericht – sie ist eine Einladung, kreativ zu sein und die Vielfalt der Natur zu genießen. Mit Quinoa als Basis, frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings ist sie eine wahre Geschmacksexplosion. Und das Beste? Sie ist so einfach zuzubereiten, dass jeder sie nachmachen kann. Egal, ob du ein erfahrener Koch bist oder gerade erst anfängst – diese vegetarische Quinoa-Buddha-Bowl wird dich begeistern.",
     "additionalParagraph": "Es gibt etwas so Befriedigendes daran, eine Quinoa-Buddha-Bowl zuzubereiten. Vielleicht ist es das Gefühl, alle Zutaten sorgfältig auszuwählen und zu schneiden, oder der Duft, der durch die Küche zieht, wenn das Gemüse geröstet wird. Für mich ist es ein Moment der Achtsamkeit, in dem ich alles andere vergesse und mich ganz auf das Kochen konzentriere. Diese vegetarische Bowl ist mehr als nur ein Gericht – sie ist eine Einladung, innezuhalten und die kleinen Freuden des Lebens zu genießen. Und wenn ich dann sehe, wie meine Familie und Freunde genüsslich zugreifen, weiß ich, dass ich alles richtig gemacht habe. Eine vegetarische Quinoa-Buddha-Bowl ist für mich ein Stück Glück auf dem Teller.",
