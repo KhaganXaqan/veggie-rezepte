@@ -108,96 +108,96 @@ export const recipes: Recipe[] = [
     "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
     "introductionParagraph": "Backen von Flammkuchen ist in dieser Jahreszeit eine meiner liebsten Beschäftigungen in der Küche. Es ist so einfach und stressfrei, und dabei füllt der knusprige, goldbraune Teig das ganze Haus mit herrlichen Aromen. Und das Beste daran? Du kannst ihn nach Belieben mit deinen Lieblingszutaten belegen, und er schmeckt immer köstlich. Dieser vegetarische Flammkuchen ist mein absoluter Favorit – ein dünner, knuspriger Boden, bedeckt mit einer cremigen Mischung, süß karamellisierten Zwiebeln und einer großzügigen Portion Käse. Es ist ein einfaches, aber unglaublich leckeres Gericht, das jeder Mahlzeit eine besondere Note verleiht. Und das Beste: Es ist so einfach zuzubereiten und das Ergebnis ist so zufriedenstellend, dass du ihn immer wieder machen wirst!",
     "additionalParagraph": "Jedes Mal, wenn ich einen Flammkuchen zubereite, überkommt mich ein Gefühl der Nostalgie. Es erinnert mich an gemütliche Abende mit Freunden und Familie, an unbeschwerte Zeiten, in denen wir zusammen saßen, gelacht haben und uns einfach gut fühlten. Der Duft des frisch gebackenen Flammkuchens, der durch die Küche zieht, lässt mich an all diese schönen Momente zurückdenken. Besonders dieser vegetarische Flammkuchen hat für mich eine besondere Bedeutung. Die Kombination aus dem knusprigen Teig, den karamellisierten Zwiebeln und der cremigen Basis ist nicht nur eine Gaumenfreude, sondern auch ein Stück Heimat. Es fühlt sich an, als würde jeder Bissen ein Stück Glück auf meinem Teller bringen. Und wenn ich dann mit den Menschen, die mir am meisten bedeuten, am Tisch sitze und den Flammkuchen genieße, weiß ich: Es gibt nichts Schöneres.",
-"ingredientsNeeded": [
-  {
-    "title": "Flammkuchenteig",
-    "description": "Eine einfache Kombination aus Mehl, warmem Wasser, Olivenöl, Salz, Zucker und ein wenig Backpulver für den perfekten dünnen, knusprigen Boden. Er ist einfach zuzubereiten und gelingt immer perfekt!"
-  },
-  {
-    "title": "Crème Fraîche",
-    "description": "Die cremige Basis, die den Flammkuchen besonders lecker macht. Du kannst auch vegane Sahnealternativen verwenden, wenn du eine pflanzliche Version bevorzugst."
-  },
-  {
-    "title": "Dijon-Senf",
-    "description": "Ein Löffel Dijon-Senf gibt der cremigen Basis einen leichten, würzigen Kick und verleiht dem Flammkuchen das besondere Etwas."
-  },
-  {
-    "title": "Zwiebeln",
-    "description": "Süße, goldene Zwiebeln, die perfekt karamellisiert sind. Der langsame Kochprozess bringt ihre natürliche Süße hervor und fügt dem Flammkuchen eine wunderbare Tiefe hinzu."
-  },
-  {
-    "title": "Käse",
-    "description": "Gruyère oder Emmentaler Käse ist ideal für die klassische, schmelzende Käseschicht. Du kannst auch eine vegane Käsealternative verwenden, wenn du eine vollständig pflanzliche Version machen möchtest."
-  },
-  {
-    "title": "Olivenöl",
-    "description": "Zum Anbraten der Zwiebeln und zum Bestreichen des Teiges, damit er die goldene Farbe erhält."
-  },
-  {
-    "title": "Thymian",
-    "description": "Eine Prise getrockneter Thymian verleiht dem Flammkuchen ein aromatisches, erdiges Flair, das wunderbar mit den karamellisierten Zwiebeln und dem Käse harmoniert."
-  },
-  {
-    "title": "Frische Petersilie",
-    "description": "Ein wenig frische Petersilie am Ende bringt Farbe und einen frischen, krautigen Geschmack."
-  }
-],
-"ingredientGroups": [
-  {
-    "title": "Der Grundteig",
-    "description": "Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig.",
+    "ingredientsNeeded": [
+      {
+        "title": "Flammkuchenteig",
+        "description": "Eine einfache Kombination aus Mehl, warmem Wasser, Olivenöl, Salz, Zucker und ein wenig Backpulver für den perfekten dünnen, knusprigen Boden. Er ist einfach zuzubereiten und gelingt immer perfekt!"
+      },
+      {
+        "title": "Crème Fraîche",
+        "description": "Die cremige Basis, die den Flammkuchen besonders lecker macht. Du kannst auch vegane Sahnealternativen verwenden, wenn du eine pflanzliche Version bevorzugst."
+      },
+      {
+        "title": "Dijon-Senf",
+        "description": "Ein Löffel Dijon-Senf gibt der cremigen Basis einen leichten, würzigen Kick und verleiht dem Flammkuchen das besondere Etwas."
+      },
+      {
+        "title": "Zwiebeln",
+        "description": "Süße, goldene Zwiebeln, die perfekt karamellisiert sind. Der langsame Kochprozess bringt ihre natürliche Süße hervor und fügt dem Flammkuchen eine wunderbare Tiefe hinzu."
+      },
+      {
+        "title": "Käse",
+        "description": "Gruyère oder Emmentaler Käse ist ideal für die klassische, schmelzende Käseschicht. Du kannst auch eine vegane Käsealternative verwenden, wenn du eine vollständig pflanzliche Version machen möchtest."
+      },
+      {
+        "title": "Olivenöl",
+        "description": "Zum Anbraten der Zwiebeln und zum Bestreichen des Teiges, damit er die goldene Farbe erhält."
+      },
+      {
+        "title": "Thymian",
+        "description": "Eine Prise getrockneter Thymian verleiht dem Flammkuchen ein aromatisches, erdiges Flair, das wunderbar mit den karamellisierten Zwiebeln und dem Käse harmoniert."
+      },
+      {
+        "title": "Frische Petersilie",
+        "description": "Ein wenig frische Petersilie am Ende bringt Farbe und einen frischen, krautigen Geschmack."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Der Grundteig",
+        "description": "Ein hauchdünner, knuspriger Teig ist das Fundament für einen perfekten Flammkuchen. Die Kombination aus Mehl, Wasser und einem Schuss Olivenöl macht den Teig geschmeidig und beim Backen wunderbar knusprig.",
+        "ingredients": [
+          { "amount": 62, "unit": "g", "name": "Mehl" },
+          { "amount": 31, "unit": "ml", "name": "Wasser" },
+          { "amount": 0.5, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" }
+        ]
+      },
+      {
+        "title": "Die cremige Basis",
+        "description": "Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack.",
+        "ingredients": [
+          { "amount": 50, "unit": "g", "name": "Crème fraîche" },
+          { "amount": 0.5, "unit": "EL", "name": "Dijon-Senf" }
+        ]
+      },
+      {
+        "title": "Der würzige Belag",
+        "description": "Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss.",
+        "ingredients": [
+          { "amount": 0.5, "unit": "", "name": "Zwiebel (dünn geschnitten)" },
+          { "amount": 25, "unit": "g", "name": "Gruyère oder Emmentaler (gerieben)" },
+          { "amount": 1, "unit": "Prise", "name": "Thymian" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": undefined, "unit": "", "name": "Pfeffer (nach Geschmack)" }
+        ]
+      }
+    ],
     "ingredients": [
       { "amount": 62, "unit": "g", "name": "Mehl" },
       { "amount": 31, "unit": "ml", "name": "Wasser" },
       { "amount": 0.5, "unit": "EL", "name": "Olivenöl" },
-      { "amount": 1, "unit": "Prise", "name": "Salz" }
-    ]
-  },
-  {
-    "title": "Die cremige Basis",
-    "description": "Die Crème fraîche bildet die perfekte Grundlage für den Belag. Sie wird beim Backen leicht bräunlich und entwickelt einen herrlich würzigen Geschmack.",
-    "ingredients": [
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
       { "amount": 50, "unit": "g", "name": "Crème fraîche" },
-      { "amount": 0.5, "unit": "EL", "name": "Dijon-Senf" }
-    ]
-  },
-  {
-    "title": "Der würzige Belag",
-    "description": "Die Zwiebeln werden beim Backen leicht karamellisiert und entwickeln eine natürliche Süße. Der Gruyère oder Emmentaler sorgt für den perfekten würzigen Abschluss.",
-    "ingredients": [
       { "amount": 0.5, "unit": "", "name": "Zwiebel (dünn geschnitten)" },
       { "amount": 25, "unit": "g", "name": "Gruyère oder Emmentaler (gerieben)" },
-      { "amount": 1, "unit": "Prise", "name": "Thymian" },
       { "amount": 1, "unit": "Prise", "name": "Salz" },
       { "amount": undefined, "unit": "", "name": "Pfeffer (nach Geschmack)" }
-    ]
-  }
-],
-"ingredients": [
-  { "amount": 62, "unit": "g", "name": "Mehl" },
-  { "amount": 31, "unit": "ml", "name": "Wasser" },
-  { "amount": 0.5, "unit": "EL", "name": "Olivenöl" },
-  { "amount": 1, "unit": "Prise", "name": "Salz" },
-  { "amount": 50, "unit": "g", "name": "Crème fraîche" },
-  { "amount": 0.5, "unit": "", "name": "Zwiebel (dünn geschnitten)" },
-  { "amount": 25, "unit": "g", "name": "Gruyère oder Emmentaler (gerieben)" },
-  { "amount": 1, "unit": "Prise", "name": "Salz" },
-  { "amount": undefined, "unit": "", "name": "Pfeffer (nach Geschmack)" }
-],
-"instructions": [
-  "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
-  "Für den Teig Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig verkneten. Den Teig dünn ausrollen und auf das Backblech legen.",
-  "Die Crème fraîche mit dem Dijon-Senf vermischen und gleichmäßig auf dem Teig verteilen. Mit Salz und Pfeffer würzen.",
-  "Die dünn geschnittenen Zwiebeln gleichmäßig auf der Crème fraîche verteilen. Den geriebenen Käse und den Thymian darüberstreuen.",
-  "Den Flammkuchen im vorgeheizten Ofen für 10–12 Minuten backen, bis der Rand knusprig und der Käse goldbraun ist.",
-  "Mit frischer Petersilie bestreuen und heiß servieren."
-],
-"nutrition": {
-  "calories": 285,
-  "protein": "7g",
-  "carbs": "40g",
-  "fat": "7g"
-},
+    ],
+    "instructions": [
+      "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
+      "Für den Teig Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig verkneten. Den Teig dünn ausrollen und auf das Backblech legen.",
+      "Die Crème fraîche mit dem Dijon-Senf vermischen und gleichmäßig auf dem Teig verteilen. Mit Salz und Pfeffer würzen.",
+      "Die dünn geschnittenen Zwiebeln gleichmäßig auf der Crème fraîche verteilen. Den geriebenen Käse und den Thymian darüberstreuen.",
+      "Den Flammkuchen im vorgeheizten Ofen für 10–12 Minuten backen, bis der Rand knusprig und der Käse goldbraun ist.",
+      "Mit frischer Petersilie bestreuen und heiß servieren."
+    ],
+    "nutrition": {
+      "calories": 285,
+      "protein": "7g",
+      "carbs": "40g",
+      "fat": "7g"
+    },
     "tips": [
       "Für eine vegane Variante kannst du die Crème fraîche durch pflanzliche Sahne ersetzen und den Käse weglassen oder durch veganen Käse austauschen.",
       "Füge Pilze, Spinat oder Paprika hinzu, um den Belag abwechslungsreicher zu gestalten.",
@@ -327,40 +327,52 @@ export const recipes: Recipe[] = [
     "descriptionOnImage": "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
     "introductionParagraph": "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip, sie sind immer eine Freude für den Gaumen.",
     "additionalParagraph": "Wenn ich Kartoffelpuffer serviere, spüre ich immer eine besondere Verbindung zu den Menschen am Tisch. Es ist, als würde dieses einfache Gericht eine unsichtbare Brücke zwischen uns schlagen, die Herzen öffnet und Erinnerungen weckt. Kartoffelpuffer sind mehr als nur Essen – sie sind ein Symbol für Gemeinschaft, für das Teilen von Momenten und für die Freude, die entsteht, wenn man zusammen am Tisch sitzt. Der Duft der knusprigen Puffer, die goldbraun in der Pfanne liegen, zieht alle magisch an, und schon bald versammeln sich alle um den Tisch, neugierig und voller Vorfreude. Egal, ob es ein schnelles Mittagessen ist, bei dem die Zeit knapp ist, aber die Stimmung dennoch warm und herzlich bleibt, oder ein gemütliches Abendessen, bei dem die Gespräche in die Länge gezogen werden und die Stunden wie Minuten verfliegen – Kartoffelpuffer passen immer. Selbst bei einem besonderen Brunch, wenn der Tag langsam beginnt und die Sonne durch die Fenster scheint, bringen sie eine Prise Freude und Genuss auf den Teller. Es ist erstaunlich, wie etwas so Einfaches wie geriebene Kartoffeln, Zwiebeln und ein paar Gewürze so viel Glück und Zufriedenheit schenken können.",
-"ingredientsNeeded": [
-  {
-    "title": "Kartoffeln",
-    "description": "Die Hauptzutat! Am besten eignen sich mehligkochende Kartoffeln, da sie nach dem Reiben eine schöne, bindende Konsistenz ergeben und perfekt knusprig werden."
-  },
-  {
-    "title": "Zwiebeln",
-    "description": "Fein geriebene Zwiebeln verleihen den Puffern eine zarte Würze und eine leicht süßliche Note, die den Geschmack abrundet."
-  },
-  {
-    "title": "Mehl",
-    "description": "Ein paar Esslöffel Mehl sorgen dafür, dass die Masse gut zusammenhält und die Puffer ihre Form behalten."
-  },
-  {
-    "title": "Kichererbsenmehl",
-    "description": "Dient als Bindemittel und verleiht den Puffern eine schöne Konsistenz. Kann auch durch Sojamehl ersetzt werden."
-  },
-  {
-    "title": "Salz und Pfeffer",
-    "description": "Für die Grundwürze – einfach, aber essenziell, um den Geschmack der Kartoffeln und Zwiebeln hervorzuheben."
-  },
-  {
-    "title": "Muskatnuss",
-    "description": "Verleiht den Puffern eine warme, aromatische Note."
-  },
-  {
-    "title": "Öl oder Butterschmalz",
-    "description": "Zum Braten, damit die Puffer schön knusprig und goldbraun werden. Butterschmalz verleiht zusätzlich einen nussigen Geschmack."
-  }
-],
-"ingredientGroups": [
-  {
-    "title": "Der Kartoffelpuffer-Teig",
-    "description": "Ein einfach zuzubereitender, klassischer Teig mit wenigen, preiswerten Zutaten, die man fast immer zu Hause hat.",
+    "ingredientsNeeded": [
+      {
+        "title": "Kartoffeln",
+        "description": "Die Hauptzutat! Am besten eignen sich mehligkochende Kartoffeln, da sie nach dem Reiben eine schöne, bindende Konsistenz ergeben und perfekt knusprig werden."
+      },
+      {
+        "title": "Zwiebeln",
+        "description": "Fein geriebene Zwiebeln verleihen den Puffern eine zarte Würze und eine leicht süßliche Note, die den Geschmack abrundet."
+      },
+      {
+        "title": "Mehl",
+        "description": "Ein paar Esslöffel Mehl sorgen dafür, dass die Masse gut zusammenhält und die Puffer ihre Form behalten."
+      },
+      {
+        "title": "Kichererbsenmehl",
+        "description": "Dient als Bindemittel und verleiht den Puffern eine schöne Konsistenz. Kann auch durch Sojamehl ersetzt werden."
+      },
+      {
+        "title": "Salz und Pfeffer",
+        "description": "Für die Grundwürze – einfach, aber essenziell, um den Geschmack der Kartoffeln und Zwiebeln hervorzuheben."
+      },
+      {
+        "title": "Muskatnuss",
+        "description": "Verleiht den Puffern eine warme, aromatische Note."
+      },
+      {
+        "title": "Öl oder Butterschmalz",
+        "description": "Zum Braten, damit die Puffer schön knusprig und goldbraun werden. Butterschmalz verleiht zusätzlich einen nussigen Geschmack."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Der Kartoffelpuffer-Teig",
+        "description": "Ein einfach zuzubereitender, klassischer Teig mit wenigen, preiswerten Zutaten, die man fast immer zu Hause hat.",
+        "ingredients": [
+          { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
+          { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
+          { "amount": 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
+          { "amount": 3, "unit": "EL", "name": "Mehl" },
+          { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+          { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
+        ]
+      }
+    ],
     "ingredients": [
       { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
       { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
@@ -370,35 +382,23 @@ export const recipes: Recipe[] = [
       { "amount": 1, "unit": "Prise", "name": "Salz" },
       { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
       { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
-    ]
-  }
-],
-"ingredients": [
-  { "amount": 700, "unit": "g", "name": "Kartoffeln, geschält und gerieben" },
-  { "amount": 1, "unit": "", "name": "Zwiebel, fein gehackt" },
-  { "amount": 1.5, "unit": "EL", "name": "Kichererbsenmehl (oder Sojamehl), vermischt mit 2 EL Wasser" },
-  { "amount": 3, "unit": "EL", "name": "Mehl" },
-  { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
-  { "amount": 1, "unit": "Prise", "name": "Salz" },
-  { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
-  { "amount": undefined, "unit": "", "name": "Öl (z.B. Rapsöl, Sonnenblumenöl oder Pflanzenöl)" }
-],
-"instructions": [
-  "Die geriebenen Kartoffeln gut ausdrücken, um überschüssige Flüssigkeit zu entfernen.",
-  "Das Kichererbsenmehl mit 2 EL Wasser vermischen, bis eine glatte Paste entsteht.",
-  "Kartoffeln, die fein gehackte Zwiebel und die Kichererbsenmehl-Paste in eine große Schüssel geben.",
-  "Mehl, Muskatnuss, Salz und Pfeffer hinzufügen und alles zu einem gleichmäßigen Teig vermengen.",
-  "Öl in einer beschichteten Pfanne erhitzen.",
-  "Mit einem Esslöffel den Teig in die Pfanne geben und zu flachen, runden Fladen formen.",
-  "Die Kartoffelpuffer von beiden Seiten goldbraun und knusprig braten.",
-  "Mit Apfelmus oder einem Deiner liebsten Dips servieren. Auch ohne Beilage schmecken sie hervorragend!"
-],
-"nutrition": {
-  "calories": 245,
-  "protein": "5g",
-  "carbs": "40g",
-  "fat": "7g"
-},
+    ],
+    "instructions": [
+      "Die geriebenen Kartoffeln gut ausdrücken, um überschüssige Flüssigkeit zu entfernen.",
+      "Das Kichererbsenmehl mit 2 EL Wasser vermischen, bis eine glatte Paste entsteht.",
+      "Kartoffeln, die fein gehackte Zwiebel und die Kichererbsenmehl-Paste in eine große Schüssel geben.",
+      "Mehl, Muskatnuss, Salz und Pfeffer hinzufügen und alles zu einem gleichmäßigen Teig vermengen.",
+      "Öl in einer beschichteten Pfanne erhitzen.",
+      "Mit einem Esslöffel den Teig in die Pfanne geben und zu flachen, runden Fladen formen.",
+      "Die Kartoffelpuffer von beiden Seiten goldbraun und knusprig braten.",
+      "Mit Apfelmus oder einem Deiner liebsten Dips servieren. Auch ohne Beilage schmecken sie hervorragend!"
+    ],
+    "nutrition": {
+      "calories": 245,
+      "protein": "5g",
+      "carbs": "40g",
+      "fat": "7g"
+    },
     "whyFavorite": {
       "title": "Warum dieses Kartoffelpuffer-Rezept besonders ist",
       "reasons": [
@@ -524,6 +524,221 @@ export const recipes: Recipe[] = [
       "image5": "/images/Miscellaneous/kartoffelpuffer5.webp",
       "image6": "/images/Miscellaneous/kartoffelpuffer6.webp",
       "image7": "/images/Miscellaneous/kartoffelpuffer7.webp"
+    }
+  },
+  {
+    "title": "Gemüsesuppe",
+    "seo_title": "Einfache vegetarische Gemüsesuppe Rezept – Schnell und gesund",
+    "image": "/images/Soups/gemuesesuppe.webp",
+    "prepTime": 20,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Vegetarische Gemüsesuppe Rezept",
+      "Einfache Gemüsesuppe",
+      "Gesunde vegetarische Suppe",
+      "Vegetarische Suppe",
+      "Schnelle Gemüsesuppe"
+    ],
+    "rating": 4.9,
+    "category": "Suppen",
+    "slug": "gemuesesuppe",
+    "tags": ["Gesund", "Vegetarisch", "Einfach", "Schnell", "Winter", "Suppen"],
+    "servings": 4,
+    "description": "Eine einfache und gesunde vegetarische Gemüsesuppe, die in weniger als einer Stunde zubereitet ist – perfekt für kalte Tage oder als schnelle Mahlzeit!",
+    "descriptionOnImage": "Eine herzhafte vegetarische Gemüsesuppe mit frischem Gemüse und würziger Brühe – gesund, lecker und schnell zubereitet.",
+    "introductionParagraph": "Gemüsesuppe ist für mich das ultimative vegetarische Comfort Food. Egal, ob es draußen kalt ist und man sich nach etwas Wärmendem sehnt, oder ob man einfach eine schnelle, gesunde vegetarische Mahlzeit braucht – diese Suppe ist immer die richtige Wahl. Mit einer bunten Mischung aus frischem Gemüse und einer kräftigen vegetarischen Brühe ist sie nicht nur lecker, sondern auch unglaublich nahrhaft. Und das Beste? Du kannst das Rezept ganz einfach anpassen und alle Gemüsereste verwerten, die du im Kühlschrank hast. So wird nichts verschwendet, und es entsteht etwas Köstliches! Diese vegetarische Suppe ist nicht nur eine gesunde Wahl, sondern auch eine, die jeden Geschmack trifft – ob Vegetarier oder nicht.",
+    "additionalParagraph": "Jedes Mal, wenn ich eine vegetarische Gemüsesuppe koche, erinnere ich mich an die gemütlichen Abende in meiner Kindheit, an denen meine Mutter diese Suppe zubereitete. Der Duft von frischem Gemüse und Kräutern, der durch die Küche zog, war einfach unwiderstehlich. Es war mehr als nur eine Mahlzeit – es war ein Gefühl von Geborgenheit und Wärme. Diese vegetarische Suppe ist für mich ein Stück Heimat, und ich liebe es, sie mit meinen Liebsten zu teilen. Egal, ob es ein schnelles vegetarisches Mittagessen ist oder ein gemütliches Abendessen, diese Suppe bringt immer ein Lächeln auf die Gesichter meiner Gäste. Und wenn ich dann sehe, wie sie genüsslich löffeln, weiß ich, dass ich alles richtig gemacht habe. Vegetarisch zu kochen bedeutet für mich, bewusst zu genießen und dabei die Umwelt und die Tiere zu schonen – und diese Suppe ist das perfekte Beispiel dafür, wie lecker und erfüllend vegetarische Küche sein kann.",
+    "ingredientsNeeded": [
+      {
+        "title": "Gemüse",
+        "description": "Eine bunte Mischung aus Karotten, Sellerie, Lauch und Kartoffeln bildet die Basis dieser vegetarischen Suppe. Du kannst aber auch anderes Gemüse wie Zucchini oder Brokkoli verwenden."
+      },
+      {
+        "title": "Gemüsebrühe",
+        "description": "Eine kräftige vegetarische Gemüsebrühe verleiht der Suppe ihren würzigen Geschmack. Du kannst sie selbst machen oder eine hochwertige gekaufte Brühe verwenden."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Für eine aromatische Basis, die der Suppe Tiefe verleiht."
+      },
+      {
+        "title": "Tomaten",
+        "description": "Frische oder Dosentomaten geben der Suppe eine leicht säuerliche Note und eine schöne Farbe."
+      },
+      {
+        "title": "Kräuter",
+        "description": "Frische Petersilie, Thymian und Lorbeerblätter verleihen der Suppe ein herrliches Aroma."
+      },
+      {
+        "title": "Olivenöl",
+        "description": "Zum Anbraten des Gemüses und für einen extra Geschmack."
+      },
+      {
+        "title": "Salz und Pfeffer",
+        "description": "Für die Grundwürze – einfach, aber essenziell."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Gemüsebasis",
+        "description": "Eine bunte Mischung aus frischem Gemüse bildet das Herzstück dieser vegetarischen Suppe. Karotten, Sellerie und Lauch sorgen für Süße und Aroma, während Kartoffeln die Suppe sämig machen.",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Karotten, geschält und gewürfelt" },
+          { "amount": 2, "unit": "", "name": "Stangen Sellerie, gewürfelt" },
+          { "amount": 1, "unit": "", "name": "Lauch, in Ringe geschnitten" },
+          { "amount": 2, "unit": "", "name": "Kartoffeln, geschält und gewürfelt" }
+        ]
+      },
+      {
+        "title": "Die aromatische Basis",
+        "description": "Zwiebeln, Knoblauch und Tomaten bilden die Grundlage für den würzigen Geschmack der Suppe.",
+        "ingredients": [
+          { "amount": 1, "unit": "", "name": "Zwiebel, gehackt" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch, gehackt" },
+          { "amount": 2, "unit": "", "name": "Tomaten, gewürfelt" }
+        ]
+      },
+      {
+        "title": "Die Brühe und Gewürze",
+        "description": "Vegetarische Gemüsebrühe und frische Kräuter verleihen der Suppe ihren charakteristischen Geschmack.",
+        "ingredients": [
+          { "amount": 1.5, "unit": "l", "name": "Gemüsebrühe" },
+          { "amount": 2, "unit": "Zweige", "name": "Thymian" },
+          { "amount": 2, "unit": "", "name": "Lorbeerblätter" },
+          { "amount": 1, "unit": "Handvoll", "name": "Petersilie, gehackt" },
+          { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 2, "unit": "", "name": "Karotten, geschält und gewürfelt" },
+      { "amount": 2, "unit": "", "name": "Stangen Sellerie, gewürfelt" },
+      { "amount": 1, "unit": "", "name": "Lauch, in Ringe geschnitten" },
+      { "amount": 2, "unit": "", "name": "Kartoffeln, geschält und gewürfelt" },
+      { "amount": 1, "unit": "", "name": "Zwiebel, gehackt" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch, gehackt" },
+      { "amount": 2, "unit": "", "name": "Tomaten, gewürfelt" },
+      { "amount": 1.5, "unit": "l", "name": "Gemüsebrühe" },
+      { "amount": 2, "unit": "Zweige", "name": "Thymian" },
+      { "amount": 2, "unit": "", "name": "Lorbeerblätter" },
+      { "amount": 1, "unit": "Handvoll", "name": "Petersilie, gehackt" },
+      { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+    ],
+    "instructions": [
+      "Das Olivenöl in einem großen Topf erhitzen. Zwiebeln und Knoblauch darin anschwitzen, bis sie duften.",
+      "Karotten, Sellerie und Lauch hinzufügen und für 5 Minuten anbraten.",
+      "Kartoffeln und Tomaten hinzufügen und weitere 2 Minuten braten.",
+      "Die vegetarische Gemüsebrühe, Thymian und Lorbeerblätter hinzufügen und alles zum Kochen bringen.",
+      "Die Suppe bei mittlerer Hitze 20–25 Minuten köcheln lassen, bis das Gemüse weich ist.",
+      "Mit Salz und Pfeffer abschmecken. Die Petersilie unterrühren.",
+      "Heiß servieren und genießen!"
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein": "10g",
+      "carbs": "84g",
+      "fat": "28g"
+    },
+    "tips": [
+      "Für eine cremige Variante kannst du etwas Sahne oder Kokosmilch hinzufügen.",
+      "Füge Linsen oder Bohnen hinzu, um die Suppe proteinreicher zu machen.",
+      "Serviere die Suppe mit frischem Brot oder Croutons für einen extra Knusper.",
+      "Die Suppe lässt sich gut einfrieren und ist perfekt für Meal Prep.",
+      "Verwende alle Gemüsereste, die du im Kühlschrank hast – so wird nichts verschwendet!"
+    ],
+    "whyFavorite": {
+      "title": "Warum diese vegetarische Gemüsesuppe ein echtes Lieblingsgericht ist",
+      "reasons": [
+        {
+          "title": "Schnell und einfach zuzubereiten",
+          "description": "In weniger als einer Stunde ist diese vegetarische Suppe fertig – perfekt für stressige Tage."
+        },
+        {
+          "title": "Gesund und nahrhaft",
+          "description": "Vollgepackt mit frischem Gemüse und ohne künstliche Zusätze – ideal für eine vegetarische Ernährung."
+        },
+        {
+          "title": "Perfekt für Resteverwertung",
+          "description": "Ideal, um übrig gebliebenes Gemüse zu verwerten – vegetarisch kochen kann so nachhaltig sein!"
+        },
+        {
+          "title": "Flexibel und anpassbar",
+          "description": "Du kannst das Rezept nach Belieben variieren und dein Lieblingsgemüse hinzufügen – vegetarisch kochen ist so kreativ!"
+        },
+        {
+          "title": "Ein Gericht für jede Jahreszeit",
+          "description": "Im Winter wärmend, im Sommer leicht und erfrischend – diese vegetarische Suppe passt immer."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dir diese vegetarische Gemüsesuppe richtig gut schmecken!",
+      "subText": "Ich bin schon gespannt auf dein Feedback!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die aromatische Basis",
+        "description": "Zwiebeln und Knoblauch in Olivenöl anschwitzen, bis sie duften. Dies bildet die Grundlage für den würzigen Geschmack der Suppe."
+      },
+      {
+        "title": "Schritt 2: Das Gemüse anbraten",
+        "description": "Karotten, Sellerie und Lauch hinzufügen und anbraten, bis sie leicht weich sind. Dies verstärkt ihre natürliche Süße."
+      },
+      {
+        "title": "Schritt 3: Die Brühe hinzufügen",
+        "description": "Vegetarische Gemüsebrühe, Thymian und Lorbeerblätter hinzufügen und alles zum Kochen bringen. Die Suppe köcheln lassen, bis das Gemüse weich ist."
+      },
+      {
+        "title": "Schritt 4: Abschmecken und servieren",
+        "description": "Mit Salz und Pfeffer abschmecken und die Petersilie unterrühren. Heiß servieren und genießen!"
+      }
+    ],
+    "servingSuggestion": "Am besten schmeckt die Suppe frisch zubereitet, wenn das Gemüse noch bissfest und die Brühe heiß ist. Serviere sie mit frischem Brot oder Croutons.",
+    "servingSuggestions": {
+      "title": "Was du zu vegetarischer Gemüsesuppe servieren kannst",
+      "description": "Diese vegetarische Suppe ist an sich schon ein Genuss, aber mit den richtigen Beilagen wird das Ganze noch besser!",
+      "note": "Egal, wofür du dich entscheidest – die vegetarische Gemüsesuppe bleibt der Star auf deinem Teller!",
+      "items": [
+        {
+          "emoji": "🥖",
+          "title": "Frisches Brot",
+          "description": "Ein Stück knuspriges Baguette oder Ciabatta passt perfekt zum Eintunken in die Suppe."
+        },
+        {
+          "emoji": "🧀",
+          "title": "Käse",
+          "description": "Geriebener Parmesan oder Gouda verleiht der Suppe eine extra herzhafte Note."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Ein frischer Salat",
+          "description": "Ein einfacher Grüner Salat mit einem leichten Dressing ergänzt die Suppe perfekt."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein Glas Wein",
+          "description": "Ein trockener Weißwein oder ein leichter Rotwein passt hervorragend zu dieser herzhaften Suppe."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact",
+      "description": "Wusstest du, dass Gemüsesuppe schon seit der Antike als Heilmittel verwendet wird? 🥕 In vielen Kulturen gilt sie als „Arznei für die Seele“, da sie nicht nur nahrhaft, sondern auch leicht verdaulich ist. Besonders bei Erkältungen oder Magenverstimmungen ist sie eine beliebte Wahl. Heute ist sie ein Klassiker, der in unzähligen Varianten zubereitet wird – von der einfachen Hausmannskost bis zur Gourmet-Kreation. Einfach, aber genial! 😍"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/gemuesesuppeIngredient.webp",
+      "image1": "/images/Soups/gemuesesuppe1.webp",
+      "image2": "/images/Soups/gemuesesuppe2.webp",
+      "image3": "/images/Soups/gemuesesuppe3.webp",
+      "image4": "/images/Soups/gemuesesuppe4.webp",
+      "image5": "/images/Soups/gemuesesuppe5.webp",
+      "image6": "/images/Soups/gemuesesuppe6.webp",
+      "image7": "/images/Soups/gemuesesuppe7.webp"
     }
   }
 ];
