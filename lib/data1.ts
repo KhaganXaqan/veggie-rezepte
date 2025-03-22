@@ -323,10 +323,10 @@ export const recipes: Recipe[] = [
     "slug": "kartoffelpuffer",
     "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
     "servings": 4,
-    "description": "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht",
-    "descriptionOnImage": "Knusprige Kartoffelpuffer, perfekt kombiniert mit Apfelmus – ein traditionelles, geliebtes Gericht.",
-    "introductionParagraph": "Kartoffelpuffer, in einigen Regionen auch Reibekuchen oder Reiberdatschi genannt, sind ein Klassiker der deutschen Küche, der auch in vielen Nachbarländern sehr geschätzt wird. Außen schön knusprig und innen wunderbar weich, dazu eine zarte Zwiebelnote – einfach ein Genuss. Ob süß mit Apfelmus oder herzhaft mit einem cremigen Dip, sie sind immer eine Freude für den Gaumen.",
-    "additionalParagraph": "Wenn ich Kartoffelpuffer serviere, spüre ich immer eine besondere Verbindung zu den Menschen am Tisch. Es ist, als würde dieses einfache Gericht eine unsichtbare Brücke zwischen uns schlagen, die Herzen öffnet und Erinnerungen weckt. Kartoffelpuffer sind mehr als nur Essen – sie sind ein Symbol für Gemeinschaft, für das Teilen von Momenten und für die Freude, die entsteht, wenn man zusammen am Tisch sitzt. Der Duft der knusprigen Puffer, die goldbraun in der Pfanne liegen, zieht alle magisch an, und schon bald versammeln sich alle um den Tisch, neugierig und voller Vorfreude. Egal, ob es ein schnelles Mittagessen ist, bei dem die Zeit knapp ist, aber die Stimmung dennoch warm und herzlich bleibt, oder ein gemütliches Abendessen, bei dem die Gespräche in die Länge gezogen werden und die Stunden wie Minuten verfliegen – Kartoffelpuffer passen immer. Selbst bei einem besonderen Brunch, wenn der Tag langsam beginnt und die Sonne durch die Fenster scheint, bringen sie eine Prise Freude und Genuss auf den Teller. Es ist erstaunlich, wie etwas so Einfaches wie geriebene Kartoffeln, Zwiebeln und ein paar Gewürze so viel Glück und Zufriedenheit schenken können.",
+    "description": "Fluffige Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu Braten, Pilzen oder einfach pur!",
+    "descriptionOnImage": "Traditionelle Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften Gerichten.",
+    "introductionParagraph": "Kartoffelklöße sind für mich wie ein kleines Wunder in der Küche. Es ist erstaunlich, wie aus einfachen Kartoffeln etwas so Köstliches entstehen kann. Jedes Mal, wenn ich sie zubereite, fühle ich mich wie eine Zauberin, die mit wenigen Zutaten ein Festmahl erschafft. Diese Klöße sind nicht nur eine Beilage – sie sind ein Symbol für Liebe und Hingabe. Ob zu einem festlichen Braten oder zu einer einfachen Pilzsoße, sie machen jedes Gericht zu etwas Besonderem. Und das Beste? Sie sind so einfach zuzubereiten, dass jeder sie nachmachen kann. Egal, ob du ein erfahrener Koch bist oder gerade erst anfängst – diese Klöße werden dich begeistern.",
+    "additionalParagraph": "Es gibt etwas so Beruhigendes daran, Kartoffelklöße zuzubereiten. Vielleicht ist es das rhythmische Zerdrücken der Kartoffeln oder der Duft, der durch die Küche zieht, wenn sie im Topf garen. Für mich ist es ein Moment der Achtsamkeit, in dem ich alles andere vergesse und mich ganz auf das Kochen konzentriere. Diese Klöße sind mehr als nur ein Gericht – sie sind eine Einladung, innezuhalten und die kleinen Freuden des Lebens zu genießen. Und wenn ich dann sehe, wie meine Familie und Freunde genüsslich zugreifen, weiß ich, dass ich alles richtig gemacht habe. Kartoffelklöße sind für mich ein Stück Glück auf dem Teller.",
     "ingredientsNeeded": [
       {
         "title": "Kartoffeln",
@@ -542,7 +542,7 @@ export const recipes: Recipe[] = [
     "rating": 4.9,
     "category": "Suppen",
     "slug": "gemuesesuppe",
-    "tags": ["Gesund", "Vegetarisch", "Einfach", "Schnell", "Winter", "Suppen"],
+    "tags": ["Traditionell", "Suppe", "Gemüse"],
     "servings": 4,
     "description": "Eine einfache und gesunde vegetarische Gemüsesuppe, die in weniger als einer Stunde zubereitet ist – perfekt für kalte Tage oder als schnelle Mahlzeit!",
     "descriptionOnImage": "Eine herzhafte vegetarische Gemüsesuppe mit frischem Gemüse und würziger Brühe – gesund, lecker und schnell zubereitet.",
@@ -739,6 +739,212 @@ export const recipes: Recipe[] = [
       "image5": "/images/Soups/gemuesesuppe5.webp",
       "image6": "/images/Soups/gemuesesuppe6.webp",
       "image7": "/images/Soups/gemuesesuppe7.webp"
+    }
+  },
+  {
+    "title": "Kartoffelklöße",
+    "seo_title": "Traditionelle vegetarische Kartoffelklöße Rezept – Einfach, lecker und unwiderstehlich",
+    "image": "/images/Miscellaneous/kartoffelkloesse.webp",
+    "prepTime": 40,
+    "cookingTime": 20,
+    "seo_keywords": [
+      "Vegetarische Kartoffelklöße Rezept",
+      "Traditionelle Kartoffelklöße",
+      "Kartoffelklöße selber machen",
+      "Vegetarische Klöße",
+      "Deutsche vegetarische Küche"
+    ],
+    "rating": 4.9,
+    "category": "Beilagen",
+    "slug": "kartoffelkloesse",
+    "tags": ["Traditionell", "Beilage", "Kartoffeln"],
+    "servings": 4,
+    "description": "Fluffige vegetarische Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
+    "descriptionOnImage": "Traditionelle vegetarische Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
+    "introductionParagraph": "Kartoffelklöße sind für mich wie ein kleines Kunstwerk in der vegetarischen Küche. Es ist faszinierend, wie aus einfachen Kartoffeln etwas so Köstliches entstehen kann. Jedes Mal, wenn ich sie zubereite, fühle ich mich wie eine Künstlerin, die mit wenigen Zutaten ein Meisterwerk erschafft. Diese vegetarischen Klöße sind nicht nur eine Beilage – sie sind ein Symbol für Kreativität und Hingabe. Ob zu einer cremigen vegetarischen Pilzsoße oder zu einem würzigen vegetarischen Gulasch, sie machen jedes Gericht zu etwas Besonderem. Und das Beste? Sie sind so einfach zuzubereiten, dass jeder sie nachmachen kann. Egal, ob du ein erfahrener Koch bist oder gerade erst anfängst – diese vegetarischen Klöße werden dich begeistern.",
+    "additionalParagraph": "Es gibt etwas so Beruhigendes daran, vegetarische Kartoffelklöße zuzubereiten. Vielleicht ist es das rhythmische Zerdrücken der Kartoffeln oder der Duft, der durch die Küche zieht, wenn sie im Topf garen. Für mich ist es ein Moment der Achtsamkeit, in dem ich alles andere vergesse und mich ganz auf das Kochen konzentriere. Diese vegetarischen Klöße sind mehr als nur ein Gericht – sie sind eine Einladung, innezuhalten und die kleinen Freuden des Lebens zu genießen. Und wenn ich dann sehe, wie meine Familie und Freunde genüsslich zugreifen, weiß ich, dass ich alles richtig gemacht habe. Vegetarische Kartoffelklöße sind für mich ein Stück Glück auf dem Teller.",
+    "ingredientsNeeded": [
+      {
+        "title": "Kartoffeln",
+        "description": "Mehligkochende Kartoffeln sind ideal für vegetarische Klöße, da sie nach dem Kochen eine schöne, lockere Konsistenz haben."
+      },
+      {
+        "title": "Salz",
+        "description": "Für die Grundwürze – einfach, aber essenziell in der vegetarischen Küche."
+      },
+      {
+        "title": "Muskatnuss",
+        "description": "Verleiht den vegetarischen Klößen eine warme, aromatische Note."
+      },
+      {
+        "title": "Stärke",
+        "description": "Hilft, die vegetarischen Klöße zu binden und gibt ihnen die perfekte Textur."
+      },
+      {
+        "title": "Ei",
+        "description": "Bindet die Masse und sorgt dafür, dass die vegetarischen Klöße ihre Form behalten."
+      },
+      {
+        "title": "Semmelbrösel",
+        "description": "Für die klassische vegetarische Variante werden die Klöße in Semmelbröseln gewälzt, um eine knusprige Außenschicht zu bekommen."
+      },
+      {
+        "title": "Butter",
+        "description": "Zum Anbraten der Semmelbrösel – für ein extra Aroma in der vegetarischen Küche."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Kartoffelmasse",
+        "description": "Die Basis für perfekte vegetarische Kartoffelklöße – mehligkochende Kartoffeln, die gekocht und zerdrückt werden, um eine lockere Masse zu erhalten.",
+        "ingredients": [
+          { "amount": 1, "unit": "kg", "name": "mehligkochende Kartoffeln" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Muskatnuss" }
+        ]
+      },
+      {
+        "title": "Die Bindemittel",
+        "description": "Stärke und Ei sorgen dafür, dass die vegetarischen Klöße ihre Form behalten und nicht auseinanderfallen.",
+        "ingredients": [
+          { "amount": 2, "unit": "EL", "name": "Stärke" },
+          { "amount": 1, "unit": "", "name": "Ei" }
+        ]
+      },
+      {
+        "title": "Die Panade",
+        "description": "Semmelbrösel und Butter verleihen den vegetarischen Klößen eine knusprige Außenschicht.",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Semmelbrösel" },
+          { "amount": 2, "unit": "EL", "name": "Butter" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 1, "unit": "kg", "name": "mehligkochende Kartoffeln" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+      { "amount": 2, "unit": "EL", "name": "Stärke" },
+      { "amount": 1, "unit": "", "name": "Ei" },
+      { "amount": 100, "unit": "g", "name": "Semmelbrösel" },
+      { "amount": 2, "unit": "EL", "name": "Butter" }
+    ],
+    "instructions": [
+      "Die Kartoffeln schälen, in Stücke schneiden und in Salzwasser weich kochen. Abgießen und abkühlen lassen.",
+      "Die gekochten Kartoffeln zerdrücken oder durch eine Kartoffelpresse drücken.",
+      "Stärke, Ei, Salz und Muskatnuss unter die Kartoffelmasse mischen und alles zu einem glatten Teig verkneten.",
+      "Aus der Masse gleichmäßige vegetarische Klöße formen (etwa so groß wie ein Tennisball).",
+      "Die vegetarischen Klöße in kochendem Salzwasser etwa 15–20 Minuten gar ziehen lassen, bis sie an die Oberfläche steigen.",
+      "In der Zwischenzeit die Semmelbrösel in Butter goldbraun anrösten.",
+      "Die gekochten vegetarischen Klöße aus dem Wasser nehmen, abtropfen lassen und in den gerösteten Semmelbröseln wälzen.",
+      "Heiß servieren und genießen!"
+    ],
+    "nutrition": {
+      "calories": 1440,
+      "protein": "36g",
+      "carbs": "253g",
+      "fat": "32g"
+    },
+    "tips": [
+      "Achte darauf, die Kartoffeln gut abkühlen zu lassen, bevor du sie verarbeitest – so behält der Teig die richtige Konsistenz.",
+      "Wenn der Teig zu klebrig ist, gib etwas mehr Stärke hinzu.",
+      "Serviere die vegetarischen Klöße mit einer cremigen Pilzsoße oder vegetarischem Gulasch – sie schmecken einfach himmlisch!",
+      "Für eine vegane Variante kannst du das Ei durch etwas Stärke und Wasser ersetzen.",
+      "Die vegetarischen Klöße lassen sich auch einfrieren – einfach vor dem Kochen einfrieren und später direkt ins kochende Wasser geben."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese vegetarischen Kartoffelklöße ein echtes Lieblingsgericht sind",
+      "reasons": [
+        {
+          "title": "Traditionell und unwiderstehlich",
+          "description": "Ein Klassiker der vegetarischen deutschen Küche, der jeden überzeugt."
+        },
+        {
+          "title": "Einfach zuzubereiten",
+          "description": "Mit nur wenigen Zutaten entsteht etwas so Köstliches in der vegetarischen Küche."
+        },
+        {
+          "title": "Perfekt zu vielen vegetarischen Gerichten",
+          "description": "Ob zu Pilzrahm, vegetarischem Gulasch oder einfach pur – diese vegetarischen Klöße passen immer."
+        },
+        {
+          "title": "Ein Gefühl von Heimat",
+          "description": "Jeder Bissen erinnert an gemütliche vegetarische Familienessen und besondere Momente."
+        },
+        {
+          "title": "Flexibel und anpassbar",
+          "description": "Du kannst die vegetarischen Klöße nach Belieben variieren – zum Beispiel mit Kräutern oder Käse."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dir diese vegetarischen Kartoffelklöße richtig gut schmecken!",
+      "subText": "Ich bin schon gespannt auf dein Feedback!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Kartoffeln vorbereiten",
+        "description": "Kartoffeln schälen, kochen und zerdrücken – die Basis für perfekte vegetarische Klöße."
+      },
+      {
+        "title": "Schritt 2: Den Teig herstellen",
+        "description": "Stärke, Ei und Gewürze unter die Kartoffelmasse mischen und zu einem glatten Teig verkneten."
+      },
+      {
+        "title": "Schritt 3: Die Klöße formen",
+        "description": "Aus der Masse gleichmäßige vegetarische Klöße formen – etwa so groß wie ein Tennisball."
+      },
+      {
+        "title": "Schritt 4: Die Klöße kochen",
+        "description": "Die vegetarischen Klöße in kochendem Salzwasser gar ziehen lassen, bis sie an die Oberfläche steigen."
+      },
+      {
+        "title": "Schritt 5: Die Panade zubereiten",
+        "description": "Semmelbrösel in Butter goldbraun anrösten und die vegetarischen Klöße darin wälzen."
+      }
+    ],
+    "servingSuggestion": "Am besten schmecken die vegetarischen Klöße frisch zubereitet, wenn sie noch warm und fluffig sind. Serviere sie mit einer cremigen Pilzsoße oder vegetarischem Gulasch.",
+    "servingSuggestions": {
+      "title": "Was du zu vegetarischen Kartoffelklößen servieren kannst",
+      "description": "Diese vegetarischen Klöße sind an sich schon ein Genuss, aber mit den richtigen Beilagen wird das Ganze noch besser!",
+      "note": "Egal, wofür du dich entscheidest – die vegetarischen Kartoffelklöße bleiben der Star auf deinem Teller!",
+      "items": [
+        {
+          "emoji": "🍄",
+          "title": "Cremige Pilzsoße",
+          "description": "Eine cremige vegetarische Pilzsoße verleiht den Klößen eine extra herzhafte Note."
+        },
+        {
+          "emoji": "🥘",
+          "title": "Vegetarisches Gulasch",
+          "description": "Ein würziges vegetarisches Gulasch passt perfekt zu den Klößen."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Ein frischer Salat",
+          "description": "Ein knackiger Gurkensalat oder ein gemischter Salat ergänzt die vegetarischen Klöße perfekt."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein Glas Rotwein",
+          "description": "Ein kräftiger Rotwein passt hervorragend zu diesem herzhaften vegetarischen Gericht."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact",
+      "description": "Wusstest du, dass Kartoffelklöße in vielen Regionen Deutschlands unterschiedliche Namen haben? 🥔 In Thüringen heißen sie „Thüringer Klöße“, in Bayern „Semmelknödel“ und in Schwaben „Gaisburger Marsch“. Ursprünglich wurden sie als einfache, sättigende vegetarische Beilage erfunden, um aus wenigen Zutaten etwas Köstliches zu zaubern. Heute sind sie ein fester Bestandteil der vegetarischen deutschen Küche und werden zu festlichen Anlässen genauso serviert wie im Alltag. Einfach, aber genial! 😍"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/kartoffelkloesseIngredient.webp",
+      "image1": "/images/Miscellaneous/kartoffelkloesse1.webp",
+      "image2": "/images/Miscellaneous/kartoffelkloesse2.webp",
+      "image3": "/images/Miscellaneous/kartoffelkloesse3.webp",
+      "image4": "/images/Miscellaneous/kartoffelkloesse4.webp",
+      "image5": "/images/Miscellaneous/kartoffelkloesse5.webp",
+      "image6": "/images/Miscellaneous/kartoffelkloesse6.webp",
+      "image7": "/images/Miscellaneous/kartoffelkloesse7.webp"
     }
   }
 ];
