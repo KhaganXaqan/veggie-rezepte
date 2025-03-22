@@ -743,7 +743,7 @@ export const recipes: Recipe[] = [
   },
   {
     "title": "Kartoffelklöße",
-    "seo_title": "Traditionelle vegetarische Kartoffelklöße Rezept – Einfach, lecker und unwiderstehlich",
+    "seo_title": "Vegetarische Kartoffelklöße Rezept – Einfach und lecker",
     "image": "/images/Miscellaneous/kartoffelkloesse.webp",
     "prepTime": 40,
     "cookingTime": 20,
