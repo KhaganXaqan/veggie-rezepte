@@ -1154,6 +1154,244 @@ export const recipes: Recipe[] = [
       "image6": "/images/Miscellaneous/semmelknoedel6.webp",
       "image7": "/images/Miscellaneous/semmelknoedel7.webp"
     }
+  },
+  {
+    "title": "Quinoa-Buddha-Bowl",
+    "seo_title": "Vegetarische Quinoa-Buddha-Bowl Rezept – Gesund, bunt und lecker",
+    "image": "/images/MainCourses/quinoa-buddha-bowl.webp",
+    "prepTime": 25,
+    "cookingTime": 20,
+    "seo_keywords": [
+      "Vegetarische Buddha-Bowl Rezept",
+      "Quinoa-Buddha-Bowl selber machen",
+      "Gesunde vegetarische Bowl",
+      "Vegetarische Bowl-Rezepte",
+      "Bunte Buddha-Bowl"
+    ],
+    "rating": 4.9,
+    "category": "Hauptgerichte",
+    "slug": "quinoa-buddha-bowl",
+    "tags": ["Modern", "Gesund", "Bowl"],
+    "servings": 2,
+    "description": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl, die mit frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings überzeugt – perfekt für ein nahrhaftes Mittag- oder Abendessen!",
+    "descriptionOnImage": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl – voller frischer Zutaten und voller Geschmack.",
+    "introductionParagraph": "Eine Quinoa-Buddha-Bowl ist für mich wie ein kulinarisches Kunstwerk auf dem Teller. Jede Zutat hat ihre eigene Farbe, Textur und Geschmacksnote, und zusammen ergeben sie ein harmonisches Ganzes. Diese vegetarische Bowl ist nicht nur ein Gericht – sie ist eine Einladung, kreativ zu sein und die Vielfalt der Natur zu genießen. Mit Quinoa als Basis, frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings ist sie eine wahre Geschmacksexplosion. Und das Beste? Sie ist so einfach zuzubereiten, dass jeder sie nachmachen kann. Egal, ob du ein erfahrener Koch bist oder gerade erst anfängst – diese vegetarische Quinoa-Buddha-Bowl wird dich begeistern.",
+    "additionalParagraph": "Es gibt etwas so Befriedigendes daran, eine Quinoa-Buddha-Bowl zuzubereiten. Vielleicht ist es das Gefühl, alle Zutaten sorgfältig auszuwählen und zu schneiden, oder der Duft, der durch die Küche zieht, wenn das Gemüse geröstet wird. Für mich ist es ein Moment der Achtsamkeit, in dem ich alles andere vergesse und mich ganz auf das Kochen konzentriere. Diese vegetarische Bowl ist mehr als nur ein Gericht – sie ist eine Einladung, innezuhalten und die kleinen Freuden des Lebens zu genießen. Und wenn ich dann sehe, wie meine Familie und Freunde genüsslich zugreifen, weiß ich, dass ich alles richtig gemacht habe. Eine vegetarische Quinoa-Buddha-Bowl ist für mich ein Stück Glück auf dem Teller.",
+    "ingredientsNeeded": [
+      {
+        "title": "Quinoa",
+        "description": "Die Basis der Bowl – Quinoa ist nicht nur lecker, sondern auch reich an Proteinen und Ballaststoffen."
+      },
+      {
+        "title": "Gemüse",
+        "description": "Eine bunte Mischung aus frischem Gemüse wie Süßkartoffeln, Paprika, Spinat und Kirschtomaten."
+      },
+      {
+        "title": "Avocado",
+        "description": "Für das cremige Dressing und als Topping – Avocado verleiht der Bowl eine extra Portion Cremigkeit."
+      },
+      {
+        "title": "Kichererbsen",
+        "description": "Geröstete Kichererbsen geben der Bowl eine knusprige Note und liefern zusätzliches Protein."
+      },
+      {
+        "title": "Tahini",
+        "description": "Für das Dressing – Tahini verleiht der Bowl eine nussige Note."
+      },
+      {
+        "title": "Zitrone",
+        "description": "Für das Dressing – Zitronensaft verleiht der Bowl eine frische, säuerliche Note."
+      },
+      {
+        "title": "Sesam",
+        "description": "Als Topping – Sesam verleiht der Bowl eine knusprige Textur."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis",
+        "description": "Quinoa ist die perfekte Basis für eine gesunde und nahrhafte vegetarische Bowl.",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Quinoa" },
+          { "amount": 250, "unit": "ml", "name": "Gemüsebrühe" }
+        ]
+      },
+      {
+        "title": "Das Gemüse",
+        "description": "Eine bunte Mischung aus frischem Gemüse verleiht der Bowl Farbe und Geschmack.",
+        "ingredients": [
+          { "amount": 1, "unit": "", "name": "Süßkartoffel, gewürfelt" },
+          { "amount": 1, "unit": "", "name": "Paprika, in Streifen geschnitten" },
+          { "amount": 1, "unit": "Handvoll", "name": "Spinat" },
+          { "amount": 100, "unit": "g", "name": "Kirschtomaten, halbiert" }
+        ]
+      },
+      {
+        "title": "Das Dressing",
+        "description": "Ein cremiges Avocado-Dressing verleiht der Bowl eine extra Portion Geschmack.",
+        "ingredients": [
+          { "amount": 1, "unit": "", "name": "Avocado" },
+          { "amount": 2, "unit": "EL", "name": "Tahini" },
+          { "amount": 1, "unit": "", "name": "Zitrone, Saft" },
+          { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+        ]
+      },
+      {
+        "title": "Die Toppings",
+        "description": "Knusprige Toppings verleihen der Bowl eine extra Portion Textur.",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Kichererbsen, geröstet" },
+          { "amount": 1, "unit": "EL", "name": "Sesam" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 100, "unit": "g", "name": "Quinoa" },
+      { "amount": 250, "unit": "ml", "name": "Gemüsebrühe" },
+      { "amount": 1, "unit": "", "name": "Süßkartoffel, gewürfelt" },
+      { "amount": 1, "unit": "", "name": "Paprika, in Streifen geschnitten" },
+      { "amount": 1, "unit": "Handvoll", "name": "Spinat" },
+      { "amount": 100, "unit": "g", "name": "Kirschtomaten, halbiert" },
+      { "amount": 1, "unit": "", "name": "Avocado" },
+      { "amount": 2, "unit": "EL", "name": "Tahini" },
+      { "amount": 1, "unit": "", "name": "Zitrone, Saft" },
+      { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+      { "amount": 100, "unit": "g", "name": "Kichererbsen, geröstet" },
+      { "amount": 1, "unit": "EL", "name": "Sesam" }
+    ],
+    "instructions": [
+      "Den Quinoa in einem Sieb unter fließendem Wasser abspülen. In einem Topf mit der Gemüsebrühe zum Kochen bringen und bei mittlerer Hitze 15 Minuten köcheln lassen, bis der Quinoa weich ist.",
+      "In der Zwischenzeit das Gemüse vorbereiten. Die Süßkartoffeln und Paprika in einer Pfanne mit etwas Olivenöl anbraten, bis sie weich sind. Den Spinat und die Kirschtomaten roh belassen.",
+      "Für das Dressing die Avocado, Tahini, Zitronensaft, Olivenöl, Salz und Pfeffer in einer Schüssel vermengen und zu einer cremigen Masse verrühren.",
+      "Die Kichererbsen in einer Pfanne mit etwas Olivenöl goldbraun rösten.",
+      "Den gekochten Quinoa in eine Schüssel geben und mit dem Gemüse, den gerösteten Kichererbsen und dem Avocado-Dressing anrichten. Mit Sesam bestreuen und servieren."
+    ],
+    "nutrition": {
+      "calories": 1377,
+      "protein": "38g",
+      "carbs": "158g",
+      "fat": "81g"
+    },
+    "tips": [
+      "Achte darauf, den Quinoa gut abzuspülen, um den bitteren Geschmack zu entfernen.",
+      "Wenn du keine Süßkartoffeln hast, kannst du auch normale Kartoffeln oder Kürbis verwenden.",
+      "Serviere die Bowl mit einem frischen Salat oder einem Glas Weißwein für ein komplettes Mahlzeiterlebnis.",
+      "Die Bowl lässt sich auch gut vorbereiten – einfach die Zutaten separat aufbewahren und vor dem Servieren anrichten.",
+      "Für eine vegane Variante kannst du das Dressing ohne Tahini zubereiten und stattdessen mehr Avocado verwenden."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese vegetarische Quinoa-Buddha-Bowl ein echtes Lieblingsgericht ist",
+      "reasons": [
+        {
+          "title": "Gesund und nahrhaft",
+          "description": "Vollgepackt mit frischem Gemüse, Quinoa und Kichererbsen – perfekt für eine ausgewogene vegetarische Ernährung."
+        },
+        {
+          "title": "Einfach zuzubereiten",
+          "description": "Mit nur wenigen Zutaten entsteht etwas so Köstliches in der vegetarischen Küche."
+        },
+        {
+          "title": "Perfekt für Meal Prep",
+          "description": "Die Bowl lässt sich gut vorbereiten und ist ideal für unterwegs oder als Mittagessen im Büro."
+        },
+        {
+          "title": "Bunt und kreativ",
+          "description": "Jede Bowl ist einzigartig – du kannst die Zutaten nach Belieben variieren und deine eigene Kreation erschaffen."
+        },
+        {
+          "title": "Flexibel und anpassbar",
+          "description": "Du kannst die Bowl nach Belieben variieren – zum Beispiel mit anderen Gemüsesorten oder Dressing."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dir diese vegetarische Quinoa-Buddha-Bowl richtig gut schmecken!",
+      "subText": "Ich bin schon gespannt auf dein Feedback!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Basis vorbereiten",
+        "description": "Quinoa abspülen und in Gemüsebrühe kochen – die Basis für die vegetarische Bowl."
+      },
+      {
+        "title": "Schritt 2: Das Gemüse anrichten",
+        "description": "Süßkartoffeln und Paprika anbraten, Spinat und Kirschtomaten roh belassen."
+      },
+      {
+        "title": "Schritt 3: Das Dressing zubereiten",
+        "description": "Avocado, Tahini, Zitronensaft, Olivenöl, Salz und Pfeffer zu einer cremigen Masse verrühren."
+      },
+      {
+        "title": "Schritt 4: Die Toppings rösten",
+        "description": "Kichererbsen in einer Pfanne goldbraun rösten."
+      },
+      {
+        "title": "Schritt 5: Die Bowl anrichten",
+        "description": "Quinoa, Gemüse, Kichererbsen und Dressing in einer Schüssel anrichten und mit Sesam bestreuen."
+      }
+    ],
+    "servingSuggestion": "Am besten schmeckt die Bowl frisch zubereitet, wenn das Gemüse noch knackig und das Dressing cremig ist. Serviere sie mit einem frischen Salat oder einem Glas Weißwein.",
+    "servingSuggestions": {
+      "title": "Was du zu einer vegetarischen Quinoa-Buddha-Bowl servieren kannst",
+      "description": "Diese vegetarische Bowl ist an sich schon ein Genuss, aber mit den richtigen Beilagen wird das Ganze noch besser!",
+      "note": "Egal, wofür du dich entscheidest – die vegetarische Quinoa-Buddha-Bowl bleibt der Star auf deinem Teller!",
+      "items": [
+        {
+          "emoji": "🍠",
+          "title": "Gebackene Süßkartoffel-Sticks",
+          "description": "Knusprige Süßkartoffel-Sticks aus dem Ofen sind eine leckere und gesunde Ergänzung zur Bowl."
+        },
+        {
+          "emoji": "🥑",
+          "title": "Guacamole-Dip",
+          "description": "Eine cremige Guacamole mit Limette und Koriander passt perfekt zu den frischen Zutaten der Bowl."
+        },
+        {
+          "emoji": "🌽",
+          "title": "Gebratener Mais",
+          "description": "Gebratener Mais mit etwas Chili und Limette verleiht der Bowl eine süßlich-würzige Note."
+        },
+        {
+          "emoji": "🍋",
+          "title": "Zitronen-Ingwer-Tee",
+          "description": "Ein erfrischender Zitronen-Ingwer-Tee rundet das Mahl perfekt ab und unterstützt die Verdauung."
+        },
+        {
+          "emoji": "🧆",
+          "title": "Falafel-Bällchen",
+          "description": "Kleine, knusprige Falafel-Bällchen sind eine proteinreiche Ergänzung zur Bowl."
+        },
+        {
+          "emoji": "🥒",
+          "title": "Eingelegtes Gemüse",
+          "description": "Schnell eingelegte Gurken, Karotten oder Rote Bete bringen eine saure und knackige Komponente auf den Teller."
+        },
+        {
+          "emoji": "🍯",
+          "title": "Honig-Senf-Dip",
+          "description": "Ein süß-würziger Honig-Senf-Dip passt hervorragend zu den gerösteten Kichererbsen und dem Gemüse."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact",
+      "description": "Wusstest du, dass Buddha-Bowls ursprünglich aus der veganen und vegetarischen Küche stammen? 🥗 Sie wurden erfunden, um eine ausgewogene und nahrhafte Mahlzeit in einer Schüssel zu servieren. Heute sind sie weltweit beliebt und werden in unzähligen Variationen zubereitet – von der einfachen Hausmannskost bis zur Gourmet-Kreation. Einfach, aber genial! 😍"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/quinoaBuddhaBowlIngredient.webp",
+      "image1": "/images/MainCourses/quinoa-buddha-bowl1.webp",
+      "image2": "/images/MainCourses/quinoa-buddha-bowl2.webp",
+      "image3": "/images/MainCourses/quinoa-buddha-bowl3.webp",
+      "image4": "/images/MainCourses/quinoa-buddha-bowl4.webp",
+      "image5": "/images/MainCourses/quinoa-buddha-bowl5.webp",
+      "image6": "/images/MainCourses/quinoa-buddha-bowl6.webp",
+      "image7": "/images/MainCourses/quinoa-buddha-bowl7.webp"
+    }
   }
 ];
 
