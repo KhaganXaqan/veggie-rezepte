@@ -1145,7 +1145,7 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Semmelknödel ursprünglich als Resteverwertung erfunden wurden? 🥖 In der bayerischen Küche wurden altbackene Brötchen verwendet, um daraus etwas Köstliches zu zaubern. Heute sind sie ein fester Bestandteil der vegetarischen deutschen Küche und werden zu festlichen Anlässen genauso serviert wie im Alltag. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/semmelknoedel-ingredients.webp",
+      "imageIngredient": "/images/Ingredients/semmelknoedelIngredients.webp",
       "image1": "/images/Miscellaneous/semmelknoedel1.webp",
       "image2": "/images/Miscellaneous/semmelknoedel2.webp",
       "image3": "/images/Miscellaneous/semmelknoedel3.webp",
