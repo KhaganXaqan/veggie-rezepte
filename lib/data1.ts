@@ -1410,7 +1410,7 @@ export const recipes: Recipe[] = [
     "category": "Hauptgerichte",
     "slug": "kaesespaetzle",
     "tags": ["Traditionell", "Pasta", "Käse"],
-    "servings": 3,
+    "servings": 4,
     "description": "Cremige vegetarische Käsespätzle mit drei Käsesorten, karamellisierten Zwiebeln und frischem Schnittlauch – ein herzhafter Genuss ohne Fleisch!",
     "descriptionOnImage": "Goldbraune Käsespätzle mit zerlaufenem Käse und knusprigen Zwiebelringen – vegetarischer Komfort auf höchstem Niveau.",
   
