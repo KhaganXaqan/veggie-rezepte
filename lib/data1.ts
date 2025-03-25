@@ -1392,6 +1392,212 @@ export const recipes: Recipe[] = [
       "image6": "/images/MainCourses/quinoa-buddha-bowl6.webp",
       "image7": "/images/MainCourses/quinoa-buddha-bowl7.webp"
     }
+  },
+  {
+    "title": "Käsespätzle",
+    "seo_title": "Vegetarische Käsespätzle Rezept – Cremig und würzig",
+    "image": "/images/MainCourses/kaesespaetzle.webp",
+    "prepTime": 40,
+    "cookingTime": 25,
+    "seo_keywords": [
+      "Vegetarische Käsespätzle",
+      "Hausgemachte Spätzle",
+      "Käsespätzle ohne Speck",
+      "Deutsche vegetarische Küche",
+      "Cremige Spätzle"
+    ],
+    "rating": 4.9,
+    "category": "Hauptgerichte",
+    "slug": "kaesespaetzle",
+    "tags": ["Traditionell", "Pasta", "Käse"],
+    "servings": 4,
+    "description": "Cremige vegetarische Käsespätzle mit drei Käsesorten, karamellisierten Zwiebeln und frischem Schnittlauch – ein herzhafter Genuss ohne Fleisch!",
+    "descriptionOnImage": "Goldbraune Käsespätzle mit zerlaufenem Käse und knusprigen Zwiebelringen – vegetarischer Komfort auf höchstem Niveau.",
+  
+    "introductionParagraph": "Käsespätzle sind das kulinarische Äquivalent zu einem wolkenweichen Pullover an kühlen Tagen. Diese vegetarische Version verwandelt einfache Zutaten in ein sinnliches Erlebnis – wo zarter Spätzleteig auf die umami-reiche Kraft von gereiftem Bergkäse, würzigem Emmentaler und cremigem Butterkäse trifft. Die Magie entsteht, wenn sich die Käsesorten zu einer geschmeidigen Sauce verbinden, während karamellisierte Zwiebeln eine knusprige Kontrasttextur liefern. Ein Gericht, das beweist, dass vegetarische Küche weder Verzicht noch Kompromisse bedeutet, sondern pure Geschmacksintensität.",
+  
+    "additionalParagraph": "Was diese vegetarischen Käsespätzle besonders macht, ist ihre transformierende Kraft. Aus Mehl, Eiern und Milch entsteht durch rhythmisches Schaben ein Teig, der beim Kochen zu federleichten Spätzlen wird. Die Kunst liegt im präzisen Zusammenspiel der Käsesorten – der Bergkäse für Tiefe, der Emmentaler für Würze und der Butterkäse für geschmeidige Bindung. Wenn die goldbraunen Zwiebelringe wie edible confetti über das fertige Gericht regnen, entsteht ein Fest für alle Sinne. Diese Spätzle sind kein Beilagen-Dasein, sondern ein kraftvolles vegetarisches Hauptgericht, das selbst eingefleischte Käseliebhaber überzeugt.",
+  
+    "ingredientsNeeded": [
+      {
+        "title": "Spätzle-Mehl",
+        "description": "Spezielles Spätzlemehl (Type 550) gibt dem Teig die perfekte Bissfestigkeit und Leichtigkeit."
+      },
+      {
+        "title": "Bergkäse",
+        "description": "Gereifter Bergkäse verleiht den Spätzlen eine nussig-intensive Geschmacksnote."
+      },
+      {
+        "title": "Emmentaler",
+        "description": "Für die charakteristische Würze und schöne Fäden beim Zerteilen."
+      },
+      {
+        "title": "Butterkäse",
+        "description": "Sorgt für cremige Geschmeidigkeit und verbindet die Käsesorten harmonisch."
+      },
+      {
+        "title": "Zwiebeln",
+        "description": "Langsam karamellisiert entwickeln sie eine süßlich-rauchige Tiefe."
+      },
+      {
+        "title": "Muskatblüte",
+        "description": "Das seltenere Pendant zu Muskatnuss mit komplexeren Aromen für den Teig."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Spätzle-Teig",
+        "description": "Die Basis für perfekte vegetarische Spätzle – luftig und doch bissfest.",
+        "ingredients": [
+          { "amount": 300, "unit": "g", "name": "Spätzlemehl (Type 550)" },
+          { "amount": 4, "unit": "", "name": "Eier" },
+          { "amount": 100, "unit": "ml", "name": "Mineralwasser" },
+          { "amount": 1, "unit": "Prise", "name": "Muskatblüte" }
+        ]
+      },
+      {
+        "title": "Käse-Mischung",
+        "description": "Drei Käsesorten erschaffen ein vegetarisches Aromenspiel.",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Bergkäse, gerieben" },
+          { "amount": 100, "unit": "g", "name": "Emmentaler, gerieben" },
+          { "amount": 50, "unit": "g", "name": "Butterkäse, gewürfelt" }
+        ]
+      },
+      {
+        "title": "Toppings",
+        "description": "Für knusprige Akzente und Frische.",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Zwiebeln, in Ringen" },
+          { "amount": 2, "unit": "EL", "name": "Butter" },
+          { "amount": 1, "unit": "Handvoll", "name": "Schnittlauchröllchen" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 300, "unit": "g", "name": "Spätzlemehl" },
+      { "amount": 4, "unit": "", "name": "Eier" },
+      { "amount": 100, "unit": "ml", "name": "Mineralwasser" },
+      { "amount": 1, "unit": "Prise", "name": "Muskatblüte" },
+      { "amount": 100, "unit": "g", "name": "Bergkäse" },
+      { "amount": 100, "unit": "g", "name": "Emmentaler" },
+      { "amount": 50, "unit": "g", "name": "Butterkäse" },
+      { "amount": 2, "unit": "", "name": "Zwiebeln" },
+      { "amount": 2, "unit": "EL", "name": "Butter" },
+      { "amount": 1, "unit": "Handvoll", "name": "Schnittlauch" }
+    ],
+    "instructions": [
+      "Für den Spätzleteig Mehl, Eier, Mineralwasser und Muskatblüte zu einem glatten, zähen Teig verrühren. 10 Minuten quellen lassen.",
+      "In einem großen Topf reichlich Salzwasser zum Kochen bringen. Teig portionsweise durch ein Spätzlesieb oder Brett schaben.",
+      "Spätzle in kochendem Wasser ca. 2 Minuten garen, bis sie an der Oberfläche schwimmen. Mit einem Schaumlöffel herausheben und abschrecken.",
+      "Zwiebelringe in Butter bei mittlerer Hitze 15 Minuten goldbraun karamellisieren.",
+      "Gekochte Spätzle abtropfen lassen, mit den geriebenen Käsesorten und Butterkäsewürfeln in einer ofenfesten Form vermengen.",
+      "Bei 200°C Ober-/Unterhitze 10 Minuten überbacken, bis der Käse vollständig geschmolzen ist.",
+      "Mit karamellisierten Zwiebeln und Schnittlauch bestreuen. Sofort servieren."
+    ],
+    "nutrition": {
+      "calories": 2627,
+      "protein": "129.5g",
+      "carbs": "245g",
+      "fat": "131g"
+    },
+    "tips": [
+      "Für extra-lockere Spätzle das Mineralwasser kurz vor der Zubereitung öffnen – die Kohlensäure macht den Teig luftiger.",
+      "Den Käse erst nach dem Abschrecken der Spätzle untermischen – so schmilzt er gleichmäßiger beim Überbacken.",
+      "Für eine knusprige Kruste die Spätzle vor dem Überbacken mit Semmelbröseln und etwas Butter bestreuen.",
+      "Vegetarische Variante: Butter durch hochwertiges Olivenöl ersetzen und auf Käse mit mikrobiologischem Lab achten."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese vegetarischen Käsespätzle überzeugen",
+      "reasons": [
+        {
+          "title": "Textur-Symphonie",
+          "description": "Das Spiel aus zarten Spätzlen, cremigem Käse und knusprigen Zwiebeln ist ein sensorisches Erlebnis."
+        },
+        {
+          "title": "Käse-Alchemie",
+          "description": "Drei sorgfältig ausgewählte Käsesorten erschaffen eine geschmackliche Tiefe, die Fleisch überflüssig macht."
+        },
+        {
+          "title": "Technische Finesse",
+          "description": "Vom perfekten Teig bis zur präzisen Karamellisierung – ein Gericht für passionierte Köche."
+        },
+        {
+          "title": "Saisonal anpassbar",
+          "description": "Im Sommer mit Rucola, im Winter mit Trüffelöl – die Basis lädt zum Experimentieren ein."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dich von der Käse-Vielfalt überraschen!",
+      "subText": "Welche Käse-Kombi wird dein Favorit?",
+      "signature": "Dein Käse-Experte"
+    },
+    "steps": [
+      {
+        "title": "Teig-Alchemie",
+        "description": "Mineralwasser und Eier bilden mit Mehl einen elastischen Teig – die Basis für perfekte Spätzle."
+      },
+      {
+        "title": "Schab-Perfektion",
+        "description": "Der rhythmische Vorgang des Schabens entscheidet über die Textur – gleichmäßige, längliche Spätzle sind das Ziel."
+      },
+      {
+        "title": "Käse-Triologie",
+        "description": "Bergkäse, Emmentaler und Butterkäse verschmelzen zu einer geschmeidigen Sauce mit unterschiedlichen Aromanoten."
+      },
+      {
+        "title": "Zwiebel-Alchemie",
+        "description": "Langsames Karamellisieren verwandelt scharfe Zwiebeln in süß-rauchige Krönung."
+      }
+    ],
+    "servingSuggestion": "Serviere die Käsespätzle in vorgewärmten Tellern, damit der Käse seine cremige Konsistenz behält.",
+    "servingSuggestions": {
+      "title": "Kreative Begleiter für Käsespätzle",
+      "description": "Diese vegetarischen Spätzle sind ein Star für sich – doch mit diesen ungewöhnlichen Begleitern wird das Erlebnis noch intensiver:",
+      "note": "Jede Kombination offenbart neue Geschmacksdimensionen!",
+      "items": [
+        {
+          "emoji": "🍯",
+          "title": "Birnen-Chutney",
+          "description": "Süß-säuerliches Chutney aus Birnen und Zimt schneidet durch die Käsecremigkeit."
+        },
+        {
+          "emoji": "🌿",
+          "title": "Kräuter-Salz",
+          "description": "Selbstgemachtes Salz mit getrockneten Wildkräutern betont die Käsenoten."
+        },
+        {
+          "emoji": "🍎",
+          "title": "Apfel-Carpaccio",
+          "description": "Häppchenweise Frische: hauchdünne Äpfel mit Zitronensaft und Pink-Pfeffer."
+        },
+        {
+          "emoji": "🍄",
+          "title": "Trüffel-Chips",
+          "description": "Knusprige Pilzchips aus Shiitake oder Steinpilzen für umami-Crunch."
+        },
+        {
+          "emoji": "🥂",
+          "title": "Perlwein-Schorle",
+          "description": "Heller Perlwein mit Holunderblütensirup – spielt perfekt mit dem Käse."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Kulinarisches Kuriosum",
+      "description": "Wusstest du, dass Spätzle ursprünglich als 'Armenspeise' galten? 🥄 Im 18. Jahrhundert wurden sie aus Restmehl und Wasser zubereitet – erst die Zugabe von Eiern und Käse machte sie zur heutigen Delikatesse. In Schwaben gibt es sogar eine 'Spätzlepflicht' in Sterne-Restaurants: Jedes Lokal muss täglich frische Spätzle anbieten! Heute sind sie UNESCO-Kulturerbe und vegetarischer Stolz der deutschen Küche."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/kaesespaetzleIngredient.webp",
+      "image1": "/images/MainCourses/kaesespaetzle1.webp",
+      "image2": "/images/MainCourses/kaesespaetzle2.webp",
+      "image3": "/images/MainCourses/kaesespaetzle3.webp",
+      "image4": "/images/MainCourses/kaesespaetzle4.webp",
+      "image5": "/images/MainCourses/kaesespaetzle5.webp",
+      "image6": "/images/MainCourses/kaesespaetzle6.webp",
+      "image7": "/images/MainCourses/kaesespaetzle7.webp"
+    }
   }
 ];
 

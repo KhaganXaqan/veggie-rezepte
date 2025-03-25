@@ -25,7 +25,14 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
   const slug = params?.slug;
 
   let recipe;
-  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'semmelknoedel', 'quinoa-buddha-bowl'].includes(slug)) {
+  if (['flammkuchen',
+    'kartoffelpuffer',
+    'gemuesesuppe',
+    'kartoffelkloesse',
+    'semmelknoedel',
+    'quinoa-buddha-bowl',
+    'kaesespaetzle'
+  ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
     recipe = recipesData.find((r) => r.slug === slug);
@@ -75,7 +82,14 @@ export async function generateStructuredData({ params }: RecipePageProps) {
   const slug = params?.slug;
 
   let recipe;
-  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'semmelknoedel', 'quinoa-buddha-bowl'].includes(slug)) {
+  if (['flammkuchen',
+    'kartoffelpuffer',
+    'gemuesesuppe',
+    'kartoffelkloesse',
+    'semmelknoedel',
+    'quinoa-buddha-bowl',
+    'kaesespaetzle'
+  ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
     recipe = recipesData.find((r) => r.slug === slug);
@@ -146,7 +160,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const slug = params?.slug;
 
   let recipe: Recipe | Recipe1 | null = null;
-  if (['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'semmelknoedel', 'quinoa-buddha-bowl'].includes(slug)) {
+  if (['flammkuchen',
+    'kartoffelpuffer',
+    'gemuesesuppe',
+    'kartoffelkloesse',
+    'semmelknoedel',
+    'quinoa-buddha-bowl',
+    'kaesespaetzle'
+  ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
   } else {
@@ -162,7 +183,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const validRecipe = recipe;
 
   // For any recipe other than flammkuchen and kartoffelpuffer, use page-other.tsx
-  if (!['flammkuchen', 'kartoffelpuffer', 'gemuesesuppe', 'kartoffelkloesse', 'semmelknoedel', 'quinoa-buddha-bowl'].includes(slug)) {
+  if (!['flammkuchen',
+    'kartoffelpuffer',
+    'gemuesesuppe',
+    'kartoffelkloesse',
+    'semmelknoedel',
+    'quinoa-buddha-bowl',
+    'kaesespaetzle'
+  ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
 
@@ -367,7 +395,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </div>
 
                   {/* Ingredients Section */}
-<div className="w-full ">
+                  <div className="w-full ">
                     {recipe.ingredientGroups?.map((group, index) => (
                       <div key={index} className="mb-6">
                         <h2 className="font-black text-xl uppercase text-black w-full tracking-tight leading-tight mb-4">
@@ -385,7 +413,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         </ul>
                       </div>
                     ))}
-                    </div>
+                  </div>
 
                   {/* Empfohlener Beitrag */}
                   <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
@@ -489,10 +517,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       className="w-full h-[960px] rounded-lg"
                     />
                   </div>
-                
 
-                    {/* Empfohlene Beiträge - Grid with 3 images */}
-                    <div className="w-full mx-auto mb-8">
+
+                  {/* Empfohlene Beiträge - Grid with 3 images */}
+                  <div className="w-full mx-auto mb-8">
                     <div className="flex items-center gap-4 mb-6">
                       <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
                         Empfohlene {recipe.category}
@@ -508,7 +536,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                                 alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
-                            
+
                             </div>
                             <div className="mt-4">
                               <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#f9d24f] transition-colors">
