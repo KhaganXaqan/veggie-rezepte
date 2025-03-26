@@ -1598,6 +1598,223 @@ export const recipes: Recipe[] = [
       "image6": "/images/MainCourses/kaesespaetzle6.webp",
       "image7": "/images/MainCourses/kaesespaetzle7.webp"
     }
+  },
+  {
+    "title": "Pilzgulasch",
+    "seo_title": "Vegetarisches Pilzgulasch Rezept – Herzhaft, rauchig & umami",
+    "image": "/images/MainCourses/pilzgulasch.webp",
+    "prepTime": 20,
+    "cookingTime": 40,
+    "seo_keywords": [
+      "Vegetarisches Pilzgulasch",
+      "Pilzgulasch ohne Fleisch",
+      "Umami-Pilzgericht",
+      "Vegane Gulasch-Alternative",
+      "Herzhafte Pilzpfanne"
+    ],
+    "rating": 4.9,
+    "category": "Hauptgerichte",
+    "slug": "pilzgulasch",
+    "tags": ["Traditionell", "Pilze", "Hauptgericht"],
+    "servings": 2,
+    "description": "Ein tief aromatisches Pilzgulasch mit rauchigen Paprika- und Sojasoßen-Noten – eine vegetarische Meisterleistung, die selbst Fleischliebhaber überzeugt.",
+    "descriptionOnImage": "Ein dunkles, glänzendes Pilzgulasch mit Champignons, Austernpilzen und Rauchpaprika, serviert mit fluffigem Kartoffelpüree – pure Komfortküche.",
+    "introductionParagraph": "Es gibt Gerichte, die schmecken nicht nur – sie erzählen Geschichten. Dieses Pilzgulasch ist meine kulinarische Liebeserklärung an die Kraft der Pilze, die in meiner Küche die Hauptrolle übernehmen, statt nur Beilage zu sein. Ich erinnere mich an den Moment, als ich es zum ersten Mal für eine eingefleischte (Wortspiel intended!) Grillmeisterin zubereitete. Ihr skeptischer Blick, als ich den Dutch Oven öffnete – 'Wo ist das Fleisch?' – verwandelte sich in blankes Staunen beim ersten Bissen. Das ist die Magie der richtigen Pilzkombination: Champignons für die Substanz, Shiitake für das Umami, Austernpilze für die Textur und getrocknete Steinpilze als geheime Geschmacksbombe. Zusammen mit rauchigem Paprika und einem Schuss Rotwein entsteht ein Gulasch, das nicht vegetarisch 'schmeckt-trotzdem', sondern einfach großartig schmeckt – Punkt.",
+    "additionalParagraph": "Was dieses Gericht besonders macht? Seine Wandlungsfähigkeit. An regnerischen Sonntagen schlürfe ich es klassisch mit Kartoffelpüree vom Löffel. Für Dinnerpartys wird es zur edlen Füllung für Blätterteigtaschen, garniert mit Trüffelöl. Und an stressigen Tagen wandert es einfach über Nudeln – ein Komfortfood-Chamäleon. Mein persönlicher Geheimtipp: Über Nacht ziehen lassen. Wie bei einem guten Eintopf entfalten sich die Aromen am nächsten Tag noch intensiver, während die Pilze eine fast fleischige Bissfestigkeit behalten. Probier es aus – ich wette, du wirst mindestens drei neue Lieblingsvarianten entdecken!",
+    "ingredientsNeeded": [
+      {
+        "title": "Gemischte Pilze",
+        "description": "Champignons für die Basis, Austernpilze für Biss und Shiitake für Umami – eine Texturoffensive!"
+      },
+      {
+        "title": "Getrocknete Steinpilze",
+        "description": "Das geheume Umami-Wunder: Ihre Aufgussbrühe ersetzt jeden Fleischfond."
+      },
+      {
+        "title": "Rauchpaprika",
+        "description": "Verleiht die typische Gulasch-Rauchnote – als ob es stundenlang über Holzfeuer köchelte."
+      },
+      {
+        "title": "Dunkle Sojasoße",
+        "description": "Für Farbe und Salzigkeit ohne Fleisch. Der vegane MVP!"
+      },
+      {
+        "title": "Rotwein",
+        "description": "Ein Schuss Cabernet Sauvignon baut Aromen auf, die an klassisches Gulasch erinnern – aber ganz ohne Reue."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Pilzgrundlage",
+        "description": "Frische und getrocknete Pilze arbeiten hier Hand in Hand für maximale Geschmacksexplosion.",
+        "ingredients": [
+          { "amount": 300, "unit": "g", "name": "Champignons, geviertelt" },
+          { "amount": 200, "unit": "g", "name": "Austernpilze, zerzupft" },
+          { "amount": 50, "unit": "g", "name": "Shiitake, geschnitten" },
+          { "amount": 15, "unit": "g", "name": "Getrocknete Steinpilze" },
+          { "amount": 250, "unit": "ml", "name": "Heißes Wasser (für Steinpilzbrühe)" }
+        ]
+      },
+      {
+        "title": "Die Umami-Booster",
+        "description": "Diese Zutaten tricksen deine Geschmacksknospen aus – sie denken, da wäre Fleisch drin!",
+        "ingredients": [
+          { "amount": 2, "unit": "EL", "name": "Dunkle Sojasoße" },
+          { "amount": 1, "unit": "EL", "name": "Tomatenmark" },
+          { "amount": 2, "unit": "TL", "name": "Rauchpaprika" },
+          { "amount": 1, "unit": "TL", "name": "Kreuzkümmel" }
+        ]
+      },
+      {
+        "title": "Die Flüssigkeiten",
+        "description": "Alkohol und Brühe bauen geschmackliche Komplexität auf.",
+        "ingredients": [
+          { "amount": 100, "unit": "ml", "name": "Rotwein (z.B. Cabernet Sauvignon)" },
+          { "amount": 200, "unit": "ml", "name": "Gemüsebrühe" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 300, "unit": "g", "name": "Champignons" },
+      { "amount": 200, "unit": "g", "name": "Austernpilze" },
+      { "amount": 50, "unit": "g", "name": "Shiitake" },
+      { "amount": 15, "unit": "g", "name": "Getrocknete Steinpilze" },
+      { "amount": 250, "unit": "ml", "name": "Heißes Wasser" },
+      { "amount": 1, "unit": "", "name": "Zwiebel, gewürfelt" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch, gehackt" },
+      { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 2, "unit": "EL", "name": "Dunkle Sojasoße" },
+      { "amount": 1, "unit": "EL", "name": "Tomatenmark" },
+      { "amount": 2, "unit": "TL", "name": "Rauchpaprika" },
+      { "amount": 1, "unit": "TL", "name": "Kreuzkümmel" },
+      { "amount": 100, "unit": "ml", "name": "Rotwein" },
+      { "amount": 200, "unit": "ml", "name": "Gemüsebrühe" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+    ],
+    "instructions": [
+      "Getrocknete Steinpilze mit heißem Wasser übergießen, 15 Min. einweichen. Pilze herausnehmen (Brühe aufheben!) und hacken.",
+      "Olivenöl in einem Dutch Oven erhitzen. Zwiebeln und Knoblauch glasig anschwitzen.",
+      "Frische Pilze in Portions dazugeben – sie sollen Platz zum Anbraten haben! 8 Min. braten, bis sie Farbe entwickeln.",
+      "Tomatenmark, Rauchpaprika und Kreuzkümmel einrühren, kurz anrösten bis es duftet.",
+      "Mit Rotwein ablöschen, einkochen lassen. Steinpilzbrühe (vorsichtig, ohne Sediment!) und Gemüsebrühe angießen.",
+      "Sojasoße, gehackte Steinpilze und Salz/Pfeffer zugeben. 30 Min. bei niedriger Hitze köcheln, bis die Sauce eindickt.",
+      "Abschmecken – mehr Rauchpaprika für Intensität, Sojasoße für Tiefe."
+    ],
+    "nutrition": {
+      "calories": 337,
+      "protein": "23g",
+      "carbs": "36g",
+      "fat": "3g"
+    },
+    "tips": [
+      "Pilz-Trick: Nie waschen, nur mit einer Bürste säubern – sie saugen sich sonst mit Wasser voll.",
+      "Für extra Umami: 1 TL Marmite oder Hefeflocken unterrühren.",
+      "Schärfefans geben 1 TL Chiliflocken dazu.",
+      "Übrig? Als Füllung für Blätterteigtaschen oder Omeletts verwenden!",
+      "Tiefkühlpilze funktionieren auch – einfach vorher nicht auftauen.",
+      "Wer’s dekadent mag: Mit 1 EL veganer Butter verfeinern."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Rezept meine Küchen-Philosophie verkörpert",
+      "reasons": [
+        {
+          "title": "Umami-Strategie",
+          "description": "Durch die Kombination von drei Pilzsorten + Steinpilzbrühe + Sojasoße erreichen wir den fünften Geschmackssinn – kein Fleisch nötig! Mein Trick: 1 TL Marmite unterrühren für extra Tiefe."
+        },
+        {
+          "title": "Textur-Alchemie",
+          "description": "Jeder Pilz bringt eine andere Mundfeel-Erfahrung: Champignons werden saftig, Austernpilze bleiben bissfest, Shiitake zerfallen fast wie Pulled Pork. So entsteht Komplexität ohne Mehraufwand."
+        },
+        {
+          "title": "Zero-Waste-Potential",
+          "description": "Pilzstiele, die sonst im Müll landen? Einfach mitkochen und später pürieren – sie verdicken die Sauce natürlich. Reste werden zu Füllungen oder Dip-Grundlagen."
+        },
+        {
+          "title": "Saisonaler Star",
+          "description": "Im Herbst mit Wildpilzen veredeln, im Winter mit TK-Ware zubereiten – es schmeckt immer passend zur Jahreszeit. Mein Frühlings-Tipp: Mit frischem Bärlauch toppen!"
+        },
+        {
+          "title": "Kulinarische Brücke",
+          "description": "Perfekt für gemischte Tische: vegan, glutenfrei (mit Tamari statt Sojasoße), und Fleischliebhaber fragen trotzdem nach dem Rezept. Ein Gericht, das verbindet."
+        },
+        {
+          "title": "Meditatives Kochen",
+          "description": "Das rhythmische Schneiden der Pilze, das Beobachten, wie sich die Aromen entwickeln – für mich ist die Zubereitung fast schon Achtsamkeitsübung. Und das Ergebnis belohnt doppelt."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dich von den Pilzen verzaubern – sie haben mehr Tricks drauf, als du denkst!",
+      "subText": "Ich wette, du wirst nie wieder sagen, Gulasch brauche Fleisch...",
+      "signature": "Deine Pilzflüsterin"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Pilz-Alchemie",
+        "description": "Getrocknete Steinpilze sind das Geheimnis – ihre Brühe ist so intensiv, dass sie jeden Fleischfond blass aussehen lässt. Einweichen, hacken, und schon hast du flüssiges Umami."
+      },
+      {
+        "title": "Schritt 2: Die Maillard-Reaktion",
+        "description": "Pilze brauchen Platz in der Pfanne! Crowded pan = steamed mushrooms. Wir wollen sie goldbraun und knusprig, nicht matschig."
+      },
+      {
+        "title": "Schritt 3: Die Rauchillusion",
+        "description": "Rauchpaprika und Kreuzkümmel tricksen dein Gehirn aus – sie simulieren die Aromen von langsam gegartem Fleisch, ganz ohne Tier."
+      },
+      {
+        "title": "Schritt 4: Die Reduktion",
+        "description": "Der Rotwein reduziert zu einem Sirup, die Pilzbrühe verdickt sich – Geduld ist hier der Schlüssel zur Perfektion."
+      }
+    ],
+    "servingSuggestion": "Auf fluffigem Selleriepüree mit karamellisierten Zwiebelringen – ein Kontrast aus süß, cremig und erdig.",
+    "servingSuggestions": {
+"title": "Vom Comfort Food zur Gourmet-Kreation",
+    "description": "Dieses Gulasch ist wie eine blanke Leinwand – hier sind fünf völlig unterschiedliche Servierideen, die es neu erfinden:",
+"note": "Jede Variante verändert die Stimmung des Gerichts – probier dich durch!",
+    "items": [
+      {
+        "emoji": "🫒",
+        "title": "Tapas-Style",
+        "description": "In kleinen Cocottes mit Oliven-Tapenade-Crunch: 1 EL gehackte schwarze Oliven mit 1 TL Kapern und Semmelbröseln mischen, über das Gulasch streuen und gratinierten."
+      },
+      {
+        "emoji": "🍚",
+        "title": "Miso-Risotto-Untergrund",
+        "description": "Cremiges Risotto mit weißer Miso-Paste verfeinert, darauf das Gulasch – die Fermentnoten spielen perfekt mit den Pilzen. Garniere mit gerösteten Sesamsamen."
+      },
+      {
+        "emoji": "🥂",
+        "title": "Fine-Dining-Version",
+        "description": "Als Sauce zu gebratenen Jakobsmuscheln: Dafür das Gulasch pürieren und mit 1 EL Cashewcreme verfeinern. Zeigt, wie wandlungsfähig Pilze sind!"
+      },
+      {
+        "emoji": "🌮",
+        "title": "Fusion-Tacos",
+        "description": "In Mais-Tacos mit Avocado-Creme und pinken eingelegten Zwiebeln – die Säure balanciert die Erdnoten. Mein Go-To für Dinnerpartys!"
+      },
+      {
+        "emoji": "🍳",
+        "title": "Brunch-Revolution",
+        "description": "Als Topping für Shakshuka: In die klassische Tomaten-Paprika-Sauce einrühren, Eier pochen lassen. Dazu Sauerteigtoast – der perfekte Wochenend-Start."
+      }
+    ]
+
+    },
+    "funFact": {
+      "title": "Pilze: Die heimlichen Netzwerker der Natur",
+      "description": "Wusstest du, dass Pilze unterirdische 'Internet'-Netzwerke betreiben? 🌐 Myzelien (Pilzwurzeln) verbinden Bäume über Kilometer und tauschen Nährstoffe aus – Wissenschaftler nennen es 'Wood Wide Web'. Unsere Speisepilze sind nur die Früchte dieses gigantischen Systems! Beim Kochen ahmen wir diese Verbindungen nach: Sojasoße (fermentiert wie Pilze), Rauchpaprika (erinnert an verbranntes Holz) und Rotwein (terroir-reich wie Waldboden) schaffen ein Geschmacksnetzwerk, das genauso komplex ist wie die Natur selbst. Kochen ist eben auch Biologie!"  
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/pilzgulaschIngredient.webp",
+      "image1": "/images/MainCourses/pilzgulasch1.webp",
+      "image2": "/images/MainCourses/pilzgulasch2.webp",
+      "image3": "/images/MainCourses/pilzgulasch3.webp",
+      "image4": "/images/MainCourses/pilzgulasch4.webp",
+      "image5": "/images/MainCourses/pilzgulasch5.webp",
+      "image6": "/images/MainCourses/pilzgulasch6.webp",
+      "image7": "/images/MainCourses/pilzgulasch7.webp"
+    }
   }
 ];
 
