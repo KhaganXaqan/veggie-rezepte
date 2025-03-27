@@ -2279,7 +2279,7 @@ export const recipes: Recipe[] = [
   },
   {
     "title": "Ratatouille Provençal",
-    "seo_title": "Vegetarisches Ratatouille Rezept – Französische Gemüseperfektion",
+    "seo_title": "Vegetarisches Ratatouille Rezept – Gemüseperfektion",
     "image": "/images/Miscellaneous/ratatouille.webp",
     "prepTime": 20,
     "cookingTime": 50,
@@ -2298,7 +2298,7 @@ export const recipes: Recipe[] = [
     "servings": 2,
     "createdDate": new Date('2025-02-14T00:00:00'),
     "updatedDate": new Date('2025-03-270T00:00:00'),
-    "description": "Ein ikonisches vegetarisches Gericht aus der Provence – geschichtete Auberginen, Zucchini und Paprika in einer würzigen Tomatenbasis, die beweisen, dass pflanzliche Küche niemals langweilig ist.",
+    "description": "Vegetarisches Gericht – geschichtete Auberginen, Zucchini und Paprika in einer Tomatenbasis, die beweisen, dass pflanzliche Küche niemals langweilig ist.",
   
     "descriptionOnImage": "Ein farbenfrohes Tiegelgericht mit perfekt arrangiertem Gemüse in konzentrischen Kreisen – vegetarische Ästhetik und Geschmack in Harmonie.",
   
