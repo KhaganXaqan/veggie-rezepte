@@ -1842,6 +1842,241 @@ export const recipes: Recipe[] = [
       "image6": "/images/MainCourses/pilzgulasch6.webp",
       "image7": "/images/MainCourses/pilzgulasch7.webp"
     }
+  },
+  {
+    "title": "Gemüse-Curry",
+    "seo_title": "Vegetarisches Gemüse-Curry Rezept – Cremig - würzig",
+    "image": "/images/MainCourses/gemuese-curry.webp",
+    "prepTime": 25,
+    "cookingTime": 35,
+    "seo_keywords": [
+      "Vegetarisches Curry",
+      "Gemüse-Curry Rezept",
+      "Veganes Curry",
+      "Asiatisch inspiriertes Curry",
+      "Gesunde Curry-Variation"
+    ],
+    "rating": 4.3,
+    "reviews": 53,
+    "category": "Hauptgerichte",
+    "slug": "gemuese-curry",
+    "tags": ["Asiatisch", "Proteinreich", "Cremig", "Meal Prep", "Glutenfrei"],
+    "createdDate": new Date('2025-02-10T00:00:00'),
+    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "servings": 4,
+    "description": "Ein cremiges, würziges Gemüse-Curry mit geröstetem Kürbis, Blumenkohl und Kichererbsen – eine vegetarische Geschmacksexplosion, die mit exotischen Gewürzen und einer samtigen Kokossoße überzeugt.",
+    "descriptionOnImage": "Ein goldgelbes Gemüse-Curry mit Kürbis, Blumenkohl und Kichererbsen in cremiger Kokossoße, garniert mit frischem Koriander – ein Fest der Farben und Aromen.",
+  
+    "introductionParagraph": "Stell dir vor, du betrittst einen Gewürzmarkt in Bangkok. Die Luft ist erfüllt mit dem Duft von geröstetem Koriander, Kreuzkümmel und frischem Kurkuma – kein Fleisch in Sicht, und doch so intensiv, dass dir sofort das Wasser im Mund zusammenläuft. Dieses Gemüse-Curry ist meine Hommage an diese sinnliche Erfahrung: eine vegetarische Version, die mit geröstetem Kürbis für natürliche Süße, Blumenkohl für Biss und Kichererbsen für Protein spielt. Es ist kein 'fleischloses' Curry – es ist eine eigenständige Kreation, die Gemüse feiert statt es zu ersetzen. Mein Geheimnis? Die Gewürze werden trocken angeröstet, bevor sie in die Kokosmilch wandern – ein kleiner Schritt mit großer Wirkung.",
+  
+    "additionalParagraph": "Was dieses Curry besonders macht? Seine Wandlungsfähigkeit. An hektischen Tessen schmeiße ich es einfach mit Reis in eine Schüssel. Für Dinnerpartys verwandle ich es in eine interaktive 'Curry-Bar' mit selbstgemachten Roti und Toppings wie gerösteten Cashews und eingelegtem Gemüse. Mein persönlicher Pro-Tipp: Die Gewürzmischung doppelt portionieren – halb fürs Curry, halb fürs Popcorn am Filmabend. Probier’s aus und du wirst sehen: Dieses Curry wird deine Gewürzdose für immer verändern.",
+  
+    "ingredientsNeeded": [
+      {
+        "title": "Kürbis",
+        "description": "Hokkaido oder Butternut – geröstet entwickelt er karamellige Tiefe und gibt dem Curry natürliche Süße ohne Zucker."
+      },
+      {
+        "title": "Blumenkohl",
+        "description": "In Röschen gebraten, wird er zum Geschmacksträger für die Gewürze und gibt Biss."
+      },
+      {
+        "title": "Kichererbsen",
+        "description": "Vorgekocht oder aus der Dose – sie bringen Protein und eine cremige Textur ins Spiel."
+      },
+      {
+        "title": "Kokosmilch",
+        "description": "Die fettreiche Variante gibt dem Curry seine samtige Basis. Für weniger Kalorien mit Light-Kokosmilch ersetzen."
+      },
+      {
+        "title": "Garam Masala",
+        "description": "Die fertige Mischung ist praktisch, aber selbst geröstet und gemahlen schmeckt sie wie ein Flug nach Delhi."
+      }
+    ],
+  
+    "ingredientGroups": [
+      {
+        "title": "Das Gemüse",
+        "description": "Geröstet entwickeln sie Röstaromen, die das Curry komplex machen – kein matschiges Einerlei!",
+        "ingredients": [
+          { "amount": 400, "unit": "g", "name": "Kürbis (gewürfelt, Haut dran)" },
+          { "amount": 1, "unit": "Kopf", "name": "Blumenkohl (in Röschen)" },
+          { "amount": 1, "unit": "Dose", "name": "Kichererbsen (abgetropft)" },
+          { "amount": 2, "unit": "EL", "name": "Kokosöl" }
+        ]
+      },
+      {
+        "title": "Die Gewürzbasis",
+        "description": "Trockenrösten ist der Schlüssel – so entfalten sie ihr volles Aroma bevor sie flüssig werden.",
+        "ingredients": [
+          { "amount": 1, "unit": "TL", "name": "Koriandersamen" },
+          { "amount": 1, "unit": "TL", "name": "Kreuzkümmelsamen" },
+          { "amount": 1, "unit": "TL", "name": "Senfsamen" },
+          { "amount": 1, "unit": "TL", "name": "Kurkumapulver" },
+          { "amount": 1, "unit": "TL", "name": "Garam Masala" },
+          { "amount": 1, "unit": "Prise", "name": "Chiliflocken" }
+        ]
+      },
+      {
+        "title": "Die Flüssigkeiten",
+        "description": "Sie tragen die Gewürze und machen aus Gemüse ein harmonisches Curry.",
+        "ingredients": [
+          { "amount": 1, "unit": "Dose", "name": "Kokosmilch (400 ml)" },
+          { "amount": 200, "unit": "ml", "name": "Gemüsebrühe" },
+          { "amount": 2, "unit": "EL", "name": "Tomatenmark" }
+        ]
+      }
+    ],
+  
+    "ingredients": [
+      { "amount": 400, "unit": "g", "name": "Kürbis" },
+      { "amount": 1, "unit": "Kopf", "name": "Blumenkohl" },
+      { "amount": 1, "unit": "Dose", "name": "Kichererbsen" },
+      { "amount": 2, "unit": "EL", "name": "Kokosöl" },
+      { "amount": 1, "unit": "TL", "name": "Koriandersamen" },
+      { "amount": 1, "unit": "TL", "name": "Kreuzkümmelsamen" },
+      { "amount": 1, "unit": "TL", "name": "Senfsamen" },
+      { "amount": 1, "unit": "TL", "name": "Kurkumapulver" },
+      { "amount": 1, "unit": "TL", "name": "Garam Masala" },
+      { "amount": 1, "unit": "Prise", "name": "Chiliflocken" },
+      { "amount": 1, "unit": "Dose", "name": "Kokosmilch" },
+      { "amount": 200, "unit": "ml", "name": "Gemüsebrühe" },
+      { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+      { "amount": 1, "unit": "Handvoll", "name": "Koriander (frisch)" }
+    ],
+  
+    "instructions": [
+      "Ofen auf 200°C vorheizen. Kürbis und Blumenkohl mit 1 EL Kokosöl vermengen, 25 Min. rösten, bis sie Farbe entwickeln.",
+      "In der Zwischenzeit Koriander-, Kreuzkümmel- und Senfsamen in einem trockenen Topf 2 Min. rösten, bis sie duften. Sofort herausnehmen.",
+      "Im gleichen Topf 1 EL Kokosöl erhitzen. Tomatenmark und Kurkuma 1 Min. anrösten.",
+      "Gemüsebrühe und Kokosmilch angießen, geröstete Gewürze und Garam Masala einrühren. 10 Min. köcheln.",
+      "Geröstetes Gemüse und Kichererbsen unterheben. Mit Salz, Chiliflocken abschmecken. 5 Min. ziehen lassen.",
+      "Mit frischem Koriander bestreuen."
+    ],
+  
+    "nutrition": {
+      "calories": 1540,
+      "protein": "43.5g",
+      "carbs": "124g",
+      "fat": "99.5g"
+    },
+  
+    "tips": [
+      "Für Extra-Crunch: 2 EL Cashewkerne mit den Gewürzen rösten und als Topping verwenden.",
+      "Scharf-Liebhaber: 1 frische Chili mitkochen oder Sriracha servieren.",
+      "Garam Masala selbst machen: 1 TL je Kreuzkümmel, Koriander, Kardamom, Pfeffer, Zimt, Nelken trocken rösten, mahlen.",
+      "Blattgemüse? Spinat oder Grünkohl in den letzten 2 Min. unterheben.",
+      "Sauer macht lustig: Mit Limettensaft oder eingelegtem Rettich servieren."
+    ],
+  
+    "whyFavorite": {
+      "title": "Warum dieses Curry meine Gewürzschublade revolutioniert hat",
+      "reasons": [
+        {
+          "title": "Aromen-Explosion",
+          "description": "Durch das Rösten der Gewürze entstehen Tiefen, die selbst Restaurant-Currys Konkurrenz machen – ganz ohne Fischsoße oder Fleischbrühe."
+        },
+        {
+          "title": "Textur-Feuerwerk",
+          "description": "Knusprig gerösteter Kürbis, bissfester Blumenkohl und cremige Kichererbsen – jeder Löffel ist ein Erlebnis."
+        },
+        {
+          "title": "Meal-Prep-Held",
+          "description": "Schmeckt am nächsten Tag noch besser – einfach Portionen einfrieren oder für Lunchboxen verwenden."
+        },
+        {
+          "title": "Allergiker-freundlich",
+          "description": "Von Natur aus glutenfrei, laktosefrei und vegan – ohne Kompromisse beim Geschmack."
+        },
+        {
+          "title": "Kulinarische Weltreise",
+          "description": "Ein Hauch von Indien (Garam Masala), Thailand (Kokosmilch) und Nahost (Kichererbsen) in einem Topf."
+        },
+        {
+          "title": "Kreativitäts-Katalysator",
+          "description": "Grundrezept bleibt gleich, aber Gemüse und Gewürze lassen sich saisonal anpassen – mal mit Aubergine, mal mit Süßkartoffel."
+        }
+      ]
+    },
+  
+    "handwrittenMessage": {
+      "mainText": "Lass dich von den Gewürzen verführen – sie haben mehr Charakter, als du denkst!",
+      "subText": "Ich wette, nach diesem Curry wirst du Gewürze nie wieder nur aus der Dose schütteln...",
+      "signature": "Deine Gewürzalchemistin"
+    },
+  
+    "steps": [
+      {
+        "title": "Schritt 1: Die Röstoffensive",
+        "description": "Kürbis und Blumenkohl nicht nur dämpfen, sondern karamellisieren – das gibt rauchige Tiefe, die typisch für Straßenküchen-Currys ist."
+      },
+      {
+        "title": "Schritt 2: Gewürz-Alchemie",
+        "description": "Ganze Samen (nicht Pulver!) trocken rösten – wenn sie duften wie frisch gemahlener Kaffee, sind sie bereit für die Kokosmilch."
+      },
+      {
+        "title": "Schritt 3: Die Emulsion",
+        "description": "Tomatenmark in Öl anrösten, bis es dunkler wird – so bindet es die Flüssigkeiten und verhindert eine wässrige Soße."
+      },
+      {
+        "title": "Schritt 4: Die Fusion",
+        "description": "Kokosmilch nie kochen lassen! Nur sanft köcheln, damit sie nicht flockt – Geduld macht hier den Unterschied zwischen gut und großartig."
+      }
+    ],  
+    "servingSuggestion": "Auf Jasminreis mit karamellisierten Schalotten und einer Handvoll Mikrogrün – ein Kontrast aus süß, würzig und frisch.",
+    "servingSuggestions": {
+      "title": "Beyond Rice: Unerwartete Curry-Partner",
+      "description": "Reis ist nur der Anfang – hier sind fünf Ideen, die dein Curry zum Hauptdarsteller machen:",
+      "note": "Für klassische Vegetarier: Serviere mit duftendem Jasminreis oder cremigem Kartoffelpüree. Für Abwechslung: Die folgenden ungewöhnlichen Pairings zeigen, wie wandlungsfähig pflanzliche Küche sein kann!",
+      "items": [
+        {
+          "emoji": "🍚", 
+          "title": "Reis-Variationen",
+          "description": "Jasminreis für Duft • Schwarzer Reis für Drama • Kokosreis für Süße – jede Sorte verändert das Curry-Erlebnis."
+        },
+        {
+          "emoji": "🍠",
+          "title": "Süßkartoffel-Püree",
+          "description": "Cremig-süßes Püree als Untergrund – die perfekte Balance zum würzigen Curry. Tipp: Mit Kokosmilch statt Butter mixen!"
+        },
+        {
+          "emoji": "🥬",
+          "title": "Kimchi-Pfannkuchen",
+          "description": "Knusprige Reismehl-Pfannkuchen mit fermentiertem Kimchi – koreanisch-indische Fusion, die süchtig macht."
+        },
+        {
+          "emoji": "🥑",
+          "title": "Avocado-Schiffchen",
+          "description": "Curry in Avocadohälften füllen, mit Edamame und Sesam toppen – low-carb und instagramtauglich."
+        },
+        {
+          "emoji": "🍜",
+          "title": "Curry-Ramen",
+          "description": "Mit Gemüsebrühe strecken und über Ramen-Nudeln gießen – das ultimative Comfort-Food-Upgrade."
+        },
+        {
+          "emoji": "🌯",
+          "title": "Curry-Dürüm",
+          "description": "In warmen Fladenbrot mit Joghurt-Sauce und Salat einwickeln – das Streetfood-Erlebnis für unterwegs."
+        }
+      ]
+    },
+  
+    "funFact": {
+      "title": "Fun Fact: Die Chemie der Gewürze",
+      "description": "Wusstest du, dass Kreuzkümmel und Koriander chemische Cousins sind? 🧪 Beide enthalten Aldehyde – Aromamoleküle, die unser Gehirn als ‚warm‘ und ‚erdig‘ interpretiert. Aber während Kreuzkümmel (Cuminaldehyd) rauchig-pfeffrig schmeckt, ist Koriander (Linalool) blumig-zitronig. Zusammen ergeben sie das berühmte ‚Jeera-Dhania‘-Duo der indischen Küche. Noch wilder: Hitze verändert ihre Molekularstruktur! Beim Rösten entstehen Pyrazine – dieselben Verbindungen, die auch Kaffee und Schokolade ihr Aroma geben. Kurzum: Dein Curry ist eigentlich ein Chemielabor… und du bist die Wissenschaftlerin!"  
+    },
+  
+    "images": {
+      "imageIngredient": "/images/Ingredients/gemueseCurryIngredient.webp",
+      "image1": "/images/MainCourses/gemuese-curry1.webp",
+      "image2": "/images/MainCourses/gemuese-curry2.webp",
+      "image3": "/images/MainCourses/gemuese-curry3.webp",
+      "image4": "/images/MainCourses/gemuese-curry4.webp",
+      "image5": "/images/MainCourses/gemuese-curry5.webp",
+      "image6": "/images/MainCourses/gemuese-curry6.webp",
+      "image7": "/images/MainCourses/gemuese-curry7.webp"
+    }
   }
 ];
 

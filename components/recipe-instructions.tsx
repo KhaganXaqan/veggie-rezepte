@@ -1,10 +1,11 @@
 import { UtensilsCrossed } from 'lucide-react'
 
 type RecipeInstructionsProps = {
-  instructions: string[]
+  instructions: string[],
+  tips: string
 }
 
-export function RecipeInstructions({ instructions }: RecipeInstructionsProps) {
+export function RecipeInstructions({ instructions, tips }: RecipeInstructionsProps) {
   return (
     <div className="w-full mx-auto mb-4">
       {/* Title with decorative elements */}
@@ -49,9 +50,7 @@ export function RecipeInstructions({ instructions }: RecipeInstructionsProps) {
             <div>
               <h3 className="font-black text-xl text-[#0b3558] mb-2">Profi-Tipp</h3>
               <p className="text-lg text-black leading-relaxed font-normal">
-                Achte darauf, den Teig möglichst dünn auszurollen, damit er schön knusprig wird. 
-                Wenn du den Flammkuchen vorbereitest, kannst du den Teig auch schon vorab ausrollen 
-                und zwischen Backpapier im Kühlschrank aufbewahren.
+                {tips}
               </p>
             </div>
           </div>

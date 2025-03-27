@@ -32,7 +32,8 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     'semmelknoedel',
     'quinoa-buddha-bowl',
     'kaesespaetzle',
-    'pilzgulasch'
+    'pilzgulasch',
+    'gemuese-curry'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -90,7 +91,8 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     'semmelknoedel',
     'quinoa-buddha-bowl',
     'kaesespaetzle',
-    'pilzgulasch'
+    'pilzgulasch',
+    'gemuese-curry'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -169,7 +171,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'semmelknoedel',
     'quinoa-buddha-bowl',
     'kaesespaetzle',
-    'pilzgulasch'
+    'pilzgulasch',
+    'gemuese-curry'
   ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
@@ -193,7 +196,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'semmelknoedel',
     'quinoa-buddha-bowl',
     'kaesespaetzle',
-    'pilzgulasch'
+    'pilzgulasch',
+    'gemuese-curry'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
@@ -689,6 +693,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         {/* Instructions */}
                         <RecipeInstructions
                           instructions={validRecipe.instructions}
+                          tips={validRecipe.tips}
                         />
 
                         <RecipeNutrition
