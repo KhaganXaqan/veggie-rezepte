@@ -2276,6 +2276,221 @@ export const recipes: Recipe[] = [
       "image6": "/images/MainCourses/brokkoli-quiche6.webp",
       "image7": "/images/MainCourses/brokkoli-quiche7.webp"
     }
+  },
+  {
+    "title": "Ratatouille Provençal",
+    "seo_title": "Vegetarisches Ratatouille Rezept – Französische Gemüseperfektion",
+    "image": "/images/Miscellaneous/ratatouille.webp",
+    "prepTime": 20,
+    "cookingTime": 50,
+    "seo_keywords": [
+      "Vegetarisches Ratatouille",
+      "Pflanzliche französische Küche",
+      "Gemüsegericht Provençal",
+      "Gesunde mediterrane Rezepte",
+      "Vegetarische Sommerküche"
+    ],
+    "rating": 3.9,
+    "reviews": 44,
+    "category": "Vegetarische Hauptgerichte",
+    "slug": "ratatouille",
+    "tags": ["Französisch", "Gemüse", "Hauptgericht"],
+    "servings": 2,
+    "createdDate": new Date('2025-02-14T00:00:00'),
+    "updatedDate": new Date('2025-03-270T00:00:00'),
+    "description": "Ein ikonisches vegetarisches Gericht aus der Provence – geschichtete Auberginen, Zucchini und Paprika in einer würzigen Tomatenbasis, die beweisen, dass pflanzliche Küche niemals langweilig ist.",
+  
+    "descriptionOnImage": "Ein farbenfrohes Tiegelgericht mit perfekt arrangiertem Gemüse in konzentrischen Kreisen – vegetarische Ästhetik und Geschmack in Harmonie.",
+  
+    "introductionParagraph": "Stellen Sie sich vor, Sie sitzen in einem versteckten Innenhof irgendwo in Nizza. Die Luft duftet nach sonnengereiften Tomaten, frischem Basilikum und dem holzigen Aroma von Olivenöl – kein Hauch von Fleisch, und doch so tief im Geschmack, dass sich Ihre Geschmacksknospen sofort aufrichten. Dieses Ratatouille ist meine Hommage an diese sinnliche Erfahrung: ein vegetarisches Meisterwerk, bei dem jedes Gemüse wie ein Solist in einem perfekt orchestrierten Konzert behandelt wird. Die Auberginen werden nicht einfach gewürfelt, sondern in mondförmige Scheiben geschnitten, die sich beim Backen in buttrige Köstlichkeiten verwandeln. Die Zucchini behalten ihren Biss, als würden sie sich weigern, in der Hitze des Ofens nachzugeben. Und die Paprika? Sie sind die heimlichen Stars – geröstet, bis ihre natürliche Süße wie kandierte Sonnenstrahlen schmeckt.",
+  
+    "additionalParagraph": "Was dieses pflanzliche Gericht besonders macht, ist seine Wandlungsfähigkeit. An heißen Sommertagen serviere ich es lauwarm mit einem Klecks veganer Aioli – das kühle Knoblaucharoma kontrastiert wunderbar mit den warmen Gemüsenoten. An kühleren Abenden wird es zur Füllung für knusprige Blätterteigtaschen, bestreut mit gerösteten Pinienkernen. Mein Geheimtipp: Die Ratatouille-Brühe, die sich im Tiegel sammelt, ist flüssiges Gold. Einfach mit einem Löffel auffangen und über frisches Ciabatta träufeln – oder als Basis für eine vegetarische Minestrone verwenden. Dies ist kein Gericht, das Sie einmal kochen. Dies ist eine pflanzliche Technik, die Sie ein Leben lang begleiten wird.",
+  
+    "ingredientsNeeded": [
+      {
+        "title": "Auberginen (die pflanzlichen Schwämme)",
+        "description": "In Scheiben gesalzen und gepresst, saugen sie später das Olivenöl und die Kräuteraromen optimal auf – kein matschiges Gemüse mehr!"
+      },
+      {
+        "title": "Zucchini (der Biss-Held)",
+        "description": "Mit der Schale verarbeitet, behalten sie Struktur und liefern zusätzliche Ballaststoffe für die vegetarische Ernährung."
+      },
+      {
+        "title": "Gelbe Paprika (die Süßespender)",
+        "description": "Geröstet entwickeln sie karamellige Tiefe – der natürliche Zucker ersetzt jede Zugabe von Industriezucker."
+      },
+      {
+        "title": "San-Marzano-Tomaten (die Umami-Bombe)",
+        "description": "Diese italienischen Flaschentomaten haben doppelt so viel Fruchtfleisch wie normale Tomaten – die perfekte Basis für pflanzliche Intensität."
+      }
+    ],
+  
+    "ingredientGroups": [
+      {
+        "title": "Das Gemüse-Ensemble",
+        "description": "Jede Zutat wird sorgfältig vorbereitet, um ihre beste vegetarische Version zu werden:",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Auberginen (in 0,5cm Scheiben)" },
+          { "amount": 3, "unit": "", "name": "Zucchini (in Scheiben)" },
+          { "amount": 2, "unit": "", "name": "Gelbe Paprika (in Streifen)" },
+          { "amount": 1, "unit": "", "name": "Rote Zwiebel (geviertelt)" }
+        ]
+      },
+      {
+        "title": "Die Tomatenbasis",
+        "description": "Die Grundlage, die alles zusammenhält – voller pflanzlicher Tiefe:",
+        "ingredients": [
+          { "amount": 800, "unit": "g", "name": "San-Marzano-Tomaten (gehäutet)" },
+          { "amount": 4, "unit": "Zehen", "name": "Knoblauch (gehackt)" },
+          { "amount": 1, "unit": "Bund", "name": "Basilikum" },
+          { "amount": 1, "unit": "TL", "name": "Zucker" }
+        ]
+      },
+      {
+        "title": "Die Kräuterdecke",
+        "description": "Frische Kräuter, die das vegetarische Gericht parfümieren:",
+        "ingredients": [
+          { "amount": 2, "unit": "Zweige", "name": "Rosmarin" },
+          { "amount": 4, "unit": "Zweige", "name": "Thymian" },
+          { "amount": 1, "unit": "EL", "name": "Olivenöl" }
+        ]
+      }
+    ],
+  
+    "ingredients": [
+      { "amount": 2, "unit": "", "name": "Auberginen" },
+      { "amount": 3, "unit": "", "name": "Zucchini" },
+      { "amount": 2, "unit": "", "name": "Gelbe Paprika" },
+      { "amount": 1, "unit": "", "name": "Rote Zwiebel" },
+      { "amount": 800, "unit": "g", "name": "San-Marzano-Tomaten" },
+      { "amount": 4, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "Bund", "name": "Basilikum" },
+      { "amount": 1, "unit": "TL", "name": "Zucker" },
+      { "amount": 2, "unit": "Zweige", "name": "Rosmarin" },
+      { "amount": 4, "unit": "Zweige", "name": "Thymian" },
+      { "amount": 5, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+    ],
+  
+    "instructions": [
+      "Auberginenscheiben salzen, 30 Min. beschwert abtropfen lassen (entzieht Bitterstoffe).",
+      "Tomaten kreuzweise einritzen, mit kochendem Wasser überbrühen, häuten und würfeln.",
+      "In einer Pfanne 2 EL Olivenöl erhitzen. Zwiebeln und Knoblauch 5 Min. anschwitzen. Tomaten und Zucker zugeben, 15 Min. köcheln.",
+      "Paprikastreifen in 1 EL Öl 5 Min. anbraten, bis sie weich sind.",
+      "Ofen auf 180°C vorheizen. Tomatensauce in eine Auflaufform geben.",
+      "Gemüse dekorativ schichtweise anordnen: abwechselnd Auberginen, Zucchini und Paprika.",
+      "Kräuter darüberlegen, mit Olivenöl beträufeln. 40 Min. backen, bis das Gemüse weich ist.",
+      "Mit frischem Basilikum garnieren."
+    ],
+  
+    "nutrition": {
+      "calories": 707,
+      "protein": "26g",
+      "carbs": "122g",
+      "fat": "21g"
+    },
+  
+    "tips": [
+      "Für extra Umami: 2 getrocknete Steinpilze mit den Tomaten köcheln.",
+      "Vegan-Option: Zucker durch 1 TL Ahornsirup ersetzen.",
+      "Resteverwertung: Übriges Ratatouille pürieren – ergibt eine hervorragende vegetarische Pastasauce.",
+      "Kräutertipp: Lorbeerblätter unter das Gemüse legen für subtile Aromen.",
+      "Meal Prep: Hält sich 4 Tage im Kühlhaus und schmeckt kalt noch intensiver."
+    ],
+  
+    "whyFavorite": {
+      "title": "Warum dieses Ratatouille meine pflanzliche Küche definiert",
+      "reasons": [
+        {
+          "title": "Visuelle Poesie",
+          "description": "Die spiralförmige Anordnung verwandelt einfaches Gemüse in ein essbares Kunstwerk – vegetarische Küche muss nie langweilig aussehen."
+        },
+        {
+          "title": "Slow-Food-Philosophie",
+          "description": "Jedes Gemüse wird einzeln zubereitet – eine meditative, achtsame Art des pflanzlichen Kochens."
+        },
+        {
+          "title": "Saisonaler Bote",
+          "description": "Im Sommer mit frischem Gemüse, im Winter mit Ofenkürbis variierbar – ein vegetarisches Gericht für alle Jahreszeiten."
+        },
+        {
+          "title": "Allergikerfreundlich",
+          "description": "Von Natur aus glutenfrei, laktosefrei und vegan (mit kleinen Anpassungen) – inklusive Genuss ohne Kompromisse."
+        }
+      ]
+    },
+  
+    "handwrittenMessage": {
+      "mainText": "Lass dich vom Gemüse verzaubern – es hat mehr Geschichten zu erzählen, als du denkst!",
+      "subText": "Ich wette, nach diesem Ratatouille siehst du Auberginen mit neuen Augen...",
+      "signature": "Deine Gemüse-Erzählerin"
+    },
+  
+    "steps": [
+      {
+        "title": "Schritt 1: Die Auberginen-Transformation",
+        "description": "Das Salzen und Pressen der Auberginen entfernt nicht nur Bitterstoffe – es öffnet ihre Poren, damit sie später Olivenöl und Kräuter wie ein Schwamm aufsaugen können."
+      },
+      {
+        "title": "Schritt 2: Die Tomatenalchemie",
+        "description": "San-Marzano-Tomaten werden nicht einfach zerkleinert, sondern zu einer konzentrierten Sauce reduziert – ihr natürlich hoher Zuckergehalt macht zusätzliche Süßungsmittel überflüssig."
+      },
+      {
+        "title": "Schritt 3: Die Paprika-Verwandlung",
+        "description": "Durch das scharfe Anbraten karamellisiert der natürliche Zucker der Paprika – diese Röstaromen sind der Schlüssel zur pflanzlichen Tiefe des Gerichts."
+      },
+      {
+        "title": "Schritt 4: Die Komposition",
+        "description": "Das schichtweise Anordnen ist kein bloßes Dekor – es ermöglicht gleichmäßige Hitzeverteilung, sodass jedes Gemüse perfekt gart, ohne zu verfallen."
+      }
+    ],
+  
+    "servingSuggestion": "Mit einer Prise Fleur de Sel und einem Hauch frisch geriebener Zitronenschale – so wird pflanzliche Küche zum Gourmet-Erlebnis.",
+  
+    "servingSuggestions": {
+    "title": "Jenseits des Klassikers: Unerwartete Ratatouille-Partner",
+    "description": "Dieses Gericht spielt Hauptrolle oder Teamplayer – hier sind vier unkonventionelle Ideen:",
+    "note": "Klassisch vegetarisch: Mit frischem Baguette oder Couscous servieren. Für experimentierfreudige Köche: Diese Pairings zeigen, wie wandlungsfähig pflanzliche Küche sein kann!",
+      "items": [
+        {
+          "emoji": "🍚",
+          "title": "Miso-Polenta-Untergrund",
+          "description": "Cremige Polenta mit weißer Miso-Paste verrührt – die Fermentnoten heben die Gemüsearomen hervor."
+        },
+        {
+          "emoji": "🥟",
+          "title": "Ratatouille-Dumplings",
+          "description": "Abgekühltes Ratatouille als Füllung für Teigtaschen verwenden – mit Sesam bestreut ein vegetarischer Appetizer-Hit."
+        },
+        {
+          "emoji": "🍳",
+          "title": "Shakshuka-Ratatouille-Fusion",
+          "description": "Ratatouille in einer Pfanne erhitzen, Mulden formen und Eier hineinpochen – mediterran-nordafrikanische Brunch-Kreation."
+        },
+        {
+          "emoji": "🥑",
+          "title": "Avocado-Boote",
+          "description": "Avocadohälften mit Ratatouille füllen, mit Kürbiskernen bestreuen – low-carb und instagramtauglich."
+        }
+      ]
+    },
+  
+    "funFact": {
+      "title": "Fun Fact: Ratatouilles politische Revolution",
+      "description": "Wussten Sie, dass Ratatouille einst als 'Arme-Leute-Essen' galt, bis es 1976 zum kulinarischen Botschafter der Provence wurde? 🌍 Der damalige französische Kulturminister ernannte es offiziell zum 'Patrimoine Culinaire Français' (kulinarisches Erbe) – eine politische Geste, um regionale pflanzliche Küche gegen die Fast-Food-Welle zu verteidigen. Noch verrückter: Die Originalversion aus Nizza wurde nie geschichtet! Das ikonische Spiraldesign erfand erst der Disney-Film 2007. Echte nicoise Hausköchinnen köcheln alles zusammen – aber wir dürfen ja auch mal mit Traditionen brechen, oder?"  
+    },
+  
+    "images": {
+      "imageIngredient": "/images/Ingredients/ratatouilleIngredient.webp",
+      "image1": "/images/MainCourses/ratatouille1.webp",
+      "image2": "/images/MainCourses/ratatouille2.webp",
+      "image3": "/images/MainCourses/ratatouille3.webp",
+      "image4": "/images/MainCourses/ratatouille4.webp",
+      "image5": "/images/MainCourses/ratatouille5.webp",
+      "image6": "/images/MainCourses/ratatouille6.webp",
+      "image7": "/images/MainCourses/ratatouille7.webp"
+    }
   }
 ];
 

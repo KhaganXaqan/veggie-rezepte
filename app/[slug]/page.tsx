@@ -34,7 +34,8 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     'kaesespaetzle',
     'pilzgulasch',
     'gemuese-curry',
-    'brokkoli-quiche'
+    'brokkoli-quiche',
+    'ratatouille'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -94,7 +95,8 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     'kaesespaetzle',
     'pilzgulasch',
     'gemuese-curry',
-    'brokkoli-quiche'
+    'brokkoli-quiche',
+    'ratatouille'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -175,7 +177,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'kaesespaetzle',
     'pilzgulasch',
     'gemuese-curry',
-    'brokkoli-quiche'
+    'brokkoli-quiche',
+    'ratatouille'
   ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
@@ -201,7 +204,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'kaesespaetzle',
     'pilzgulasch',
     'gemuese-curry',
-    'brokkoli-quiche'
+    'brokkoli-quiche',
+    'ratatouille'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
