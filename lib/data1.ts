@@ -7,9 +7,12 @@ export type Recipe = {
   cookingTime?: number
   seo_keywords: string[]
   rating?: number
+  reviews?: number
   category: string
   slug: string
   tags: string[]
+  createdDate: Date
+  updatedDate: Date
   servings: number
   description: string
   descriptionOnImage: string
@@ -99,10 +102,13 @@ export const recipes: Recipe[] = [
       "Flammkuchen ohne Speck",
       "Flammkuchen traditionell"
     ],
-    "rating": 4.8,
+    "rating": 4.3,
+    "reviews": 33,
     "category": "Hauptgerichte",
     "slug": "flammkuchen",
     "tags": ["Traditionell", "Hauptgerichte", "Flammkuchen"],
+    "createdDate": new Date('2025-02-17T00:00:00'),
+    "updatedDate": new Date('2025-03-20T00:00:00'),
     "servings": 2,
     "description": "Knuspriger vegetarischer Flammkuchen in 30 Min.! Hauchdünner Teig, cremige Basis & würzige Zwiebeln – einfach, lecker & perfekt für alle Flammkuchen-Fans!",
     "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
@@ -319,9 +325,12 @@ export const recipes: Recipe[] = [
       "Kartoffelpuffer ohne Ei"
     ],
     "rating": 5.0,
+    "reviews":60,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",
     "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
+    "createdDate": new Date('2025-02-20T00:00:00'),
+    "updatedDate": new Date('2025-03-21T00:00:00'),
     "servings": 4,
     "description": "Fluffige Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu Braten, Pilzen oder einfach pur!",
     "descriptionOnImage": "Traditionelle Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften Gerichten.",
@@ -539,10 +548,13 @@ export const recipes: Recipe[] = [
       "Vegetarische Suppe",
       "Schnelle Gemüsesuppe"
     ],
-    "rating": 4.9,
+    "rating": 4.4,
+    "reviews": 50,
     "category": "Suppen",
     "slug": "gemuesesuppe",
     "tags": ["Traditionell", "Suppe", "Gemüse"],
+    "createdDate": new Date('2025-02-17T00:00:00'),
+    "updatedDate": new Date('2025-03-22T00:00:00'),
     "servings": 4,
     "description": "Eine einfache und gesunde vegetarische Gemüsesuppe, die in weniger als einer Stunde zubereitet ist – perfekt für kalte Tage oder als schnelle Mahlzeit!",
     "descriptionOnImage": "Eine herzhafte vegetarische Gemüsesuppe mit frischem Gemüse und würziger Brühe – gesund, lecker und schnell zubereitet.",
@@ -754,10 +766,13 @@ export const recipes: Recipe[] = [
       "Vegetarische Klöße",
       "Deutsche vegetarische Küche"
     ],
-    "rating": 4.9,
+    "rating": 4.1,
+    "reviews": 74,
     "category": "Beilagen",
     "slug": "kartoffelkloesse",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
+    "createdDate": new Date('2025-02-18T00:00:00'),
+    "updatedDate": new Date('2025-03-23T00:00:00'),
     "servings": 4,
     "description": "Fluffige vegetarische Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
     "descriptionOnImage": "Traditionelle vegetarische Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
@@ -960,10 +975,13 @@ export const recipes: Recipe[] = [
       "Deutsche vegetarische Küche",
       "Semmelknödel ohne Fleisch"
     ],
-    "rating": 4.8,
+    "rating": 3.8,
+    "reviews": 102,
     "category": "Beilagen",
     "slug": "semmelknoedel",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
+    "createdDate": new Date('2025-02-15T00:00:00'),
+    "updatedDate": new Date('2025-03-24T00:00:00'),
     "servings": 4,
     "description": "Fluffige vegetarische Semmelknödel, die mit ihrer goldenen Kruste und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
     "descriptionOnImage": "Traditionelle vegetarische Semmelknödel – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
@@ -1169,9 +1187,12 @@ export const recipes: Recipe[] = [
       "Bunte Buddha-Bowl"
     ],
     "rating": 4.9,
+    "reviews": 30,
     "category": "Hauptgerichte",
     "slug": "quinoa-buddha-bowl",
     "tags": ["Modern", "Gesund", "Bowl"],
+    "createdDate": new Date('2025-02-20T00:00:00'),
+    "updatedDate": new Date('2025-03-25T00:00:00'),
     "servings": 2,
     "description": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl, die mit frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings überzeugt",
     "descriptionOnImage": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl – voller frischer Zutaten und voller Geschmack.",
@@ -1406,10 +1427,13 @@ export const recipes: Recipe[] = [
       "Deutsche vegetarische Küche",
       "Cremige Spätzle"
     ],
-    "rating": 4.9,
+    "rating": 4.1,
+    "reviews": 78,
     "category": "Hauptgerichte",
     "slug": "kaesespaetzle",
     "tags": ["Traditionell", "Pasta", "Käse"],
+    "createdDate": new Date('2025-02-21T00:00:00'),
+    "updatedDate": new Date('2025-03-26T00:00:00'),
     "servings": 4,
     "description": "Cremige vegetarische Käsespätzle mit drei Käsesorten, karamellisierten Zwiebeln und frischem Schnittlauch – ein herzhafter Genuss ohne Fleisch!",
     "descriptionOnImage": "Goldbraune Käsespätzle mit zerlaufenem Käse und knusprigen Zwiebelringen – vegetarischer Komfort auf höchstem Niveau.",
@@ -1602,7 +1626,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Pilzgulasch",
     "seo_title": "Vegetarisches Pilzgulasch Rezept – Herzhaft, rauchig & umami",
-    "image": "/images/MainCourses/pilzgulasch.webp",
+    "image": "/images/Miscellaneous/pilzgulasch.webp",
     "prepTime": 20,
     "cookingTime": 40,
     "seo_keywords": [
@@ -1612,10 +1636,13 @@ export const recipes: Recipe[] = [
       "Vegane Gulasch-Alternative",
       "Herzhafte Pilzpfanne"
     ],
-    "rating": 4.9,
+    "rating": 3.4,
+    "reviews": 23,
     "category": "Hauptgerichte",
     "slug": "pilzgulasch",
     "tags": ["Traditionell", "Pilze", "Hauptgericht"],
+    "createdDate": new Date('2025-02-23T00:00:00'),
+    "updatedDate": new Date('2025-03-27T00:00:00'),
     "servings": 2,
     "description": "Ein tief aromatisches Pilzgulasch mit rauchigen Paprika- und Sojasoßen-Noten – eine vegetarische Meisterleistung, die selbst Fleischliebhaber überzeugt.",
     "descriptionOnImage": "Ein dunkles, glänzendes Pilzgulasch mit Champignons, Austernpilzen und Rauchpaprika, serviert mit fluffigem Kartoffelpüree – pure Komfortküche.",
