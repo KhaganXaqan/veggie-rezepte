@@ -2077,6 +2077,205 @@ export const recipes: Recipe[] = [
       "image6": "/images/MainCourses/gemuese-curry6.webp",
       "image7": "/images/MainCourses/gemuese-curry7.webp"
     }
+  },
+  {
+    "title": "Brokkoli-Quiche",
+    "seo_title": "Vegetarische Brokkoli-Quiche – Cremig, nussig & voller Aromen",
+    "image": "/images/MainCourses/brokkoli-quiche.webp",
+    "prepTime": 30,
+    "cookingTime": 45,
+    "seo_keywords": [
+      "Vegetarische Quiche",
+      "Brokkoli-Quiche Rezept",
+      "Pflanzenbasierte Quiche",
+      "Proteinreiche vegetarische Gerichte",
+      "Einfache vegetarische Backrezepte"
+    ],
+    "rating": 4.5,
+    "reviews": 75,
+    "category": "Vegetarische Hauptgerichte",
+    "slug": "brokkoli-quiche",
+    "tags": ["Französisch", "Gebäck", "Gemüse"],
+    "createdDate": new Date('2025-02-14T00:00:00'),
+    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "servings": 9,
+    "description": "Eine vollständig vegetarische Quiche mit knusprigem Brokkoli, gerösteten Haselnüssen und zwei Käsesorten – eine pflanzliche Proteinbombe, die beweist, dass Backen ohne Fleisch genauso herzhaft schmeckt.",       
+    "descriptionOnImage": "Eine goldbraune Quiche mit saftigem Brokkoli, knusprigen Haselnüssen und geschmolzenem Käse – vegetarische Backkunst auf höchstem Niveau.",
+    "ingredients": [
+        { "amount": 200, "unit": "g", "name": "Dinkelvollkornmehl" },
+        { "amount": 100, "unit": "g", "name": "Vollkornhaferflocken" },
+        { "amount": 80, "unit": "ml", "name": "Olivenöl" },
+        { "amount": 100, "unit": "g", "name": "Griechischer Joghurt (vegetarisch)" },
+        { "amount": 1, "unit": "Prise", "name": "Salz" },
+        { "amount": 1, "unit": "Kopf", "name": "Brokkoli (in 2cm dicken 'Steaks')" },
+        { "amount": 50, "unit": "g", "name": "Haselnüsse (geröstet)" },
+        { "amount": 200, "unit": "g", "name": "Ricotta (vegetarisch)" },
+        { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+        { "amount": 3, "unit": "", "name": "Eier (oder 2 Eier + 1 Leinsamen-Ei für vegan)" },
+        { "amount": 1, "unit": "TL", "name": "Muskatnuss" }
+      ],
+    "introductionParagraph": "Es gibt Gerichte, die schreien nach Aufmerksamkeit – und dann gibt es diese Brokkoli-Quiche. Sie flüstert. Mit jedem Bissen enthüllt sie eine neue Geschmacksschicht: erst die buttrige Kruste, dann der geröstete Brokkoli mit seinen nussigen Röstaromen, gefolgt von der cremigen Füllung, die dank Ricotta und Bergkäse schmilzt wie ein Sonnenuntergang über der Toskana. Was sie besonders macht? Sie braucht kein Fleisch, um zu überzeugen. Der Brokkoli wird hier nicht als 'Ersatz' behandelt, sondern als Hauptdarsteller – in Scheiben geschnitten wie ein Steak, scharf angebraten, bis die Röschen knusprige Kanten bekommen. Dies ist kein 'vegetarisches Gericht'. Dies ist einfach ein großartiges Gericht, das zufällig pflanzlich ist.",
+    "additionalParagraph": "Diese Quiche ist mein geheimes Wunderwaffe gegen das Vorurteil, vegetarische Küche sei langweilig. Für Brunch-Gäste serviere ich sie mit einem Klecks Zitronen-Kräuter-Crème fraîche und beobachte, wie selbst eingefleischte Fleischliebhaber um zweite Portionen bitten. An Wochentagen wandert sie in meine Lunchbox – kalt schmeckt sie fast noch besser, wenn die Aromen über Nacht verschmelzen. Mein Pro-Tipp: Backe zwei! Eine zum sofortigen Verzehr, eine zum Einfrieren. Denn wenn spätabends die Lust auf Komfort kommt, ist eine aufgetaute Quiche-Scheibe unter dem Grill das beste pflanzliche Fast-Food der Welt.",
+    "ingredientsNeeded": [
+      {
+        "title": "Brokkoli (der vegetarische Star)",
+        "description": "In dicken 'Steaks' geschnitten und scharf angebraten – so wird er zur Hauptattraktion, nicht nur zur Beilage. Reich an Vitamin C und Ballaststoffen."
+      },
+      {
+        "title": "Haselnüsse (pflanzliches Crunch-Wunder)",
+        "description": "Geröstet und grob gehackt ersetzen sie Speck nicht – sie machen ihn überflüssig. Liefern gesunde Fette und Aroma-Tiefe."
+      },
+      {
+        "title": "Ricotta & Bergkäse (vegetarische Cremigkeit)",
+        "description": "Die Kombination aus milder Frische und würzigem Schmelz gibt pflanzlichen Gerichten die perfekte Textur – kein Ei-Überschuss nötig."
+      },
+      {
+        "title": "Dinkelvollkornmehl (die nussige Basis)",
+        "description": "Nährstoffreicher als Weißmehl und mit natürlicher Süße – der ideale Partner für herzhafte vegetarische Gebäcke."
+      }
+    ],
+  
+    "ingredientGroups": [
+      {
+        "title": "Die vegetarische Teigbasis",
+        "description": "Ein nussiger Vollkornteig, der auch ohne tierische Zutaten perfekt bröselt – dank griechischem Joghurt statt Ei.",
+        "ingredients": [
+          { "amount": 200, "unit": "g", "name": "Dinkelvollkornmehl" },
+          { "amount": 100, "unit": "g", "name": "Vollkornhaferflocken" },
+          { "amount": 80, "unit": "ml", "name": "Olivenöl" },
+          { "amount": 100, "unit": "g", "name": "Griechischer Joghurt (vegetarisch)" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" }
+        ]
+      },
+      {
+        "title": "Die pflanzliche Füllung",
+        "description": "Cremig ohne Sahne, proteinreich ohne Fleisch – vegetarische Küche auf ihrem besten Niveau.",
+        "ingredients": [
+          { "amount": 1, "unit": "Kopf", "name": "Brokkoli (in 2cm dicken 'Steaks')" },
+          { "amount": 50, "unit": "g", "name": "Haselnüsse (geröstet)" },
+          { "amount": 200, "unit": "g", "name": "Ricotta (vegetarisch)" },
+          { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+          { "amount": 3, "unit": "", "name": "Eier (oder 2 Eier + 1 Leinsamen-Ei für vegan)" },
+          { "amount": 1, "unit": "TL", "name": "Muskatnuss" }
+        ]
+      }
+    ],
+  
+    "instructions": [
+      "Teig: Mehl, Haferflocken und Salz vermischen. Öl und Joghurt einrühren, zu einem Ball kneten. 30 Min. kühl stellen.",
+      "Brokkoli-Steaks in einer Pfanne mit 1 EL Öl 3 Min. pro Seite anbraten, bis sie Röstaromen entwickeln. Haselnüsse grob hacken.",
+      "Teig ausrollen, in eine gefettete Quicheform legen. Mit Gabel einstechen, 15 Min. blind backen (180°C).",
+      "Füllung: Eier, Ricotta, Muskat und 2/3 des Käses verquirlen. Brokkoli und Nüsse auf dem Teig verteilen, Eiermischung darüber.",
+      "Mit restlichem Käse bestreuen. 30 Min. backen, bis die Füllung fest ist."
+    ],
+  
+    "nutrition": {
+      "calories": 3302,
+      "protein": "126g",
+      "carbs": "253g",
+      "fat": "206g"
+    },
+  
+    "tips": [
+      "Für vegane Version: Ei durch Kichererbsenmehl-Mischung (1 EL Mehl + 3 EL Wasser pro Ei) ersetzen.",
+      "Brokkoli-Stiele nicht wegwerfen! Geschält und gewürfelt machen sie 50% mehr Füllung.",
+      "Nuss-Tipp: Mandeln oder Walnüsse funktionieren genauso – einfach nach Vorrat wechseln.",
+      "Meal Prep: Eingefrorene Quiche-Scheiben 10 Min. im Toaster aufbacken – perfekt für schnelle vegetarische Mahlzeiten.",
+      "Käse-Alternative: Für intensiveren Geschmack 50g gereiften Gouda untermischen."
+    ],
+  
+    "whyFavorite": {
+      "title": "Warum diese Quiche meine vegetarische Küche repräsentiert",
+      "reasons": [
+        {
+          "title": "Textur-Poesie",
+          "description": "Knuspriger Teig + cremige Füllung + crunchige Nüsse = ein vegetarisches Sinnenerlebnis, das Fleisch nicht vermissen lässt."
+        },
+        {
+          "title": "Protein-Power",
+          "description": "Mit 14g Protein pro Stück (dank Eiern, Käse und Nüssen) ist es eine vollwertige vegetarische Hauptmahlzeit."
+        },
+        {
+          "title": "Saisonaler Chamäleon",
+          "description": "Im Frühling mit Spargel, im Herbst mit Kürbis – die Basis bleibt, die Gemüse wechseln mit den Jahreszeiten."
+        },
+        {
+          "title": "Brunch-Queen",
+          "description": "Kalt oder warm servierbar – ideal für gemischte Tische (vegane Option inklusive)."
+        },
+        {
+          "title": "Zero-Waste-Star",
+          "description": "Verwendet den ganzen Brokkoli (auch Stiele!) und Reste werden zu neuen Kreationen (siehe Serving-Ideen)."
+        }
+      ]
+    },
+  
+    "handwrittenMessage": {
+      "mainText": "Lass dich vom Brokkoli überraschen – er kann mehr, als du denkst!",
+      "subText": "Ich wette, nach dieser Quiche siehst du Gemüse mit neuen Augen...",
+      "signature": "Deine Gemüse-Patissière"
+    },
+  
+    "steps": [
+      {
+        "title": "Schritt 1: Die Teig-Alchemie",
+        "description": "Dinkelvollkornmehl + Haferflocken + Joghurt ergeben einen Teig, der auch ohne Butter zart bröselt – das Geheimnis liegt im griechischen Joghurt, der Feuchtigkeit und Bindekraft schenkt."
+      },
+      {
+        "title": "Schritt 2: Brokkoli-Transformation",
+        "description": "In dicken Scheiben angebraten, entwickelt der Brokkoli Röstaromen, die an Grillgemüse erinnern – kein matschiges Beilagen-Gemüse mehr!"
+      },
+      {
+        "title": "Schritt 3: Die Füllungs-Philosophie",
+        "description": "Ricotta macht die Masse luftig-leicht, während Bergkäse für Schmelz sorgt – eine vegetarische Lektion in Textur-Balance."
+      }
+    ],
+  
+    "servingSuggestion": "Mit einem Klecks Zitronen-Crème fraîche und essbaren Blüten – so wird vegetarische Küche zum Gourmet-Erlebnis.",
+  
+    "servingSuggestions": {
+      "title": "Vom Frühstück bis zum Dinner: Vegetarische Quiche-Inszenierungen",
+      "description": "Diese Quiche spielt Hauptrolle oder Nebendarsteller – je nachdem, wie du sie in Szene setzt:",
+      "note": "Klassisch vegetarisch: Serviere mit Rucola-Salat oder gerösteten Cherrytomaten. Oder wage dich an diese unkonventionellen Ideen:",
+      "items": [
+        {
+          "emoji": "🍵",
+          "title": "Misosuppen-Bowle",
+          "description": "Eine Tasse klare Misosuppe daneben – die Umami-Noten heben den Käse hervor, während die Brühe vegetarisch sättigt."
+        },
+        {
+          "emoji": "🌯",
+          "title": "Quiche-Tacos",
+          "description": "Kalte Quiche-Stücke in warme Tortillas wickeln + Avocado-Creme – vegetarischer Brunch zum Mitnehmen."
+        },
+        {
+          "emoji": "🍠",
+          "title": "Süßkartoffel-Bett",
+          "description": "Auf pürierter Süßkartoffel mit Zimt servieren – die Süße kontrastiert perfekt mit dem herzhaften Käse."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Deconstructed Salad",
+          "description": "Quiche in Würfel schneiden, mit gerösteten Kichererbsen und Granatapfelkernen mixen – Meal-Prep-Salat der Extraklasse."
+        }
+      ]
+    },
+  
+    "funFact": {
+      "title": "Fun Fact: Brokkoli – Der unterschätzte Proteinkünstler",
+      "description": "Wusstest du, dass Brokkoli pro Kalorie mehr Protein enthält als Rindfleisch? 🥦💪 Während 100g Rind etwa 26g Protein bei 250 kcal liefern, bietet Brokkoli 3g Protein bei nur 35 kcal – hochgerechnet also mehr Protein pro Energieeinheit! Noch wilder: Die Sulforaphan-Verbindungen in Brokkoli aktivieren unsere Entgiftungsenzyme. Dieses Curry ist also nicht nur vegetarisch lecker – es ist eine kleine Detox-Kur obendrauf!"  
+    },
+  
+    "images": {
+      "imageIngredient": "/images/Ingredients/brokkoliquicheIngredint.webp",
+      "image1": "/images/MainCourses/brokkoli-quiche1.webp",
+      "image2": "/images/MainCourses/brokkoli-quiche2.webp",
+      "image3": "/images/MainCourses/brokkoli-quiche3.webp",
+      "image4": "/images/MainCourses/brokkoli-quiche4.webp",
+      "image5": "/images/MainCourses/brokkoli-quiche5.webp",
+      "image6": "/images/MainCourses/brokkoli-quiche6.webp",
+      "image7": "/images/MainCourses/brokkoli-quiche7.webp"
+    }
   }
 ];
 
