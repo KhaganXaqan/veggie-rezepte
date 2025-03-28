@@ -325,7 +325,7 @@ export const recipes: Recipe[] = [
       "Kartoffelpuffer ohne Ei"
     ],
     "rating": 5.0,
-    "reviews":120,
+    "reviews": 120,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",
     "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
@@ -1437,11 +1437,11 @@ export const recipes: Recipe[] = [
     "servings": 4,
     "description": "Cremige vegetarische Käsespätzle mit drei Käsesorten, karamellisierten Zwiebeln und frischem Schnittlauch – ein herzhafter Genuss ohne Fleisch!",
     "descriptionOnImage": "Goldbraune Käsespätzle mit zerlaufenem Käse und knusprigen Zwiebelringen – vegetarischer Komfort auf höchstem Niveau.",
-  
+
     "introductionParagraph": "Käsespätzle sind das kulinarische Äquivalent zu einem wolkenweichen Pullover an kühlen Tagen. Diese vegetarische Version verwandelt einfache Zutaten in ein sinnliches Erlebnis – wo zarter Spätzleteig auf die umami-reiche Kraft von gereiftem Bergkäse, würzigem Emmentaler und cremigem Butterkäse trifft. Die Magie entsteht, wenn sich die Käsesorten zu einer geschmeidigen Sauce verbinden, während karamellisierte Zwiebeln eine knusprige Kontrasttextur liefern. Ein Gericht, das beweist, dass vegetarische Küche weder Verzicht noch Kompromisse bedeutet, sondern pure Geschmacksintensität.",
-  
+
     "additionalParagraph": "Was diese vegetarischen Käsespätzle besonders macht, ist ihre transformierende Kraft. Aus Mehl, Eiern und Milch entsteht durch rhythmisches Schaben ein Teig, der beim Kochen zu federleichten Spätzlen wird. Die Kunst liegt im präzisen Zusammenspiel der Käsesorten – der Bergkäse für Tiefe, der Emmentaler für Würze und der Butterkäse für geschmeidige Bindung. Wenn die goldbraunen Zwiebelringe wie edible confetti über das fertige Gericht regnen, entsteht ein Fest für alle Sinne. Diese Spätzle sind kein Beilagen-Dasein, sondern ein kraftvolles vegetarisches Hauptgericht, das selbst eingefleischte Käseliebhaber überzeugt.",
-  
+
     "ingredientsNeeded": [
       {
         "title": "Spätzle-Mehl",
@@ -1796,41 +1796,41 @@ export const recipes: Recipe[] = [
     ],
     "servingSuggestion": "Auf fluffigem Selleriepüree mit karamellisierten Zwiebelringen – ein Kontrast aus süß, cremig und erdig.",
     "servingSuggestions": {
-"title": "Vom Comfort Food zur Gourmet-Kreation",
-    "description": "Dieses Gulasch ist wie eine blanke Leinwand – hier sind fünf völlig unterschiedliche Servierideen, die es neu erfinden:",
-"note": "Jede Variante verändert die Stimmung des Gerichts – probier dich durch!",
-    "items": [
-      {
-        "emoji": "🫒",
-        "title": "Tapas-Style",
-        "description": "In kleinen Cocottes mit Oliven-Tapenade-Crunch: 1 EL gehackte schwarze Oliven mit 1 TL Kapern und Semmelbröseln mischen, über das Gulasch streuen und gratinierten."
-      },
-      {
-        "emoji": "🍚",
-        "title": "Miso-Risotto-Untergrund",
-        "description": "Cremiges Risotto mit weißer Miso-Paste verfeinert, darauf das Gulasch – die Fermentnoten spielen perfekt mit den Pilzen. Garniere mit gerösteten Sesamsamen."
-      },
-      {
-        "emoji": "🥂",
-        "title": "Fine-Dining-Version",
-        "description": "Als Sauce zu gebratenen Jakobsmuscheln: Dafür das Gulasch pürieren und mit 1 EL Cashewcreme verfeinern. Zeigt, wie wandlungsfähig Pilze sind!"
-      },
-      {
-        "emoji": "🌮",
-        "title": "Fusion-Tacos",
-        "description": "In Mais-Tacos mit Avocado-Creme und pinken eingelegten Zwiebeln – die Säure balanciert die Erdnoten. Mein Go-To für Dinnerpartys!"
-      },
-      {
-        "emoji": "🍳",
-        "title": "Brunch-Revolution",
-        "description": "Als Topping für Shakshuka: In die klassische Tomaten-Paprika-Sauce einrühren, Eier pochen lassen. Dazu Sauerteigtoast – der perfekte Wochenend-Start."
-      }
-    ]
+      "title": "Vom Comfort Food zur Gourmet-Kreation",
+      "description": "Dieses Gulasch ist wie eine blanke Leinwand – hier sind fünf völlig unterschiedliche Servierideen, die es neu erfinden:",
+      "note": "Jede Variante verändert die Stimmung des Gerichts – probier dich durch!",
+      "items": [
+        {
+          "emoji": "🫒",
+          "title": "Tapas-Style",
+          "description": "In kleinen Cocottes mit Oliven-Tapenade-Crunch: 1 EL gehackte schwarze Oliven mit 1 TL Kapern und Semmelbröseln mischen, über das Gulasch streuen und gratinierten."
+        },
+        {
+          "emoji": "🍚",
+          "title": "Miso-Risotto-Untergrund",
+          "description": "Cremiges Risotto mit weißer Miso-Paste verfeinert, darauf das Gulasch – die Fermentnoten spielen perfekt mit den Pilzen. Garniere mit gerösteten Sesamsamen."
+        },
+        {
+          "emoji": "🥂",
+          "title": "Fine-Dining-Version",
+          "description": "Als Sauce zu gebratenen Jakobsmuscheln: Dafür das Gulasch pürieren und mit 1 EL Cashewcreme verfeinern. Zeigt, wie wandlungsfähig Pilze sind!"
+        },
+        {
+          "emoji": "🌮",
+          "title": "Fusion-Tacos",
+          "description": "In Mais-Tacos mit Avocado-Creme und pinken eingelegten Zwiebeln – die Säure balanciert die Erdnoten. Mein Go-To für Dinnerpartys!"
+        },
+        {
+          "emoji": "🍳",
+          "title": "Brunch-Revolution",
+          "description": "Als Topping für Shakshuka: In die klassische Tomaten-Paprika-Sauce einrühren, Eier pochen lassen. Dazu Sauerteigtoast – der perfekte Wochenend-Start."
+        }
+      ]
 
     },
     "funFact": {
       "title": "Pilze: Die heimlichen Netzwerker der Natur",
-      "description": "Wusstest du, dass Pilze unterirdische 'Internet'-Netzwerke betreiben? 🌐 Myzelien (Pilzwurzeln) verbinden Bäume über Kilometer und tauschen Nährstoffe aus – Wissenschaftler nennen es 'Wood Wide Web'. Unsere Speisepilze sind nur die Früchte dieses gigantischen Systems! Beim Kochen ahmen wir diese Verbindungen nach: Sojasoße (fermentiert wie Pilze), Rauchpaprika (erinnert an verbranntes Holz) und Rotwein (terroir-reich wie Waldboden) schaffen ein Geschmacksnetzwerk, das genauso komplex ist wie die Natur selbst. Kochen ist eben auch Biologie!"  
+      "description": "Wusstest du, dass Pilze unterirdische 'Internet'-Netzwerke betreiben? 🌐 Myzelien (Pilzwurzeln) verbinden Bäume über Kilometer und tauschen Nährstoffe aus – Wissenschaftler nennen es 'Wood Wide Web'. Unsere Speisepilze sind nur die Früchte dieses gigantischen Systems! Beim Kochen ahmen wir diese Verbindungen nach: Sojasoße (fermentiert wie Pilze), Rauchpaprika (erinnert an verbranntes Holz) und Rotwein (terroir-reich wie Waldboden) schaffen ein Geschmacksnetzwerk, das genauso komplex ist wie die Natur selbst. Kochen ist eben auch Biologie!"
     },
     "images": {
       "imageIngredient": "/images/Ingredients/pilzgulaschIngredient.webp",
@@ -1866,11 +1866,11 @@ export const recipes: Recipe[] = [
     "servings": 4,
     "description": "Ein cremiges, würziges Gemüse-Curry mit geröstetem Kürbis, Blumenkohl und Kichererbsen – eine vegetarische Geschmacksexplosion, die mit exotischen Gewürzen und einer samtigen Kokossoße überzeugt.",
     "descriptionOnImage": "Ein goldgelbes Gemüse-Curry mit Kürbis, Blumenkohl und Kichererbsen in cremiger Kokossoße, garniert mit frischem Koriander – ein Fest der Farben und Aromen.",
-  
+
     "introductionParagraph": "Stell dir vor, du betrittst einen Gewürzmarkt in Bangkok. Die Luft ist erfüllt mit dem Duft von geröstetem Koriander, Kreuzkümmel und frischem Kurkuma – kein Fleisch in Sicht, und doch so intensiv, dass dir sofort das Wasser im Mund zusammenläuft. Dieses Gemüse-Curry ist meine Hommage an diese sinnliche Erfahrung: eine vegetarische Version, die mit geröstetem Kürbis für natürliche Süße, Blumenkohl für Biss und Kichererbsen für Protein spielt. Es ist kein 'fleischloses' Curry – es ist eine eigenständige Kreation, die Gemüse feiert statt es zu ersetzen. Mein Geheimnis? Die Gewürze werden trocken angeröstet, bevor sie in die Kokosmilch wandern – ein kleiner Schritt mit großer Wirkung.",
-  
+
     "additionalParagraph": "Was dieses Curry besonders macht? Seine Wandlungsfähigkeit. An hektischen Tessen schmeiße ich es einfach mit Reis in eine Schüssel. Für Dinnerpartys verwandle ich es in eine interaktive 'Curry-Bar' mit selbstgemachten Roti und Toppings wie gerösteten Cashews und eingelegtem Gemüse. Mein persönlicher Pro-Tipp: Die Gewürzmischung doppelt portionieren – halb fürs Curry, halb fürs Popcorn am Filmabend. Probier’s aus und du wirst sehen: Dieses Curry wird deine Gewürzdose für immer verändern.",
-  
+
     "ingredientsNeeded": [
       {
         "title": "Kürbis",
@@ -1893,7 +1893,7 @@ export const recipes: Recipe[] = [
         "description": "Die fertige Mischung ist praktisch, aber selbst geröstet und gemahlen schmeckt sie wie ein Flug nach Delhi."
       }
     ],
-  
+
     "ingredientGroups": [
       {
         "title": "Das Gemüse",
@@ -1927,7 +1927,7 @@ export const recipes: Recipe[] = [
         ]
       }
     ],
-  
+
     "ingredients": [
       { "amount": 400, "unit": "g", "name": "Kürbis" },
       { "amount": 1, "unit": "Kopf", "name": "Blumenkohl" },
@@ -1944,7 +1944,7 @@ export const recipes: Recipe[] = [
       { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
       { "amount": 1, "unit": "Handvoll", "name": "Koriander (frisch)" }
     ],
-  
+
     "instructions": [
       "Ofen auf 200°C vorheizen. Kürbis und Blumenkohl mit 1 EL Kokosöl vermengen, 25 Min. rösten, bis sie Farbe entwickeln.",
       "In der Zwischenzeit Koriander-, Kreuzkümmel- und Senfsamen in einem trockenen Topf 2 Min. rösten, bis sie duften. Sofort herausnehmen.",
@@ -1953,14 +1953,14 @@ export const recipes: Recipe[] = [
       "Geröstetes Gemüse und Kichererbsen unterheben. Mit Salz, Chiliflocken abschmecken. 5 Min. ziehen lassen.",
       "Mit frischem Koriander bestreuen."
     ],
-  
+
     "nutrition": {
       "calories": 1540,
       "protein": "43.5g",
       "carbs": "124g",
       "fat": "99.5g"
     },
-  
+
     "tips": [
       "Für Extra-Crunch: 2 EL Cashewkerne mit den Gewürzen rösten und als Topping verwenden.",
       "Scharf-Liebhaber: 1 frische Chili mitkochen oder Sriracha servieren.",
@@ -1968,7 +1968,7 @@ export const recipes: Recipe[] = [
       "Blattgemüse? Spinat oder Grünkohl in den letzten 2 Min. unterheben.",
       "Sauer macht lustig: Mit Limettensaft oder eingelegtem Rettich servieren."
     ],
-  
+
     "whyFavorite": {
       "title": "Warum dieses Curry meine Gewürzschublade revolutioniert hat",
       "reasons": [
@@ -1998,13 +1998,13 @@ export const recipes: Recipe[] = [
         }
       ]
     },
-  
+
     "handwrittenMessage": {
       "mainText": "Lass dich von den Gewürzen verführen – sie haben mehr Charakter, als du denkst!",
       "subText": "Ich wette, nach diesem Curry wirst du Gewürze nie wieder nur aus der Dose schütteln...",
       "signature": "Deine Gewürzalchemistin"
     },
-  
+
     "steps": [
       {
         "title": "Schritt 1: Die Röstoffensive",
@@ -2022,7 +2022,7 @@ export const recipes: Recipe[] = [
         "title": "Schritt 4: Die Fusion",
         "description": "Kokosmilch nie kochen lassen! Nur sanft köcheln, damit sie nicht flockt – Geduld macht hier den Unterschied zwischen gut und großartig."
       }
-    ],  
+    ],
     "servingSuggestion": "Auf Jasminreis mit karamellisierten Schalotten und einer Handvoll Mikrogrün – ein Kontrast aus süß, würzig und frisch.",
     "servingSuggestions": {
       "title": "Beyond Rice: Unerwartete Curry-Partner",
@@ -2030,7 +2030,7 @@ export const recipes: Recipe[] = [
       "note": "Für klassische Vegetarier: Serviere mit duftendem Jasminreis oder cremigem Kartoffelpüree. Für Abwechslung: Die folgenden ungewöhnlichen Pairings zeigen, wie wandlungsfähig pflanzliche Küche sein kann!",
       "items": [
         {
-          "emoji": "🍚", 
+          "emoji": "🍚",
           "title": "Reis-Variationen",
           "description": "Jasminreis für Duft • Schwarzer Reis für Drama • Kokosreis für Süße – jede Sorte verändert das Curry-Erlebnis."
         },
@@ -2061,12 +2061,12 @@ export const recipes: Recipe[] = [
         }
       ]
     },
-  
+
     "funFact": {
       "title": "Fun Fact: Die Chemie der Gewürze",
-      "description": "Wusstest du, dass Kreuzkümmel und Koriander chemische Cousins sind? 🧪 Beide enthalten Aldehyde – Aromamoleküle, die unser Gehirn als ‚warm‘ und ‚erdig‘ interpretiert. Aber während Kreuzkümmel (Cuminaldehyd) rauchig-pfeffrig schmeckt, ist Koriander (Linalool) blumig-zitronig. Zusammen ergeben sie das berühmte ‚Jeera-Dhania‘-Duo der indischen Küche. Noch wilder: Hitze verändert ihre Molekularstruktur! Beim Rösten entstehen Pyrazine – dieselben Verbindungen, die auch Kaffee und Schokolade ihr Aroma geben. Kurzum: Dein Curry ist eigentlich ein Chemielabor… und du bist die Wissenschaftlerin!"  
+      "description": "Wusstest du, dass Kreuzkümmel und Koriander chemische Cousins sind? 🧪 Beide enthalten Aldehyde – Aromamoleküle, die unser Gehirn als ‚warm‘ und ‚erdig‘ interpretiert. Aber während Kreuzkümmel (Cuminaldehyd) rauchig-pfeffrig schmeckt, ist Koriander (Linalool) blumig-zitronig. Zusammen ergeben sie das berühmte ‚Jeera-Dhania‘-Duo der indischen Küche. Noch wilder: Hitze verändert ihre Molekularstruktur! Beim Rösten entstehen Pyrazine – dieselben Verbindungen, die auch Kaffee und Schokolade ihr Aroma geben. Kurzum: Dein Curry ist eigentlich ein Chemielabor… und du bist die Wissenschaftlerin!"
     },
-  
+
     "images": {
       "imageIngredient": "/images/Ingredients/gemueseCurryIngredient.webp",
       "image1": "/images/MainCourses/gemuese-curry1.webp",
@@ -2099,21 +2099,21 @@ export const recipes: Recipe[] = [
     "createdDate": new Date('2025-02-14T00:00:00'),
     "updatedDate": new Date('2025-03-27T00:00:00'),
     "servings": 9,
-    "description": "Eine vollständig vegetarische Quiche mit knusprigem Brokkoli, gerösteten Haselnüssen und zwei Käsesorten – eine pflanzliche Proteinbombe, die beweist, dass Backen ohne Fleisch genauso herzhaft schmeckt.",       
+    "description": "Eine vollständig vegetarische Quiche mit knusprigem Brokkoli, gerösteten Haselnüssen und zwei Käsesorten – eine pflanzliche Proteinbombe, die beweist, dass Backen ohne Fleisch genauso herzhaft schmeckt.",
     "descriptionOnImage": "Eine goldbraune Quiche mit saftigem Brokkoli, knusprigen Haselnüssen und geschmolzenem Käse – vegetarische Backkunst auf höchstem Niveau.",
     "ingredients": [
-        { "amount": 200, "unit": "g", "name": "Dinkelvollkornmehl" },
-        { "amount": 100, "unit": "g", "name": "Vollkornhaferflocken" },
-        { "amount": 80, "unit": "ml", "name": "Olivenöl" },
-        { "amount": 100, "unit": "g", "name": "Griechischer Joghurt (vegetarisch)" },
-        { "amount": 1, "unit": "Prise", "name": "Salz" },
-        { "amount": 1, "unit": "Kopf", "name": "Brokkoli (in 2cm dicken 'Steaks')" },
-        { "amount": 50, "unit": "g", "name": "Haselnüsse (geröstet)" },
-        { "amount": 200, "unit": "g", "name": "Ricotta (vegetarisch)" },
-        { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
-        { "amount": 3, "unit": "", "name": "Eier (oder 2 Eier + 1 Leinsamen-Ei für vegan)" },
-        { "amount": 1, "unit": "TL", "name": "Muskatnuss" }
-      ],
+      { "amount": 200, "unit": "g", "name": "Dinkelvollkornmehl" },
+      { "amount": 100, "unit": "g", "name": "Vollkornhaferflocken" },
+      { "amount": 80, "unit": "ml", "name": "Olivenöl" },
+      { "amount": 100, "unit": "g", "name": "Griechischer Joghurt (vegetarisch)" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Kopf", "name": "Brokkoli (in 2cm dicken 'Steaks')" },
+      { "amount": 50, "unit": "g", "name": "Haselnüsse (geröstet)" },
+      { "amount": 200, "unit": "g", "name": "Ricotta (vegetarisch)" },
+      { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+      { "amount": 3, "unit": "", "name": "Eier (oder 2 Eier + 1 Leinsamen-Ei für vegan)" },
+      { "amount": 1, "unit": "TL", "name": "Muskatnuss" }
+    ],
     "introductionParagraph": "Es gibt Gerichte, die schreien nach Aufmerksamkeit – und dann gibt es diese Brokkoli-Quiche. Sie flüstert. Mit jedem Bissen enthüllt sie eine neue Geschmacksschicht: erst die buttrige Kruste, dann der geröstete Brokkoli mit seinen nussigen Röstaromen, gefolgt von der cremigen Füllung, die dank Ricotta und Bergkäse schmilzt wie ein Sonnenuntergang über der Toskana. Was sie besonders macht? Sie braucht kein Fleisch, um zu überzeugen. Der Brokkoli wird hier nicht als 'Ersatz' behandelt, sondern als Hauptdarsteller – in Scheiben geschnitten wie ein Steak, scharf angebraten, bis die Röschen knusprige Kanten bekommen. Dies ist kein 'vegetarisches Gericht'. Dies ist einfach ein großartiges Gericht, das zufällig pflanzlich ist.",
     "additionalParagraph": "Diese Quiche ist mein geheimes Wunderwaffe gegen das Vorurteil, vegetarische Küche sei langweilig. Für Brunch-Gäste serviere ich sie mit einem Klecks Zitronen-Kräuter-Crème fraîche und beobachte, wie selbst eingefleischte Fleischliebhaber um zweite Portionen bitten. An Wochentagen wandert sie in meine Lunchbox – kalt schmeckt sie fast noch besser, wenn die Aromen über Nacht verschmelzen. Mein Pro-Tipp: Backe zwei! Eine zum sofortigen Verzehr, eine zum Einfrieren. Denn wenn spätabends die Lust auf Komfort kommt, ist eine aufgetaute Quiche-Scheibe unter dem Grill das beste pflanzliche Fast-Food der Welt.",
     "ingredientsNeeded": [
@@ -2134,7 +2134,7 @@ export const recipes: Recipe[] = [
         "description": "Nährstoffreicher als Weißmehl und mit natürlicher Süße – der ideale Partner für herzhafte vegetarische Gebäcke."
       }
     ],
-  
+
     "ingredientGroups": [
       {
         "title": "Die vegetarische Teigbasis",
@@ -2160,7 +2160,7 @@ export const recipes: Recipe[] = [
         ]
       }
     ],
-  
+
     "instructions": [
       "Teig: Mehl, Haferflocken und Salz vermischen. Öl und Joghurt einrühren, zu einem Ball kneten. 30 Min. kühl stellen.",
       "Brokkoli-Steaks in einer Pfanne mit 1 EL Öl 3 Min. pro Seite anbraten, bis sie Röstaromen entwickeln. Haselnüsse grob hacken.",
@@ -2168,14 +2168,14 @@ export const recipes: Recipe[] = [
       "Füllung: Eier, Ricotta, Muskat und 2/3 des Käses verquirlen. Brokkoli und Nüsse auf dem Teig verteilen, Eiermischung darüber.",
       "Mit restlichem Käse bestreuen. 30 Min. backen, bis die Füllung fest ist."
     ],
-  
+
     "nutrition": {
       "calories": 3302,
       "protein": "126g",
       "carbs": "253g",
       "fat": "206g"
     },
-  
+
     "tips": [
       "Für vegane Version: Ei durch Kichererbsenmehl-Mischung (1 EL Mehl + 3 EL Wasser pro Ei) ersetzen.",
       "Brokkoli-Stiele nicht wegwerfen! Geschält und gewürfelt machen sie 50% mehr Füllung.",
@@ -2183,7 +2183,7 @@ export const recipes: Recipe[] = [
       "Meal Prep: Eingefrorene Quiche-Scheiben 10 Min. im Toaster aufbacken – perfekt für schnelle vegetarische Mahlzeiten.",
       "Käse-Alternative: Für intensiveren Geschmack 50g gereiften Gouda untermischen."
     ],
-  
+
     "whyFavorite": {
       "title": "Warum diese Quiche meine vegetarische Küche repräsentiert",
       "reasons": [
@@ -2209,13 +2209,13 @@ export const recipes: Recipe[] = [
         }
       ]
     },
-  
+
     "handwrittenMessage": {
       "mainText": "Lass dich vom Brokkoli überraschen – er kann mehr, als du denkst!",
       "subText": "Ich wette, nach dieser Quiche siehst du Gemüse mit neuen Augen...",
       "signature": "Deine Gemüse-Patissière"
     },
-  
+
     "steps": [
       {
         "title": "Schritt 1: Die Teig-Alchemie",
@@ -2230,9 +2230,9 @@ export const recipes: Recipe[] = [
         "description": "Ricotta macht die Masse luftig-leicht, während Bergkäse für Schmelz sorgt – eine vegetarische Lektion in Textur-Balance."
       }
     ],
-  
+
     "servingSuggestion": "Mit einem Klecks Zitronen-Crème fraîche und essbaren Blüten – so wird vegetarische Küche zum Gourmet-Erlebnis.",
-  
+
     "servingSuggestions": {
       "title": "Vom Frühstück bis zum Dinner: Vegetarische Quiche-Inszenierungen",
       "description": "Diese Quiche spielt Hauptrolle oder Nebendarsteller – je nachdem, wie du sie in Szene setzt:",
@@ -2260,12 +2260,12 @@ export const recipes: Recipe[] = [
         }
       ]
     },
-  
+
     "funFact": {
       "title": "Fun Fact: Brokkoli – Der unterschätzte Proteinkünstler",
-      "description": "Wusstest du, dass Brokkoli pro Kalorie mehr Protein enthält als Rindfleisch? 🥦💪 Während 100g Rind etwa 26g Protein bei 250 kcal liefern, bietet Brokkoli 3g Protein bei nur 35 kcal – hochgerechnet also mehr Protein pro Energieeinheit! Noch wilder: Die Sulforaphan-Verbindungen in Brokkoli aktivieren unsere Entgiftungsenzyme. Dieses Curry ist also nicht nur vegetarisch lecker – es ist eine kleine Detox-Kur obendrauf!"  
+      "description": "Wusstest du, dass Brokkoli pro Kalorie mehr Protein enthält als Rindfleisch? 🥦💪 Während 100g Rind etwa 26g Protein bei 250 kcal liefern, bietet Brokkoli 3g Protein bei nur 35 kcal – hochgerechnet also mehr Protein pro Energieeinheit! Noch wilder: Die Sulforaphan-Verbindungen in Brokkoli aktivieren unsere Entgiftungsenzyme. Dieses Curry ist also nicht nur vegetarisch lecker – es ist eine kleine Detox-Kur obendrauf!"
     },
-  
+
     "images": {
       "imageIngredient": "/images/Ingredients/brokkoliquicheIngredint.webp",
       "image1": "/images/MainCourses/brokkoli-quiche1.webp",
@@ -2299,13 +2299,13 @@ export const recipes: Recipe[] = [
     "createdDate": new Date('2025-02-14T00:00:00'),
     "updatedDate": new Date('2025-03-27T00:00:00'),
     "description": "Vegetarisches Gericht – geschichtete Auberginen, Zucchini und Paprika in einer Tomatenbasis, die beweisen, dass pflanzliche Küche niemals langweilig ist.",
-  
+
     "descriptionOnImage": "Ein farbenfrohes Tiegelgericht mit perfekt arrangiertem Gemüse in konzentrischen Kreisen – vegetarische Ästhetik und Geschmack in Harmonie.",
-  
+
     "introductionParagraph": "Stellen Sie sich vor, Sie sitzen in einem versteckten Innenhof irgendwo in Nizza. Die Luft duftet nach sonnengereiften Tomaten, frischem Basilikum und dem holzigen Aroma von Olivenöl – kein Hauch von Fleisch, und doch so tief im Geschmack, dass sich Ihre Geschmacksknospen sofort aufrichten. Dieses Ratatouille ist meine Hommage an diese sinnliche Erfahrung: ein vegetarisches Meisterwerk, bei dem jedes Gemüse wie ein Solist in einem perfekt orchestrierten Konzert behandelt wird. Die Auberginen werden nicht einfach gewürfelt, sondern in mondförmige Scheiben geschnitten, die sich beim Backen in buttrige Köstlichkeiten verwandeln. Die Zucchini behalten ihren Biss, als würden sie sich weigern, in der Hitze des Ofens nachzugeben. Und die Paprika? Sie sind die heimlichen Stars – geröstet, bis ihre natürliche Süße wie kandierte Sonnenstrahlen schmeckt.",
-  
+
     "additionalParagraph": "Was dieses pflanzliche Gericht besonders macht, ist seine Wandlungsfähigkeit. An heißen Sommertagen serviere ich es lauwarm mit einem Klecks veganer Aioli – das kühle Knoblaucharoma kontrastiert wunderbar mit den warmen Gemüsenoten. An kühleren Abenden wird es zur Füllung für knusprige Blätterteigtaschen, bestreut mit gerösteten Pinienkernen. Mein Geheimtipp: Die Ratatouille-Brühe, die sich im Tiegel sammelt, ist flüssiges Gold. Einfach mit einem Löffel auffangen und über frisches Ciabatta träufeln – oder als Basis für eine vegetarische Minestrone verwenden. Dies ist kein Gericht, das Sie einmal kochen. Dies ist eine pflanzliche Technik, die Sie ein Leben lang begleiten wird.",
-  
+
     "ingredientsNeeded": [
       {
         "title": "Auberginen (die pflanzlichen Schwämme)",
@@ -2324,7 +2324,7 @@ export const recipes: Recipe[] = [
         "description": "Diese italienischen Flaschentomaten haben doppelt so viel Fruchtfleisch wie normale Tomaten – die perfekte Basis für pflanzliche Intensität."
       }
     ],
-  
+
     "ingredientGroups": [
       {
         "title": "Das Gemüse-Ensemble",
@@ -2356,7 +2356,7 @@ export const recipes: Recipe[] = [
         ]
       }
     ],
-  
+
     "ingredients": [
       { "amount": 2, "unit": "", "name": "Auberginen" },
       { "amount": 3, "unit": "", "name": "Zucchini" },
@@ -2372,7 +2372,7 @@ export const recipes: Recipe[] = [
       { "amount": 1, "unit": "Prise", "name": "Salz" },
       { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
     ],
-  
+
     "instructions": [
       "Auberginenscheiben salzen, 30 Min. beschwert abtropfen lassen (entzieht Bitterstoffe).",
       "Tomaten kreuzweise einritzen, mit kochendem Wasser überbrühen, häuten und würfeln.",
@@ -2383,14 +2383,14 @@ export const recipes: Recipe[] = [
       "Kräuter darüberlegen, mit Olivenöl beträufeln. 40 Min. backen, bis das Gemüse weich ist.",
       "Mit frischem Basilikum garnieren."
     ],
-  
+
     "nutrition": {
       "calories": 707,
       "protein": "26g",
       "carbs": "122g",
       "fat": "21g"
     },
-  
+
     "tips": [
       "Für extra Umami: 2 getrocknete Steinpilze mit den Tomaten köcheln.",
       "Vegan-Option: Zucker durch 1 TL Ahornsirup ersetzen.",
@@ -2398,7 +2398,7 @@ export const recipes: Recipe[] = [
       "Kräutertipp: Lorbeerblätter unter das Gemüse legen für subtile Aromen.",
       "Meal Prep: Hält sich 4 Tage im Kühlhaus und schmeckt kalt noch intensiver."
     ],
-  
+
     "whyFavorite": {
       "title": "Warum dieses Ratatouille meine pflanzliche Küche definiert",
       "reasons": [
@@ -2420,13 +2420,13 @@ export const recipes: Recipe[] = [
         }
       ]
     },
-  
+
     "handwrittenMessage": {
       "mainText": "Lass dich vom Gemüse verzaubern – es hat mehr Geschichten zu erzählen, als du denkst!",
       "subText": "Ich wette, nach diesem Ratatouille siehst du Auberginen mit neuen Augen...",
       "signature": "Deine Gemüse-Erzählerin"
     },
-  
+
     "steps": [
       {
         "title": "Schritt 1: Die Auberginen-Transformation",
@@ -2445,13 +2445,13 @@ export const recipes: Recipe[] = [
         "description": "Das schichtweise Anordnen ist kein bloßes Dekor – es ermöglicht gleichmäßige Hitzeverteilung, sodass jedes Gemüse perfekt gart, ohne zu verfallen."
       }
     ],
-  
+
     "servingSuggestion": "Mit einer Prise Fleur de Sel und einem Hauch frisch geriebener Zitronenschale – so wird pflanzliche Küche zum Gourmet-Erlebnis.",
-  
+
     "servingSuggestions": {
-    "title": "Jenseits des Klassikers: Unerwartete Ratatouille-Partner",
-    "description": "Dieses Gericht spielt Hauptrolle oder Teamplayer – hier sind vier unkonventionelle Ideen:",
-    "note": "Klassisch vegetarisch: Mit frischem Baguette oder Couscous servieren. Für experimentierfreudige Köche: Diese Pairings zeigen, wie wandlungsfähig pflanzliche Küche sein kann!",
+      "title": "Jenseits des Klassikers: Unerwartete Ratatouille-Partner",
+      "description": "Dieses Gericht spielt Hauptrolle oder Teamplayer – hier sind vier unkonventionelle Ideen:",
+      "note": "Klassisch vegetarisch: Mit frischem Baguette oder Couscous servieren. Für experimentierfreudige Köche: Diese Pairings zeigen, wie wandlungsfähig pflanzliche Küche sein kann!",
       "items": [
         {
           "emoji": "🍚",
@@ -2475,12 +2475,12 @@ export const recipes: Recipe[] = [
         }
       ]
     },
-  
+
     "funFact": {
       "title": "Fun Fact: Ratatouilles politische Revolution",
-      "description": "Wussten Sie, dass Ratatouille einst als 'Arme-Leute-Essen' galt, bis es 1976 zum kulinarischen Botschafter der Provence wurde? 🌍 Der damalige französische Kulturminister ernannte es offiziell zum 'Patrimoine Culinaire Français' (kulinarisches Erbe) – eine politische Geste, um regionale pflanzliche Küche gegen die Fast-Food-Welle zu verteidigen. Noch verrückter: Die Originalversion aus Nizza wurde nie geschichtet! Das ikonische Spiraldesign erfand erst der Disney-Film 2007. Echte nicoise Hausköchinnen köcheln alles zusammen – aber wir dürfen ja auch mal mit Traditionen brechen, oder?"  
+      "description": "Wussten Sie, dass Ratatouille einst als 'Arme-Leute-Essen' galt, bis es 1976 zum kulinarischen Botschafter der Provence wurde? 🌍 Der damalige französische Kulturminister ernannte es offiziell zum 'Patrimoine Culinaire Français' (kulinarisches Erbe) – eine politische Geste, um regionale pflanzliche Küche gegen die Fast-Food-Welle zu verteidigen. Noch verrückter: Die Originalversion aus Nizza wurde nie geschichtet! Das ikonische Spiraldesign erfand erst der Disney-Film 2007. Echte nicoise Hausköchinnen köcheln alles zusammen – aber wir dürfen ja auch mal mit Traditionen brechen, oder?"
     },
-  
+
     "images": {
       "imageIngredient": "/images/Ingredients/ratatouilleIngredient.webp",
       "image1": "/images/MainCourses/ratatouille1.webp",
@@ -2490,6 +2490,224 @@ export const recipes: Recipe[] = [
       "image5": "/images/MainCourses/ratatouille5.webp",
       "image6": "/images/MainCourses/ratatouille6.webp",
       "image7": "/images/MainCourses/ratatouille7.webp"
+    }
+  },
+  {
+    "title": "Gefüllte Paprika Vegetarisch",
+    "seo_title": "Mediterrane gefüllte Paprika – Pflanzliche Geschmacksexplosion",
+    "image": "/images/MainCourses/gefuellte-paprika.webp",
+    "prepTime": 30,
+    "cookingTime": 45,
+    "seo_keywords": [
+      "Vegetarische gefüllte Paprika",
+      "Pflanzliche Paprikaschoten",
+      "Gesunde Gemüsefüllung",
+      "Mediterranes Vegetarisches Gericht",
+      "Proteinreiche vegetarische Hauptspeise"
+    ],
+    "rating": 4.6,
+    "reviews": 210,
+    "category": "Vegetarische Hauptgerichte",
+    "slug": "gefuellte-paprika",
+    "tags": ["Traditionell", "Gemüse", "Hauptgericht"],
+    "createdDate": new Date('2025-02-12T00:00:00'),
+    "updatedDate": new Date('2025-03-28T00:00:00'),
+    "servings": 4,
+    "description": "Paprikaschoten gefüllt mit einer Quinoa-Pilz-Mischung – ein gesundes, pflanzliches Powergericht, das beweist, wie lecker vegetarische Küche sein kann.",
+    "descriptionOnImage": "Goldene Paprikaschoten prall gefüllt mit duftender Quinoa-Pilz-Masse, überbacken mit knusprigem Käse – vegetarische Genussperfektion.",
+    "introductionParagraph": "Es gibt Gerichte, die verwandeln gewöhnliche Zutaten in etwas Magisches – diese gefüllten Paprikaschoten sind ein perfektes Beispiel. Stellen Sie sich vor: Eine sonnengereifte Paprika, deren süßes Fleisch sich unter dem ersten Biss wie Seide anfühlt, gibt den Blick frei auf eine duftende Füllung aus goldenem Quinoa, erdigen Pilzen und würzigem Feta. Dies ist kein einfaches vegetarisches Gericht, sondern eine Ode an die pflanzliche Vielfalt des Mittelmeers. Die Paprika wird hier nicht als bloßes Gefäß behandelt, sondern als gleichberechtigter Geschmacksträger, der durch sanftes Rösten im Ofen seine ganze natürliche Süße entfaltet. Die Füllung? Eine proteinreiche Komposition, die so reichhaltig ist, dass sie mühelos als Hauptdarsteller überzeugt – ganz ohne Fleisch. Jedes Element wird mit Respekt behandelt: Die Pilze bekommen Zeit, ihre Röstaromen zu entwickeln, der Quinoa wird locker aufgegabelt für perfekte Textur, und der Feta zerbröselt, um salzige Akzente zu setzen.",
+    "additionalParagraph": "Was diese vegetarische Version besonders macht, ist ihre Vielseitigkeit. An heißen Tagen serviere ich sie lauwarm mit einem Klemm Zitronen-Joghurt-Dip – das frische Zitrusaroma schneidet perfekt durch die reichhaltige Füllung. An kühlen Abenden wird sie zur Herzhaftigkeit pur, wenn ich sie mit einem Hauch geräucherter Paprika würze. Mein Geheimtipp: Die Paprikakerne nicht wegwerfen! Getrocknet und gemahlen ergeben sie ein wunderbares Gewürz für andere pflanzliche Gerichte. Dies ist kein Rezept, das Sie einmal kochen – es ist eine Technik, die Sie ein Leben lang begleiten wird.",
+    "ingredientsNeeded": [
+      {
+        "title": "Paprikaschoten (die pflanzlichen Schatullen)",
+        "description": "Gelbe oder rote Paprika sind ideal – ihre dicken Wände und natürliche Süße machen sie zur perfekten Hülle. Wählen Sie möglichst gleichmäßig geformte Schoten für gleichmäßiges Garen. Die enthaltenen Capsaicinoide regen übrigens den Stoffwechsel an!"
+      },
+      {
+        "title": "Quinoa (das pflanzliche Proteinwunder)",
+        "description": "Dieses pseudogetreide enthält alle neun essentiellen Aminosäuren und liefert pro 100g satte 14g Protein – perfekt für vegetarische Ernährung. Sein nussiger Geschmack und die leicht knusprige Textur machen ihn zur idealen Füllungsbasis."
+      },
+      {
+        "title": "Pilze (die natürlichen Umami-Bomben)",
+        "description": "Eine Mischung aus Champignons und Shiitake sorgt für Tiefe – Shiitake enthalten natürlich vorkommendes Glutamat, das den fleischigen Geschmack verstärkt. Wichtig: Pilze nie waschen, nur mit einer Bürste säubern, damit sie nicht wässrig werden."
+      },
+      {
+        "title": "Feta (der salzige Kontrastpunkt)",
+        "description": "Seine salzige Cremigkeit rundet die pflanzliche Füllung ab. Für vegane Varianten einfach durch marinierten Tofu oder 2 EL Hefeflocken ersetzen. Griechischer Feta in Salzlake hat übrigens intensiveren Geschmack als vakuumverpackte Varianten."
+      }
+    ],
+
+    "steps": [
+      {
+        "title": "Schritt 1: Die Paprika-Veredelung",
+        "description": "Schneiden Sie die Paprikaschoten der Länge nach in Hälften – so behalten sie ihre schöne Form. Entfernen Sie die Kerne und weißen Trennwände vorsichtig mit einem kleinen Messer, aber lassen Sie etwa 0,5 cm Fruchtfleisch an den Wänden für Stabilität. Bestreichen Sie die Innenseiten leicht mit Olivenöl – das verhindert das Anhaften der Füllung und fördert die Röstaromen."
+      },
+      {
+        "title": "Schritt 2: Die Pilz-Alchemie",
+        "description": "Schneiden Sie die Pilze in zwei Größen: 2/3 fein hacken für gleichmäßige Verteilung, 1/3 in größere Stücke für Textur. In einer großen Pfanne bei mittlerer Hitze 1 EL Olivenöl erhitzen. Geben Sie zunächst die fein gehackten Pilze hinein und braten Sie sie 5 Minuten an, bis sie ihre Flüssigkeit abgegeben haben. Dann die größeren Stücke zugeben und weitere 3-4 Minuten braten, bis alles goldbraun ist. Diese zweistufige Methode garantiert optimale Textur!"
+      },
+      {
+        "title": "Schritt 3: Die Quinoa-Perfektion",
+        "description": "Spülen Sie den Quinoa gründlich in einem feinen Sieb unter fließendem Wasser – das entfernt die natürlichen Saponine, die bitter schmecken können. In einem Topf mit der 1,5-fachen Menge Wasser 15 Minuten köcheln lassen, bis die kleinen Ringe sichtbar werden. Vom Herd nehmen, zugedeckt 5 Minuten nachquellen lassen, dann mit einer Gabel auflockern – so verhindern Sie Klumpenbildung in der Füllung."
+      },
+      {
+        "title": "Schritt 4: Die harmonische Vereinigung",
+        "description": "In einer großen Schüssel die Pilze mit dem Quinoa vermengen. Den Feta grob zerbröseln und unterheben – lassen Sie einige größere Stücke übrig für visuelle Akzente. Mit Rauchpaprika, Salz und frisch gemahlenem Pfeffer abschmecken. Die Masse sollte feucht, aber nicht nass sein – wenn sie zu trocken erscheint, fügen Sie 1-2 EL Gemüsebrühe hinzu."
+      },
+      {
+        "title": "Schritt 5: Die Ofen-Transformation",
+        "description": "Füllen Sie die Paprikahälften großzügig – die Füllung sollte leicht über den Rand hinausragen für eine schöne Präsentation. Im vorgeheizten Ofen bei 190°C (Ober-/Unterhitze) 25-30 Minuten backen, bis die Paprikaschoten weich sind und die Füllung goldbraun wird. In den letzten 5 Minuten den Grill einschalten für extra Farbe, wenn gewünscht."
+      }
+    ],
+
+
+    "ingredientGroups": [
+      {
+        "title": "Die Paprikaschoten",
+        "description": "Wählen Sie gleichmäßig geformte Schoten für gleichmäßiges Garen:",
+        "ingredients": [
+          { "amount": 4, "unit": "", "name": "Große Paprikaschoten (gelb oder rot)" },
+          { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 1, "unit": "Prise", "name": "Meersalz" }
+        ]
+      },
+      {
+        "title": "Die vegetarische Füllung",
+        "description": "Eine proteinreiche Mischung, die satt macht:",
+        "ingredients": [
+          { "amount": 150, "unit": "g", "name": "Quinoa" },
+          { "amount": 300, "unit": "g", "name": "Gemischte Pilze (Champignons, Shiitake)" },
+          { "amount": 1, "unit": "", "name": "Zwiebel (fein gewürfelt)" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch (gehackt)" },
+          { "amount": 100, "unit": "g", "name": "Feta (gebröckelt)" },
+          { "amount": 1, "unit": "TL", "name": "Rauchpaprika" }
+        ]
+      },
+      {
+        "title": "Die Kräuterkrone",
+        "description": "Frische Kräuter verleihen den letzten Schliff:",
+        "ingredients": [
+          { "amount": 1, "unit": "Handvoll", "name": "Petersilie (gehackt)" },
+          { "amount": 1, "unit": "EL", "name": "Zitronenschale" }
+        ]
+      }
+    ],
+
+    "ingredients": [
+      { "amount": 4, "unit": "", "name": "Große Paprikaschoten" },
+      { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 150, "unit": "g", "name": "Quinoa" },
+      { "amount": 300, "unit": "g", "name": "Gemischte Pilze" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 100, "unit": "g", "name": "Feta" },
+      { "amount": 1, "unit": "TL", "name": "Rauchpaprika" },
+      { "amount": 1, "unit": "Handvoll", "name": "Petersilie" },
+      { "amount": 1, "unit": "EL", "name": "Zitronenschale" },
+      { "amount": 1, "unit": "Prise", "name": "Meersalz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+    ],
+
+    "instructions": [
+      "Quinoa nach Packungsanweisung kochen, abtropfen lassen.",
+      "Ofen auf 190°C vorheizen. Paprikaschoten halbieren, entkernen und mit 1 EL Öl einreiben.",
+      "Pilze grob hacken. In einer Pfanne 1 EL Öl erhitzen, Zwiebel und Knoblauch 3 Min. anschwitzen.",
+      "Pilze zugeben und 5 Min. braten, bis sie Flüssigkeit abgegeben haben und goldbraun sind.",
+      "Gekochten Quinoa, Rauchpaprika und Feta unter die Pilzmischung heben. Mit Salz und Pfeffer abschmecken.",
+      "Paprikahälften mit der Quinoa-Pilz-Mischung füllen und auf ein Backblech setzen.",
+      "20-25 Min. backen, bis die Paprikaschoten weich sind und die Füllung goldbraun wird.",
+      "Mit Petersilie und Zitronenschale bestreuen servieren."
+    ],
+
+    "nutrition": {
+      "calories": 1325,
+      "protein": "45.5g",
+      "carbs": "152g",
+      "fat": "59g"
+    },
+
+    "tips": [
+      "Für vegane Version: Feta durch 2 EL Hefeflocken ersetzen.",
+      "Pilztipp: Getrocknete Steinpilze 15 Min. einweichen und mitkochen für extra Umami.",
+      "Meal Prep: Gefüllte Paprika halten sich 3 Tage im Kühlhaus und schmecken kalt hervorragend.",
+      "Scharf-Liebhaber: 1 gehackte Chili zur Füllung geben.",
+      "Resteverwertung: Übrige Füllung als vegetarische Lasagne-Schicht verwenden."
+    ],
+
+    "whyFavorite": {
+      "title": "Warum diese gefüllten Paprikaschoten meine vegetarische Küche definieren",
+      "reasons": [
+        {
+          "title": "Protein-Power",
+          "description": "Mit 14g Protein pro Portion (dank Quinoa und Pilzen) ist es eine vollwertige vegetarische Mahlzeit."
+        },
+        {
+          "title": "Textur-Wunder",
+          "description": "Knusprige Paprika, bissfester Quinoa und saftige Pilze – ein Fest für die Sinne."
+        },
+        {
+          "title": "Visuelle Pracht",
+          "description": "Die goldgelben Paprikahälften sind so schön, dass sie selbst auf Feinschmecker-Tischen glänzen."
+        },
+        {
+          "title": "Saisonal anpassbar",
+          "description": "Im Sommer mit frischen Kräutern, im Winter mit gerösteten Nüssen – immer wieder neu."
+        }
+      ]
+    },
+
+    "handwrittenMessage": {
+      "mainText": "Lass dich von der Paprika verführen – sie hat mehr zu bieten, als du denkst!",
+      "subText": "Ich wette, nach diesem Gericht wirst du Paprika mit neuen Augen sehen...",
+      "signature": "Deine Gemüse-Zauberin"
+    },
+    "servingSuggestion": "Mit einem Klecks Zitronen-Joghurt und gerösteten Pinienkernen – so wird pflanzliche Küche zum Festmahl.",
+    "servingSuggestions": {
+      "title": "Vom Brunch bis zum Dinner: Vegetarische Servier-Inspirationen",
+      "description": "Diese gefüllten Paprikaschoten sind wahre Verwandlungskünstler – hier sind fünf Ideen, die sie neu erfinden:",
+      "note": "Klassisch vegetarisch: Mit frischem Bauernbrot und einem grünen Salat servieren. Für kulinarische Abenteurer: Diese ungewöhnlichen Pairings zeigen die Vielseitigkeit pflanzlicher Küche!",
+      "items": [
+        {
+          "emoji": "🍳",
+          "title": "Brunch-Variation",
+          "description": "Mit einem pochierten Ei und frischem Dill garnieren – das flüssige Eigelb vermischt sich perfekt mit der Füllung für ein luxuriöses Wochenendfrühstück."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Deconstructed Salad",
+          "description": "Kalte Paprikahälften in Streifen schneiden und mit Rucola, gerösteten Kichererbsen und Zitronen-Vinaigrette mixen – ein pflanzlicher Power-Salat."
+        },
+        {
+          "emoji": "🍜",
+          "title": "Asia-Fusion",
+          "description": "Mit einer Dashi-Brühe übergossen, mit Wakame-Algen und Sesam garniert – eine japanisch-mediterrane Überraschung."
+        },
+        {
+          "emoji": "🥙",
+          "title": "Pita-Pockets",
+          "description": "Kalte Paprikahälften in warme Vollkorn-Pitas stecken mit Tahini-Joghurt-Sauce – perfektes vegetarisches Streetfood."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Suppen-Topping",
+          "description": "In Würfel geschnitten auf einer cremigen weißen Bohnensuppe – gibt Textur und pflanzliches Protein."
+        }
+      ]
+    },
+
+    "funFact": {
+      "title": "Fun Fact: Paprikas geheime Superkraft",
+      "description": "Wussten Sie, dass Paprikaschoten mehr Vitamin C enthalten als Orangen? 🍊➡️🫑 Eine rote Paprika liefert satte 150mg Vitamin C pro 100g – das Doppelte einer Orange! Noch verrückter: Die Vitamin C-Konzentration steigt, wenn die Paprika reift. Grüne Paprika enthalten nur halb so viel wie ihre roten Schwestern. Und hier kommt der Clou: Durch das Füllen und Backen bleibt das hitzeempfindliche Vitamin besser erhalten als beim Kochen in Wasser – ein genialer Trick der Natur (und Ihrer Küche)!"
+    },
+
+    "images": {
+      "imageIngredient": "/images/Ingredients/gefuelltePaprikaIngredient.webp",
+      "image1": "/images/MainCourses/gefuellte-paprika1.webp",
+      "image2": "/images/MainCourses/gefuellte-paprika2.webp",
+      "image3": "/images/MainCourses/gefuellte-paprika3.webp",
+      "image4": "/images/MainCourses/gefuellte-paprika4.webp",
+      "image5": "/images/MainCourses/gefuellte-paprika5.webp",
+      "image6": "/images/MainCourses/gefuellte-paprika6.webp",
+      "image7": "/images/MainCourses/gefuellte-paprika7.webp"
     }
   }
 ];
