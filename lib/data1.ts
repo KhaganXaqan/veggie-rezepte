@@ -2358,6 +2358,22 @@ export const recipes: Recipe[] = [
       {
         "title": "San-Marzano-Tomaten (die Umami-Bombe)",
         "description": "Diese italienischen Flaschentomaten haben doppelt so viel Fruchtfleisch wie normale Tomaten – die perfekte Basis für pflanzliche Intensität."
+      },
+      {
+        "title": "Zwiebel (die aromatische Seele)",
+        "description": "Langsam geschmort entwickeln sie eine süßliche Tiefe, die jedem Gericht eine fundamentale Geschmacksbasis verleiht."
+      },
+      {
+        "title": "Knoblauch (der pflanzliche Geschmacksverstärker)",
+        "description": "Fein gehackt und sanft angeschwitzt entfaltet er sein volles Aroma ohne Dominanz – das Geheimnis jeder guten Küche."
+      },
+      {
+        "title": "Rosmarin (das harzige Aroma-Wunder)",
+        "description": "Seine nadelförmigen Blätter verleihen Gerichten eine waldige Tiefe – frisch immer besser als getrocknet!"
+      },
+      {
+        "title": "Thymian (der mediterrane Alleskönner)",
+        "description": "Seine kleinen Blättchen setzen beim Kochen kontinuierlich Aromen frei – perfekt für Schmorgerichte und Saucen."
       }
     ],
 
