@@ -7,9 +7,12 @@ export type Recipe = {
   cookingTime?: number
   seo_keywords: string[]
   rating?: number
+  reviews?: number
   category: string
   slug: string
   tags: string[]
+  createdDate: Date
+  updatedDate: Date
   servings: number
   description: string
   descriptionOnImage: string
@@ -99,10 +102,13 @@ export const recipes: Recipe[] = [
       "Flammkuchen ohne Speck",
       "Flammkuchen traditionell"
     ],
-    "rating": 4.8,
+    "rating": 4.3,
+    "reviews": 133,
     "category": "Hauptgerichte",
     "slug": "flammkuchen",
     "tags": ["Traditionell", "Hauptgerichte", "Flammkuchen"],
+    "createdDate": new Date('2025-02-17T00:00:00'),
+    "updatedDate": new Date('2025-03-20T00:00:00'),
     "servings": 2,
     "description": "Knuspriger vegetarischer Flammkuchen in 30 Min.! Hauchdünner Teig, cremige Basis & würzige Zwiebeln – einfach, lecker & perfekt für alle Flammkuchen-Fans!",
     "descriptionOnImage": "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
@@ -319,9 +325,12 @@ export const recipes: Recipe[] = [
       "Kartoffelpuffer ohne Ei"
     ],
     "rating": 5.0,
+    "reviews":120,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",
     "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
+    "createdDate": new Date('2025-02-20T00:00:00'),
+    "updatedDate": new Date('2025-03-21T00:00:00'),
     "servings": 4,
     "description": "Fluffige Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu Braten, Pilzen oder einfach pur!",
     "descriptionOnImage": "Traditionelle Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften Gerichten.",
@@ -539,10 +548,13 @@ export const recipes: Recipe[] = [
       "Vegetarische Suppe",
       "Schnelle Gemüsesuppe"
     ],
-    "rating": 4.9,
+    "rating": 4.4,
+    "reviews": 150,
     "category": "Suppen",
     "slug": "gemuesesuppe",
     "tags": ["Traditionell", "Suppe", "Gemüse"],
+    "createdDate": new Date('2025-02-17T00:00:00'),
+    "updatedDate": new Date('2025-03-22T00:00:00'),
     "servings": 4,
     "description": "Eine einfache und gesunde vegetarische Gemüsesuppe, die in weniger als einer Stunde zubereitet ist – perfekt für kalte Tage oder als schnelle Mahlzeit!",
     "descriptionOnImage": "Eine herzhafte vegetarische Gemüsesuppe mit frischem Gemüse und würziger Brühe – gesund, lecker und schnell zubereitet.",
@@ -754,10 +766,13 @@ export const recipes: Recipe[] = [
       "Vegetarische Klöße",
       "Deutsche vegetarische Küche"
     ],
-    "rating": 4.9,
+    "rating": 4.1,
+    "reviews": 174,
     "category": "Beilagen",
     "slug": "kartoffelkloesse",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
+    "createdDate": new Date('2025-02-18T00:00:00'),
+    "updatedDate": new Date('2025-03-23T00:00:00'),
     "servings": 4,
     "description": "Fluffige vegetarische Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
     "descriptionOnImage": "Traditionelle vegetarische Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
@@ -960,10 +975,13 @@ export const recipes: Recipe[] = [
       "Deutsche vegetarische Küche",
       "Semmelknödel ohne Fleisch"
     ],
-    "rating": 4.8,
+    "rating": 4.1,
+    "reviews": 102,
     "category": "Beilagen",
     "slug": "semmelknoedel",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
+    "createdDate": new Date('2025-02-15T00:00:00'),
+    "updatedDate": new Date('2025-03-24T00:00:00'),
     "servings": 4,
     "description": "Fluffige vegetarische Semmelknödel, die mit ihrer goldenen Kruste und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
     "descriptionOnImage": "Traditionelle vegetarische Semmelknödel – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
@@ -1169,9 +1187,12 @@ export const recipes: Recipe[] = [
       "Bunte Buddha-Bowl"
     ],
     "rating": 4.9,
+    "reviews": 230,
     "category": "Hauptgerichte",
     "slug": "quinoa-buddha-bowl",
     "tags": ["Modern", "Gesund", "Bowl"],
+    "createdDate": new Date('2025-02-20T00:00:00'),
+    "updatedDate": new Date('2025-03-25T00:00:00'),
     "servings": 2,
     "description": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl, die mit frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings überzeugt",
     "descriptionOnImage": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl – voller frischer Zutaten und voller Geschmack.",
@@ -1406,10 +1427,13 @@ export const recipes: Recipe[] = [
       "Deutsche vegetarische Küche",
       "Cremige Spätzle"
     ],
-    "rating": 4.9,
+    "rating": 4.1,
+    "reviews": 178,
     "category": "Hauptgerichte",
     "slug": "kaesespaetzle",
     "tags": ["Traditionell", "Pasta", "Käse"],
+    "createdDate": new Date('2025-02-21T00:00:00'),
+    "updatedDate": new Date('2025-03-26T00:00:00'),
     "servings": 4,
     "description": "Cremige vegetarische Käsespätzle mit drei Käsesorten, karamellisierten Zwiebeln und frischem Schnittlauch – ein herzhafter Genuss ohne Fleisch!",
     "descriptionOnImage": "Goldbraune Käsespätzle mit zerlaufenem Käse und knusprigen Zwiebelringen – vegetarischer Komfort auf höchstem Niveau.",
@@ -1602,7 +1626,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Pilzgulasch",
     "seo_title": "Vegetarisches Pilzgulasch Rezept – Herzhaft, rauchig & umami",
-    "image": "/images/MainCourses/pilzgulasch.webp",
+    "image": "/images/Miscellaneous/pilzgulasch.webp",
     "prepTime": 20,
     "cookingTime": 40,
     "seo_keywords": [
@@ -1612,10 +1636,13 @@ export const recipes: Recipe[] = [
       "Vegane Gulasch-Alternative",
       "Herzhafte Pilzpfanne"
     ],
-    "rating": 4.9,
+    "rating": 4.4,
+    "reviews": 123,
     "category": "Hauptgerichte",
     "slug": "pilzgulasch",
     "tags": ["Traditionell", "Pilze", "Hauptgericht"],
+    "createdDate": new Date('2025-02-23T00:00:00'),
+    "updatedDate": new Date('2025-03-27T00:00:00'),
     "servings": 2,
     "description": "Ein tief aromatisches Pilzgulasch mit rauchigen Paprika- und Sojasoßen-Noten – eine vegetarische Meisterleistung, die selbst Fleischliebhaber überzeugt.",
     "descriptionOnImage": "Ein dunkles, glänzendes Pilzgulasch mit Champignons, Austernpilzen und Rauchpaprika, serviert mit fluffigem Kartoffelpüree – pure Komfortküche.",
@@ -1814,6 +1841,655 @@ export const recipes: Recipe[] = [
       "image5": "/images/MainCourses/pilzgulasch5.webp",
       "image6": "/images/MainCourses/pilzgulasch6.webp",
       "image7": "/images/MainCourses/pilzgulasch7.webp"
+    }
+  },
+  {
+    "title": "Gemüse-Curry",
+    "seo_title": "Vegetarisches Gemüse-Curry Rezept – Cremig - würzig",
+    "image": "/images/MainCourses/gemuese-curry.webp",
+    "prepTime": 25,
+    "cookingTime": 35,
+    "seo_keywords": [
+      "Vegetarisches Curry",
+      "Gemüse-Curry Rezept",
+      "Veganes Curry",
+      "Asiatisch inspiriertes Curry",
+      "Gesunde Curry-Variation"
+    ],
+    "rating": 4.7,
+    "reviews": 153,
+    "category": "Hauptgerichte",
+    "slug": "gemuese-curry",
+    "tags": ["Asiatisch", "Proteinreich", "Cremig", "Meal Prep", "Glutenfrei"],
+    "createdDate": new Date('2025-02-10T00:00:00'),
+    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "servings": 4,
+    "description": "Ein cremiges, würziges Gemüse-Curry mit geröstetem Kürbis, Blumenkohl und Kichererbsen – eine vegetarische Geschmacksexplosion, die mit exotischen Gewürzen und einer samtigen Kokossoße überzeugt.",
+    "descriptionOnImage": "Ein goldgelbes Gemüse-Curry mit Kürbis, Blumenkohl und Kichererbsen in cremiger Kokossoße, garniert mit frischem Koriander – ein Fest der Farben und Aromen.",
+  
+    "introductionParagraph": "Stell dir vor, du betrittst einen Gewürzmarkt in Bangkok. Die Luft ist erfüllt mit dem Duft von geröstetem Koriander, Kreuzkümmel und frischem Kurkuma – kein Fleisch in Sicht, und doch so intensiv, dass dir sofort das Wasser im Mund zusammenläuft. Dieses Gemüse-Curry ist meine Hommage an diese sinnliche Erfahrung: eine vegetarische Version, die mit geröstetem Kürbis für natürliche Süße, Blumenkohl für Biss und Kichererbsen für Protein spielt. Es ist kein 'fleischloses' Curry – es ist eine eigenständige Kreation, die Gemüse feiert statt es zu ersetzen. Mein Geheimnis? Die Gewürze werden trocken angeröstet, bevor sie in die Kokosmilch wandern – ein kleiner Schritt mit großer Wirkung.",
+  
+    "additionalParagraph": "Was dieses Curry besonders macht? Seine Wandlungsfähigkeit. An hektischen Tessen schmeiße ich es einfach mit Reis in eine Schüssel. Für Dinnerpartys verwandle ich es in eine interaktive 'Curry-Bar' mit selbstgemachten Roti und Toppings wie gerösteten Cashews und eingelegtem Gemüse. Mein persönlicher Pro-Tipp: Die Gewürzmischung doppelt portionieren – halb fürs Curry, halb fürs Popcorn am Filmabend. Probier’s aus und du wirst sehen: Dieses Curry wird deine Gewürzdose für immer verändern.",
+  
+    "ingredientsNeeded": [
+      {
+        "title": "Kürbis",
+        "description": "Hokkaido oder Butternut – geröstet entwickelt er karamellige Tiefe und gibt dem Curry natürliche Süße ohne Zucker."
+      },
+      {
+        "title": "Blumenkohl",
+        "description": "In Röschen gebraten, wird er zum Geschmacksträger für die Gewürze und gibt Biss."
+      },
+      {
+        "title": "Kichererbsen",
+        "description": "Vorgekocht oder aus der Dose – sie bringen Protein und eine cremige Textur ins Spiel."
+      },
+      {
+        "title": "Kokosmilch",
+        "description": "Die fettreiche Variante gibt dem Curry seine samtige Basis. Für weniger Kalorien mit Light-Kokosmilch ersetzen."
+      },
+      {
+        "title": "Garam Masala",
+        "description": "Die fertige Mischung ist praktisch, aber selbst geröstet und gemahlen schmeckt sie wie ein Flug nach Delhi."
+      }
+    ],
+  
+    "ingredientGroups": [
+      {
+        "title": "Das Gemüse",
+        "description": "Geröstet entwickeln sie Röstaromen, die das Curry komplex machen – kein matschiges Einerlei!",
+        "ingredients": [
+          { "amount": 400, "unit": "g", "name": "Kürbis (gewürfelt, Haut dran)" },
+          { "amount": 1, "unit": "Kopf", "name": "Blumenkohl (in Röschen)" },
+          { "amount": 1, "unit": "Dose", "name": "Kichererbsen (abgetropft)" },
+          { "amount": 2, "unit": "EL", "name": "Kokosöl" }
+        ]
+      },
+      {
+        "title": "Die Gewürzbasis",
+        "description": "Trockenrösten ist der Schlüssel – so entfalten sie ihr volles Aroma bevor sie flüssig werden.",
+        "ingredients": [
+          { "amount": 1, "unit": "TL", "name": "Koriandersamen" },
+          { "amount": 1, "unit": "TL", "name": "Kreuzkümmelsamen" },
+          { "amount": 1, "unit": "TL", "name": "Senfsamen" },
+          { "amount": 1, "unit": "TL", "name": "Kurkumapulver" },
+          { "amount": 1, "unit": "TL", "name": "Garam Masala" },
+          { "amount": 1, "unit": "Prise", "name": "Chiliflocken" }
+        ]
+      },
+      {
+        "title": "Die Flüssigkeiten",
+        "description": "Sie tragen die Gewürze und machen aus Gemüse ein harmonisches Curry.",
+        "ingredients": [
+          { "amount": 1, "unit": "Dose", "name": "Kokosmilch (400 ml)" },
+          { "amount": 200, "unit": "ml", "name": "Gemüsebrühe" },
+          { "amount": 2, "unit": "EL", "name": "Tomatenmark" }
+        ]
+      }
+    ],
+  
+    "ingredients": [
+      { "amount": 400, "unit": "g", "name": "Kürbis" },
+      { "amount": 1, "unit": "Kopf", "name": "Blumenkohl" },
+      { "amount": 1, "unit": "Dose", "name": "Kichererbsen" },
+      { "amount": 2, "unit": "EL", "name": "Kokosöl" },
+      { "amount": 1, "unit": "TL", "name": "Koriandersamen" },
+      { "amount": 1, "unit": "TL", "name": "Kreuzkümmelsamen" },
+      { "amount": 1, "unit": "TL", "name": "Senfsamen" },
+      { "amount": 1, "unit": "TL", "name": "Kurkumapulver" },
+      { "amount": 1, "unit": "TL", "name": "Garam Masala" },
+      { "amount": 1, "unit": "Prise", "name": "Chiliflocken" },
+      { "amount": 1, "unit": "Dose", "name": "Kokosmilch" },
+      { "amount": 200, "unit": "ml", "name": "Gemüsebrühe" },
+      { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+      { "amount": 1, "unit": "Handvoll", "name": "Koriander (frisch)" }
+    ],
+  
+    "instructions": [
+      "Ofen auf 200°C vorheizen. Kürbis und Blumenkohl mit 1 EL Kokosöl vermengen, 25 Min. rösten, bis sie Farbe entwickeln.",
+      "In der Zwischenzeit Koriander-, Kreuzkümmel- und Senfsamen in einem trockenen Topf 2 Min. rösten, bis sie duften. Sofort herausnehmen.",
+      "Im gleichen Topf 1 EL Kokosöl erhitzen. Tomatenmark und Kurkuma 1 Min. anrösten.",
+      "Gemüsebrühe und Kokosmilch angießen, geröstete Gewürze und Garam Masala einrühren. 10 Min. köcheln.",
+      "Geröstetes Gemüse und Kichererbsen unterheben. Mit Salz, Chiliflocken abschmecken. 5 Min. ziehen lassen.",
+      "Mit frischem Koriander bestreuen."
+    ],
+  
+    "nutrition": {
+      "calories": 1540,
+      "protein": "43.5g",
+      "carbs": "124g",
+      "fat": "99.5g"
+    },
+  
+    "tips": [
+      "Für Extra-Crunch: 2 EL Cashewkerne mit den Gewürzen rösten und als Topping verwenden.",
+      "Scharf-Liebhaber: 1 frische Chili mitkochen oder Sriracha servieren.",
+      "Garam Masala selbst machen: 1 TL je Kreuzkümmel, Koriander, Kardamom, Pfeffer, Zimt, Nelken trocken rösten, mahlen.",
+      "Blattgemüse? Spinat oder Grünkohl in den letzten 2 Min. unterheben.",
+      "Sauer macht lustig: Mit Limettensaft oder eingelegtem Rettich servieren."
+    ],
+  
+    "whyFavorite": {
+      "title": "Warum dieses Curry meine Gewürzschublade revolutioniert hat",
+      "reasons": [
+        {
+          "title": "Aromen-Explosion",
+          "description": "Durch das Rösten der Gewürze entstehen Tiefen, die selbst Restaurant-Currys Konkurrenz machen – ganz ohne Fischsoße oder Fleischbrühe."
+        },
+        {
+          "title": "Textur-Feuerwerk",
+          "description": "Knusprig gerösteter Kürbis, bissfester Blumenkohl und cremige Kichererbsen – jeder Löffel ist ein Erlebnis."
+        },
+        {
+          "title": "Meal-Prep-Held",
+          "description": "Schmeckt am nächsten Tag noch besser – einfach Portionen einfrieren oder für Lunchboxen verwenden."
+        },
+        {
+          "title": "Allergiker-freundlich",
+          "description": "Von Natur aus glutenfrei, laktosefrei und vegan – ohne Kompromisse beim Geschmack."
+        },
+        {
+          "title": "Kulinarische Weltreise",
+          "description": "Ein Hauch von Indien (Garam Masala), Thailand (Kokosmilch) und Nahost (Kichererbsen) in einem Topf."
+        },
+        {
+          "title": "Kreativitäts-Katalysator",
+          "description": "Grundrezept bleibt gleich, aber Gemüse und Gewürze lassen sich saisonal anpassen – mal mit Aubergine, mal mit Süßkartoffel."
+        }
+      ]
+    },
+  
+    "handwrittenMessage": {
+      "mainText": "Lass dich von den Gewürzen verführen – sie haben mehr Charakter, als du denkst!",
+      "subText": "Ich wette, nach diesem Curry wirst du Gewürze nie wieder nur aus der Dose schütteln...",
+      "signature": "Deine Gewürzalchemistin"
+    },
+  
+    "steps": [
+      {
+        "title": "Schritt 1: Die Röstoffensive",
+        "description": "Kürbis und Blumenkohl nicht nur dämpfen, sondern karamellisieren – das gibt rauchige Tiefe, die typisch für Straßenküchen-Currys ist."
+      },
+      {
+        "title": "Schritt 2: Gewürz-Alchemie",
+        "description": "Ganze Samen (nicht Pulver!) trocken rösten – wenn sie duften wie frisch gemahlener Kaffee, sind sie bereit für die Kokosmilch."
+      },
+      {
+        "title": "Schritt 3: Die Emulsion",
+        "description": "Tomatenmark in Öl anrösten, bis es dunkler wird – so bindet es die Flüssigkeiten und verhindert eine wässrige Soße."
+      },
+      {
+        "title": "Schritt 4: Die Fusion",
+        "description": "Kokosmilch nie kochen lassen! Nur sanft köcheln, damit sie nicht flockt – Geduld macht hier den Unterschied zwischen gut und großartig."
+      }
+    ],  
+    "servingSuggestion": "Auf Jasminreis mit karamellisierten Schalotten und einer Handvoll Mikrogrün – ein Kontrast aus süß, würzig und frisch.",
+    "servingSuggestions": {
+      "title": "Beyond Rice: Unerwartete Curry-Partner",
+      "description": "Reis ist nur der Anfang – hier sind fünf Ideen, die dein Curry zum Hauptdarsteller machen:",
+      "note": "Für klassische Vegetarier: Serviere mit duftendem Jasminreis oder cremigem Kartoffelpüree. Für Abwechslung: Die folgenden ungewöhnlichen Pairings zeigen, wie wandlungsfähig pflanzliche Küche sein kann!",
+      "items": [
+        {
+          "emoji": "🍚", 
+          "title": "Reis-Variationen",
+          "description": "Jasminreis für Duft • Schwarzer Reis für Drama • Kokosreis für Süße – jede Sorte verändert das Curry-Erlebnis."
+        },
+        {
+          "emoji": "🍠",
+          "title": "Süßkartoffel-Püree",
+          "description": "Cremig-süßes Püree als Untergrund – die perfekte Balance zum würzigen Curry. Tipp: Mit Kokosmilch statt Butter mixen!"
+        },
+        {
+          "emoji": "🥬",
+          "title": "Kimchi-Pfannkuchen",
+          "description": "Knusprige Reismehl-Pfannkuchen mit fermentiertem Kimchi – koreanisch-indische Fusion, die süchtig macht."
+        },
+        {
+          "emoji": "🥑",
+          "title": "Avocado-Schiffchen",
+          "description": "Curry in Avocadohälften füllen, mit Edamame und Sesam toppen – low-carb und instagramtauglich."
+        },
+        {
+          "emoji": "🍜",
+          "title": "Curry-Ramen",
+          "description": "Mit Gemüsebrühe strecken und über Ramen-Nudeln gießen – das ultimative Comfort-Food-Upgrade."
+        },
+        {
+          "emoji": "🌯",
+          "title": "Curry-Dürüm",
+          "description": "In warmen Fladenbrot mit Joghurt-Sauce und Salat einwickeln – das Streetfood-Erlebnis für unterwegs."
+        }
+      ]
+    },
+  
+    "funFact": {
+      "title": "Fun Fact: Die Chemie der Gewürze",
+      "description": "Wusstest du, dass Kreuzkümmel und Koriander chemische Cousins sind? 🧪 Beide enthalten Aldehyde – Aromamoleküle, die unser Gehirn als ‚warm‘ und ‚erdig‘ interpretiert. Aber während Kreuzkümmel (Cuminaldehyd) rauchig-pfeffrig schmeckt, ist Koriander (Linalool) blumig-zitronig. Zusammen ergeben sie das berühmte ‚Jeera-Dhania‘-Duo der indischen Küche. Noch wilder: Hitze verändert ihre Molekularstruktur! Beim Rösten entstehen Pyrazine – dieselben Verbindungen, die auch Kaffee und Schokolade ihr Aroma geben. Kurzum: Dein Curry ist eigentlich ein Chemielabor… und du bist die Wissenschaftlerin!"  
+    },
+  
+    "images": {
+      "imageIngredient": "/images/Ingredients/gemueseCurryIngredient.webp",
+      "image1": "/images/MainCourses/gemuese-curry1.webp",
+      "image2": "/images/MainCourses/gemuese-curry2.webp",
+      "image3": "/images/MainCourses/gemuese-curry3.webp",
+      "image4": "/images/MainCourses/gemuese-curry4.webp",
+      "image5": "/images/MainCourses/gemuese-curry5.webp",
+      "image6": "/images/MainCourses/gemuese-curry6.webp",
+      "image7": "/images/MainCourses/gemuese-curry7.webp"
+    }
+  },
+  {
+    "title": "Brokkoli-Quiche",
+    "seo_title": "Vegetarische Brokkoli-Quiche – Cremig, nussig & voller Aromen",
+    "image": "/images/MainCourses/brokkoli-quiche.webp",
+    "prepTime": 30,
+    "cookingTime": 45,
+    "seo_keywords": [
+      "Vegetarische Quiche",
+      "Brokkoli-Quiche Rezept",
+      "Pflanzenbasierte Quiche",
+      "Proteinreiche vegetarische Gerichte",
+      "Einfache vegetarische Backrezepte"
+    ],
+    "rating": 4.5,
+    "reviews": 175,
+    "category": "Vegetarische Hauptgerichte",
+    "slug": "brokkoli-quiche",
+    "tags": ["Französisch", "Gebäck", "Gemüse"],
+    "createdDate": new Date('2025-02-14T00:00:00'),
+    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "servings": 9,
+    "description": "Eine vollständig vegetarische Quiche mit knusprigem Brokkoli, gerösteten Haselnüssen und zwei Käsesorten – eine pflanzliche Proteinbombe, die beweist, dass Backen ohne Fleisch genauso herzhaft schmeckt.",       
+    "descriptionOnImage": "Eine goldbraune Quiche mit saftigem Brokkoli, knusprigen Haselnüssen und geschmolzenem Käse – vegetarische Backkunst auf höchstem Niveau.",
+    "ingredients": [
+        { "amount": 200, "unit": "g", "name": "Dinkelvollkornmehl" },
+        { "amount": 100, "unit": "g", "name": "Vollkornhaferflocken" },
+        { "amount": 80, "unit": "ml", "name": "Olivenöl" },
+        { "amount": 100, "unit": "g", "name": "Griechischer Joghurt (vegetarisch)" },
+        { "amount": 1, "unit": "Prise", "name": "Salz" },
+        { "amount": 1, "unit": "Kopf", "name": "Brokkoli (in 2cm dicken 'Steaks')" },
+        { "amount": 50, "unit": "g", "name": "Haselnüsse (geröstet)" },
+        { "amount": 200, "unit": "g", "name": "Ricotta (vegetarisch)" },
+        { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+        { "amount": 3, "unit": "", "name": "Eier (oder 2 Eier + 1 Leinsamen-Ei für vegan)" },
+        { "amount": 1, "unit": "TL", "name": "Muskatnuss" }
+      ],
+    "introductionParagraph": "Es gibt Gerichte, die schreien nach Aufmerksamkeit – und dann gibt es diese Brokkoli-Quiche. Sie flüstert. Mit jedem Bissen enthüllt sie eine neue Geschmacksschicht: erst die buttrige Kruste, dann der geröstete Brokkoli mit seinen nussigen Röstaromen, gefolgt von der cremigen Füllung, die dank Ricotta und Bergkäse schmilzt wie ein Sonnenuntergang über der Toskana. Was sie besonders macht? Sie braucht kein Fleisch, um zu überzeugen. Der Brokkoli wird hier nicht als 'Ersatz' behandelt, sondern als Hauptdarsteller – in Scheiben geschnitten wie ein Steak, scharf angebraten, bis die Röschen knusprige Kanten bekommen. Dies ist kein 'vegetarisches Gericht'. Dies ist einfach ein großartiges Gericht, das zufällig pflanzlich ist.",
+    "additionalParagraph": "Diese Quiche ist mein geheimes Wunderwaffe gegen das Vorurteil, vegetarische Küche sei langweilig. Für Brunch-Gäste serviere ich sie mit einem Klecks Zitronen-Kräuter-Crème fraîche und beobachte, wie selbst eingefleischte Fleischliebhaber um zweite Portionen bitten. An Wochentagen wandert sie in meine Lunchbox – kalt schmeckt sie fast noch besser, wenn die Aromen über Nacht verschmelzen. Mein Pro-Tipp: Backe zwei! Eine zum sofortigen Verzehr, eine zum Einfrieren. Denn wenn spätabends die Lust auf Komfort kommt, ist eine aufgetaute Quiche-Scheibe unter dem Grill das beste pflanzliche Fast-Food der Welt.",
+    "ingredientsNeeded": [
+      {
+        "title": "Brokkoli (der vegetarische Star)",
+        "description": "In dicken 'Steaks' geschnitten und scharf angebraten – so wird er zur Hauptattraktion, nicht nur zur Beilage. Reich an Vitamin C und Ballaststoffen."
+      },
+      {
+        "title": "Haselnüsse (pflanzliches Crunch-Wunder)",
+        "description": "Geröstet und grob gehackt ersetzen sie Speck nicht – sie machen ihn überflüssig. Liefern gesunde Fette und Aroma-Tiefe."
+      },
+      {
+        "title": "Ricotta & Bergkäse (vegetarische Cremigkeit)",
+        "description": "Die Kombination aus milder Frische und würzigem Schmelz gibt pflanzlichen Gerichten die perfekte Textur – kein Ei-Überschuss nötig."
+      },
+      {
+        "title": "Dinkelvollkornmehl (die nussige Basis)",
+        "description": "Nährstoffreicher als Weißmehl und mit natürlicher Süße – der ideale Partner für herzhafte vegetarische Gebäcke."
+      }
+    ],
+  
+    "ingredientGroups": [
+      {
+        "title": "Die vegetarische Teigbasis",
+        "description": "Ein nussiger Vollkornteig, der auch ohne tierische Zutaten perfekt bröselt – dank griechischem Joghurt statt Ei.",
+        "ingredients": [
+          { "amount": 200, "unit": "g", "name": "Dinkelvollkornmehl" },
+          { "amount": 100, "unit": "g", "name": "Vollkornhaferflocken" },
+          { "amount": 80, "unit": "ml", "name": "Olivenöl" },
+          { "amount": 100, "unit": "g", "name": "Griechischer Joghurt (vegetarisch)" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" }
+        ]
+      },
+      {
+        "title": "Die pflanzliche Füllung",
+        "description": "Cremig ohne Sahne, proteinreich ohne Fleisch – vegetarische Küche auf ihrem besten Niveau.",
+        "ingredients": [
+          { "amount": 1, "unit": "Kopf", "name": "Brokkoli (in 2cm dicken 'Steaks')" },
+          { "amount": 50, "unit": "g", "name": "Haselnüsse (geröstet)" },
+          { "amount": 200, "unit": "g", "name": "Ricotta (vegetarisch)" },
+          { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+          { "amount": 3, "unit": "", "name": "Eier (oder 2 Eier + 1 Leinsamen-Ei für vegan)" },
+          { "amount": 1, "unit": "TL", "name": "Muskatnuss" }
+        ]
+      }
+    ],
+  
+    "instructions": [
+      "Teig: Mehl, Haferflocken und Salz vermischen. Öl und Joghurt einrühren, zu einem Ball kneten. 30 Min. kühl stellen.",
+      "Brokkoli-Steaks in einer Pfanne mit 1 EL Öl 3 Min. pro Seite anbraten, bis sie Röstaromen entwickeln. Haselnüsse grob hacken.",
+      "Teig ausrollen, in eine gefettete Quicheform legen. Mit Gabel einstechen, 15 Min. blind backen (180°C).",
+      "Füllung: Eier, Ricotta, Muskat und 2/3 des Käses verquirlen. Brokkoli und Nüsse auf dem Teig verteilen, Eiermischung darüber.",
+      "Mit restlichem Käse bestreuen. 30 Min. backen, bis die Füllung fest ist."
+    ],
+  
+    "nutrition": {
+      "calories": 3302,
+      "protein": "126g",
+      "carbs": "253g",
+      "fat": "206g"
+    },
+  
+    "tips": [
+      "Für vegane Version: Ei durch Kichererbsenmehl-Mischung (1 EL Mehl + 3 EL Wasser pro Ei) ersetzen.",
+      "Brokkoli-Stiele nicht wegwerfen! Geschält und gewürfelt machen sie 50% mehr Füllung.",
+      "Nuss-Tipp: Mandeln oder Walnüsse funktionieren genauso – einfach nach Vorrat wechseln.",
+      "Meal Prep: Eingefrorene Quiche-Scheiben 10 Min. im Toaster aufbacken – perfekt für schnelle vegetarische Mahlzeiten.",
+      "Käse-Alternative: Für intensiveren Geschmack 50g gereiften Gouda untermischen."
+    ],
+  
+    "whyFavorite": {
+      "title": "Warum diese Quiche meine vegetarische Küche repräsentiert",
+      "reasons": [
+        {
+          "title": "Textur-Poesie",
+          "description": "Knuspriger Teig + cremige Füllung + crunchige Nüsse = ein vegetarisches Sinnenerlebnis, das Fleisch nicht vermissen lässt."
+        },
+        {
+          "title": "Protein-Power",
+          "description": "Mit 14g Protein pro Stück (dank Eiern, Käse und Nüssen) ist es eine vollwertige vegetarische Hauptmahlzeit."
+        },
+        {
+          "title": "Saisonaler Chamäleon",
+          "description": "Im Frühling mit Spargel, im Herbst mit Kürbis – die Basis bleibt, die Gemüse wechseln mit den Jahreszeiten."
+        },
+        {
+          "title": "Brunch-Queen",
+          "description": "Kalt oder warm servierbar – ideal für gemischte Tische (vegane Option inklusive)."
+        },
+        {
+          "title": "Zero-Waste-Star",
+          "description": "Verwendet den ganzen Brokkoli (auch Stiele!) und Reste werden zu neuen Kreationen (siehe Serving-Ideen)."
+        }
+      ]
+    },
+  
+    "handwrittenMessage": {
+      "mainText": "Lass dich vom Brokkoli überraschen – er kann mehr, als du denkst!",
+      "subText": "Ich wette, nach dieser Quiche siehst du Gemüse mit neuen Augen...",
+      "signature": "Deine Gemüse-Patissière"
+    },
+  
+    "steps": [
+      {
+        "title": "Schritt 1: Die Teig-Alchemie",
+        "description": "Dinkelvollkornmehl + Haferflocken + Joghurt ergeben einen Teig, der auch ohne Butter zart bröselt – das Geheimnis liegt im griechischen Joghurt, der Feuchtigkeit und Bindekraft schenkt."
+      },
+      {
+        "title": "Schritt 2: Brokkoli-Transformation",
+        "description": "In dicken Scheiben angebraten, entwickelt der Brokkoli Röstaromen, die an Grillgemüse erinnern – kein matschiges Beilagen-Gemüse mehr!"
+      },
+      {
+        "title": "Schritt 3: Die Füllungs-Philosophie",
+        "description": "Ricotta macht die Masse luftig-leicht, während Bergkäse für Schmelz sorgt – eine vegetarische Lektion in Textur-Balance."
+      }
+    ],
+  
+    "servingSuggestion": "Mit einem Klecks Zitronen-Crème fraîche und essbaren Blüten – so wird vegetarische Küche zum Gourmet-Erlebnis.",
+  
+    "servingSuggestions": {
+      "title": "Vom Frühstück bis zum Dinner: Vegetarische Quiche-Inszenierungen",
+      "description": "Diese Quiche spielt Hauptrolle oder Nebendarsteller – je nachdem, wie du sie in Szene setzt:",
+      "note": "Klassisch vegetarisch: Serviere mit Rucola-Salat oder gerösteten Cherrytomaten. Oder wage dich an diese unkonventionellen Ideen:",
+      "items": [
+        {
+          "emoji": "🍵",
+          "title": "Misosuppen-Bowle",
+          "description": "Eine Tasse klare Misosuppe daneben – die Umami-Noten heben den Käse hervor, während die Brühe vegetarisch sättigt."
+        },
+        {
+          "emoji": "🌯",
+          "title": "Quiche-Tacos",
+          "description": "Kalte Quiche-Stücke in warme Tortillas wickeln + Avocado-Creme – vegetarischer Brunch zum Mitnehmen."
+        },
+        {
+          "emoji": "🍠",
+          "title": "Süßkartoffel-Bett",
+          "description": "Auf pürierter Süßkartoffel mit Zimt servieren – die Süße kontrastiert perfekt mit dem herzhaften Käse."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Deconstructed Salad",
+          "description": "Quiche in Würfel schneiden, mit gerösteten Kichererbsen und Granatapfelkernen mixen – Meal-Prep-Salat der Extraklasse."
+        }
+      ]
+    },
+  
+    "funFact": {
+      "title": "Fun Fact: Brokkoli – Der unterschätzte Proteinkünstler",
+      "description": "Wusstest du, dass Brokkoli pro Kalorie mehr Protein enthält als Rindfleisch? 🥦💪 Während 100g Rind etwa 26g Protein bei 250 kcal liefern, bietet Brokkoli 3g Protein bei nur 35 kcal – hochgerechnet also mehr Protein pro Energieeinheit! Noch wilder: Die Sulforaphan-Verbindungen in Brokkoli aktivieren unsere Entgiftungsenzyme. Dieses Curry ist also nicht nur vegetarisch lecker – es ist eine kleine Detox-Kur obendrauf!"  
+    },
+  
+    "images": {
+      "imageIngredient": "/images/Ingredients/brokkoliquicheIngredint.webp",
+      "image1": "/images/MainCourses/brokkoli-quiche1.webp",
+      "image2": "/images/MainCourses/brokkoli-quiche2.webp",
+      "image3": "/images/MainCourses/brokkoli-quiche3.webp",
+      "image4": "/images/MainCourses/brokkoli-quiche4.webp",
+      "image5": "/images/MainCourses/brokkoli-quiche5.webp",
+      "image6": "/images/MainCourses/brokkoli-quiche6.webp",
+      "image7": "/images/MainCourses/brokkoli-quiche7.webp"
+    }
+  },
+  {
+    "title": "Ratatouille Provençal",
+    "seo_title": "Vegetarisches Ratatouille Rezept – Gemüseperfektion",
+    "image": "/images/Miscellaneous/ratatouille.webp",
+    "prepTime": 20,
+    "cookingTime": 50,
+    "seo_keywords": [
+      "Vegetarisches Ratatouille",
+      "Pflanzliche französische Küche",
+      "Gemüsegericht Provençal",
+      "Gesunde mediterrane Rezepte",
+      "Vegetarische Sommerküche"
+    ],
+    "rating": 4.1,
+    "reviews": 144,
+    "category": "Vegetarische Hauptgerichte",
+    "slug": "ratatouille",
+    "tags": ["Französisch", "Gemüse", "Hauptgericht"],
+    "servings": 2,
+    "createdDate": new Date('2025-02-14T00:00:00'),
+    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "description": "Vegetarisches Gericht – geschichtete Auberginen, Zucchini und Paprika in einer Tomatenbasis, die beweisen, dass pflanzliche Küche niemals langweilig ist.",
+  
+    "descriptionOnImage": "Ein farbenfrohes Tiegelgericht mit perfekt arrangiertem Gemüse in konzentrischen Kreisen – vegetarische Ästhetik und Geschmack in Harmonie.",
+  
+    "introductionParagraph": "Stellen Sie sich vor, Sie sitzen in einem versteckten Innenhof irgendwo in Nizza. Die Luft duftet nach sonnengereiften Tomaten, frischem Basilikum und dem holzigen Aroma von Olivenöl – kein Hauch von Fleisch, und doch so tief im Geschmack, dass sich Ihre Geschmacksknospen sofort aufrichten. Dieses Ratatouille ist meine Hommage an diese sinnliche Erfahrung: ein vegetarisches Meisterwerk, bei dem jedes Gemüse wie ein Solist in einem perfekt orchestrierten Konzert behandelt wird. Die Auberginen werden nicht einfach gewürfelt, sondern in mondförmige Scheiben geschnitten, die sich beim Backen in buttrige Köstlichkeiten verwandeln. Die Zucchini behalten ihren Biss, als würden sie sich weigern, in der Hitze des Ofens nachzugeben. Und die Paprika? Sie sind die heimlichen Stars – geröstet, bis ihre natürliche Süße wie kandierte Sonnenstrahlen schmeckt.",
+  
+    "additionalParagraph": "Was dieses pflanzliche Gericht besonders macht, ist seine Wandlungsfähigkeit. An heißen Sommertagen serviere ich es lauwarm mit einem Klecks veganer Aioli – das kühle Knoblaucharoma kontrastiert wunderbar mit den warmen Gemüsenoten. An kühleren Abenden wird es zur Füllung für knusprige Blätterteigtaschen, bestreut mit gerösteten Pinienkernen. Mein Geheimtipp: Die Ratatouille-Brühe, die sich im Tiegel sammelt, ist flüssiges Gold. Einfach mit einem Löffel auffangen und über frisches Ciabatta träufeln – oder als Basis für eine vegetarische Minestrone verwenden. Dies ist kein Gericht, das Sie einmal kochen. Dies ist eine pflanzliche Technik, die Sie ein Leben lang begleiten wird.",
+  
+    "ingredientsNeeded": [
+      {
+        "title": "Auberginen (die pflanzlichen Schwämme)",
+        "description": "In Scheiben gesalzen und gepresst, saugen sie später das Olivenöl und die Kräuteraromen optimal auf – kein matschiges Gemüse mehr!"
+      },
+      {
+        "title": "Zucchini (der Biss-Held)",
+        "description": "Mit der Schale verarbeitet, behalten sie Struktur und liefern zusätzliche Ballaststoffe für die vegetarische Ernährung."
+      },
+      {
+        "title": "Gelbe Paprika (die Süßespender)",
+        "description": "Geröstet entwickeln sie karamellige Tiefe – der natürliche Zucker ersetzt jede Zugabe von Industriezucker."
+      },
+      {
+        "title": "San-Marzano-Tomaten (die Umami-Bombe)",
+        "description": "Diese italienischen Flaschentomaten haben doppelt so viel Fruchtfleisch wie normale Tomaten – die perfekte Basis für pflanzliche Intensität."
+      }
+    ],
+  
+    "ingredientGroups": [
+      {
+        "title": "Das Gemüse-Ensemble",
+        "description": "Jede Zutat wird sorgfältig vorbereitet, um ihre beste vegetarische Version zu werden:",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Auberginen (in 0,5cm Scheiben)" },
+          { "amount": 3, "unit": "", "name": "Zucchini (in Scheiben)" },
+          { "amount": 2, "unit": "", "name": "Gelbe Paprika (in Streifen)" },
+          { "amount": 1, "unit": "", "name": "Rote Zwiebel (geviertelt)" }
+        ]
+      },
+      {
+        "title": "Die Tomatenbasis",
+        "description": "Die Grundlage, die alles zusammenhält – voller pflanzlicher Tiefe:",
+        "ingredients": [
+          { "amount": 800, "unit": "g", "name": "San-Marzano-Tomaten (gehäutet)" },
+          { "amount": 4, "unit": "Zehen", "name": "Knoblauch (gehackt)" },
+          { "amount": 1, "unit": "Bund", "name": "Basilikum" },
+          { "amount": 1, "unit": "TL", "name": "Zucker" }
+        ]
+      },
+      {
+        "title": "Die Kräuterdecke",
+        "description": "Frische Kräuter, die das vegetarische Gericht parfümieren:",
+        "ingredients": [
+          { "amount": 2, "unit": "Zweige", "name": "Rosmarin" },
+          { "amount": 4, "unit": "Zweige", "name": "Thymian" },
+          { "amount": 1, "unit": "EL", "name": "Olivenöl" }
+        ]
+      }
+    ],
+  
+    "ingredients": [
+      { "amount": 2, "unit": "", "name": "Auberginen" },
+      { "amount": 3, "unit": "", "name": "Zucchini" },
+      { "amount": 2, "unit": "", "name": "Gelbe Paprika" },
+      { "amount": 1, "unit": "", "name": "Rote Zwiebel" },
+      { "amount": 800, "unit": "g", "name": "San-Marzano-Tomaten" },
+      { "amount": 4, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "Bund", "name": "Basilikum" },
+      { "amount": 1, "unit": "TL", "name": "Zucker" },
+      { "amount": 2, "unit": "Zweige", "name": "Rosmarin" },
+      { "amount": 4, "unit": "Zweige", "name": "Thymian" },
+      { "amount": 5, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+    ],
+  
+    "instructions": [
+      "Auberginenscheiben salzen, 30 Min. beschwert abtropfen lassen (entzieht Bitterstoffe).",
+      "Tomaten kreuzweise einritzen, mit kochendem Wasser überbrühen, häuten und würfeln.",
+      "In einer Pfanne 2 EL Olivenöl erhitzen. Zwiebeln und Knoblauch 5 Min. anschwitzen. Tomaten und Zucker zugeben, 15 Min. köcheln.",
+      "Paprikastreifen in 1 EL Öl 5 Min. anbraten, bis sie weich sind.",
+      "Ofen auf 180°C vorheizen. Tomatensauce in eine Auflaufform geben.",
+      "Gemüse dekorativ schichtweise anordnen: abwechselnd Auberginen, Zucchini und Paprika.",
+      "Kräuter darüberlegen, mit Olivenöl beträufeln. 40 Min. backen, bis das Gemüse weich ist.",
+      "Mit frischem Basilikum garnieren."
+    ],
+  
+    "nutrition": {
+      "calories": 707,
+      "protein": "26g",
+      "carbs": "122g",
+      "fat": "21g"
+    },
+  
+    "tips": [
+      "Für extra Umami: 2 getrocknete Steinpilze mit den Tomaten köcheln.",
+      "Vegan-Option: Zucker durch 1 TL Ahornsirup ersetzen.",
+      "Resteverwertung: Übriges Ratatouille pürieren – ergibt eine hervorragende vegetarische Pastasauce.",
+      "Kräutertipp: Lorbeerblätter unter das Gemüse legen für subtile Aromen.",
+      "Meal Prep: Hält sich 4 Tage im Kühlhaus und schmeckt kalt noch intensiver."
+    ],
+  
+    "whyFavorite": {
+      "title": "Warum dieses Ratatouille meine pflanzliche Küche definiert",
+      "reasons": [
+        {
+          "title": "Visuelle Poesie",
+          "description": "Die spiralförmige Anordnung verwandelt einfaches Gemüse in ein essbares Kunstwerk – vegetarische Küche muss nie langweilig aussehen."
+        },
+        {
+          "title": "Slow-Food-Philosophie",
+          "description": "Jedes Gemüse wird einzeln zubereitet – eine meditative, achtsame Art des pflanzlichen Kochens."
+        },
+        {
+          "title": "Saisonaler Bote",
+          "description": "Im Sommer mit frischem Gemüse, im Winter mit Ofenkürbis variierbar – ein vegetarisches Gericht für alle Jahreszeiten."
+        },
+        {
+          "title": "Allergikerfreundlich",
+          "description": "Von Natur aus glutenfrei, laktosefrei und vegan (mit kleinen Anpassungen) – inklusive Genuss ohne Kompromisse."
+        }
+      ]
+    },
+  
+    "handwrittenMessage": {
+      "mainText": "Lass dich vom Gemüse verzaubern – es hat mehr Geschichten zu erzählen, als du denkst!",
+      "subText": "Ich wette, nach diesem Ratatouille siehst du Auberginen mit neuen Augen...",
+      "signature": "Deine Gemüse-Erzählerin"
+    },
+  
+    "steps": [
+      {
+        "title": "Schritt 1: Die Auberginen-Transformation",
+        "description": "Das Salzen und Pressen der Auberginen entfernt nicht nur Bitterstoffe – es öffnet ihre Poren, damit sie später Olivenöl und Kräuter wie ein Schwamm aufsaugen können."
+      },
+      {
+        "title": "Schritt 2: Die Tomatenalchemie",
+        "description": "San-Marzano-Tomaten werden nicht einfach zerkleinert, sondern zu einer konzentrierten Sauce reduziert – ihr natürlich hoher Zuckergehalt macht zusätzliche Süßungsmittel überflüssig."
+      },
+      {
+        "title": "Schritt 3: Die Paprika-Verwandlung",
+        "description": "Durch das scharfe Anbraten karamellisiert der natürliche Zucker der Paprika – diese Röstaromen sind der Schlüssel zur pflanzlichen Tiefe des Gerichts."
+      },
+      {
+        "title": "Schritt 4: Die Komposition",
+        "description": "Das schichtweise Anordnen ist kein bloßes Dekor – es ermöglicht gleichmäßige Hitzeverteilung, sodass jedes Gemüse perfekt gart, ohne zu verfallen."
+      }
+    ],
+  
+    "servingSuggestion": "Mit einer Prise Fleur de Sel und einem Hauch frisch geriebener Zitronenschale – so wird pflanzliche Küche zum Gourmet-Erlebnis.",
+  
+    "servingSuggestions": {
+    "title": "Jenseits des Klassikers: Unerwartete Ratatouille-Partner",
+    "description": "Dieses Gericht spielt Hauptrolle oder Teamplayer – hier sind vier unkonventionelle Ideen:",
+    "note": "Klassisch vegetarisch: Mit frischem Baguette oder Couscous servieren. Für experimentierfreudige Köche: Diese Pairings zeigen, wie wandlungsfähig pflanzliche Küche sein kann!",
+      "items": [
+        {
+          "emoji": "🍚",
+          "title": "Miso-Polenta-Untergrund",
+          "description": "Cremige Polenta mit weißer Miso-Paste verrührt – die Fermentnoten heben die Gemüsearomen hervor."
+        },
+        {
+          "emoji": "🥟",
+          "title": "Ratatouille-Dumplings",
+          "description": "Abgekühltes Ratatouille als Füllung für Teigtaschen verwenden – mit Sesam bestreut ein vegetarischer Appetizer-Hit."
+        },
+        {
+          "emoji": "🍳",
+          "title": "Shakshuka-Ratatouille-Fusion",
+          "description": "Ratatouille in einer Pfanne erhitzen, Mulden formen und Eier hineinpochen – mediterran-nordafrikanische Brunch-Kreation."
+        },
+        {
+          "emoji": "🥑",
+          "title": "Avocado-Boote",
+          "description": "Avocadohälften mit Ratatouille füllen, mit Kürbiskernen bestreuen – low-carb und instagramtauglich."
+        }
+      ]
+    },
+  
+    "funFact": {
+      "title": "Fun Fact: Ratatouilles politische Revolution",
+      "description": "Wussten Sie, dass Ratatouille einst als 'Arme-Leute-Essen' galt, bis es 1976 zum kulinarischen Botschafter der Provence wurde? 🌍 Der damalige französische Kulturminister ernannte es offiziell zum 'Patrimoine Culinaire Français' (kulinarisches Erbe) – eine politische Geste, um regionale pflanzliche Küche gegen die Fast-Food-Welle zu verteidigen. Noch verrückter: Die Originalversion aus Nizza wurde nie geschichtet! Das ikonische Spiraldesign erfand erst der Disney-Film 2007. Echte nicoise Hausköchinnen köcheln alles zusammen – aber wir dürfen ja auch mal mit Traditionen brechen, oder?"  
+    },
+  
+    "images": {
+      "imageIngredient": "/images/Ingredients/ratatouilleIngredient.webp",
+      "image1": "/images/MainCourses/ratatouille1.webp",
+      "image2": "/images/MainCourses/ratatouille2.webp",
+      "image3": "/images/MainCourses/ratatouille3.webp",
+      "image4": "/images/MainCourses/ratatouille4.webp",
+      "image5": "/images/MainCourses/ratatouille5.webp",
+      "image6": "/images/MainCourses/ratatouille6.webp",
+      "image7": "/images/MainCourses/ratatouille7.webp"
     }
   }
 ];

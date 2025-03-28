@@ -32,7 +32,10 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     'semmelknoedel',
     'quinoa-buddha-bowl',
     'kaesespaetzle',
-    'pilzgulasch'
+    'pilzgulasch',
+    'gemuese-curry',
+    'brokkoli-quiche',
+    'ratatouille'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -90,7 +93,10 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     'semmelknoedel',
     'quinoa-buddha-bowl',
     'kaesespaetzle',
-    'pilzgulasch'
+    'pilzgulasch',
+    'gemuese-curry',
+    'brokkoli-quiche',
+    'ratatouille'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -169,7 +175,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'semmelknoedel',
     'quinoa-buddha-bowl',
     'kaesespaetzle',
-    'pilzgulasch'
+    'pilzgulasch',
+    'gemuese-curry',
+    'brokkoli-quiche',
+    'ratatouille'
   ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
@@ -193,7 +202,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'semmelknoedel',
     'quinoa-buddha-bowl',
     'kaesespaetzle',
-    'pilzgulasch'
+    'pilzgulasch',
+    'gemuese-curry',
+    'brokkoli-quiche',
+    'ratatouille'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
@@ -276,10 +288,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
                             <span className="font-bold text-gray-900">Veggie Rezepte</span>
                           </div>
                           <div className="text-gray-500 text-xs">
-                            <span>Veröffentlicht am {new Date().toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                            <span>Veröffentlicht am {validRecipe.createdDate?.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
                           </div>
                           <div className="text-gray-500 text-xs">
-                            <span>Aktualisiert am {new Date().toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                            <span>Aktualisiert am {validRecipe.updatedDate?.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
                           </div>
                         </div>
                       </div>
@@ -315,7 +327,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           ))}
                         </div>
                         <span className="ml-2 text-sm font-normal text-black">{validRecipe.rating || 0}</span>
-                        <span className="ml-1 text-gray-500 text-xs">aus 93 Bewertungen</span>
+                        <span className="ml-1 text-gray-500 text-xs">aus {validRecipe.reviews} Bewertungen</span>
                       </div>
 
                       {/* Recipe Metadata */}
@@ -689,6 +701,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         {/* Instructions */}
                         <RecipeInstructions
                           instructions={validRecipe.instructions}
+                          tips={validRecipe.tips}
                         />
 
                         <RecipeNutrition

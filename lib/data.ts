@@ -6,9 +6,12 @@ export type Recipe = {
   prepTime?: number
   cookingTime? : number
   rating?: number
+  reviews?:number
   category: string
   slug: string
   tags: string[]
+  createdDate?: Date
+  updatedDate?: Date
   servings: number
   description: string
   descriptionOnImage: string
