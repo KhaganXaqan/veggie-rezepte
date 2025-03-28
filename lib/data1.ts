@@ -1668,6 +1668,18 @@ export const recipes: Recipe[] = [
       {
         "title": "Rotwein",
         "description": "Ein Schuss Cabernet Sauvignon baut Aromen auf, die an klassisches Gulasch erinnern – aber ganz ohne Reue."
+      },
+      {
+        "title": "Tomatenmark (der Geschmacksbooster)",
+        "description": "Angeröstet entwickelt es eine tiefe Süße und verleiht Saucen samtige Konsistenz – der Trick der Profis!"
+      },
+      {
+        "title": "Kreuzkümmel (der orientalische Zauberer)",
+        "description": "Geröstet und frisch gemahlen entfaltet er erdige Aromen, die jedes Pilzgericht wie vom Basar schmecken lassen."
+      },
+      {
+        "title": "Gemüsebrühe (die aromatische Grundlage)",
+        "description": "Selbst gekocht oder als hochwertiges Konzentrat – sie bringt Tiefe ohne künstliche Zusätze."
       }
     ],
     "ingredientGroups": [
