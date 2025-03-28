@@ -103,7 +103,7 @@ export const recipes: Recipe[] = [
       "Flammkuchen traditionell"
     ],
     "rating": 4.3,
-    "reviews": 33,
+    "reviews": 133,
     "category": "Hauptgerichte",
     "slug": "flammkuchen",
     "tags": ["Traditionell", "Hauptgerichte", "Flammkuchen"],
@@ -325,7 +325,7 @@ export const recipes: Recipe[] = [
       "Kartoffelpuffer ohne Ei"
     ],
     "rating": 5.0,
-    "reviews":60,
+    "reviews":120,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",
     "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
@@ -549,7 +549,7 @@ export const recipes: Recipe[] = [
       "Schnelle Gemüsesuppe"
     ],
     "rating": 4.4,
-    "reviews": 50,
+    "reviews": 150,
     "category": "Suppen",
     "slug": "gemuesesuppe",
     "tags": ["Traditionell", "Suppe", "Gemüse"],
@@ -767,7 +767,7 @@ export const recipes: Recipe[] = [
       "Deutsche vegetarische Küche"
     ],
     "rating": 4.1,
-    "reviews": 74,
+    "reviews": 174,
     "category": "Beilagen",
     "slug": "kartoffelkloesse",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
@@ -975,7 +975,7 @@ export const recipes: Recipe[] = [
       "Deutsche vegetarische Küche",
       "Semmelknödel ohne Fleisch"
     ],
-    "rating": 3.8,
+    "rating": 4.1,
     "reviews": 102,
     "category": "Beilagen",
     "slug": "semmelknoedel",
@@ -1187,7 +1187,7 @@ export const recipes: Recipe[] = [
       "Bunte Buddha-Bowl"
     ],
     "rating": 4.9,
-    "reviews": 30,
+    "reviews": 230,
     "category": "Hauptgerichte",
     "slug": "quinoa-buddha-bowl",
     "tags": ["Modern", "Gesund", "Bowl"],
@@ -1428,7 +1428,7 @@ export const recipes: Recipe[] = [
       "Cremige Spätzle"
     ],
     "rating": 4.1,
-    "reviews": 78,
+    "reviews": 178,
     "category": "Hauptgerichte",
     "slug": "kaesespaetzle",
     "tags": ["Traditionell", "Pasta", "Käse"],
@@ -1636,8 +1636,8 @@ export const recipes: Recipe[] = [
       "Vegane Gulasch-Alternative",
       "Herzhafte Pilzpfanne"
     ],
-    "rating": 3.4,
-    "reviews": 23,
+    "rating": 4.4,
+    "reviews": 123,
     "category": "Hauptgerichte",
     "slug": "pilzgulasch",
     "tags": ["Traditionell", "Pilze", "Hauptgericht"],
@@ -1856,8 +1856,8 @@ export const recipes: Recipe[] = [
       "Asiatisch inspiriertes Curry",
       "Gesunde Curry-Variation"
     ],
-    "rating": 4.3,
-    "reviews": 53,
+    "rating": 4.7,
+    "reviews": 153,
     "category": "Hauptgerichte",
     "slug": "gemuese-curry",
     "tags": ["Asiatisch", "Proteinreich", "Cremig", "Meal Prep", "Glutenfrei"],
@@ -2092,7 +2092,7 @@ export const recipes: Recipe[] = [
       "Einfache vegetarische Backrezepte"
     ],
     "rating": 4.5,
-    "reviews": 75,
+    "reviews": 175,
     "category": "Vegetarische Hauptgerichte",
     "slug": "brokkoli-quiche",
     "tags": ["Französisch", "Gebäck", "Gemüse"],
@@ -2290,14 +2290,14 @@ export const recipes: Recipe[] = [
       "Gesunde mediterrane Rezepte",
       "Vegetarische Sommerküche"
     ],
-    "rating": 3.9,
-    "reviews": 44,
+    "rating": 4.1,
+    "reviews": 144,
     "category": "Vegetarische Hauptgerichte",
     "slug": "ratatouille",
     "tags": ["Französisch", "Gemüse", "Hauptgericht"],
     "servings": 2,
     "createdDate": new Date('2025-02-14T00:00:00'),
-    "updatedDate": new Date('2025-03-270T00:00:00'),
+    "updatedDate": new Date('2025-03-27T00:00:00'),
     "description": "Vegetarisches Gericht – geschichtete Auberginen, Zucchini und Paprika in einer Tomatenbasis, die beweisen, dass pflanzliche Küche niemals langweilig ist.",
   
     "descriptionOnImage": "Ein farbenfrohes Tiegelgericht mit perfekt arrangiertem Gemüse in konzentrischen Kreisen – vegetarische Ästhetik und Geschmack in Harmonie.",
