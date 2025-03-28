@@ -2709,6 +2709,244 @@ export const recipes: Recipe[] = [
       "image6": "/images/MainCourses/gefuellte-paprika6.webp",
       "image7": "/images/MainCourses/gefuellte-paprika7.webp"
     }
+  },
+  {
+    "title": "Gemüse-Strudel Vegetarisch",
+    "seo_title": "Vegetarischer Gemüsestrudel Rezept – Blättrige Köstlichkeit",
+    "image": "/images/Miscellaneous/gemueseStrudel.webp",
+    "prepTime": 40,
+    "cookingTime": 35,
+    "seo_keywords": [
+      "Vegetarischer Gemüsestrudel",
+      "Pflanzliches Strudelrezept",
+      "Mediterranes Ofengemüse im Teig",
+      "Gesunde vegetarische Hauptgerichte",
+      "Blätterteig mit Gemüsefüllung"
+    ],
+    "rating": 4.8,
+    "reviews": 187,
+    "category": "Hauptgerichte",
+    "slug": "gemuese-strudel",
+    "tags": ["Traditionell", "Gebäck", "Gemüse"],
+    "createdDate": new Date('2025-02-17T00:00:00'),
+    "updatedDate": new Date('2025-03-28T00:00:00'),
+    "servings": 4,
+    "description": "Knuspriger Blätterteig mit mediterranem Ofengemüse & Feta – dieser vegetarische Strudel beweist: pflanzliche Küche kann elegant & geschmacksintensiv sein!",  
+    "descriptionOnImage": "Goldbrauner Blätterteigstrudel mit einer duftenden Füllung aus geröstetem Gemüse und Kräutern – vegetarische Backkunst auf höchstem Niveau.",
+    "introductionParagraph": "Stellen Sie sich vor, Sie schneiden in einen perfekt gebackenen Strudel – der erste Blick offenbart Schichten von zartem Blätterteig, die sich wie ein französisches Croissant lösen, während der Duft von gerösteten Auberginen, süßen Kirschtomaten und frischem Thymian aufsteigt. Dies ist kein gewöhnliches vegetarisches Gericht, sondern eine kulinarische Liebeserklärung an mediterrane Aromen. Der Clou? Das Gemüse wird nicht einfach gekocht, sondern einzeln geröstet, bis sich seine natürliche Süße entfaltet hat. Die Paprika verwandelt sich in karamellige Streifen, die Zucchini behält ihren Biss, und die Aubergine wird zu einer buttrigen Köstlichkeit. Eingehüllt in hauchdünnen Blätterteig entsteht so ein pflanzliches Meisterwerk, das selbst eingefleischte Fleischliebhaber überzeugt.",
+    "additionalParagraph": "Was diesen vegetarischen Strudel besonders macht, ist seine erstaunliche Vielseitigkeit. An heißen Sommertagen serviere ich ihn lauwarm mit einem Klecks zitronigem Joghurt-Dip – die Frische der Zitrone schneidet perfekt durch die reichhaltige Füllung. Im Winter wird er zum Herzstück eines festlichen Menüs, begleitet von einer cremigen Safransauce. Mein Geheimtipp: Die Gemüsefüllung einen Tag vorher zubereiten – über Nacht intensivieren sich die Aromen, während der Thymian seine ätherischen Öle entfaltet. Und für spontane Gäste habe ich immer eingefrorene Strudel-Rohlinge parat – einfach 10 Minuten länger backen, und Sie servieren ein pflanzliches Gourmetgericht ohne Vorbereitungsstress.",
+    "ingredientsNeeded": [
+      {
+        "title": "Blätterteig (die luftige Hülle)",
+        "description": "Verwenden Sie hochwertigen veganen Blätterteig (ohne tierische Fette) für maximale Zartheit. Tipp: Tiefgekühlten Teig langsam im Kühlhaus auftauen – so bleiben die Butterlagen intakt."
+      },
+      {
+        "title": "Aubergine (der Geschmacksverstärker)",
+        "description": "In Würfel geschnitten und vorgesalzen entwickelt sie beim Rösten eine fast fleischige Textur und saugt die Kräuteraromen optimal auf."
+      },
+      {
+        "title": "Zucchini (der Biss-Held)",
+        "description": "In Halbmonde geschnitten behält sie beim Backen die perfekte Textur – nicht zu weich, nicht zu hart."
+      },
+      {
+        "title": "Rote Paprika (die Farbenkünstlerin)",
+        "description": "Ihre natürliche Süße kommt beim Rösten voll zur Geltung und gibt dem Strudel optische Highlights."
+      },
+      {
+        "title": "Kirschtomaten (die Süßespender)",
+        "description": "Im Ofen konzentriert sich ihr Geschmack – platzen sie, bilden sie eine natürliche Sauce. Verwenden Sie bunte Sorten für optische Highlights."
+      },
+      {
+        "title": "Feta (der salzige Kontrast)",
+        "description": "Seine salzige Cremigkeit rundet die pflanzliche Füllung ab. Für vegane Version durch marinierten Tofu oder Hefeflocken ersetzen."
+      },
+      {
+        "title": "Thymian (das aromatische Herz)",
+        "description": "Frische Zweige verleihen mediterrane Duftnoten. Wichtig: Nur die Blättchen verwenden, die Stiele werden holzig."
+      },
+      {
+        "title": "Olivenöl (der Geschmeidigmacher)",
+        "description": "Hochwertiges natives Olivenöl veredelt das Gemüse beim Rösten und verhindert ein Austrocknen des Strudels."
+      },
+      {
+        "title": "Sesamsamen (der Knusperakzent)",
+        "description": "Goldbraun geröstet verleihen sie dem Blätterteig eine nussige Note und attraktive Optik."
+      },
+      {
+        "title": "Rote Zwiebel (die sanfte Schärfe)",
+        "description": "In feinen Ringen angeröstet, gibt sie dem Strudel eine süßlich-würzige Tiefe ohne Dominanz."
+      },
+      {
+        "title": "Knoblauch (der Aromenverstärker)",
+        "description": "Fein gehackt oder gepresst entfaltet er beim Rösten sein volles Bukett und harmonisiert mit dem Thymian."
+      }
+    ],
+
+    "ingredientGroups": [
+      {
+        "title": "Die Blätterteig-Grundlage",
+        "description": "Der perfekte Mantel für das Gemüse – zart und knusprig zugleich:",
+        "ingredients": [
+          { "amount": 1, "unit": "Packung", "name": "Blätterteig (vegan, 275g)" },
+          { "amount": 1, "unit": "EL", "name": "Olivenöl (zum Bestreichen)" },
+          { "amount": 1, "unit": "EL", "name": "Sesamsamen" }
+        ]
+      },
+      {
+        "title": "Die vegetarische Füllung",
+        "description": "Jedes Gemüse wird einzeln zubereitet für optimale Aromen:",
+        "ingredients": [
+          { "amount": 1, "unit": "", "name": "Aubergine (in 2cm Würfeln)" },
+          { "amount": 2, "unit": "", "name": "Zucchini (in Halbmonden)" },
+          { "amount": 1, "unit": "", "name": "Rote Paprika (in Streifen)" },
+          { "amount": 200, "unit": "g", "name": "Kirschtomaten" },
+          { "amount": 1, "unit": "", "name": "Rote Zwiebel (geviertelt)" },
+          { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch (gehackt)" },
+          { "amount": 1, "unit": "Bund", "name": "Thymian" },
+          { "amount": 100, "unit": "g", "name": "Feta (gebröckelt)" }
+        ]
+      }
+    ],
+
+    "ingredients": [
+      { "amount": 1, "unit": "Packung", "name": "Blätterteig (vegan)" },
+      { "amount": 1, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 1, "unit": "EL", "name": "Sesamsamen" },
+      { "amount": 1, "unit": "", "name": "Aubergine" },
+      { "amount": 2, "unit": "", "name": "Zucchini" },
+      { "amount": 1, "unit": "", "name": "Rote Paprika" },
+      { "amount": 200, "unit": "g", "name": "Kirschtomaten" },
+      { "amount": 1, "unit": "", "name": "Rote Zwiebel" },
+      { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "Bund", "name": "Thymian" },
+      { "amount": 100, "unit": "g", "name": "Feta" },
+      { "amount": 1, "unit": "Prise", "name": "Meersalz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+    ],
+
+    "instructions": [
+      "Auberginenwürfel in ein Sieb geben, salzen und 30 Min. abtropfen lassen. Gut abspülen und trocken tupfen.",
+      "Ofen auf 200°C vorheizen. Gemüse (außer Tomaten) auf einem Backblech mit 2 EL Olivenöl, Knoblauch und Thymian vermengen. 25 Min. rösten, nach 15 Min. wenden.",
+      "Tomaten halbieren und in den letzten 10 Min. mitrösten. Alles auskühlen lassen, Thymianzweige entfernen.",
+      "Blätterteig auf Backpapier ausrollen. Gemüse in der Mitte verteilen, Feta darüberstreuen.",
+      "Teig seitlich einschlagen, dann von einer Seite aufrollen. Mit Öl bestreichen, Sesam streuen.",
+      "Bei 190°C (Umluft) 30-35 Min. backen, bis der Teig goldbraun ist. 10 Min. ruhen lassen."
+    ],
+
+    "nutrition": {
+      "calories": 2010,
+      "protein": "24g",
+      "carbs": "134g",
+      "fat": "141g"
+    },
+
+    "tips": [
+      "Für extra Knusper: Teig vor dem Backen mit Ei- oder Pflanzenmilch bestreichen.",
+      "Vegan-Option: Feta durch 2 EL Hefeflocken + 1 TL Misopaste ersetzen.",
+      "Strudel-Doppelpack: Füllung verdoppeln und zwei Strudel backen – einer friert perfekt ein.",
+      "Resteverwertung: Kalten Strudel in Würfel schneiden und als Croutons für Suppen verwenden.",
+      "Scharf-Liebhaber: 1 gehackte Chili mit dem Gemüse rösten."
+    ],
+
+    "whyFavorite": {
+      "title": "Warum dieser Strudel meine vegetarische Küche repräsentiert",
+      "reasons": [
+        {
+          "title": "Textur-Wunder",
+          "description": "Knuspriger Teig + saftiges Gemüse + cremiger Feta – ein vegetarisches Sinnenerlebnis."
+        },
+        {
+          "title": "Protein-Power",
+          "description": "Mit 8g Protein pro Portion (dank Feta und Gemüse) eine vollwertige vegetarische Mahlzeit."
+        },
+        {
+          "title": "Augenschmaus",
+          "description": "Die spiralförmige Anschnittfläche mit den farbigen Gemüseschichten ist ein Instagram-Hit."
+        },
+        {
+          "title": "Meal-Prep-Tauglich",
+          "description": "Hält sich 3 Tage im Kühlhaus und schmeckt kalt wie warm – perfekt für vegetarische Lunchboxen."
+        }
+      ]
+    },
+
+    "handwrittenMessage": {
+      "mainText": "Lass dich vom Blätterteig verzaubern – er trägt das Gemüse wie ein kostbares Geschenk!",
+      "subText": "Ich wette, nach diesem Strudel wirst du Gemüse mit neuen Augen sehen...",
+      "signature": "Deine Gemüse-Pastetierin"
+    },
+
+    "steps": [
+      {
+        "title": "Schritt 1: Die Gemüse-Verwandlung",
+        "description": "Jedes Gemüse wird einzeln geschnitten – Auberginen in Würfel für maximale Aromenaufnahme, Zucchini in Halbmonde für ansprechende Textur, Paprika in Streifen für süße Röstaromen. Das getrennte Rösten garantiert, dass jedes Gemüse perfekt gart."
+      },
+      {
+        "title": "Schritt 2: Die Thymian-Infusion",
+        "description": "Frische Thymianzweige werden ganz mitgeröstet – ihre ätherischen Öle penetrieren das Gemüse. Erst nach dem Rösten entfernen wir die Zweige, damit kein bitterer Geschmack entsteht."
+      },
+      {
+        "title": "Schritt 3: Die Blätterteig-Choreografie",
+        "description": "Der Teig wird nicht einfach umgeklappt, sondern erst die Seiten eingeschlagen, dann von einer Seite gerollt – so entstehen die charakteristischen Schichten, die beim Backen blättrig aufplustern."
+      },
+      {
+        "title": "Schritt 4: Die Ruhephase",
+        "description": "Nach dem Backen 10 Minuten warten – diese Geduld ermöglicht, dass sich die Säfte im Strudel verteilen und der Teig knusprig bleibt statt matschig zu werden."
+      }
+    ],
+
+    "servingSuggestion": "Mit einem Klecks Zitronen-Joghurt und frischem Dill – die Säure balanciert die Süße des Ofengemüses.",
+
+    "servingSuggestions": {
+      "title": "Kulinarische Zeitreise: Globale Strudel-Pairings",
+      "description": "Dieser Strudel reist gerne – hier sind fünf internationale Servierideen, die mediterrane Aromen neu interpretieren:",
+      "note": "Traditionell vegetarisch: Mit Tzatziki und Oliven servieren. Für Weltenbummler: Diese Fusion-Kreationen zeigen, wie wandlungsfähig pflanzliche Küche ist!",
+      "items": [
+        {
+          "emoji": "🌶️",
+          "title": "Harissa-Dattel-Chutney",
+          "description": "Süß-scharfe Paste aus nordafrikanischen Datteln und Chiliflocken – der Kontrast zum milden Strudel ist spektakulär."
+        },
+        {
+          "emoji": "🍈",
+          "title": "Melonen-Carpaccio",
+          "description": "Honeydew-Melone in hauchdünnen Scheiben mit Limette und Minze – die Frische balanciert die Röstaromen."
+        },
+        {
+          "emoji": "🫘",
+          "title": "Schwarze-Bohnen-Püree",
+          "description": "Cremige mexikanische Bohne mit Koriander – gibt pflanzliches Protein und erdige Tiefe."
+        },
+        {
+          "emoji": "🍯",
+          "title": "Feigen-Balsamico-Glasur",
+          "description": "Eingekochte Feigen mit Aceto – die fruchtige Süße harmoniert mit dem gebackenen Gemüse."
+        },
+        {
+          "emoji": "🥬",
+          "title": "Kimchi-Microgreens-Mix",
+          "description": "Fermentierte Schärfe trifft keimende Sprossen – eine probiotische Geschmacksexplosion."
+        }
+      ]
+    },
+
+    "funFact": {
+      "title": "Fun Fact: Strudels Geheimsprache",
+      "description": "Wussten Sie, dass die charakteristischen Blätterteigschichten ursprünglich als Statussymbol dienten? 🏰 Im 17. Jahrhundert zeigte die Anzahl der Lagen den Reichtum des Haushalts – je mehr Schichten, desto mehr Arbeitszeit (und teure Butter) konnte man sich leisten. Ein perfekter Strudel hat mindestens 144 Schichten! Noch verrückter: In Österreich nennt man besonders dünn ausgerollten Teig 'Strudelteig, so dünn, dass man eine Liebesbrief durchlesen kann' – unsere vegetarische Version hält sich zwar nicht ganz an diese Tradition, macht aber geschmacklich doppelt glücklich!"
+    },
+
+    "images": {
+      "imageIngredient": "/images/Ingredients/gemueseStrudelIngredient.webp",
+      "image1": "/images/Miscellaneous/gemueseStrudel1.webp",
+      "image2": "/images/Miscellaneous/gemueseStrudel2.webp",
+      "image3": "/images/Miscellaneous/gemueseStrudel3.webp",
+      "image4": "/images/Miscellaneous/gemueseStrudel4.webp",
+      "image5": "/images/Miscellaneous/gemueseStrudel5.webp",
+      "image6": "/images/Miscellaneous/gemueseStrudel6.webp",
+      "image7": "/images/Miscellaneous/gemueseStrudel7.webp"
+    }
   }
 ];
 
