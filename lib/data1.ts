@@ -1915,6 +1915,38 @@ export const recipes: Recipe[] = [
       {
         "title": "Garam Masala",
         "description": "Die fertige Mischung ist praktisch, aber selbst geröstet und gemahlen schmeckt sie wie ein Flug nach Delhi."
+      },
+      {
+        "title": "Kokosöl (der tropische Alleskönner)",
+        "description": "Hitzestabil und ideal für das Anrösten von Gewürzen – verleiht eine dezente Süße. Bio und nativ für besten Geschmack."
+      },
+      {
+        "title": "Koriandersamen (das zitrische Fundament)",
+        "description": "Ganz trocken geröstet und gemahlen entfalten sie blumig-zitronige Noten. Unverzichtbar für authentische Curry-Tiefe."
+      },
+      {
+        "title": "Kreuzkümmelsamen (der erdige Rauch)",
+        "description": "Vor dem Mahlen in Pfanne rösten, bis sie duften – so entsteht die typisch rauchige Basis-Note. Vorsicht: Nicht verbrennen!"
+      },
+      {
+        "title": "Senfsamen (der prickelnde Crunch)",
+        "description": "In heißem Öl gepoppt, geben sie knackige Textur und eine scharfe, nussige Würze. Schwarze Samen sind intensiver als gelbe."
+      },
+      {
+        "title": "Kurkumapulver (das goldene Wunder)",
+        "description": "Färbt nicht nur, sondern wirkt entzündungshemmend. Mit etwas schwarzem Pfeffer kombiniert, erhöht sich die Bioverfügbarkeit um 2000%!"
+      },
+      {
+        "title": "Chiliflocken (die dosierbare Hitze)",
+        "description": "Nach Geschmack zufügen – Kashmiri-Chili gibt milde Röte, Bird‘s Eye brutale Schärfe. Immer mit Kerngehäuse entfernen, falls weniger scharf gewünscht."
+      },
+      {
+        "title": "Gemüsebrühe (die Umami-Basis)",
+        "description": "Selbst gekocht oder als Bio-Konzentrat – ohne Hefeextrakt oder Glutamat. Tipp: Steinpilz-Pulver unterrühren für extra Tiefe."
+      },
+      {
+        "title": "Tomatenmark (der Geschmacksbooster)",
+        "description": "2 Minuten in Öl anrösten, bis es dunkelt – so entstehen karamellisierte, fast fleischige Aromen. Dreifach konzentriert gibt maximale Intensität."
       }
     ],
 
