@@ -1466,6 +1466,18 @@ export const recipes: Recipe[] = [
       {
         "title": "Muskatblüte",
         "description": "Das seltenere Pendant zu Muskatnuss mit komplexeren Aromen für den Teig."
+      },
+      {
+        "title": "Eier (die Bindekünstler)",
+        "description": "Frische Eier geben dem Spätzleteig Elastizität und die typische goldene Farbe. Für vegane Version: Pro Ei 1 EL Leinsamenmehl + 3 EL Wasser."
+      },
+      {
+        "title": "Mineralwasser (das Geheimnis für Luftigkeit)",
+        "description": "Die Kohlensäure macht den Teig besonders locker – am besten eiskalt direkt aus dem Kühlschrank verwenden."
+      },
+      {
+        "title": "Schnittlauchröllchen (die frische Krönung)",
+        "description": "Geben Farbe und eine feine Zwiebelnote. Erst kurz vor dem Servieren darüberstreuen, damit sie knackig bleiben."
       }
     ],
     "ingredientGroups": [
@@ -2585,9 +2597,32 @@ export const recipes: Recipe[] = [
       {
         "title": "Feta (der salzige Kontrastpunkt)",
         "description": "Seine salzige Cremigkeit rundet die pflanzliche Füllung ab. Für vegane Varianten einfach durch marinierten Tofu oder 2 EL Hefeflocken ersetzen. Griechischer Feta in Salzlake hat übrigens intensiveren Geschmack als vakuumverpackte Varianten."
+      },
+      {
+        "title": "Olivenöl (das flüssige Gold)",
+        "description": "Natives Olivenöl extra veredelt jedes Gericht mit fruchtiger Note und gesunden Fettsäuren. Beim Anbraten entwickelt es wunderbare Aromen – aber nicht zu stark erhitzen, sonst wird es bitter!"
+      },
+      {
+        "title": "Zwiebel (die aromatische Grundlage)",
+        "description": "Fein gewürfelt und sanft angeschwitzt, bildet sie die geschmackliche Basis vieler Gerichte. Ihre natürliche Süße kommt besonders beim langsamen Karamellisieren zur Geltung."
+      },
+      {
+        "title": "Knoblauch (der geschmackliche Verstärker)",
+        "description": "Frisch gepresst entfaltet er sein volles Aroma. Wichtig: Nicht zu stark anbraten, sonst wird er bitter – goldbraun ist perfekt!"
+      },
+      {
+        "title": "Rauchpaprika (die rauchige Note)",
+        "description": "Verleiht Gerichten eine tiefe, rauchige Würze ohne echten Rauch. Die edelsüße Variante ist vielseitig einsetzbar, während die scharfe Version für extra Pepp sorgt."
+      },
+      {
+        "title": "Petersilie (die frische Krönung)",
+        "description": "Glatte oder krause Petersilie gibt nicht nur Frische, sondern auch wichtige Nährstoffe wie Vitamin C und Eisen. Am besten erst zum Schluss darüberstreuen, damit ihr Aroma erhalten bleibt."
+      },
+      {
+        "title": "Zitronenschale (die zitrische Frische)",
+        "description": "Die ungespritzte Schale von Bio-Zitronen verleiht Gerichten eine helle, frische Note. Nur die gelbe Schale verwenden – die weiße Haut darunter kann bitter schmecken!"
       }
     ],
-
     "steps": [
       {
         "title": "Schritt 1: Die Paprika-Veredelung",
