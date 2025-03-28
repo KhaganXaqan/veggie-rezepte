@@ -2117,23 +2117,47 @@ export const recipes: Recipe[] = [
     "introductionParagraph": "Es gibt Gerichte, die schreien nach Aufmerksamkeit – und dann gibt es diese Brokkoli-Quiche. Sie flüstert. Mit jedem Bissen enthüllt sie eine neue Geschmacksschicht: erst die buttrige Kruste, dann der geröstete Brokkoli mit seinen nussigen Röstaromen, gefolgt von der cremigen Füllung, die dank Ricotta und Bergkäse schmilzt wie ein Sonnenuntergang über der Toskana. Was sie besonders macht? Sie braucht kein Fleisch, um zu überzeugen. Der Brokkoli wird hier nicht als 'Ersatz' behandelt, sondern als Hauptdarsteller – in Scheiben geschnitten wie ein Steak, scharf angebraten, bis die Röschen knusprige Kanten bekommen. Dies ist kein 'vegetarisches Gericht'. Dies ist einfach ein großartiges Gericht, das zufällig pflanzlich ist.",
     "additionalParagraph": "Diese Quiche ist mein geheimes Wunderwaffe gegen das Vorurteil, vegetarische Küche sei langweilig. Für Brunch-Gäste serviere ich sie mit einem Klecks Zitronen-Kräuter-Crème fraîche und beobachte, wie selbst eingefleischte Fleischliebhaber um zweite Portionen bitten. An Wochentagen wandert sie in meine Lunchbox – kalt schmeckt sie fast noch besser, wenn die Aromen über Nacht verschmelzen. Mein Pro-Tipp: Backe zwei! Eine zum sofortigen Verzehr, eine zum Einfrieren. Denn wenn spätabends die Lust auf Komfort kommt, ist eine aufgetaute Quiche-Scheibe unter dem Grill das beste pflanzliche Fast-Food der Welt.",
     "ingredientsNeeded": [
-      {
-        "title": "Brokkoli (der vegetarische Star)",
-        "description": "In dicken 'Steaks' geschnitten und scharf angebraten – so wird er zur Hauptattraktion, nicht nur zur Beilage. Reich an Vitamin C und Ballaststoffen."
-      },
-      {
-        "title": "Haselnüsse (pflanzliches Crunch-Wunder)",
-        "description": "Geröstet und grob gehackt ersetzen sie Speck nicht – sie machen ihn überflüssig. Liefern gesunde Fette und Aroma-Tiefe."
-      },
-      {
-        "title": "Ricotta & Bergkäse (vegetarische Cremigkeit)",
-        "description": "Die Kombination aus milder Frische und würzigem Schmelz gibt pflanzlichen Gerichten die perfekte Textur – kein Ei-Überschuss nötig."
-      },
-      {
-        "title": "Dinkelvollkornmehl (die nussige Basis)",
-        "description": "Nährstoffreicher als Weißmehl und mit natürlicher Süße – der ideale Partner für herzhafte vegetarische Gebäcke."
-      }
-    ],
+  {
+    "title": "Brokkoli (der vegetarische Star)",
+    "description": "In dicken 'Steaks' geschnitten und scharf angebraten – so wird er zur Hauptattraktion, nicht nur zur Beilage. Reich an Vitamin C und Ballaststoffen."
+  },
+  {
+    "title": "Haselnüsse (pflanzliches Crunch-Wunder)",
+    "description": "Geröstet und grob gehackt ersetzen sie Speck nicht – sie machen ihn überflüssig. Liefern gesunde Fette und Aroma-Tiefe."
+  },
+  {
+    "title": "Ricotta & Bergkäse (vegetarische Cremigkeit)",
+    "description": "Die Kombination aus milder Frische und würzigem Schmelz gibt pflanzlichen Gerichten die perfekte Textur – kein Ei-Überschuss nötig."
+  },
+  {
+    "title": "Dinkelvollkornmehl (die nussige Basis)",
+    "description": "Nährstoffreicher als Weißmehl und mit natürlicher Süße – der ideale Partner für herzhafte vegetarische Gebäcke."
+  },
+  {
+    "title": "Vollkornhaferflocken (der ballaststoffreiche Partner)",
+    "description": "Verleiht Teigen Biss und Nährstoffe – perfekt für eine herzhafte, sättigende Textur."
+  },
+  {
+    "title": "Olivenöl (der flüssige Goldstandard)",
+    "description": "Hochwertiges natives Öl für Röstaromen und saftige Ergebnisse. Vegan und geschmacksintensiv."
+  },
+  {
+    "title": "Griechischer Joghurt (die sahnige Bindung)",
+    "description": "Verleiht Feuchtigkeit und Frische. Vegetarische Alternative zu Eiern in Teigen."
+  },
+  {
+    "title": "Salz (der Geschmacksverstärker)",
+    "description": "Eine Prise hebt alle Aromen hervor – dosiert, um die natürliche Gemüsesüße zu bewahren."
+  },
+  {
+    "title": "Eier (die Bindekraft)",
+    "description": "Sorgen für Struktur und Lockerheit. Für vegane Version: Leinsamen-Ei (1 EL Leinsamenmehl + 3 EL Wasser pro Ei)."
+  },
+  {
+    "title": "Muskatnuss (das warme Aroma)",
+    "description": "Eine Messerspitze veredelt Käse und Ricotta mit erdiger, leicht süßlicher Note."
+  }
+],
 
     "ingredientGroups": [
       {
