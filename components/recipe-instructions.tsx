@@ -2,7 +2,7 @@ import { UtensilsCrossed } from 'lucide-react'
 
 type RecipeInstructionsProps = {
   instructions: string[],
-  tips: string[]
+  tips?: string[]
 }
 
 export function RecipeInstructions({ instructions, tips }: RecipeInstructionsProps) {
