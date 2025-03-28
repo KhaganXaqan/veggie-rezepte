@@ -1949,7 +1949,6 @@ export const recipes: Recipe[] = [
         "description": "2 Minuten in Öl anrösten, bis es dunkelt – so entstehen karamellisierte, fast fleischige Aromen. Dreifach konzentriert gibt maximale Intensität."
       }
     ],
-
     "ingredientGroups": [
       {
         "title": "Das Gemüse",
@@ -2149,7 +2148,7 @@ export const recipes: Recipe[] = [
     ],
     "rating": 4.5,
     "reviews": 175,
-    "category": "Vegetarische Hauptgerichte",
+    "category": "Hauptgerichte",
     "slug": "brokkoli-quiche",
     "tags": ["Französisch", "Gebäck", "Gemüse"],
     "createdDate": new Date('2025-02-14T00:00:00'),
@@ -2372,7 +2371,7 @@ export const recipes: Recipe[] = [
     ],
     "rating": 4.1,
     "reviews": 144,
-    "category": "Vegetarische Hauptgerichte",
+    "category": "Hauptgerichte",
     "slug": "ratatouille",
     "tags": ["Französisch", "Gemüse", "Hauptgericht"],
     "servings": 2,
@@ -2603,7 +2602,7 @@ export const recipes: Recipe[] = [
     ],
     "rating": 4.6,
     "reviews": 210,
-    "category": "Vegetarische Hauptgerichte",
+    "category": "Hauptgerichte",
     "slug": "gefuellte-paprika",
     "tags": ["Traditionell", "Gemüse", "Hauptgericht"],
     "createdDate": new Date('2025-02-12T00:00:00'),
