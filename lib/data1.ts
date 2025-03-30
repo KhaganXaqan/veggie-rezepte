@@ -2173,47 +2173,47 @@ export const recipes: Recipe[] = [
     "introductionParagraph": "Es gibt Gerichte, die schreien nach Aufmerksamkeit – und dann gibt es diese Brokkoli-Quiche. Sie flüstert. Mit jedem Bissen enthüllt sie eine neue Geschmacksschicht: erst die buttrige Kruste, dann der geröstete Brokkoli mit seinen nussigen Röstaromen, gefolgt von der cremigen Füllung, die dank Ricotta und Bergkäse schmilzt wie ein Sonnenuntergang über der Toskana. Was sie besonders macht? Sie braucht kein Fleisch, um zu überzeugen. Der Brokkoli wird hier nicht als 'Ersatz' behandelt, sondern als Hauptdarsteller – in Scheiben geschnitten wie ein Steak, scharf angebraten, bis die Röschen knusprige Kanten bekommen. Dies ist kein 'vegetarisches Gericht'. Dies ist einfach ein großartiges Gericht, das zufällig pflanzlich ist.",
     "additionalParagraph": "Diese Quiche ist mein geheimes Wunderwaffe gegen das Vorurteil, vegetarische Küche sei langweilig. Für Brunch-Gäste serviere ich sie mit einem Klecks Zitronen-Kräuter-Crème fraîche und beobachte, wie selbst eingefleischte Fleischliebhaber um zweite Portionen bitten. An Wochentagen wandert sie in meine Lunchbox – kalt schmeckt sie fast noch besser, wenn die Aromen über Nacht verschmelzen. Mein Pro-Tipp: Backe zwei! Eine zum sofortigen Verzehr, eine zum Einfrieren. Denn wenn spätabends die Lust auf Komfort kommt, ist eine aufgetaute Quiche-Scheibe unter dem Grill das beste pflanzliche Fast-Food der Welt.",
     "ingredientsNeeded": [
-  {
-    "title": "Brokkoli (der vegetarische Star)",
-    "description": "In dicken 'Steaks' geschnitten und scharf angebraten – so wird er zur Hauptattraktion, nicht nur zur Beilage. Reich an Vitamin C und Ballaststoffen."
-  },
-  {
-    "title": "Haselnüsse (pflanzliches Crunch-Wunder)",
-    "description": "Geröstet und grob gehackt ersetzen sie Speck nicht – sie machen ihn überflüssig. Liefern gesunde Fette und Aroma-Tiefe."
-  },
-  {
-    "title": "Ricotta & Bergkäse (vegetarische Cremigkeit)",
-    "description": "Die Kombination aus milder Frische und würzigem Schmelz gibt pflanzlichen Gerichten die perfekte Textur – kein Ei-Überschuss nötig."
-  },
-  {
-    "title": "Dinkelvollkornmehl (die nussige Basis)",
-    "description": "Nährstoffreicher als Weißmehl und mit natürlicher Süße – der ideale Partner für herzhafte vegetarische Gebäcke."
-  },
-  {
-    "title": "Vollkornhaferflocken (der ballaststoffreiche Partner)",
-    "description": "Verleiht Teigen Biss und Nährstoffe – perfekt für eine herzhafte, sättigende Textur."
-  },
-  {
-    "title": "Olivenöl (der flüssige Goldstandard)",
-    "description": "Hochwertiges natives Öl für Röstaromen und saftige Ergebnisse. Vegan und geschmacksintensiv."
-  },
-  {
-    "title": "Griechischer Joghurt (die sahnige Bindung)",
-    "description": "Verleiht Feuchtigkeit und Frische. Vegetarische Alternative zu Eiern in Teigen."
-  },
-  {
-    "title": "Salz (der Geschmacksverstärker)",
-    "description": "Eine Prise hebt alle Aromen hervor – dosiert, um die natürliche Gemüsesüße zu bewahren."
-  },
-  {
-    "title": "Eier (die Bindekraft)",
-    "description": "Sorgen für Struktur und Lockerheit. Für vegane Version: Leinsamen-Ei (1 EL Leinsamenmehl + 3 EL Wasser pro Ei)."
-  },
-  {
-    "title": "Muskatnuss (das warme Aroma)",
-    "description": "Eine Messerspitze veredelt Käse und Ricotta mit erdiger, leicht süßlicher Note."
-  }
-],
+      {
+        "title": "Brokkoli (der vegetarische Star)",
+        "description": "In dicken 'Steaks' geschnitten und scharf angebraten – so wird er zur Hauptattraktion, nicht nur zur Beilage. Reich an Vitamin C und Ballaststoffen."
+      },
+      {
+        "title": "Haselnüsse (pflanzliches Crunch-Wunder)",
+        "description": "Geröstet und grob gehackt ersetzen sie Speck nicht – sie machen ihn überflüssig. Liefern gesunde Fette und Aroma-Tiefe."
+      },
+      {
+        "title": "Ricotta & Bergkäse (vegetarische Cremigkeit)",
+        "description": "Die Kombination aus milder Frische und würzigem Schmelz gibt pflanzlichen Gerichten die perfekte Textur – kein Ei-Überschuss nötig."
+      },
+      {
+        "title": "Dinkelvollkornmehl (die nussige Basis)",
+        "description": "Nährstoffreicher als Weißmehl und mit natürlicher Süße – der ideale Partner für herzhafte vegetarische Gebäcke."
+      },
+      {
+        "title": "Vollkornhaferflocken (der ballaststoffreiche Partner)",
+        "description": "Verleiht Teigen Biss und Nährstoffe – perfekt für eine herzhafte, sättigende Textur."
+      },
+      {
+        "title": "Olivenöl (der flüssige Goldstandard)",
+        "description": "Hochwertiges natives Öl für Röstaromen und saftige Ergebnisse. Vegan und geschmacksintensiv."
+      },
+      {
+        "title": "Griechischer Joghurt (die sahnige Bindung)",
+        "description": "Verleiht Feuchtigkeit und Frische. Vegetarische Alternative zu Eiern in Teigen."
+      },
+      {
+        "title": "Salz (der Geschmacksverstärker)",
+        "description": "Eine Prise hebt alle Aromen hervor – dosiert, um die natürliche Gemüsesüße zu bewahren."
+      },
+      {
+        "title": "Eier (die Bindekraft)",
+        "description": "Sorgen für Struktur und Lockerheit. Für vegane Version: Leinsamen-Ei (1 EL Leinsamenmehl + 3 EL Wasser pro Ei)."
+      },
+      {
+        "title": "Muskatnuss (das warme Aroma)",
+        "description": "Eine Messerspitze veredelt Käse und Ricotta mit erdiger, leicht süßlicher Note."
+      }
+    ],
 
     "ingredientGroups": [
       {
@@ -2850,7 +2850,7 @@ export const recipes: Recipe[] = [
     "createdDate": new Date('2025-02-17T00:00:00'),
     "updatedDate": new Date('2025-03-28T00:00:00'),
     "servings": 4,
-    "description": "Knuspriger Blätterteig mit mediterranem Ofengemüse & Feta – dieser vegetarische Strudel beweist: pflanzliche Küche kann elegant & geschmacksintensiv sein!",  
+    "description": "Knuspriger Blätterteig mit mediterranem Ofengemüse & Feta – dieser vegetarische Strudel beweist: pflanzliche Küche kann elegant & geschmacksintensiv sein!",
     "descriptionOnImage": "Goldbrauner Blätterteigstrudel mit einer duftenden Füllung aus geröstetem Gemüse und Kräutern – vegetarische Backkunst auf höchstem Niveau.",
     "introductionParagraph": "Stellen Sie sich vor, Sie schneiden in einen perfekt gebackenen Strudel – der erste Blick offenbart Schichten von zartem Blätterteig, die sich wie ein französisches Croissant lösen, während der Duft von gerösteten Auberginen, süßen Kirschtomaten und frischem Thymian aufsteigt. Dies ist kein gewöhnliches vegetarisches Gericht, sondern eine kulinarische Liebeserklärung an mediterrane Aromen. Der Clou? Das Gemüse wird nicht einfach gekocht, sondern einzeln geröstet, bis sich seine natürliche Süße entfaltet hat. Die Paprika verwandelt sich in karamellige Streifen, die Zucchini behält ihren Biss, und die Aubergine wird zu einer buttrigen Köstlichkeit. Eingehüllt in hauchdünnen Blätterteig entsteht so ein pflanzliches Meisterwerk, das selbst eingefleischte Fleischliebhaber überzeugt.",
     "additionalParagraph": "Was diesen vegetarischen Strudel besonders macht, ist seine erstaunliche Vielseitigkeit. An heißen Sommertagen serviere ich ihn lauwarm mit einem Klecks zitronigem Joghurt-Dip – die Frische der Zitrone schneidet perfekt durch die reichhaltige Füllung. Im Winter wird er zum Herzstück eines festlichen Menüs, begleitet von einer cremigen Safransauce. Mein Geheimtipp: Die Gemüsefüllung einen Tag vorher zubereiten – über Nacht intensivieren sich die Aromen, während der Thymian seine ätherischen Öle entfaltet. Und für spontane Gäste habe ich immer eingefrorene Strudel-Rohlinge parat – einfach 10 Minuten länger backen, und Sie servieren ein pflanzliches Gourmetgericht ohne Vorbereitungsstress.",
@@ -3065,6 +3065,229 @@ export const recipes: Recipe[] = [
       "image5": "/images/Miscellaneous/gemueseStrudel5.webp",
       "image6": "/images/Miscellaneous/gemueseStrudel6.webp",
       "image7": "/images/Miscellaneous/gemueseStrudel7.webp"
+    }
+  },
+  {
+    "title": "Vegetarische Linsen-Bolognese: Ein Herzhaftes Geschmackserlebnis",
+    "seo_title": "Rezept: Linsen-Bolognese (Vegetarisch / Vegan) – Einfach",
+    "image": "/images/MainCourses/linsen-bolognese.webp",
+    "prepTime": 20,
+    "cookingTime": 40,
+    "seo_keywords": [
+      "Vegetarische Linsen-Bolognese",
+      "Vegane Bolognese",
+      "Pflanzliche Pasta-Sauce",
+      "Gesunde vegetarische Rezepte",
+      "Linsen-Sauce",
+      "Vegetarische Pasta",
+      "Linsenrezept"
+    ],
+    "rating": 4.7,
+    "reviews": 210,
+    "category": "Hauptgerichte",
+    "slug": "linsen-bolognese",
+    "tags": ["Pasta", "Italienisch", "Proteinreich"],
+    "createdDate": new Date("2025-02-20T00:00:00"),
+    "updatedDate": new Date("2025-03-30T00:00:00"),
+    "servings": 3,
+    "description": "Leckere vegetarische Linsen-Bolognese selber machen! Einfaches Rezept, herzhaft im Geschmack & optional vegan. Ideal für Pasta-Liebhaber. Entdecke es hier!",
+    "descriptionOnImage": "Eine reichhaltige, vegetarische Linsen-Bolognese, verfeinert mit frischen Kräutern und einer aromatischen Tomatensauce – ein veganes Wohlfühlgericht, das selbst anspruchsvolle Pasta-Liebhaber begeistert und zeigt, wie köstlich vegetarische Küche sein kann.",
+    "introductionParagraph": "Stellen Sie sich vor, eine dampfende Schüssel Pasta, überzogen mit einer tiefroten, aromatischen Sauce, die nicht nur köstlich schmeckt, sondern auch ein Fest für die Sinne ist. Diese vegetarische Linsen-Bolognese ist ein Beweis dafür, dass pflanzliche Küche alles andere als langweilig ist. Die Linsen, das Herzstück dieser Kreation, werden langsam in einer reichhaltigen Tomatensauce geschmort, bis sie eine perfekte Konsistenz erreichen – weich, aber mit einem angenehmen Biss. Das Geheimnis liegt in der sorgfältigen Auswahl und Kombination von Kräutern und Gewürzen, die der Sauce eine unglaubliche Tiefe und Komplexität verleihen. Dieses Gericht ist nicht nur ein Gaumenschmaus, sondern auch eine Hommage an die Vielseitigkeit der vegetarischen Küche.",
+    "additionalParagraph": "Was diese vegetarische Linsen-Bolognese so besonders macht, ist ihre unglaubliche Vielseitigkeit. Sie ist nicht nur ein perfektes, nahrhaftes Abendessen für die ganze Familie, sondern auch ideal für Meal-Prep. Die Sauce lässt sich wunderbar vorbereiten und im Kühlschrank aufbewahren oder sogar einfrieren, ohne ihren reichen Geschmack zu verlieren. Für ein noch intensiveres Aroma können Sie die Sauce langsam köcheln lassen, bis sie dick und konzentriert ist, was die Süße der Tomaten und die Erdigkeit der Linsen hervorhebt. Und für alle, die es gerne etwas schärfer mögen, empfehle ich, eine Prise Chiliflocken oder ein paar Tropfen Tabasco hinzuzufügen. Diese Linsen-Bolognese ist ein Gericht, das immer wieder Freude bereitet und zeigt, wie einfach und köstlich vegane und vegetarische Küche sein kann, ohne auf Geschmack oder Textur zu verzichten.",
+    "ingredientsNeeded": [
+      {
+        "title": "Rote Linsen: Das Herzstück der Vegetarischen Bolognese",
+        "description": "Sie kochen schnell weich und nehmen Aromen hervorragend auf. Achten Sie auf hochwertige, ungeschälte Linsen, um eine cremige Konsistenz und einen nussigen Geschmack zu erzielen. Diese sind das Geheimnis für eine perfekte vegetarische Bolognese."
+      },
+      {
+        "title": "Gehackte Tomaten: Die Grundlage für eine Aromatische Sauce",
+        "description": "Sie bilden die Basis der Sauce und sorgen für eine natürliche Süße und Säure. Verwenden Sie hochwertige, stückige Tomaten aus der Dose oder frische, reife Tomaten für beste Ergebnisse in Ihrer Linsen-Bolognese."
+      },
+      {
+        "title": "Gemüsebrühe: Der Aromenverstärker für Vegetarische Gerichte",
+        "description": "Sie verleiht der Sauce Tiefe und Geschmack, ohne tierische Produkte. Verwenden Sie eine gute, kräftige Gemüsebrühe oder selbstgemachte Brühe, um die Aromen der Linsen-Bolognese zu intensivieren."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch: Die Aromatische Basis jeder Guten Sauce",
+        "description": "Sie bilden die Grundlage für die Sauce und sorgen für eine herzhafte, leicht süßliche Note. Fein gehackt entfalten sie ihr volles Aroma und sind unverzichtbar für eine authentische Linsen-Bolognese."
+      },
+      {
+        "title": "Karotten und Sellerie: Die Texturgeber für Vegetarische Saucen",
+        "description": "Sie geben der Sauce Textur und Süße, ohne auf Fleisch zurückzugreifen. Fein gewürfelt sorgen sie für einen angenehmen Biss und bereichern jede Linsen-Bolognese."
+      },
+      {
+        "title": "Italienische Kräuter: Das Aroma Mediterraner Küche",
+        "description": "Eine Mischung aus getrockneten Kräutern wie Oregano, Thymian und Basilikum. Sie verleihen der Sauce einen mediterranen Touch und sind das Herzstück jeder vegetarischen Bolognese."
+      },
+      {
+        "title": "Olivenöl: Der Geschmeidigmacher für Vegetarische Gerichte",
+        "description": "Hochwertiges Olivenöl veredelt die Sauce und sorgt für eine seidige Textur, ohne tierische Fette. Es ist das ideale Fett für eine reichhaltige Linsen-Bolognese."
+      },
+      {
+        "title": "Rotwein: Die Tiefe und Komplexität Vegetarischer Saucen",
+        "description": "Er verleiht der Sauce eine tiefe, komplexe Note, ohne auf Fleisch zurückzugreifen. Verwenden Sie einen trockenen Rotwein, um die Aromen der Linsen-Bolognese zu intensivieren."
+      },
+      {
+        "title": "Lorbeerblätter: Die Subtile Würze Vegetarischer Gerichte",
+        "description": "Sie geben der Sauce eine subtile, erdige Würze. Entfernen Sie sie vor dem Servieren, um die reine Aromenvielfalt der Linsen-Bolognese zu genießen."
+      },
+      {
+        "title": "Tomatenmark: Die Konzentration des Tomatengeschmacks",
+        "description": "Es intensiviert den Tomatengeschmack und gibt der Sauce eine reichhaltige Farbe. Ein Muss für jede aromatische Linsen-Bolognese."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Vegetarischen Linsen-Bolognese",
+        "description": "Die Grundlage für eine reichhaltige und aromatische Bolognese, ganz ohne Fleisch:",
+        "ingredients": [
+          { "amount": 200, "unit": "g", "name": "Rote Linsen" },
+          { "amount": 800, "unit": "g", "name": "Gehackte Tomaten (Dose)" },
+          { "amount": 500, "unit": "ml", "name": "Gemüsebrühe" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Vegetarischen Linsen-Bolognese",
+        "description": "Die Zutaten, die der Bolognese ihren unverwechselbaren Geschmack verleihen, ganz ohne tierische Produkte:",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Zwiebeln (gehackt)" },
+          { "amount": 3, "unit": "Zehen", "name": "Knoblauch (gehackt)" },
+          { "amount": 2, "unit": "", "name": "Karotten (gewürfelt)" },
+          { "amount": 2, "unit": "Stangen", "name": "Sellerie (gewürfelt)" },
+          { "amount": 2, "unit": "EL", "name": "Italienische Kräuter (getrocknet)" },
+          { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 125, "unit": "ml", "name": "Rotwein" },
+          { "amount": 2, "unit": "", "name": "Lorbeerblätter" },
+          { "amount": 2, "unit": "EL", "name": "Tomatenmark" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 200, "unit": "g", "name": "Rote Linsen" },
+      { "amount": 800, "unit": "g", "name": "Gehackte Tomaten (Dose)" },
+      { "amount": 500, "unit": "ml", "name": "Gemüsebrühe" },
+      { "amount": 2, "unit": "", "name": "Zwiebeln" },
+      { "amount": 3, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 2, "unit": "", "name": "Karotten" },
+      { "amount": 2, "unit": "Stangen", "name": "Sellerie" },
+      { "amount": 2, "unit": "EL", "name": "Italienische Kräuter (getrocknet)" },
+      { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 125, "unit": "ml", "name": "Rotwein" },
+      { "amount": 2, "unit": "", "name": "Lorbeerblätter" },
+      { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" }
+    ],
+    "instructions": [
+      "Zwiebeln, Knoblauch, Karotten und Sellerie in Olivenöl anbraten, bis sie weich und leicht karamellisiert sind, um die süßen Aromen freizusetzen.",
+      "Tomatenmark hinzufügen und kurz mitbraten, um die Säure zu reduzieren und die Süße zu intensivieren.",
+      "Mit Rotwein ablöschen und kurz einkochen lassen, bis der Alkohol verdampft ist und die Aromen sich verbinden.",
+      "Gehackte Tomaten, Linsen, Gemüsebrühe, italienische Kräuter und Lorbeerblätter hinzufügen. Mit Salz und Pfeffer würzen und gut umrühren.",
+      "Aufkochen lassen, dann die Hitze reduzieren und 30-40 Minuten köcheln lassen, bis die Linsen weich sind und die Sauce eingedickt ist. Lorbeerblätter entfernen.",
+      "Mit Pasta servieren und nach Belieben mit frischen Kräutern garnieren, um die vegetarische Linsen-Bolognese zu vervollständigen."
+    ],
+    "nutrition": {
+      "calories": 1550,
+      "protein": "65g",
+      "carbs": "203.5g",
+      "fat": "45.7g"
+    },
+    "tips": [
+      "Für eine intensivere Sauce, lassen Sie sie länger köcheln, um die Aromen zu konzentrieren und die Süße der Tomaten hervorzuheben.",
+      "Fügen Sie eine Prise Chiliflocken oder ein paar Tropfen Tabasco für eine schärfere Note hinzu, um die vegetarische Linsen-Bolognese aufzupeppen.",
+      "Verwenden Sie hochwertige, stückige Tomaten aus der Dose oder frische, reife Tomaten für beste Ergebnisse in Ihrer Linsen-Bolognese.",
+      "Die Sauce lässt sich gut vorbereiten und einfrieren, ohne ihren reichen Geschmack zu verlieren, ideal für schnelle, vegetarische Mahlzeiten."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Vegetarische Linsen-Bolognese mein Vegan-Vegetarisches Herz erobert",
+      "reasons": [
+        {
+          "title": "Reichhaltiger Geschmack, Ohne Fleisch",
+          "description": "Die tiefen Aromen und die herzhafte Konsistenz überzeugen selbst Fleischliebhaber von der Vielseitigkeit der vegetarischen Küche."
+        },
+        {
+          "title": "Gesund und Nahrhaft, Ganz Pflanzlich",
+          "description": "Linsen sind reich an Protein und Ballaststoffen, was diese Bolognese zu einem gesunden, vegetarischen Gericht macht, das lange sättigt."
+        },
+        {
+          "title": "Einfache Zubereitung, Perfekt für den Alltag",
+          "description": "Dieses Gericht ist unkompliziert und perfekt für den Alltag, zeigt aber dennoch, wie köstlich vegetarische Gerichte sein können."
+        },
+        {
+          "title": "Vielseitig und Anpassungsfähig, für Vegetarische Genießer",
+          "description": "Die Sauce lässt sich hervorragend vorbereiten und einfrieren, was sie zu einem flexiblen Bestandteil jeder vegetarischen Küche macht."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von dieser vegetarischen Linsen-Bolognese verzaubern – ein vegetarisches Wohlfühlgericht, das glücklich macht und zeigt, wie vielfältig vegetarische Küche sein kann!",
+      "subText": "Ich bin sicher, diese Sauce wird Ihre Pasta-Abende revolutionieren und Sie von der Vielfalt der vegetarischen Küche überzeugen...",
+      "signature": "Ihre Pasta-Liebhaberin"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Aromenbasis für Ihre Vegetarische Linsen-Bolognese",
+        "description": "Zwiebeln, Knoblauch, Karotten und Sellerie in Olivenöl anschwitzen, um die Aromen freizusetzen und die Basis für eine reichhaltige Sauce zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Tiefe der Vegetarischen Sauce",
+        "description": "Tomatenmark und Rotwein hinzufügen, um der Sauce Tiefe und Komplexität zu verleihen, ganz ohne Fleisch."
+      },
+      {
+        "title": "Schritt 3: Das Köcheln der Linsen-Bolognese",
+        "description": "Linsen, Tomaten, Gemüsebrühe und Kräuter hinzufügen und langsam köcheln lassen, bis die Linsen weich sind und die Sauce eingedickt ist, um die perfekte Konsistenz zu erreichen."
+      },
+      {
+        "title": "Schritt 4: Das Servieren Ihrer Vegetarischen Köstlichkeit",
+        "description": "Mit Pasta servieren und nach Belieben mit frischen Kräutern garnieren, um die Aromen zu vervollständigen und die vegetarische Linsen-Bolognese zu genießen."
+      }
+    ],
+    "servingSuggestion": "Mit Spaghetti und frisch geriebenem Parmesan (vegane Option: Hefeflocken) servieren, um die vegetarische Linsen-Bolognese abzurunden.",
+    "servingSuggestions": {
+      "title": "Globale Pasta-Pairings für Ihre Vegetarische Linsen-Bolognese",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen, die zeigen, wie vielseitig vegetarische Linsen-Bolognese sein kann:",
+      "note": "Diese Ideen zeigen, wie vielseitig vegetarische Linsen-Bolognese sein kann und wie einfach es ist, internationale Aromen in Ihre Küche zu bringen!",
+      "items": [
+        {
+          "emoji": "🌿",
+          "title": "Pesto-Twist für Vegetarische Genießer",
+          "description": "Servieren Sie die Bolognese mit Pesto und Pinienkernen für einen mediterranen Touch, der die vegetarische Linsen-Bolognese bereichert."
+        },
+        {
+          "emoji": "🌶️",
+          "title": "Mexikanische Note für Vegetarische Abenteurer",
+          "description": "Fügen Sie eine Prise Chiliflocken und Koriander hinzu und servieren Sie mit Tortellini, um eine mexikanische Variante der vegetarischen Linsen-Bolognese zu kreieren."
+        },
+        {
+          "emoji": "🥥",
+          "title": "Asiatische Fusion für Vegetarische Entdecker",
+          "description": "Servieren Sie die Bolognese mit Reisnudeln und Kokosmilch für eine exotische Variante, die die Vielseitigkeit der vegetarischen Küche zeigt."
+        },
+        {
+          "emoji": "🧀",
+          "title": "Gefüllte Pasta für Vegetarische Feinschmecker",
+          "description": "Füllen Sie Ravioli mit der Linsen-Bolognese und servieren Sie mit einer cremigen Sauce, um ein raffiniertes vegetarisches Gericht zu zaubern."
+        },
+        {
+          "emoji": "🍞",
+          "title": "Bolognese-Auflauf für Vegetarische Liebhaber",
+          "description": "Schichten Sie die Bolognese mit Lasagneplatten und Bechamel für einen herzhaften Auflauf, der die vegetarische Linsen-Bolognese in ein festliches Gericht verwandelt."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Linsen-Power für Vegetarische Genießer",
+      "description": "Wussten Sie, dass Linsen zu den ältesten kultivierten Pflanzen gehören? Sie sind nicht nur unglaublich nahrhaft und ein Symbol für Wohlstand und Glück in vielen Kulturen, sondern auch das Herzstück unserer vegetarischen Linsen-Bolognese. Ein Beweis dafür, wie vielseitig und köstlich diese kleinen Kraftpakete in der vegetarischen Küche sein können!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/linsenBologneseIngredient.webp",
+      "image1": "/images/MainCourses/linsen-bolognese1.webp",
+      "image2": "/images/MainCourses/linsen-bolognese2.webp",
+      "image3": "/images/MainCourses/linsen-bolognese3.webp",
+      "image4": "/images/MainCourses/linsen-bolognese4.webp",
+      "image5": "/images/MainCourses/linsen-bolognese5.webp",
+      "image6": "/images/MainCourses/linsen-bolognese6.webp",
+      "image7": "/images/MainCourses/linsen-bolognese7.webp"
     }
   }
 ];
