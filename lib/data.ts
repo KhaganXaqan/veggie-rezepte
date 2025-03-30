@@ -3620,6 +3620,195 @@ instructions: [
     image6: "",
     image7: ""
   }
+  },
+  {
+    "title": "Vegetarische Dubai Schokolade: Ein Exotischer Genuss mit Milchschokolade",
+    "seo_title": "Vegetarische Dubai Schokolade Rezept – Exotische Schokoladenkreation für Vegetarier",
+    "image": "/images/Desserts/dubaiSchokolade.webp",
+    "prepTime": 30,
+    "cookingTime": 15,
+    "rating": 4.9,
+    "reviews": 150,
+    "category": "Desserts",
+    "slug": "dubai-schokolade",
+    "tags": ["Vegetarisch", "Schokolade", "Dubai", "Exotisch", "Milchschokolade"],
+    "createdDate": new Date("2025-03-05T00:00:00"),
+    "updatedDate": new Date("2025-03-30T00:00:00"),
+    "servings": 6,
+    "description": "Erleben Sie die luxuriöse Welt der vegetarischen Dubai Schokolade – eine exotische Kreation, die mit reichen Aromen und einer einzigartigen Textur verführt. Ein unvergessliches Dessert für jeden Anlass, speziell für Vegetarier kreiert.",
+    "descriptionOnImage": "Vergoldete, samtige vegetarische Dubai Schokolade mit orientalischen Gewürzen und knackigen Nüssen – ein Meisterwerk, das die Sinne verzaubert und die Magie Dubais in jedem Bissen einfängt.",
+    "introductionParagraph": "Tauchen Sie ein in die faszinierende Welt der vegetarischen Dubai Schokolade, ein Dessert, das die Opulenz und den Glanz der Vereinigten Arabischen Emirate in jedem Bissen widerspiegelt. Diese einzigartige Schokoladenkreation kombiniert die reichhaltige Süße hochwertiger Milchschokolade mit exotischen Gewürzen und knackigen Texturen, um ein unvergessliches Geschmackserlebnis zu schaffen. Die vegetarische Dubai Schokolade ist nicht nur ein Dessert, sondern eine Reise durch die Aromen des Orients, angepasst für Liebhaber vegetarischer Genüsse. Sie zeigt, wie luxuriös und vielfältig vegetarische Desserts sein können, ohne auf Geschmack oder Textur zu verzichten.",
+    "additionalParagraph": "Was diese vegetarische Dubai Schokolade so besonders macht, ist ihre Vielseitigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie ist das perfekte Dessert für besondere Anlässe, festliche Mahlzeiten oder einfach, um sich selbst einen Moment der puren Freude zu gönnen. Die Zubereitung ist überraschend einfach und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie geröstete Nüsse oder getrocknete Früchte hinzufügen. Und für diejenigen, die es gerne etwas würziger mögen, empfiehlt sich eine Prise Kardamom oder Zimt. Diese vegetarische Dubai Schokolade ist nicht nur ein Dessert, sondern ein Ausdruck von Kreativität und Genuss, der zeigt, wie luxuriös und vielfältig vegetarische Süßspeisen sein können.",
+    "ingredientsNeeded": [
+      {
+        "title": "Hochwertige Milchschokolade: Die Basis für Luxus",
+        "description": "Verwenden Sie hochwertige Milchschokolade mit einem hohen Kakaoanteil für ein intensives Geschmackserlebnis. Achten Sie auf Qualität, um die reichhaltige Süße der Dubai Schokolade zu gewährleisten."
+      },
+      {
+        "title": "Datteln: Die Süße des Orients",
+        "description": "Sie verleihen der Schokolade eine natürliche Süße und eine weiche, karamellartige Textur. Verwenden Sie Medjool-Datteln für ein besonders aromatisches Ergebnis in Ihrer vegetarischen Dubai Schokolade."
+      },
+      {
+        "title": "Nüsse: Der Knackige Kontrast",
+        "description": "Eine Mischung aus Mandeln, Pistazien und Cashews sorgt für einen angenehmen Biss und eine nussige Note. Rösten Sie die Nüsse leicht an, um ihr Aroma zu intensivieren."
+      },
+      {
+        "title": "Rosenwasser: Die Exotische Note",
+        "description": "Es verleiht der Schokolade ein blumiges, orientalisches Aroma. Verwenden Sie hochwertiges Rosenwasser, um die subtilen Noten der Dubai Schokolade hervorzuheben."
+      },
+      {
+        "title": "Kardamom: Die Warme Würze",
+        "description": "Er gibt der Schokolade eine warme, leicht scharfe Note. Verwenden Sie frisch gemahlenen Kardamom für ein intensives Aroma in Ihrer vegetarischen Kreation."
+      },
+      {
+        "title": "Butter: Der Geschmeidigmacher",
+        "description": "Sie sorgt für eine cremige Textur und einen zarten Schmelz. Verwenden Sie hochwertige Butter, um die natürliche Süße der Dubai Schokolade zu unterstreichen."
+      },
+      {
+        "title": "Goldstaub (optional): Der Luxuriöse Touch",
+        "description": "Er verleiht der Schokolade einen glamourösen Look und macht sie zu einem echten Hingucker. Verwenden Sie essbaren Goldstaub für eine sichere und beeindruckende Präsentation."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Vegetarischen Dubai Schokolade",
+        "description": "Die Grundlage für ein luxuriöses, vegetarisches Dessert:",
+        "ingredients": [
+          { "amount": 200, "unit": "g", "name": "Milchschokolade" },
+          { "amount": 100, "unit": "g", "name": "Entsteinte Datteln" },
+          { "amount": 50, "unit": "g", "name": "Gemischte Nüsse (Mandeln, Pistazien, Cashews)" }
+        ]
+      },
+      {
+        "title": "Die Exotischen Aromen der Vegetarischen Dubai Schokolade",
+        "description": "Die Zutaten, die der Schokolade ihren unverwechselbaren, orientalischen Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 2, "unit": "EL", "name": "Rosenwasser" },
+          { "amount": 1, "unit": "TL", "name": "Gemahlener Kardamom" },
+          { "amount": 2, "unit": "EL", "name": "Butter" },
+          { "amount": 1, "unit": "Prise", "name": "Essbarer Goldstaub (optional)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 200, "unit": "g", "name": "Milchschokolade" },
+      { "amount": 100, "unit": "g", "name": "Entsteinte Datteln" },
+      { "amount": 50, "unit": "g", "name": "Gemischte Nüsse (Mandeln, Pistazien, Cashews)" },
+      { "amount": 2, "unit": "EL", "name": "Rosenwasser" },
+      { "amount": 1, "unit": "TL", "name": "Gemahlener Kardamom" },
+      { "amount": 2, "unit": "EL", "name": "Butter" },
+      { "amount": 1, "unit": "Prise", "name": "Essbarer Goldstaub (optional)" }
+    ],
+    "instructions": [
+      "Die Milchschokolade und die Butter in einem Wasserbad schmelzen, bis eine glatte Masse entsteht.",
+      "Die Datteln fein hacken und zusammen mit den gerösteten Nüssen, dem Rosenwasser und dem Kardamom unter die geschmolzene Schokolade rühren.",
+      "Die Schokoladenmischung in eine mit Backpapier ausgelegte Form geben und glatt streichen.",
+      "Die vegetarische Dubai Schokolade für mindestens 2 Stunden im Kühlschrank fest werden lassen.",
+      "Vor dem Servieren mit essbarem Goldstaub bestreuen und in kleine Stücke schneiden."
+    ],
+    "nutrition": {
+      "calories": 1859,
+      "protein": "28.8g",
+      "carbs": "203g",
+      "fat": "110.6g"
+    },
+    "tips": [
+      "Für eine intensivere Nussnote, rösten Sie die Nüsse vor dem Hinzufügen im Ofen an.",
+      "Verwenden Sie hochwertige Milchschokolade mit einem hohen Kakaoanteil für ein reichhaltigeres Geschmackserlebnis.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Zimt oder Ingwer, um die vegetarische Dubai Schokolade zu personalisieren.",
+      "Für eine reichhaltigere Textur können Sie etwas Sahne hinzufügen."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Vegetarische Dubai Schokolade mein Herz erobert",
+      "reasons": [
+        {
+          "title": "Exotische Aromen",
+          "description": "Die Kombination aus Datteln, Rosenwasser und Kardamom ist ein wahrer Genuss für die Sinne, perfekt für Vegetarier."
+        },
+        {
+          "title": "Luxuriöse Textur",
+          "description": "Die cremige Milchschokolade und die knackigen Nüsse sorgen für ein unvergessliches Mundgefühl."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Dessert ist überraschend einfach zuzubereiten und perfekt für besondere Anlässe, speziell für Vegetarier."
+        },
+        {
+          "title": "Vegetarischer Genuss",
+          "description": "Die vegetarische Dubai Schokolade zeigt, wie luxuriös und vielfältig vegetarische Desserts sein können."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von der Magie der vegetarischen Dubai Schokolade verzaubern – ein Dessert, das die Sinne berührt und die Seele wärmt!",
+      "subText": "Ich bin sicher, diese Schokolade wird Ihre Gäste begeistern und Sie in eine Welt des orientalischen Genusses entführen...",
+      "signature": "Ihre Schokoladen-Liebhaberin"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Schokolade Schmelzen",
+        "description": "Schmelzen Sie die Milchschokolade und die Butter langsam im Wasserbad, um eine glatte, cremige Basis für Ihre Dubai Schokolade zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Hinzufügen",
+        "description": "Fügen Sie die fein gehackten Datteln, gerösteten Nüsse, Rosenwasser und Kardamom hinzu, um die exotischen Aromen der Dubai Schokolade zu entfalten."
+      },
+      {
+        "title": "Schritt 3: Die Schokolade Fest Werden Lassen",
+        "description": "Geben Sie die Schokoladenmischung in eine Form und lassen Sie sie im Kühlschrank fest werden, um die perfekte Konsistenz zu erreichen."
+      },
+      {
+        "title": "Schritt 4: Das Servieren",
+        "description": "Bestreuen Sie die vegetarische Dubai Schokolade vor dem Servieren mit essbarem Goldstaub, um einen luxuriösen Touch zu verleihen."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die vegetarische Dubai Schokolade mit einer Tasse arabischen Kaffees oder einem Glas Minztee, um die orientalischen Aromen zu unterstreichen.",
+    "servingSuggestions": {
+      "title": "Globale Schokoladen-Pairings für Vegetarier",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre vegetarische Dubai Schokolade:",
+      "note": "Diese Ideen zeigen, wie vielseitig vegetarische Schokolade sein kann und wie einfach es ist, internationale Aromen in Ihr Dessert zu integrieren!",
+      "items": [
+        {
+          "emoji": "☕",
+          "title": "Mexikanischer Mokka",
+          "description": "Servieren Sie die Schokolade mit einem Mokka, verfeinert mit einer Prise Zimt und Chili, für eine würzige Note."
+        },
+        {
+          "emoji": "🍊",
+          "title": "Italienische Orangen-Schokolade",
+          "description": "Kombinieren Sie die Dubai Schokolade mit kandierten Orangenschalen und einem Glas italienischen Vin Santo."
+        },
+        {
+          "emoji": "🍵",
+          "title": "Japanischer Matcha-Tee",
+          "description": "Servieren Sie die Schokolade mit einem Matcha-Tee und einer Prise geröstetem Sesam für eine japanische Note."
+        },
+        {
+          "emoji": "🥥",
+          "title": "Thailändische Kokos-Schokolade",
+          "description": "Verfeinern Sie die Schokolade mit Kokosraspeln und servieren Sie sie mit einem Glas Kokoswasser."
+        },
+        {
+          "emoji": "🍇",
+          "title": "Französisches Schokoladen-Soufflé",
+          "description": "Servieren Sie die Dubai Schokolade als Beilage zu einem warmen Schokoladen-Soufflé und einem Glas französischen Rotwein."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Die Goldene Schokolade",
+      "description": "Wussten Sie, dass Gold in vielen Kulturen als Symbol für Reichtum und Luxus gilt? In Dubai wird Gold oft in Desserts verwendet, um die Opulenz der Stadt widerzuspiegeln. Unsere vegetarische Dubai Schokolade ist eine Hommage an diese Tradition, ganz ohne tierische Produkte, und zeigt, wie luxuriös und vielfältig vegetarische Desserts sein können!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/dubaiSchokoladeIngredient.webp",
+      "image1": "/images/Miscellaneous/dubaiSchokolade1.webp",
+      "image2": "/images/Miscellaneous/dubaiSchokolade2.webp",
+      "image3": "/images/Miscellaneous/dubaiSchokolade3.webp",
+      "image4": "/images/Miscellaneous/dubaiSchokolade4.webp",
+      "image5": "/images/Miscellaneous/dubaiSchokolade5.webp",
+      "image6": "/images/Miscellaneous/dubaiSchokolade6.webp",
+      "image7": "/images/Miscellaneous/dubaiSchokolade7.webp"
+    }
   }
 ];
 
