@@ -3096,44 +3096,44 @@ export const recipes: Recipe[] = [
     "additionalParagraph": "Was diese vegetarische Linsen-Bolognese so besonders macht, ist ihre unglaubliche Vielseitigkeit. Sie ist nicht nur ein perfektes, nahrhaftes Abendessen für die ganze Familie, sondern auch ideal für Meal-Prep. Die Sauce lässt sich wunderbar vorbereiten und im Kühlschrank aufbewahren oder sogar einfrieren, ohne ihren reichen Geschmack zu verlieren. Für ein noch intensiveres Aroma können Sie die Sauce langsam köcheln lassen, bis sie dick und konzentriert ist, was die Süße der Tomaten und die Erdigkeit der Linsen hervorhebt. Und für alle, die es gerne etwas schärfer mögen, empfehle ich, eine Prise Chiliflocken oder ein paar Tropfen Tabasco hinzuzufügen. Diese Linsen-Bolognese ist ein Gericht, das immer wieder Freude bereitet und zeigt, wie einfach und köstlich vegane und vegetarische Küche sein kann, ohne auf Geschmack oder Textur zu verzichten.",
     "ingredientsNeeded": [
       {
-        "title": "Rote Linsen: Das Herzstück der Vegetarischen Bolognese",
-        "description": "Sie kochen schnell weich und nehmen Aromen hervorragend auf. Achten Sie auf hochwertige, ungeschälte Linsen, um eine cremige Konsistenz und einen nussigen Geschmack zu erzielen. Diese sind das Geheimnis für eine perfekte vegetarische Bolognese."
+        "title": "Rote Linsen:",
+        "description": "Das Herzstück der Vegetarischen Bolognese. Sie kochen schnell weich und nehmen Aromen hervorragend auf. Achten Sie auf hochwertige, ungeschälte Linsen, um eine cremige Konsistenz und einen nussigen Geschmack zu erzielen. Diese sind das Geheimnis für eine perfekte vegetarische Bolognese."
       },
       {
-        "title": "Gehackte Tomaten: Die Grundlage für eine Aromatische Sauce",
-        "description": "Sie bilden die Basis der Sauce und sorgen für eine natürliche Süße und Säure. Verwenden Sie hochwertige, stückige Tomaten aus der Dose oder frische, reife Tomaten für beste Ergebnisse in Ihrer Linsen-Bolognese."
+        "title": "Gehackte Tomaten:",
+        "description": "Die Grundlage für eine Aromatische Sauce. Sie bilden die Basis der Sauce und sorgen für eine natürliche Süße und Säure. Verwenden Sie hochwertige, stückige Tomaten aus der Dose oder frische, reife Tomaten für beste Ergebnisse in Ihrer Linsen-Bolognese."
       },
       {
-        "title": "Gemüsebrühe: Der Aromenverstärker für Vegetarische Gerichte",
-        "description": "Sie verleiht der Sauce Tiefe und Geschmack, ohne tierische Produkte. Verwenden Sie eine gute, kräftige Gemüsebrühe oder selbstgemachte Brühe, um die Aromen der Linsen-Bolognese zu intensivieren."
+        "title": "Gemüsebrühe:",
+        "description": "Der Aromenverstärker für Vegetarische Gerichte. Sie verleiht der Sauce Tiefe und Geschmack, ohne tierische Produkte. Verwenden Sie eine gute, kräftige Gemüsebrühe oder selbstgemachte Brühe, um die Aromen der Linsen-Bolognese zu intensivieren."
       },
       {
-        "title": "Zwiebeln und Knoblauch: Die Aromatische Basis jeder Guten Sauce",
-        "description": "Sie bilden die Grundlage für die Sauce und sorgen für eine herzhafte, leicht süßliche Note. Fein gehackt entfalten sie ihr volles Aroma und sind unverzichtbar für eine authentische Linsen-Bolognese."
+        "title": "Zwiebeln und Knoblauch:",
+        "description": "Die Aromatische Basis jeder Guten Sauce. Sie bilden die Grundlage für die Sauce und sorgen für eine herzhafte, leicht süßliche Note. Fein gehackt entfalten sie ihr volles Aroma und sind unverzichtbar für eine authentische Linsen-Bolognese."
       },
       {
-        "title": "Karotten und Sellerie: Die Texturgeber für Vegetarische Saucen",
-        "description": "Sie geben der Sauce Textur und Süße, ohne auf Fleisch zurückzugreifen. Fein gewürfelt sorgen sie für einen angenehmen Biss und bereichern jede Linsen-Bolognese."
+        "title": "Karotten und Sellerie:",
+        "description": "Die Texturgeber für Vegetarische Saucen. Sie geben der Sauce Textur und Süße, ohne auf Fleisch zurückzugreifen. Fein gewürfelt sorgen sie für einen angenehmen Biss und bereichern jede Linsen-Bolognese."
       },
       {
-        "title": "Italienische Kräuter: Das Aroma Mediterraner Küche",
-        "description": "Eine Mischung aus getrockneten Kräutern wie Oregano, Thymian und Basilikum. Sie verleihen der Sauce einen mediterranen Touch und sind das Herzstück jeder vegetarischen Bolognese."
+        "title": "Italienische Kräuter:",
+        "description": "Das Aroma Mediterraner Küche. Eine Mischung aus getrockneten Kräutern wie Oregano, Thymian und Basilikum. Sie verleihen der Sauce einen mediterranen Touch und sind das Herzstück jeder vegetarischen Bolognese."
       },
       {
-        "title": "Olivenöl: Der Geschmeidigmacher für Vegetarische Gerichte",
-        "description": "Hochwertiges Olivenöl veredelt die Sauce und sorgt für eine seidige Textur, ohne tierische Fette. Es ist das ideale Fett für eine reichhaltige Linsen-Bolognese."
+        "title": "Olivenöl:",
+        "description": "Der Geschmeidigmacher für Vegetarische Gerichte. Hochwertiges Olivenöl veredelt die Sauce und sorgt für eine seidige Textur, ohne tierische Fette. Es ist das ideale Fett für eine reichhaltige Linsen-Bolognese."
       },
       {
-        "title": "Rotwein: Die Tiefe und Komplexität Vegetarischer Saucen",
-        "description": "Er verleiht der Sauce eine tiefe, komplexe Note, ohne auf Fleisch zurückzugreifen. Verwenden Sie einen trockenen Rotwein, um die Aromen der Linsen-Bolognese zu intensivieren."
+        "title": "Rotwein:",
+        "description": "Die Tiefe und Komplexität Vegetarischer Saucen. Er verleiht der Sauce eine tiefe, komplexe Note, ohne auf Fleisch zurückzugreifen. Verwenden Sie einen trockenen Rotwein, um die Aromen der Linsen-Bolognese zu intensivieren."
       },
       {
-        "title": "Lorbeerblätter: Die Subtile Würze Vegetarischer Gerichte",
-        "description": "Sie geben der Sauce eine subtile, erdige Würze. Entfernen Sie sie vor dem Servieren, um die reine Aromenvielfalt der Linsen-Bolognese zu genießen."
+        "title": "Lorbeerblätter:",
+        "description": "Die Subtile Würze Vegetarischer Gerichte. Sie geben der Sauce eine subtile, erdige Würze. Entfernen Sie sie vor dem Servieren, um die reine Aromenvielfalt der Linsen-Bolognese zu genießen."
       },
       {
-        "title": "Tomatenmark: Die Konzentration des Tomatengeschmacks",
-        "description": "Es intensiviert den Tomatengeschmack und gibt der Sauce eine reichhaltige Farbe. Ein Muss für jede aromatische Linsen-Bolognese."
+        "title": "Tomatenmark:",
+        "description": "Die Konzentration des Tomatengeschmacks. Es intensiviert den Tomatengeschmack und gibt der Sauce eine reichhaltige Farbe. Ein Muss für jede aromatische Linsen-Bolognese."
       }
     ],
     "ingredientGroups": [
@@ -3318,32 +3318,32 @@ export const recipes: Recipe[] = [
     "additionalParagraph": "Was diese vegetarische Dubai Schokolade so besonders macht, ist ihre Vielseitigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie ist das perfekte Dessert für besondere Anlässe, festliche Mahlzeiten oder einfach, um sich selbst einen Moment der puren Freude zu gönnen. Die Zubereitung ist überraschend einfach und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie geröstete Nüsse oder getrocknete Früchte hinzufügen. Und für diejenigen, die es gerne etwas würziger mögen, empfiehlt sich eine Prise Kardamom oder Zimt. Diese vegetarische Dubai Schokolade ist nicht nur ein Dessert, sondern ein Ausdruck von Kreativität und Genuss, der zeigt, wie luxuriös und vielfältig vegetarische Süßspeisen sein können.",
     "ingredientsNeeded": [
       {
-        "title": "Hochwertige Milchschokolade: Die Basis für Luxus",
-        "description": "Verwenden Sie hochwertige Milchschokolade mit einem hohen Kakaoanteil für ein intensives Geschmackserlebnis. Achten Sie auf Qualität, um die reichhaltige Süße der Dubai Schokolade zu gewährleisten."
+        "title": "Hochwertige Milchschokolade:",
+        "description": "Die Basis für Luxus. Verwenden Sie hochwertige Milchschokolade mit einem hohen Kakaoanteil für ein intensives Geschmackserlebnis. Achten Sie auf Qualität, um die reichhaltige Süße der Dubai Schokolade zu gewährleisten."
       },
       {
-        "title": "Datteln: Die Süße des Orients",
-        "description": "Sie verleihen der Schokolade eine natürliche Süße und eine weiche, karamellartige Textur. Verwenden Sie Medjool-Datteln für ein besonders aromatisches Ergebnis in Ihrer vegetarischen Dubai Schokolade."
+        "title": "Datteln:",
+        "description": "Die Süße des Orients. Sie verleihen der Schokolade eine natürliche Süße und eine weiche, karamellartige Textur. Verwenden Sie Medjool-Datteln für ein besonders aromatisches Ergebnis in Ihrer vegetarischen Dubai Schokolade."
       },
       {
-        "title": "Nüsse: Der Knackige Kontrast",
-        "description": "Eine Mischung aus Mandeln, Pistazien und Cashews sorgt für einen angenehmen Biss und eine nussige Note. Rösten Sie die Nüsse leicht an, um ihr Aroma zu intensivieren."
+        "title": "Nüsse:",
+        "description": "Der Knackige Kontrast. Eine Mischung aus Mandeln, Pistazien und Cashews sorgt für einen angenehmen Biss und eine nussige Note. Rösten Sie die Nüsse leicht an, um ihr Aroma zu intensivieren."
       },
       {
-        "title": "Rosenwasser: Die Exotische Note",
-        "description": "Es verleiht der Schokolade ein blumiges, orientalisches Aroma. Verwenden Sie hochwertiges Rosenwasser, um die subtilen Noten der Dubai Schokolade hervorzuheben."
+        "title": "Rosenwasser:",
+        "description": "Die Exotische Note. Es verleiht der Schokolade ein blumiges, orientalisches Aroma. Verwenden Sie hochwertiges Rosenwasser, um die subtilen Noten der Dubai Schokolade hervorzuheben."
       },
       {
-        "title": "Kardamom: Die Warme Würze",
-        "description": "Er gibt der Schokolade eine warme, leicht scharfe Note. Verwenden Sie frisch gemahlenen Kardamom für ein intensives Aroma in Ihrer vegetarischen Kreation."
+        "title": "Kardamom:",
+        "description": "Die Warme Würze. Er gibt der Schokolade eine warme, leicht scharfe Note. Verwenden Sie frisch gemahlenen Kardamom für ein intensives Aroma in Ihrer vegetarischen Kreation."
       },
       {
-        "title": "Butter: Der Geschmeidigmacher",
-        "description": "Sie sorgt für eine cremige Textur und einen zarten Schmelz. Verwenden Sie hochwertige Butter, um die natürliche Süße der Dubai Schokolade zu unterstreichen."
+        "title": "Butter:",
+        "description": "Der Geschmeidigmacher. Sie sorgt für eine cremige Textur und einen zarten Schmelz. Verwenden Sie hochwertige Butter, um die natürliche Süße der Dubai Schokolade zu unterstreichen."
       },
       {
-        "title": "Goldstaub (optional): Der Luxuriöse Touch",
-        "description": "Er verleiht der Schokolade einen glamourösen Look und macht sie zu einem echten Hingucker. Verwenden Sie essbaren Goldstaub für eine sichere und beeindruckende Präsentation."
+        "title": "Goldstaub (optional):",
+        "description": "Der Luxuriöse Touch. Er verleiht der Schokolade einen glamourösen Look und macht sie zu einem echten Hingucker. Verwenden Sie essbaren Goldstaub für eine sichere und beeindruckende Präsentation."
       }
     ],
     "ingredientGroups": [
@@ -3507,7 +3507,7 @@ export const recipes: Recipe[] = [
     "slug": "spinatknoedel",
     "tags": ["Traditionell", "Spinat", "Knödel"],
     "createdDate": new Date("2025-02-10T00:00:00"),
-    "updatedDate": new Date("2025-03-31T00:00:00"),
+    "updatedDate": new Date("2025-04-01T00:00:00"),
     "servings": 4,
     "description": "Original vegetarische Spinatknödel wie in den Alpen! Einfaches Rezept für herzhafte Knödel mit frischem Spinat. Perfekt als Hauptgericht. Jetzt kochen!",
     "descriptionOnImage": "Saftige, grüne vegetarische Spinatknödel, serviert mit zerlassener Butter und geriebenem Bergkäse – ein pflanzliches Wohlfühlgericht, das die Aromen der Alpen auf den Teller bringt.",
@@ -3515,28 +3515,28 @@ export const recipes: Recipe[] = [
     "additionalParagraph": "Was diese vegetarischen Spinatknödel so besonders macht, ist ihre Anpassungsfähigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie sind das perfekte Gericht für gemütliche Abendessen, festliche Anlässe oder einfach, um sich selbst mit einem Stück Alpenländischer Küche zu verwöhnen. Die Zubereitung ist unkompliziert und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie geröstete Zwiebeln oder Knoblauch hinzufügen. Und für diejenigen, die es gerne etwas würziger mögen, empfiehlt sich eine Prise Muskatnuss oder Kümmel. Diese vegetarischen Spinatknödel sind nicht nur ein Gericht, sondern ein Ausdruck von Tradition und Genuss, der zeigt, wie vielfältig und schmackhaft vegetarische Hauptspeisen sein können.",
     "ingredientsNeeded": [
       {
-        "title": "Frischer Spinat: Das Herzstück der Vegetarischen Knödel",
-        "description": "Verwenden Sie frischen Spinat für ein intensives Aroma und eine leuchtende Farbe. Achten Sie auf junge, zarte Blätter, um die beste Textur für Ihre Spinatknödel zu gewährleisten."
+        "title": "Frischer Spinat:",
+        "description": "Das Herzstück der Vegetarischen Knödel. Verwenden Sie frischen Spinat für ein intensives Aroma und eine leuchtende Farbe. Achten Sie auf junge, zarte Blätter, um die beste Textur für Ihre Spinatknödel zu gewährleisten."
       },
       {
-        "title": "Altbackenes Brot: Die Basis für Herzhafte Knödel",
-        "description": "Es dient als Grundlage für die Knödel und sorgt für eine lockere, saftige Konsistenz. Verwenden Sie am besten Weißbrot oder Semmeln, um die Aromen des Spinats hervorzuheben."
+        "title": "Altbackenes Brot:",
+        "description": "Die Basis für Herzhafte Knödel. Es dient als Grundlage für die Knödel und sorgt für eine lockere, saftige Konsistenz. Verwenden Sie am besten Weißbrot oder Semmeln, um die Aromen des Spinats hervorzuheben."
       },
       {
         "title": "Zwiebeln und Knoblauch: Die Aromatische Grundlage",
         "description": "Sie bilden die Basis für die herzhaften Aromen der Spinatknödel. Fein gehackt und in Butter angeschwitzt, entfalten sie ihr volles Aroma."
       },
       {
-        "title": "Eier: Der Binder für Saftige Knödel",
-        "description": "Sie binden die Zutaten zusammen und sorgen für eine geschmeidige Textur. Verwenden Sie frische Eier für beste Ergebnisse in Ihren vegetarischen Spinatknödeln."
+        "title": "Eier:",
+        "description": "Der Binder für Saftige Knödel. Sie binden die Zutaten zusammen und sorgen für eine geschmeidige Textur. Verwenden Sie frische Eier für beste Ergebnisse in Ihren vegetarischen Spinatknödeln."
       },
       {
-        "title": "Milch: Die Feuchtigkeit für Perfekte Knödel",
-        "description": "Sie macht die Knödel saftig und locker. Verwenden Sie Vollmilch oder pflanzliche Milchalternativen, um die gewünschte Konsistenz zu erreichen."
+        "title": "Milch:",
+        "description": "Die Feuchtigkeit für Perfekte Knödel. Sie macht die Knödel saftig und locker. Verwenden Sie Vollmilch oder pflanzliche Milchalternativen, um die gewünschte Konsistenz zu erreichen."
       },
       {
-        "title": "Bergkäse: Der Herzhafte Akzent",
-        "description": "Er verleiht den Knödeln eine würzige, herzhafte Note. Verwenden Sie geriebenen Bergkäse oder Parmesan für ein intensives Aroma."
+        "title": "Bergkäse:",
+        "description": "Der Herzhafte Akzent. Er verleiht den Knödeln eine würzige, herzhafte Note. Verwenden Sie geriebenen Bergkäse oder Parmesan für ein intensives Aroma."
       },
       {
         "title": "Kräuter: Das Aromatische Finish",
