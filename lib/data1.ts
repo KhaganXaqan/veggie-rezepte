@@ -3291,16 +3291,16 @@ export const recipes: Recipe[] = [
     }
   },  
   {
-    "title": "Vegetarische Dubai Schokolade: Ein Exotischer Genuss mit Milchschokolade",
-    "seo_title": "Vegetarische Dubai Schokolade Rezept – Exotische Schokoladenkreation für Vegetarier",
+    "title": "Dubai Schokolade: Ein Exotischer Genuss mit Milchschokolade",
+    "seo_title": "Dubai Schokolade Rezept – Exotische Schokoladenkreation für Vegetarier",
     "image": "/images/Desserts/dubaiSchokolade.webp",
     "prepTime": 30,
     "cookingTime": 15,
     "seo_keywords": [
-      "Vegetarische Dubai Schokolade",
+      "Dubai Schokolade",
       "Dubai Schokolade Rezept",
       "Exotische Schokoladenrezept",
-      "Vegetarische Süßspeise",
+      "Süßspeise",
       "Milchschokolade Dessert",
       "Orientalische Schokolade"
     ],
@@ -3485,6 +3485,210 @@ export const recipes: Recipe[] = [
       "image5": "/images/Desserts/dubaiSchokolade5.webp",
       "image6": "/images/Desserts/dubaiSchokolade6.webp",
       "image7": "/images/Desserts/dubaiSchokolade7.webp"
+    }
+  },
+  {
+    "title": "Vegetarische Spinatknödel: Ein Herzhaftes Alpenländisches Gericht",
+    "seo_title": "Vegetarische Spinatknödel: Einfaches Rezept aus den Alpen",
+    "image": "/images/Miscellaneous/spinatknoedel.webp",
+    "prepTime": 40,
+    "cookingTime": 25,
+    "seo_keywords": [
+      "Vegetarische Spinatknödel",
+      "Spinatknödel Rezept",
+      "Pflanzliche Knödel",
+      "Vegetarisches Alpenrezept",
+      "Spinat Knödel",
+      "Vegetarische Hauptspeise"
+    ],
+    "rating": 4.8,
+    "reviews": 180,
+    "category": "Hauptgerichte",
+    "slug": "spinatknoedel",
+    "tags": ["Traditionell", "Spinat", "Knödel"],
+    "createdDate": new Date("2025-02-10T00:00:00"),
+    "updatedDate": new Date("2025-03-31T00:00:00"),
+    "servings": 4,
+    "description": "Original vegetarische Spinatknödel wie in den Alpen! Einfaches Rezept für herzhafte Knödel mit frischem Spinat. Perfekt als Hauptgericht. Jetzt kochen!",
+    "descriptionOnImage": "Saftige, grüne vegetarische Spinatknödel, serviert mit zerlassener Butter und geriebenem Bergkäse – ein pflanzliches Wohlfühlgericht, das die Aromen der Alpen auf den Teller bringt.",
+    "introductionParagraph": "Entdecken Sie die rustikale Schönheit der vegetarischen Spinatknödel, ein Gericht, das die Einfachheit und den herzhaften Geschmack der Alpenküche perfekt einfängt. Diese Knödel werden aus frischem Spinat, altbackenem Brot und einer sorgfältig ausgewählten Mischung aus Kräutern zubereitet, um ein Gericht zu schaffen, das sowohl nahrhaft als auch unglaublich schmackhaft ist. Die vegetarischen Spinatknödel sind nicht nur ein Fest für den Gaumen, sondern auch eine Hommage an die traditionelle, pflanzliche Küche der Alpenregion. Sie zeigen, wie köstlich und vielseitig vegetarische Hauptspeisen sein können, ohne auf reichhaltige Aromen zu verzichten.",
+    "additionalParagraph": "Was diese vegetarischen Spinatknödel so besonders macht, ist ihre Anpassungsfähigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie sind das perfekte Gericht für gemütliche Abendessen, festliche Anlässe oder einfach, um sich selbst mit einem Stück Alpenländischer Küche zu verwöhnen. Die Zubereitung ist unkompliziert und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie geröstete Zwiebeln oder Knoblauch hinzufügen. Und für diejenigen, die es gerne etwas würziger mögen, empfiehlt sich eine Prise Muskatnuss oder Kümmel. Diese vegetarischen Spinatknödel sind nicht nur ein Gericht, sondern ein Ausdruck von Tradition und Genuss, der zeigt, wie vielfältig und schmackhaft vegetarische Hauptspeisen sein können.",
+    "ingredientsNeeded": [
+      {
+        "title": "Frischer Spinat: Das Herzstück der Vegetarischen Knödel",
+        "description": "Verwenden Sie frischen Spinat für ein intensives Aroma und eine leuchtende Farbe. Achten Sie auf junge, zarte Blätter, um die beste Textur für Ihre Spinatknödel zu gewährleisten."
+      },
+      {
+        "title": "Altbackenes Brot: Die Basis für Herzhafte Knödel",
+        "description": "Es dient als Grundlage für die Knödel und sorgt für eine lockere, saftige Konsistenz. Verwenden Sie am besten Weißbrot oder Semmeln, um die Aromen des Spinats hervorzuheben."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch: Die Aromatische Grundlage",
+        "description": "Sie bilden die Basis für die herzhaften Aromen der Spinatknödel. Fein gehackt und in Butter angeschwitzt, entfalten sie ihr volles Aroma."
+      },
+      {
+        "title": "Eier: Der Binder für Saftige Knödel",
+        "description": "Sie binden die Zutaten zusammen und sorgen für eine geschmeidige Textur. Verwenden Sie frische Eier für beste Ergebnisse in Ihren vegetarischen Spinatknödeln."
+      },
+      {
+        "title": "Milch: Die Feuchtigkeit für Perfekte Knödel",
+        "description": "Sie macht die Knödel saftig und locker. Verwenden Sie Vollmilch oder pflanzliche Milchalternativen, um die gewünschte Konsistenz zu erreichen."
+      },
+      {
+        "title": "Bergkäse: Der Herzhafte Akzent",
+        "description": "Er verleiht den Knödeln eine würzige, herzhafte Note. Verwenden Sie geriebenen Bergkäse oder Parmesan für ein intensives Aroma."
+      },
+      {
+        "title": "Kräuter: Das Aromatische Finish",
+        "description": "Eine Mischung aus Petersilie, Schnittlauch und Majoran sorgt für ein frisches, aromatisches Finish. Verwenden Sie frische Kräuter für ein intensives Aroma."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Vegetarischen Spinatknödel",
+        "description": "Die Grundlage für ein herzhaftes, vegetarisches Alpenrezept:",
+        "ingredients": [
+          { "amount": 500, "unit": "g", "name": "Frischer Spinat" },
+          { "amount": 250, "unit": "g", "name": "Altbackenes Brot (gewürfelt)" },
+          { "amount": 1, "unit": "", "name": "Zwiebel (gehackt)" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch (gehackt)" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Vegetarischen Spinatknödel",
+        "description": "Die Zutaten, die den Knödeln ihren unverwechselbaren, herzhaften Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Eier" },
+          { "amount": 100, "unit": "ml", "name": "Milch" },
+          { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+          { "amount": 2, "unit": "EL", "name": "Gehackte Kräuter (Petersilie, Schnittlauch, Majoran)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 500, "unit": "g", "name": "Frischer Spinat" },
+      { "amount": 250, "unit": "g", "name": "Altbackenes Brot (gewürfelt)" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 2, "unit": "", "name": "Eier" },
+      { "amount": 100, "unit": "ml", "name": "Milch" },
+      { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+      { "amount": 2, "unit": "EL", "name": "Gehackte Kräuter (Petersilie, Schnittlauch, Majoran)" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+      { "amount": 2, "unit": "EL", "name": "Butter" }
+    ],
+    "instructions": [
+      "Spinat waschen, grob hacken und in einem Topf mit etwas Wasser zusammenfallen lassen. Anschließend gut ausdrücken.",
+      "Zwiebeln und Knoblauch in Butter anschwitzen, bis sie glasig sind. Spinat hinzufügen und kurz mitdünsten.",
+      "Altbackenes Brot in einer Schüssel mit Milch übergießen und kurz einweichen lassen.",
+      "Spinat-Zwiebel-Mischung, Eier, Bergkäse und gehackte Kräuter zum Brot geben. Mit Salz und Pfeffer würzen und gut vermischen.",
+      "Aus der Masse mit feuchten Händen Knödel formen.",
+      "In einem großen Topf Salzwasser zum Kochen bringen. Knödel hineingeben und bei geringer Hitze ca. 15-20 Minuten ziehen lassen, bis sie an der Oberfläche schwimmen.",
+      "Mit zerlassener Butter und geriebenem Bergkäse servieren."
+    ],
+    "nutrition": {
+      "calories": 1545,
+      "protein": "82.6g",
+      "carbs": "161.3g",
+      "fat": "66.6g"
+    },
+    "tips": [
+      "Für eine intensivere Käsenote können Sie zusätzlich geräucherten Bergkäse verwenden.",
+      "Verwenden Sie altbackenes Brot vom Vortag, um die perfekte Konsistenz zu erreichen.",
+      "Experimentieren Sie mit verschiedenen Kräutern wie Thymian oder Rosmarin, um die Knödel zu personalisieren.",
+      "Für eine leichtere Variante können Sie fettarme Milch verwenden."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Vegetarischen Spinatknödel mein Herz erobern",
+      "reasons": [
+        {
+          "title": "Herzhafte Aromen",
+          "description": "Die Kombination aus Spinat, Käse und Kräutern ist ein wahrer Genuss für die Sinne."
+        },
+        {
+          "title": "Rustikale Textur",
+          "description": "Die saftigen Knödel und die herzhafte Kruste sorgen für ein unvergessliches Mundgefühl."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Gericht ist unkompliziert zuzubereiten und perfekt für gemütliche Abende."
+        },
+        {
+          "title": "Vegetarischer Genuss",
+          "description": "Die vegetarischen Spinatknödel zeigen, wie vielfältig und schmackhaft vegetarische Hauptspeisen sein können."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von der herzhaften Einfachheit der vegetarischen Spinatknödel verzaubern – ein Gericht, das die Seele wärmt und die Aromen der Alpen auf den Teller bringt!",
+      "subText": "Ich bin sicher, diese Knödel werden Ihre Gäste begeistern und Sie in eine Welt des Alpenländischen Genusses entführen...",
+      "signature": "Ihre Knödel-Liebhaberin"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Spinat-Basis",
+        "description": "Spinat dünsten und ausdrücken, um die Grundlage für die herzhaften Knödel zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Anbraten",
+        "description": "Zwiebeln und Knoblauch in Butter anschwitzen, um die aromatische Basis für die Knödel zu schaffen."
+      },
+      {
+        "title": "Schritt 3: Die Knödelmasse Zubereiten",
+        "description": "Brot, Spinat-Zwiebel-Mischung, Eier, Käse und Kräuter vermischen, um die perfekte Knödelmasse zu erhalten."
+      },
+      {
+        "title": "Schritt 4: Die Knödel Kochen",
+        "description": "Knödel formen und in Salzwasser ziehen lassen, bis sie gar sind."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die vegetarischen Spinatknödel mit zerlassener Butter und geriebenem Bergkäse für ein authentisches Alpenländisches Erlebnis.",
+    "servingSuggestions": {
+      "title": "Globale Knödel-Pairings für Vegetarier",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre vegetarischen Spinatknödel:",
+      "note": "Diese Ideen zeigen, wie vielseitig vegetarische Knödel sein können und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
+      "items": [
+        {
+          "emoji": "🍅",
+          "title": "Italienische Tomatensauce",
+          "description": "Servieren Sie die Spinatknödel mit einer reichhaltigen Tomatensauce und frisch geriebenem Parmesan."
+        },
+        {
+          "emoji": "🍄",
+          "title": "Französische Pilzrahmsoße",
+          "description": "Kombinieren Sie die Knödel mit einer cremigen Pilzrahmsoße und gehackter Petersilie."
+        },
+        {
+          "emoji": "🍛",
+          "title": "Indisches Curry",
+          "description": "Servieren Sie die Knödel mit einem milden Gemüsecurry und Reis."
+        },
+        {
+          "emoji": "🥬",
+          "title": "Asiatisches Wok-Gemüse",
+          "description": "Kombinieren Sie die Knödel mit einem bunten Wok-Gemüse und Sojasauce."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Ungarischer Paprikagulasch",
+          "description": "Servieren Sie die Knödel mit einem vegetarischen Paprikagulasch und saurer Sahne."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Knödel-Vielfalt",
+      "description": "Wussten Sie, dass Knödel in vielen Kulturen weltweit existieren? Von italienischen Gnocchi bis zu japanischen Dango gibt es unzählige Variationen. Unsere vegetarischen Spinatknödel sind eine Hommage an die Alpenländische Tradition und zeigen, wie vielfältig vegetarische Knödel sein können!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/spinatknoedelIngredient.webp",
+      "image1": "/images/Miscellaneous/spinatknoedel1.webp",
+      "image2": "/images/Miscellaneous/spinatknoedel2.webp",
+      "image3": "/images/Miscellaneous/spinatknoedel3.webp",
+      "image4": "/images/Miscellaneous/spinatknoedel4.webp",
+      "image5": "/images/Miscellaneous/spinatknoedel5.webp",
+      "image6": "/images/Miscellaneous/spinatknoedel6.webp",
+      "image7": "/images/Miscellaneous/spinatknoedel7.webp"
     }
   }
 ];
