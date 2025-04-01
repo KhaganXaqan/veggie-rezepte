@@ -3819,7 +3819,7 @@ instructions: [
     "rating": 4.8,
     "reviews": 156,
     "category": "Frühstück",
-    "slug": "vegetarische-shakshuka",
+    "slug": "shakshuka",
     "tags": ["Frühstück", "Orientalisch", "Eier", "Tomaten"],
     "createdDate": new Date('2025-03-15T00:00:00'),
     "updatedDate": new Date('2025-03-30T00:00:00'),

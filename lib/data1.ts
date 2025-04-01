@@ -3692,8 +3692,8 @@ export const recipes: Recipe[] = [
     }
   },
   {
-    "title": "Vegetarische Shakshuka",
-    "seo_title": "Vegetarische Shakshuka: Orientalisches Frühstücksrezept",
+    "title": "Shakshuka",
+    "seo_title": "Shakshuka: Orientalisches Frühstücksrezept",
     "image": "/images/Frühstück/shakshuka.webp",
     "prepTime": 15,
     "cookingTime": 25,
