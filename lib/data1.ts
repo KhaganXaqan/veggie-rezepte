@@ -97,9 +97,9 @@ export const recipes: Recipe[] = [
     "cookingTime": 12,
     "seo_keywords": [
       "Flammkuchen Rezept",
-      "Vegetarischer Flammkuchen",
-      "Flammkuchen selber machen",
-      "Flammkuchen ohne Speck",
+      "flammkuchen vegetarisch",
+      "flammkuchen variationen",
+      "flammkuchen belegen",
       "Flammkuchen traditionell"
     ],
     "rating": 4.3,
@@ -319,10 +319,10 @@ export const recipes: Recipe[] = [
     "prepTime": 25,
     "cookingTime": 25,
     "seo_keywords": [
-      "Vegetarische Kartoffelpuffer",
+      "kartoffelpuffer rezept",
       "Kartoffelpuffer vegetarisch",
-      "Vegetarisches Reibekuchen Rezept",
-      "Kartoffelpuffer ohne Ei"
+      "kartoffelpuffer selbst machen",
+      "omas kartoffelpuffer rezept"
     ],
     "rating": 5.0,
     "reviews": 120,
@@ -542,11 +542,11 @@ export const recipes: Recipe[] = [
     "prepTime": 20,
     "cookingTime": 30,
     "seo_keywords": [
-      "Vegetarische Gemüsesuppe Rezept",
-      "Einfache Gemüsesuppe",
-      "Gesunde vegetarische Suppe",
-      "Vegetarische Suppe",
-      "Schnelle Gemüsesuppe"
+      "klassische gemüsesuppe",
+      "die beste gemüsesuppe",
+      "klassische gemüsesuppe",
+      "gemüsesuppe rezept",
+      "gemüsesuppe"
     ],
     "rating": 4.4,
     "reviews": 150,
@@ -969,11 +969,11 @@ export const recipes: Recipe[] = [
     "prepTime": 30,
     "cookingTime": 20,
     "seo_keywords": [
-      "Vegetarische Semmelknödel Rezept",
+      "semmelknödel",
       "Semmelknödel selber machen",
-      "Vegetarische Klöße",
-      "Deutsche vegetarische Küche",
-      "Semmelknödel ohne Fleisch"
+      "semmelknödel rezepte",
+      "semmelknödel vorbereiten",
+      "rezept für semmelknödel"
     ],
     "rating": 4.1,
     "reviews": 102,
