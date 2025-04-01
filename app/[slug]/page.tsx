@@ -39,7 +39,9 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     'gefuellte-paprika',
     'gemuese-strudel',
     'linsen-bolognese',
-    'dubai-schokolade'
+    'dubai-schokolade',
+    'spinatknoedel',
+    'shakshuka'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -104,7 +106,9 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     'gefuellte-paprika',
     'gemuese-strudel',
     'linsen-bolognese',
-    'dubai-schokolade'
+    'dubai-schokolade',
+    'spinatknoedel',
+    'shakshuka'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -190,7 +194,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'gefuellte-paprika',
     'gemuese-strudel',
     'linsen-bolognese',
-    'dubai-schokolade'
+    'dubai-schokolade',
+    'spinatknoedel',
+    'shakshuka'
   ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
@@ -221,7 +227,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'gefuellte-paprika',
     'gemuese-strudel',
     'linsen-bolognese',
-    'dubai-schokolade'
+    'dubai-schokolade',
+    'spinatknoedel',
+    'shakshuka'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }

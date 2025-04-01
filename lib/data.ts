@@ -3809,6 +3809,219 @@ instructions: [
       "image6": "/images/Miscellaneous/dubaiSchokolade6.webp",
       "image7": "/images/Miscellaneous/dubaiSchokolade7.webp"
     }
+  },
+  {
+    "title": "Vegetarische Shakshuka",
+    "seo_title": "Orientalische Shakshuka mit Kräutern – Vegetarisches Frühstückserlebnis",
+    "image": "/images/Frühstück/shakshuka.webp",
+    "prepTime": 15,
+    "cookingTime": 25,
+    "rating": 4.8,
+    "reviews": 156,
+    "category": "Frühstück",
+    "slug": "shakshuka",
+    "tags": ["Frühstück", "Orientalisch", "Eier", "Tomaten"],
+    "createdDate": new Date('2025-03-15T00:00:00'),
+    "updatedDate": new Date('2025-03-30T00:00:00'),
+    "servings": 2,
+    "description": "Orientalisches Frühstückserlebnis: Eier in würziger Tomatensauce mit Paprika, Zwiebeln und Gewürzen – perfekt mit frischem Brot zum Eintunken!",
+    "descriptionOnImage": "Duftende Shakshuka mit pochiertem Ei in würziger Tomatensauce, bestreut mit Feta und frischen Kräutern – ein orientalisches Frühstückserlebnis.",
+    "introductionParagraph": "Shakshuka ist ein Gericht, das alle Sinne anspricht – der Duft von Kreuzkümmel und Paprika, der sich in der Küche verbreitet, das Blubbern der Tomatensauce, in der die Eier sanft pochieren, und schließlich der Anblick des fertigen Gerichts: leuchtend rot mit weißen Eiern und grünen Kräutern. Ursprünglich aus Nordafrika stammend und in Israel perfektioniert, hat dieses Gericht seinen Weg in die Küchen der Welt gefunden – und das aus gutem Grund. Es ist nicht nur ein Fest für die Sinne, sondern auch unglaublich vielseitig. Ob als herzhaftes Frühstück, entspanntes Brunch-Gericht oder leichtes Abendessen – Shakshuka passt zu jeder Tageszeit. Die Kombination aus würziger Tomatensauce und cremigen Eiern, abgerundet mit Feta und frischen Kräutern, schafft ein Geschmackserlebnis, das sowohl befriedigend als auch belebend ist. Und das Beste daran? Es ist in unter 30 Minuten zubereitet und benötigt nur eine Pfanne!",
+    "additionalParagraph": "Was ich besonders an Shakshuka liebe, ist seine Anpassungsfähigkeit. Die Grundzutaten – Tomaten, Paprika, Zwiebeln und Eier – bleiben gleich, aber darüber hinaus kannst du es nach Herzenslust variieren. Im Sommer füge ich gerne frisches Gemüse vom Markt hinzu, im Winter verwende ich eingelegte Paprika für eine zusätzliche Geschmackstiefe. Manchmal streue ich Ziegenkäse statt Feta darüber, oder ich gebe einen Löffel Harissa in die Sauce für eine extra Schärfe. Shakshuka ist auch ein wunderbares Gericht, um Reste zu verwerten – übrig gebliebenes geröstetes Gemüse, Spinat oder Kräuter können einfach in die Sauce gerührt werden. Und obwohl es traditionell zum Frühstück serviert wird, finde ich, dass es zu jeder Tageszeit passt. An einem geschäftigen Wochentag ist es ein schnelles, nahrhaftes Abendessen, an einem entspannten Wochenende ein geselliges Brunch-Gericht, das man direkt aus der Pfanne servieren kann.",
+    "ingredientsNeeded": [
+      {
+        "title": "Eier",
+        "description": "Frische Eier sind das Herzstück dieses Gerichts. Sie werden direkt in die Tomatensauce geschlagen und sanft pochiert, bis das Eiweiß fest und das Eigelb noch cremig ist – der perfekte Kontrast zur würzigen Sauce."
+      },
+      {
+        "title": "Tomaten",
+        "description": "Reife, saftige Tomaten bilden die Basis der Sauce. Im Sommer verwende ich frische Tomaten vom Markt, im Winter greifen stattdessen hochwertige Dosentomaten, die oft sogar intensiver im Geschmack sind."
+      },
+      {
+        "title": "Paprika",
+        "description": "Rote und gelbe Paprika bringen Süße und Farbe ins Spiel. Sie werden langsam angebraten, bis sie karamellisieren und ihre natürliche Süße freisetzen."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Das aromatische Fundament jeder guten Shakshuka. Langsam in Olivenöl angeschwitzt, entwickeln sie eine süßliche Tiefe, die die Basis für alle weiteren Aromen bildet."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Kreuzkümmel, Paprikapulver und Chilipulver verleihen dem Gericht seinen charakteristischen orientalischen Geschmack. Je nach Vorliebe kann die Schärfe angepasst werden."
+      },
+      {
+        "title": "Feta",
+        "description": "Der salzige, cremige Feta bildet einen wunderbaren Kontrast zur säuerlichen Tomatensauce und den cremigen Eiern. Er wird kurz vor dem Servieren über das Gericht gestreut."
+      },
+      {
+        "title": "Frische Kräuter",
+        "description": "Petersilie und Koriander bringen Frische und Farbe ins Spiel. Sie werden am Ende über das Gericht gestreut und verleihen ihm nicht nur optisch den letzten Schliff."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis",
+        "description": "Die aromatische Grundlage für eine perfekte Shakshuka – langsam angeschwitzte Zwiebeln und Paprika bilden das Fundament für die würzige Tomatensauce.",
+        "ingredients": [
+          { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 1, "unit": "", "name": "Zwiebel, fein gewürfelt" },
+          { "amount": 1, "unit": "", "name": "Rote Paprika, in Streifen geschnitten" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch, fein gehackt" }
+        ]
+      },
+      {
+        "title": "Die Sauce",
+        "description": "Eine würzige Tomatensauce mit orientalischen Gewürzen – das Herzstück der Shakshuka, in der die Eier sanft pochieren.",
+        "ingredients": [
+          { "amount": 400, "unit": "g", "name": "Gehackte Tomaten (Dose)" },
+          { "amount": 1, "unit": "TL", "name": "Kreuzkümmel, gemahlen" },
+          { "amount": 1, "unit": "TL", "name": "Paprikapulver" },
+          { "amount": 0.5, "unit": "TL", "name": "Chilipulver (nach Geschmack)" },
+          { "amount": 1, "unit": "Prise", "name": "Zucker" },
+          { "amount": undefined, "unit": "", "name": "Salz und Pfeffer, nach Geschmack" }
+        ]
+      },
+      {
+        "title": "Die Hauptzutaten",
+        "description": "Frische Eier, die direkt in die Sauce geschlagen werden, bilden zusammen mit dem Feta und den Kräutern den krönenden Abschluss.",
+        "ingredients": [
+          { "amount": 4, "unit": "", "name": "Eier" },
+          { "amount": 75, "unit": "g", "name": "Feta, zerbröckelt" },
+          { "amount": 2, "unit": "EL", "name": "Frische Petersilie, gehackt" },
+          { "amount": 2, "unit": "EL", "name": "Frischer Koriander, gehackt (optional)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 1, "unit": "", "name": "Zwiebel, fein gewürfelt" },
+      { "amount": 1, "unit": "", "name": "Rote Paprika, in Streifen geschnitten" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch, fein gehackt" },
+      { "amount": 400, "unit": "g", "name": "Gehackte Tomaten (Dose)" },
+      { "amount": 1, "unit": "TL", "name": "Kreuzkümmel, gemahlen" },
+      { "amount": 1, "unit": "TL", "name": "Paprikapulver" },
+      { "amount": 0.5, "unit": "TL", "name": "Chilipulver (nach Geschmack)" },
+      { "amount": 1, "unit": "Prise", "name": "Zucker" },
+      { "amount": undefined, "unit": "", "name": "Salz und Pfeffer, nach Geschmack" },
+      { "amount": 4, "unit": "", "name": "Eier" },
+      { "amount": 75, "unit": "g", "name": "Feta, zerbröckelt" },
+      { "amount": 2, "unit": "EL", "name": "Frische Petersilie, gehackt" },
+      { "amount": 2, "unit": "EL", "name": "Frischer Koriander, gehackt (optional)" }
+    ],
+    "instructions": [
+      "In einer großen Pfanne (idealerweise aus Gusseisen) Olivenöl bei mittlerer Hitze erwärmen.",
+      "Zwiebel und Paprika hinzufügen und etwa 5 Minuten anbraten, bis sie weich werden.",
+      "Knoblauch hinzufügen und weitere 30 Sekunden anbraten, bis er duftet.",
+      "Gehackte Tomaten, Kreuzkümmel, Paprikapulver, Chilipulver und eine Prise Zucker hinzufügen. Mit Salz und Pfeffer würzen.",
+      "Die Sauce zum Köcheln bringen und bei mittlerer Hitze etwa 10 Minuten köcheln lassen, bis sie leicht eindickt.",
+      "Mit einem Löffel vier Mulden in die Sauce drücken und je ein Ei in jede Mulde aufschlagen.",
+      "Die Pfanne abdecken und die Eier etwa 5-7 Minuten pochieren lassen, bis das Eiweiß fest und das Eigelb noch cremig ist.",
+      "Vom Herd nehmen, Feta darüberstreuen und mit frischen Kräutern garnieren.",
+      "Sofort servieren, idealerweise direkt aus der Pfanne, mit frischem Brot zum Eintunken."
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": "18g",
+      "carbs": "12g",
+      "fat": "22g"
+    },
+    "tips": [
+      "Für eine vegane Version kannst du die Eier durch Tofu ersetzen – schneide ihn in Würfel und gib ihn in die Sauce, oder verwende Kichererbsenmehl, um eine eierähnliche Konsistenz zu erzielen.",
+      "Die Konsistenz der Sauce ist wichtig – sie sollte dick genug sein, um die Eier zu halten, aber nicht zu trocken. Füge bei Bedarf etwas Wasser hinzu.",
+      "Experimentiere mit verschiedenen Käsesorten – Ziegenkäse oder Halloumi sind wunderbare Alternativen zu Feta.",
+      "Serviere Shakshuka mit frischem Fladenbrot, Pita oder Baguette – etwas, womit du die leckere Sauce auftunken kannst.",
+      "Für eine zusätzliche Geschmackstiefe kannst du geröstete Paprika oder einen Löffel Harissa-Paste in die Sauce geben."
+    ],
+    "whyFavorite": {
+      "title": "Warum Shakshuka mein vegetarisches Lieblingsgericht ist",
+      "reasons": [
+        {
+          "title": "Einfachheit trifft auf Raffinesse",
+          "description": "Mit wenigen Grundzutaten zauberst du ein Gericht, das sowohl rustikal als auch elegant ist – perfekt für Anfänger und erfahrene Köche gleichermaßen."
+        },
+        {
+          "title": "Ein Fest für alle Sinne",
+          "description": "Die leuchtenden Farben, der verführerische Duft und die Kombination aus würziger Sauce und cremigen Eiern machen jedes Shakshuka-Frühstück zu einem sinnlichen Erlebnis."
+        },
+        {
+          "title": "Vielseitigkeit ohne Grenzen",
+          "description": "Von der klassischen Version bis hin zu kreativen Variationen mit saisonalem Gemüse – Shakshuka lässt sich endlos anpassen und bleibt doch immer erkennbar."
+        },
+        {
+          "title": "Gemeinschaftserlebnis",
+          "description": "Direkt aus der Pfanne serviert, lädt Shakshuka zum gemeinsamen Essen ein – ein Gericht, das Gespräche anregt und Menschen zusammenbringt."
+        },
+        {
+          "title": "Nährstoffreiche Kraftquelle",
+          "description": "Reich an Proteinen, Vitaminen und Antioxidantien ist Shakshuka nicht nur köstlich, sondern auch eine nahrhafte Mahlzeit, die lange sättigt und Energie für den Tag gibt."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dich von den Aromen des Orients verzaubern – Shakshuka ist mehr als ein Frühstück, es ist eine Reise!",
+      "subText": "Genieße jeden Löffel dieser würzigen Symphonie und tunke großzügig Brot in die Sauce...",
+      "signature": "Deine Gewürzentdeckerin"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die aromatische Basis",
+        "description": "Zwiebeln und Paprika werden langsam angeschwitzt, bis sie ihre natürliche Süße entfalten – das Fundament für eine geschmacksintensive Shakshuka."
+      },
+      {
+        "title": "Schritt 2: Die Gewürzsymphonie",
+        "description": "Knoblauch, Kreuzkümmel und Paprikapulver werden hinzugefügt und kurz angeröstet, um ihre ätherischen Öle freizusetzen und das volle Aroma zu entfalten."
+      },
+      {
+        "title": "Schritt 3: Die Tomatensauce",
+        "description": "Die Tomaten werden hinzugefügt und langsam eingekocht, bis eine dickflüssige, intensive Sauce entsteht – die perfekte Umgebung für die Eier."
+      },
+      {
+        "title": "Schritt 4: Das Eier-Finale",
+        "description": "Die Eier werden vorsichtig in Mulden in der Sauce aufgeschlagen und sanft pochiert, bis das Eiweiß fest und das Eigelb noch cremig ist – der krönende Abschluss."
+      }
+    ],
+    "servingSuggestion": "Serviere die Shakshuka direkt in der Pfanne, bestreut mit zerbröckeltem Feta und frischen Kräutern. Dazu reichlich frisches Brot zum Eintunken der würzigen Sauce.",
+    "servingSuggestions": {
+      "title": "Shakshuka-Begleiter: Von traditionell bis kreativ",
+      "description": "Hier sind vier Ideen, die deine Shakshuka zum kulinarischen Erlebnis machen:",
+      "note": "Traditionell wird Shakshuka mit frischem Fladenbrot serviert, aber diese Begleiter heben das Gericht auf ein neues Level!",
+      "items": [
+        {
+          "emoji": "🥖",
+          "title": "Knuspriges Sauerteigbrot",
+          "description": "Leicht geröstet und mit Olivenöl beträufelt – perfekt zum Auftunken der würzigen Sauce."
+        },
+        {
+          "emoji": "🥑",
+          "title": "Avocado-Tahini-Dip",
+          "description": "Cremige Avocado mit nussigem Tahini und Zitrone – ein kühler Kontrast zur warmen Shakshuka."
+        },
+        {
+          "emoji": "🥒",
+          "title": "Israelischer Salat",
+          "description": "Fein gewürfelte Gurken, Tomaten und Petersilie mit Zitronensaft – bringt Frische und Textur ins Spiel."
+        },
+        {
+          "emoji": "🍯",
+          "title": "Labneh mit Honig",
+          "description": "Abgetropfter Joghurt mit einem Hauch Honig und Pistazien – süß-salzige Note zum Ausbalancieren der Würze."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Shakshuka's diplomatische Mission",
+      "description": "Wusstest du, dass Shakshuka als 'kulinarischer Diplomat' gilt? 🌍 Dieses Gericht wird in Nordafrika, dem Nahen Osten und dem Mittelmeerraum gleichermaßen beansprucht – Tunesien, Marokko, Israel, Ägypten und die Türkei führen freundschaftliche Debatten über seinen Ursprung. In Israel wurde es in den 1950er Jahren durch eingewanderte tunesische Juden populär und ist heute ein Nationalgericht, das Grenzen überwindet. Bei UN-Veranstaltungen wird Shakshuka manchmal als 'Friedensgericht' serviert, das kulturelle Gemeinsamkeiten statt Unterschiede betont. Die wahre Magie? Egal woher es stammt – sobald der Duft von Kreuzkümmel und Tomaten die Luft erfüllt, sind alle Streitigkeiten vergessen! 😊"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/shakshukaIngredient.webp",
+      "image1": "/images/MainCourses/shakshuka1.webp",
+      "image2": "/images/MainCourses/shakshuka2.webp",
+      "image3": "/images/MainCourses/shakshuka3.webp",
+      "image4": "/images/MainCourses/shakshuka4.webp",
+      "image5": "/images/MainCourses/shakshuka5.webp",
+      "image6": "/images/MainCourses/shakshuka6.webp",
+      "image7": "/images/MainCourses/shakshuka7.webp"
+    }
   }
 ];
 

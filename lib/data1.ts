@@ -97,9 +97,9 @@ export const recipes: Recipe[] = [
     "cookingTime": 12,
     "seo_keywords": [
       "Flammkuchen Rezept",
-      "Vegetarischer Flammkuchen",
-      "Flammkuchen selber machen",
-      "Flammkuchen ohne Speck",
+      "flammkuchen vegetarisch",
+      "flammkuchen variationen",
+      "flammkuchen belegen",
       "Flammkuchen traditionell"
     ],
     "rating": 4.3,
@@ -319,10 +319,10 @@ export const recipes: Recipe[] = [
     "prepTime": 25,
     "cookingTime": 25,
     "seo_keywords": [
-      "Vegetarische Kartoffelpuffer",
+      "kartoffelpuffer rezept",
       "Kartoffelpuffer vegetarisch",
-      "Vegetarisches Reibekuchen Rezept",
-      "Kartoffelpuffer ohne Ei"
+      "kartoffelpuffer selbst machen",
+      "omas kartoffelpuffer rezept"
     ],
     "rating": 5.0,
     "reviews": 120,
@@ -542,11 +542,11 @@ export const recipes: Recipe[] = [
     "prepTime": 20,
     "cookingTime": 30,
     "seo_keywords": [
-      "Vegetarische Gemüsesuppe Rezept",
-      "Einfache Gemüsesuppe",
-      "Gesunde vegetarische Suppe",
-      "Vegetarische Suppe",
-      "Schnelle Gemüsesuppe"
+      "klassische gemüsesuppe",
+      "die beste gemüsesuppe",
+      "klassische gemüsesuppe",
+      "gemüsesuppe rezept",
+      "gemüsesuppe"
     ],
     "rating": 4.4,
     "reviews": 150,
@@ -969,11 +969,11 @@ export const recipes: Recipe[] = [
     "prepTime": 30,
     "cookingTime": 20,
     "seo_keywords": [
-      "Vegetarische Semmelknödel Rezept",
+      "semmelknödel",
       "Semmelknödel selber machen",
-      "Vegetarische Klöße",
-      "Deutsche vegetarische Küche",
-      "Semmelknödel ohne Fleisch"
+      "semmelknödel rezepte",
+      "semmelknödel vorbereiten",
+      "rezept für semmelknödel"
     ],
     "rating": 4.1,
     "reviews": 102,
@@ -3096,44 +3096,44 @@ export const recipes: Recipe[] = [
     "additionalParagraph": "Was diese vegetarische Linsen-Bolognese so besonders macht, ist ihre unglaubliche Vielseitigkeit. Sie ist nicht nur ein perfektes, nahrhaftes Abendessen für die ganze Familie, sondern auch ideal für Meal-Prep. Die Sauce lässt sich wunderbar vorbereiten und im Kühlschrank aufbewahren oder sogar einfrieren, ohne ihren reichen Geschmack zu verlieren. Für ein noch intensiveres Aroma können Sie die Sauce langsam köcheln lassen, bis sie dick und konzentriert ist, was die Süße der Tomaten und die Erdigkeit der Linsen hervorhebt. Und für alle, die es gerne etwas schärfer mögen, empfehle ich, eine Prise Chiliflocken oder ein paar Tropfen Tabasco hinzuzufügen. Diese Linsen-Bolognese ist ein Gericht, das immer wieder Freude bereitet und zeigt, wie einfach und köstlich vegane und vegetarische Küche sein kann, ohne auf Geschmack oder Textur zu verzichten.",
     "ingredientsNeeded": [
       {
-        "title": "Rote Linsen: Das Herzstück der Vegetarischen Bolognese",
-        "description": "Sie kochen schnell weich und nehmen Aromen hervorragend auf. Achten Sie auf hochwertige, ungeschälte Linsen, um eine cremige Konsistenz und einen nussigen Geschmack zu erzielen. Diese sind das Geheimnis für eine perfekte vegetarische Bolognese."
+        "title": "Rote Linsen",
+        "description": "Das Herzstück der Vegetarischen Bolognese. Sie kochen schnell weich und nehmen Aromen hervorragend auf. Achten Sie auf hochwertige, ungeschälte Linsen, um eine cremige Konsistenz und einen nussigen Geschmack zu erzielen. Diese sind das Geheimnis für eine perfekte vegetarische Bolognese."
       },
       {
-        "title": "Gehackte Tomaten: Die Grundlage für eine Aromatische Sauce",
-        "description": "Sie bilden die Basis der Sauce und sorgen für eine natürliche Süße und Säure. Verwenden Sie hochwertige, stückige Tomaten aus der Dose oder frische, reife Tomaten für beste Ergebnisse in Ihrer Linsen-Bolognese."
+        "title": "Gehackte Tomaten",
+        "description": "Die Grundlage für eine Aromatische Sauce. Sie bilden die Basis der Sauce und sorgen für eine natürliche Süße und Säure. Verwenden Sie hochwertige, stückige Tomaten aus der Dose oder frische, reife Tomaten für beste Ergebnisse in Ihrer Linsen-Bolognese."
       },
       {
-        "title": "Gemüsebrühe: Der Aromenverstärker für Vegetarische Gerichte",
-        "description": "Sie verleiht der Sauce Tiefe und Geschmack, ohne tierische Produkte. Verwenden Sie eine gute, kräftige Gemüsebrühe oder selbstgemachte Brühe, um die Aromen der Linsen-Bolognese zu intensivieren."
+        "title": "Gemüsebrühe",
+        "description": "Der Aromenverstärker für Vegetarische Gerichte. Sie verleiht der Sauce Tiefe und Geschmack, ohne tierische Produkte. Verwenden Sie eine gute, kräftige Gemüsebrühe oder selbstgemachte Brühe, um die Aromen der Linsen-Bolognese zu intensivieren."
       },
       {
-        "title": "Zwiebeln und Knoblauch: Die Aromatische Basis jeder Guten Sauce",
-        "description": "Sie bilden die Grundlage für die Sauce und sorgen für eine herzhafte, leicht süßliche Note. Fein gehackt entfalten sie ihr volles Aroma und sind unverzichtbar für eine authentische Linsen-Bolognese."
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Die Aromatische Basis jeder Guten Sauce. Sie bilden die Grundlage für die Sauce und sorgen für eine herzhafte, leicht süßliche Note. Fein gehackt entfalten sie ihr volles Aroma und sind unverzichtbar für eine authentische Linsen-Bolognese."
       },
       {
-        "title": "Karotten und Sellerie: Die Texturgeber für Vegetarische Saucen",
-        "description": "Sie geben der Sauce Textur und Süße, ohne auf Fleisch zurückzugreifen. Fein gewürfelt sorgen sie für einen angenehmen Biss und bereichern jede Linsen-Bolognese."
+        "title": "Karotten und Sellerie",
+        "description": "Die Texturgeber für Vegetarische Saucen. Sie geben der Sauce Textur und Süße, ohne auf Fleisch zurückzugreifen. Fein gewürfelt sorgen sie für einen angenehmen Biss und bereichern jede Linsen-Bolognese."
       },
       {
-        "title": "Italienische Kräuter: Das Aroma Mediterraner Küche",
-        "description": "Eine Mischung aus getrockneten Kräutern wie Oregano, Thymian und Basilikum. Sie verleihen der Sauce einen mediterranen Touch und sind das Herzstück jeder vegetarischen Bolognese."
+        "title": "Italienische Kräuter",
+        "description": "Das Aroma Mediterraner Küche. Eine Mischung aus getrockneten Kräutern wie Oregano, Thymian und Basilikum. Sie verleihen der Sauce einen mediterranen Touch und sind das Herzstück jeder vegetarischen Bolognese."
       },
       {
-        "title": "Olivenöl: Der Geschmeidigmacher für Vegetarische Gerichte",
-        "description": "Hochwertiges Olivenöl veredelt die Sauce und sorgt für eine seidige Textur, ohne tierische Fette. Es ist das ideale Fett für eine reichhaltige Linsen-Bolognese."
+        "title": "Olivenöl",
+        "description": "Der Geschmeidigmacher für Vegetarische Gerichte. Hochwertiges Olivenöl veredelt die Sauce und sorgt für eine seidige Textur, ohne tierische Fette. Es ist das ideale Fett für eine reichhaltige Linsen-Bolognese."
       },
       {
-        "title": "Rotwein: Die Tiefe und Komplexität Vegetarischer Saucen",
-        "description": "Er verleiht der Sauce eine tiefe, komplexe Note, ohne auf Fleisch zurückzugreifen. Verwenden Sie einen trockenen Rotwein, um die Aromen der Linsen-Bolognese zu intensivieren."
+        "title": "Rotwein",
+        "description": "Die Tiefe und Komplexität Vegetarischer Saucen. Er verleiht der Sauce eine tiefe, komplexe Note, ohne auf Fleisch zurückzugreifen. Verwenden Sie einen trockenen Rotwein, um die Aromen der Linsen-Bolognese zu intensivieren."
       },
       {
-        "title": "Lorbeerblätter: Die Subtile Würze Vegetarischer Gerichte",
-        "description": "Sie geben der Sauce eine subtile, erdige Würze. Entfernen Sie sie vor dem Servieren, um die reine Aromenvielfalt der Linsen-Bolognese zu genießen."
+        "title": "Lorbeerblätter",
+        "description": "Die Subtile Würze Vegetarischer Gerichte. Sie geben der Sauce eine subtile, erdige Würze. Entfernen Sie sie vor dem Servieren, um die reine Aromenvielfalt der Linsen-Bolognese zu genießen."
       },
       {
-        "title": "Tomatenmark: Die Konzentration des Tomatengeschmacks",
-        "description": "Es intensiviert den Tomatengeschmack und gibt der Sauce eine reichhaltige Farbe. Ein Muss für jede aromatische Linsen-Bolognese."
+        "title": "Tomatenmark",
+        "description": "Die Konzentration des Tomatengeschmacks. Es intensiviert den Tomatengeschmack und gibt der Sauce eine reichhaltige Farbe. Ein Muss für jede aromatische Linsen-Bolognese."
       }
     ],
     "ingredientGroups": [
@@ -3291,16 +3291,16 @@ export const recipes: Recipe[] = [
     }
   },  
   {
-    "title": "Vegetarische Dubai Schokolade: Ein Exotischer Genuss mit Milchschokolade",
-    "seo_title": "Vegetarische Dubai Schokolade Rezept – Exotische Schokoladenkreation für Vegetarier",
+    "title": "Dubai Schokolade: Ein Exotischer Genuss mit Milchschokolade",
+    "seo_title": "Dubai Schokolade Rezept – Exotische Schokoladenkreation für Vegetarier",
     "image": "/images/Desserts/dubaiSchokolade.webp",
     "prepTime": 30,
     "cookingTime": 15,
     "seo_keywords": [
-      "Vegetarische Dubai Schokolade",
+      "Dubai Schokolade",
       "Dubai Schokolade Rezept",
       "Exotische Schokoladenrezept",
-      "Vegetarische Süßspeise",
+      "Süßspeise",
       "Milchschokolade Dessert",
       "Orientalische Schokolade"
     ],
@@ -3318,32 +3318,32 @@ export const recipes: Recipe[] = [
     "additionalParagraph": "Was diese vegetarische Dubai Schokolade so besonders macht, ist ihre Vielseitigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie ist das perfekte Dessert für besondere Anlässe, festliche Mahlzeiten oder einfach, um sich selbst einen Moment der puren Freude zu gönnen. Die Zubereitung ist überraschend einfach und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie geröstete Nüsse oder getrocknete Früchte hinzufügen. Und für diejenigen, die es gerne etwas würziger mögen, empfiehlt sich eine Prise Kardamom oder Zimt. Diese vegetarische Dubai Schokolade ist nicht nur ein Dessert, sondern ein Ausdruck von Kreativität und Genuss, der zeigt, wie luxuriös und vielfältig vegetarische Süßspeisen sein können.",
     "ingredientsNeeded": [
       {
-        "title": "Hochwertige Milchschokolade: Die Basis für Luxus",
-        "description": "Verwenden Sie hochwertige Milchschokolade mit einem hohen Kakaoanteil für ein intensives Geschmackserlebnis. Achten Sie auf Qualität, um die reichhaltige Süße der Dubai Schokolade zu gewährleisten."
+        "title": "Hochwertige Milchschokolade",
+        "description": "Die Basis für Luxus. Verwenden Sie hochwertige Milchschokolade mit einem hohen Kakaoanteil für ein intensives Geschmackserlebnis. Achten Sie auf Qualität, um die reichhaltige Süße der Dubai Schokolade zu gewährleisten."
       },
       {
-        "title": "Datteln: Die Süße des Orients",
-        "description": "Sie verleihen der Schokolade eine natürliche Süße und eine weiche, karamellartige Textur. Verwenden Sie Medjool-Datteln für ein besonders aromatisches Ergebnis in Ihrer vegetarischen Dubai Schokolade."
+        "title": "Datteln",
+        "description": "Die Süße des Orients. Sie verleihen der Schokolade eine natürliche Süße und eine weiche, karamellartige Textur. Verwenden Sie Medjool-Datteln für ein besonders aromatisches Ergebnis in Ihrer vegetarischen Dubai Schokolade."
       },
       {
-        "title": "Nüsse: Der Knackige Kontrast",
-        "description": "Eine Mischung aus Mandeln, Pistazien und Cashews sorgt für einen angenehmen Biss und eine nussige Note. Rösten Sie die Nüsse leicht an, um ihr Aroma zu intensivieren."
+        "title": "Nüsse",
+        "description": "Der Knackige Kontrast. Eine Mischung aus Mandeln, Pistazien und Cashews sorgt für einen angenehmen Biss und eine nussige Note. Rösten Sie die Nüsse leicht an, um ihr Aroma zu intensivieren."
       },
       {
-        "title": "Rosenwasser: Die Exotische Note",
-        "description": "Es verleiht der Schokolade ein blumiges, orientalisches Aroma. Verwenden Sie hochwertiges Rosenwasser, um die subtilen Noten der Dubai Schokolade hervorzuheben."
+        "title": "Rosenwasser",
+        "description": "Die Exotische Note. Es verleiht der Schokolade ein blumiges, orientalisches Aroma. Verwenden Sie hochwertiges Rosenwasser, um die subtilen Noten der Dubai Schokolade hervorzuheben."
       },
       {
-        "title": "Kardamom: Die Warme Würze",
-        "description": "Er gibt der Schokolade eine warme, leicht scharfe Note. Verwenden Sie frisch gemahlenen Kardamom für ein intensives Aroma in Ihrer vegetarischen Kreation."
+        "title": "Kardamom",
+        "description": "Die Warme Würze. Er gibt der Schokolade eine warme, leicht scharfe Note. Verwenden Sie frisch gemahlenen Kardamom für ein intensives Aroma in Ihrer vegetarischen Kreation."
       },
       {
-        "title": "Butter: Der Geschmeidigmacher",
-        "description": "Sie sorgt für eine cremige Textur und einen zarten Schmelz. Verwenden Sie hochwertige Butter, um die natürliche Süße der Dubai Schokolade zu unterstreichen."
+        "title": "Butter",
+        "description": "Der Geschmeidigmacher. Sie sorgt für eine cremige Textur und einen zarten Schmelz. Verwenden Sie hochwertige Butter, um die natürliche Süße der Dubai Schokolade zu unterstreichen."
       },
       {
-        "title": "Goldstaub (optional): Der Luxuriöse Touch",
-        "description": "Er verleiht der Schokolade einen glamourösen Look und macht sie zu einem echten Hingucker. Verwenden Sie essbaren Goldstaub für eine sichere und beeindruckende Präsentation."
+        "title": "Goldstaub (optional)",
+        "description": "Der Luxuriöse Touch. Er verleiht der Schokolade einen glamourösen Look und macht sie zu einem echten Hingucker. Verwenden Sie essbaren Goldstaub für eine sichere und beeindruckende Präsentation."
       }
     ],
     "ingredientGroups": [
@@ -3485,6 +3485,437 @@ export const recipes: Recipe[] = [
       "image5": "/images/Desserts/dubaiSchokolade5.webp",
       "image6": "/images/Desserts/dubaiSchokolade6.webp",
       "image7": "/images/Desserts/dubaiSchokolade7.webp"
+    }
+  },
+  {
+    "title": "Vegetarische Spinatknödel: Ein Herzhaftes Alpenländisches Gericht",
+    "seo_title": "Vegetarische Spinatknödel: Einfaches Rezept aus den Alpen",
+    "image": "/images/Miscellaneous/spinatknoedel.webp",
+    "prepTime": 40,
+    "cookingTime": 25,
+    "seo_keywords": [
+      "Vegetarische Spinatknödel",
+      "Spinatknödel Rezept",
+      "Pflanzliche Knödel",
+      "Vegetarisches Alpenrezept",
+      "Spinat Knödel",
+      "Vegetarische Hauptspeise"
+    ],
+    "rating": 4.8,
+    "reviews": 180,
+    "category": "Hauptgerichte",
+    "slug": "spinatknoedel",
+    "tags": ["Traditionell", "Spinat", "Knödel"],
+    "createdDate": new Date("2025-02-10T00:00:00"),
+    "updatedDate": new Date("2025-04-01T00:00:00"),
+    "servings": 4,
+    "description": "Original vegetarische Spinatknödel wie in den Alpen! Einfaches Rezept für herzhafte Knödel mit frischem Spinat. Perfekt als Hauptgericht. Jetzt kochen!",
+    "descriptionOnImage": "Saftige, grüne vegetarische Spinatknödel, serviert mit zerlassener Butter und geriebenem Bergkäse – ein pflanzliches Wohlfühlgericht, das die Aromen der Alpen auf den Teller bringt.",
+    "introductionParagraph": "Entdecken Sie die rustikale Schönheit der vegetarischen Spinatknödel, ein Gericht, das die Einfachheit und den herzhaften Geschmack der Alpenküche perfekt einfängt. Diese Knödel werden aus frischem Spinat, altbackenem Brot und einer sorgfältig ausgewählten Mischung aus Kräutern zubereitet, um ein Gericht zu schaffen, das sowohl nahrhaft als auch unglaublich schmackhaft ist. Die vegetarischen Spinatknödel sind nicht nur ein Fest für den Gaumen, sondern auch eine Hommage an die traditionelle, pflanzliche Küche der Alpenregion. Sie zeigen, wie köstlich und vielseitig vegetarische Hauptspeisen sein können, ohne auf reichhaltige Aromen zu verzichten.",
+    "additionalParagraph": "Was diese vegetarischen Spinatknödel so besonders macht, ist ihre Anpassungsfähigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie sind das perfekte Gericht für gemütliche Abendessen, festliche Anlässe oder einfach, um sich selbst mit einem Stück Alpenländischer Küche zu verwöhnen. Die Zubereitung ist unkompliziert und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie geröstete Zwiebeln oder Knoblauch hinzufügen. Und für diejenigen, die es gerne etwas würziger mögen, empfiehlt sich eine Prise Muskatnuss oder Kümmel. Diese vegetarischen Spinatknödel sind nicht nur ein Gericht, sondern ein Ausdruck von Tradition und Genuss, der zeigt, wie vielfältig und schmackhaft vegetarische Hauptspeisen sein können.",
+    "ingredientsNeeded": [
+      {
+        "title": "Frischer Spinat",
+        "description": "Das Herzstück der Vegetarischen Knödel. Verwenden Sie frischen Spinat für ein intensives Aroma und eine leuchtende Farbe. Achten Sie auf junge, zarte Blätter, um die beste Textur für Ihre Spinatknödel zu gewährleisten."
+      },
+      {
+        "title": "Altbackenes Brot",
+        "description": "Die Basis für Herzhafte Knödel. Es dient als Grundlage für die Knödel und sorgt für eine lockere, saftige Konsistenz. Verwenden Sie am besten Weißbrot oder Semmeln, um die Aromen des Spinats hervorzuheben."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch: Die Aromatische Grundlage",
+        "description": "Sie bilden die Basis für die herzhaften Aromen der Spinatknödel. Fein gehackt und in Butter angeschwitzt, entfalten sie ihr volles Aroma."
+      },
+      {
+        "title": "Eier",
+        "description": "Der Binder für Saftige Knödel. Sie binden die Zutaten zusammen und sorgen für eine geschmeidige Textur. Verwenden Sie frische Eier für beste Ergebnisse in Ihren vegetarischen Spinatknödeln."
+      },
+      {
+        "title": "Milch",
+        "description": "Die Feuchtigkeit für Perfekte Knödel. Sie macht die Knödel saftig und locker. Verwenden Sie Vollmilch oder pflanzliche Milchalternativen, um die gewünschte Konsistenz zu erreichen."
+      },
+      {
+        "title": "Bergkäse",
+        "description": "Der Herzhafte Akzent. Er verleiht den Knödeln eine würzige, herzhafte Note. Verwenden Sie geriebenen Bergkäse oder Parmesan für ein intensives Aroma."
+      },
+      {
+        "title": "Kräuter: Das Aromatische Finish",
+        "description": "Eine Mischung aus Petersilie, Schnittlauch und Majoran sorgt für ein frisches, aromatisches Finish. Verwenden Sie frische Kräuter für ein intensives Aroma."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Vegetarischen Spinatknödel",
+        "description": "Die Grundlage für ein herzhaftes, vegetarisches Alpenrezept:",
+        "ingredients": [
+          { "amount": 500, "unit": "g", "name": "Frischer Spinat" },
+          { "amount": 250, "unit": "g", "name": "Altbackenes Brot (gewürfelt)" },
+          { "amount": 1, "unit": "", "name": "Zwiebel (gehackt)" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch (gehackt)" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Vegetarischen Spinatknödel",
+        "description": "Die Zutaten, die den Knödeln ihren unverwechselbaren, herzhaften Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Eier" },
+          { "amount": 100, "unit": "ml", "name": "Milch" },
+          { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+          { "amount": 2, "unit": "EL", "name": "Gehackte Kräuter (Petersilie, Schnittlauch, Majoran)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 500, "unit": "g", "name": "Frischer Spinat" },
+      { "amount": 250, "unit": "g", "name": "Altbackenes Brot (gewürfelt)" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 2, "unit": "", "name": "Eier" },
+      { "amount": 100, "unit": "ml", "name": "Milch" },
+      { "amount": 100, "unit": "g", "name": "Bergkäse (gerieben)" },
+      { "amount": 2, "unit": "EL", "name": "Gehackte Kräuter (Petersilie, Schnittlauch, Majoran)" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+      { "amount": 2, "unit": "EL", "name": "Butter" }
+    ],
+    "instructions": [
+      "Spinat waschen, grob hacken und in einem Topf mit etwas Wasser zusammenfallen lassen. Anschließend gut ausdrücken.",
+      "Zwiebeln und Knoblauch in Butter anschwitzen, bis sie glasig sind. Spinat hinzufügen und kurz mitdünsten.",
+      "Altbackenes Brot in einer Schüssel mit Milch übergießen und kurz einweichen lassen.",
+      "Spinat-Zwiebel-Mischung, Eier, Bergkäse und gehackte Kräuter zum Brot geben. Mit Salz und Pfeffer würzen und gut vermischen.",
+      "Aus der Masse mit feuchten Händen Knödel formen.",
+      "In einem großen Topf Salzwasser zum Kochen bringen. Knödel hineingeben und bei geringer Hitze ca. 15-20 Minuten ziehen lassen, bis sie an der Oberfläche schwimmen.",
+      "Mit zerlassener Butter und geriebenem Bergkäse servieren."
+    ],
+    "nutrition": {
+      "calories": 1545,
+      "protein": "82.6g",
+      "carbs": "161.3g",
+      "fat": "66.6g"
+    },
+    "tips": [
+      "Für eine intensivere Käsenote können Sie zusätzlich geräucherten Bergkäse verwenden.",
+      "Verwenden Sie altbackenes Brot vom Vortag, um die perfekte Konsistenz zu erreichen.",
+      "Experimentieren Sie mit verschiedenen Kräutern wie Thymian oder Rosmarin, um die Knödel zu personalisieren.",
+      "Für eine leichtere Variante können Sie fettarme Milch verwenden."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Vegetarischen Spinatknödel mein Herz erobern",
+      "reasons": [
+        {
+          "title": "Herzhafte Aromen",
+          "description": "Die Kombination aus Spinat, Käse und Kräutern ist ein wahrer Genuss für die Sinne."
+        },
+        {
+          "title": "Rustikale Textur",
+          "description": "Die saftigen Knödel und die herzhafte Kruste sorgen für ein unvergessliches Mundgefühl."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Gericht ist unkompliziert zuzubereiten und perfekt für gemütliche Abende."
+        },
+        {
+          "title": "Vegetarischer Genuss",
+          "description": "Die vegetarischen Spinatknödel zeigen, wie vielfältig und schmackhaft vegetarische Hauptspeisen sein können."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von der herzhaften Einfachheit der vegetarischen Spinatknödel verzaubern – ein Gericht, das die Seele wärmt und die Aromen der Alpen auf den Teller bringt!",
+      "subText": "Ich bin sicher, diese Knödel werden Ihre Gäste begeistern und Sie in eine Welt des Alpenländischen Genusses entführen...",
+      "signature": "Ihre Knödel-Liebhaberin"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Spinat-Basis",
+        "description": "Spinat dünsten und ausdrücken, um die Grundlage für die herzhaften Knödel zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Anbraten",
+        "description": "Zwiebeln und Knoblauch in Butter anschwitzen, um die aromatische Basis für die Knödel zu schaffen."
+      },
+      {
+        "title": "Schritt 3: Die Knödelmasse Zubereiten",
+        "description": "Brot, Spinat-Zwiebel-Mischung, Eier, Käse und Kräuter vermischen, um die perfekte Knödelmasse zu erhalten."
+      },
+      {
+        "title": "Schritt 4: Die Knödel Kochen",
+        "description": "Knödel formen und in Salzwasser ziehen lassen, bis sie gar sind."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die vegetarischen Spinatknödel mit zerlassener Butter und geriebenem Bergkäse für ein authentisches Alpenländisches Erlebnis.",
+    "servingSuggestions": {
+      "title": "Globale Knödel-Pairings für Vegetarier",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre vegetarischen Spinatknödel:",
+      "note": "Diese Ideen zeigen, wie vielseitig vegetarische Knödel sein können und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
+      "items": [
+        {
+          "emoji": "🍅",
+          "title": "Italienische Tomatensauce",
+          "description": "Servieren Sie die Spinatknödel mit einer reichhaltigen Tomatensauce und frisch geriebenem Parmesan."
+        },
+        {
+          "emoji": "🍄",
+          "title": "Französische Pilzrahmsoße",
+          "description": "Kombinieren Sie die Knödel mit einer cremigen Pilzrahmsoße und gehackter Petersilie."
+        },
+        {
+          "emoji": "🍛",
+          "title": "Indisches Curry",
+          "description": "Servieren Sie die Knödel mit einem milden Gemüsecurry und Reis."
+        },
+        {
+          "emoji": "🥬",
+          "title": "Asiatisches Wok-Gemüse",
+          "description": "Kombinieren Sie die Knödel mit einem bunten Wok-Gemüse und Sojasauce."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Ungarischer Paprikagulasch",
+          "description": "Servieren Sie die Knödel mit einem vegetarischen Paprikagulasch und saurer Sahne."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Knödel-Vielfalt",
+      "description": "Wussten Sie, dass Knödel in vielen Kulturen weltweit existieren? Von italienischen Gnocchi bis zu japanischen Dango gibt es unzählige Variationen. Unsere vegetarischen Spinatknödel sind eine Hommage an die Alpenländische Tradition und zeigen, wie vielfältig vegetarische Knödel sein können!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/spinatknoedelIngredient.webp",
+      "image1": "/images/Miscellaneous/spinatknoedel1.webp",
+      "image2": "/images/Miscellaneous/spinatknoedel2.webp",
+      "image3": "/images/Miscellaneous/spinatknoedel3.webp",
+      "image4": "/images/Miscellaneous/spinatknoedel4.webp",
+      "image5": "/images/Miscellaneous/spinatknoedel5.webp",
+      "image6": "/images/Miscellaneous/spinatknoedel6.webp",
+      "image7": "/images/Miscellaneous/spinatknoedel7.webp"
+    }
+  },
+  {
+    "title": "Shakshuka",
+    "seo_title": "Shakshuka: Orientalisches Frühstücksrezept",
+    "image": "/images/Frühstück/shakshuka.webp",
+    "prepTime": 15,
+    "cookingTime": 25,
+    "seo_keywords": [
+      "Shakshuka",
+      "shakshuka gewürz",
+      "Eier in Tomatensauce",
+      "shakshuka rezept",
+      "Shakshuka mit Feta"
+    ],
+    "rating": 4.8,
+    "reviews": 156,
+    "category": "Frühstück",
+    "slug": "shakshuka",
+    "tags": ["Frühstück", "Orientalisch", "Eier", "Tomaten"],
+    "createdDate": new Date('2025-04-01T00:00:00'),
+    "updatedDate": new Date('2025-04-01T00:00:00'),
+    "servings": 3,
+    "description": "Aromatische, vegetarische Shakshuka: Eier in würziger Tomatensauce mit Paprika und Kräutern. Perfekt mit Brot!",
+    "descriptionOnImage": "Duftende Shakshuka mit pochiertem Ei in würziger Tomatensauce, bestreut mit Feta und frischen Kräutern – ein orientalisches Frühstückserlebnis.",
+    "introductionParagraph": "Shakshuka ist ein Gericht, das alle Sinne anspricht – der Duft von Kreuzkümmel und Paprika, der sich in der Küche verbreitet, das Blubbern der Tomatensauce, in der die Eier sanft pochieren, und schließlich der Anblick des fertigen Gerichts: leuchtend rot mit weißen Eiern und grünen Kräutern. Ursprünglich aus Nordafrika stammend und in Israel perfektioniert, hat dieses Gericht seinen Weg in die Küchen der Welt gefunden – und das aus gutem Grund. Es ist nicht nur ein Fest für die Sinne, sondern auch unglaublich vielseitig. Ob als herzhaftes Frühstück, entspanntes Brunch-Gericht oder leichtes Abendessen – Shakshuka passt zu jeder Tageszeit. Die Kombination aus würziger Tomatensauce und cremigen Eiern, abgerundet mit Feta und frischen Kräutern, schafft ein Geschmackserlebnis, das sowohl befriedigend als auch belebend ist. Und das Beste daran? Es ist in unter 30 Minuten zubereitet und benötigt nur eine Pfanne!",
+    "additionalParagraph": "Was ich besonders an Shakshuka liebe, ist seine Anpassungsfähigkeit. Die Grundzutaten – Tomaten, Paprika, Zwiebeln und Eier – bleiben gleich, aber darüber hinaus kannst du es nach Herzenslust variieren. Im Sommer füge ich gerne frisches Gemüse vom Markt hinzu, im Winter verwende ich eingelegte Paprika für eine zusätzliche Geschmackstiefe. Manchmal streue ich Ziegenkäse statt Feta darüber, oder ich gebe einen Löffel Harissa in die Sauce für eine extra Schärfe. Shakshuka ist auch ein wunderbares Gericht, um Reste zu verwerten – übrig gebliebenes geröstetes Gemüse, Spinat oder Kräuter können einfach in die Sauce gerührt werden. Und obwohl es traditionell zum Frühstück serviert wird, finde ich, dass es zu jeder Tageszeit passt. An einem geschäftigen Wochentag ist es ein schnelles, nahrhaftes Abendessen, an einem entspannten Wochenende ein geselliges Brunch-Gericht, das man direkt aus der Pfanne servieren kann.",
+    "ingredientsNeeded": [
+      {
+        "title": "Eier",
+        "description": "Frische Eier sind das Herzstück dieses Gerichts. Sie werden direkt in die Tomatensauce geschlagen und sanft pochiert, bis das Eiweiß fest und das Eigelb noch cremig ist – der perfekte Kontrast zur würzigen Sauce."
+      },
+      {
+        "title": "Tomaten",
+        "description": "Reife, saftige Tomaten bilden die Basis der Sauce. Im Sommer verwende ich frische Tomaten vom Markt, im Winter greifen stattdessen hochwertige Dosentomaten, die oft sogar intensiver im Geschmack sind."
+      },
+      {
+        "title": "Paprika",
+        "description": "Rote und gelbe Paprika bringen Süße und Farbe ins Spiel. Sie werden langsam angebraten, bis sie karamellisieren und ihre natürliche Süße freisetzen."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Das aromatische Fundament jeder guten Shakshuka. Langsam in Olivenöl angeschwitzt, entwickeln sie eine süßliche Tiefe, die die Basis für alle weiteren Aromen bildet."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Kreuzkümmel, Paprikapulver und Chilipulver verleihen dem Gericht seinen charakteristischen orientalischen Geschmack. Je nach Vorliebe kann die Schärfe angepasst werden."
+      },
+      {
+        "title": "Feta",
+        "description": "Der salzige, cremige Feta bildet einen wunderbaren Kontrast zur säuerlichen Tomatensauce und den cremigen Eiern. Er wird kurz vor dem Servieren über das Gericht gestreut."
+      },
+      {
+        "title": "Frische Kräuter",
+        "description": "Petersilie und Koriander bringen Frische und Farbe ins Spiel. Sie werden am Ende über das Gericht gestreut und verleihen ihm nicht nur optisch den letzten Schliff."
+      },
+      {
+        "title": "Salz",
+        "description": "Eine Prise Salz hebt die Aromen der anderen Zutaten hervor und rundet das Gericht ab."
+      },
+      {
+        "title": "Pfeffer",
+        "description": "Frisch gemahlener Pfeffer verleiht der Shakshuka eine angenehme Schärfe und Würze."
+      },
+      {
+        "title": "Zucker",
+        "description": "Eine Prise Zucker balanciert die Säure der Tomaten aus und sorgt für eine harmonische Süße in der Sauce."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis",
+        "description": "Die aromatische Grundlage für eine perfekte Shakshuka – langsam angeschwitzte Zwiebeln und Paprika bilden das Fundament für die würzige Tomatensauce.",
+        "ingredients": [
+          { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 1, "unit": "", "name": "Zwiebel, fein gewürfelt" },
+          { "amount": 1, "unit": "", "name": "Rote Paprika, in Streifen geschnitten" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch, fein gehackt" }
+        ]
+      },
+      {
+        "title": "Die Sauce",
+        "description": "Eine würzige Tomatensauce mit orientalischen Gewürzen – das Herzstück der Shakshuka, in der die Eier sanft pochieren.",
+        "ingredients": [
+          { "amount": 400, "unit": "g", "name": "Gehackte Tomaten (Dose)" },
+          { "amount": 1, "unit": "TL", "name": "Kreuzkümmel, gemahlen" },
+          { "amount": 1, "unit": "TL", "name": "Paprikapulver" },
+          { "amount": 0.5, "unit": "TL", "name": "Chilipulver (nach Geschmack)" },
+          { "amount": 1, "unit": "Prise", "name": "Zucker" },
+          { "amount": undefined, "unit": "", "name": "Salz und Pfeffer, nach Geschmack" }
+        ]
+      },
+      {
+        "title": "Die Hauptzutaten",
+        "description": "Frische Eier, die direkt in die Sauce geschlagen werden, bilden zusammen mit dem Feta und den Kräutern den krönenden Abschluss.",
+        "ingredients": [
+          { "amount": 4, "unit": "", "name": "Eier" },
+          { "amount": 75, "unit": "g", "name": "Feta, zerbröckelt" },
+          { "amount": 2, "unit": "EL", "name": "Frische Petersilie, gehackt" },
+          { "amount": 2, "unit": "EL", "name": "Frischer Koriander, gehackt (optional)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 1, "unit": "", "name": "Zwiebel, fein gewürfelt" },
+      { "amount": 1, "unit": "", "name": "Rote Paprika, in Streifen geschnitten" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch, fein gehackt" },
+      { "amount": 400, "unit": "g", "name": "Gehackte Tomaten (Dose)" },
+      { "amount": 1, "unit": "TL", "name": "Kreuzkümmel, gemahlen" },
+      { "amount": 1, "unit": "TL", "name": "Paprikapulver" },
+      { "amount": 0.5, "unit": "TL", "name": "Chilipulver (nach Geschmack)" },
+      { "amount": 1, "unit": "Prise", "name": "Zucker" },
+      { "amount": undefined, "unit": "", "name": "Salz und Pfeffer, nach Geschmack" },
+      { "amount": 4, "unit": "", "name": "Eier" },
+      { "amount": 75, "unit": "g", "name": "Feta, zerbröckelt" },
+      { "amount": 2, "unit": "EL", "name": "Frische Petersilie, gehackt" },
+      { "amount": 2, "unit": "EL", "name": "Frischer Koriander, gehackt (optional)" }
+    ],
+    "instructions": [
+      "In einer großen Pfanne (idealerweise aus Gusseisen) Olivenöl bei mittlerer Hitze erwärmen.",
+      "Zwiebel und Paprika hinzufügen und etwa 5 Minuten anbraten, bis sie weich werden.",
+      "Knoblauch hinzufügen und weitere 30 Sekunden anbraten, bis er duftet.",
+      "Gehackte Tomaten, Kreuzkümmel, Paprikapulver, Chilipulver und eine Prise Zucker hinzufügen. Mit Salz und Pfeffer würzen.",
+      "Die Sauce zum Köcheln bringen und bei mittlerer Hitze etwa 10 Minuten köcheln lassen, bis sie leicht eindickt.",
+      "Mit einem Löffel vier Mulden in die Sauce drücken und je ein Ei in jede Mulde aufschlagen.",
+      "Die Pfanne abdecken und die Eier etwa 5-7 Minuten pochieren lassen, bis das Eiweiß fest und das Eigelb noch cremig ist.",
+      "Vom Herd nehmen, Feta darüberstreuen und mit frischen Kräutern garnieren.",
+      "Sofort servieren, idealerweise direkt aus der Pfanne, mit frischem Brot zum Eintunken."
+    ],
+    "nutrition": {
+      "calories": 933,
+      "protein": "43.8g",
+      "carbs": "47g",
+      "fat": "64.9g"
+    },
+    "tips": [
+      "Für eine vegane Version kannst du die Eier durch Tofu ersetzen – schneide ihn in Würfel und gib ihn in die Sauce, oder verwende Kichererbsenmehl, um eine eierähnliche Konsistenz zu erzielen.",
+      "Die Konsistenz der Sauce ist wichtig – sie sollte dick genug sein, um die Eier zu halten, aber nicht zu trocken. Füge bei Bedarf etwas Wasser hinzu.",
+      "Experimentiere mit verschiedenen Käsesorten – Ziegenkäse oder Halloumi sind wunderbare Alternativen zu Feta.",
+      "Serviere Shakshuka mit frischem Fladenbrot, Pita oder Baguette – etwas, womit du die leckere Sauce auftunken kannst.",
+      "Für eine zusätzliche Geschmackstiefe kannst du geröstete Paprika oder einen Löffel Harissa-Paste in die Sauce geben."
+    ],
+    "whyFavorite": {
+      "title": "Warum Shakshuka mein vegetarisches Lieblingsgericht ist",
+      "reasons": [
+        {
+          "title": "Einfachheit trifft auf Raffinesse",
+          "description": "Mit wenigen Grundzutaten zauberst du ein Gericht, das sowohl rustikal als auch elegant ist – perfekt für Anfänger und erfahrene Köche gleichermaßen."
+        },
+        {
+          "title": "Ein Fest für alle Sinne",
+          "description": "Die leuchtenden Farben, der verführerische Duft und die Kombination aus würziger Sauce und cremigen Eiern machen jedes Shakshuka-Frühstück zu einem sinnlichen Erlebnis."
+        },
+        {
+          "title": "Vielseitigkeit ohne Grenzen",
+          "description": "Von der klassischen Version bis hin zu kreativen Variationen mit saisonalem Gemüse – Shakshuka lässt sich endlos anpassen und bleibt doch immer erkennbar."
+        },
+        {
+          "title": "Gemeinschaftserlebnis",
+          "description": "Direkt aus der Pfanne serviert, lädt Shakshuka zum gemeinsamen Essen ein – ein Gericht, das Gespräche anregt und Menschen zusammenbringt."
+        },
+        {
+          "title": "Nährstoffreiche Kraftquelle",
+          "description": "Reich an Proteinen, Vitaminen und Antioxidantien ist Shakshuka nicht nur köstlich, sondern auch eine nahrhafte Mahlzeit, die lange sättigt und Energie für den Tag gibt."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dich von den Aromen des Orients verzaubern – Shakshuka ist mehr als ein Frühstück, es ist eine Reise!",
+      "subText": "Genieße jeden Löffel dieser würzigen Symphonie und tunke großzügig Brot in die Sauce...",
+      "signature": "Deine Gewürzentdeckerin"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die aromatische Basis",
+        "description": "Zwiebeln und Paprika werden langsam angeschwitzt, bis sie ihre natürliche Süße entfalten – das Fundament für eine geschmacksintensive Shakshuka."
+      },
+      {
+        "title": "Schritt 2: Die Gewürzsymphonie",
+        "description": "Knoblauch, Kreuzkümmel und Paprikapulver werden hinzugefügt und kurz angeröstet, um ihre ätherischen Öle freizusetzen und das volle Aroma zu entfalten."
+      },
+      {
+        "title": "Schritt 3: Die Tomatensauce",
+        "description": "Die Tomaten werden hinzugefügt und langsam eingekocht, bis eine dickflüssige, intensive Sauce entsteht – die perfekte Umgebung für die Eier."
+      },
+      {
+        "title": "Schritt 4: Das Eier-Finale",
+        "description": "Die Eier werden vorsichtig in Mulden in der Sauce aufgeschlagen und sanft pochiert, bis das Eiweiß fest und das Eigelb noch cremig ist – der krönende Abschluss."
+      }
+    ],
+    "servingSuggestion": "Serviere die Shakshuka direkt in der Pfanne, bestreut mit zerbröckeltem Feta und frischen Kräutern. Dazu reichlich frisches Brot zum Eintunken der würzigen Sauce.",
+    "servingSuggestions": {
+      "title": "Shakshuka-Begleiter: Von traditionell bis kreativ",
+      "description": "Hier sind vier Ideen, die deine Shakshuka zum kulinarischen Erlebnis machen:",
+      "note": "Traditionell wird Shakshuka mit frischem Fladenbrot serviert, aber diese Begleiter heben das Gericht auf ein neues Level!",
+      "items": [
+        {
+          "emoji": "🥖",
+          "title": "Knuspriges Sauerteigbrot",
+          "description": "Leicht geröstet und mit Olivenöl beträufelt – perfekt zum Auftunken der würzigen Sauce."
+        },
+        {
+          "emoji": "🥑",
+          "title": "Avocado-Tahini-Dip",
+          "description": "Cremige Avocado mit nussigem Tahini und Zitrone – ein kühler Kontrast zur warmen Shakshuka."
+        },
+        {
+          "emoji": "🥒",
+          "title": "Israelischer Salat",
+          "description": "Fein gewürfelte Gurken, Tomaten und Petersilie mit Zitronensaft – bringt Frische und Textur ins Spiel."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Shakshuka's diplomatische Mission",
+      "description": "Wusstest du, dass Shakshuka als 'kulinarischer Diplomat' gilt? 🌍 Dieses Gericht wird in Nordafrika, dem Nahen Osten und dem Mittelmeerraum gleichermaßen beansprucht – Tunesien, Marokko, Israel, Ägypten und die Türkei führen freundschaftliche Debatten über seinen Ursprung. In Israel wurde es in den 1950er Jahren durch eingewanderte tunesische Juden populär und ist heute ein Nationalgericht, das Grenzen überwindet. Bei UN-Veranstaltungen wird Shakshuka manchmal als 'Friedensgericht' serviert, das kulturelle Gemeinsamkeiten statt Unterschiede betont. Die wahre Magie? Egal woher es stammt – sobald der Duft von Kreuzkümmel und Tomaten die Luft erfüllt, sind alle Streitigkeiten vergessen! 😊"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/shakshukaIngredient.webp",
+      "image1": "/images/Frühstück/shakshuka1.webp",
+      "image2": "/images/Frühstück/shakshuka2.webp",
+      "image3": "/images/Frühstück/shakshuka3.webp",
+      "image4": "/images/Frühstück/shakshuka4.webp",
+      "image5": "/images/Frühstück/shakshuka5.webp",
+      "image6": "/images/Frühstück/shakshuka6.webp",
+      "image7": "/images/Frühstück/shakshuka7.webp"
     }
   }
 ];
