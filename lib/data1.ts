@@ -3707,7 +3707,7 @@ export const recipes: Recipe[] = [
     "rating": 4.8,
     "reviews": 156,
     "category": "Frühstück",
-    "slug": "vegetarische-shakshuka",
+    "slug": "shakshuka",
     "tags": ["Frühstück", "Orientalisch", "Eier", "Tomaten"],
     "createdDate": new Date('2025-04-01T00:00:00'),
     "updatedDate": new Date('2025-04-01T00:00:00'),
