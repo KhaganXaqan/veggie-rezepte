@@ -3698,10 +3698,10 @@ export const recipes: Recipe[] = [
     "prepTime": 15,
     "cookingTime": 25,
     "seo_keywords": [
-      "Vegetarische Shakshuka",
-      "Orientalisches Frühstück",
+      "Shakshuka",
+      "shakshuka gewürz",
       "Eier in Tomatensauce",
-      "Nahost Rezept vegetarisch",
+      "shakshuka rezept",
       "Shakshuka mit Feta"
     ],
     "rating": 4.8,
