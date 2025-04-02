@@ -3917,6 +3917,213 @@ export const recipes: Recipe[] = [
       "image6": "/images/Frühstück/shakshuka6.webp",
       "image7": "/images/Frühstück/shakshuka7.webp"
     }
+  },
+  {
+    "title": "Kürbissuppe: Ein Herbstlicher Genuss",
+    "seo_title": "Kürbissuppe Rezept – Cremige Kürbissuppe für den Topf",
+    "image": "/images/Soups/kuerbissuppe.webp",
+    "prepTime": 20,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Kürbissuppe Rezept",
+      "Kürbissuppe Thermomix",
+      "Rezept Kürbissuppe",
+      "Thermomix Kürbissuppe",
+      "Beste Kürbissuppe",
+      "Kochbar Kürbissuppe",
+      "Kürbissuppe Chefkoch",
+      "Beilage Kürbissuppe",
+      "Thermomix Rezepte Kürbissuppe",
+      "Einfache Kürbissuppe"
+    ],
+    "rating": 4.9,
+    "reviews": 220,
+    "category": "Suppen",
+    "slug": "kuerbissuppe",
+    "tags": ["Herbst", "Suppe", "Kürbis"],
+    "createdDate": new Date("2025-03-20T00:00:00"),
+    "updatedDate": new Date("2025-04-20T00:00:00"),
+    "servings": 6,
+    "description": "Wärmende, cremige Kürbissuppe: Einfaches Rezept für Topf & Thermomix. Perfekt für Herbsttage, mit süß-würzigen Aromen.",
+    "descriptionOnImage": "Cremige Kürbissuppe mit gerösteten Kürbiskernen und einem Hauch von Sahne – ein herbstlicher Genuss, der die Seele wärmt und die Aromen der Saison einfängt.",
+    "introductionParagraph": "Entdecken Sie die Vielfalt der Kürbissuppe, ein Gericht, das die Aromen des Herbstes in einer cremigen, wärmenden Suppe vereint. Dieses Kürbissuppe Rezept ist sowohl für den traditionellen Topf als auch für den Thermomix optimiert, um Ihnen die Zubereitung so einfach wie möglich zu machen. Ob Sie nach einer einfachen Kürbissuppe, einer Kürbissuppe Chefkoch-Variante oder Thermomix Rezepte Kürbissuppe suchen, dieses Rezept wird Sie begeistern. Die beste Kürbissuppe zeichnet sich durch ihre cremige Textur, die Süße des Kürbisses und die harmonische Kombination mit Gewürzen aus. Als Beilage Kürbissuppe eignen sich geröstete Kürbiskerne, Croutons oder ein Klecks Sahne. Die Thermomix Kürbissuppe ist besonders schnell und einfach zubereitet, da der Thermomix das Gemüse zerkleinert und die Suppe püriert. Auch auf Kochbar Kürbissuppe finden Sie viele Varianten, aber dieses Rezept ist garantiert eines der besten.",
+    "additionalParagraph": "Was diese Kürbissuppe so besonders macht, ist ihre Vielseitigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie ist das perfekte Gericht für gemütliche Herbstabende, festliche Anlässe oder einfach, um sich selbst mit einem Stück Herbst zu verwöhnen. Die Zubereitung ist unkompliziert und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie gerösteten Knoblauch oder Ingwer hinzufügen. Und für diejenigen, die es gerne etwas schärfer mögen, empfiehlt sich eine Prise Chili oder Curry. Diese Kürbissuppe ist nicht nur eine Mahlzeit, sondern ein kulinarisches Erlebnis, das zeigt, wie vielfältig und schmackhaft Kürbis sein kann. Die Thermomix Rezepte Kürbissuppe sind besonders beliebt, da sie schnell und einfach zubereitet sind. Aber auch die traditionelle Zubereitung im Topf hat ihren Charme. Die beste Kürbissuppe ist cremig, aromatisch und wärmt von innen. Als Beilage Kürbissuppe passen geröstete Kürbiskerne, Croutons oder ein Klecks Sahne. Auf Kochbar Kürbissuppe und Kürbissuppe Chefkoch finden Sie viele weitere Ideen und Variationen.",
+    "ingredientsNeeded": [
+      {
+        "title": "Kürbis",
+        "description": "Der Star dieser Kürbissuppe. Hokkaido-Kürbis eignet sich besonders gut, da er nicht geschält werden muss und eine cremige Textur verleiht."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Die aromatische Basis für jede gute Kürbissuppe. Sie werden langsam angeschwitzt, um ihre Süße und ihr Aroma zu entfalten."
+      },
+      {
+        "title": "Gemüsebrühe",
+        "description": "Sie bildet die flüssige Grundlage der Suppe und verleiht ihr zusätzliche Tiefe und Geschmack."
+      },
+      {
+        "title": "Sahne oder Kokosmilch",
+        "description": "Für eine cremige Textur und einen Hauch von Süße. Kokosmilch ist eine ausgezeichnete vegane Alternative."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Salz, Pfeffer, Muskatnuss und eine Prise Zimt verleihen der Kürbissuppe ihren charakteristischen Geschmack."
+      },
+      {
+        "title": "Kürbiskerne",
+        "description": "Geröstete Kürbiskerne sorgen für einen knackigen Kontrast und eine nussige Note."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Kürbissuppe",
+        "description": "Die Grundlage für eine cremige, herbstliche Kürbissuppe:",
+        "ingredients": [
+          { "amount": 1, "unit": "kg", "name": "Kürbis (Hokkaido)" },
+          { "amount": 1, "unit": "", "name": "Zwiebel" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+          { "amount": 1, "unit": "l", "name": "Gemüsebrühe" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Kürbissuppe",
+        "description": "Die Zutaten, die der Kürbissuppe ihren unverwechselbaren, herbstlichen Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 200, "unit": "ml", "name": "Sahne oder Kokosmilch" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+          { "amount": 0.5, "unit": "TL", "name": "Muskatnuss" },
+          { "amount": 0.25, "unit": "TL", "name": "Zimt" },
+          { "amount": 50, "unit": "g", "name": "Kürbiskerne (geröstet)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 1, "unit": "kg", "name": "Kürbis (Hokkaido)" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "l", "name": "Gemüsebrühe" },
+      { "amount": 200, "unit": "ml", "name": "Sahne oder Kokosmilch" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+      { "amount": 0.5, "unit": "TL", "name": "Muskatnuss" },
+      { "amount": 0.25, "unit": "TL", "name": "Zimt" },
+      { "amount": 50, "unit": "g", "name": "Kürbiskerne (geröstet)" }
+    ],
+    "instructions": [
+      "Kürbis entkernen und in grobe Würfel schneiden. Zwiebeln und Knoblauch fein hacken.",
+      "Zwiebeln und Knoblauch in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.",
+      "Kürbiswürfel hinzufügen und kurz mitbraten. Mit Gemüsebrühe ablöschen und ca. 20 Minuten köcheln lassen, bis der Kürbis weich ist.",
+      "Suppe mit einem Stabmixer fein pürieren. Sahne oder Kokosmilch hinzufügen und mit Salz, Pfeffer, Muskatnuss und Zimt abschmecken.",
+      "Kürbissuppe mit gerösteten Kürbiskernen garniert servieren."
+    ],
+    "nutrition": {
+      "calories": 1604,
+      "protein": "40.3g",
+      "carbs": "164.5g",
+      "fat": "92.1g"
+    },
+    "tips": [
+      "Für eine intensivere Geschmacksnote können Sie gerösteten Knoblauch oder Ingwer hinzufügen.",
+      "Verwenden Sie Kokosmilch für eine vegane Variante.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Curry oder Chili, um die Kürbissuppe zu variieren.",
+      "Servieren Sie die Kürbissuppe mit Croutons oder einem Klecks Sahne."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Kürbissuppe mein Herz erobert",
+      "reasons": [
+        {
+          "title": "Cremige Textur",
+          "description": "Die Kürbissuppe ist unglaublich cremig und samtig, ein wahrer Genuss für den Gaumen."
+        },
+        {
+          "title": "Herbstliche Aromen",
+          "description": "Die Kombination aus Kürbis, Gewürzen und Sahne ist ein Fest für die Sinne und perfekt für kalte Tage."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Rezept ist unkompliziert zuzubereiten und sowohl für den Topf als auch für den Thermomix geeignet."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Die Kürbissuppe lässt sich leicht an individuelle Vorlieben anpassen und mit verschiedenen Beilagen kombinieren."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von der wärmenden Süße dieser Kürbissuppe verzaubern – ein herbstlicher Genuss, der die Seele wärmt und die Aromen der Saison einfängt!",
+      "subText": "Ich bin sicher, diese Kürbissuppe wird Ihre Gäste begeistern und Sie in eine Welt des herbstlichen Genusses entführen...",
+      "signature": "Ihre Kürbis-Liebhaberin"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Das Gemüse Vorbereiten",
+        "description": "Kürbis, Zwiebeln und Knoblauch vorbereiten, um die Grundlage für die Kürbissuppe zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Anbraten",
+        "description": "Zwiebeln und Knoblauch anschwitzen, um die aromatische Basis für die Kürbissuppe zu schaffen."
+      },
+      {
+        "title": "Schritt 3: Die Kürbissuppe Kochen",
+        "description": "Kürbis und Gemüsebrühe hinzufügen und köcheln lassen, bis der Kürbis weich ist."
+      },
+      {
+        "title": "Schritt 4: Die Kürbissuppe Pürieren",
+        "description": "Kürbissuppe pürieren und mit Sahne oder Kokosmilch verfeinern."
+      },
+      {
+        "title": "Schritt 5: Das Servieren",
+        "description": "Kürbissuppe mit gerösteten Kürbiskernen garniert servieren."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Kürbissuppe mit warmem Brot oder Brötchen, um die köstliche Sauce aufzutunken.",
+    "servingSuggestions": {
+      "title": "Globale Kürbis-Pairings",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Kürbissuppe:",
+      "note": "Diese Ideen zeigen, wie vielseitig Kürbissuppe sein kann und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
+      "items": [
+        {
+          "emoji": "",
+          "title": "Indisches Kürbis-Curry",
+          "description": "Verfeinern Sie die Kürbissuppe mit Currypulver und Kokosmilch für ein indisches Kürbis-Curry."
+        },
+        {
+          "emoji": "",
+          "title": "Italienische Kürbis-Gnocchi",
+          "description": "Servieren Sie die Kürbissuppe mit selbstgemachten Kürbis-Gnocchi und Salbei-Butter."
+        },
+        {
+          "emoji": "",
+          "title": "Mexikanische Kürbis-Chili",
+          "description": "Verwandeln Sie die Kürbissuppe in ein herzhaftes Kürbis-Chili mit Bohnen und Mais."
+        },
+        {
+          "emoji": "",
+          "title": "Japanische Kürbis-Ramen",
+          "description": "Servieren Sie die Kürbissuppe als Brühe für eine japanische Kürbis-Ramen mit Nudeln und Gemüse."
+        },
+        {
+          "emoji": "",
+          "title": "Französische Kürbis-Quiche",
+          "description": "Verwenden Sie die Kürbissuppe als Füllung für eine französische Kürbis-Quiche mit Ziegenkäse."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Kürbis-Vielfalt",
+      "description": "Wussten Sie, dass es über 800 verschiedene Kürbissorten gibt? Von Hokkaido bis Butternut gibt es unzählige Möglichkeiten, Kürbis in der Küche zu verwenden. Unsere Kürbissuppe ist eine Hommage an die Vielfalt des Kürbisses und zeigt, wie vielfältig und schmackhaft Kürbis sein kann!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/kuerbissuppeIngredint.webp",
+      "image1": "/images/Soups/kuerbissuppe1.webp",
+      "image2": "/images/Soups/kuerbissuppe2.webp",
+      "image3": "/images/Soups/kuerbissuppe3.webp",
+      "image4": "/images/Soups/kuerbissuppe4.webp",
+      "image5": "/images/Soups/kuerbissuppe5.webp",
+      "image6": "/images/Soups/kuerbissuppe6.webp",
+      "image7": "/images/Soups/kuerbissuppe7.webp"
+    }
   }
 ];
 
