@@ -1567,7 +1567,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von der Käse-Vielfalt überraschen!",
       "subText": "Welche Käse-Kombi wird dein Favorit?",
-      "signature": "Dein Käse-Experte"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -1798,7 +1798,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von den Pilzen verzaubern – sie haben mehr Tricks drauf, als du denkst!",
       "subText": "Ich wette, du wirst nie wieder sagen, Gulasch brauche Fleisch...",
-      "signature": "Deine Pilzflüsterin"
+      "signature": "Dein Veggie-Rezepte Team
     },
     "steps": [
       {
@@ -2058,7 +2058,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von den Gewürzen verführen – sie haben mehr Charakter, als du denkst!",
       "subText": "Ich wette, nach diesem Curry wirst du Gewürze nie wieder nur aus der Dose schütteln...",
-      "signature": "Deine Gewürzalchemistin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
 
     "steps": [
@@ -2293,7 +2293,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich vom Brokkoli überraschen – er kann mehr, als du denkst!",
       "subText": "Ich wette, nach dieser Quiche siehst du Gemüse mit neuen Augen...",
-      "signature": "Deine Gemüse-Patissière"
+      "signature": "Dein Veggie-Rezepte Team"
     },
 
     "steps": [
@@ -2520,7 +2520,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich vom Gemüse verzaubern – es hat mehr Geschichten zu erzählen, als du denkst!",
       "subText": "Ich wette, nach diesem Ratatouille siehst du Auberginen mit neuen Augen...",
-      "signature": "Deine Gemüse-Erzählerin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
 
     "steps": [
@@ -2777,7 +2777,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von der Paprika verführen – sie hat mehr zu bieten, als du denkst!",
       "subText": "Ich wette, nach diesem Gericht wirst du Paprika mit neuen Augen sehen...",
-      "signature": "Deine Gemüse-Zauberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "servingSuggestion": "Mit einem Klecks Zitronen-Joghurt und gerösteten Pinienkernen – so wird pflanzliche Küche zum Festmahl.",
     "servingSuggestions": {
@@ -2994,7 +2994,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich vom Blätterteig verzaubern – er trägt das Gemüse wie ein kostbares Geschenk!",
       "subText": "Ich wette, nach diesem Strudel wirst du Gemüse mit neuen Augen sehen...",
-      "signature": "Deine Gemüse-Pastetierin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
 
     "steps": [
@@ -3222,7 +3222,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lassen Sie sich von dieser vegetarischen Linsen-Bolognese verzaubern – ein vegetarisches Wohlfühlgericht, das glücklich macht und zeigt, wie vielfältig vegetarische Küche sein kann!",
       "subText": "Ich bin sicher, diese Sauce wird Ihre Pasta-Abende revolutionieren und Sie von der Vielfalt der vegetarischen Küche überzeugen...",
-      "signature": "Ihre Pasta-Liebhaberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -3419,7 +3419,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lassen Sie sich von der Magie der vegetarischen Dubai Schokolade verzaubern – ein Dessert, das die Sinne berührt und die Seele wärmt!",
       "subText": "Ich bin sicher, diese Schokolade wird Ihre Gäste begeistern und Sie in eine Welt des orientalischen Genusses entführen...",
-      "signature": "Ihre Schokoladen-Liebhaberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -3623,7 +3623,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lassen Sie sich von der herzhaften Einfachheit der vegetarischen Spinatknödel verzaubern – ein Gericht, das die Seele wärmt und die Aromen der Alpen auf den Teller bringt!",
       "subText": "Ich bin sicher, diese Knödel werden Ihre Gäste begeistern und Sie in eine Welt des Alpenländischen Genusses entführen...",
-      "signature": "Ihre Knödel-Liebhaberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -3860,7 +3860,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von den Aromen des Orients verzaubern – Shakshuka ist mehr als ein Frühstück, es ist eine Reise!",
       "subText": "Genieße jeden Löffel dieser würzigen Symphonie und tunke großzügig Brot in die Sauce...",
-      "signature": "Deine Gewürzentdeckerin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -4053,7 +4053,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lassen Sie sich von der wärmenden Süße dieser Kürbissuppe verzaubern – ein herbstlicher Genuss, der die Seele wärmt und die Aromen der Saison einfängt!",
       "subText": "Ich bin sicher, diese Kürbissuppe wird Ihre Gäste begeistern und Sie in eine Welt des herbstlichen Genusses entführen...",
-      "signature": "Ihre Kürbis-Liebhaberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
