@@ -1798,7 +1798,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von den Pilzen verzaubern – sie haben mehr Tricks drauf, als du denkst!",
       "subText": "Ich wette, du wirst nie wieder sagen, Gulasch brauche Fleisch...",
-      "signature": "Dein Veggie-Rezepte Team
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
