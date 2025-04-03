@@ -2051,7 +2051,7 @@ instructions: [
   },
   {
     title: "Süßkartoffel-Kokos-Suppe",
-    image: "/images/Soups/suesskartoffel-kokos-suppe.webp",
+    image: "/images/Soups/suesskartoffelKokosSuppe.webp",
     prepTime: 35,
 cookingTime: 20,
 rating: 4.8,
