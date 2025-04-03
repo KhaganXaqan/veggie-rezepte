@@ -4124,6 +4124,207 @@ export const recipes: Recipe[] = [
       "image6": "/images/Soups/kuerbissuppe6.webp",
       "image7": "/images/Soups/kuerbissuppe7.webp"
     }
+  },
+  {
+    "title": "Süßkartoffel-Kokos-Suppe: Ein Exotischer Genuss",
+    "seo_title": "Süßkartoffel-Kokos-Suppe Einfach – Cremige Exotische Suppe",
+    "image": "/images/Soups/suesskartoffelKokosSuppe.webp",
+    "prepTime": 20,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Süßkartoffel-Kokos-Suppe Einfach",
+      "Süßkartoffel-Kokos-Suppe",
+      "Süßkartoffel Kokos Suppe",
+      "Süßkartoffelsuppe Kokosmilch",
+      "Süßkartoffelsuppe mit Kokosmilch",
+      "Einfache Süßkartoffelsuppe mit Kokosmilch"
+    ],
+    "rating": 4.8,
+    "reviews": 1280,
+    "category": "Suppen",
+    "slug": "suesskartoffel-kokos-suppe",
+    "tags": ["Suppe", "Exotisch", "Cremig"],
+    "createdDate": new Date("2025-03-25T00:00:00"),
+    "updatedDate": new Date("2025-04-03T00:00:00"),
+    "servings": 5,
+    "description": "Süßkartoffel-Kokos-Suppe: Einfaches Rezept mit exotischem Touch. Ob Topf oder Thermomix – diese Suppe ist ein aromatisches Geschmackserlebnis!",
+    "descriptionOnImage": "Cremige Süßkartoffel-Kokos-Suppe mit einem Hauch von Limette und frischem Koriander – ein exotisches Geschmackserlebnis, das die Aromen Asiens auf den Teller bringt.",
+    "introductionParagraph": "Entdecken Sie die Vielfalt der Süßkartoffel-Kokos-Suppe, ein Gericht, das die Süße der Süßkartoffel mit der Cremigkeit der Kokosmilch und den Aromen Asiens vereint. Dieses Süßkartoffel-Kokos-Suppe Einfach Rezept ist sowohl für den traditionellen Topf als auch für den Thermomix optimiert, um Ihnen die Zubereitung so einfach wie möglich zu machen. Ob Sie nach einer schnellen Süßkartoffel-Kokos-Suppe oder einem raffinierten Süßkartoffel Kokos Suppe Rezept suchen, dieses Gericht wird Sie begeistern. Die Süßkartoffelsuppe mit Kokosmilch zeichnet sich durch ihre cremige Textur, die Süße der Süßkartoffel und die harmonische Kombination mit Gewürzen aus. Als Beilage eignen sich geröstete Erdnüsse, frischer Koriander oder ein Spritzer Limettensaft. Auch die Thermomix Zubereitung der Süßkartoffelsuppe mit Kokosmilch ist besonders schnell und einfach, da der Thermomix das Gemüse zerkleinert und die Suppe püriert. Die einfache Süßkartoffelsuppe mit Kokosmilch ist ein wahrer Genuss.",
+    "additionalParagraph": "Was diese Süßkartoffel-Kokos-Suppe so besonders macht, ist ihre Vielseitigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie ist das perfekte Gericht für gemütliche Abende, festliche Anlässe oder einfach, um sich selbst mit einem Hauch von Asien zu verwöhnen. Die Zubereitung ist unkompliziert und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie gerösteten Ingwer oder Knoblauch hinzufügen. Und für diejenigen, die es gerne etwas schärfer mögen, empfiehlt sich eine Prise Chili oder Curry. Diese Süßkartoffel-Kokos-Suppe Einfach ist nicht nur eine Mahlzeit, sondern ein kulinarisches Erlebnis, das zeigt, wie vielfältig und schmackhaft Süßkartoffeln sein können. Die Süßkartoffel-Kokos-Suppe ist cremig, aromatisch und wärmt von innen. Als Beilage passen geröstete Erdnüsse, frischer Koriander oder ein Spritzer Limettensaft. Die Süßkartoffelsuppe Kokosmilch ist ein wahrer Genuss.",
+    "ingredientsNeeded": [
+      {
+        "title": "Süßkartoffeln",
+        "description": "Die Basis dieser Süßkartoffel-Kokos-Suppe. Sie verleihen der Suppe ihre Süße und cremige Textur."
+      },
+      {
+        "title": "Kokosmilch",
+        "description": "Sie sorgt für die cremige Konsistenz und den exotischen Geschmack der Süßkartoffel-Kokos-Suppe."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Die aromatische Grundlage für jede gute Süßkartoffel-Kokos-Suppe. Sie werden langsam angeschwitzt, um ihre Süße und ihr Aroma zu entfalten."
+      },
+      {
+        "title": "Gemüsebrühe",
+        "description": "Sie bildet die flüssige Grundlage der Süßkartoffel-Kokos-Suppe und verleiht ihr zusätzliche Tiefe und Geschmack."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Ingwer, Currypulver und Limettensaft verleihen der Süßkartoffel-Kokos-Suppe ihren charakteristischen asiatischen Geschmack."
+      },
+      {
+        "title": "Koriander",
+        "description": "Frischer Koriander sorgt für eine frische, aromatische Note in der Süßkartoffel-Kokos-Suppe."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Süßkartoffel-Kokos-Suppe",
+        "description": "Die Grundlage für eine cremige, exotische Süßkartoffel-Kokos-Suppe:",
+        "ingredients": [
+          { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
+          { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+          { "amount": 1, "unit": "", "name": "Zwiebel" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+          { "amount": 1, "unit": "l", "name": "Gemüsebrühe" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Süßkartoffel-Kokos-Suppe",
+        "description": "Die Zutaten, die der Süßkartoffel-Kokos-Suppe ihren unverwechselbaren, asiatischen Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
+          { "amount": 2, "unit": "TL", "name": "Currypulver" },
+          { "amount": 2, "unit": "EL", "name": "Limettensaft" },
+          { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
+      { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "l", "name": "Gemüsebrühe" },
+      { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
+      { "amount": 2, "unit": "TL", "name": "Currypulver" },
+      { "amount": 2, "unit": "EL", "name": "Limettensaft" },
+      { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
+    ],
+    "instructions": [
+      "Süßkartoffeln schälen und in grobe Würfel schneiden. Zwiebeln, Knoblauch und Ingwer fein hacken.",
+      "Zwiebeln, Knoblauch und Ingwer in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.",
+      "Süßkartoffelwürfel und Currypulver hinzufügen und kurz mitbraten. Mit Gemüsebrühe ablöschen und ca. 20 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.",
+      "Suppe mit einem Stabmixer fein pürieren. Kokosmilch und Limettensaft hinzufügen und mit Salz und Pfeffer abschmecken.",
+      "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
+    ],
+    "nutrition": {
+      "calories": 1551,
+      "protein": "25.5g",
+      "carbs": "205.2g",
+      "fat": "74,5g"
+    },
+    "tips": [
+      "Für eine intensivere Geschmacksnote können Sie gerösteten Ingwer oder Knoblauch hinzufügen.",
+      "Verwenden Sie Kokosmilch mit hohem Fettgehalt für eine besonders cremige Konsistenz.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Chili oder Kreuzkümmel, um die Süßkartoffel-Kokos-Suppe zu variieren.",
+      "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Süßkartoffel-Kokos-Suppe mein Herz erobert",
+      "reasons": [
+        {
+          "title": "Exotische Aromen",
+          "description": "Die Kombination aus Süßkartoffel, Kokosmilch und asiatischen Gewürzen ist ein wahrer Genuss für die Sinne."
+        },
+        {
+          "title": "Cremige Textur",
+          "description": "Die Süßkartoffel-Kokos-Suppe ist unglaublich cremig und samtig, ein wahrer Genuss für den Gaumen."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Süßkartoffel-Kokos-Suppe Einfach Rezept ist unkompliziert zuzubereiten und sowohl für den Topf als auch für den Thermomix geeignet."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Die Süßkartoffel-Kokos-Suppe lässt sich leicht an individuelle Vorlieben anpassen und mit verschiedenen Beilagen kombinieren."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von den exotischen Aromen dieser Süßkartoffel-Kokos-Suppe verzaubern – ein Gericht, das die Sinne weckt und die Seele wärmt!",
+      "subText": "Ich bin sicher, diese Süßkartoffel-Kokos-Suppe wird Ihre Gäste begeistern und Sie in eine Welt des asiatischen Genusses entführen...",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Das Gemüse Vorbereiten",
+        "description": "Süßkartoffeln, Zwiebeln, Knoblauch und Ingwer vorbereiten, um die Grundlage für die Süßkartoffel-Kokos-Suppe zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Anbraten",
+        "description": "Zwiebeln, Knoblauch und Ingwer anschwitzen, um die aromatische Basis für die Süßkartoffel-Kokos-Suppe zu schaffen."
+      },
+      {
+        "title": "Schritt 3: Die Süßkartoffel-Kokos-Suppe Kochen",
+        "description": "Süßkartoffeln, Currypulver und Gemüsebrühe hinzufügen und köcheln lassen, bis die Süßkartoffeln weich sind."
+      },
+      {
+        "title": "Schritt 4: Die Süßkartoffel-Kokos-Suppe Pürieren",
+        "description": "Süßkartoffel-Kokos-Suppe pürieren und mit Kokosmilch und Limettensaft verfeinern."
+      },
+      {
+        "title": "Schritt 5: Das Servieren",
+        "description": "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft, um die asiatischen Aromen zu unterstreichen.",
+    "servingSuggestions": {
+      "title": "Globale Süßkartoffel-Pairings",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Süßkartoffel-Kokos-Suppe:",
+      "note": "Diese Ideen zeigen, wie vielseitig Süßkartoffeln sein können und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
+      "items": [
+        {
+          "emoji": "🍛",
+          "title": "Indisches Süßkartoffel-Curry",
+          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in ein indisches Süßkartoffel-Curry mit Reis und Naan-Brot."
+        },
+        {
+          "emoji": "🌮",
+          "title": "Mexikanische Süßkartoffel-Tacos",
+          "description": "Verwenden Sie die Süßkartoffel-Kokos-Suppe als Füllung für mexikanische Süßkartoffel-Tacos mit Avocado und Salsa."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Afrikanischer Süßkartoffel-Eintopf",
+          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe als Basis für einen afrikanischen Süßkartoffel-Eintopf mit Erdnüssen und Spinat."
+        },
+        {
+          "emoji": "🍜",
+          "title": "Thailändische Süßkartoffel-Nudelsuppe",
+          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in eine thailändische Nudelsuppe mit Reisnudeln und Gemüse."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Karibischer Süßkartoffel-Salat",
+          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe kalt als Basis für einen karibischen Süßkartoffel-Salat mit Mango und schwarzen Bohnen."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Süßkartoffel-Vielfalt",
+      "description": "Wussten Sie, dass Süßkartoffeln nicht mit Kartoffeln verwandt sind? Sie gehören zur Familie der Windengewächse und sind reich an Vitaminen und Mineralstoffen. Unsere Süßkartoffel-Kokos-Suppe ist eine Hommage an die Vielseitigkeit der Süßkartoffel und zeigt, wie vielfältig und schmackhaft sie sein kann!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/suesskartoffelKokosSuppeIngredient.webp",
+      "image1": "/images/Soups/suesskartoffelKokosSuppe1.webp",
+      "image2": "/images/Soups/suesskartoffelKokosSuppe2.webp",
+      "image3": "/images/Soups/suesskartoffelKokosSuppe3.webp",
+      "image4": "/images/Soups/suesskartoffelKokosSuppe4.webp",
+      "image5": "/images/Soups/suesskartoffelKokosSuppe5.webp",
+      "image6": "/images/Soups/suesskartoffelKokosSuppe6.webp",
+      "image7": "/images/Soups/suesskartoffelKokosSuppe7.webp"
+    }
   }
 ];
 

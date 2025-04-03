@@ -42,7 +42,8 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     'dubai-schokolade',
     'spinatknoedel',
     'shakshuka',
-    'kuerbissuppe'
+    'kuerbissuppe',
+    'suesskartoffel-kokos-suppe'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -110,7 +111,8 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     'dubai-schokolade',
     'spinatknoedel',
     'shakshuka',
-    'kuerbissuppe'
+    'kuerbissuppe',
+    'suesskartoffel-kokos-suppe'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -199,7 +201,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'dubai-schokolade',
     'spinatknoedel',
     'shakshuka',
-    'kuerbissuppe'
+    'kuerbissuppe',
+    'suesskartoffel-kokos-suppe'
   ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
@@ -233,7 +236,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'dubai-schokolade',
     'spinatknoedel',
     'shakshuka',
-    'kuerbissuppe'
+    'kuerbissuppe',
+    'suesskartoffel-kokos-suppe'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
