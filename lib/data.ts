@@ -840,7 +840,7 @@ instructions: [
   },
   {
     title: "Grießnockerl",
-    image: "/images/Miscellaneous/griessnockerl.webp",
+    image: "/images/Miscellaneous/griessNockerl.webp",
     prepTime: 35,
 cookingTime: 20,
 rating: 4.6,

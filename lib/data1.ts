@@ -4325,6 +4325,198 @@ export const recipes: Recipe[] = [
       "image6": "/images/Soups/suesskartoffelKokosSuppe6.webp",
       "image7": "/images/Soups/suesskartoffelKokosSuppe7.webp"
     }
+  },
+  {
+    "title": "Omas Grießnockerl: Ein Herzhaftes Suppen-Highlight",
+    "seo_title": "Grießnockerl Rezept Oma – Luftig-Leichte Nockerl",
+    "image": "/images/Miscellaneous/griessNockerl.webp",
+    "prepTime": 20,
+    "cookingTime": 15,
+    "seo_keywords": [
+      "Grießnockerl Rezept Oma",
+      "Grießnockerl Rezept",
+      "Grießnockerl Suppe",
+      "Grießnockerl Kalorien",
+      "Rezept Grießnockerl",
+      "Grießnockerl Grundrezept",
+      "Einfache Grießnockerl",
+      "Grießnockerl Zubereitung",
+      "Hausgemachte Grießnockerl",
+      "Grießnockerl Teig"
+    ],
+    "rating": 4.9,
+    "reviews": 2528,
+    "category": "Suppen",
+    "slug": "griessnockerl",
+    "tags": ["Traditionell", "Suppe", "Beilage"],
+    "createdDate": new Date("2025-03-05T00:00:00"),
+    "updatedDate": new Date("2025-04-04T00:00:00"),
+    "servings": 3,
+    "description": "Luftig-leichte Grießnockerl wie von Oma: Traditionelles Rezept für jede Suppe. Einfach & schnell zubereitet, ein Festmahl für die ganze Familie!",
+    "descriptionOnImage": "Goldgelbe, luftige Grießnockerl in einer dampfenden Brühe – ein hausgemachtes Wohlfühlgericht, das die Seele wärmt. Ein perfektes Rezept Grießnockerl für jede Gelegenheit.",
+    "introductionParagraph": "Ach, meine Lieben, diese Grießnockerl sind ein Stück Kindheit in jeder Suppe! Sie erinnern mich an meine Oma, die immer diese wunderbar leichten Nockerl zubereitet hat. Ein einfaches, aber unglaublich schmackhaftes Rezept Grießnockerl, das jede Suppe zu einem besonderen Erlebnis macht. Diese Nockerl werden aus Grieß, Butter und Eiern zubereitet, um ein Gericht zu schaffen, das sowohl nahrhaft als auch unglaublich zart ist. Die Grießnockerl Suppe ist nicht nur ein Fest für den Gaumen, sondern auch ein Ausdruck von Liebe und Tradition. Sie zeigen, wie köstlich und vielseitig eine einfache Suppeneinlage sein kann. Wenn ihr das Grießnockerl Rezept Oma sucht, seid ihr hier genau richtig! Und keine Sorge um die Grießnockerl Kalorien, diese Nockerl sind voller guter Zutaten und machen jede Suppe leichter!",
+    "additionalParagraph": "Was diese Grießnockerl so besonders macht, ist ihre luftige Textur und die Möglichkeit, sie an jede Suppe anzupassen. Sie sind das perfekte Extra für eine klare Brühe, eine cremige Gemüsesuppe oder sogar eine herzhafte Rindfleischsuppe. Die Zubereitung ist unkompliziert und ermöglicht es, die Konsistenz und den Geschmack nach Belieben zu variieren. Für ein noch intensiveres Aroma können Sie frische Kräuter wie Petersilie oder Schnittlauch hinzufügen. Und für diejenigen, die es gerne etwas würziger mögen, empfiehlt sich eine Prise Muskatnuss oder Majoran. Diese hausgemachten Grießnockerl sind nicht nur eine Suppeneinlage, sondern ein Ausdruck von Liebe und Sorgfalt, der zeigt, wie vielfältig und schmackhaft eine einfache Suppe sein kann. Ich mache diese Nockerl genauso liebevoll wie Oma ihre Grießnockerl Suppe. Und glaubt mir, mit diesem Grießnockerl Grundrezept gelingen sie immer! Probiert es aus, meine Lieben, ihr werdet es nicht bereuen!",
+    "ingredientsNeeded": [
+      {
+        "title": "Grieß",
+        "description": "Die Basis für Luftige Nockerl. Verwenden Sie feinen Weizengrieß für eine zarte Textur. Achten Sie auf die richtige Konsistenz, um luftige und leichte Nockerl zu erhalten."
+      },
+      {
+        "title": "Butter",
+        "description": " Der Geschmacksverstärker. Sie verleiht den Nockerln einen reichen, buttrigen Geschmack. Verwenden Sie hochwertige Butter für beste Ergebnisse."
+      },
+      {
+        "title": "Eier",
+        "description": "Der Binder für Perfekte Nockerl.Sie binden die Zutaten zusammen und sorgen für eine geschmeidige Textur. Verwenden Sie frische Eier für beste Ergebnisse."
+      },
+      {
+        "title": "Milch",
+        "description": "Die Feuchtigkeit für Zarte Nockerl. Sie macht die Nockerl saftig und locker. Verwenden Sie Vollmilch oder pflanzliche Milchalternativen, um die gewünschte Konsistenz zu erreichen."
+      },
+      {
+        "title": "Salz",
+        "description": "Die Würze für Herzhafte Nockerl. Eine Prise Salz hebt die Aromen hervor und sorgt für einen ausgewogenen Geschmack."
+      },
+      {
+        "title": "Muskatnuss",
+        "description": "Das Aromatische Finish. Eine Prise Muskatnuss verleiht den Nockerln eine warme, würzige Note. Verwenden Sie frisch geriebene Muskatnuss für ein intensives Aroma."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Grießnockerl",
+        "description": "Die Grundlage für luftig-leichte Nockerl:",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Grieß" },
+          { "amount": 50, "unit": "g", "name": "Butter (weich)" },
+          { "amount": 2, "unit": "", "name": "Eier" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Grießnockerl",
+        "description": "Die Zutaten, die den Nockerln ihren unverwechselbaren Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 50, "unit": "ml", "name": "Milch" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Muskatnuss" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 100, "unit": "g", "name": "Grieß" },
+      { "amount": 50, "unit": "g", "name": "Butter (weich)" },
+      { "amount": 2, "unit": "", "name": "Eier" },
+      { "amount": 50, "unit": "ml", "name": "Milch" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Muskatnuss" }
+    ],
+    "instructions": [
+      "Butter und Eier in einer Schüssel schaumig schlagen.",
+      "Grieß, Milch, Salz und Muskatnuss hinzufügen und gut vermischen. Der Grießnockerl Teig sollte weich, aber nicht zu flüssig sein.",
+      "Den Teig ca. 10 Minuten quellen lassen, damit der Grieß aufquellen kann.",
+      "In einem Topf Salzwasser zum Kochen bringen. Mit einem Teelöffel kleine Nockerl aus dem Teig abstechen und ins kochende Wasser geben.",
+      "Die Nockerl ca. 10-15 Minuten ziehen lassen, bis sie an der Oberfläche schwimmen. Genau wie bei Omas Grießnockerl Suppe, nur eben fest!",
+      "Mit einer Schaumkelle aus dem Wasser nehmen und in der Suppe servieren."
+    ],
+    "nutrition": {
+      "calories": 894,
+      "protein": "27.3g",
+      "carbs": "76.7g",
+      "fat": "52.9g"
+    },
+    "tips": [
+      "Für eine besonders luftige Konsistenz können Sie etwas Mineralwasser zum Teig geben.",
+      "Verwenden Sie frische Kräuter wie Petersilie oder Schnittlauch, um den Geschmack zu verfeinern.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Majoran oder Thymian, um die Nockerl zu personalisieren.",
+      "Für eine leichtere Variante können Sie fettarme Milch verwenden."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Grießnockerl mein Herz erobern",
+      "reasons": [
+        {
+          "title": "Luftige Textur",
+          "description": "Die zarten Nockerl sind ein wahrer Genuss für den Gaumen."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Rezept ist unkompliziert zuzubereiten und perfekt für jede Suppe."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Die Nockerl passen zu jeder Suppe und lassen sich leicht an individuelle Vorlieben anpassen."
+        },
+        {
+          "title": "Traditionell",
+          "description": "Diese Nockerl erinnern an Omas Küche und sind ein Stück Heimat in jeder Suppe. Wie bei Omas Grießnockerl Rezept, nur eben von mir!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von der luftigen Leichtigkeit meiner Grießnockerl verzaubern – ein Gericht, das jede Suppe zu einem Festmahl macht! Genau wie bei Omas Grießnockerl Rezept, nur eben von mir.",
+      "subText": "Ich bin sicher, diese Nockerl werden Ihre Suppe bereichern und Sie in eine Welt des hausgemachten Genusses entführen... Und keine Sorge, die Grießnockerl Kalorien sind es wert!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Den Teig Zubereiten",
+        "description": "Butter, Eier, Grieß, Milch und Gewürze vermischen, um den perfekten Grießnockerl Teig zu erhalten."
+      },
+      {
+        "title": "Schritt 2: Den Teig Quellen Lassen",
+        "description": "Den Teig ca. 10 Minuten quellen lassen, damit der Grieß aufquellen kann."
+      },
+      {
+        "title": "Schritt 3: Die Nockerl Kochen",
+        "description": "Nockerl formen und in Salzwasser ziehen lassen, bis sie gar sind. Genau wie bei Omas Grießnockerl Suppe, nur eben von mir!"
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Grießnockerl in einer klaren Brühe oder einer cremigen Gemüsesuppe für ein herzhaftes und wärmendes Gericht.",
+    "servingSuggestions": {
+      "title": "Globale Suppen-Pairings mit Grießnockerl",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Grießnockerl:",
+      "note": "Diese Ideen zeigen, wie vielseitig Grießnockerl sein können und wie einfach es ist, internationale Aromen in Ihre Suppe zu integrieren!",
+      "items": [
+        {
+          "emoji": "🇮🇹",
+          "title": "Italienische Minestrone",
+          "description": "Servieren Sie die Grießnockerl in einer reichhaltigen Minestrone mit Gemüse und Bohnen."
+        },
+        {
+          "emoji": "🇫🇷",
+          "title": "Französische Gemüsesuppe (Potage)",
+          "description": "Geben Sie die Grießnockerl in eine cremige französische Gemüsesuppe (Potage) für eine elegante Vorspeise."
+        },
+        {
+          "emoji": "🇲🇦",
+          "title": "Marokkanische Harira (vegetarisch)",
+          "description": "Verwenden Sie die Grießnockerl als Einlage in einer vegetarischen Version der marokkanischen Harira mit Linsen und Kichererbsen."
+        },
+        {
+          "emoji": "🇮🇳",
+          "title": "Indische Dal-Suppe",
+          "description": "Servieren Sie die Grießnockerl in einer würzigen indischen Dal-Suppe mit Linsen und Gewürzen."
+        },
+        {
+          "emoji": "🇲🇽",
+          "title": "Mexikanische Sopa de Fideo (vegetarisch)",
+          "description": "Geben Sie die Grießnockerl in eine vegetarische Version der mexikanischen Nudelsuppe (Sopa de Fideo) für eine herzhafte Note."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Grießnockerl-Geschichte",
+      "description": "Wussten Sie, dass Grießnockerl in vielen europäischen Küchen Tradition haben? Sie sind ein einfaches, aber vielseitiges Gericht, das sich im Laufe der Zeit entwickelt hat. Unsere Grießnockerl sind eine Hommage an die traditionelle Küche und zeigen, wie köstlich und wärmend eine einfache Suppeneinlage sein kann!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/griessNockerlIngredient.webp",
+      "image1": "/images/Miscellaneous/griessNockerl1.webp",
+      "image2": "/images/Miscellaneous/griessNockerl2.webp",
+      "image3": "/images/Miscellaneous/griessNockerl3.webp",
+      "image4": "/images/Miscellaneous/griessNockerl4.webp",
+      "image5": "/images/Miscellaneous/griessNockerl5.webp",
+      "image6": "/images/Miscellaneous/griessNockerl6.webp",
+      "image7": "/images/Miscellaneous/griessNockerl7.webp"
+    }
   }
 ];
 
