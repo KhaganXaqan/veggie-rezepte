@@ -4222,7 +4222,7 @@ export const recipes: Recipe[] = [
       "calories": 1551,
       "protein": "25.5g",
       "carbs": "205.2g",
-      "fat": "74,5g"
+      "fat": "74,6g"
     },
     "tips": [
       "Für eine intensivere Geschmacksnote können Sie gerösteten Ingwer oder Knoblauch hinzufügen.",
