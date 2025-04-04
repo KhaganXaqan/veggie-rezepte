@@ -4517,6 +4517,230 @@ export const recipes: Recipe[] = [
       "image6": "/images/Miscellaneous/griessNockerl6.webp",
       "image7": "/images/Miscellaneous/griessNockerl7.webp"
     }
+  },
+  {
+    "title": "Mediterraner Gemüse-Couscous-Salat",
+    "seo_title": "Schneller Gemüse Couscous Salat: Mediterran, frisch & lecker",
+    "image": "/images/Salads/gemuese-couscous-salat.webp",
+    "prepTime": 20,
+    "cookingTime": 5,
+    "seo_keywords": [
+      "Couscous Salat Rezept",
+      "Gemüse Couscous Salat",
+      "einfacher Couscous Salat",
+      "Couscous Salat vegetarisch",
+      "mediterraner Couscous Salat",
+      "schneller Couscous Salat",
+      "Couscous Salat zum Grillen"
+    ],
+    "rating": 4.7,
+    "reviews": 188,
+    "category": "Salate",
+    "slug": "gemuese-couscous-salat",
+    "tags": ["Salat", "Orientalisch", "Couscous"],
+    "createdDate": new Date("2025-04-01T11:00:00Z"),
+    "updatedDate": new Date("2025-04-04T14:30:00Z"),
+    "servings": 4,
+    "description": "Blitzschneller Gemüse Couscous Salat in 25 Min! Perfekt für Grillpartys, Meal Prep oder als leichte Mahlzeit. Frisch, gesund & voller mediterraner Aromen.",
+    "descriptionOnImage": "Ein bunter, mediterraner Couscous-Salat mit viel frischem Gemüse und Kräutern.",
+    "introductionParagraph": "Ach, Couscous-Salat – für mich ist das der Inbegriff von Sommer, Sonne und unkompliziertem Genuss! Ich liebe es einfach, wie schnell dieses Gericht zubereitet ist und wie unglaublich vielseitig es sein kann. Dieser mediterrane Gemüse-Couscous-Salat ist mein absoluter Favorit, wenn es mal wieder schnell gehen muss, aber trotzdem frisch und lecker sein soll. Er erinnert mich immer an laue Sommerabende auf der Terrasse, an Grillpartys mit Freunden, wo dieser Salat einfach nicht fehlen darf. Die Kombination aus dem fluffigen Couscous, dem knackigen, bunten Gemüse und dem zitronig-frischen Dressing ist einfach unschlagbar. Es ist eines dieser Rezepte, die ich fast im Schlaf zubereiten kann und das trotzdem jedes Mal aufs Neue begeistert. Es fühlt sich an, als würde man sich mit jeder Gabel eine kleine Portion mediterranes Lebensgefühl gönnen – leicht, gesund und voller Geschmack.",
+    "additionalParagraph": "Was ich an diesem Salat besonders schätze, ist seine Wandelbarkeit. Manchmal schnipple ich noch eine Zucchini hinein, ein anderes Mal gebe ich ein paar Kichererbsen für eine extra Portion Protein dazu oder verfeinere ihn mit etwas Feta für eine salzige Note. Es ist wie ein Baukasten voller köstlicher Möglichkeiten! Und das Beste: Er schmeckt nicht nur frisch zubereitet fantastisch, sondern oft am nächsten Tag sogar noch besser, wenn alle Aromen richtig durchgezogen sind. Deshalb ist er auch mein treuer Begleiter fürs Büro-Mittagessen oder wenn ich am Wochenende etwas fürs Picknick vorbereiten möchte. Jedes Mal, wenn ich die Schüssel öffne, strömt mir dieser herrliche Duft von frischer Minze, Zitrone und Gemüse entgegen – das ist für mich pure Freude und ein kleines bisschen Urlaub im Alltag. Dieser Salat ist einfach, ehrlich und macht glücklich – genau das, was ich an guter Küche liebe.",
+    "ingredientsNeeded": [
+      {
+        "title": "Couscous",
+        "description": "Die Basis unseres Salats. Instant-Couscous ist hier perfekt, da er nur mit heißem Wasser übergossen werden muss und in wenigen Minuten fertig ist. Er saugt das Dressing wunderbar auf."
+      },
+      {
+        "title": "Buntes Gemüse",
+        "description": "Paprika (rot und gelb für die Farbe!), Salatgurke und saftige Cherrytomaten sorgen für Frische, Biss und Vitamine. Sie bilden das Herzstück des Salats."
+      },
+      {
+        "title": "Rote Zwiebel",
+        "description": "Verleiht eine milde Schärfe und eine schöne Farbe. Wer es milder mag, kann auch Frühlingszwiebeln verwenden."
+      },
+      {
+        "title": "Frische Kräuter",
+        "description": "Petersilie und Minze sind unerlässlich für das mediterrane Flair! Sie bringen eine unglaubliche Frische und Leichtigkeit in den Salat. Nicht sparen damit!"
+      },
+      {
+        "title": "Zitronen-Olivenöl-Dressing",
+        "description": "Ein einfaches, aber geniales Dressing aus gutem Olivenöl, frisch gepresstem Zitronensaft, Salz, Pfeffer und einer Prise Kreuzkümmel für die orientalische Note. Es verbindet alle Komponenten harmonisch."
+      },
+      {
+          "title": "Optional: Feta oder Kichererbsen",
+          "description": "Für mehr Sättigung und Protein können Kichererbsen hinzugefügt werden. Feta-Käse sorgt für eine leckere, salzig-cremige Komponente."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Salat",
+        "description": "Die Hauptkomponenten, die den Salat ausmachen: fluffiger Couscous und knackiges, buntes Gemüse.",
+        "ingredients": [
+          { "amount": 250, "unit": "g", "name": "Instant-Couscous" },
+          { "amount": 250, "unit": "ml", "name": "Heißes Wasser oder Gemüsebrühe" },
+          { "amount": 1, "unit": "", "name": "Rote Paprika, gewürfelt" },
+          { "amount": 1, "unit": "", "name": "Gelbe Paprika, gewürfelt" },
+          { "amount": 0.5, "unit": "", "name": "Salatgurke, gewürfelt" },
+          { "amount": 200, "unit": "g", "name": "Cherrytomaten, halbiert" },
+          { "amount": 1, "unit": "", "name": "Kleine rote Zwiebel, fein gehackt" },
+          { "amount": 1, "unit": "Bund", "name": "Glatte Petersilie, gehackt" },
+          { "amount": 0.5, "unit": "Bund", "name": "Frische Minze, gehackt" }
+        ]
+      },
+      {
+        "title": "Für das Dressing",
+        "description": "Ein einfaches, zitroniges Dressing, das dem Salat seine mediterrane Frische verleiht.",
+        "ingredients": [
+          { "amount": 6, "unit": "EL", "name": "Gutes Olivenöl" },
+          { "amount": 3, "unit": "EL", "name": "Frisch gepresster Zitronensaft" },
+          { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (Cumin), gemahlen" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 250, "unit": "g", "name": "Instant-Couscous" },
+      { "amount": 250, "unit": "ml", "name": "Heißes Wasser oder Gemüsebrühe" },
+      { "amount": 1, "unit": "", "name": "Rote Paprika, gewürfelt" },
+      { "amount": 1, "unit": "", "name": "Gelbe Paprika, gewürfelt" },
+      { "amount": 0.5, "unit": "", "name": "Salatgurke, gewürfelt" },
+      { "amount": 200, "unit": "g", "name": "Cherrytomaten, halbiert" },
+      { "amount": 1, "unit": "", "name": "Kleine rote Zwiebel, fein gehackt" },
+      { "amount": 1, "unit": "Bund", "name": "Glatte Petersilie, gehackt" },
+      { "amount": 0.5, "unit": "Bund", "name": "Frische Minze, gehackt" },
+      { "amount": 6, "unit": "EL", "name": "Gutes Olivenöl" },
+      { "amount": 3, "unit": "EL", "name": "Frisch gepresster Zitronensaft" },
+      { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (Cumin), gemahlen" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+    ],
+    "instructions": [
+      "Den Instant-Couscous in eine große Schüssel geben.",
+      "Das heiße Wasser oder die Gemüsebrühe darüber gießen, sodass der Couscous bedeckt ist. Eine Prise Salz hinzufügen und kurz umrühren.",
+      "Die Schüssel abdecken und den Couscous etwa 5-7 Minuten quellen lassen, bis die Flüssigkeit vollständig aufgesogen ist.",
+      "In der Zwischenzeit das gesamte Gemüse (Paprika, Gurke, Tomaten, Zwiebel) waschen und klein würfeln bzw. hacken. Die Kräuter ebenfalls fein hacken.",
+      "Für das Dressing Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel gut verquirlen.",
+      "Den gequollenen Couscous mit einer Gabel auflockern.",
+      "Das vorbereitete Gemüse und die gehackten Kräuter zum Couscous geben.",
+      "Das Dressing darüber gießen und alles vorsichtig, aber gründlich vermengen.",
+      "Den Salat abschmecken und bei Bedarf noch etwas Salz, Pfeffer oder Zitronensaft hinzufügen.",
+      "Am besten schmeckt der Salat, wenn er vor dem Servieren noch etwa 15-30 Minuten ziehen kann. Er kann aber auch sofort genossen werden."
+    ],
+    "nutrition": {
+      "calories": 1855,
+      "protein": "40.9g",
+      "carbs": "235.3g",
+      "fat": "82.1g"
+    },
+    "tips": [
+      "Für eine orientalische Note kannst du noch Rosinen oder getrocknete Aprikosen (klein geschnitten) hinzufügen.",
+      "Etwas Harissa-Paste im Dressing sorgt für eine angenehme Schärfe.",
+      "Geröstete Mandelblättchen oder Sonnenblumenkerne geben dem Salat einen schönen Crunch.",
+      "Statt Couscous kannst du auch Bulgur oder Quinoa als Basis verwenden.",
+      "Experimentiere mit dem Gemüse: Zucchiniwürfel, Mais oder Kichererbsen passen ebenfalls hervorragend.",
+      "Ein Klecks Joghurt-Dip (z.B. mit Knoblauch und Kräutern) rundet den Salat beim Servieren perfekt ab.",
+      "Der Salat hält sich gut abgedeckt im Kühlschrank für 2-3 Tage und eignet sich daher super für Meal Prep.",
+      "Wenn du Feta hinzufügst, zerbrösele ihn erst kurz vor dem Servieren über den Salat, damit er nicht matschig wird."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieser Couscous-Salat mein Sommer-Liebling ist",
+      "reasons": [
+        {
+          "title": "Blitzschnell fertig",
+          "description": "In maximal 25 Minuten steht ein vollwertiges, leckeres Gericht auf dem Tisch. Perfekt für den Feierabend!"
+        },
+        {
+          "title": "Unglaublich frisch und leicht",
+          "description": "Die Kombination aus viel Gemüse, Kräutern und Zitrone macht ihn zum idealen Sommergericht – nicht zu schwer, aber sättigend."
+        },
+        {
+          "title": "Meal Prep Champion",
+          "description": "Er schmeckt am nächsten Tag fast noch besser und ist daher perfekt zum Mitnehmen ins Büro oder für Picknicks."
+        },
+        {
+          "title": "So vielseitig",
+          "description": "Man kann ihn nach Lust und Laune abwandeln – mit anderem Gemüse, Hülsenfrüchten, Käse oder Nüssen."
+        },
+        {
+          "title": "Perfekter Grillbegleiter",
+          "description": "Er passt hervorragend zu Gegrilltem aller Art und ist bei jeder Grillparty ein gern gesehener Gast."
+        },
+        {
+          "title": "Gesund und vollwertig",
+          "description": "Vollgepackt mit Vitaminen, Ballaststoffen und guten Kohlenhydraten – ein echtes Power-Food."
+        },
+        {
+          "title": "Bringt Farbe auf den Teller",
+          "description": "Das bunte Gemüse macht einfach gute Laune und sieht wunderschön aus."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dir diesen frischen Couscous-Salat schmecken – ein Stück Sommer auf dem Teller!",
+      "subText": "Ich bin gespannt, wie er dir gelingt und welche Variationen du ausprobierst!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Couscous perfekt garen",
+        "description": "Der Schlüssel zu fluffigem Couscous ist das richtige Verhältnis von Flüssigkeit und die kurze Quellzeit. Nicht kochen, nur ziehen lassen!"
+      },
+      {
+        "title": "Schritt 2: Gemüse schnippeln – Frische pur",
+        "description": "Während der Couscous quillt, wird das Gemüse vorbereitet. Gleichmäßige, kleine Würfel sorgen für ein angenehmes Mundgefühl und eine schöne Optik."
+      },
+      {
+        "title": "Schritt 3: Das aromatische Dressing",
+        "description": "Die Harmonie von gutem Olivenöl, spritziger Zitrone und einem Hauch Kreuzkümmel ist das Geheimnis dieses Dressings. Gut verquirlen, damit es sich verbindet."
+      },
+      {
+        "title": "Schritt 4: Alles vereinen und durchziehen lassen",
+        "description": "Couscous auflockern, Gemüse und Kräuter dazu, Dressing drüber – und dann das Wichtigste: Kurz ziehen lassen, damit sich die Aromen verbinden können."
+      }
+    ],
+    "servingSuggestion": "Serviere den Gemüse-Couscous-Salat leicht gekühlt als Hauptgericht oder als Beilage zu Gegrilltem.",
+    "servingSuggestions": {
+      "title": "Was passt perfekt zu meinem Gemüse-Couscous-Salat?",
+      "description": "Dieser Salat ist schon solo ein Star, aber mit diesen Begleitern wird's ein Festmahl:",
+      "note": "Egal wofür du dich entscheidest, der Salat bringt immer Frische auf den Tisch!",
+      "items": [
+        {
+          "emoji": "🥖",
+          "title": "Frisches Fladenbrot oder Baguette",
+          "description": "Ideal, um die letzten Reste des leckeren Dressings aufzutunken. Ein Muss, finde ich!"
+        },
+        {
+          "emoji": "🥣",
+          "title": "Ein Klecks Joghurt-Dip",
+          "description": "Ein einfacher Dip aus Naturjoghurt, Knoblauch, Salz und Pfeffer (vielleicht noch etwas Minze?) rundet das Gericht perfekt ab und sorgt für Cremigkeit."
+        },
+        {
+          "emoji": "🧆",
+          "title": "Falafel",
+          "description": "Bleiben wir orientalisch: Knusprige Falafelbällchen dazu sind eine köstliche und sättigende Ergänzung."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein kühler Weißwein",
+          "description": "Ein trockener Sauvignon Blanc oder ein leichter Rosé unterstreicht die Frische des Salats an einem warmen Abend."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact über Couscous",
+      "description": "Wusstest du, dass Couscous traditionell nicht gekocht, sondern über kochendem Wasser oder Eintopf gedämpft wird?  steamed? 💨 In Nordafrika, seiner Heimat, ist die Zubereitung oft ein geselliges Ritual. Der Instant-Couscous, den wir meist verwenden, ist vorgegart und muss nur noch quellen – super praktisch für unsere schnelle Küche! Aber egal wie, er ist einfach lecker und vielseitig. 😊"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/gemueseCouscousSalatIngredient.webp",
+      "image1": "/images/Salads/gemuese-couscous-salat1.webp",
+      "image2": "/images/Salads/gemuese-couscous-salat2.webp",
+      "image3": "/images/Salads/gemuese-couscous-salat3.webp",
+      "image4": "/images/Salads/gemuese-couscous-salat4.webp",
+      "image5": "/images/Salads/gemuese-couscous-salat5.webp",
+      "image6": "/images/Salads/gemuese-couscous-salat6.webp",
+      "image7": "/images/Salads/gemuese-couscous-salat7.webp"
+    }
   }
 ];
 
