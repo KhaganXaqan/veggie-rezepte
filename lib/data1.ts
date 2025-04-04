@@ -4329,7 +4329,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Omas Grießnockerl: Ein Herzhaftes Suppen-Highlight",
     "seo_title": "Grießnockerl Rezept Oma – Luftig-Leichte Nockerl",
-    "image": "/images/Miscellaneous/griessNockerl.webp",
+    "image": "/images/Miscellaneous/griessnockerl.webp",
     "prepTime": 20,
     "cookingTime": 15,
     "seo_keywords": [
