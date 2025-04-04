@@ -4741,6 +4741,243 @@ export const recipes: Recipe[] = [
       "image6": "/images/Salads/gemuese-couscous-salat6.webp",
       "image7": "/images/Salads/gemuese-couscous-salat7.webp"
     }
+  },
+  {
+    "title": "Energievoller Bunter Quinoa-Salat",
+    "seo_title": "Gesunder Bunter Quinoa Salat: Vegan, proteinreich & lecker",
+    "image": "/images/Salads/bunter-quinoa-salat.webp",
+    "prepTime": 20,
+    "cookingTime": 15,
+    "seo_keywords": [
+      "Quinoa Salat Rezept",
+      "Bunter Quinoa Salat",
+      "Quinoa Salat gesund",
+      "veganer Quinoa Salat",
+      "Quinoa Salat mit Gemüse",
+      "proteinreicher Salat",
+      "Quinoa Salat Dressing"
+    ],
+    "rating": 4.9,
+    "reviews": 215,    
+    "category": "Salate",
+    "slug": "bunter-quinoa-salat",
+    "tags": ["Salat", "Gesund", "Quinoa"],
+    "createdDate": new Date("2025-04-02T09:30:00Z"),
+    "updatedDate": new Date("2025-04-04T15:00:00Z"),
+    "servings": 3,
+    "description": "Farbenfroher & gesunder Quinoa Salat in 35 Min! Vegan, glutenfrei & voller Proteine. Perfekt als leichte Mahlzeit, Beilage oder Meal Prep.",
+    "descriptionOnImage": "Ein lebendiger, bunter Quinoa-Salat mit schwarzen Bohnen, Mais, Avocado und Limetten-Dressing.",
+    "introductionParagraph": "Manchmal brauche ich einfach einen richtigen Energie-Kick auf dem Teller, etwas, das nicht nur satt macht, sondern auch Körper und Seele guttut. Genau dann kommt mein bunter Quinoa-Salat ins Spiel! Ich kann mich noch erinnern, als ich Quinoa zum ersten Mal probiert habe – dieses nussige Aroma und die leicht körnige Textur haben mich sofort begeistert. Seitdem ist es aus meiner Küche nicht mehr wegzudenken. Dieser Salat ist wie ein Regenbogen in der Schüssel: leuchtend roter Paprika, sattes Grün von Avocado und Koriander, sonnengelber Mais und tiefschwarze Bohnen tanzen mit dem hellen Quinoa um die Wette. Allein der Anblick macht schon gute Laune! Es ist für mich das perfekte Mittagessen, wenn ich nachmittags noch fit sein muss, oder ein leichtes Abendessen, das mich zufrieden, aber nicht überfüllt zurücklässt. Die Zubereitung ist herrlich unkompliziert, und das Ergebnis ist immer wieder ein Fest für Augen und Gaumen.",
+    "additionalParagraph": "Das Tolle an diesem Salat ist auch, wie unglaublich nahrhaft er ist. Quinoa selbst ist ja schon ein kleines Kraftpaket, voller pflanzlichem Protein und Ballaststoffen. Zusammen mit den schwarzen Bohnen, dem gesunden Fett der Avocado und all dem frischen Gemüse ist es eine richtige Nährstoffbombe, die lange sättigt und guttut. Ich fühle mich nach dem Essen immer so angenehm energetisiert! Oft bereite ich gleich eine größere Menge zu, denn er hält sich super im Kühlschrank und schmeckt auch am nächsten oder übernächsten Tag noch fantastisch. Das Limetten-Koriander-Dressing gibt dem Ganzen den letzten Schliff – es ist so erfrischend und passt perfekt zu den leicht süßlichen und erdigen Aromen der anderen Zutaten. Für mich ist dieser Salat mehr als nur Essen; er ist ein Ausdruck von Lebensfreude, Gesundheit und bewusstem Genuss. Ein einfaches Gericht, das zeigt, wie lecker und bunt gesunde Ernährung sein kann.",
+    "ingredientsNeeded": [
+      {
+        "title": "Quinoa",
+        "description": "Das Pseudogetreide ist die proteinreiche und glutenfreie Basis unseres Salats. Ich verwende gerne weißen Quinoa, aber Tricolore sieht natürlich noch bunter aus!"
+      },
+      {
+        "title": "Schwarze Bohnen & Mais",
+        "description": "Diese beiden bringen nicht nur Farbe, sondern auch Ballaststoffe und eine leicht süßliche bzw. erdige Note. Praktisch aus der Dose!"
+      },
+      {
+        "title": "Rote Paprika",
+        "description": "Sorgt für knackige Süße und eine Extraportion Vitamin C. Die leuchtend rote Farbe ist ein Muss für einen 'bunten' Salat."
+      },
+      {
+        "title": "Rote Zwiebel",
+        "description": "Gibt eine feine Schärfe und Würze. Wer es milder mag, kann sie kurz in kaltem Wasser einlegen."
+      },
+      {
+        "title": "Avocado",
+        "description": "Die cremige Komponente! Sie liefert gesunde Fette und macht den Salat wunderbar sättigend. Erst kurz vor dem Servieren hinzufügen."
+      },
+      {
+        "title": "Frischer Koriander",
+        "description": "Für mich unverzichtbar für den südamerikanisch inspirierten Geschmack. Wer Koriander nicht mag, kann Petersilie verwenden, aber es ist nicht ganz dasselbe."
+      },
+      {
+        "title": "Limetten-Dressing",
+        "description": "Ein spritziges Dressing aus Limettensaft, Olivenöl, etwas Ahornsirup (oder Agavendicksaft) für die Balance, Knoblauch und Gewürzen wie Kreuzkümmel und Chili."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Salat",
+        "description": "Die farbenfrohen und nahrhaften Hauptdarsteller dieses Energie-Salats.",
+        "ingredients": [
+          { "amount": 150, "unit": "g", "name": "Quinoa (weiß oder tricolore)" },
+          { "amount": 300, "unit": "ml", "name": "Wasser oder Gemüsebrühe" },
+          { "amount": 1, "unit": "Dose (ca. 240g Abtropfgew.)", "name": "Schwarze Bohnen, abgespült und abgetropft" },
+          { "amount": 1, "unit": "Kleine Dose (ca. 140g Abtropfgew.)", "name": "Mais, abgetropft" },
+          { "amount": 1, "unit": "", "name": "Rote Paprika, fein gewürfelt" },
+          { "amount": 0.5, "unit": "", "name": "Rote Zwiebel, fein gehackt" },
+          { "amount": 1, "unit": "", "name": "Reife Avocado, gewürfelt" },
+          { "amount": 0.5, "unit": "Bund", "name": "Frischer Koriander, grob gehackt" }
+        ]
+      },
+      {
+        "title": "Für das Limetten-Dressing",
+        "description": "Ein spritzig-frisches Dressing, das dem Salat den letzten Kick gibt.",
+        "ingredients": [
+          { "amount": 4, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 3, "unit": "EL", "name": "Frisch gepresster Limettensaft (ca. 1-2 Limetten)" },
+          { "amount": 1, "unit": "TL", "name": "Ahornsirup oder Agavendicksaft (optional)" },
+          { "amount": 1, "unit": "Zehe", "name": "Knoblauch, gepresst oder sehr fein gehackt" },
+          { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (Cumin), gemahlen" },
+          { "amount": 0.25, "unit": "TL", "name": "Chilipulver oder -flocken (optional, nach Geschmack)" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 150, "unit": "g", "name": "Quinoa (weiß oder tricolore)" },
+      { "amount": 300, "unit": "ml", "name": "Wasser oder Gemüsebrühe" },
+      { "amount": 1, "unit": "Dose (ca. 240g Abtropfgew.)", "name": "Schwarze Bohnen, abgespült und abgetropft" },
+      { "amount": 1, "unit": "Kleine Dose (ca. 140g Abtropfgew.)", "name": "Mais, abgetropft" },
+      { "amount": 1, "unit": "", "name": "Rote Paprika, fein gewürfelt" },
+      { "amount": 0.5, "unit": "", "name": "Rote Zwiebel, fein gehackt" },
+      { "amount": 1, "unit": "", "name": "Reife Avocado, gewürfelt" },
+      { "amount": 0.5, "unit": "Bund", "name": "Frischer Koriander, grob gehackt" },
+      { "amount": 4, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 3, "unit": "EL", "name": "Frisch gepresster Limettensaft (ca. 1-2 Limetten)" },
+      { "amount": 1, "unit": "TL", "name": "Ahornsirup oder Agavendicksaft (optional)" },
+      { "amount": 1, "unit": "Zehe", "name": "Knoblauch, gepresst oder sehr fein gehackt" },
+      { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (Cumin), gemahlen" },
+      { "amount": 0.25, "unit": "TL", "name": "Chilipulver oder -flocken (optional, nach Geschmack)" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+    ],
+    "instructions": [
+      "Die Quinoa gründlich in einem feinen Sieb unter kaltem Wasser abspülen, bis das Wasser klar bleibt. Das entfernt Bitterstoffe.",
+      "Quinoa mit Wasser oder Gemüsebrühe und einer Prise Salz in einen Topf geben. Aufkochen lassen, dann die Hitze reduzieren, abdecken und ca. 15 Minuten köcheln lassen, bis die Flüssigkeit aufgesogen ist und die Quinoa-Körner aufgeplatzt sind.",
+      "Den Topf vom Herd nehmen und die Quinoa zugedeckt noch 5 Minuten nachquellen lassen. Anschließend mit einer Gabel auflockern und vollständig abkühlen lassen.",
+      "Während die Quinoa kocht und abkühlt, Paprika und rote Zwiebel fein würfeln/hacken. Koriander grob hacken. Bohnen und Mais abspülen und abtropfen lassen.",
+      "Für das Dressing alle Zutaten (Olivenöl, Limettensaft, Ahornsirup, Knoblauch, Gewürze, Salz, Pfeffer) in einer kleinen Schüssel oder einem Glas mit Deckel gut verquirlen bzw. schütteln.",
+      "Die abgekühlte Quinoa in eine große Salatschüssel geben.",
+      "Bohnen, Mais, Paprika, rote Zwiebel und den größten Teil des Korianders hinzufügen.",
+      "Das Dressing darüber gießen und alles gut vermengen.",
+      "Den Salat abschmecken und bei Bedarf nachwürzen.",
+      "Erst kurz vor dem Servieren die gewürfelte Avocado vorsichtig unterheben und mit dem restlichen Koriander bestreuen."
+    ],
+    "nutrition": {
+      "calories": 1880,
+      "protein": "64g",
+      "carbs": "212g",
+      "fat": "92g"
+    },
+    "tips": [
+      "Für mehr Crunch kannst du geröstete Kürbiskerne oder Sonnenblumenkerne hinzufügen.",
+      "Ein paar gewürfelte Mango-Stücke geben dem Salat eine exotisch-fruchtige Note.",
+      "Wenn du es schärfer magst, füge fein gehackte Jalapeños (frisch oder eingelegt) hinzu.",
+      "Übrig gebliebener Salat schmeckt auch toll in Wraps gewickelt am nächsten Tag.",
+      "Statt schwarzer Bohnen kannst du auch Kidneybohnen verwenden.",
+      "Für eine nicht-vegane Variante passt auch etwas zerbröselter Feta oder Cotija-Käse gut dazu.",
+      "Achte darauf, die Quinoa wirklich gut abzuspülen, sonst kann sie leicht bitter schmecken.",
+      "Die Avocado erst ganz zum Schluss hinzufügen, damit sie nicht braun wird und matscht."
+    ],
+    "whyFavorite": {
+      "title": "Warum ich diesen bunten Quinoa-Salat liebe",
+      "reasons": [
+        {
+          "title": "Voller Energie & Nährstoffe",
+          "description": "Er ist eine echte Nährstoffbombe mit viel pflanzlichem Protein, Ballaststoffen, Vitaminen und gesunden Fetten. Macht satt und gibt Power!"
+        },
+        {
+          "title": "Ein Fest für die Augen",
+          "description": "Die vielen bunten Zutaten machen einfach gute Laune und sehen unglaublich appetitlich aus."
+        },
+        {
+          "title": "Vegan, glutenfrei & gesund",
+          "description": "Perfekt für alle, die sich bewusst ernähren möchten, ohne auf Geschmack zu verzichten."
+        },
+        {
+          "title": "Fantastisch für Meal Prep",
+          "description": "Hält sich gut im Kühlschrank und schmeckt auch nach 1-2 Tagen noch super – ideal zum Vorbereiten."
+        },
+        {
+          "title": "Erfrischend anders",
+          "description": "Das Limetten-Koriander-Dressing und die Kombination der Zutaten sorgen für einen tollen, leicht südamerikanisch inspirierten Geschmack."
+        },
+        {
+          "title": "Flexibel anpassbar",
+          "description": "Man kann problemlos Zutaten hinzufügen oder weglassen, je nachdem, was der Kühlschrank hergibt oder worauf man Lust hat."
+        },
+        {
+          "title": "Leicht und trotzdem sättigend",
+          "description": "Er füllt den Magen, ohne ein Völlegefühl zu hinterlassen – ideal als leichtes Mittag- oder Abendessen."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Genieß diesen Regenbogen in der Schüssel – meinen bunten Quinoa-Salat!",
+      "subText": "Ich hoffe, er gibt dir genauso viel Energie und Freude wie mir!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Quinoa richtig kochen",
+        "description": "Das A und O ist das gründliche Spülen der Quinoa, um Bitterstoffe zu entfernen. Dann im richtigen Verhältnis mit Flüssigkeit kochen und quellen lassen für die perfekte Konsistenz."
+      },
+      {
+        "title": "Schritt 2: Farben schnippeln",
+        "description": "Während die Quinoa abkühlt, werden alle bunten Zutaten vorbereitet. Fein gewürfelt oder gehackt mischen sie sich später optimal."
+      },
+      {
+        "title": "Schritt 3: Das spritzige Dressing mixen",
+        "description": "Die Balance zwischen Säure (Limette), Fett (Olivenöl), optionaler Süße und den Gewürzen ist entscheidend. Gut schütteln oder rühren!"
+      },
+      {
+        "title": "Schritt 4: Alles zusammenfügen",
+        "description": "Die abgekühlte Quinoa mit den bunten Zutaten und dem Dressing vermengen. Die empfindliche Avocado kommt erst ganz zum Schluss dazu."
+      }
+    ],
+    "servingSuggestion": "Serviere den bunten Quinoa-Salat gekühlt als leichtes Hauptgericht oder nahrhafte Beilage.",
+    "servingSuggestions": {
+      "title": "Womit schmeckt der bunte Quinoa-Salat noch besser?",
+      "description": "Dieser Salat ist vielseitig! Hier ein paar Ideen:",
+      "note": "Er ist aber auch pur ein Genuss!",
+      "items": [
+        {
+          "emoji": "🌮",
+          "title": "Als Füllung für Tacos oder Wraps",
+          "description": "Gib den Salat in weiche Tortillas, vielleicht noch mit etwas Salsa oder Guacamole – ein schnelles, leckeres Essen!"
+        },
+        {
+          "emoji": "칩",
+          "title": "Mit Tortilla-Chips",
+          "description": "Serviere ihn wie einen Dip oder eine Salsa mit knusprigen Tortilla-Chips zum Dippen – perfekt für Partys."
+        },
+        {
+          "emoji": "🥬",
+          "title": "Auf einem Bett aus Blattsalat",
+          "description": "Für noch mehr Grünzeug kannst du den Quinoa-Salat auf Rucola oder Babyspinat anrichten."
+        },
+        {
+          "emoji": "🌶️",
+          "title": "Mit einem Klecks scharfer Sauce",
+          "description": "Wer es gerne feurig mag, kann noch einen Spritzer Sriracha oder eine andere Chilisauce darüber geben."
+        },
+        {
+          "emoji": "🥤",
+          "title": "Mit einem Glas Agua Fresca",
+          "description": "Ein erfrischendes mexikanisches Fruchtwasser (z.B. Hibiskus oder Limette) passt thematisch perfekt dazu."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du schon?",
+      "description": "Quinoa wird oft als Getreide bezeichnet, ist aber botanisch gesehen ein 'Pseudogetreide'. Es gehört zur selben Familie wie Spinat und Rote Bete! 🌿 Schon die Inkas schätzten Quinoa vor Tausenden von Jahren als Grundnahrungsmittel und nannten es 'Mutterkorn'. Heute feiern wir es als Superfood – zu Recht, bei all den Nährstoffen! 💪"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/bunterQuinoaSalatIngredient.webp",
+      "image1": "/images/Salads/bunter-quinoa-salat1.webp",
+      "image2": "/images/Salads/bunter-quinoa-salat2.webp",
+      "image3": "/images/Salads/bunter-quinoa-salat3.webp",
+      "image4": "/images/Salads/bunter-quinoa-salat4.webp",
+      "image5": "/images/Salads/bunter-quinoa-salat5.webp",
+      "image6": "/images/Salads/bunter-quinoa-salat6.webp",
+      "image7": "/images/Salads/bunter-quinoa-salat7.webp"
+    }
   }
 ];
 
