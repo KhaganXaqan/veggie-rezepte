@@ -5202,7 +5202,256 @@ export const recipes: Recipe[] = [
       "image6": "/images/Salads/griechischer-bauernsalat6.webp",
       "image7": "/images/Salads/griechischer-bauernsalat7.webp"
     }
-  }
+  },
+    {
+      "title": "Sonniger Mediterraner Nudelsalat mit Feta & Oliven",
+      "seo_title": "Bester Mediterraner Nudelsalat: Einfach, schnell & lecker",
+      "image": "/images/Salads/mediterraner-nudelsalat.webp",
+      "prepTime": 25,
+      "cookingTime": 10,
+      "seo_keywords": [
+        "Mediterraner Nudelsalat Rezept",
+        "Nudelsalat mit Feta",
+        "einfacher Nudelsalat",
+        "Nudelsalat zum Grillen",
+        "Nudelsalat mit Rucola",
+        "vegetarischer Nudelsalat",
+        "schneller Nudelsalat"
+      ],
+      "rating": 4.8,
+      "reviews": 312,
+      "category": "Salate",
+      "slug": "mediterraner-nudelsalat",
+      "tags": ["Salat", "Pasta", "Mediterran"],
+      "createdDate": new Date("2025-03-15T10:00:00Z"),
+      "updatedDate": new Date("2025-04-05T11:30:00Z"),
+      "servings": 6,
+      "description": "Der perfekte mediterrane Nudelsalat für Grillfeste & Buffets! Schnell gemacht, mit Feta, Oliven, Rucola & sonnengereiften Tomaten. Einfach köstlich!",
+      "descriptionOnImage": "Ein bunter, appetitlicher mediterraner Nudelsalat in einer großen Schüssel, bereit für die Party.",
+      "introductionParagraph": "Nudelsalat – allein das Wort weckt bei mir sofort Erinnerungen an Sommerfeste, Grillabende im Garten und gemütliche Picknicks im Park! Und wenn es ein Nudelsalat gibt, der wirklich *immer* gut ankommt und dieses unbeschwerte Sommergefühl perfekt einfängt, dann ist es dieser mediterrane Traum. Ich liebe es, wie die Aromen von sonnengereiften Tomaten, salzigem Feta, würzigen Oliven und frischem Basilikum sich hier vereinen. Es ist, als würde man eine kleine Reise ans Mittelmeer machen, direkt mit der Gabel! Die Zubereitung ist herrlich unkompliziert, was ihn zum idealen Kandidaten macht, wenn viele Gäste erwartet werden oder man einfach keine Lust hat, stundenlang in der Küche zu stehen. Er lässt sich wunderbar vorbereiten und schmeckt durchgezogen fast noch besser. Für mich ist dieser Salat nicht nur eine Beilage, er ist oft der heimliche Star auf dem Buffet – farbenfroh, sättigend und einfach unwiderstehlich lecker.",
+      "additionalParagraph": "Es gibt ja unzählige Nudelsalat-Varianten, aber diese mediterrane Version hat einen festen Platz in meinem Herzen (und meinem Rezeptbuch!). Was ihn so besonders macht, ist die Balance der Aromen und Texturen: die weichen Nudeln, das knackige Gemüse, der cremige Feta, die würzigen Oliven und das leicht pfeffrige Rucola, das dem Ganzen noch einen extra Frischekick gibt. Das Dressing halte ich bewusst einfach – ein gutes Olivenöl, etwas Balsamicoessig, Zitronensaft und Kräuter reichen völlig aus, um die Zutaten zu umschmeicheln, ohne sie zu überdecken. Ich mache oft gleich eine riesige Schüssel davon, denn erfahrungsgemäß ist er immer als Erstes leer. Und das Schöne ist: Man kann ihn super variieren! Mal kommen noch getrocknete Tomaten dazu, mal geröstete Pinienkerne oder auch ein paar Kapern. So wird es nie langweilig. Dieser Salat ist für mich pure Sommerküche – einfach, ehrlich und voller Geschmack!",
+      "ingredientsNeeded": [
+        {
+          "title": "Pasta",
+          "description": "Die Basis! Kurze Nudelsorten wie Fusilli, Penne oder Farfalle eignen sich am besten, da sie das Dressing und die kleinen Zutaten gut aufnehmen."
+        },
+        {
+          "title": "Cherrytomaten",
+          "description": "Bringen Süße, Saftigkeit und eine leuchtend rote Farbe. Halbieren oder vierteln, je nach Größe."
+        },
+        {
+          "title": "Salatgurke",
+          "description": "Sorgt für den erfrischenden, knackigen Biss. Am besten das Kerngehäuse entfernen, damit der Salat nicht zu wässrig wird."
+        },
+        {
+          "title": "Schwarze Oliven",
+          "description": "Unverzichtbar für das mediterrane Flair. Am besten Kalamata-Oliven oder andere gute, entsteinte schwarze Oliven verwenden."
+        },
+        {
+          "title": "Feta-Käse",
+          "description": "Gibt die typische salzig-würzige und cremige Note. Echter griechischer Feta aus Schafs- oder Ziegenmilch schmeckt am besten."
+        },
+        {
+          "title": "Rote Zwiebel",
+          "description": "Für eine milde Schärfe und Farbe. Wer es noch milder mag, kann sie vorher kurz in kaltem Wasser ziehen lassen."
+        },
+        {
+          "title": "Rucola",
+          "description": "Verleiht eine leicht pfeffrige, nussige Note und Frische. Erst kurz vor dem Servieren unterheben, damit er nicht zusammenfällt."
+        },
+        {
+          "title": "Frisches Basilikum",
+          "description": "Das ultimative mediterrane Kraut! Sorgt für ein herrliches Aroma. Nicht zu sparsam verwenden."
+        },
+        {
+            "title": "Einfaches Balsamico-Dressing",
+            "description": "Eine harmonische Mischung aus gutem Olivenöl, hellem Balsamicoessig (oder Rotweinessig), etwas Zitronensaft, Senf und Kräutern."
+        }
+      ],
+      "ingredientGroups": [
+        {
+          "title": "Für den Salat",
+          "description": "Alle frischen und bunten Zutaten, die den Nudelsalat zu einem mediterranen Genuss machen.",
+          "ingredients": [
+            { "amount": 500, "unit": "g", "name": "Nudeln (z.B. Fusilli, Penne)" },
+            { "amount": 300, "unit": "g", "name": "Cherrytomaten, halbiert" },
+            { "amount": 1, "unit": "", "name": "Salatgurke, entkernt und gewürfelt" },
+            { "amount": 150, "unit": "g", "name": "Schwarze Oliven, entsteint und halbiert" },
+            { "amount": 200, "unit": "g", "name": "Feta-Käse, gewürfelt oder zerbröckelt" },
+            { "amount": 1, "unit": "", "name": "Rote Zwiebel, in feinen Ringen oder Würfeln" },
+            { "amount": 100, "unit": "g", "name": "Rucola, gewaschen" },
+            { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum, Blätter gezupft und grob gehackt" }
+          ]
+        },
+        {
+          "title": "Für das Dressing",
+          "description": "Ein leichtes, aromatisches Dressing, das die mediterranen Aromen unterstreicht.",
+          "ingredients": [
+            { "amount": 8, "unit": "EL", "name": "Gutes Olivenöl Extra Vergine" },
+            { "amount": 4, "unit": "EL", "name": "Heller Balsamicoessig (oder Rotweinessig)" },
+            { "amount": 1, "unit": "EL", "name": "Zitronensaft, frisch gepresst" },
+            { "amount": 1, "unit": "TL", "name": "Mittelscharfer Senf" },
+            { "amount": 1, "unit": "TL", "name": "Agavendicksaft (optional, für die Balance)" },
+            { "amount": 1, "unit": "TL", "name": "Getrockneter Oregano" },
+            { "amount": 1, "unit": "Prise", "name": "Salz" },
+            { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+          ]
+        }
+      ],
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Nudeln (z.B. Fusilli, Penne)" },
+        { "amount": 300, "unit": "g", "name": "Cherrytomaten, halbiert" },
+        { "amount": 1, "unit": "", "name": "Salatgurke, entkernt und gewürfelt" },
+        { "amount": 150, "unit": "g", "name": "Schwarze Oliven, entsteint und halbiert" },
+        { "amount": 200, "unit": "g", "name": "Feta-Käse, gewürfelt oder zerbröckelt" },
+        { "amount": 1, "unit": "", "name": "Rote Zwiebel, in feinen Ringen oder Würfeln" },
+        { "amount": 100, "unit": "g", "name": "Rucola, gewaschen" },
+        { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum, Blätter gezupft und grob gehackt" },
+        { "amount": 8, "unit": "EL", "name": "Gutes Olivenöl Extra Vergine" },
+        { "amount": 4, "unit": "EL", "name": "Heller Balsamicoessig (oder Rotweinessig)" },
+        { "amount": 1, "unit": "EL", "name": "Zitronensaft, frisch gepresst" },
+        { "amount": 1, "unit": "TL", "name": "Mittelscharfer Senf" },
+        { "amount": 1, "unit": "TL", "name": "Agavendicksaft (optional, für die Balance)" },
+        { "amount": 1, "unit": "TL", "name": "Getrockneter Oregano" },
+        { "amount": 1, "unit": "Prise", "name": "Salz" },
+        { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+      ],
+      "instructions": [
+        "Die Nudeln nach Packungsanweisung in reichlich kochendem Salzwasser 'al dente' (bissfest) garen. Nicht zu weich kochen!",
+        "Während die Nudeln kochen, das Gemüse vorbereiten: Tomaten halbieren, Gurke würfeln, Oliven halbieren, Zwiebel in Ringe oder Würfel schneiden.",
+        "Für das Dressing alle Zutaten (Olivenöl, Essig, Zitronensaft, Senf, Oregano, Salz, Pfeffer) in einer großen Salatschüssel gut verquirlen.",
+        "Die Nudeln abgießen, kurz mit kaltem Wasser abschrecken (damit sie nicht weitergaren und kleben) und gut abtropfen lassen.",
+        "Die noch leicht warmen Nudeln direkt in die Schüssel zum Dressing geben und gut vermengen. So nehmen die Nudeln das Aroma am besten auf.",
+        "Tomaten, Gurke, Oliven und Zwiebel hinzufügen und vorsichtig unterheben.",
+        "Den Feta-Käse würfeln oder grob zerbröckeln und zusammen mit dem gehackten Basilikum unter den Salat mischen.",
+        "Den Salat mindestens 30 Minuten, besser noch 1-2 Stunden im Kühlschrank durchziehen lassen.",
+        "Kurz vor dem Servieren den gewaschenen Rucola vorsichtig unterheben.",
+        "Den mediterranen Nudelsalat nochmals abschmecken und eventuell nachwürzen."
+      ],
+      "nutrition": {
+        "calories": 2940,
+        "protein": "79g",
+        "carbs": "229g",
+        "fat": "198g"
+      },
+      "tips": [
+        "Für mehr Farbe und Geschmack kannst du auch gelbe oder orangefarbene Paprika hinzufügen.",
+        "Getrocknete, in Öl eingelegte Tomaten (klein geschnitten) geben dem Salat eine intensive, süßliche Note.",
+        "Geröstete Pinienkerne oder Sonnenblumenkerne sorgen für einen schönen Crunch.",
+        "Kapern passen ebenfalls wunderbar zu den mediterranen Aromen.",
+        "Wenn du es etwas proteinreicher magst, kannst du Kichererbsen oder weiße Bohnen hinzufügen.",
+        "Statt Feta kannst du auch Mozzarella-Bällchen (Mini-Mozzarella) verwenden.",
+        "Der Salat hält sich gut 2-3 Tage im Kühlschrank. Den Rucola aber immer erst frisch vor dem Servieren hinzufügen.",
+        "Verwende einen hellen Balsamicoessig, damit der Salat seine schöne Farbe behält. Rotweinessig geht aber geschmacklich auch sehr gut."
+      ],
+      "whyFavorite": {
+        "title": "Warum dieser Nudelsalat auf keiner Party fehlen darf",
+        "reasons": [
+          {
+            "title": "Der absolute Crowd-Pleaser",
+            "description": "Ich kenne niemanden, der diesen Salat nicht mag! Er ist frisch, würzig, sättigend und einfach lecker."
+          },
+          {
+            "title": "Perfekt zum Vorbereiten",
+            "description": "Er schmeckt durchgezogen sogar noch besser, was ihn ideal für Buffets, Grillpartys oder Meal Prep macht."
+          },
+          {
+            "title": "Bringt Farbe und Sommerlaune",
+            "description": "Die bunten Zutaten sehen toll aus und schmecken nach Sonne und Urlaub am Mittelmeer."
+          },
+          {
+            "title": "Angenehm leicht & frisch",
+            "description": "Trotz der Nudeln ist er durch das viele Gemüse, den Rucola und das leichte Dressing nicht zu schwer."
+          },
+          {
+            "title": "Einfach und schnell gemacht",
+            "description": "Während die Nudeln kochen, ist das Gemüse schnell geschnippelt. Kein kompliziertes Kochen nötig."
+          },
+          {
+            "title": "Wandelbar und anpassungsfähig",
+            "description": "Man kann ihn leicht mit zusätzlichen Zutaten variieren und an den eigenen Geschmack anpassen."
+          },
+          {
+            "title": "Vegetarisch & Sättigend",
+            "description": "Eine vollwertige vegetarische Mahlzeit oder eine sättigende Beilage, die auch ohne Fleisch glücklich macht."
+          }
+        ]
+      },
+      "handwrittenMessage": {
+        "mainText": "Hol dir den Sommer auf den Teller mit diesem mediterranen Nudelsalat!",
+        "subText": "Viel Spaß beim Nachmachen und Genießen – lass es dir schmecken!",
+        "signature": "Dein Veggie-Rezepte Team"
+      },
+      "steps": [
+        {
+          "title": "Schritt 1: Pasta al dente",
+          "description": "Die Nudeln bissfest kochen ist wichtig, damit sie später nicht matschig werden. Kurz kalt abschrecken stoppt den Garprozess."
+        },
+        {
+          "title": "Schritt 2: Das aromatische Dressing",
+          "description": "Die Basis für den Geschmack! Alle Dressing-Zutaten gut verrühren, bevor die warmen Nudeln dazukommen."
+        },
+        {
+          "title": "Schritt 3: Nudeln & Dressing vereinen",
+          "description": "Die noch warmen Nudeln nehmen das Dressing besonders gut auf. Das ist ein kleiner Trick für maximalen Geschmack."
+        },
+        {
+          "title": "Schritt 4: Gemüse & Co. hinzufügen",
+          "description": "Jetzt kommen die frischen Zutaten dazu. Alles vorsichtig vermengen, damit nichts zerdrückt wird."
+        },
+        {
+          "title": "Schritt 5: Ziehen lassen & Finalisieren",
+          "description": "Geduld zahlt sich aus! Den Salat durchziehen lassen. Erst kurz vor dem Servieren den empfindlichen Rucola unterheben."
+        }
+      ],
+      "servingSuggestion": "Serviere den mediterranen Nudelsalat gut durchgezogen und gekühlt als Hauptgericht oder beliebte Beilage zum Grillen.",
+      "servingSuggestions": {
+        "title": "Was passt zum mediterranen Nudelsalat?",
+        "description": "Er ist solo schon toll, aber hier sind noch ein paar Ideen:",
+        "note": "Perfekt für jede Sommerparty!",
+        "items": [
+          {
+            "emoji": "🥖",
+            "title": "Frisches Baguette oder Ciabatta",
+            "description": "Ideal, um die Reste des leckeren Dressings aufzunehmen."
+          },
+          {
+            "emoji": "🧀",
+            "title": "Gegrillter Halloumi",
+            "description": "Eine fantastische vegetarische Ergänzung, die das mediterrane Thema aufgreift."
+          },
+          {
+            "emoji": "🥗",
+            "title": "Ein einfacher grüner Salat",
+            "description": "Wenn der Nudelsalat Teil eines größeren Buffets ist, passt ein schlichter Blattsalat gut dazu."
+          },
+          {
+            "emoji": "🍷",
+            "title": "Ein leichter Rosé- oder Weißwein",
+            "description": "Ein gekühlter Wein unterstreicht die sommerliche Leichtigkeit des Salats."
+          },
+          {
+            "emoji": "🍉",
+            "title": "Wassermelonen-Feta-Salat",
+            "description": "Als weitere frische Komponente auf dem Buffet ergänzt dieser Salat den Nudelsalat wunderbar."
+          }
+        ]
+      },
+      "funFact": {
+        "title": "Nudel-Wissen",
+        "description": "Wusstest du, dass Nudelsalat in Deutschland besonders in den 70er und 80er Jahren zum absoluten Party-Hit wurde? 🕺 Oft waren es damals eher Varianten mit Mayonnaise. Die leichtere, mediterrane Version mit Essig-Öl-Dressing ist aber heute mindestens genauso beliebt und bringt Urlaubsflair auf den Tisch! 🇮🇹🇬🇷"
+      },
+      "images": {
+        "imageIngredient": "/images/Ingredients/mediterranerNudelsalatIngredient.webp",
+        "image1": "/images/Salads/mediterraner-nudelsalat1.webp",
+        "image2": "/images/Salads/mediterraner-nudelsalat2.webp",
+        "image3": "/images/Salads/mediterraner-nudelsalat3.webp",
+        "image4": "/images/Salads/mediterraner-nudelsalat4.webp",
+        "image5": "/images/Salads/mediterraner-nudelsalat5.webp",
+        "image6": "/images/Salads/mediterraner-nudelsalat6.webp",
+        "image7": "/images/Salads/mediterraner-nudelsalat7.webp"
+      }
+    }
 ];
 
 export function getRecipeBySlug(slug: string) {
