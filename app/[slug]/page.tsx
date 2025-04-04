@@ -46,7 +46,8 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     'suesskartoffel-kokos-suppe',
     'griessnockerl',
     'gemuese-couscous-salat',
-    'bunter-quinoa-salat'
+    'bunter-quinoa-salat',
+    'griechischer-bauernsalat'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -118,7 +119,8 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     'suesskartoffel-kokos-suppe',
     'griessnockerl',
     'gemuese-couscous-salat',
-    'bunter-quinoa-salat'
+    'bunter-quinoa-salat',
+    'griechischer-bauernsalat'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -211,7 +213,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'suesskartoffel-kokos-suppe',
     'griessnockerl',
     'gemuese-couscous-salat',
-    'bunter-quinoa-salat'
+    'bunter-quinoa-salat',
+    'griechischer-bauernsalat'
   ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
@@ -249,7 +252,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'suesskartoffel-kokos-suppe',
     'griessnockerl',
     'gemuese-couscous-salat',
-    'bunter-quinoa-salat'
+    'bunter-quinoa-salat',
+    'griechischer-bauernsalat'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }

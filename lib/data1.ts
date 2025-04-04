@@ -4978,6 +4978,230 @@ export const recipes: Recipe[] = [
       "image6": "/images/Salads/bunter-quinoa-salat6.webp",
       "image7": "/images/Salads/bunter-quinoa-salat7.webp"
     }
+  },
+  {
+    "title": "Authentischer Griechischer Bauernsalat (Horiatiki)",
+    "seo_title": "Original Griechischer Bauernsalat (Horiatiki) Rezept - Einfach",
+    "image": "/images/Salads/griechischer-bauernsalat.webp",
+    "prepTime": 15,
+    "cookingTime": 0,
+    "seo_keywords": [
+      "Griechischer Salat Rezept",
+      "Bauernsalat original",
+      "Horiatiki Salat",
+      "Salat mit Feta und Oliven",
+      "griechischer Bauernsalat",
+      "original griechischer Salat",
+      "Salat ohne Blattsalat"
+    ],
+    "rating": 4.8,
+    "reviews": 255,
+    "category": "Salate",
+    "slug": "griechischer-bauernsalat",
+    "tags": ["Griechisch", "Salat", "Mediterran"],
+    "createdDate": new Date("2025-03-28T14:00:00Z"),
+    "updatedDate": new Date("2025-04-04T16:00:00Z"),
+    "servings": 4,
+    "description": "Einfaches Rezept für authentischen griechischen Bauernsalat (Horiatiki) wie im Urlaub! Frisch, knackig & voller Geschmack – in 15 Min fertig.",
+    "descriptionOnImage": "Ein klassischer griechischer Bauernsalat mit Tomaten, Gurke, Oliven und einem großen Stück Feta.",
+    "introductionParagraph": "Wenn ich die Augen schließe und an Urlaub denke, dann schmecke ich oft genau diesen Salat: den echten griechischen Bauernsalat, Horiatiki genannt. Er ist für mich der Inbegriff von Sommer, Sonne und Meer. Kennt ihr das Gefühl, in einer kleinen Taverne am Hafen zu sitzen, das Rauschen der Wellen im Ohr, und dann kommt diese Schale voller leuchtend roter Tomaten, knackiger Gurken, würziger Oliven und diesem herrlich cremigen Feta auf den Tisch? Genau dieses Gefühl möchte ich mit meinem Rezept zu euch nach Hause bringen! Das Geheimnis liegt in der Einfachheit und der Qualität der Zutaten. Keine Schnörkel, kein Blattsalat – nur das pure Aroma sonnengereifter Tomaten, das kräftige Olivenöl und der salzige Feta. Es ist ein Salat, der von seiner Frische lebt und der mich jedes Mal aufs Neue glücklich macht. Er ist so schnell zubereitet und doch so unglaublich befriedigend.",
+    "additionalParagraph": "Ich erinnere mich noch genau an meinen ersten Griechenland-Urlaub mit meiner Familie. Wir waren auf Kreta, und jeden Mittag gab es diesen Salat. Damals war ich überrascht, dass gar kein grüner Salat drin war, wie ich es aus Deutschland kannte. Aber ich habe schnell gelernt: Der *echte* Horiatiki braucht keinen Salat, er lebt von den kräftigen Aromen des Gemüses! Die Kombination aus süßen Tomaten, leicht bitteren Gurken, der salzigen Würze von Oliven und Feta und dem fruchtigen Olivenöl ist einfach perfekt ausbalanciert. Ein Hauch von Oregano rundet das Ganze ab und verleiht ihm diese typisch mediterrane Note. Für mich ist dieser Salat nicht nur ein Gericht, sondern eine kleine Zeitreise, ein Stück Urlaub auf dem Teller. Und das Beste: Man braucht wirklich nur eine Handvoll guter Zutaten, um sich dieses Gefühl nach Hause zu holen. Es ist ehrlich, rustikal und einfach nur köstlich – griechische Lebensfreude pur!",
+    "ingredientsNeeded": [
+      {
+        "title": "Sonnengereifte Tomaten",
+        "description": "Das Herzstück des Salats! Am besten schmecken aromatische, vollreife Tomaten. Die Sorte ist nicht so wichtig wie der Reifegrad."
+      },
+      {
+        "title": "Salatgurke",
+        "description": "Sorgt für den knackigen, frischen Kontrast. Am besten eine feste, nicht zu wässrige Gurke verwenden."
+      },
+      {
+        "title": "Grüne Paprika",
+        "description": "Gehört traditionell dazu und gibt eine leicht herbe Note. Keine rote oder gelbe Paprika für den authentischen Geschmack!"
+      },
+      {
+        "title": "Rote Zwiebel",
+        "description": "Verleiht die nötige Schärfe. In dünne Ringe geschnitten sieht sie besonders schön aus."
+      },
+      {
+        "title": "Kalamata-Oliven",
+        "description": "Diese dunkelvioletten, mandelförmigen Oliven sind intensiv-fruchtig und salzig – unverzichtbar für den echten Geschmack."
+      },
+      {
+        "title": "Griechischer Feta",
+        "description": "Echter Feta aus Schafs- (und ggf. Ziegen-)milch. Er wird traditionell als ganzes Stück oder grob zerbrochen auf den Salat gelegt."
+      },
+      {
+        "title": "Gutes Olivenöl Extra Vergine",
+        "description": "Hier sollte man nicht sparen! Ein hochwertiges, fruchtiges Olivenöl ist entscheidend für das Dressing und den Gesamtgeschmack."
+      },
+      {
+        "title": "Getrockneter Griechischer Oregano",
+        "description": "Verleiht das typische Aroma. Frisch ist auch lecker, aber getrockneter Oregano ist hier traditionell."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Salat",
+        "description": "Die klassischen, frischen Zutaten, die den Horiatiki ausmachen.",
+        "ingredients": [
+          { "amount": 4, "unit": "", "name": "Große, reife Tomaten" },
+          { "amount": 1, "unit": "", "name": "Salatgurke" },
+          { "amount": 1, "unit": "", "name": "Grüne Paprika" },
+          { "amount": 1, "unit": "", "name": "Rote Zwiebel" },
+          { "amount": 100, "unit": "g", "name": "Kalamata-Oliven (mit Stein)" },
+          { "amount": 200, "unit": "g", "name": "Griechischer Feta (am Stück)" }
+        ]
+      },
+      {
+        "title": "Für das Dressing",
+        "description": "Simpel, aber entscheidend: Gutes Olivenöl und Oregano.",
+        "ingredients": [
+          { "amount": 5, "unit": "EL", "name": "Hochwertiges Olivenöl Extra Vergine" },
+          { "amount": 1, "unit": "TL", "name": "Getrockneter griechischer Oregano" },
+          { "amount": 1, "unit": "Prise", "name": "Salz (vorsichtig, Feta und Oliven sind salzig!)" },
+          { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen (optional)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 4, "unit": "", "name": "Große, reife Tomaten" },
+      { "amount": 1, "unit": "", "name": "Salatgurke" },
+      { "amount": 1, "unit": "", "name": "Grüne Paprika" },
+      { "amount": 1, "unit": "", "name": "Rote Zwiebel" },
+      { "amount": 100, "unit": "g", "name": "Kalamata-Oliven (mit Stein)" },
+      { "amount": 200, "unit": "g", "name": "Griechischer Feta (am Stück)" },
+      { "amount": 5, "unit": "EL", "name": "Hochwertiges Olivenöl Extra Vergine" },
+      { "amount": 1, "unit": "TL", "name": "Getrockneter griechischer Oregano" },
+      { "amount": 1, "unit": "Prise", "name": "Salz (vorsichtig, Feta und Oliven sind salzig!)" },
+      { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen (optional)" }
+    ],
+    "instructions": [
+      "Die Tomaten waschen, den Strunk entfernen und in grobe Stücke oder Spalten schneiden.",
+      "Die Gurke waschen, nach Belieben schälen (oder nur teilweise) und in dicke halbe Scheiben schneiden.",
+      "Die grüne Paprika waschen, entkernen und in Ringe oder Streifen schneiden.",
+      "Die rote Zwiebel schälen und in dünne Ringe schneiden.",
+      "Alle geschnittenen Gemüse (Tomaten, Gurke, Paprika, Zwiebel) in eine große, flache Schüssel oder auf eine Platte geben.",
+      "Die Kalamata-Oliven darüber verteilen.",
+      "Das Stück Feta als Ganzes oder grob zerbrochen in die Mitte des Salats legen.",
+      "Den Salat großzügig mit dem hochwertigen Olivenöl beträufeln.",
+      "Den getrockneten Oregano darüber streuen.",
+      "Nur ganz vorsichtig mit Salz (wenn überhaupt nötig) und optional etwas Pfeffer würzen. Sofort servieren."
+    ],
+    "nutrition": {
+      "calories": 1685,
+      "protein": "29g",
+      "carbs": "69g",
+      "fat": "147g"
+    },
+    "tips": [
+      "Verwende unbedingt Kalamata-Oliven mit Stein – sie sind viel aromatischer!",
+      "Die Qualität der Tomaten und des Olivenöls ist entscheidend für den Geschmack.",
+      "Den Feta nicht würfeln, sondern als großes Stück auflegen – das ist authentisch und sieht toll aus.",
+      "Ein Spritzer guter Rotweinessig kann dem Dressing hinzugefügt werden, ist aber nicht zwingend traditionell.",
+      "Serviere den Salat sofort nach der Zubereitung, damit das Gemüse knackig bleibt.",
+      "Keinen Blattsalat hinzufügen, wenn du einen echten Horiatiki möchtest!",
+      "Manchmal werden auch Kapern hinzugefügt, das ist eine leckere Variante.",
+      "Reste (falls es welche gibt) schmecken am nächsten Tag auch noch, sind aber nicht mehr so knackig."
+    ],
+    "whyFavorite": {
+      "title": "Warum der griechische Bauernsalat mein Herz erobert hat",
+      "reasons": [
+        {
+          "title": "Urlaubsgefühle Pur",
+          "description": "Ein Bissen und ich bin sofort wieder in einer griechischen Taverne am Meer. Er schmeckt einfach nach Sonne und Urlaub."
+        },
+        {
+          "title": "Einfachheit in Perfektion",
+          "description": "Nur wenige, gute Zutaten, die perfekt harmonieren. Kein Schnickschnack, nur purer Geschmack."
+        },
+        {
+          "title": "Unglaublich Frisch & Knackig",
+          "description": "Der Kontrast zwischen saftigen Tomaten, knackiger Gurke und Paprika und dem cremigen Feta ist unschlagbar."
+        },
+        {
+          "title": "Blitzschnell Zubereitet",
+          "description": "In 15 Minuten steht ein beeindruckender, köstlicher Salat auf dem Tisch – perfekt für spontanen Besuch oder schnelles Abendessen."
+        },
+        {
+          "title": "Gesund & Natürlich",
+          "description": "Viel frisches Gemüse, gesunde Fette aus Olivenöl und Feta – eine leichte, aber sättigende Mahlzeit."
+        },
+        {
+          "title": "Der Star jeder Grillparty",
+          "description": "Er passt perfekt zu Gegrilltem und bringt mediterranes Flair auf jedes Buffet."
+        },
+        {
+          "title": "Authentisch & Ehrlich",
+          "description": "Dieses Rezept hält sich eng ans Original – so schmeckt Griechenland wirklich!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Kali Orexi! Lass dir diesen authentischen Horiatiki schmecken!",
+      "subText": "Ich wünsche dir eine kleine kulinarische Reise nach Griechenland!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Gemüse vorbereiten",
+        "description": "Tomaten, Gurke, Paprika und Zwiebel werden grob geschnitten. Die Stücke sollten nicht zu klein sein, damit der Salat Biss hat."
+      },
+      {
+        "title": "Schritt 2: Anrichten ist alles",
+        "description": "Das Gemüse wird in einer flachen Schale arrangiert, die Oliven darüber verteilt. Der Feta thront als großes Stück in der Mitte – das Auge isst mit!"
+      },
+      {
+        "title": "Schritt 3: Das flüssige Gold",
+        "description": "Großzügig mit hochwertigem Olivenöl beträufeln. Das Öl verbindet sich mit dem austretenden Gemüsesaft zum köstlichen Dressing."
+      },
+      {
+        "title": "Schritt 4: Würzen und Genießen",
+        "description": "Mit Oregano bestreuen und nur bei Bedarf ganz leicht salzen. Sofort servieren, um die maximale Frische zu erleben."
+      }
+    ],
+    "servingSuggestion": "Serviere den griechischen Bauernsalat frisch zubereitet als Vorspeise oder leichte Hauptmahlzeit mit etwas Brot.",
+    "servingSuggestions": {
+      "title": "Was passt zum griechischen Bauernsalat?",
+      "description": "Dieser Klassiker braucht eigentlich nicht viel, aber hier sind ein paar Ideen:",
+      "note": "Weniger ist hier oft mehr!",
+      "items": [
+        {
+          "emoji": "🥖",
+          "title": "Frisches Weißbrot oder Pitabrot",
+          "description": "Ein absolutes Muss, um den köstlichen Saft aus Olivenöl und Tomaten aufzutunken, der sich am Boden sammelt!"
+        },      
+        {
+          "emoji": "🥔",
+          "title": "Ofenkartoffeln oder Rosmarinkartoffeln",
+          "description": "Für eine sättigendere vegetarische Mahlzeit passen einfache Kartoffelbeilagen gut dazu."
+        },
+        {
+          "emoji": "🫒",
+          "title": "Tzatziki",
+          "description": "Ein weiterer griechischer Klassiker, der gut dazu passt, obwohl er nicht direkt mit dem Salat vermischt wird."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein Glas Retsina oder trockener Weißwein",
+          "description": "Ein kühler, harziger Retsina oder ein Assyrtiko aus Santorin runden das griechische Erlebnis ab."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du das?",
+      "description": "Der Name 'Horiatiki' ( χωριάτικη) bedeutet wörtlich 'Dorf-' oder 'Bauernsalat'. 🇬🇷 Er entstand angeblich, weil die Bauern einfache, frische Zutaten aus ihrem Garten verwendeten. Die Zugabe von Feta soll erst später populär geworden sein, möglicherweise um Touristen anzulocken oder als nahrhafte Ergänzung. Aber egal wie, ohne Feta ist er heute kaum vorstellbar! 😉"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/griechischerBauernsalatIngredient.webp",
+      "image1": "/images/Salads/griechischer-bauernsalat1.webp",
+      "image2": "/images/Salads/griechischer-bauernsalat2.webp",
+      "image3": "/images/Salads/griechischer-bauernsalat3.webp",
+      "image4": "/images/Salads/griechischer-bauernsalat4.webp",
+      "image5": "/images/Salads/griechischer-bauernsalat5.webp",
+      "image6": "/images/Salads/griechischer-bauernsalat6.webp",
+      "image7": "/images/Salads/griechischer-bauernsalat7.webp"
+    }
   }
 ];
 
