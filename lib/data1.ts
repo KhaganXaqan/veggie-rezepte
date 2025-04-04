@@ -1391,11 +1391,6 @@ export const recipes: Recipe[] = [
           "emoji": "🥒",
           "title": "Eingelegtes Gemüse",
           "description": "Schnell eingelegte Gurken, Karotten oder Rote Bete bringen eine saure und knackige Komponente auf den Teller."
-        },
-        {
-          "emoji": "🍯",
-          "title": "Honig-Senf-Dip",
-          "description": "Ein süß-würziger Honig-Senf-Dip passt hervorragend zu den gerösteten Kichererbsen und dem Gemüse."
         }
       ]
     },
