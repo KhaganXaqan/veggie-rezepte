@@ -1567,7 +1567,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von der Käse-Vielfalt überraschen!",
       "subText": "Welche Käse-Kombi wird dein Favorit?",
-      "signature": "Dein Käse-Experte"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -1798,7 +1798,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von den Pilzen verzaubern – sie haben mehr Tricks drauf, als du denkst!",
       "subText": "Ich wette, du wirst nie wieder sagen, Gulasch brauche Fleisch...",
-      "signature": "Deine Pilzflüsterin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -2058,7 +2058,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von den Gewürzen verführen – sie haben mehr Charakter, als du denkst!",
       "subText": "Ich wette, nach diesem Curry wirst du Gewürze nie wieder nur aus der Dose schütteln...",
-      "signature": "Deine Gewürzalchemistin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
 
     "steps": [
@@ -2293,7 +2293,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich vom Brokkoli überraschen – er kann mehr, als du denkst!",
       "subText": "Ich wette, nach dieser Quiche siehst du Gemüse mit neuen Augen...",
-      "signature": "Deine Gemüse-Patissière"
+      "signature": "Dein Veggie-Rezepte Team"
     },
 
     "steps": [
@@ -2520,7 +2520,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich vom Gemüse verzaubern – es hat mehr Geschichten zu erzählen, als du denkst!",
       "subText": "Ich wette, nach diesem Ratatouille siehst du Auberginen mit neuen Augen...",
-      "signature": "Deine Gemüse-Erzählerin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
 
     "steps": [
@@ -2777,7 +2777,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von der Paprika verführen – sie hat mehr zu bieten, als du denkst!",
       "subText": "Ich wette, nach diesem Gericht wirst du Paprika mit neuen Augen sehen...",
-      "signature": "Deine Gemüse-Zauberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "servingSuggestion": "Mit einem Klecks Zitronen-Joghurt und gerösteten Pinienkernen – so wird pflanzliche Küche zum Festmahl.",
     "servingSuggestions": {
@@ -2994,7 +2994,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich vom Blätterteig verzaubern – er trägt das Gemüse wie ein kostbares Geschenk!",
       "subText": "Ich wette, nach diesem Strudel wirst du Gemüse mit neuen Augen sehen...",
-      "signature": "Deine Gemüse-Pastetierin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
 
     "steps": [
@@ -3222,7 +3222,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lassen Sie sich von dieser vegetarischen Linsen-Bolognese verzaubern – ein vegetarisches Wohlfühlgericht, das glücklich macht und zeigt, wie vielfältig vegetarische Küche sein kann!",
       "subText": "Ich bin sicher, diese Sauce wird Ihre Pasta-Abende revolutionieren und Sie von der Vielfalt der vegetarischen Küche überzeugen...",
-      "signature": "Ihre Pasta-Liebhaberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -3419,7 +3419,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lassen Sie sich von der Magie der vegetarischen Dubai Schokolade verzaubern – ein Dessert, das die Sinne berührt und die Seele wärmt!",
       "subText": "Ich bin sicher, diese Schokolade wird Ihre Gäste begeistern und Sie in eine Welt des orientalischen Genusses entführen...",
-      "signature": "Ihre Schokoladen-Liebhaberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -3623,7 +3623,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lassen Sie sich von der herzhaften Einfachheit der vegetarischen Spinatknödel verzaubern – ein Gericht, das die Seele wärmt und die Aromen der Alpen auf den Teller bringt!",
       "subText": "Ich bin sicher, diese Knödel werden Ihre Gäste begeistern und Sie in eine Welt des Alpenländischen Genusses entführen...",
-      "signature": "Ihre Knödel-Liebhaberin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -3860,7 +3860,7 @@ export const recipes: Recipe[] = [
     "handwrittenMessage": {
       "mainText": "Lass dich von den Aromen des Orients verzaubern – Shakshuka ist mehr als ein Frühstück, es ist eine Reise!",
       "subText": "Genieße jeden Löffel dieser würzigen Symphonie und tunke großzügig Brot in die Sauce...",
-      "signature": "Deine Gewürzentdeckerin"
+      "signature": "Dein Veggie-Rezepte Team"
     },
     "steps": [
       {
@@ -3916,6 +3916,606 @@ export const recipes: Recipe[] = [
       "image5": "/images/Frühstück/shakshuka5.webp",
       "image6": "/images/Frühstück/shakshuka6.webp",
       "image7": "/images/Frühstück/shakshuka7.webp"
+    }
+  },
+  {
+    "title": "Kürbissuppe: Ein Herbstlicher Genuss",
+    "seo_title": "Kürbissuppe Rezept – Cremige Kürbissuppe für den Topf",
+    "image": "/images/Soups/kuerbissuppe.webp",
+    "prepTime": 20,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Kürbissuppe Rezept",
+      "Kürbissuppe Thermomix",
+      "Rezept Kürbissuppe",
+      "Thermomix Kürbissuppe",
+      "Beste Kürbissuppe",
+      "Kochbar Kürbissuppe",
+      "Kürbissuppe Chefkoch",
+      "Beilage Kürbissuppe",
+      "Thermomix Rezepte Kürbissuppe",
+      "Einfache Kürbissuppe"
+    ],
+    "rating": 4.9,
+    "reviews": 220,
+    "category": "Suppen",
+    "slug": "kuerbissuppe",
+    "tags": ["Herbst", "Suppe", "Kürbis"],
+    "createdDate": new Date("2025-03-20T00:00:00"),
+    "updatedDate": new Date("2025-04-20T00:00:00"),
+    "servings": 6,
+    "description": "Wärmende, cremige Kürbissuppe: Einfaches Rezept für Topf & Thermomix. Perfekt für Herbsttage, mit süß-würzigen Aromen.",
+    "descriptionOnImage": "Cremige Kürbissuppe mit gerösteten Kürbiskernen und einem Hauch von Sahne – ein herbstlicher Genuss, der die Seele wärmt und die Aromen der Saison einfängt.",
+    "introductionParagraph": "Entdecken Sie die Vielfalt der Kürbissuppe, ein Gericht, das die Aromen des Herbstes in einer cremigen, wärmenden Suppe vereint. Dieses Kürbissuppe Rezept ist sowohl für den traditionellen Topf als auch für den Thermomix optimiert, um Ihnen die Zubereitung so einfach wie möglich zu machen. Ob Sie nach einer einfachen Kürbissuppe, einer Kürbissuppe Chefkoch-Variante oder Thermomix Rezepte Kürbissuppe suchen, dieses Rezept wird Sie begeistern. Die beste Kürbissuppe zeichnet sich durch ihre cremige Textur, die Süße des Kürbisses und die harmonische Kombination mit Gewürzen aus. Als Beilage Kürbissuppe eignen sich geröstete Kürbiskerne, Croutons oder ein Klecks Sahne. Die Thermomix Kürbissuppe ist besonders schnell und einfach zubereitet, da der Thermomix das Gemüse zerkleinert und die Suppe püriert. Auch auf Kochbar Kürbissuppe finden Sie viele Varianten, aber dieses Rezept ist garantiert eines der besten.",
+    "additionalParagraph": "Was diese Kürbissuppe so besonders macht, ist ihre Vielseitigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie ist das perfekte Gericht für gemütliche Herbstabende, festliche Anlässe oder einfach, um sich selbst mit einem Stück Herbst zu verwöhnen. Die Zubereitung ist unkompliziert und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie gerösteten Knoblauch oder Ingwer hinzufügen. Und für diejenigen, die es gerne etwas schärfer mögen, empfiehlt sich eine Prise Chili oder Curry. Diese Kürbissuppe ist nicht nur eine Mahlzeit, sondern ein kulinarisches Erlebnis, das zeigt, wie vielfältig und schmackhaft Kürbis sein kann. Die Thermomix Rezepte Kürbissuppe sind besonders beliebt, da sie schnell und einfach zubereitet sind. Aber auch die traditionelle Zubereitung im Topf hat ihren Charme. Die beste Kürbissuppe ist cremig, aromatisch und wärmt von innen. Als Beilage Kürbissuppe passen geröstete Kürbiskerne, Croutons oder ein Klecks Sahne. Auf Kochbar Kürbissuppe und Kürbissuppe Chefkoch finden Sie viele weitere Ideen und Variationen.",
+    "ingredientsNeeded": [
+      {
+        "title": "Kürbis",
+        "description": "Der Star dieser Kürbissuppe. Hokkaido-Kürbis eignet sich besonders gut, da er nicht geschält werden muss und eine cremige Textur verleiht."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Die aromatische Basis für jede gute Kürbissuppe. Sie werden langsam angeschwitzt, um ihre Süße und ihr Aroma zu entfalten."
+      },
+      {
+        "title": "Gemüsebrühe",
+        "description": "Sie bildet die flüssige Grundlage der Suppe und verleiht ihr zusätzliche Tiefe und Geschmack."
+      },
+      {
+        "title": "Sahne oder Kokosmilch",
+        "description": "Für eine cremige Textur und einen Hauch von Süße. Kokosmilch ist eine ausgezeichnete vegane Alternative."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Salz, Pfeffer, Muskatnuss und eine Prise Zimt verleihen der Kürbissuppe ihren charakteristischen Geschmack."
+      },
+      {
+        "title": "Kürbiskerne",
+        "description": "Geröstete Kürbiskerne sorgen für einen knackigen Kontrast und eine nussige Note."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Kürbissuppe",
+        "description": "Die Grundlage für eine cremige, herbstliche Kürbissuppe:",
+        "ingredients": [
+          { "amount": 1, "unit": "kg", "name": "Kürbis (Hokkaido)" },
+          { "amount": 1, "unit": "", "name": "Zwiebel" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+          { "amount": 1, "unit": "l", "name": "Gemüsebrühe" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Kürbissuppe",
+        "description": "Die Zutaten, die der Kürbissuppe ihren unverwechselbaren, herbstlichen Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 200, "unit": "ml", "name": "Sahne oder Kokosmilch" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+          { "amount": 0.5, "unit": "TL", "name": "Muskatnuss" },
+          { "amount": 0.25, "unit": "TL", "name": "Zimt" },
+          { "amount": 50, "unit": "g", "name": "Kürbiskerne (geröstet)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 1, "unit": "kg", "name": "Kürbis (Hokkaido)" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "l", "name": "Gemüsebrühe" },
+      { "amount": 200, "unit": "ml", "name": "Sahne oder Kokosmilch" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
+      { "amount": 0.5, "unit": "TL", "name": "Muskatnuss" },
+      { "amount": 0.25, "unit": "TL", "name": "Zimt" },
+      { "amount": 50, "unit": "g", "name": "Kürbiskerne (geröstet)" }
+    ],
+    "instructions": [
+      "Kürbis entkernen und in grobe Würfel schneiden. Zwiebeln und Knoblauch fein hacken.",
+      "Zwiebeln und Knoblauch in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.",
+      "Kürbiswürfel hinzufügen und kurz mitbraten. Mit Gemüsebrühe ablöschen und ca. 20 Minuten köcheln lassen, bis der Kürbis weich ist.",
+      "Suppe mit einem Stabmixer fein pürieren. Sahne oder Kokosmilch hinzufügen und mit Salz, Pfeffer, Muskatnuss und Zimt abschmecken.",
+      "Kürbissuppe mit gerösteten Kürbiskernen garniert servieren."
+    ],
+    "nutrition": {
+      "calories": 1604,
+      "protein": "40.3g",
+      "carbs": "164.5g",
+      "fat": "92.1g"
+    },
+    "tips": [
+      "Für eine intensivere Geschmacksnote können Sie gerösteten Knoblauch oder Ingwer hinzufügen.",
+      "Verwenden Sie Kokosmilch für eine vegane Variante.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Curry oder Chili, um die Kürbissuppe zu variieren.",
+      "Servieren Sie die Kürbissuppe mit Croutons oder einem Klecks Sahne."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Kürbissuppe mein Herz erobert",
+      "reasons": [
+        {
+          "title": "Cremige Textur",
+          "description": "Die Kürbissuppe ist unglaublich cremig und samtig, ein wahrer Genuss für den Gaumen."
+        },
+        {
+          "title": "Herbstliche Aromen",
+          "description": "Die Kombination aus Kürbis, Gewürzen und Sahne ist ein Fest für die Sinne und perfekt für kalte Tage."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Rezept ist unkompliziert zuzubereiten und sowohl für den Topf als auch für den Thermomix geeignet."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Die Kürbissuppe lässt sich leicht an individuelle Vorlieben anpassen und mit verschiedenen Beilagen kombinieren."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von der wärmenden Süße dieser Kürbissuppe verzaubern – ein herbstlicher Genuss, der die Seele wärmt und die Aromen der Saison einfängt!",
+      "subText": "Ich bin sicher, diese Kürbissuppe wird Ihre Gäste begeistern und Sie in eine Welt des herbstlichen Genusses entführen...",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Das Gemüse Vorbereiten",
+        "description": "Kürbis, Zwiebeln und Knoblauch vorbereiten, um die Grundlage für die Kürbissuppe zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Anbraten",
+        "description": "Zwiebeln und Knoblauch anschwitzen, um die aromatische Basis für die Kürbissuppe zu schaffen."
+      },
+      {
+        "title": "Schritt 3: Die Kürbissuppe Kochen",
+        "description": "Kürbis und Gemüsebrühe hinzufügen und köcheln lassen, bis der Kürbis weich ist."
+      },
+      {
+        "title": "Schritt 4: Die Kürbissuppe Pürieren",
+        "description": "Kürbissuppe pürieren und mit Sahne oder Kokosmilch verfeinern."
+      },
+      {
+        "title": "Schritt 5: Das Servieren",
+        "description": "Kürbissuppe mit gerösteten Kürbiskernen garniert servieren."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Kürbissuppe mit warmem Brot oder Brötchen, um die köstliche Sauce aufzutunken.",
+    "servingSuggestions": {
+      "title": "Globale Kürbis-Pairings",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Kürbissuppe:",
+      "note": "Diese Ideen zeigen, wie vielseitig Kürbissuppe sein kann und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
+      "items": [
+        {
+          "emoji": "",
+          "title": "Indisches Kürbis-Curry",
+          "description": "Verfeinern Sie die Kürbissuppe mit Currypulver und Kokosmilch für ein indisches Kürbis-Curry."
+        },
+        {
+          "emoji": "",
+          "title": "Italienische Kürbis-Gnocchi",
+          "description": "Servieren Sie die Kürbissuppe mit selbstgemachten Kürbis-Gnocchi und Salbei-Butter."
+        },
+        {
+          "emoji": "",
+          "title": "Mexikanische Kürbis-Chili",
+          "description": "Verwandeln Sie die Kürbissuppe in ein herzhaftes Kürbis-Chili mit Bohnen und Mais."
+        },
+        {
+          "emoji": "",
+          "title": "Japanische Kürbis-Ramen",
+          "description": "Servieren Sie die Kürbissuppe als Brühe für eine japanische Kürbis-Ramen mit Nudeln und Gemüse."
+        },
+        {
+          "emoji": "",
+          "title": "Französische Kürbis-Quiche",
+          "description": "Verwenden Sie die Kürbissuppe als Füllung für eine französische Kürbis-Quiche mit Ziegenkäse."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Kürbis-Vielfalt",
+      "description": "Wussten Sie, dass es über 800 verschiedene Kürbissorten gibt? Von Hokkaido bis Butternut gibt es unzählige Möglichkeiten, Kürbis in der Küche zu verwenden. Unsere Kürbissuppe ist eine Hommage an die Vielfalt des Kürbisses und zeigt, wie vielfältig und schmackhaft Kürbis sein kann!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/kuerbissuppeIngredint.webp",
+      "image1": "/images/Soups/kuerbissuppe1.webp",
+      "image2": "/images/Soups/kuerbissuppe2.webp",
+      "image3": "/images/Soups/kuerbissuppe3.webp",
+      "image4": "/images/Soups/kuerbissuppe4.webp",
+      "image5": "/images/Soups/kuerbissuppe5.webp",
+      "image6": "/images/Soups/kuerbissuppe6.webp",
+      "image7": "/images/Soups/kuerbissuppe7.webp"
+    }
+  },
+  {
+    "title": "Süßkartoffel-Kokos-Suppe: Ein Exotischer Genuss",
+    "seo_title": "Süßkartoffel-Kokos-Suppe Einfach – Cremige Exotische Suppe",
+    "image": "/images/Soups/suesskartoffelKokosSuppe.webp",
+    "prepTime": 20,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Süßkartoffel-Kokos-Suppe Einfach",
+      "Süßkartoffel-Kokos-Suppe",
+      "Süßkartoffel Kokos Suppe",
+      "Süßkartoffelsuppe Kokosmilch",
+      "Süßkartoffelsuppe mit Kokosmilch",
+      "Einfache Süßkartoffelsuppe mit Kokosmilch"
+    ],
+    "rating": 4.8,
+    "reviews": 1280,
+    "category": "Suppen",
+    "slug": "suesskartoffel-kokos-suppe",
+    "tags": ["Suppe", "Exotisch", "Cremig"],
+    "createdDate": new Date("2025-03-25T00:00:00"),
+    "updatedDate": new Date("2025-04-03T00:00:00"),
+    "servings": 5,
+    "description": "Süßkartoffel-Kokos-Suppe: Einfaches Rezept mit exotischem Touch. Ob Topf oder Thermomix – diese Suppe ist ein aromatisches Geschmackserlebnis!",
+    "descriptionOnImage": "Cremige Süßkartoffel-Kokos-Suppe mit einem Hauch von Limette und frischem Koriander – ein exotisches Geschmackserlebnis, das die Aromen Asiens auf den Teller bringt.",
+    "introductionParagraph": "Entdecken Sie die Vielfalt der Süßkartoffel-Kokos-Suppe, ein Gericht, das die Süße der Süßkartoffel mit der Cremigkeit der Kokosmilch und den Aromen Asiens vereint. Dieses Süßkartoffel-Kokos-Suppe Einfach Rezept ist sowohl für den traditionellen Topf als auch für den Thermomix optimiert, um Ihnen die Zubereitung so einfach wie möglich zu machen. Ob Sie nach einer schnellen Süßkartoffel-Kokos-Suppe oder einem raffinierten Süßkartoffel Kokos Suppe Rezept suchen, dieses Gericht wird Sie begeistern. Die Süßkartoffelsuppe mit Kokosmilch zeichnet sich durch ihre cremige Textur, die Süße der Süßkartoffel und die harmonische Kombination mit Gewürzen aus. Als Beilage eignen sich geröstete Erdnüsse, frischer Koriander oder ein Spritzer Limettensaft. Auch die Thermomix Zubereitung der Süßkartoffelsuppe mit Kokosmilch ist besonders schnell und einfach, da der Thermomix das Gemüse zerkleinert und die Suppe püriert. Die einfache Süßkartoffelsuppe mit Kokosmilch ist ein wahrer Genuss.",
+    "additionalParagraph": "Was diese Süßkartoffel-Kokos-Suppe so besonders macht, ist ihre Vielseitigkeit und die Möglichkeit, sie an individuelle Vorlieben anzupassen. Sie ist das perfekte Gericht für gemütliche Abende, festliche Anlässe oder einfach, um sich selbst mit einem Hauch von Asien zu verwöhnen. Die Zubereitung ist unkompliziert und ermöglicht es, die Aromen und Texturen nach Belieben zu variieren. Für ein noch intensiveres Geschmackserlebnis können Sie gerösteten Ingwer oder Knoblauch hinzufügen. Und für diejenigen, die es gerne etwas schärfer mögen, empfiehlt sich eine Prise Chili oder Curry. Diese Süßkartoffel-Kokos-Suppe Einfach ist nicht nur eine Mahlzeit, sondern ein kulinarisches Erlebnis, das zeigt, wie vielfältig und schmackhaft Süßkartoffeln sein können. Die Süßkartoffel-Kokos-Suppe ist cremig, aromatisch und wärmt von innen. Als Beilage passen geröstete Erdnüsse, frischer Koriander oder ein Spritzer Limettensaft. Die Süßkartoffelsuppe Kokosmilch ist ein wahrer Genuss.",
+    "ingredientsNeeded": [
+      {
+        "title": "Süßkartoffeln",
+        "description": "Die Basis dieser Süßkartoffel-Kokos-Suppe. Sie verleihen der Suppe ihre Süße und cremige Textur."
+      },
+      {
+        "title": "Kokosmilch",
+        "description": "Sie sorgt für die cremige Konsistenz und den exotischen Geschmack der Süßkartoffel-Kokos-Suppe."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Die aromatische Grundlage für jede gute Süßkartoffel-Kokos-Suppe. Sie werden langsam angeschwitzt, um ihre Süße und ihr Aroma zu entfalten."
+      },
+      {
+        "title": "Gemüsebrühe",
+        "description": "Sie bildet die flüssige Grundlage der Süßkartoffel-Kokos-Suppe und verleiht ihr zusätzliche Tiefe und Geschmack."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Ingwer, Currypulver und Limettensaft verleihen der Süßkartoffel-Kokos-Suppe ihren charakteristischen asiatischen Geschmack."
+      },
+      {
+        "title": "Koriander",
+        "description": "Frischer Koriander sorgt für eine frische, aromatische Note in der Süßkartoffel-Kokos-Suppe."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Süßkartoffel-Kokos-Suppe",
+        "description": "Die Grundlage für eine cremige, exotische Süßkartoffel-Kokos-Suppe:",
+        "ingredients": [
+          { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
+          { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+          { "amount": 1, "unit": "", "name": "Zwiebel" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+          { "amount": 1, "unit": "l", "name": "Gemüsebrühe" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Süßkartoffel-Kokos-Suppe",
+        "description": "Die Zutaten, die der Süßkartoffel-Kokos-Suppe ihren unverwechselbaren, asiatischen Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
+          { "amount": 2, "unit": "TL", "name": "Currypulver" },
+          { "amount": 2, "unit": "EL", "name": "Limettensaft" },
+          { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
+      { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "l", "name": "Gemüsebrühe" },
+      { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
+      { "amount": 2, "unit": "TL", "name": "Currypulver" },
+      { "amount": 2, "unit": "EL", "name": "Limettensaft" },
+      { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
+    ],
+    "instructions": [
+      "Süßkartoffeln schälen und in grobe Würfel schneiden. Zwiebeln, Knoblauch und Ingwer fein hacken.",
+      "Zwiebeln, Knoblauch und Ingwer in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.",
+      "Süßkartoffelwürfel und Currypulver hinzufügen und kurz mitbraten. Mit Gemüsebrühe ablöschen und ca. 20 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.",
+      "Suppe mit einem Stabmixer fein pürieren. Kokosmilch und Limettensaft hinzufügen und mit Salz und Pfeffer abschmecken.",
+      "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
+    ],
+    "nutrition": {
+      "calories": 1551,
+      "protein": "25.5g",
+      "carbs": "205.2g",
+      "fat": "74,5g"
+    },
+    "tips": [
+      "Für eine intensivere Geschmacksnote können Sie gerösteten Ingwer oder Knoblauch hinzufügen.",
+      "Verwenden Sie Kokosmilch mit hohem Fettgehalt für eine besonders cremige Konsistenz.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Chili oder Kreuzkümmel, um die Süßkartoffel-Kokos-Suppe zu variieren.",
+      "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Süßkartoffel-Kokos-Suppe mein Herz erobert",
+      "reasons": [
+        {
+          "title": "Exotische Aromen",
+          "description": "Die Kombination aus Süßkartoffel, Kokosmilch und asiatischen Gewürzen ist ein wahrer Genuss für die Sinne."
+        },
+        {
+          "title": "Cremige Textur",
+          "description": "Die Süßkartoffel-Kokos-Suppe ist unglaublich cremig und samtig, ein wahrer Genuss für den Gaumen."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Süßkartoffel-Kokos-Suppe Einfach Rezept ist unkompliziert zuzubereiten und sowohl für den Topf als auch für den Thermomix geeignet."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Die Süßkartoffel-Kokos-Suppe lässt sich leicht an individuelle Vorlieben anpassen und mit verschiedenen Beilagen kombinieren."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von den exotischen Aromen dieser Süßkartoffel-Kokos-Suppe verzaubern – ein Gericht, das die Sinne weckt und die Seele wärmt!",
+      "subText": "Ich bin sicher, diese Süßkartoffel-Kokos-Suppe wird Ihre Gäste begeistern und Sie in eine Welt des asiatischen Genusses entführen...",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Das Gemüse Vorbereiten",
+        "description": "Süßkartoffeln, Zwiebeln, Knoblauch und Ingwer vorbereiten, um die Grundlage für die Süßkartoffel-Kokos-Suppe zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Anbraten",
+        "description": "Zwiebeln, Knoblauch und Ingwer anschwitzen, um die aromatische Basis für die Süßkartoffel-Kokos-Suppe zu schaffen."
+      },
+      {
+        "title": "Schritt 3: Die Süßkartoffel-Kokos-Suppe Kochen",
+        "description": "Süßkartoffeln, Currypulver und Gemüsebrühe hinzufügen und köcheln lassen, bis die Süßkartoffeln weich sind."
+      },
+      {
+        "title": "Schritt 4: Die Süßkartoffel-Kokos-Suppe Pürieren",
+        "description": "Süßkartoffel-Kokos-Suppe pürieren und mit Kokosmilch und Limettensaft verfeinern."
+      },
+      {
+        "title": "Schritt 5: Das Servieren",
+        "description": "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft, um die asiatischen Aromen zu unterstreichen.",
+    "servingSuggestions": {
+      "title": "Globale Süßkartoffel-Pairings",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Süßkartoffel-Kokos-Suppe:",
+      "note": "Diese Ideen zeigen, wie vielseitig Süßkartoffeln sein können und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
+      "items": [
+        {
+          "emoji": "🍛",
+          "title": "Indisches Süßkartoffel-Curry",
+          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in ein indisches Süßkartoffel-Curry mit Reis und Naan-Brot."
+        },
+        {
+          "emoji": "🌮",
+          "title": "Mexikanische Süßkartoffel-Tacos",
+          "description": "Verwenden Sie die Süßkartoffel-Kokos-Suppe als Füllung für mexikanische Süßkartoffel-Tacos mit Avocado und Salsa."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Afrikanischer Süßkartoffel-Eintopf",
+          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe als Basis für einen afrikanischen Süßkartoffel-Eintopf mit Erdnüssen und Spinat."
+        },
+        {
+          "emoji": "🍜",
+          "title": "Thailändische Süßkartoffel-Nudelsuppe",
+          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in eine thailändische Nudelsuppe mit Reisnudeln und Gemüse."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Karibischer Süßkartoffel-Salat",
+          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe kalt als Basis für einen karibischen Süßkartoffel-Salat mit Mango und schwarzen Bohnen."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Süßkartoffel-Vielfalt",
+      "description": "Wussten Sie, dass Süßkartoffeln nicht mit Kartoffeln verwandt sind? Sie gehören zur Familie der Windengewächse und sind reich an Vitaminen und Mineralstoffen. Unsere Süßkartoffel-Kokos-Suppe ist eine Hommage an die Vielseitigkeit der Süßkartoffel und zeigt, wie vielfältig und schmackhaft sie sein kann!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/suesskartoffelKokosSuppeIngredient.webp",
+      "image1": "/images/Soups/suesskartoffelKokosSuppe1.webp",
+      "image2": "/images/Soups/suesskartoffelKokosSuppe2.webp",
+      "image3": "/images/Soups/suesskartoffelKokosSuppe3.webp",
+      "image4": "/images/Soups/suesskartoffelKokosSuppe4.webp",
+      "image5": "/images/Soups/suesskartoffelKokosSuppe5.webp",
+      "image6": "/images/Soups/suesskartoffelKokosSuppe6.webp",
+      "image7": "/images/Soups/suesskartoffelKokosSuppe7.webp"
+    }
+  },
+  {
+    "title": "Omas Grießnockerl: Ein Herzhaftes Suppen-Highlight",
+    "seo_title": "Grießnockerl Rezept Oma – Luftig-Leichte Nockerl",
+    "image": "/images/Miscellaneous/griessNockerl.webp",
+    "prepTime": 20,
+    "cookingTime": 15,
+    "seo_keywords": [
+      "Grießnockerl Rezept Oma",
+      "Grießnockerl Rezept",
+      "Grießnockerl Suppe",
+      "Grießnockerl Kalorien",
+      "Rezept Grießnockerl",
+      "Grießnockerl Grundrezept",
+      "Einfache Grießnockerl",
+      "Grießnockerl Zubereitung",
+      "Hausgemachte Grießnockerl",
+      "Grießnockerl Teig"
+    ],
+    "rating": 4.9,
+    "reviews": 2528,
+    "category": "Suppen",
+    "slug": "griessnockerl",
+    "tags": ["Traditionell", "Suppe", "Beilage"],
+    "createdDate": new Date("2025-03-05T00:00:00"),
+    "updatedDate": new Date("2025-04-04T00:00:00"),
+    "servings": 3,
+    "description": "Luftig-leichte Grießnockerl wie von Oma: Traditionelles Rezept für jede Suppe. Einfach & schnell zubereitet, ein Festmahl für die ganze Familie!",
+    "descriptionOnImage": "Goldgelbe, luftige Grießnockerl in einer dampfenden Brühe – ein hausgemachtes Wohlfühlgericht, das die Seele wärmt. Ein perfektes Rezept Grießnockerl für jede Gelegenheit.",
+    "introductionParagraph": "Ach, meine Lieben, diese Grießnockerl sind ein Stück Kindheit in jeder Suppe! Sie erinnern mich an meine Oma, die immer diese wunderbar leichten Nockerl zubereitet hat. Ein einfaches, aber unglaublich schmackhaftes Rezept Grießnockerl, das jede Suppe zu einem besonderen Erlebnis macht. Diese Nockerl werden aus Grieß, Butter und Eiern zubereitet, um ein Gericht zu schaffen, das sowohl nahrhaft als auch unglaublich zart ist. Die Grießnockerl Suppe ist nicht nur ein Fest für den Gaumen, sondern auch ein Ausdruck von Liebe und Tradition. Sie zeigen, wie köstlich und vielseitig eine einfache Suppeneinlage sein kann. Wenn ihr das Grießnockerl Rezept Oma sucht, seid ihr hier genau richtig! Und keine Sorge um die Grießnockerl Kalorien, diese Nockerl sind voller guter Zutaten und machen jede Suppe leichter!",
+    "additionalParagraph": "Was diese Grießnockerl so besonders macht, ist ihre luftige Textur und die Möglichkeit, sie an jede Suppe anzupassen. Sie sind das perfekte Extra für eine klare Brühe, eine cremige Gemüsesuppe oder sogar eine herzhafte Rindfleischsuppe. Die Zubereitung ist unkompliziert und ermöglicht es, die Konsistenz und den Geschmack nach Belieben zu variieren. Für ein noch intensiveres Aroma können Sie frische Kräuter wie Petersilie oder Schnittlauch hinzufügen. Und für diejenigen, die es gerne etwas würziger mögen, empfiehlt sich eine Prise Muskatnuss oder Majoran. Diese hausgemachten Grießnockerl sind nicht nur eine Suppeneinlage, sondern ein Ausdruck von Liebe und Sorgfalt, der zeigt, wie vielfältig und schmackhaft eine einfache Suppe sein kann. Ich mache diese Nockerl genauso liebevoll wie Oma ihre Grießnockerl Suppe. Und glaubt mir, mit diesem Grießnockerl Grundrezept gelingen sie immer! Probiert es aus, meine Lieben, ihr werdet es nicht bereuen!",
+    "ingredientsNeeded": [
+      {
+        "title": "Grieß",
+        "description": "Die Basis für Luftige Nockerl. Verwenden Sie feinen Weizengrieß für eine zarte Textur. Achten Sie auf die richtige Konsistenz, um luftige und leichte Nockerl zu erhalten."
+      },
+      {
+        "title": "Butter",
+        "description": " Der Geschmacksverstärker. Sie verleiht den Nockerln einen reichen, buttrigen Geschmack. Verwenden Sie hochwertige Butter für beste Ergebnisse."
+      },
+      {
+        "title": "Eier",
+        "description": "Der Binder für Perfekte Nockerl.Sie binden die Zutaten zusammen und sorgen für eine geschmeidige Textur. Verwenden Sie frische Eier für beste Ergebnisse."
+      },
+      {
+        "title": "Milch",
+        "description": "Die Feuchtigkeit für Zarte Nockerl. Sie macht die Nockerl saftig und locker. Verwenden Sie Vollmilch oder pflanzliche Milchalternativen, um die gewünschte Konsistenz zu erreichen."
+      },
+      {
+        "title": "Salz",
+        "description": "Die Würze für Herzhafte Nockerl. Eine Prise Salz hebt die Aromen hervor und sorgt für einen ausgewogenen Geschmack."
+      },
+      {
+        "title": "Muskatnuss",
+        "description": "Das Aromatische Finish. Eine Prise Muskatnuss verleiht den Nockerln eine warme, würzige Note. Verwenden Sie frisch geriebene Muskatnuss für ein intensives Aroma."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Grießnockerl",
+        "description": "Die Grundlage für luftig-leichte Nockerl:",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Grieß" },
+          { "amount": 50, "unit": "g", "name": "Butter (weich)" },
+          { "amount": 2, "unit": "", "name": "Eier" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Grießnockerl",
+        "description": "Die Zutaten, die den Nockerln ihren unverwechselbaren Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 50, "unit": "ml", "name": "Milch" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Muskatnuss" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 100, "unit": "g", "name": "Grieß" },
+      { "amount": 50, "unit": "g", "name": "Butter (weich)" },
+      { "amount": 2, "unit": "", "name": "Eier" },
+      { "amount": 50, "unit": "ml", "name": "Milch" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Muskatnuss" }
+    ],
+    "instructions": [
+      "Butter und Eier in einer Schüssel schaumig schlagen.",
+      "Grieß, Milch, Salz und Muskatnuss hinzufügen und gut vermischen. Der Grießnockerl Teig sollte weich, aber nicht zu flüssig sein.",
+      "Den Teig ca. 10 Minuten quellen lassen, damit der Grieß aufquellen kann.",
+      "In einem Topf Salzwasser zum Kochen bringen. Mit einem Teelöffel kleine Nockerl aus dem Teig abstechen und ins kochende Wasser geben.",
+      "Die Nockerl ca. 10-15 Minuten ziehen lassen, bis sie an der Oberfläche schwimmen. Genau wie bei Omas Grießnockerl Suppe, nur eben fest!",
+      "Mit einer Schaumkelle aus dem Wasser nehmen und in der Suppe servieren."
+    ],
+    "nutrition": {
+      "calories": 894,
+      "protein": "27.3g",
+      "carbs": "76.7g",
+      "fat": "52.9g"
+    },
+    "tips": [
+      "Für eine besonders luftige Konsistenz können Sie etwas Mineralwasser zum Teig geben.",
+      "Verwenden Sie frische Kräuter wie Petersilie oder Schnittlauch, um den Geschmack zu verfeinern.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Majoran oder Thymian, um die Nockerl zu personalisieren.",
+      "Für eine leichtere Variante können Sie fettarme Milch verwenden."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Grießnockerl mein Herz erobern",
+      "reasons": [
+        {
+          "title": "Luftige Textur",
+          "description": "Die zarten Nockerl sind ein wahrer Genuss für den Gaumen."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Rezept ist unkompliziert zuzubereiten und perfekt für jede Suppe."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Die Nockerl passen zu jeder Suppe und lassen sich leicht an individuelle Vorlieben anpassen."
+        },
+        {
+          "title": "Traditionell",
+          "description": "Diese Nockerl erinnern an Omas Küche und sind ein Stück Heimat in jeder Suppe. Wie bei Omas Grießnockerl Rezept, nur eben von mir!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von der luftigen Leichtigkeit meiner Grießnockerl verzaubern – ein Gericht, das jede Suppe zu einem Festmahl macht! Genau wie bei Omas Grießnockerl Rezept, nur eben von mir.",
+      "subText": "Ich bin sicher, diese Nockerl werden Ihre Suppe bereichern und Sie in eine Welt des hausgemachten Genusses entführen... Und keine Sorge, die Grießnockerl Kalorien sind es wert!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Den Teig Zubereiten",
+        "description": "Butter, Eier, Grieß, Milch und Gewürze vermischen, um den perfekten Grießnockerl Teig zu erhalten."
+      },
+      {
+        "title": "Schritt 2: Den Teig Quellen Lassen",
+        "description": "Den Teig ca. 10 Minuten quellen lassen, damit der Grieß aufquellen kann."
+      },
+      {
+        "title": "Schritt 3: Die Nockerl Kochen",
+        "description": "Nockerl formen und in Salzwasser ziehen lassen, bis sie gar sind. Genau wie bei Omas Grießnockerl Suppe, nur eben von mir!"
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Grießnockerl in einer klaren Brühe oder einer cremigen Gemüsesuppe für ein herzhaftes und wärmendes Gericht.",
+    "servingSuggestions": {
+      "title": "Globale Suppen-Pairings mit Grießnockerl",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Grießnockerl:",
+      "note": "Diese Ideen zeigen, wie vielseitig Grießnockerl sein können und wie einfach es ist, internationale Aromen in Ihre Suppe zu integrieren!",
+      "items": [
+        {
+          "emoji": "🇮🇹",
+          "title": "Italienische Minestrone",
+          "description": "Servieren Sie die Grießnockerl in einer reichhaltigen Minestrone mit Gemüse und Bohnen."
+        },
+        {
+          "emoji": "🇫🇷",
+          "title": "Französische Gemüsesuppe (Potage)",
+          "description": "Geben Sie die Grießnockerl in eine cremige französische Gemüsesuppe (Potage) für eine elegante Vorspeise."
+        },
+        {
+          "emoji": "🇲🇦",
+          "title": "Marokkanische Harira (vegetarisch)",
+          "description": "Verwenden Sie die Grießnockerl als Einlage in einer vegetarischen Version der marokkanischen Harira mit Linsen und Kichererbsen."
+        },
+        {
+          "emoji": "🇮🇳",
+          "title": "Indische Dal-Suppe",
+          "description": "Servieren Sie die Grießnockerl in einer würzigen indischen Dal-Suppe mit Linsen und Gewürzen."
+        },
+        {
+          "emoji": "🇲🇽",
+          "title": "Mexikanische Sopa de Fideo (vegetarisch)",
+          "description": "Geben Sie die Grießnockerl in eine vegetarische Version der mexikanischen Nudelsuppe (Sopa de Fideo) für eine herzhafte Note."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Grießnockerl-Geschichte",
+      "description": "Wussten Sie, dass Grießnockerl in vielen europäischen Küchen Tradition haben? Sie sind ein einfaches, aber vielseitiges Gericht, das sich im Laufe der Zeit entwickelt hat. Unsere Grießnockerl sind eine Hommage an die traditionelle Küche und zeigen, wie köstlich und wärmend eine einfache Suppeneinlage sein kann!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/griessNockerlIngredient.webp",
+      "image1": "/images/Miscellaneous/griessNockerl1.webp",
+      "image2": "/images/Miscellaneous/griessNockerl2.webp",
+      "image3": "/images/Miscellaneous/griessNockerl3.webp",
+      "image4": "/images/Miscellaneous/griessNockerl4.webp",
+      "image5": "/images/Miscellaneous/griessNockerl5.webp",
+      "image6": "/images/Miscellaneous/griessNockerl6.webp",
+      "image7": "/images/Miscellaneous/griessNockerl7.webp"
     }
   }
 ];
