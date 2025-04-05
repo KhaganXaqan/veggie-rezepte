@@ -5446,7 +5446,222 @@ export const recipes: Recipe[] = [
         "image6": "/images/Salads/mediterraner-nudelsalat6.webp",
         "image7": "/images/Salads/mediterraner-nudelsalat7.webp"
       }
+    },
+    {
+      "title": "Französische Crêpes mit karamellisierten Granola-Nüssen",
+      "seo_title": "Französische Crêpes mit Granola-Nüssen – Einfach & Knusprig",
+      "image": "/images/Frühstück/franzoesische-crepes.webp",
+      "prepTime": 20,
+      "cookingTime": 25,
+      "seo_keywords": [
+        "französische Crêpes Rezept",
+        "Crêpes mit Nüssen",
+        "Granola Topping",
+        "süße Crêpes Ideen",
+        "einfaches Crêpes Grundrezept",
+        "hausgemachtes Granola",
+        "Crêpes Frühstück"
+      ],
+      "rating": 4.9,
+      "reviews": 87,
+      "category": "Frühstück",
+      "slug": "franzoesische-crepes-granola-nuesse",
+      "tags": ["Frühstück", "Französisch", "Süß"],
+      "createdDate": new Date("2025-03-01T10:00:00Z"),
+      "updatedDate": new Date("2025-04-05T12:00:00Z"),
+      "servings": 4,
+      "description": "Zarte französische Crêpes treffen auf knusprig-süßes Granola mit karamellisierten Nüssen – perfekt zum Frühstück oder als Dessert!",
+      "descriptionOnImage": "Knusprige Granola-Nüsse auf zarten Crêpes",
+      "introductionParagraph": "Es gibt Rezepte, die Erinnerungen wecken – an entspannte Sonntage, gemütliche Frühstücke oder kleine Auszeiten am Nachmittag. Für mich gehören französische Crêpes ganz klar dazu. Dieses herrlich dünne Gebäck, das schon beim Backen einen zarten Duft von Butter und Vanille verströmt, ist für mich pure Lebensfreude. Und wenn ich sie dann noch mit selbstgemachtem, karamellisierten Granola und knackigen Nüssen verfeinere, wird daraus ein kleines kulinarisches Fest. Diese Version ist nicht nur süß und knusprig, sondern auch wunderbar vielseitig. Ob zum Frühstück mit frischen Früchten, als Highlight auf dem Brunch-Buffet oder als schnelles Dessert nach einem langen Tag – diese Crêpes mit Granola-Nüssen passen einfach immer.",
+      "additionalParagraph": "Ich erinnere mich noch gut an den Sonntagmorgen, als ich spontan beschlossen habe, Crêpes zu machen – ganz ohne Plan, aber mit viel Lust auf etwas Besonderes. In der Speisekammer fiel mein Blick auf ein Glas mit selbstgemachtem Granola und eine offene Tüte Haselnüsse. Die Idee war geboren! Ein paar Minuten später brutzelten die ersten Crêpes in der Pfanne, während auf dem Herd die Nüsse im Honig karamellisierten. Es war ein Duft zum Verlieben – warm, nussig, ein Hauch von Vanille. Und das Beste: Die Kombination aus zartem Crêpe-Teig und dem knusprigen Topping war ein echter Volltreffer. Seitdem gehört dieses Rezept zu meinen liebsten Klassikern – immer dann, wenn ich mir und meinen Lieben etwas Gutes tun möchte.",
+      "ingredientsNeeded": [
+        {
+          "title": "Eier",
+          "description": "Sie sorgen für Bindung und geben dem Crêpe-Teig seine geschmeidige Textur."
+        },
+        {
+          "title": "Milch",
+          "description": "Milch verleiht dem Teig eine angenehme Flüssigkeit und sorgt für weiche, zarte Crêpes."
+        },
+        {
+          "title": "Weizenmehl",
+          "description": "Das klassische Mehl gibt Struktur und ist die Basis des Crêpe-Teigs."
+        },
+        {
+          "title": "Butter",
+          "description": "Für den feinen Geschmack und die goldene Farbe der Crêpes – ein Muss in der französischen Küche."
+        },
+        {
+          "title": "Vanilleextrakt",
+          "description": "Gibt dem Teig eine subtile Süße und einen Hauch von französischer Eleganz."
+        },
+        {
+          "title": "Honig",
+          "description": "Zum Karamellisieren der Nüsse – sorgt für süße Knusprigkeit."
+        },
+        {
+          "title": "Nüsse",
+          "description": "Eine Mischung aus Haselnüssen, Mandeln und Walnüssen für ein intensives Aroma und Biss."
+        },
+        {
+          "title": "Haferflocken",
+          "description": "Für das hausgemachte Granola – sie liefern Ballaststoffe und eine schöne Textur."
+        },
+        {
+          "title": "Zimt",
+          "description": "Optional für das Granola – gibt dem Topping eine warme, würzige Note."
+        }
+      ],
+      "ingredientGroups": [
+        {
+          "title": "Für die Crêpes",
+          "description": "Die Grundzutaten für weiche, klassische französische Crêpes.",
+          "ingredients": [
+            { "amount": 2, "unit": "", "name": "Eier" },
+            { "amount": 250, "unit": "ml", "name": "Milch" },
+            { "amount": 125, "unit": "g", "name": "Weizenmehl (Type 405)" },
+            { "amount": 1, "unit": "Prise", "name": "Salz" },
+            { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
+            { "amount": 20, "unit": "g", "name": "geschmolzene Butter" },
+            { "amount": undefined, "unit": "etwas", "name": "Butter zum Ausbacken" }
+          ]
+        },
+        {
+          "title": "Für das Granola-Nuss-Topping",
+          "description": "Ein knuspriges Topping aus Haferflocken und karamellisierten Nüssen.",
+          "ingredients": [
+            { "amount": 60, "unit": "g", "name": "gemischte Nüsse (z. B. Haselnüsse, Mandeln, Walnüsse)" },
+            { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
+            { "amount": 2, "unit": "EL", "name": "Honig" },
+            { "amount": 1, "unit": "EL", "name": "Kokosöl oder Butter" },
+            { "amount": 1, "unit": "Prise", "name": "Zimt (optional)" }
+          ]
+        }
+      ],
+      "ingredients": [
+        { "amount": 2, "unit": "", "name": "Eier" },
+        { "amount": 250, "unit": "ml", "name": "Milch" },
+        { "amount": 125, "unit": "g", "name": "Weizenmehl (Type 405)" },
+        { "amount": 1, "unit": "Prise", "name": "Salz" },
+        { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
+        { "amount": 20, "unit": "g", "name": "geschmolzene Butter" },
+        { "amount": undefined, "unit": "etwas", "name": "Butter zum Ausbacken" },
+        { "amount": 60, "unit": "g", "name": "gemischte Nüsse" },
+        { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
+        { "amount": 2, "unit": "EL", "name": "Honig" },
+        { "amount": 1, "unit": "EL", "name": "Kokosöl oder Butter" },
+        { "amount": 1, "unit": "Prise", "name": "Zimt" }
+      ],
+      "instructions": [
+        "Eier, Milch, Mehl, Salz und Vanilleextrakt in einer Schüssel glatt rühren.",
+        "Die geschmolzene Butter unterheben und den Teig 10 Minuten ruhen lassen.",
+        "In einer beschichteten Pfanne etwas Butter erhitzen, eine dünne Schicht Teig hineingeben und von beiden Seiten goldgelb ausbacken.",
+        "Crêpes warm stellen und mit dem restlichen Teig ebenso verfahren.",
+        "Für das Granola die Nüsse grob hacken.",
+        "In einer Pfanne Kokosöl oder Butter erhitzen, Honig hinzufügen und die Nüsse sowie Haferflocken darin 5–7 Minuten karamellisieren.",
+        "Optional mit etwas Zimt verfeinern und abkühlen lassen.",
+        "Crêpes mit dem Granola-Nuss-Mix bestreuen und nach Wunsch mit Obst oder Joghurt servieren."
+      ],
+      "nutrition": {
+        "calories": 1710,
+        "protein": "51g",
+        "carbs": "185g",
+        "fat": "90g"
+      },
+      "tips": [
+        "Für extra Aroma etwas Zitronenabrieb in den Teig geben.",
+        "Die Crêpes lassen sich prima einfrieren – einfach Backpapier zwischenlegen.",
+        "Das Granola hält luftdicht verschlossen bis zu 2 Wochen – perfekt für Vorrat!",
+        "Statt Honig kann auch Ahornsirup oder Agavendicksaft verwendet werden.",
+        "Die Nüsse nach Geschmack variieren – Pekannüsse oder Cashews passen auch super.",
+        "Wer es fruchtiger mag, kann zusätzlich Apfelscheiben karamellisieren.",
+        "Auch mit einem Klecks griechischem Joghurt ein Genuss!",
+        "Für eine herzhafte Variante den Zucker weglassen und Füllung ändern."
+      ],
+      "whyFavorite": {
+        "title": "Warum diese Crêpes mit Granola-Nüssen ein Lieblingsrezept sind",
+        "reasons": [
+          { "title": "Schnell gemacht", "description": "In unter 30 Minuten steht ein köstliches Gericht auf dem Tisch." },
+          { "title": "Perfekte Textur", "description": "Zart-weiche Crêpes treffen auf knuspriges Topping – ein tolles Mundgefühl!" },
+          { "title": "Individuell anpassbar", "description": "Ob mit Früchten, Joghurt oder pur – diese Crêpes lassen sich vielseitig kombinieren." },
+          { "title": "Ein echter Hingucker", "description": "Ideal für Gäste oder besondere Anlässe – sieht toll aus und schmeckt fantastisch." },
+          { "title": "Vegetarisch & nahrhaft", "description": "Mit Haferflocken und Nüssen liefert das Gericht Ballaststoffe und gesunde Fette." },
+          { "title": "Kinderfreundlich", "description": "Kinder lieben es, sich ihre Crêpes selbst zu belegen." },
+          { "title": "Meal-Prep geeignet", "description": "Granola und Crêpes lassen sich gut vorbereiten – ideal für stressfreie Mahlzeiten." }
+        ]
+      },
+      "handwrittenMessage": {
+        "mainText": "Genieße jede Gabel dieser Crêpes mit Granola-Nüssen – sie sind mit Liebe gemacht!",
+        "subText": "Ich bin gespannt, wie sie dir schmecken – erzähl mir gern davon!",
+        "signature": "Dein Veggie-Rezepte Team"
+      },
+      "steps": [
+        {
+          "title": "Der perfekte Teig",
+          "description": "Ein glatter, ruhender Teig ist das A und O für zarte Crêpes. Durch das Ruhen entspannen sich die Gluten und der Teig wird geschmeidiger."
+        },
+        {
+          "title": "Crêpes goldgelb ausbacken",
+          "description": "Die Pfanne sollte heiß sein, aber nicht rauchend. So gelingen dünne, gleichmäßige Crêpes ohne anzubrennen."
+        },
+        {
+          "title": "Granola frisch karamellisieren",
+          "description": "Nur wenige Minuten in Honig und Öl reichen aus, um ein himmlisch duftendes, knuspriges Topping zu zaubern."
+        },
+        {
+          "title": "Kreativ belegen",
+          "description": "Jetzt darf’s bunt werden! Ob mit Joghurt, Beeren oder Banane – jeder Crêpe wird ein Unikat."
+        }
+      ],
+      "servingSuggestion": "Serviere die Crêpes warm mit einem Löffel Joghurt und frischen Beeren für ein perfektes Frühstückserlebnis.",
+      "servingSuggestions": {
+        "title": "So schmecken die Crêpes mit Granola-Nüssen am besten",
+        "description": "Diese süßen Crêpes lassen sich wunderbar variieren und servieren – hier ein paar meiner Lieblingsideen:",
+        "note": "Ideal für Brunch, Dessert oder sogar ein süßes Abendessen!",
+        "items": [
+          {
+            "emoji": "🍓",
+            "title": "Mit frischen Beeren",
+            "description": "Erdbeeren, Himbeeren oder Blaubeeren bringen Frische und Farbe auf den Teller."
+          },
+          {
+            "emoji": "🍯",
+            "title": "Mit extra Honig",
+            "description": "Ein kleiner Extra-Schuss Honig verstärkt das Karamellaroma und passt perfekt zum Granola."
+          },
+          {
+            "emoji": "🥣",
+            "title": "Mit Joghurt oder Quark",
+            "description": "Ein Klecks Naturjoghurt oder cremiger Quark macht das Ganze noch vollwertiger."
+          },
+          {
+            "emoji": "🍌",
+            "title": "Mit Bananenscheiben",
+            "description": "Süße Bananen harmonieren wunderbar mit den Nüssen und machen satt."
+          },
+          {
+            "emoji": "☕",
+            "title": "Zum Nachmittagskaffee",
+            "description": "Als kleiner Leckerbissen zum Kaffee serviert – ein echter Genussmoment."
+          }
+        ]
+      },
+      "funFact": {
+        "title": "Wusstest du schon?",
+        "description": "Crêpes stammen ursprünglich aus der Bretagne und wurden dort traditionell auf gusseisernen Platten über offenem Feuer zubereitet!"
+      },
+      "images": {
+        "imageIngredient": "/images/Ingredients/franzoesischeCrepesIngredient.webp",
+        "image1": "/images/Frühstück/franzoesische-crepes1.webp",
+        "image2": "/images/Frühstück/franzoesische-crepes2.webp",
+        "image3": "/images/Frühstück/franzoesische-crepes3.webp",
+        "image4": "/images/Frühstück/franzoesische-crepes4.webp",
+        "image5": "/images/Frühstück/franzoesische-crepes5.webp",
+        "image6": "/images/Frühstück/franzoesische-crepes6.webp",
+        "image7": "/images/Frühstück/franzoesische-crepes7.webp"
+      }
     }
+    
 ];
 
 export function getRecipeBySlug(slug: string) {
