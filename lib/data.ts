@@ -2985,7 +2985,7 @@ instructions: [
 cookingTime: 20,
 rating: 4.9,
     category: "Frühstück",
-    slug: "franzoesische-crepes",
+    slug: "franzoesische-crepes-granola-nuesse",
     tags: ["Frühstück", "Französisch", "Süß"],
     servings: 4,
     description: "Eine leckere französische Crêpe aus Mehl und Eiern.",
