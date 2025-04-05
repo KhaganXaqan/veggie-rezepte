@@ -44,7 +44,11 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     'shakshuka',
     'kuerbissuppe',
     'suesskartoffel-kokos-suppe',
-    'griessnockerl'
+    'griessnockerl',
+    'gemuese-couscous-salat',
+    'bunter-quinoa-salat',
+    'griechischer-bauernsalat',
+    'mediterraner-nudelsalat'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -114,7 +118,11 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     'shakshuka',
     'kuerbissuppe',
     'suesskartoffel-kokos-suppe',
-    'griessnockerl'
+    'griessnockerl',
+    'gemuese-couscous-salat',
+    'bunter-quinoa-salat',
+    'griechischer-bauernsalat',
+    'mediterraner-nudelsalat'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -205,7 +213,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'shakshuka',
     'kuerbissuppe',
     'suesskartoffel-kokos-suppe',
-    'griessnockerl'
+    'griessnockerl',
+    'gemuese-couscous-salat',
+    'bunter-quinoa-salat',
+    'griechischer-bauernsalat',
+    'mediterraner-nudelsalat'
   ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
@@ -241,7 +253,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'shakshuka',
     'kuerbissuppe',
     'suesskartoffel-kokos-suppe',
-    'griessnockerl'
+    'griessnockerl',
+    'gemuese-couscous-salat',
+    'bunter-quinoa-salat',
+    'griechischer-bauernsalat',
+    'mediterraner-nudelsalat'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }

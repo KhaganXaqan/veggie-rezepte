@@ -1391,11 +1391,6 @@ export const recipes: Recipe[] = [
           "emoji": "🥒",
           "title": "Eingelegtes Gemüse",
           "description": "Schnell eingelegte Gurken, Karotten oder Rote Bete bringen eine saure und knackige Komponente auf den Teller."
-        },
-        {
-          "emoji": "🍯",
-          "title": "Honig-Senf-Dip",
-          "description": "Ein süß-würziger Honig-Senf-Dip passt hervorragend zu den gerösteten Kichererbsen und dem Gemüse."
         }
       ]
     },
@@ -4517,7 +4512,941 @@ export const recipes: Recipe[] = [
       "image6": "/images/Miscellaneous/griessNockerl6.webp",
       "image7": "/images/Miscellaneous/griessNockerl7.webp"
     }
-  }
+  },
+  {
+    "title": "Mediterraner Gemüse-Couscous-Salat",
+    "seo_title": "Schneller Gemüse Couscous Salat: Mediterran, frisch & lecker",
+    "image": "/images/Salads/gemuese-couscous-salat.webp",
+    "prepTime": 20,
+    "cookingTime": 5,
+    "seo_keywords": [
+      "Couscous Salat Rezept",
+      "Gemüse Couscous Salat",
+      "einfacher Couscous Salat",
+      "Couscous Salat vegetarisch",
+      "mediterraner Couscous Salat",
+      "schneller Couscous Salat",
+      "Couscous Salat zum Grillen"
+    ],
+    "rating": 4.7,
+    "reviews": 188,
+    "category": "Salate",
+    "slug": "gemuese-couscous-salat",
+    "tags": ["Salat", "Orientalisch", "Couscous"],
+    "createdDate": new Date("2025-04-01T11:00:00Z"),
+    "updatedDate": new Date("2025-04-04T14:30:00Z"),
+    "servings": 4,
+    "description": "Blitzschneller Gemüse Couscous Salat in 25 Min! Perfekt für Grillpartys, Meal Prep oder als leichte Mahlzeit. Frisch, gesund & voller mediterraner Aromen.",
+    "descriptionOnImage": "Ein bunter, mediterraner Couscous-Salat mit viel frischem Gemüse und Kräutern.",
+    "introductionParagraph": "Ach, Couscous-Salat – für mich ist das der Inbegriff von Sommer, Sonne und unkompliziertem Genuss! Ich liebe es einfach, wie schnell dieses Gericht zubereitet ist und wie unglaublich vielseitig es sein kann. Dieser mediterrane Gemüse-Couscous-Salat ist mein absoluter Favorit, wenn es mal wieder schnell gehen muss, aber trotzdem frisch und lecker sein soll. Er erinnert mich immer an laue Sommerabende auf der Terrasse, an Grillpartys mit Freunden, wo dieser Salat einfach nicht fehlen darf. Die Kombination aus dem fluffigen Couscous, dem knackigen, bunten Gemüse und dem zitronig-frischen Dressing ist einfach unschlagbar. Es ist eines dieser Rezepte, die ich fast im Schlaf zubereiten kann und das trotzdem jedes Mal aufs Neue begeistert. Es fühlt sich an, als würde man sich mit jeder Gabel eine kleine Portion mediterranes Lebensgefühl gönnen – leicht, gesund und voller Geschmack.",
+    "additionalParagraph": "Was ich an diesem Salat besonders schätze, ist seine Wandelbarkeit. Manchmal schnipple ich noch eine Zucchini hinein, ein anderes Mal gebe ich ein paar Kichererbsen für eine extra Portion Protein dazu oder verfeinere ihn mit etwas Feta für eine salzige Note. Es ist wie ein Baukasten voller köstlicher Möglichkeiten! Und das Beste: Er schmeckt nicht nur frisch zubereitet fantastisch, sondern oft am nächsten Tag sogar noch besser, wenn alle Aromen richtig durchgezogen sind. Deshalb ist er auch mein treuer Begleiter fürs Büro-Mittagessen oder wenn ich am Wochenende etwas fürs Picknick vorbereiten möchte. Jedes Mal, wenn ich die Schüssel öffne, strömt mir dieser herrliche Duft von frischer Minze, Zitrone und Gemüse entgegen – das ist für mich pure Freude und ein kleines bisschen Urlaub im Alltag. Dieser Salat ist einfach, ehrlich und macht glücklich – genau das, was ich an guter Küche liebe.",
+    "ingredientsNeeded": [
+      {
+        "title": "Couscous",
+        "description": "Die Basis unseres Salats. Instant-Couscous ist hier perfekt, da er nur mit heißem Wasser übergossen werden muss und in wenigen Minuten fertig ist. Er saugt das Dressing wunderbar auf."
+      },
+      {
+        "title": "Buntes Gemüse",
+        "description": "Paprika (rot und gelb für die Farbe!), Salatgurke und saftige Cherrytomaten sorgen für Frische, Biss und Vitamine. Sie bilden das Herzstück des Salats."
+      },
+      {
+        "title": "Rote Zwiebel",
+        "description": "Verleiht eine milde Schärfe und eine schöne Farbe. Wer es milder mag, kann auch Frühlingszwiebeln verwenden."
+      },
+      {
+        "title": "Frische Kräuter",
+        "description": "Petersilie und Minze sind unerlässlich für das mediterrane Flair! Sie bringen eine unglaubliche Frische und Leichtigkeit in den Salat. Nicht sparen damit!"
+      },
+      {
+        "title": "Zitronen-Olivenöl-Dressing",
+        "description": "Ein einfaches, aber geniales Dressing aus gutem Olivenöl, frisch gepresstem Zitronensaft, Salz, Pfeffer und einer Prise Kreuzkümmel für die orientalische Note. Es verbindet alle Komponenten harmonisch."
+      },
+      {
+          "title": "Optional: Feta oder Kichererbsen",
+          "description": "Für mehr Sättigung und Protein können Kichererbsen hinzugefügt werden. Feta-Käse sorgt für eine leckere, salzig-cremige Komponente."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Salat",
+        "description": "Die Hauptkomponenten, die den Salat ausmachen: fluffiger Couscous und knackiges, buntes Gemüse.",
+        "ingredients": [
+          { "amount": 250, "unit": "g", "name": "Instant-Couscous" },
+          { "amount": 250, "unit": "ml", "name": "Heißes Wasser oder Gemüsebrühe" },
+          { "amount": 1, "unit": "", "name": "Rote Paprika, gewürfelt" },
+          { "amount": 1, "unit": "", "name": "Gelbe Paprika, gewürfelt" },
+          { "amount": 0.5, "unit": "", "name": "Salatgurke, gewürfelt" },
+          { "amount": 200, "unit": "g", "name": "Cherrytomaten, halbiert" },
+          { "amount": 1, "unit": "", "name": "Kleine rote Zwiebel, fein gehackt" },
+          { "amount": 1, "unit": "Bund", "name": "Glatte Petersilie, gehackt" },
+          { "amount": 0.5, "unit": "Bund", "name": "Frische Minze, gehackt" }
+        ]
+      },
+      {
+        "title": "Für das Dressing",
+        "description": "Ein einfaches, zitroniges Dressing, das dem Salat seine mediterrane Frische verleiht.",
+        "ingredients": [
+          { "amount": 6, "unit": "EL", "name": "Gutes Olivenöl" },
+          { "amount": 3, "unit": "EL", "name": "Frisch gepresster Zitronensaft" },
+          { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (Cumin), gemahlen" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 250, "unit": "g", "name": "Instant-Couscous" },
+      { "amount": 250, "unit": "ml", "name": "Heißes Wasser oder Gemüsebrühe" },
+      { "amount": 1, "unit": "", "name": "Rote Paprika, gewürfelt" },
+      { "amount": 1, "unit": "", "name": "Gelbe Paprika, gewürfelt" },
+      { "amount": 0.5, "unit": "", "name": "Salatgurke, gewürfelt" },
+      { "amount": 200, "unit": "g", "name": "Cherrytomaten, halbiert" },
+      { "amount": 1, "unit": "", "name": "Kleine rote Zwiebel, fein gehackt" },
+      { "amount": 1, "unit": "Bund", "name": "Glatte Petersilie, gehackt" },
+      { "amount": 0.5, "unit": "Bund", "name": "Frische Minze, gehackt" },
+      { "amount": 6, "unit": "EL", "name": "Gutes Olivenöl" },
+      { "amount": 3, "unit": "EL", "name": "Frisch gepresster Zitronensaft" },
+      { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (Cumin), gemahlen" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+    ],
+    "instructions": [
+      "Den Instant-Couscous in eine große Schüssel geben.",
+      "Das heiße Wasser oder die Gemüsebrühe darüber gießen, sodass der Couscous bedeckt ist. Eine Prise Salz hinzufügen und kurz umrühren.",
+      "Die Schüssel abdecken und den Couscous etwa 5-7 Minuten quellen lassen, bis die Flüssigkeit vollständig aufgesogen ist.",
+      "In der Zwischenzeit das gesamte Gemüse (Paprika, Gurke, Tomaten, Zwiebel) waschen und klein würfeln bzw. hacken. Die Kräuter ebenfalls fein hacken.",
+      "Für das Dressing Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel gut verquirlen.",
+      "Den gequollenen Couscous mit einer Gabel auflockern.",
+      "Das vorbereitete Gemüse und die gehackten Kräuter zum Couscous geben.",
+      "Das Dressing darüber gießen und alles vorsichtig, aber gründlich vermengen.",
+      "Den Salat abschmecken und bei Bedarf noch etwas Salz, Pfeffer oder Zitronensaft hinzufügen.",
+      "Am besten schmeckt der Salat, wenn er vor dem Servieren noch etwa 15-30 Minuten ziehen kann. Er kann aber auch sofort genossen werden."
+    ],
+    "nutrition": {
+      "calories": 1855,
+      "protein": "40.9g",
+      "carbs": "235.3g",
+      "fat": "82.1g"
+    },
+    "tips": [
+      "Für eine orientalische Note kannst du noch Rosinen oder getrocknete Aprikosen (klein geschnitten) hinzufügen.",
+      "Etwas Harissa-Paste im Dressing sorgt für eine angenehme Schärfe.",
+      "Geröstete Mandelblättchen oder Sonnenblumenkerne geben dem Salat einen schönen Crunch.",
+      "Statt Couscous kannst du auch Bulgur oder Quinoa als Basis verwenden.",
+      "Experimentiere mit dem Gemüse: Zucchiniwürfel, Mais oder Kichererbsen passen ebenfalls hervorragend.",
+      "Ein Klecks Joghurt-Dip (z.B. mit Knoblauch und Kräutern) rundet den Salat beim Servieren perfekt ab.",
+      "Der Salat hält sich gut abgedeckt im Kühlschrank für 2-3 Tage und eignet sich daher super für Meal Prep.",
+      "Wenn du Feta hinzufügst, zerbrösele ihn erst kurz vor dem Servieren über den Salat, damit er nicht matschig wird."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieser Couscous-Salat mein Sommer-Liebling ist",
+      "reasons": [
+        {
+          "title": "Blitzschnell fertig",
+          "description": "In maximal 25 Minuten steht ein vollwertiges, leckeres Gericht auf dem Tisch. Perfekt für den Feierabend!"
+        },
+        {
+          "title": "Unglaublich frisch und leicht",
+          "description": "Die Kombination aus viel Gemüse, Kräutern und Zitrone macht ihn zum idealen Sommergericht – nicht zu schwer, aber sättigend."
+        },
+        {
+          "title": "Meal Prep Champion",
+          "description": "Er schmeckt am nächsten Tag fast noch besser und ist daher perfekt zum Mitnehmen ins Büro oder für Picknicks."
+        },
+        {
+          "title": "So vielseitig",
+          "description": "Man kann ihn nach Lust und Laune abwandeln – mit anderem Gemüse, Hülsenfrüchten, Käse oder Nüssen."
+        },
+        {
+          "title": "Perfekter Grillbegleiter",
+          "description": "Er passt hervorragend zu Gegrilltem aller Art und ist bei jeder Grillparty ein gern gesehener Gast."
+        },
+        {
+          "title": "Gesund und vollwertig",
+          "description": "Vollgepackt mit Vitaminen, Ballaststoffen und guten Kohlenhydraten – ein echtes Power-Food."
+        },
+        {
+          "title": "Bringt Farbe auf den Teller",
+          "description": "Das bunte Gemüse macht einfach gute Laune und sieht wunderschön aus."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dir diesen frischen Couscous-Salat schmecken – ein Stück Sommer auf dem Teller!",
+      "subText": "Ich bin gespannt, wie er dir gelingt und welche Variationen du ausprobierst!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Couscous perfekt garen",
+        "description": "Der Schlüssel zu fluffigem Couscous ist das richtige Verhältnis von Flüssigkeit und die kurze Quellzeit. Nicht kochen, nur ziehen lassen!"
+      },
+      {
+        "title": "Schritt 2: Gemüse schnippeln – Frische pur",
+        "description": "Während der Couscous quillt, wird das Gemüse vorbereitet. Gleichmäßige, kleine Würfel sorgen für ein angenehmes Mundgefühl und eine schöne Optik."
+      },
+      {
+        "title": "Schritt 3: Das aromatische Dressing",
+        "description": "Die Harmonie von gutem Olivenöl, spritziger Zitrone und einem Hauch Kreuzkümmel ist das Geheimnis dieses Dressings. Gut verquirlen, damit es sich verbindet."
+      },
+      {
+        "title": "Schritt 4: Alles vereinen und durchziehen lassen",
+        "description": "Couscous auflockern, Gemüse und Kräuter dazu, Dressing drüber – und dann das Wichtigste: Kurz ziehen lassen, damit sich die Aromen verbinden können."
+      }
+    ],
+    "servingSuggestion": "Serviere den Gemüse-Couscous-Salat leicht gekühlt als Hauptgericht oder als Beilage zu Gegrilltem.",
+    "servingSuggestions": {
+      "title": "Was passt perfekt zu meinem Gemüse-Couscous-Salat?",
+      "description": "Dieser Salat ist schon solo ein Star, aber mit diesen Begleitern wird's ein Festmahl:",
+      "note": "Egal wofür du dich entscheidest, der Salat bringt immer Frische auf den Tisch!",
+      "items": [
+        {
+          "emoji": "🥖",
+          "title": "Frisches Fladenbrot oder Baguette",
+          "description": "Ideal, um die letzten Reste des leckeren Dressings aufzutunken. Ein Muss, finde ich!"
+        },
+        {
+          "emoji": "🥣",
+          "title": "Ein Klecks Joghurt-Dip",
+          "description": "Ein einfacher Dip aus Naturjoghurt, Knoblauch, Salz und Pfeffer (vielleicht noch etwas Minze?) rundet das Gericht perfekt ab und sorgt für Cremigkeit."
+        },
+        {
+          "emoji": "🧆",
+          "title": "Falafel",
+          "description": "Bleiben wir orientalisch: Knusprige Falafelbällchen dazu sind eine köstliche und sättigende Ergänzung."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein kühler Weißwein",
+          "description": "Ein trockener Sauvignon Blanc oder ein leichter Rosé unterstreicht die Frische des Salats an einem warmen Abend."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact über Couscous",
+      "description": "Wusstest du, dass Couscous traditionell nicht gekocht, sondern über kochendem Wasser oder Eintopf gedämpft wird?  steamed? 💨 In Nordafrika, seiner Heimat, ist die Zubereitung oft ein geselliges Ritual. Der Instant-Couscous, den wir meist verwenden, ist vorgegart und muss nur noch quellen – super praktisch für unsere schnelle Küche! Aber egal wie, er ist einfach lecker und vielseitig. 😊"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/gemueseCouscousSalatIngredient.webp",
+      "image1": "/images/Salads/gemuese-couscous-salat1.webp",
+      "image2": "/images/Salads/gemuese-couscous-salat2.webp",
+      "image3": "/images/Salads/gemuese-couscous-salat3.webp",
+      "image4": "/images/Salads/gemuese-couscous-salat4.webp",
+      "image5": "/images/Salads/gemuese-couscous-salat5.webp",
+      "image6": "/images/Salads/gemuese-couscous-salat6.webp",
+      "image7": "/images/Salads/gemuese-couscous-salat7.webp"
+    }
+  },
+  {
+    "title": "Energievoller Bunter Quinoa-Salat",
+    "seo_title": "Gesunder Bunter Quinoa Salat: Vegan, proteinreich & lecker",
+    "image": "/images/Salads/bunter-quinoa-salat.webp",
+    "prepTime": 20,
+    "cookingTime": 15,
+    "seo_keywords": [
+      "Quinoa Salat Rezept",
+      "Bunter Quinoa Salat",
+      "Quinoa Salat gesund",
+      "veganer Quinoa Salat",
+      "Quinoa Salat mit Gemüse",
+      "proteinreicher Salat",
+      "Quinoa Salat Dressing"
+    ],
+    "rating": 4.9,
+    "reviews": 215,    
+    "category": "Salate",
+    "slug": "bunter-quinoa-salat",
+    "tags": ["Salat", "Gesund", "Quinoa"],
+    "createdDate": new Date("2025-04-02T09:30:00Z"),
+    "updatedDate": new Date("2025-04-04T15:00:00Z"),
+    "servings": 3,
+    "description": "Farbenfroher & gesunder Quinoa Salat in 35 Min! Vegan, glutenfrei & voller Proteine. Perfekt als leichte Mahlzeit, Beilage oder Meal Prep.",
+    "descriptionOnImage": "Ein lebendiger, bunter Quinoa-Salat mit schwarzen Bohnen, Mais, Avocado und Limetten-Dressing.",
+    "introductionParagraph": "Manchmal brauche ich einfach einen richtigen Energie-Kick auf dem Teller, etwas, das nicht nur satt macht, sondern auch Körper und Seele guttut. Genau dann kommt mein bunter Quinoa-Salat ins Spiel! Ich kann mich noch erinnern, als ich Quinoa zum ersten Mal probiert habe – dieses nussige Aroma und die leicht körnige Textur haben mich sofort begeistert. Seitdem ist es aus meiner Küche nicht mehr wegzudenken. Dieser Salat ist wie ein Regenbogen in der Schüssel: leuchtend roter Paprika, sattes Grün von Avocado und Koriander, sonnengelber Mais und tiefschwarze Bohnen tanzen mit dem hellen Quinoa um die Wette. Allein der Anblick macht schon gute Laune! Es ist für mich das perfekte Mittagessen, wenn ich nachmittags noch fit sein muss, oder ein leichtes Abendessen, das mich zufrieden, aber nicht überfüllt zurücklässt. Die Zubereitung ist herrlich unkompliziert, und das Ergebnis ist immer wieder ein Fest für Augen und Gaumen.",
+    "additionalParagraph": "Das Tolle an diesem Salat ist auch, wie unglaublich nahrhaft er ist. Quinoa selbst ist ja schon ein kleines Kraftpaket, voller pflanzlichem Protein und Ballaststoffen. Zusammen mit den schwarzen Bohnen, dem gesunden Fett der Avocado und all dem frischen Gemüse ist es eine richtige Nährstoffbombe, die lange sättigt und guttut. Ich fühle mich nach dem Essen immer so angenehm energetisiert! Oft bereite ich gleich eine größere Menge zu, denn er hält sich super im Kühlschrank und schmeckt auch am nächsten oder übernächsten Tag noch fantastisch. Das Limetten-Koriander-Dressing gibt dem Ganzen den letzten Schliff – es ist so erfrischend und passt perfekt zu den leicht süßlichen und erdigen Aromen der anderen Zutaten. Für mich ist dieser Salat mehr als nur Essen; er ist ein Ausdruck von Lebensfreude, Gesundheit und bewusstem Genuss. Ein einfaches Gericht, das zeigt, wie lecker und bunt gesunde Ernährung sein kann.",
+    "ingredientsNeeded": [
+      {
+        "title": "Quinoa",
+        "description": "Das Pseudogetreide ist die proteinreiche und glutenfreie Basis unseres Salats. Ich verwende gerne weißen Quinoa, aber Tricolore sieht natürlich noch bunter aus!"
+      },
+      {
+        "title": "Schwarze Bohnen & Mais",
+        "description": "Diese beiden bringen nicht nur Farbe, sondern auch Ballaststoffe und eine leicht süßliche bzw. erdige Note. Praktisch aus der Dose!"
+      },
+      {
+        "title": "Rote Paprika",
+        "description": "Sorgt für knackige Süße und eine Extraportion Vitamin C. Die leuchtend rote Farbe ist ein Muss für einen 'bunten' Salat."
+      },
+      {
+        "title": "Rote Zwiebel",
+        "description": "Gibt eine feine Schärfe und Würze. Wer es milder mag, kann sie kurz in kaltem Wasser einlegen."
+      },
+      {
+        "title": "Avocado",
+        "description": "Die cremige Komponente! Sie liefert gesunde Fette und macht den Salat wunderbar sättigend. Erst kurz vor dem Servieren hinzufügen."
+      },
+      {
+        "title": "Frischer Koriander",
+        "description": "Für mich unverzichtbar für den südamerikanisch inspirierten Geschmack. Wer Koriander nicht mag, kann Petersilie verwenden, aber es ist nicht ganz dasselbe."
+      },
+      {
+        "title": "Limetten-Dressing",
+        "description": "Ein spritziges Dressing aus Limettensaft, Olivenöl, etwas Ahornsirup (oder Agavendicksaft) für die Balance, Knoblauch und Gewürzen wie Kreuzkümmel und Chili."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Salat",
+        "description": "Die farbenfrohen und nahrhaften Hauptdarsteller dieses Energie-Salats.",
+        "ingredients": [
+          { "amount": 150, "unit": "g", "name": "Quinoa (weiß oder tricolore)" },
+          { "amount": 300, "unit": "ml", "name": "Wasser oder Gemüsebrühe" },
+          { "amount": 1, "unit": "Dose (ca. 240g Abtropfgew.)", "name": "Schwarze Bohnen, abgespült und abgetropft" },
+          { "amount": 1, "unit": "Kleine Dose (ca. 140g Abtropfgew.)", "name": "Mais, abgetropft" },
+          { "amount": 1, "unit": "", "name": "Rote Paprika, fein gewürfelt" },
+          { "amount": 0.5, "unit": "", "name": "Rote Zwiebel, fein gehackt" },
+          { "amount": 1, "unit": "", "name": "Reife Avocado, gewürfelt" },
+          { "amount": 0.5, "unit": "Bund", "name": "Frischer Koriander, grob gehackt" }
+        ]
+      },
+      {
+        "title": "Für das Limetten-Dressing",
+        "description": "Ein spritzig-frisches Dressing, das dem Salat den letzten Kick gibt.",
+        "ingredients": [
+          { "amount": 4, "unit": "EL", "name": "Olivenöl" },
+          { "amount": 3, "unit": "EL", "name": "Frisch gepresster Limettensaft (ca. 1-2 Limetten)" },
+          { "amount": 1, "unit": "TL", "name": "Ahornsirup oder Agavendicksaft (optional)" },
+          { "amount": 1, "unit": "Zehe", "name": "Knoblauch, gepresst oder sehr fein gehackt" },
+          { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (Cumin), gemahlen" },
+          { "amount": 0.25, "unit": "TL", "name": "Chilipulver oder -flocken (optional, nach Geschmack)" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 150, "unit": "g", "name": "Quinoa (weiß oder tricolore)" },
+      { "amount": 300, "unit": "ml", "name": "Wasser oder Gemüsebrühe" },
+      { "amount": 1, "unit": "Dose (ca. 240g Abtropfgew.)", "name": "Schwarze Bohnen, abgespült und abgetropft" },
+      { "amount": 1, "unit": "Kleine Dose (ca. 140g Abtropfgew.)", "name": "Mais, abgetropft" },
+      { "amount": 1, "unit": "", "name": "Rote Paprika, fein gewürfelt" },
+      { "amount": 0.5, "unit": "", "name": "Rote Zwiebel, fein gehackt" },
+      { "amount": 1, "unit": "", "name": "Reife Avocado, gewürfelt" },
+      { "amount": 0.5, "unit": "Bund", "name": "Frischer Koriander, grob gehackt" },
+      { "amount": 4, "unit": "EL", "name": "Olivenöl" },
+      { "amount": 3, "unit": "EL", "name": "Frisch gepresster Limettensaft (ca. 1-2 Limetten)" },
+      { "amount": 1, "unit": "TL", "name": "Ahornsirup oder Agavendicksaft (optional)" },
+      { "amount": 1, "unit": "Zehe", "name": "Knoblauch, gepresst oder sehr fein gehackt" },
+      { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (Cumin), gemahlen" },
+      { "amount": 0.25, "unit": "TL", "name": "Chilipulver oder -flocken (optional, nach Geschmack)" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+    ],
+    "instructions": [
+      "Die Quinoa gründlich in einem feinen Sieb unter kaltem Wasser abspülen, bis das Wasser klar bleibt. Das entfernt Bitterstoffe.",
+      "Quinoa mit Wasser oder Gemüsebrühe und einer Prise Salz in einen Topf geben. Aufkochen lassen, dann die Hitze reduzieren, abdecken und ca. 15 Minuten köcheln lassen, bis die Flüssigkeit aufgesogen ist und die Quinoa-Körner aufgeplatzt sind.",
+      "Den Topf vom Herd nehmen und die Quinoa zugedeckt noch 5 Minuten nachquellen lassen. Anschließend mit einer Gabel auflockern und vollständig abkühlen lassen.",
+      "Während die Quinoa kocht und abkühlt, Paprika und rote Zwiebel fein würfeln/hacken. Koriander grob hacken. Bohnen und Mais abspülen und abtropfen lassen.",
+      "Für das Dressing alle Zutaten (Olivenöl, Limettensaft, Ahornsirup, Knoblauch, Gewürze, Salz, Pfeffer) in einer kleinen Schüssel oder einem Glas mit Deckel gut verquirlen bzw. schütteln.",
+      "Die abgekühlte Quinoa in eine große Salatschüssel geben.",
+      "Bohnen, Mais, Paprika, rote Zwiebel und den größten Teil des Korianders hinzufügen.",
+      "Das Dressing darüber gießen und alles gut vermengen.",
+      "Den Salat abschmecken und bei Bedarf nachwürzen.",
+      "Erst kurz vor dem Servieren die gewürfelte Avocado vorsichtig unterheben und mit dem restlichen Koriander bestreuen."
+    ],
+    "nutrition": {
+      "calories": 1880,
+      "protein": "64g",
+      "carbs": "212g",
+      "fat": "92g"
+    },
+    "tips": [
+      "Für mehr Crunch kannst du geröstete Kürbiskerne oder Sonnenblumenkerne hinzufügen.",
+      "Ein paar gewürfelte Mango-Stücke geben dem Salat eine exotisch-fruchtige Note.",
+      "Wenn du es schärfer magst, füge fein gehackte Jalapeños (frisch oder eingelegt) hinzu.",
+      "Übrig gebliebener Salat schmeckt auch toll in Wraps gewickelt am nächsten Tag.",
+      "Statt schwarzer Bohnen kannst du auch Kidneybohnen verwenden.",
+      "Für eine nicht-vegane Variante passt auch etwas zerbröselter Feta oder Cotija-Käse gut dazu.",
+      "Achte darauf, die Quinoa wirklich gut abzuspülen, sonst kann sie leicht bitter schmecken.",
+      "Die Avocado erst ganz zum Schluss hinzufügen, damit sie nicht braun wird und matscht."
+    ],
+    "whyFavorite": {
+      "title": "Warum ich diesen bunten Quinoa-Salat liebe",
+      "reasons": [
+        {
+          "title": "Voller Energie & Nährstoffe",
+          "description": "Er ist eine echte Nährstoffbombe mit viel pflanzlichem Protein, Ballaststoffen, Vitaminen und gesunden Fetten. Macht satt und gibt Power!"
+        },
+        {
+          "title": "Ein Fest für die Augen",
+          "description": "Die vielen bunten Zutaten machen einfach gute Laune und sehen unglaublich appetitlich aus."
+        },
+        {
+          "title": "Vegan, glutenfrei & gesund",
+          "description": "Perfekt für alle, die sich bewusst ernähren möchten, ohne auf Geschmack zu verzichten."
+        },
+        {
+          "title": "Fantastisch für Meal Prep",
+          "description": "Hält sich gut im Kühlschrank und schmeckt auch nach 1-2 Tagen noch super – ideal zum Vorbereiten."
+        },
+        {
+          "title": "Erfrischend anders",
+          "description": "Das Limetten-Koriander-Dressing und die Kombination der Zutaten sorgen für einen tollen, leicht südamerikanisch inspirierten Geschmack."
+        },
+        {
+          "title": "Flexibel anpassbar",
+          "description": "Man kann problemlos Zutaten hinzufügen oder weglassen, je nachdem, was der Kühlschrank hergibt oder worauf man Lust hat."
+        },
+        {
+          "title": "Leicht und trotzdem sättigend",
+          "description": "Er füllt den Magen, ohne ein Völlegefühl zu hinterlassen – ideal als leichtes Mittag- oder Abendessen."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Genieß diesen Regenbogen in der Schüssel – meinen bunten Quinoa-Salat!",
+      "subText": "Ich hoffe, er gibt dir genauso viel Energie und Freude wie mir!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Quinoa richtig kochen",
+        "description": "Das A und O ist das gründliche Spülen der Quinoa, um Bitterstoffe zu entfernen. Dann im richtigen Verhältnis mit Flüssigkeit kochen und quellen lassen für die perfekte Konsistenz."
+      },
+      {
+        "title": "Schritt 2: Farben schnippeln",
+        "description": "Während die Quinoa abkühlt, werden alle bunten Zutaten vorbereitet. Fein gewürfelt oder gehackt mischen sie sich später optimal."
+      },
+      {
+        "title": "Schritt 3: Das spritzige Dressing mixen",
+        "description": "Die Balance zwischen Säure (Limette), Fett (Olivenöl), optionaler Süße und den Gewürzen ist entscheidend. Gut schütteln oder rühren!"
+      },
+      {
+        "title": "Schritt 4: Alles zusammenfügen",
+        "description": "Die abgekühlte Quinoa mit den bunten Zutaten und dem Dressing vermengen. Die empfindliche Avocado kommt erst ganz zum Schluss dazu."
+      }
+    ],
+    "servingSuggestion": "Serviere den bunten Quinoa-Salat gekühlt als leichtes Hauptgericht oder nahrhafte Beilage.",
+    "servingSuggestions": {
+      "title": "Womit schmeckt der bunte Quinoa-Salat noch besser?",
+      "description": "Dieser Salat ist vielseitig! Hier ein paar Ideen:",
+      "note": "Er ist aber auch pur ein Genuss!",
+      "items": [
+        {
+          "emoji": "🌮",
+          "title": "Als Füllung für Tacos oder Wraps",
+          "description": "Gib den Salat in weiche Tortillas, vielleicht noch mit etwas Salsa oder Guacamole – ein schnelles, leckeres Essen!"
+        },
+        {
+          "emoji": "칩",
+          "title": "Mit Tortilla-Chips",
+          "description": "Serviere ihn wie einen Dip oder eine Salsa mit knusprigen Tortilla-Chips zum Dippen – perfekt für Partys."
+        },
+        {
+          "emoji": "🥬",
+          "title": "Auf einem Bett aus Blattsalat",
+          "description": "Für noch mehr Grünzeug kannst du den Quinoa-Salat auf Rucola oder Babyspinat anrichten."
+        },
+        {
+          "emoji": "🌶️",
+          "title": "Mit einem Klecks scharfer Sauce",
+          "description": "Wer es gerne feurig mag, kann noch einen Spritzer Sriracha oder eine andere Chilisauce darüber geben."
+        },
+        {
+          "emoji": "🥤",
+          "title": "Mit einem Glas Agua Fresca",
+          "description": "Ein erfrischendes mexikanisches Fruchtwasser (z.B. Hibiskus oder Limette) passt thematisch perfekt dazu."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du schon?",
+      "description": "Quinoa wird oft als Getreide bezeichnet, ist aber botanisch gesehen ein 'Pseudogetreide'. Es gehört zur selben Familie wie Spinat und Rote Bete! 🌿 Schon die Inkas schätzten Quinoa vor Tausenden von Jahren als Grundnahrungsmittel und nannten es 'Mutterkorn'. Heute feiern wir es als Superfood – zu Recht, bei all den Nährstoffen! 💪"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/bunterQuinoaSalatIngredient.webp",
+      "image1": "/images/Salads/bunter-quinoa-salat1.webp",
+      "image2": "/images/Salads/bunter-quinoa-salat2.webp",
+      "image3": "/images/Salads/bunter-quinoa-salat3.webp",
+      "image4": "/images/Salads/bunter-quinoa-salat4.webp",
+      "image5": "/images/Salads/bunter-quinoa-salat5.webp",
+      "image6": "/images/Salads/bunter-quinoa-salat6.webp",
+      "image7": "/images/Salads/bunter-quinoa-salat7.webp"
+    }
+  },
+  {
+    "title": "Authentischer Griechischer Bauernsalat (Horiatiki)",
+    "seo_title": "Original Griechischer Bauernsalat (Horiatiki) Rezept - Einfach",
+    "image": "/images/Salads/griechischer-bauernsalat.webp",
+    "prepTime": 15,
+    "cookingTime": 0,
+    "seo_keywords": [
+      "Griechischer Salat Rezept",
+      "Bauernsalat original",
+      "Horiatiki Salat",
+      "Salat mit Feta und Oliven",
+      "griechischer Bauernsalat",
+      "original griechischer Salat",
+      "Salat ohne Blattsalat"
+    ],
+    "rating": 4.8,
+    "reviews": 255,
+    "category": "Salate",
+    "slug": "griechischer-bauernsalat",
+    "tags": ["Griechisch", "Salat", "Mediterran"],
+    "createdDate": new Date("2025-03-28T14:00:00Z"),
+    "updatedDate": new Date("2025-04-04T16:00:00Z"),
+    "servings": 4,
+    "description": "Einfaches Rezept für authentischen griechischen Bauernsalat (Horiatiki) wie im Urlaub! Frisch, knackig & voller Geschmack – in 15 Min fertig.",
+    "descriptionOnImage": "Ein klassischer griechischer Bauernsalat mit Tomaten, Gurke, Oliven und einem großen Stück Feta.",
+    "introductionParagraph": "Wenn ich die Augen schließe und an Urlaub denke, dann schmecke ich oft genau diesen Salat: den echten griechischen Bauernsalat, Horiatiki genannt. Er ist für mich der Inbegriff von Sommer, Sonne und Meer. Kennt ihr das Gefühl, in einer kleinen Taverne am Hafen zu sitzen, das Rauschen der Wellen im Ohr, und dann kommt diese Schale voller leuchtend roter Tomaten, knackiger Gurken, würziger Oliven und diesem herrlich cremigen Feta auf den Tisch? Genau dieses Gefühl möchte ich mit meinem Rezept zu euch nach Hause bringen! Das Geheimnis liegt in der Einfachheit und der Qualität der Zutaten. Keine Schnörkel, kein Blattsalat – nur das pure Aroma sonnengereifter Tomaten, das kräftige Olivenöl und der salzige Feta. Es ist ein Salat, der von seiner Frische lebt und der mich jedes Mal aufs Neue glücklich macht. Er ist so schnell zubereitet und doch so unglaublich befriedigend.",
+    "additionalParagraph": "Ich erinnere mich noch genau an meinen ersten Griechenland-Urlaub mit meiner Familie. Wir waren auf Kreta, und jeden Mittag gab es diesen Salat. Damals war ich überrascht, dass gar kein grüner Salat drin war, wie ich es aus Deutschland kannte. Aber ich habe schnell gelernt: Der *echte* Horiatiki braucht keinen Salat, er lebt von den kräftigen Aromen des Gemüses! Die Kombination aus süßen Tomaten, leicht bitteren Gurken, der salzigen Würze von Oliven und Feta und dem fruchtigen Olivenöl ist einfach perfekt ausbalanciert. Ein Hauch von Oregano rundet das Ganze ab und verleiht ihm diese typisch mediterrane Note. Für mich ist dieser Salat nicht nur ein Gericht, sondern eine kleine Zeitreise, ein Stück Urlaub auf dem Teller. Und das Beste: Man braucht wirklich nur eine Handvoll guter Zutaten, um sich dieses Gefühl nach Hause zu holen. Es ist ehrlich, rustikal und einfach nur köstlich – griechische Lebensfreude pur!",
+    "ingredientsNeeded": [
+      {
+        "title": "Sonnengereifte Tomaten",
+        "description": "Das Herzstück des Salats! Am besten schmecken aromatische, vollreife Tomaten. Die Sorte ist nicht so wichtig wie der Reifegrad."
+      },
+      {
+        "title": "Salatgurke",
+        "description": "Sorgt für den knackigen, frischen Kontrast. Am besten eine feste, nicht zu wässrige Gurke verwenden."
+      },
+      {
+        "title": "Grüne Paprika",
+        "description": "Gehört traditionell dazu und gibt eine leicht herbe Note. Keine rote oder gelbe Paprika für den authentischen Geschmack!"
+      },
+      {
+        "title": "Rote Zwiebel",
+        "description": "Verleiht die nötige Schärfe. In dünne Ringe geschnitten sieht sie besonders schön aus."
+      },
+      {
+        "title": "Kalamata-Oliven",
+        "description": "Diese dunkelvioletten, mandelförmigen Oliven sind intensiv-fruchtig und salzig – unverzichtbar für den echten Geschmack."
+      },
+      {
+        "title": "Griechischer Feta",
+        "description": "Echter Feta aus Schafs- (und ggf. Ziegen-)milch. Er wird traditionell als ganzes Stück oder grob zerbrochen auf den Salat gelegt."
+      },
+      {
+        "title": "Gutes Olivenöl Extra Vergine",
+        "description": "Hier sollte man nicht sparen! Ein hochwertiges, fruchtiges Olivenöl ist entscheidend für das Dressing und den Gesamtgeschmack."
+      },
+      {
+        "title": "Getrockneter Griechischer Oregano",
+        "description": "Verleiht das typische Aroma. Frisch ist auch lecker, aber getrockneter Oregano ist hier traditionell."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Salat",
+        "description": "Die klassischen, frischen Zutaten, die den Horiatiki ausmachen.",
+        "ingredients": [
+          { "amount": 4, "unit": "", "name": "Große, reife Tomaten" },
+          { "amount": 1, "unit": "", "name": "Salatgurke" },
+          { "amount": 1, "unit": "", "name": "Grüne Paprika" },
+          { "amount": 1, "unit": "", "name": "Rote Zwiebel" },
+          { "amount": 100, "unit": "g", "name": "Kalamata-Oliven (mit Stein)" },
+          { "amount": 200, "unit": "g", "name": "Griechischer Feta (am Stück)" }
+        ]
+      },
+      {
+        "title": "Für das Dressing",
+        "description": "Simpel, aber entscheidend: Gutes Olivenöl und Oregano.",
+        "ingredients": [
+          { "amount": 5, "unit": "EL", "name": "Hochwertiges Olivenöl Extra Vergine" },
+          { "amount": 1, "unit": "TL", "name": "Getrockneter griechischer Oregano" },
+          { "amount": 1, "unit": "Prise", "name": "Salz (vorsichtig, Feta und Oliven sind salzig!)" },
+          { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen (optional)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 4, "unit": "", "name": "Große, reife Tomaten" },
+      { "amount": 1, "unit": "", "name": "Salatgurke" },
+      { "amount": 1, "unit": "", "name": "Grüne Paprika" },
+      { "amount": 1, "unit": "", "name": "Rote Zwiebel" },
+      { "amount": 100, "unit": "g", "name": "Kalamata-Oliven (mit Stein)" },
+      { "amount": 200, "unit": "g", "name": "Griechischer Feta (am Stück)" },
+      { "amount": 5, "unit": "EL", "name": "Hochwertiges Olivenöl Extra Vergine" },
+      { "amount": 1, "unit": "TL", "name": "Getrockneter griechischer Oregano" },
+      { "amount": 1, "unit": "Prise", "name": "Salz (vorsichtig, Feta und Oliven sind salzig!)" },
+      { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen (optional)" }
+    ],
+    "instructions": [
+      "Die Tomaten waschen, den Strunk entfernen und in grobe Stücke oder Spalten schneiden.",
+      "Die Gurke waschen, nach Belieben schälen (oder nur teilweise) und in dicke halbe Scheiben schneiden.",
+      "Die grüne Paprika waschen, entkernen und in Ringe oder Streifen schneiden.",
+      "Die rote Zwiebel schälen und in dünne Ringe schneiden.",
+      "Alle geschnittenen Gemüse (Tomaten, Gurke, Paprika, Zwiebel) in eine große, flache Schüssel oder auf eine Platte geben.",
+      "Die Kalamata-Oliven darüber verteilen.",
+      "Das Stück Feta als Ganzes oder grob zerbrochen in die Mitte des Salats legen.",
+      "Den Salat großzügig mit dem hochwertigen Olivenöl beträufeln.",
+      "Den getrockneten Oregano darüber streuen.",
+      "Nur ganz vorsichtig mit Salz (wenn überhaupt nötig) und optional etwas Pfeffer würzen. Sofort servieren."
+    ],
+    "nutrition": {
+      "calories": 1685,
+      "protein": "29g",
+      "carbs": "69g",
+      "fat": "147g"
+    },
+    "tips": [
+      "Verwende unbedingt Kalamata-Oliven mit Stein – sie sind viel aromatischer!",
+      "Die Qualität der Tomaten und des Olivenöls ist entscheidend für den Geschmack.",
+      "Den Feta nicht würfeln, sondern als großes Stück auflegen – das ist authentisch und sieht toll aus.",
+      "Ein Spritzer guter Rotweinessig kann dem Dressing hinzugefügt werden, ist aber nicht zwingend traditionell.",
+      "Serviere den Salat sofort nach der Zubereitung, damit das Gemüse knackig bleibt.",
+      "Keinen Blattsalat hinzufügen, wenn du einen echten Horiatiki möchtest!",
+      "Manchmal werden auch Kapern hinzugefügt, das ist eine leckere Variante.",
+      "Reste (falls es welche gibt) schmecken am nächsten Tag auch noch, sind aber nicht mehr so knackig."
+    ],
+    "whyFavorite": {
+      "title": "Warum der griechische Bauernsalat mein Herz erobert hat",
+      "reasons": [
+        {
+          "title": "Urlaubsgefühle Pur",
+          "description": "Ein Bissen und ich bin sofort wieder in einer griechischen Taverne am Meer. Er schmeckt einfach nach Sonne und Urlaub."
+        },
+        {
+          "title": "Einfachheit in Perfektion",
+          "description": "Nur wenige, gute Zutaten, die perfekt harmonieren. Kein Schnickschnack, nur purer Geschmack."
+        },
+        {
+          "title": "Unglaublich Frisch & Knackig",
+          "description": "Der Kontrast zwischen saftigen Tomaten, knackiger Gurke und Paprika und dem cremigen Feta ist unschlagbar."
+        },
+        {
+          "title": "Blitzschnell Zubereitet",
+          "description": "In 15 Minuten steht ein beeindruckender, köstlicher Salat auf dem Tisch – perfekt für spontanen Besuch oder schnelles Abendessen."
+        },
+        {
+          "title": "Gesund & Natürlich",
+          "description": "Viel frisches Gemüse, gesunde Fette aus Olivenöl und Feta – eine leichte, aber sättigende Mahlzeit."
+        },
+        {
+          "title": "Der Star jeder Grillparty",
+          "description": "Er passt perfekt zu Gegrilltem und bringt mediterranes Flair auf jedes Buffet."
+        },
+        {
+          "title": "Authentisch & Ehrlich",
+          "description": "Dieses Rezept hält sich eng ans Original – so schmeckt Griechenland wirklich!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Kali Orexi! Lass dir diesen authentischen Horiatiki schmecken!",
+      "subText": "Ich wünsche dir eine kleine kulinarische Reise nach Griechenland!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Gemüse vorbereiten",
+        "description": "Tomaten, Gurke, Paprika und Zwiebel werden grob geschnitten. Die Stücke sollten nicht zu klein sein, damit der Salat Biss hat."
+      },
+      {
+        "title": "Schritt 2: Anrichten ist alles",
+        "description": "Das Gemüse wird in einer flachen Schale arrangiert, die Oliven darüber verteilt. Der Feta thront als großes Stück in der Mitte – das Auge isst mit!"
+      },
+      {
+        "title": "Schritt 3: Das flüssige Gold",
+        "description": "Großzügig mit hochwertigem Olivenöl beträufeln. Das Öl verbindet sich mit dem austretenden Gemüsesaft zum köstlichen Dressing."
+      },
+      {
+        "title": "Schritt 4: Würzen und Genießen",
+        "description": "Mit Oregano bestreuen und nur bei Bedarf ganz leicht salzen. Sofort servieren, um die maximale Frische zu erleben."
+      }
+    ],
+    "servingSuggestion": "Serviere den griechischen Bauernsalat frisch zubereitet als Vorspeise oder leichte Hauptmahlzeit mit etwas Brot.",
+    "servingSuggestions": {
+      "title": "Was passt zum griechischen Bauernsalat?",
+      "description": "Dieser Klassiker braucht eigentlich nicht viel, aber hier sind ein paar Ideen:",
+      "note": "Weniger ist hier oft mehr!",
+      "items": [
+        {
+          "emoji": "🥖",
+          "title": "Frisches Weißbrot oder Pitabrot",
+          "description": "Ein absolutes Muss, um den köstlichen Saft aus Olivenöl und Tomaten aufzutunken, der sich am Boden sammelt!"
+        },      
+        {
+          "emoji": "🥔",
+          "title": "Ofenkartoffeln oder Rosmarinkartoffeln",
+          "description": "Für eine sättigendere vegetarische Mahlzeit passen einfache Kartoffelbeilagen gut dazu."
+        },
+        {
+          "emoji": "🫒",
+          "title": "Tzatziki",
+          "description": "Ein weiterer griechischer Klassiker, der gut dazu passt, obwohl er nicht direkt mit dem Salat vermischt wird."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein Glas Retsina oder trockener Weißwein",
+          "description": "Ein kühler, harziger Retsina oder ein Assyrtiko aus Santorin runden das griechische Erlebnis ab."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du das?",
+      "description": "Der Name 'Horiatiki' ( χωριάτικη) bedeutet wörtlich 'Dorf-' oder 'Bauernsalat'. 🇬🇷 Er entstand angeblich, weil die Bauern einfache, frische Zutaten aus ihrem Garten verwendeten. Die Zugabe von Feta soll erst später populär geworden sein, möglicherweise um Touristen anzulocken oder als nahrhafte Ergänzung. Aber egal wie, ohne Feta ist er heute kaum vorstellbar! 😉"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/griechischerBauernsalatIngredient.webp",
+      "image1": "/images/Salads/griechischer-bauernsalat1.webp",
+      "image2": "/images/Salads/griechischer-bauernsalat2.webp",
+      "image3": "/images/Salads/griechischer-bauernsalat3.webp",
+      "image4": "/images/Salads/griechischer-bauernsalat4.webp",
+      "image5": "/images/Salads/griechischer-bauernsalat5.webp",
+      "image6": "/images/Salads/griechischer-bauernsalat6.webp",
+      "image7": "/images/Salads/griechischer-bauernsalat7.webp"
+    }
+  },
+    {
+      "title": "Sonniger Mediterraner Nudelsalat mit Feta & Oliven",
+      "seo_title": "Bester Mediterraner Nudelsalat: Einfach, schnell & lecker",
+      "image": "/images/Salads/mediterraner-nudelsalat.webp",
+      "prepTime": 25,
+      "cookingTime": 10,
+      "seo_keywords": [
+        "Mediterraner Nudelsalat Rezept",
+        "Nudelsalat mit Feta",
+        "einfacher Nudelsalat",
+        "Nudelsalat zum Grillen",
+        "Nudelsalat mit Rucola",
+        "vegetarischer Nudelsalat",
+        "schneller Nudelsalat"
+      ],
+      "rating": 4.8,
+      "reviews": 312,
+      "category": "Salate",
+      "slug": "mediterraner-nudelsalat",
+      "tags": ["Salat", "Pasta", "Mediterran"],
+      "createdDate": new Date("2025-03-15T10:00:00Z"),
+      "updatedDate": new Date("2025-04-05T11:30:00Z"),
+      "servings": 6,
+      "description": "Der perfekte mediterrane Nudelsalat für Grillfeste & Buffets! Schnell gemacht, mit Feta, Oliven, Rucola & sonnengereiften Tomaten. Einfach köstlich!",
+      "descriptionOnImage": "Ein bunter, appetitlicher mediterraner Nudelsalat in einer großen Schüssel, bereit für die Party.",
+      "introductionParagraph": "Nudelsalat – allein das Wort weckt bei mir sofort Erinnerungen an Sommerfeste, Grillabende im Garten und gemütliche Picknicks im Park! Und wenn es ein Nudelsalat gibt, der wirklich *immer* gut ankommt und dieses unbeschwerte Sommergefühl perfekt einfängt, dann ist es dieser mediterrane Traum. Ich liebe es, wie die Aromen von sonnengereiften Tomaten, salzigem Feta, würzigen Oliven und frischem Basilikum sich hier vereinen. Es ist, als würde man eine kleine Reise ans Mittelmeer machen, direkt mit der Gabel! Die Zubereitung ist herrlich unkompliziert, was ihn zum idealen Kandidaten macht, wenn viele Gäste erwartet werden oder man einfach keine Lust hat, stundenlang in der Küche zu stehen. Er lässt sich wunderbar vorbereiten und schmeckt durchgezogen fast noch besser. Für mich ist dieser Salat nicht nur eine Beilage, er ist oft der heimliche Star auf dem Buffet – farbenfroh, sättigend und einfach unwiderstehlich lecker.",
+      "additionalParagraph": "Es gibt ja unzählige Nudelsalat-Varianten, aber diese mediterrane Version hat einen festen Platz in meinem Herzen (und meinem Rezeptbuch!). Was ihn so besonders macht, ist die Balance der Aromen und Texturen: die weichen Nudeln, das knackige Gemüse, der cremige Feta, die würzigen Oliven und das leicht pfeffrige Rucola, das dem Ganzen noch einen extra Frischekick gibt. Das Dressing halte ich bewusst einfach – ein gutes Olivenöl, etwas Balsamicoessig, Zitronensaft und Kräuter reichen völlig aus, um die Zutaten zu umschmeicheln, ohne sie zu überdecken. Ich mache oft gleich eine riesige Schüssel davon, denn erfahrungsgemäß ist er immer als Erstes leer. Und das Schöne ist: Man kann ihn super variieren! Mal kommen noch getrocknete Tomaten dazu, mal geröstete Pinienkerne oder auch ein paar Kapern. So wird es nie langweilig. Dieser Salat ist für mich pure Sommerküche – einfach, ehrlich und voller Geschmack!",
+      "ingredientsNeeded": [
+        {
+          "title": "Pasta",
+          "description": "Die Basis! Kurze Nudelsorten wie Fusilli, Penne oder Farfalle eignen sich am besten, da sie das Dressing und die kleinen Zutaten gut aufnehmen."
+        },
+        {
+          "title": "Cherrytomaten",
+          "description": "Bringen Süße, Saftigkeit und eine leuchtend rote Farbe. Halbieren oder vierteln, je nach Größe."
+        },
+        {
+          "title": "Salatgurke",
+          "description": "Sorgt für den erfrischenden, knackigen Biss. Am besten das Kerngehäuse entfernen, damit der Salat nicht zu wässrig wird."
+        },
+        {
+          "title": "Schwarze Oliven",
+          "description": "Unverzichtbar für das mediterrane Flair. Am besten Kalamata-Oliven oder andere gute, entsteinte schwarze Oliven verwenden."
+        },
+        {
+          "title": "Feta-Käse",
+          "description": "Gibt die typische salzig-würzige und cremige Note. Echter griechischer Feta aus Schafs- oder Ziegenmilch schmeckt am besten."
+        },
+        {
+          "title": "Rote Zwiebel",
+          "description": "Für eine milde Schärfe und Farbe. Wer es noch milder mag, kann sie vorher kurz in kaltem Wasser ziehen lassen."
+        },
+        {
+          "title": "Rucola",
+          "description": "Verleiht eine leicht pfeffrige, nussige Note und Frische. Erst kurz vor dem Servieren unterheben, damit er nicht zusammenfällt."
+        },
+        {
+          "title": "Frisches Basilikum",
+          "description": "Das ultimative mediterrane Kraut! Sorgt für ein herrliches Aroma. Nicht zu sparsam verwenden."
+        },
+        {
+            "title": "Einfaches Balsamico-Dressing",
+            "description": "Eine harmonische Mischung aus gutem Olivenöl, hellem Balsamicoessig (oder Rotweinessig), etwas Zitronensaft, Senf und Kräutern."
+        }
+      ],
+      "ingredientGroups": [
+        {
+          "title": "Für den Salat",
+          "description": "Alle frischen und bunten Zutaten, die den Nudelsalat zu einem mediterranen Genuss machen.",
+          "ingredients": [
+            { "amount": 500, "unit": "g", "name": "Nudeln (z.B. Fusilli, Penne)" },
+            { "amount": 300, "unit": "g", "name": "Cherrytomaten, halbiert" },
+            { "amount": 1, "unit": "", "name": "Salatgurke, entkernt und gewürfelt" },
+            { "amount": 150, "unit": "g", "name": "Schwarze Oliven, entsteint und halbiert" },
+            { "amount": 200, "unit": "g", "name": "Feta-Käse, gewürfelt oder zerbröckelt" },
+            { "amount": 1, "unit": "", "name": "Rote Zwiebel, in feinen Ringen oder Würfeln" },
+            { "amount": 100, "unit": "g", "name": "Rucola, gewaschen" },
+            { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum, Blätter gezupft und grob gehackt" }
+          ]
+        },
+        {
+          "title": "Für das Dressing",
+          "description": "Ein leichtes, aromatisches Dressing, das die mediterranen Aromen unterstreicht.",
+          "ingredients": [
+            { "amount": 8, "unit": "EL", "name": "Gutes Olivenöl Extra Vergine" },
+            { "amount": 4, "unit": "EL", "name": "Heller Balsamicoessig (oder Rotweinessig)" },
+            { "amount": 1, "unit": "EL", "name": "Zitronensaft, frisch gepresst" },
+            { "amount": 1, "unit": "TL", "name": "Mittelscharfer Senf" },
+            { "amount": 1, "unit": "TL", "name": "Agavendicksaft (optional, für die Balance)" },
+            { "amount": 1, "unit": "TL", "name": "Getrockneter Oregano" },
+            { "amount": 1, "unit": "Prise", "name": "Salz" },
+            { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+          ]
+        }
+      ],
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Nudeln (z.B. Fusilli, Penne)" },
+        { "amount": 300, "unit": "g", "name": "Cherrytomaten, halbiert" },
+        { "amount": 1, "unit": "", "name": "Salatgurke, entkernt und gewürfelt" },
+        { "amount": 150, "unit": "g", "name": "Schwarze Oliven, entsteint und halbiert" },
+        { "amount": 200, "unit": "g", "name": "Feta-Käse, gewürfelt oder zerbröckelt" },
+        { "amount": 1, "unit": "", "name": "Rote Zwiebel, in feinen Ringen oder Würfeln" },
+        { "amount": 100, "unit": "g", "name": "Rucola, gewaschen" },
+        { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum, Blätter gezupft und grob gehackt" },
+        { "amount": 8, "unit": "EL", "name": "Gutes Olivenöl Extra Vergine" },
+        { "amount": 4, "unit": "EL", "name": "Heller Balsamicoessig (oder Rotweinessig)" },
+        { "amount": 1, "unit": "EL", "name": "Zitronensaft, frisch gepresst" },
+        { "amount": 1, "unit": "TL", "name": "Mittelscharfer Senf" },
+        { "amount": 1, "unit": "TL", "name": "Agavendicksaft (optional, für die Balance)" },
+        { "amount": 1, "unit": "TL", "name": "Getrockneter Oregano" },
+        { "amount": 1, "unit": "Prise", "name": "Salz" },
+        { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+      ],
+      "instructions": [
+        "Die Nudeln nach Packungsanweisung in reichlich kochendem Salzwasser 'al dente' (bissfest) garen. Nicht zu weich kochen!",
+        "Während die Nudeln kochen, das Gemüse vorbereiten: Tomaten halbieren, Gurke würfeln, Oliven halbieren, Zwiebel in Ringe oder Würfel schneiden.",
+        "Für das Dressing alle Zutaten (Olivenöl, Essig, Zitronensaft, Senf, Oregano, Salz, Pfeffer) in einer großen Salatschüssel gut verquirlen.",
+        "Die Nudeln abgießen, kurz mit kaltem Wasser abschrecken (damit sie nicht weitergaren und kleben) und gut abtropfen lassen.",
+        "Die noch leicht warmen Nudeln direkt in die Schüssel zum Dressing geben und gut vermengen. So nehmen die Nudeln das Aroma am besten auf.",
+        "Tomaten, Gurke, Oliven und Zwiebel hinzufügen und vorsichtig unterheben.",
+        "Den Feta-Käse würfeln oder grob zerbröckeln und zusammen mit dem gehackten Basilikum unter den Salat mischen.",
+        "Den Salat mindestens 30 Minuten, besser noch 1-2 Stunden im Kühlschrank durchziehen lassen.",
+        "Kurz vor dem Servieren den gewaschenen Rucola vorsichtig unterheben.",
+        "Den mediterranen Nudelsalat nochmals abschmecken und eventuell nachwürzen."
+      ],
+      "nutrition": {
+        "calories": 2940,
+        "protein": "79g",
+        "carbs": "229g",
+        "fat": "198g"
+      },
+      "tips": [
+        "Für mehr Farbe und Geschmack kannst du auch gelbe oder orangefarbene Paprika hinzufügen.",
+        "Getrocknete, in Öl eingelegte Tomaten (klein geschnitten) geben dem Salat eine intensive, süßliche Note.",
+        "Geröstete Pinienkerne oder Sonnenblumenkerne sorgen für einen schönen Crunch.",
+        "Kapern passen ebenfalls wunderbar zu den mediterranen Aromen.",
+        "Wenn du es etwas proteinreicher magst, kannst du Kichererbsen oder weiße Bohnen hinzufügen.",
+        "Statt Feta kannst du auch Mozzarella-Bällchen (Mini-Mozzarella) verwenden.",
+        "Der Salat hält sich gut 2-3 Tage im Kühlschrank. Den Rucola aber immer erst frisch vor dem Servieren hinzufügen.",
+        "Verwende einen hellen Balsamicoessig, damit der Salat seine schöne Farbe behält. Rotweinessig geht aber geschmacklich auch sehr gut."
+      ],
+      "whyFavorite": {
+        "title": "Warum dieser Nudelsalat auf keiner Party fehlen darf",
+        "reasons": [
+          {
+            "title": "Der absolute Crowd-Pleaser",
+            "description": "Ich kenne niemanden, der diesen Salat nicht mag! Er ist frisch, würzig, sättigend und einfach lecker."
+          },
+          {
+            "title": "Perfekt zum Vorbereiten",
+            "description": "Er schmeckt durchgezogen sogar noch besser, was ihn ideal für Buffets, Grillpartys oder Meal Prep macht."
+          },
+          {
+            "title": "Bringt Farbe und Sommerlaune",
+            "description": "Die bunten Zutaten sehen toll aus und schmecken nach Sonne und Urlaub am Mittelmeer."
+          },
+          {
+            "title": "Angenehm leicht & frisch",
+            "description": "Trotz der Nudeln ist er durch das viele Gemüse, den Rucola und das leichte Dressing nicht zu schwer."
+          },
+          {
+            "title": "Einfach und schnell gemacht",
+            "description": "Während die Nudeln kochen, ist das Gemüse schnell geschnippelt. Kein kompliziertes Kochen nötig."
+          },
+          {
+            "title": "Wandelbar und anpassungsfähig",
+            "description": "Man kann ihn leicht mit zusätzlichen Zutaten variieren und an den eigenen Geschmack anpassen."
+          },
+          {
+            "title": "Vegetarisch & Sättigend",
+            "description": "Eine vollwertige vegetarische Mahlzeit oder eine sättigende Beilage, die auch ohne Fleisch glücklich macht."
+          }
+        ]
+      },
+      "handwrittenMessage": {
+        "mainText": "Hol dir den Sommer auf den Teller mit diesem mediterranen Nudelsalat!",
+        "subText": "Viel Spaß beim Nachmachen und Genießen – lass es dir schmecken!",
+        "signature": "Dein Veggie-Rezepte Team"
+      },
+      "steps": [
+        {
+          "title": "Schritt 1: Pasta al dente",
+          "description": "Die Nudeln bissfest kochen ist wichtig, damit sie später nicht matschig werden. Kurz kalt abschrecken stoppt den Garprozess."
+        },
+        {
+          "title": "Schritt 2: Das aromatische Dressing",
+          "description": "Die Basis für den Geschmack! Alle Dressing-Zutaten gut verrühren, bevor die warmen Nudeln dazukommen."
+        },
+        {
+          "title": "Schritt 3: Nudeln & Dressing vereinen",
+          "description": "Die noch warmen Nudeln nehmen das Dressing besonders gut auf. Das ist ein kleiner Trick für maximalen Geschmack."
+        },
+        {
+          "title": "Schritt 4: Gemüse & Co. hinzufügen",
+          "description": "Jetzt kommen die frischen Zutaten dazu. Alles vorsichtig vermengen, damit nichts zerdrückt wird."
+        },
+        {
+          "title": "Schritt 5: Ziehen lassen & Finalisieren",
+          "description": "Geduld zahlt sich aus! Den Salat durchziehen lassen. Erst kurz vor dem Servieren den empfindlichen Rucola unterheben."
+        }
+      ],
+      "servingSuggestion": "Serviere den mediterranen Nudelsalat gut durchgezogen und gekühlt als Hauptgericht oder beliebte Beilage zum Grillen.",
+      "servingSuggestions": {
+        "title": "Was passt zum mediterranen Nudelsalat?",
+        "description": "Er ist solo schon toll, aber hier sind noch ein paar Ideen:",
+        "note": "Perfekt für jede Sommerparty!",
+        "items": [
+          {
+            "emoji": "🥖",
+            "title": "Frisches Baguette oder Ciabatta",
+            "description": "Ideal, um die Reste des leckeren Dressings aufzunehmen."
+          },
+          {
+            "emoji": "🧀",
+            "title": "Gegrillter Halloumi",
+            "description": "Eine fantastische vegetarische Ergänzung, die das mediterrane Thema aufgreift."
+          },
+          {
+            "emoji": "🥗",
+            "title": "Ein einfacher grüner Salat",
+            "description": "Wenn der Nudelsalat Teil eines größeren Buffets ist, passt ein schlichter Blattsalat gut dazu."
+          },
+          {
+            "emoji": "🍷",
+            "title": "Ein leichter Rosé- oder Weißwein",
+            "description": "Ein gekühlter Wein unterstreicht die sommerliche Leichtigkeit des Salats."
+          },
+          {
+            "emoji": "🍉",
+            "title": "Wassermelonen-Feta-Salat",
+            "description": "Als weitere frische Komponente auf dem Buffet ergänzt dieser Salat den Nudelsalat wunderbar."
+          }
+        ]
+      },
+      "funFact": {
+        "title": "Nudel-Wissen",
+        "description": "Wusstest du, dass Nudelsalat in Deutschland besonders in den 70er und 80er Jahren zum absoluten Party-Hit wurde? 🕺 Oft waren es damals eher Varianten mit Mayonnaise. Die leichtere, mediterrane Version mit Essig-Öl-Dressing ist aber heute mindestens genauso beliebt und bringt Urlaubsflair auf den Tisch! 🇮🇹🇬🇷"
+      },
+      "images": {
+        "imageIngredient": "/images/Ingredients/mediterranerNudelsalatIngredient.webp",
+        "image1": "/images/Salads/mediterraner-nudelsalat1.webp",
+        "image2": "/images/Salads/mediterraner-nudelsalat2.webp",
+        "image3": "/images/Salads/mediterraner-nudelsalat3.webp",
+        "image4": "/images/Salads/mediterraner-nudelsalat4.webp",
+        "image5": "/images/Salads/mediterraner-nudelsalat5.webp",
+        "image6": "/images/Salads/mediterraner-nudelsalat6.webp",
+        "image7": "/images/Salads/mediterraner-nudelsalat7.webp"
+      }
+    }
 ];
 
 export function getRecipeBySlug(slug: string) {
