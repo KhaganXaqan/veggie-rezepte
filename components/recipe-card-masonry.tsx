@@ -44,17 +44,18 @@ export function RecipeCardMasonry({
             alt={recipe.title}
             width={292}
             height={isTall ? 405 : 250}
-            className="object-cover"
+            className="object-cover w-full h-auto"
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 292px"
           />
         </Link>
       </div>
       <div className="fav-recipe-card-title">
-        <Link href={`/${recipe.slug}`} className="!text-black font-['Montserrat'] text-base sm:text-lg font-bold uppercase hover:text-[#db747a]">
+        <Link href={`/${recipe.slug}`} className="!text-black font-['Montserrat'] text-sm sm:text-base md:text-lg font-bold uppercase hover:text-[#db747a]">
           {recipe.title}
         </Link>
       </div>
       <div className="details-link">
-        <Link href={`/${recipe.slug}`} className="text-[#db747a] font-bold text-sm hover:text-[#db747a]/80">
+        <Link href={`/${recipe.slug}`} className="text-[#db747a] font-bold text-xs sm:text-sm hover:text-[#db747a]/80">
           Rezeptdetails <i className="fas fa-arrow-right"></i>
         </Link>
       </div>

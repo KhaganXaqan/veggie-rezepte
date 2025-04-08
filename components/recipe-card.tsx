@@ -27,22 +27,23 @@ export function RecipeCard({ title, image, prepTime, rating, category, slug }: R
             className="object-cover"
             loading="lazy"
             priority={false}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
           />
         </div>
-        <CardContent className="p-4 flex flex-col flex-grow">
-          <Badge variant="secondary" className="mb-2 w-fit">
+        <CardContent className="p-3 sm:p-4 flex flex-col flex-grow">
+          <Badge variant="secondary" className="mb-1 sm:mb-2 w-fit text-xs sm:text-sm">
             {category}
           </Badge>
-          <h3 className="text-lg font-semibold line-clamp-2 mb-2 flex-grow">
+          <h3 className="text-base sm:text-lg font-semibold line-clamp-2 mb-1 sm:mb-2 flex-grow">
             {title}
           </h3>
-          <div className="flex items-center text-sm text-muted-foreground gap-4 mt-auto">
+          <div className="flex items-center text-xs sm:text-sm text-muted-foreground gap-3 sm:gap-4 mt-auto">
             <span className="flex items-center">
-              <Clock className="mr-1 h-4 w-4" aria-hidden="true" />
+              <Clock className="mr-1 h-3 w-3 sm:h-4 sm:w-4" aria-hidden="true" />
               <span>{prepTime}</span>
             </span>
             <span className="flex items-center ml-auto">
-              <Star className="mr-1 h-4 w-4 fill-yellow-400 text-yellow-400" aria-hidden="true" />
+              <Star className="mr-1 h-3 w-3 sm:h-4 sm:w-4 fill-yellow-400 text-yellow-400" aria-hidden="true" />
               <span>{rating?.toFixed(1)}</span>
             </span>
           </div>

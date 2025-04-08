@@ -67,21 +67,21 @@ export function SiteHeader() {
       "sticky top-0 z-50 w-full bg-white transition-transform duration-300",
       !isVisible && "-translate-y-full"
     )}>
-      <div className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 flex h-14 sm:h-16 items-center justify-between">
+      <div className="container max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 flex h-14 sm:h-16 items-center justify-between">
         <div className="flex items-center">
         <MobileNav />
-          <Link href="/" className="flex items-center ml-2 sm:ml-0" aria-label="Veggie Rezepte - Startseite">
+          <Link href="/" className="flex items-center ml-1 sm:ml-0" aria-label="Veggie Rezepte - Startseite">
             <div className="flex items-center">
-              <span className="text-lg sm:text-2xl font-bold text-brand">Veggie</span>
+              <span className="text-base sm:text-lg md:text-2xl font-bold text-brand">Veggie</span>
               <Image
                 src="/images/logo/logo.png"
                 alt="Veggie Rezepte Logo"
                 width={40}
                 height={40}
-                className="h-8 sm:h-14 w-auto"
+                className="h-7 sm:h-10 md:h-14 w-auto"
                 priority
               />
-              <span className="text-lg sm:text-2xl font-bold text-brand">Rezepte</span>
+              <span className="text-base sm:text-lg md:text-2xl font-bold text-brand">Rezepte</span>
             </div>
           </Link>
         </div>
@@ -248,12 +248,12 @@ export function SiteHeader() {
         </div>
 
         <div className="flex items-center">
-          <form onSubmit={handleSearch} className="relative w-[140px] sm:w-[200px] lg:w-[300px]">
-            <Search className="absolute left-2 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+          <form onSubmit={handleSearch} className="relative w-[120px] xs:w-[140px] sm:w-[200px] lg:w-[300px]">
+            <Search className="absolute left-2 top-1/2 -translate-y-1/2 h-3 w-3 sm:h-4 sm:w-4 text-muted-foreground" />
               <Input
                 type="search"
-              placeholder="Suchen..."
-              className="w-full h-9 pl-8 text-sm"
+                placeholder="Suchen..."
+                className="w-full h-8 sm:h-9 pl-6 sm:pl-8 text-xs sm:text-sm"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
