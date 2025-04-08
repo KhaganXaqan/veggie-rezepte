@@ -96,11 +96,15 @@ export const recipes: Recipe[] = [
     "prepTime": 30,
     "cookingTime": 12,
     "seo_keywords": [
-      "Flammkuchen Rezept",
       "flammkuchen vegetarisch",
-      "flammkuchen variationen",
-      "flammkuchen belegen",
-      "Flammkuchen traditionell"
+      "flammkuchen vegetarisch rezept",
+      "flammkuchen vegetarisch schnell",
+      "rezept flammkuchen vegetarisch",
+      "flammkuchen vegetarisch belag",
+      "flammkuchen vegetarisch ideen",
+      "flammkuchen vegetarisch belegen",
+      "kalorien flammkuchen vegetarisch",
+      "flammkuchen vegetarisch kalorien"
     ],
     "rating": 4.3,
     "reviews": 133,
@@ -319,10 +323,10 @@ export const recipes: Recipe[] = [
     "prepTime": 25,
     "cookingTime": 25,
     "seo_keywords": [
-      "kartoffelpuffer rezept",
+      "Vegetarische Kartoffelpuffer",
       "Kartoffelpuffer vegetarisch",
-      "kartoffelpuffer selbst machen",
-      "omas kartoffelpuffer rezept"
+      "Vegetarisches Reibekuchen Rezept",
+      "Kartoffelpuffer ohne Ei"
     ],
     "rating": 5.0,
     "reviews": 120,
@@ -542,11 +546,14 @@ export const recipes: Recipe[] = [
     "prepTime": 20,
     "cookingTime": 30,
     "seo_keywords": [
-      "klassische gemüsesuppe",
-      "die beste gemüsesuppe",
-      "klassische gemüsesuppe",
+      "gemüsesuppe",
       "gemüsesuppe rezept",
-      "gemüsesuppe"
+      "gemüsesuppe rezepte",
+      "rezept gemüsesuppe",
+      "klassische gemüsesuppe",
+      "omas gemüsesuppe",
+      "schnelle gemüsesuppe",
+      "die beste gemüsesuppe"
     ],
     "rating": 4.4,
     "reviews": 150,
@@ -760,11 +767,15 @@ export const recipes: Recipe[] = [
     "prepTime": 40,
     "cookingTime": 20,
     "seo_keywords": [
+      "kartoffelklöße vegetarisch",
+      "gefüllte kartoffelklöße vegetarisch",
+      "kartoffelklöße vegetarisch rezept",      
+      "rezept kartoffelklöße",
       "Vegetarische Kartoffelklöße Rezept",
-      "Traditionelle Kartoffelklöße",
+      "omas kartoffelklöße halb und halb",
       "Kartoffelklöße selber machen",
-      "Vegetarische Klöße",
-      "Deutsche vegetarische Küche"
+      "kartoffelklöße rezept einfach",
+      "kartoffelklöße halb und halb selber machen"
     ],
     "rating": 4.1,
     "reviews": 174,
@@ -970,10 +981,20 @@ export const recipes: Recipe[] = [
     "cookingTime": 20,
     "seo_keywords": [
       "semmelknödel",
+      "semmelknödel rezept",
+      "semmelknödel rezept oma",
+      "rezept semmelknödel",
+      "was passt zu semmelknödel vegetarisch",
       "Semmelknödel selber machen",
+      "semmelknödel vegetarisch",
+      "rezept mit semmelknödel vegetarisch",
+      "rezepte mit semmelknödel vegetarisch",
+      "semmelknödel vegetarisch rezept",
+      "gefüllte semmelknödel vegetarisch",
+      "semmelknödel rezept einfach",
       "semmelknödel rezepte",
       "semmelknödel vorbereiten",
-      "rezept für semmelknödel"
+      "semmelknödel wie lange kochen"
     ],
     "rating": 4.1,
     "reviews": 102,
