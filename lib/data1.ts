@@ -319,10 +319,10 @@ export const recipes: Recipe[] = [
     "prepTime": 25,
     "cookingTime": 25,
     "seo_keywords": [
-      "kartoffelpuffer rezept",
+      "Vegetarische Kartoffelpuffer",
       "Kartoffelpuffer vegetarisch",
-      "kartoffelpuffer selbst machen",
-      "omas kartoffelpuffer rezept"
+      "Vegetarisches Reibekuchen Rezept",
+      "Kartoffelpuffer ohne Ei"
     ],
     "rating": 5.0,
     "reviews": 120,
