@@ -1900,7 +1900,7 @@ export const recipes: Recipe[] = [
     "reviews": 153,
     "category": "Hauptgerichte",
     "slug": "gemuese-curry",
-    "tags": ["Indisch", "Curry", "Scharf"],
+    "tags": ["Asiatisch", "Proteinreich", "Cremig", "Meal Prep", "Glutenfrei"],
     "createdDate": new Date('2025-02-10T00:00:00'),
     "updatedDate": new Date('2025-03-27T00:00:00'),
     "servings": 4,
