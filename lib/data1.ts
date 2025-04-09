@@ -332,7 +332,7 @@ export const recipes: Recipe[] = [
     "reviews": 120,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",
-    "tags": ["Traditionell", "Kartoffeln", "Snack"],
+    "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
     "createdDate": new Date('2025-02-20T00:00:00'),
     "updatedDate": new Date('2025-03-21T00:00:00'),
     "servings": 4,
