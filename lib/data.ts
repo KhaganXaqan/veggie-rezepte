@@ -91,20 +91,20 @@ export const recipes: Recipe[] = [
   {
     title: "Kartoffelklöße",
     image: "/images/Miscellaneous/kartoffelkloesse.webp",
-    prepTime: 60,
-cookingTime: 20,
-rating: 4.8,
     category: "Hauptgerichte",
     slug: "kartoffelkloesse",
-    tags: ["Traditionell", "Beilage", "Kartoffeln"],
-    servings: 4,
-    description: "Traditionelle deutsche Kartoffelklöße - perfekt als Beilage oder eigenständiges Gericht.",
+    prepTime: 0,
+cookingTime: 0,
+rating: 0,
+    tags: [""],
+    servings: 0,
+    description: "",
     ingredients: [
-      { amount: 1, unit: "kg", name: "mehligkochende Kartoffeln" },
-      { amount: 200, unit: "g", name: "Kartoffelstärke" },
-      { amount: 2, name: "Eier" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
+      { amount: 0, unit: "", name: " Kartoffeln" },
+      { amount: 0, unit: "", name: "" },
+      { amount: 0, name: "" },
+      { amount: undefined, unit: "", name: "" },
+      { amount: undefined, unit: "", name: "" }
     ],
     descriptionOnImage: "",
   introductionParagraph: "",
@@ -114,17 +114,13 @@ rating: 4.8,
     description: ""
   }],
 instructions: [
-      "Die Kartoffeln schälen, in große Stücke schneiden und in Salzwasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und mit einem Kartoffelstampfer zerdrücken.",
-      "Die Kartoffelstärke, Eier, Salz und Muskatnuss zu den gestampften Kartoffeln geben und alles zu einem glatten Teig verkneten.",
-      "Den Teig zu gleichmäßigen Klößen formen. Dabei darauf achten, dass die Klöße fest genug sind, um nicht auseinanderzufallen.",
-      "Einen großen Topf mit Salzwasser zum Kochen bringen. Die Klöße vorsichtig ins Wasser geben und bei mittlerer Hitze etwa 15–20 Minuten ziehen lassen, bis sie an die Oberfläche steigen.",
-      "Die Klöße mit einer Schaumkelle herausheben, abtropfen lassen und warm servieren."
+      ""
     ],
     nutrition: {
-      calories: 220,
-      protein: "4g",
-      carbs: "48g",
-      fat: "2g"
+      calories: 0,
+      protein: "",
+      carbs: "",
+      fat: ""
 },
  tips: [""],
   whyFavorite: {
@@ -277,842 +273,796 @@ instructions: [
   },
   {
     title: "Flammkuchen",
-    image: "/images/MainCourses/flammkuchen.webp",
-    prepTime: 30,
-cookingTime: 20,
-rating: 4.8,
-    category: "Hauptgerichte",
+    image: "/images/MainCourses/flammkuchen.webp",    
     slug: "flammkuchen",
-    tags: ["Traditionell", "Hauptgerichte", "Flammkuchen"],
-    servings: 4,
-    description: "Ein dünner, knuspriger Flammkuchen mit cremiger Basis, Zwiebeln und Käse – ein Klassiker aus der deutschen Küche.",
-    ingredients: [
-      { amount: 250, unit: "g", name: "Mehl" },
-      { amount: 125, unit: "ml", name: "Wasser" },
-      { amount: 2, unit: "EL", name: "Olivenöl" },
-      { amount: 1, unit: "Prise", name: "Salz" },
-      { amount: 200, unit: "g", name: "Crème fraîche" },
-      { amount: 2, unit: "", name: "Zwiebeln (dünn geschnitten)" },
-      { amount: 100, unit: "g", name: "Gruyère oder Emmentaler (gerieben)" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Den Backofen auf 250°C vorheizen. Ein Backblech mit Backpapier auslegen.",
-      "Für den Teig Mehl, Wasser, Olivenöl und Salz in einer Schüssel zu einem glatten Teig verkneten. Den Teig dünn ausrollen und auf das Backblech legen.",
-      "Die Crème fraîche gleichmäßig auf dem Teig verteilen. Mit Salz und Pfeffer würzen.",
-      "Die dünn geschnittenen Zwiebeln gleichmäßig auf der Crème fraîche verteilen. Den geriebenen Käse darüberstreuen.",
-      "Den Flammkuchen im vorgeheizten Ofen für 10–12 Minuten backen, bis der Rand knusprig und der Käse goldbraun ist.",
-      "Heiß servieren und genießen!"
-    ],
-    nutrition: {
-      calories: 350,
-      protein: "10g",
-      carbs: "40g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Käsespätzle",
     image: "/images/MainCourses/kaesespaetzle.webp",
-    prepTime: 45,
-cookingTime: 20,
-rating: 4.9,
-    category: "Hauptgerichte",
     slug: "kaesespaetzle",
-    tags: ["Traditionell", "Pasta", "Käse"],
-    servings: 4,
-    description: "Eine traditionelle deutsche Pasta-Art aus der Region Schwaben.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 2, name: "Eier" },
-      { amount: 100, unit: "ml", name: "Milch" },
-      { amount: 100, unit: "g", name: "Käse" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Das Mehl in eine große Schüssel geben. Die Eier und die Milch hinzufügen und alles zu einem glatten Teig verrühren. Mit Salz und Muskatnuss würzen.",
-      "Einen großen Topf mit Salzwasser zum Kochen bringen. Den Spätzleteig portionsweise durch ein Spätzlesieb oder einen Spätzlehobel ins kochende Wasser drücken.",
-      "Die Spätzle etwa 2–3 Minuten kochen, bis sie an die Oberfläche steigen. Anschließend mit einer Schaumkelle herausheben und abtropfen lassen.",
-      "Den Käse reiben. In einer Pfanne etwas Butter erhitzen und die Spätzle darin anbraten. Den geriebenen Käse hinzufügen und schmelzen lassen, bis alles gut vermengt ist.",
-      "Die Käsespätzle heiß servieren, eventuell mit gerösteten Zwiebeln bestreuen."
-    ],
-    nutrition: {
-      calories: 250,
-      protein: "10g",
-      carbs: "30g",
-      fat: "12g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Kartoffelpuffer",
     image: "/images/Miscellaneous/kartoffelpuffer.webp",
-    prepTime: 30,
-cookingTime: 20,
-rating: 4.8,
-    category: "Hauptgerichte",
     slug: "kartoffelpuffer",
-    tags: ["Traditionell", "Kartoffeln", "Snack"],
-    servings: 2,
-    description: "Ein leckerer Kartoffelpuffer als Snack oder Beilage.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Kartoffeln" },
-      { amount: 2, name: "Eier" },
-      { amount: 100, unit: "g", name: "Mehl" },
-      { amount: 100, unit: "ml", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Kartoffeln schälen und grob reiben. Die geriebenen Kartoffeln in ein sauberes Küchentuch geben und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
-      "Die Eier in einer Schüssel verquirlen. Das Mehl, die Milch, Salz und Muskatnuss hinzufügen und zu einem glatten Teig verrühren.",
-      "Die geriebenen Kartoffeln unter den Teig heben und alles gut vermengen.",
-      "In einer großen Pfanne reichlich Öl erhitzen. Portionsweise den Teig in die Pfanne geben und flach drücken. Die Puffer bei mittlerer Hitze von beiden Seiten goldbraun braten, etwa 3–4 Minuten pro Seite.",
-      "Die Kartoffelpuffer auf Küchenpapier abtropfen lassen und warm servieren, z. B. mit Apfelmus oder Sauerrahm."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "5g",
-      carbs: "20g",
-      fat: "10g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Semmelknödel",
-    image: "/images/Miscellaneous/semmelknoedel.webp",
-    prepTime: 40,
-cookingTime: 20,
-rating: 4.6,
-    category: "Hauptgerichte",
+    image: "/images/Miscellaneous/semmelknoedel.webp",    
     slug: "semmelknoedel",
-    tags: ["Traditionell", "Beilage", "Brot"],
-    servings: 4,
-    description: "Ein traditionelles deutsches Brotgebäck aus Kartoffeln und Mehl.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Kartoffeln" },
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 2, name: "Eier" },
-      { amount: 100, unit: "ml", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Kartoffeln schälen, in Stücke schneiden und in Salzwasser etwa 20 Minuten kochen, bis sie weich sind. Anschließend abgießen und mit einem Kartoffelstampfer zerdrücken.",
-      "Das Mehl, die Eier, die Milch, Salz und Muskatnuss zu den Kartoffeln geben und alles zu einem glatten Teig verkneten.",
-      "Aus dem Teig gleichmäßige Knödel formen. Dabei darauf achten, dass die Knödel fest genug sind, um nicht auseinanderzufallen.",
-      "Einen großen Topf mit Salzwasser zum Kochen bringen. Die Knödel vorsichtig ins Wasser geben und bei mittlerer Hitze etwa 15–20 Minuten ziehen lassen, bis sie an die Oberfläche steigen.",
-      "Die Knödel mit einer Schaumkelle herausheben, abtropfen lassen und warm servieren, z. B. mit Bratensauce oder Pilzrahm."
-    ],
-    nutrition: {
-      calories: 250,
-      protein: "5g",
-      carbs: "40g",
-      fat: "2g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Pilzgulasch",
-    image: "/images/Miscellaneous/pilzgulasch.webp",
-    prepTime: 45,
-cookingTime: 20,
-rating: 4.7,
-    category: "Hauptgerichte",
+    image: "/images/Miscellaneous/pilzgulasch.webp",    
     slug: "pilzgulasch",
-    tags: ["Traditionell", "Pilze", "Hauptgericht"],
-    servings: 4,
-    description: "Ein leckerer Pilzsuppe aus verschiedenen Pilzen.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Pilze" },
-      { amount: 1, name: "Zwiebel" },
-      { amount: 2, name: "Knoblauchzehen" },
-      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Pilze putzen, waschen und in grobe Stücke schneiden. Die Zwiebel und den Knoblauch schälen und fein hacken.",
-      "In einem großen Topf etwas Öl erhitzen. Die Zwiebel und den Knoblauch darin glasig dünsten.",
-      "Die Pilze zugeben und etwa 5 Minuten mitbraten, bis sie Flüssigkeit abgeben und leicht gebräunt sind.",
-      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und das Gulasch etwa 30 Minuten köcheln lassen, bis die Pilze weich sind und die Sauce leicht eingedickt ist.",
-      "Mit Salz und Pfeffer abschmecken und das Pilzgulasch heiß servieren, z. B. mit Semmelknödeln oder Reis."
-    ],
-    nutrition: {
-      calories: 150,
-      protein: "5g",
-      carbs: "10g",
-      fat: "5g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Gemüsestrudel",
-    image: "/images/Miscellaneous/gemuesestrudel.webp",
-    prepTime: 75,
-    cookingTime: 20,
-    rating: 4.7,
-    category: "Hauptgerichte",
+    image: "/images/Miscellaneous/gemuesestrudel.webp",    
     slug: "gemuese-strudel",
-    tags: ["Traditionell", "Gebäck", "Gemüse"],
-    servings: 6,
-    description: "Ein traditionelles deutsches Gebäck aus verschiedenen Gemüsen.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 100, unit: "g", name: "Butter" },
-      { amount: 100, unit: "g", name: "Zucker" },
-      { amount: 1, name: "Ei" },
-      { amount: 100, unit: "g", name: "Gemüse" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei, den Zucker, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
-      "Das Gemüse waschen, schneiden und in einer Pfanne mit etwas Öl kurz anbraten. Mit Salz und Pfeffer würzen und abkühlen lassen.",
-      "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Das Gemüse gleichmäßig auf dem Teig verteilen, dabei einen Rand von ca. 2 cm frei lassen.",
-      "Den Teig vorsichtig von einer Seite aufrollen und die Enden gut verschließen. Den Strudel auf ein mit Backpapier ausgelegtes Backblech legen.",
-      "Den Backofen auf 180°C vorheizen. Den Strudel mit etwas verquirltem Ei bestreichen und etwa 30–35 Minuten backen, bis er goldbraun ist. Warm servieren."
-    ],
-    nutrition: {
-      calories: 300,
-      protein: "5g",
-      carbs: "40g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Grießnockerl",
-    image: "/images/Miscellaneous/griessNockerl.webp",
-    prepTime: 35,
-cookingTime: 20,
-rating: 4.6,
-    category: "Suppen",
+    image: "/images/Miscellaneous/griessNockerl.webp",    
     slug: "griessnockerl",
-    tags: ["Traditionell", "Suppe", "Beilage"],
-    servings: 4,
-    description: "Eine traditionelle deutsche Suppe aus Grießnocken.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Grießnocken" },
-      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
-      { amount: 1, name: "Zwiebel" },
-      { amount: 1, name: "Knoblauchzehe" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Zwiebel und den Knoblauch schälen und fein hacken. In einem Topf etwas Öl erhitzen und die Zwiebel sowie den Knoblauch glasig dünsten.",
-      "Die Gemüsebrühe hinzufügen und zum Kochen bringen. Die Grießnocken langsam unter Rühren in die Brühe geben und etwa 10 Minuten köcheln lassen, bis sie weich sind.",
-      "Mit Salz und Pfeffer abschmecken. Die Suppe heiß servieren, eventuell mit frischen Kräutern garnieren."
-    ],
-    nutrition: {
-      calories: 150,
-      protein: "5g",
-      carbs: "30g",
-      fat: "2g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Spinatknödel",
-    image: "/images/Miscellaneous/spinatknoedel.webp",
-    prepTime: 55,
-cookingTime: 20,
-rating: 4.8,
-    category: "Hauptgerichte",
+    image: "/images/Miscellaneous/spinatknoedel.webp",    
     slug: "spinatknoedel",
-    tags: ["Traditionell", "Spinat", "Knödel"],
-    servings: 4,
-    description: "Eine traditionelle deutsche Knödel aus Spinat.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Spinat" },
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 2, name: "Eier" },
-      { amount: 100, unit: "ml", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Den Spinat waschen, abtropfen lassen und in einem Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
-      "Das Mehl in eine Schüssel geben. Die Eier, Milch, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig verrühren.",
-      "Den Spinat fein hacken und unter den Teig heben. Alles gut vermengen, bis eine homogene Masse entsteht.",
-      "Aus dem Teig gleichmäßige Knödel formen. Dabei darauf achten, dass die Knödel fest genug sind, um nicht auseinanderzufallen.",
-      "Einen großen Topf mit Salzwasser zum Kochen bringen. Die Knödel vorsichtig ins Wasser geben und bei mittlerer Hitze etwa 15–20 Minuten ziehen lassen, bis sie an die Oberfläche steigen.",
-      "Die Knödel mit einer Schaumkelle herausheben, abtropfen lassen und warm servieren, z. B. mit Bratensauce oder Butter."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "10g",
-      carbs: "30g",
-      fat: "5g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Gemüsesuppe",
-    image: "/images/Soups/gemuesesuppe.webp",
-    prepTime: 40,
-cookingTime: 20,
-rating: 4.5,
-    category: "Suppen",
+    image: "/images/Soups/gemuesesuppe.webp",    
     slug: "gemuesesuppe",
-    tags: ["Traditionell", "Suppe", "Gemüse"],
-    servings: 4,
-    description: "Eine einfache und leckere Gemüsesuppe.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Gemüse" },
-      { amount: 1, unit: "Liter", name: "Gemüsebrühe" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
+    category: "",
+    prepTime: 0,
+    cookingTime: 0,
+    rating: 0,
+        tags: [""],
+        servings: 0,
+        description: "",
+        ingredients: [
+          { amount: 0, unit: "", name: " Kartoffeln" },
+          { amount: 0, unit: "", name: "" },
+          { amount: 0, name: "" },
+          { amount: undefined, unit: "", name: "" },
+          { amount: undefined, unit: "", name: "" }
+        ],
+        descriptionOnImage: "",
+      introductionParagraph: "",
+      additionalParagraph: "",
+      ingredientsNeeded: [{
+        title: "",
+        description: ""
+      }],
+    instructions: [
+          ""
+        ],
+        nutrition: {
+          calories: 0,
+          protein: "",
+          carbs: "",
+          fat: ""
+    },
+     tips: [""],
+      whyFavorite: {
+        title: "",
+        reasons: [{
+          title: "",
+          description: "",
+        }]
+      },
+      handwrittenMessage: {
+        mainText: "",
+        subText: "",
+        signature: ""
+      },
+      ingredientGroups: [{
+        title: "",
+        description: "",
+        ingredients: [{
+          amount: "",
+          unit: "",
+          name: ""
+        }]
+      }],
+      steps: [
+    {
+        title: "",
+        description: ""
+      }
     ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Das Gemüse waschen, schälen und in gleichmäßige Stücke schneiden. Je nach Gemüseart (z. B. Karotten, Sellerie, Lauch) die Garzeit anpassen.",
-      "In einem großen Topf etwas Öl erhitzen. Das Gemüse darin etwa 5 Minuten anbraten, bis es leicht Farbe annimmt.",
-      "Die Gemüsebrühe hinzufügen und alles zum Kochen bringen. Die Hitze reduzieren und die Suppe etwa 30 Minuten köcheln lassen, bis das Gemüse weich ist.",
-      "Mit Salz und Pfeffer abschmecken. Die Suppe heiß servieren, eventuell mit frischen Kräutern oder einem Schuss Sahne verfeinern."
-    ],
-    nutrition: {
-      calories: 100,
-      protein: "2g",
-      carbs: "10g",
-      fat: "1g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+      servingSuggestion: "",
+      servingSuggestions: {
+        title: "",
+        description: "",
+        note: "",
+        items: [{
+          emoji: "",
+          title: "",
+          description: ""
+        }]
+      },
+      funFact: {
+        title: "",
+        description: ""
+      },
+      images: {
+        imageIngredient: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+        image5: "",
+        image6: "",
+        image7: "" 
+      }
+      },
   {
     title: "Kartoffelgratin",
     image: "/images/MainCourses/kartoffelgratin.webp",
