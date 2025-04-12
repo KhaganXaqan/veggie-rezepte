@@ -769,7 +769,7 @@ export const recipes: Recipe[] = [
     "seo_keywords": [
       "kartoffelklöße vegetarisch",
       "gefüllte kartoffelklöße vegetarisch",
-      "kartoffelklöße vegetarisch rezept",      
+      "kartoffelklöße vegetarisch rezept",
       "rezept kartoffelklöße",
       "Vegetarische Kartoffelklöße Rezept",
       "omas kartoffelklöße halb und halb",
@@ -3305,7 +3305,7 @@ export const recipes: Recipe[] = [
       "image6": "/images/MainCourses/linsen-bolognese6.webp",
       "image7": "/images/MainCourses/linsen-bolognese7.webp"
     }
-  },  
+  },
   {
     "title": "Dubai Schokolade: Ein Exotischer Genuss mit Milchschokolade",
     "seo_title": "Dubai Schokolade Rezept – Exotische Schokoladenkreation für Vegetarier",
@@ -4142,209 +4142,209 @@ export const recipes: Recipe[] = [
     }
   },
   {
-        "title": "Einfache Süßkartoffel-Kokos-Suppe",
-        "seo_title": "Einfache Süßkartoffel-Kokos-Suppe mit Kokosmilch",
-        "image": "/images/Soups/suesskartoffelKokosSuppe.webp",
-        "prepTime": 20,
-        "cookingTime": 30,
-        "seo_keywords": [
-          "Süßkartoffel-Kokos-Suppe Einfach",
-          "Süßkartoffel-Kokos-Suppe",
-          "Süßkartoffel Kokos Suppe",
-          "Süßkartoffelsuppe Kokosmilch",
-          "Süßkartoffelsuppe mit Kokosmilch",
-          "Einfache Süßkartoffelsuppe mit Kokosmilch",
-           "rezept süßkartoffel kokos suppe",
-           "süßkartoffel kokos suppe essen und trinken",
-           "süßkartoffel kokos suppe eat smarter"
-        ],
-        "rating": 4.8,
-        "reviews": 1280,
-        "category": "Suppen",
-        "slug": "suesskartoffel-kokos-suppe",
-        "tags": ["Süßkartoffel-Kokos-Suppe", "Süßkartoffelsuppe", "Kokosmilch", "Einfach", "Rezept", "Vegan", "Suppe"],
-        "createdDate": new Date("2025-03-25T00:00:00.000Z"),
-        "updatedDate": new Date("2025-04-10T00:00:00.000Z"),
-        "servings": 5,
-        "description": "Ein einfaches Rezept für eine cremige Süßkartoffel-Kokos-Suppe. Diese Süßkartoffelsuppe mit Kokosmilch gelingt leicht und schmeckt unglaublich lecker!",
-        "descriptionOnImage": "Cremige Süßkartoffel-Kokos-Suppe mit einem Hauch von Limette und frischem Koriander – ein exotisches Geschmackserlebnis, das die Aromen Asiens auf den Teller bringt.",
-        "introductionParagraph": "Entdecke unser bestes Rezept für Süßkartoffel Kokos Suppe! Dieses Gericht vereint die natürliche Süße der Süßkartoffel mit der samtigen Cremigkeit von Kokosmilch und einem Hauch exotischer Gewürze. Du suchst eine Süßkartoffel-Kokos-Suppe, die einfach zuzubereiten ist? Perfekt! Unser Rezept ist unkompliziert und sowohl für Kochanfänger als auch erfahrene Köche geeignet. Diese Süßkartoffelsuppe mit Kokosmilch wärmt von innen und ist ideal für kühle Tage. Sie ist nicht nur lecker, sondern auch nahrhaft und vegan. Probiere diese einfache Süßkartoffelsuppe mit Kokosmilch aus und lass dich begeistern!",
-        "additionalParagraph": "Das Besondere an dieser Süßkartoffel-Kokos-Suppe ist ihre wunderbare Balance aus süßen und würzigen Noten, abgerundet durch die frische Säure der Limette. Sie ist ein tolles Hauptgericht, kann aber auch als Vorspeise serviert werden. Ob du ein schnelles Mittagessen oder ein gemütliches Abendessen planst, diese Süßkartoffelsuppe Kokosmilch passt immer. Verfeinere sie nach Belieben mit Toppings wie gerösteten Kokoschips, Kürbiskernen oder einem Klecks Chilipaste für mehr Schärfe. Mit diesem Rezept gelingt dir eine Süßkartoffel-Kokos-Suppe, einfach und köstlich!",
-        "ingredientsNeeded": [
-          {
-            "title": "Süßkartoffeln",
-            "description": "Die Basis dieser Süßkartoffel-Kokos-Suppe. Sie verleihen der Suppe ihre Süße und cremige Textur."
-          },
-          {
-            "title": "Kokosmilch",
-            "description": "Sie sorgt für die cremige Konsistenz und den exotischen Geschmack der Süßkartoffel-Kokos-Suppe."
-          },
-          {
-            "title": "Zwiebeln und Knoblauch",
-            "description": "Die aromatische Grundlage für jede gute Süßkartoffel-Kokos-Suppe. Sie werden langsam angeschwitzt, um ihre Süße und ihr Aroma zu entfalten."
-          },
-          {
-            "title": "Gemüsebrühe",
-            "description": "Sie bildet die flüssige Grundlage der Süßkartoffel-Kokos-Suppe und verleiht ihr zusätzliche Tiefe und Geschmack."
-          },
-          {
-            "title": "Gewürze",
-            "description": "Ingwer, Currypulver und Limettensaft verleihen der Süßkartoffel-Kokos-Suppe ihren charakteristischen asiatischen Geschmack."
-          },
-          {
-            "title": "Koriander",
-            "description": "Frischer Koriander sorgt für eine frische, aromatische Note in der Süßkartoffel-Kokos-Suppe."
-          }
-        ],
-        "ingredientGroups": [
-          {
-            "title": "Die Basis der Süßkartoffel-Kokos-Suppe",
-            "description": "Die Grundlage für eine cremige, exotische Süßkartoffel-Kokos-Suppe:",
-            "ingredients": [
-              { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
-              { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-              { "amount": 1, "unit": "", "name": "Zwiebel" },
-              { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
-              { "amount": 1, "unit": "l", "name": "Gemüsebrühe" }
-            ]
-          },
-          {
-            "title": "Die Aromen der Süßkartoffel-Kokos-Suppe",
-            "description": "Die Zutaten, die der Süßkartoffel-Kokos-Suppe ihren unverwechselbaren, asiatischen Geschmack verleihen:",
-            "ingredients": [
-              { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
-              { "amount": 2, "unit": "TL", "name": "Currypulver" },
-              { "amount": 2, "unit": "EL", "name": "Limettensaft" },
-              { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
-            ]
-          }
-        ],
-        "ingredients": [
-          { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
-          { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-          { "amount": 1, "unit": "", "name": "Zwiebel" },
-          { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
-          { "amount": 1, "unit": "l", "name": "Gemüsebrühe" },
-          { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
-          { "amount": 2, "unit": "TL", "name": "Currypulver" },
-          { "amount": 2, "unit": "EL", "name": "Limettensaft" },
-          { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
-        ],
-        "instructions": [
-          "Süßkartoffeln schälen und in grobe Würfel schneiden. Zwiebeln, Knoblauch und Ingwer fein hacken.",
-          "Zwiebeln, Knoblauch und Ingwer in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.",
-          "Süßkartoffelwürfel und Currypulver hinzufügen und kurz mitbraten. Mit Gemüsebrühe ablöschen und ca. 20 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.",
-          "Suppe mit einem Stabmixer fein pürieren. Kokosmilch und Limettensaft hinzufügen und mit Salz und Pfeffer abschmecken.",
-          "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
-        ],
-        "nutrition": {
-          "calories": 1551,
-          "protein": "25.5g",
-          "carbs": "205.2g",
-          "fat": "74,6g"
-        },
-        "tips": [
-          "Für eine intensivere Geschmacksnote können Sie gerösteten Ingwer oder Knoblauch hinzufügen.",
-          "Verwenden Sie Kokosmilch mit hohem Fettgehalt für eine besonders cremige Konsistenz.",
-          "Experimentieren Sie mit verschiedenen Gewürzen wie Chili oder Kreuzkümmel, um die Süßkartoffel-Kokos-Suppe zu variieren.",
-          "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft."
-        ],
-        "whyFavorite": {
-          "title": "Warum diese Süßkartoffel-Kokos-Suppe mein Herz erobert",
-          "reasons": [
-            {
-              "title": "Exotische Aromen",
-              "description": "Die Kombination aus Süßkartoffel, Kokosmilch und asiatischen Gewürzen ist ein wahrer Genuss für die Sinne."
-            },
-            {
-              "title": "Cremige Textur",
-              "description": "Die Süßkartoffel-Kokos-Suppe ist unglaublich cremig und samtig, ein wahrer Genuss für den Gaumen."
-            },
-            {
-              "title": "Einfache Zubereitung",
-              "description": "Dieses Rezept für Süßkartoffel-Kokos-Suppe ist einfach und unkompliziert nachzukochen."
-            },
-            {
-              "title": "Vielseitig",
-              "description": "Die Süßkartoffel-Kokos-Suppe lässt sich leicht an individuelle Vorlieben anpassen und mit verschiedenen Beilagen kombinieren."
-            }
-          ]
-        },
-        "handwrittenMessage": {
-          "mainText": "Lassen Sie sich von den exotischen Aromen dieser Süßkartoffel-Kokos-Suppe verzaubern – ein Gericht, das die Sinne weckt und die Seele wärmt!",
-          "subText": "Ich bin sicher, diese Süßkartoffel-Kokos-Suppe wird Ihre Gäste begeistern und Sie in eine Welt des asiatischen Genusses entführen...",
-          "signature": "Dein Veggie-Rezepte Team"
-        },
-        "steps": [
-          {
-            "title": "Schritt 1: Das Gemüse Vorbereiten",
-            "description": "Süßkartoffeln, Zwiebeln, Knoblauch und Ingwer vorbereiten, um die Grundlage für die Süßkartoffel-Kokos-Suppe zu schaffen."
-          },
-          {
-            "title": "Schritt 2: Die Aromen Anbraten",
-            "description": "Zwiebeln, Knoblauch und Ingwer anschwitzen, um die aromatische Basis für die Süßkartoffel-Kokos-Suppe zu schaffen."
-          },
-          {
-            "title": "Schritt 3: Die Süßkartoffel-Kokos-Suppe Kochen",
-            "description": "Süßkartoffeln, Currypulver und Gemüsebrühe hinzufügen und köcheln lassen, bis die Süßkartoffeln weich sind."
-          },
-          {
-            "title": "Schritt 4: Die Süßkartoffel-Kokos-Suppe Pürieren",
-            "description": "Süßkartoffel-Kokos-Suppe pürieren und mit Kokosmilch und Limettensaft verfeinern."
-          },
-          {
-            "title": "Schritt 5: Das Servieren",
-            "description": "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
-          }
-        ],
-        "servingSuggestion": "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft, um die asiatischen Aromen zu unterstreichen.",
-        "servingSuggestions": {
-          "title": "Globale Süßkartoffel-Pairings",
-          "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Süßkartoffel-Kokos-Suppe:",
-          "note": "Diese Ideen zeigen, wie vielseitig Süßkartoffeln sein können und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
-          "items": [
-            {
-              "emoji": "🍛",
-              "title": "Indisches Süßkartoffel-Curry",
-              "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in ein indisches Süßkartoffel-Curry mit Reis und Naan-Brot."
-            },
-            {
-              "emoji": "🌮",
-              "title": "Mexikanische Süßkartoffel-Tacos",
-              "description": "Verwenden Sie die Süßkartoffel-Kokos-Suppe als Füllung für mexikanische Süßkartoffel-Tacos mit Avocado und Salsa."
-            },
-            {
-              "emoji": "🍲",
-              "title": "Afrikanischer Süßkartoffel-Eintopf",
-              "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe als Basis für einen afrikanischen Süßkartoffel-Eintopf mit Erdnüssen und Spinat."
-            },
-            {
-              "emoji": "🍜",
-              "title": "Thailändische Süßkartoffel-Nudelsuppe",
-              "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in eine thailändische Nudelsuppe mit Reisnudeln und Gemüse."
-            },
-            {
-              "emoji": "🥗",
-              "title": "Karibischer Süßkartoffel-Salat",
-              "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe kalt als Basis für einen karibischen Süßkartoffel-Salat mit Mango und schwarzen Bohnen."
-            }
-          ]
-        },
-        "funFact": {
-          "title": "Fun Fact: Süßkartoffel-Vielfalt",
-          "description": "Wussten Sie, dass Süßkartoffeln nicht mit Kartoffeln verwandt sind? Sie gehören zur Familie der Windengewächse und sind reich an Vitaminen und Mineralstoffen. Unsere Süßkartoffel-Kokos-Suppe ist eine Hommage an die Vielseitigkeit der Süßkartoffel und zeigt, wie vielfältig und schmackhaft sie sein kann!"
-        },
-        "images": {
-          "imageIngredient": "/images/Ingredients/suesskartoffelKokosSuppeIngredient.webp",
-          "image1": "/images/Soups/suesskartoffelKokosSuppe1.webp",
-          "image2": "/images/Soups/suesskartoffelKokosSuppe2.webp",
-          "image3": "/images/Soups/suesskartoffelKokosSuppe3.webp",
-          "image4": "/images/Soups/suesskartoffelKokosSuppe4.webp",
-          "image5": "/images/Soups/suesskartoffelKokosSuppe5.webp",
-          "image6": "/images/Soups/suesskartoffelKokosSuppe6.webp",
-          "image7": "/images/Soups/suesskartoffelKokosSuppe7.webp"
-        }
+    "title": "Einfache Süßkartoffel-Kokos-Suppe",
+    "seo_title": "Einfache Süßkartoffel-Kokos-Suppe mit Kokosmilch",
+    "image": "/images/Soups/suesskartoffelKokosSuppe.webp",
+    "prepTime": 20,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Süßkartoffel-Kokos-Suppe Einfach",
+      "Süßkartoffel-Kokos-Suppe",
+      "Süßkartoffel Kokos Suppe",
+      "Süßkartoffelsuppe Kokosmilch",
+      "Süßkartoffelsuppe mit Kokosmilch",
+      "Einfache Süßkartoffelsuppe mit Kokosmilch",
+      "rezept süßkartoffel kokos suppe",
+      "süßkartoffel kokos suppe essen und trinken",
+      "süßkartoffel kokos suppe eat smarter"
+    ],
+    "rating": 4.8,
+    "reviews": 1280,
+    "category": "Suppen",
+    "slug": "suesskartoffel-kokos-suppe",
+    "tags": ["Süßkartoffel-Kokos-Suppe", "Süßkartoffelsuppe", "Kokosmilch", "Einfach", "Rezept", "Vegan", "Suppe"],
+    "createdDate": new Date("2025-03-25T00:00:00.000Z"),
+    "updatedDate": new Date("2025-04-10T00:00:00.000Z"),
+    "servings": 5,
+    "description": "Ein einfaches Rezept für eine cremige Süßkartoffel-Kokos-Suppe. Diese Süßkartoffelsuppe mit Kokosmilch gelingt leicht und schmeckt unglaublich lecker!",
+    "descriptionOnImage": "Cremige Süßkartoffel-Kokos-Suppe mit einem Hauch von Limette und frischem Koriander – ein exotisches Geschmackserlebnis, das die Aromen Asiens auf den Teller bringt.",
+    "introductionParagraph": "Entdecke unser bestes Rezept für Süßkartoffel Kokos Suppe! Dieses Gericht vereint die natürliche Süße der Süßkartoffel mit der samtigen Cremigkeit von Kokosmilch und einem Hauch exotischer Gewürze. Du suchst eine Süßkartoffel-Kokos-Suppe, die einfach zuzubereiten ist? Perfekt! Unser Rezept ist unkompliziert und sowohl für Kochanfänger als auch erfahrene Köche geeignet. Diese Süßkartoffelsuppe mit Kokosmilch wärmt von innen und ist ideal für kühle Tage. Sie ist nicht nur lecker, sondern auch nahrhaft und vegan. Probiere diese einfache Süßkartoffelsuppe mit Kokosmilch aus und lass dich begeistern!",
+    "additionalParagraph": "Das Besondere an dieser Süßkartoffel-Kokos-Suppe ist ihre wunderbare Balance aus süßen und würzigen Noten, abgerundet durch die frische Säure der Limette. Sie ist ein tolles Hauptgericht, kann aber auch als Vorspeise serviert werden. Ob du ein schnelles Mittagessen oder ein gemütliches Abendessen planst, diese Süßkartoffelsuppe Kokosmilch passt immer. Verfeinere sie nach Belieben mit Toppings wie gerösteten Kokoschips, Kürbiskernen oder einem Klecks Chilipaste für mehr Schärfe. Mit diesem Rezept gelingt dir eine Süßkartoffel-Kokos-Suppe, einfach und köstlich!",
+    "ingredientsNeeded": [
+      {
+        "title": "Süßkartoffeln",
+        "description": "Die Basis dieser Süßkartoffel-Kokos-Suppe. Sie verleihen der Suppe ihre Süße und cremige Textur."
+      },
+      {
+        "title": "Kokosmilch",
+        "description": "Sie sorgt für die cremige Konsistenz und den exotischen Geschmack der Süßkartoffel-Kokos-Suppe."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Die aromatische Grundlage für jede gute Süßkartoffel-Kokos-Suppe. Sie werden langsam angeschwitzt, um ihre Süße und ihr Aroma zu entfalten."
+      },
+      {
+        "title": "Gemüsebrühe",
+        "description": "Sie bildet die flüssige Grundlage der Süßkartoffel-Kokos-Suppe und verleiht ihr zusätzliche Tiefe und Geschmack."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Ingwer, Currypulver und Limettensaft verleihen der Süßkartoffel-Kokos-Suppe ihren charakteristischen asiatischen Geschmack."
+      },
+      {
+        "title": "Koriander",
+        "description": "Frischer Koriander sorgt für eine frische, aromatische Note in der Süßkartoffel-Kokos-Suppe."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Süßkartoffel-Kokos-Suppe",
+        "description": "Die Grundlage für eine cremige, exotische Süßkartoffel-Kokos-Suppe:",
+        "ingredients": [
+          { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
+          { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+          { "amount": 1, "unit": "", "name": "Zwiebel" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+          { "amount": 1, "unit": "l", "name": "Gemüsebrühe" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Süßkartoffel-Kokos-Suppe",
+        "description": "Die Zutaten, die der Süßkartoffel-Kokos-Suppe ihren unverwechselbaren, asiatischen Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
+          { "amount": 2, "unit": "TL", "name": "Currypulver" },
+          { "amount": 2, "unit": "EL", "name": "Limettensaft" },
+          { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
+      { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "l", "name": "Gemüsebrühe" },
+      { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
+      { "amount": 2, "unit": "TL", "name": "Currypulver" },
+      { "amount": 2, "unit": "EL", "name": "Limettensaft" },
+      { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
+    ],
+    "instructions": [
+      "Süßkartoffeln schälen und in grobe Würfel schneiden. Zwiebeln, Knoblauch und Ingwer fein hacken.",
+      "Zwiebeln, Knoblauch und Ingwer in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.",
+      "Süßkartoffelwürfel und Currypulver hinzufügen und kurz mitbraten. Mit Gemüsebrühe ablöschen und ca. 20 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.",
+      "Suppe mit einem Stabmixer fein pürieren. Kokosmilch und Limettensaft hinzufügen und mit Salz und Pfeffer abschmecken.",
+      "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
+    ],
+    "nutrition": {
+      "calories": 1551,
+      "protein": "25.5g",
+      "carbs": "205.2g",
+      "fat": "74,6g"
     },
+    "tips": [
+      "Für eine intensivere Geschmacksnote können Sie gerösteten Ingwer oder Knoblauch hinzufügen.",
+      "Verwenden Sie Kokosmilch mit hohem Fettgehalt für eine besonders cremige Konsistenz.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Chili oder Kreuzkümmel, um die Süßkartoffel-Kokos-Suppe zu variieren.",
+      "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Süßkartoffel-Kokos-Suppe mein Herz erobert",
+      "reasons": [
+        {
+          "title": "Exotische Aromen",
+          "description": "Die Kombination aus Süßkartoffel, Kokosmilch und asiatischen Gewürzen ist ein wahrer Genuss für die Sinne."
+        },
+        {
+          "title": "Cremige Textur",
+          "description": "Die Süßkartoffel-Kokos-Suppe ist unglaublich cremig und samtig, ein wahrer Genuss für den Gaumen."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Rezept für Süßkartoffel-Kokos-Suppe ist einfach und unkompliziert nachzukochen."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Die Süßkartoffel-Kokos-Suppe lässt sich leicht an individuelle Vorlieben anpassen und mit verschiedenen Beilagen kombinieren."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von den exotischen Aromen dieser Süßkartoffel-Kokos-Suppe verzaubern – ein Gericht, das die Sinne weckt und die Seele wärmt!",
+      "subText": "Ich bin sicher, diese Süßkartoffel-Kokos-Suppe wird Ihre Gäste begeistern und Sie in eine Welt des asiatischen Genusses entführen...",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Das Gemüse Vorbereiten",
+        "description": "Süßkartoffeln, Zwiebeln, Knoblauch und Ingwer vorbereiten, um die Grundlage für die Süßkartoffel-Kokos-Suppe zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Anbraten",
+        "description": "Zwiebeln, Knoblauch und Ingwer anschwitzen, um die aromatische Basis für die Süßkartoffel-Kokos-Suppe zu schaffen."
+      },
+      {
+        "title": "Schritt 3: Die Süßkartoffel-Kokos-Suppe Kochen",
+        "description": "Süßkartoffeln, Currypulver und Gemüsebrühe hinzufügen und köcheln lassen, bis die Süßkartoffeln weich sind."
+      },
+      {
+        "title": "Schritt 4: Die Süßkartoffel-Kokos-Suppe Pürieren",
+        "description": "Süßkartoffel-Kokos-Suppe pürieren und mit Kokosmilch und Limettensaft verfeinern."
+      },
+      {
+        "title": "Schritt 5: Das Servieren",
+        "description": "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft, um die asiatischen Aromen zu unterstreichen.",
+    "servingSuggestions": {
+      "title": "Globale Süßkartoffel-Pairings",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Süßkartoffel-Kokos-Suppe:",
+      "note": "Diese Ideen zeigen, wie vielseitig Süßkartoffeln sein können und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
+      "items": [
+        {
+          "emoji": "🍛",
+          "title": "Indisches Süßkartoffel-Curry",
+          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in ein indisches Süßkartoffel-Curry mit Reis und Naan-Brot."
+        },
+        {
+          "emoji": "🌮",
+          "title": "Mexikanische Süßkartoffel-Tacos",
+          "description": "Verwenden Sie die Süßkartoffel-Kokos-Suppe als Füllung für mexikanische Süßkartoffel-Tacos mit Avocado und Salsa."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Afrikanischer Süßkartoffel-Eintopf",
+          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe als Basis für einen afrikanischen Süßkartoffel-Eintopf mit Erdnüssen und Spinat."
+        },
+        {
+          "emoji": "🍜",
+          "title": "Thailändische Süßkartoffel-Nudelsuppe",
+          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in eine thailändische Nudelsuppe mit Reisnudeln und Gemüse."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Karibischer Süßkartoffel-Salat",
+          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe kalt als Basis für einen karibischen Süßkartoffel-Salat mit Mango und schwarzen Bohnen."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Süßkartoffel-Vielfalt",
+      "description": "Wussten Sie, dass Süßkartoffeln nicht mit Kartoffeln verwandt sind? Sie gehören zur Familie der Windengewächse und sind reich an Vitaminen und Mineralstoffen. Unsere Süßkartoffel-Kokos-Suppe ist eine Hommage an die Vielseitigkeit der Süßkartoffel und zeigt, wie vielfältig und schmackhaft sie sein kann!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/suesskartoffelKokosSuppeIngredient.webp",
+      "image1": "/images/Soups/suesskartoffelKokosSuppe1.webp",
+      "image2": "/images/Soups/suesskartoffelKokosSuppe2.webp",
+      "image3": "/images/Soups/suesskartoffelKokosSuppe3.webp",
+      "image4": "/images/Soups/suesskartoffelKokosSuppe4.webp",
+      "image5": "/images/Soups/suesskartoffelKokosSuppe5.webp",
+      "image6": "/images/Soups/suesskartoffelKokosSuppe6.webp",
+      "image7": "/images/Soups/suesskartoffelKokosSuppe7.webp"
+    }
+  },
   {
     "title": "Omas Grießnockerl: Ein Herzhaftes Suppen-Highlight",
     "seo_title": "Grießnockerl Rezept Oma – Luftig-Leichte Nockerl",
@@ -4586,8 +4586,8 @@ export const recipes: Recipe[] = [
         "description": "Ein einfaches, aber geniales Dressing aus gutem Olivenöl, frisch gepresstem Zitronensaft, Salz, Pfeffer und einer Prise Kreuzkümmel für die orientalische Note. Es verbindet alle Komponenten harmonisch."
       },
       {
-          "title": "Optional: Feta oder Kichererbsen",
-          "description": "Für mehr Sättigung und Protein können Kichererbsen hinzugefügt werden. Feta-Käse sorgt für eine leckere, salzig-cremige Komponente."
+        "title": "Optional: Feta oder Kichererbsen",
+        "description": "Für mehr Sättigung und Protein können Kichererbsen hinzugefügt werden. Feta-Käse sorgt für eine leckere, salzig-cremige Komponente."
       }
     ],
     "ingredientGroups": [
@@ -4777,7 +4777,7 @@ export const recipes: Recipe[] = [
       "Quinoa Salat Dressing"
     ],
     "rating": 4.9,
-    "reviews": 215,    
+    "reviews": 215,
     "category": "Salate",
     "slug": "bunter-quinoa-salat",
     "tags": ["Salat", "Gesund", "Quinoa"],
@@ -5024,7 +5024,7 @@ export const recipes: Recipe[] = [
     "description": "Einfaches Rezept für authentischen griechischen Bauernsalat (Horiatiki) wie im Urlaub! Frisch, knackig & voller Geschmack – in 15 Min fertig.",
     "descriptionOnImage": "Ein klassischer griechischer Bauernsalat mit Tomaten, Gurke, Oliven und einem großen Stück Feta.",
     "introductionParagraph": "Wenn ich die Augen schließe und an Urlaub denke, dann schmecke ich oft genau diesen Salat: den echten griechischen Bauernsalat, Horiatiki genannt. Er ist für mich der Inbegriff von Sommer, Sonne und Meer. Kennt ihr das Gefühl, in einer kleinen Taverne am Hafen zu sitzen, das Rauschen der Wellen im Ohr, und dann kommt diese Schale voller leuchtend roter Tomaten, knackiger Gurken, würziger Oliven und diesem herrlich cremigen Feta auf den Tisch? Genau dieses Gefühl möchte ich mit meinem Rezept zu euch nach Hause bringen! Das Geheimnis liegt in der Einfachheit und der Qualität der Zutaten. Keine Schnörkel, kein Blattsalat – nur das pure Aroma sonnengereifter Tomaten, das kräftige Olivenöl und der salzige Feta. Es ist ein Salat, der von seiner Frische lebt und der mich jedes Mal aufs Neue glücklich macht. Er ist so schnell zubereitet und doch so unglaublich befriedigend.",
-    "additionalParagraph": "Ich erinnere mich noch genau an meinen ersten Griechenland-Urlaub mit meiner Familie. Wir waren auf Kreta, und jeden Mittag gab es diesen Salat. Damals war ich überrascht, dass gar kein grüner Salat drin war, wie ich es aus Deutschland kannte. Aber ich habe schnell gelernt: Der *echte* Horiatiki braucht keinen Salat, er lebt von den kräftigen Aromen des Gemüses! Die Kombination aus süßen Tomaten, leicht bitteren Gurken, der salzigen Würze von Oliven und Feta und dem fruchtigen Olivenöl ist einfach perfekt ausbalanciert. Ein Hauch von Oregano rundet das Ganze ab und verleiht ihm diese typisch mediterrane Note. Für mich ist dieser Salat nicht nur ein Gericht, sondern eine kleine Zeitreise, ein Stück Urlaub auf dem Teller. Und das Beste: Man braucht wirklich nur eine Handvoll guter Zutaten, um sich dieses Gefühl nach Hause zu holen. Es ist ehrlich, rustikal und einfach nur köstlich – griechische Lebensfreude pur!",
+    "additionalParagraph": "Ich erinnere mich noch genau an meinen ersten Griechenland-Urlaub mit meiner Familie. Wir waren auf Kreta, und jeden Mittag gab es diesen Salat. Damals war ich überrascht, dass gar kein grüner Salat drin war, wie ich es aus Deutschland kannte. Aber ich habe schnell gelernt: Der echte Horiatiki braucht keinen Salat, er lebt von den kräftigen Aromen des Gemüses! Die Kombination aus süßen Tomaten, leicht bitteren Gurken, der salzigen Würze von Oliven und Feta und dem fruchtigen Olivenöl ist einfach perfekt ausbalanciert. Ein Hauch von Oregano rundet das Ganze ab und verleiht ihm diese typisch mediterrane Note. Für mich ist dieser Salat nicht nur ein Gericht, sondern eine kleine Zeitreise, ein Stück Urlaub auf dem Teller. Und das Beste: Man braucht wirklich nur eine Handvoll guter Zutaten, um sich dieses Gefühl nach Hause zu holen. Es ist ehrlich, rustikal und einfach nur köstlich – griechische Lebensfreude pur!",
     "ingredientsNeeded": [
       {
         "title": "Sonnengereifte Tomaten",
@@ -5189,7 +5189,7 @@ export const recipes: Recipe[] = [
           "emoji": "🥖",
           "title": "Frisches Weißbrot oder Pitabrot",
           "description": "Ein absolutes Muss, um den köstlichen Saft aus Olivenöl und Tomaten aufzutunken, der sich am Boden sammelt!"
-        },      
+        },
         {
           "emoji": "🥔",
           "title": "Ofenkartoffeln oder Rosmarinkartoffeln",
@@ -5222,687 +5222,958 @@ export const recipes: Recipe[] = [
       "image7": "/images/Salads/griechischer-bauernsalat7.webp"
     }
   },
-    {
-      "title": "Sonniger Mediterraner Nudelsalat mit Feta & Oliven",
-      "seo_title": "Bester Mediterraner Nudelsalat: Einfach, schnell & lecker",
-      "image": "/images/Salads/mediterraner-nudelsalat.webp",
-      "prepTime": 25,
-      "cookingTime": 10,
-      "seo_keywords": [
-        "Mediterraner Nudelsalat Rezept",
-        "Nudelsalat mit Feta",
-        "einfacher Nudelsalat",
-        "Nudelsalat zum Grillen",
-        "Nudelsalat mit Rucola",
-        "vegetarischer Nudelsalat",
-        "schneller Nudelsalat"
-      ],
-      "rating": 4.8,
-      "reviews": 312,
-      "category": "Salate",
-      "slug": "mediterraner-nudelsalat",
-      "tags": ["Salat", "Pasta", "Mediterran"],
-      "createdDate": new Date("2025-03-15T10:00:00Z"),
-      "updatedDate": new Date("2025-04-05T11:30:00Z"),
-      "servings": 6,
-      "description": "Der perfekte mediterrane Nudelsalat für Grillfeste & Buffets! Schnell gemacht, mit Feta, Oliven, Rucola & sonnengereiften Tomaten. Einfach köstlich!",
-      "descriptionOnImage": "Ein bunter, appetitlicher mediterraner Nudelsalat in einer großen Schüssel, bereit für die Party.",
-      "introductionParagraph": "Nudelsalat – allein das Wort weckt bei mir sofort Erinnerungen an Sommerfeste, Grillabende im Garten und gemütliche Picknicks im Park! Und wenn es ein Nudelsalat gibt, der wirklich *immer* gut ankommt und dieses unbeschwerte Sommergefühl perfekt einfängt, dann ist es dieser mediterrane Traum. Ich liebe es, wie die Aromen von sonnengereiften Tomaten, salzigem Feta, würzigen Oliven und frischem Basilikum sich hier vereinen. Es ist, als würde man eine kleine Reise ans Mittelmeer machen, direkt mit der Gabel! Die Zubereitung ist herrlich unkompliziert, was ihn zum idealen Kandidaten macht, wenn viele Gäste erwartet werden oder man einfach keine Lust hat, stundenlang in der Küche zu stehen. Er lässt sich wunderbar vorbereiten und schmeckt durchgezogen fast noch besser. Für mich ist dieser Salat nicht nur eine Beilage, er ist oft der heimliche Star auf dem Buffet – farbenfroh, sättigend und einfach unwiderstehlich lecker.",
-      "additionalParagraph": "Es gibt ja unzählige Nudelsalat-Varianten, aber diese mediterrane Version hat einen festen Platz in meinem Herzen (und meinem Rezeptbuch!). Was ihn so besonders macht, ist die Balance der Aromen und Texturen: die weichen Nudeln, das knackige Gemüse, der cremige Feta, die würzigen Oliven und das leicht pfeffrige Rucola, das dem Ganzen noch einen extra Frischekick gibt. Das Dressing halte ich bewusst einfach – ein gutes Olivenöl, etwas Balsamicoessig, Zitronensaft und Kräuter reichen völlig aus, um die Zutaten zu umschmeicheln, ohne sie zu überdecken. Ich mache oft gleich eine riesige Schüssel davon, denn erfahrungsgemäß ist er immer als Erstes leer. Und das Schöne ist: Man kann ihn super variieren! Mal kommen noch getrocknete Tomaten dazu, mal geröstete Pinienkerne oder auch ein paar Kapern. So wird es nie langweilig. Dieser Salat ist für mich pure Sommerküche – einfach, ehrlich und voller Geschmack!",
-      "ingredientsNeeded": [
-        {
-          "title": "Pasta",
-          "description": "Die Basis! Kurze Nudelsorten wie Fusilli, Penne oder Farfalle eignen sich am besten, da sie das Dressing und die kleinen Zutaten gut aufnehmen."
-        },
-        {
-          "title": "Cherrytomaten",
-          "description": "Bringen Süße, Saftigkeit und eine leuchtend rote Farbe. Halbieren oder vierteln, je nach Größe."
-        },
-        {
-          "title": "Salatgurke",
-          "description": "Sorgt für den erfrischenden, knackigen Biss. Am besten das Kerngehäuse entfernen, damit der Salat nicht zu wässrig wird."
-        },
-        {
-          "title": "Schwarze Oliven",
-          "description": "Unverzichtbar für das mediterrane Flair. Am besten Kalamata-Oliven oder andere gute, entsteinte schwarze Oliven verwenden."
-        },
-        {
-          "title": "Feta-Käse",
-          "description": "Gibt die typische salzig-würzige und cremige Note. Echter griechischer Feta aus Schafs- oder Ziegenmilch schmeckt am besten."
-        },
-        {
-          "title": "Rote Zwiebel",
-          "description": "Für eine milde Schärfe und Farbe. Wer es noch milder mag, kann sie vorher kurz in kaltem Wasser ziehen lassen."
-        },
-        {
-          "title": "Rucola",
-          "description": "Verleiht eine leicht pfeffrige, nussige Note und Frische. Erst kurz vor dem Servieren unterheben, damit er nicht zusammenfällt."
-        },
-        {
-          "title": "Frisches Basilikum",
-          "description": "Das ultimative mediterrane Kraut! Sorgt für ein herrliches Aroma. Nicht zu sparsam verwenden."
-        },
-        {
-            "title": "Einfaches Balsamico-Dressing",
-            "description": "Eine harmonische Mischung aus gutem Olivenöl, hellem Balsamicoessig (oder Rotweinessig), etwas Zitronensaft, Senf und Kräutern."
-        }
-      ],
-      "ingredientGroups": [
-        {
-          "title": "Für den Salat",
-          "description": "Alle frischen und bunten Zutaten, die den Nudelsalat zu einem mediterranen Genuss machen.",
-          "ingredients": [
-            { "amount": 500, "unit": "g", "name": "Nudeln (z.B. Fusilli, Penne)" },
-            { "amount": 300, "unit": "g", "name": "Cherrytomaten, halbiert" },
-            { "amount": 1, "unit": "", "name": "Salatgurke, entkernt und gewürfelt" },
-            { "amount": 150, "unit": "g", "name": "Schwarze Oliven, entsteint und halbiert" },
-            { "amount": 200, "unit": "g", "name": "Feta-Käse, gewürfelt oder zerbröckelt" },
-            { "amount": 1, "unit": "", "name": "Rote Zwiebel, in feinen Ringen oder Würfeln" },
-            { "amount": 100, "unit": "g", "name": "Rucola, gewaschen" },
-            { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum, Blätter gezupft und grob gehackt" }
-          ]
-        },
-        {
-          "title": "Für das Dressing",
-          "description": "Ein leichtes, aromatisches Dressing, das die mediterranen Aromen unterstreicht.",
-          "ingredients": [
-            { "amount": 8, "unit": "EL", "name": "Gutes Olivenöl Extra Vergine" },
-            { "amount": 4, "unit": "EL", "name": "Heller Balsamicoessig (oder Rotweinessig)" },
-            { "amount": 1, "unit": "EL", "name": "Zitronensaft, frisch gepresst" },
-            { "amount": 1, "unit": "TL", "name": "Mittelscharfer Senf" },
-            { "amount": 1, "unit": "TL", "name": "Agavendicksaft (optional, für die Balance)" },
-            { "amount": 1, "unit": "TL", "name": "Getrockneter Oregano" },
-            { "amount": 1, "unit": "Prise", "name": "Salz" },
-            { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
-          ]
-        }
-      ],
-      "ingredients": [
-        { "amount": 500, "unit": "g", "name": "Nudeln (z.B. Fusilli, Penne)" },
-        { "amount": 300, "unit": "g", "name": "Cherrytomaten, halbiert" },
-        { "amount": 1, "unit": "", "name": "Salatgurke, entkernt und gewürfelt" },
-        { "amount": 150, "unit": "g", "name": "Schwarze Oliven, entsteint und halbiert" },
-        { "amount": 200, "unit": "g", "name": "Feta-Käse, gewürfelt oder zerbröckelt" },
-        { "amount": 1, "unit": "", "name": "Rote Zwiebel, in feinen Ringen oder Würfeln" },
-        { "amount": 100, "unit": "g", "name": "Rucola, gewaschen" },
-        { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum, Blätter gezupft und grob gehackt" },
-        { "amount": 8, "unit": "EL", "name": "Gutes Olivenöl Extra Vergine" },
-        { "amount": 4, "unit": "EL", "name": "Heller Balsamicoessig (oder Rotweinessig)" },
-        { "amount": 1, "unit": "EL", "name": "Zitronensaft, frisch gepresst" },
-        { "amount": 1, "unit": "TL", "name": "Mittelscharfer Senf" },
-        { "amount": 1, "unit": "TL", "name": "Agavendicksaft (optional, für die Balance)" },
-        { "amount": 1, "unit": "TL", "name": "Getrockneter Oregano" },
-        { "amount": 1, "unit": "Prise", "name": "Salz" },
-        { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
-      ],
-      "instructions": [
-        "Die Nudeln nach Packungsanweisung in reichlich kochendem Salzwasser 'al dente' (bissfest) garen. Nicht zu weich kochen!",
-        "Während die Nudeln kochen, das Gemüse vorbereiten: Tomaten halbieren, Gurke würfeln, Oliven halbieren, Zwiebel in Ringe oder Würfel schneiden.",
-        "Für das Dressing alle Zutaten (Olivenöl, Essig, Zitronensaft, Senf, Oregano, Salz, Pfeffer) in einer großen Salatschüssel gut verquirlen.",
-        "Die Nudeln abgießen, kurz mit kaltem Wasser abschrecken (damit sie nicht weitergaren und kleben) und gut abtropfen lassen.",
-        "Die noch leicht warmen Nudeln direkt in die Schüssel zum Dressing geben und gut vermengen. So nehmen die Nudeln das Aroma am besten auf.",
-        "Tomaten, Gurke, Oliven und Zwiebel hinzufügen und vorsichtig unterheben.",
-        "Den Feta-Käse würfeln oder grob zerbröckeln und zusammen mit dem gehackten Basilikum unter den Salat mischen.",
-        "Den Salat mindestens 30 Minuten, besser noch 1-2 Stunden im Kühlschrank durchziehen lassen.",
-        "Kurz vor dem Servieren den gewaschenen Rucola vorsichtig unterheben.",
-        "Den mediterranen Nudelsalat nochmals abschmecken und eventuell nachwürzen."
-      ],
-      "nutrition": {
-        "calories": 2940,
-        "protein": "79g",
-        "carbs": "229g",
-        "fat": "198g"
+  {
+    "title": "Sonniger Mediterraner Nudelsalat mit Feta & Oliven",
+    "seo_title": "Bester Mediterraner Nudelsalat: Einfach, schnell & lecker",
+    "image": "/images/Salads/mediterraner-nudelsalat.webp",
+    "prepTime": 25,
+    "cookingTime": 10,
+    "seo_keywords": [
+      "Mediterraner Nudelsalat Rezept",
+      "Nudelsalat mit Feta",
+      "einfacher Nudelsalat",
+      "Nudelsalat zum Grillen",
+      "Nudelsalat mit Rucola",
+      "vegetarischer Nudelsalat",
+      "schneller Nudelsalat"
+    ],
+    "rating": 4.8,
+    "reviews": 312,
+    "category": "Salate",
+    "slug": "mediterraner-nudelsalat",
+    "tags": ["Salat", "Pasta", "Mediterran"],
+    "createdDate": new Date("2025-03-15T10:00:00Z"),
+    "updatedDate": new Date("2025-04-05T11:30:00Z"),
+    "servings": 6,
+    "description": "Der perfekte mediterrane Nudelsalat für Grillfeste & Buffets! Schnell gemacht, mit Feta, Oliven, Rucola & sonnengereiften Tomaten. Einfach köstlich!",
+    "descriptionOnImage": "Ein bunter, appetitlicher mediterraner Nudelsalat in einer großen Schüssel, bereit für die Party.",
+    "introductionParagraph": "Nudelsalat – allein das Wort weckt bei mir sofort Erinnerungen an Sommerfeste, Grillabende im Garten und gemütliche Picknicks im Park! Und wenn es ein Nudelsalat gibt, der wirklich immer gut ankommt und dieses unbeschwerte Sommergefühl perfekt einfängt, dann ist es dieser mediterrane Traum. Ich liebe es, wie die Aromen von sonnengereiften Tomaten, salzigem Feta, würzigen Oliven und frischem Basilikum sich hier vereinen. Es ist, als würde man eine kleine Reise ans Mittelmeer machen, direkt mit der Gabel! Die Zubereitung ist herrlich unkompliziert, was ihn zum idealen Kandidaten macht, wenn viele Gäste erwartet werden oder man einfach keine Lust hat, stundenlang in der Küche zu stehen. Er lässt sich wunderbar vorbereiten und schmeckt durchgezogen fast noch besser. Für mich ist dieser Salat nicht nur eine Beilage, er ist oft der heimliche Star auf dem Buffet – farbenfroh, sättigend und einfach unwiderstehlich lecker.",
+    "additionalParagraph": "Es gibt ja unzählige Nudelsalat-Varianten, aber diese mediterrane Version hat einen festen Platz in meinem Herzen (und meinem Rezeptbuch!). Was ihn so besonders macht, ist die Balance der Aromen und Texturen: die weichen Nudeln, das knackige Gemüse, der cremige Feta, die würzigen Oliven und das leicht pfeffrige Rucola, das dem Ganzen noch einen extra Frischekick gibt. Das Dressing halte ich bewusst einfach – ein gutes Olivenöl, etwas Balsamicoessig, Zitronensaft und Kräuter reichen völlig aus, um die Zutaten zu umschmeicheln, ohne sie zu überdecken. Ich mache oft gleich eine riesige Schüssel davon, denn erfahrungsgemäß ist er immer als Erstes leer. Und das Schöne ist: Man kann ihn super variieren! Mal kommen noch getrocknete Tomaten dazu, mal geröstete Pinienkerne oder auch ein paar Kapern. So wird es nie langweilig. Dieser Salat ist für mich pure Sommerküche – einfach, ehrlich und voller Geschmack!",
+    "ingredientsNeeded": [
+      {
+        "title": "Pasta",
+        "description": "Die Basis! Kurze Nudelsorten wie Fusilli, Penne oder Farfalle eignen sich am besten, da sie das Dressing und die kleinen Zutaten gut aufnehmen."
       },
-      "tips": [
-        "Für mehr Farbe und Geschmack kannst du auch gelbe oder orangefarbene Paprika hinzufügen.",
-        "Getrocknete, in Öl eingelegte Tomaten (klein geschnitten) geben dem Salat eine intensive, süßliche Note.",
-        "Geröstete Pinienkerne oder Sonnenblumenkerne sorgen für einen schönen Crunch.",
-        "Kapern passen ebenfalls wunderbar zu den mediterranen Aromen.",
-        "Wenn du es etwas proteinreicher magst, kannst du Kichererbsen oder weiße Bohnen hinzufügen.",
-        "Statt Feta kannst du auch Mozzarella-Bällchen (Mini-Mozzarella) verwenden.",
-        "Der Salat hält sich gut 2-3 Tage im Kühlschrank. Den Rucola aber immer erst frisch vor dem Servieren hinzufügen.",
-        "Verwende einen hellen Balsamicoessig, damit der Salat seine schöne Farbe behält. Rotweinessig geht aber geschmacklich auch sehr gut."
-      ],
-      "whyFavorite": {
-        "title": "Warum dieser Nudelsalat auf keiner Party fehlen darf",
-        "reasons": [
-          {
-            "title": "Der absolute Crowd-Pleaser",
-            "description": "Ich kenne niemanden, der diesen Salat nicht mag! Er ist frisch, würzig, sättigend und einfach lecker."
-          },
-          {
-            "title": "Perfekt zum Vorbereiten",
-            "description": "Er schmeckt durchgezogen sogar noch besser, was ihn ideal für Buffets, Grillpartys oder Meal Prep macht."
-          },
-          {
-            "title": "Bringt Farbe und Sommerlaune",
-            "description": "Die bunten Zutaten sehen toll aus und schmecken nach Sonne und Urlaub am Mittelmeer."
-          },
-          {
-            "title": "Angenehm leicht & frisch",
-            "description": "Trotz der Nudeln ist er durch das viele Gemüse, den Rucola und das leichte Dressing nicht zu schwer."
-          },
-          {
-            "title": "Einfach und schnell gemacht",
-            "description": "Während die Nudeln kochen, ist das Gemüse schnell geschnippelt. Kein kompliziertes Kochen nötig."
-          },
-          {
-            "title": "Wandelbar und anpassungsfähig",
-            "description": "Man kann ihn leicht mit zusätzlichen Zutaten variieren und an den eigenen Geschmack anpassen."
-          },
-          {
-            "title": "Vegetarisch & Sättigend",
-            "description": "Eine vollwertige vegetarische Mahlzeit oder eine sättigende Beilage, die auch ohne Fleisch glücklich macht."
-          }
-        ]
+      {
+        "title": "Cherrytomaten",
+        "description": "Bringen Süße, Saftigkeit und eine leuchtend rote Farbe. Halbieren oder vierteln, je nach Größe."
       },
-      "handwrittenMessage": {
-        "mainText": "Hol dir den Sommer auf den Teller mit diesem mediterranen Nudelsalat!",
-        "subText": "Viel Spaß beim Nachmachen und Genießen – lass es dir schmecken!",
-        "signature": "Dein Veggie-Rezepte Team"
+      {
+        "title": "Salatgurke",
+        "description": "Sorgt für den erfrischenden, knackigen Biss. Am besten das Kerngehäuse entfernen, damit der Salat nicht zu wässrig wird."
       },
-      "steps": [
-        {
-          "title": "Schritt 1: Pasta al dente",
-          "description": "Die Nudeln bissfest kochen ist wichtig, damit sie später nicht matschig werden. Kurz kalt abschrecken stoppt den Garprozess."
-        },
-        {
-          "title": "Schritt 2: Das aromatische Dressing",
-          "description": "Die Basis für den Geschmack! Alle Dressing-Zutaten gut verrühren, bevor die warmen Nudeln dazukommen."
-        },
-        {
-          "title": "Schritt 3: Nudeln & Dressing vereinen",
-          "description": "Die noch warmen Nudeln nehmen das Dressing besonders gut auf. Das ist ein kleiner Trick für maximalen Geschmack."
-        },
-        {
-          "title": "Schritt 4: Gemüse & Co. hinzufügen",
-          "description": "Jetzt kommen die frischen Zutaten dazu. Alles vorsichtig vermengen, damit nichts zerdrückt wird."
-        },
-        {
-          "title": "Schritt 5: Ziehen lassen & Finalisieren",
-          "description": "Geduld zahlt sich aus! Den Salat durchziehen lassen. Erst kurz vor dem Servieren den empfindlichen Rucola unterheben."
-        }
-      ],
-      "servingSuggestion": "Serviere den mediterranen Nudelsalat gut durchgezogen und gekühlt als Hauptgericht oder beliebte Beilage zum Grillen.",
-      "servingSuggestions": {
-        "title": "Was passt zum mediterranen Nudelsalat?",
-        "description": "Er ist solo schon toll, aber hier sind noch ein paar Ideen:",
-        "note": "Perfekt für jede Sommerparty!",
-        "items": [
-          {
-            "emoji": "🥖",
-            "title": "Frisches Baguette oder Ciabatta",
-            "description": "Ideal, um die Reste des leckeren Dressings aufzunehmen."
-          },
-          {
-            "emoji": "🧀",
-            "title": "Gegrillter Halloumi",
-            "description": "Eine fantastische vegetarische Ergänzung, die das mediterrane Thema aufgreift."
-          },
-          {
-            "emoji": "🥗",
-            "title": "Ein einfacher grüner Salat",
-            "description": "Wenn der Nudelsalat Teil eines größeren Buffets ist, passt ein schlichter Blattsalat gut dazu."
-          },
-          {
-            "emoji": "🍷",
-            "title": "Ein leichter Rosé- oder Weißwein",
-            "description": "Ein gekühlter Wein unterstreicht die sommerliche Leichtigkeit des Salats."
-          },
-          {
-            "emoji": "🍉",
-            "title": "Wassermelonen-Feta-Salat",
-            "description": "Als weitere frische Komponente auf dem Buffet ergänzt dieser Salat den Nudelsalat wunderbar."
-          }
-        ]
+      {
+        "title": "Schwarze Oliven",
+        "description": "Unverzichtbar für das mediterrane Flair. Am besten Kalamata-Oliven oder andere gute, entsteinte schwarze Oliven verwenden."
       },
-      "funFact": {
-        "title": "Nudel-Wissen",
-        "description": "Wusstest du, dass Nudelsalat in Deutschland besonders in den 70er und 80er Jahren zum absoluten Party-Hit wurde? 🕺 Oft waren es damals eher Varianten mit Mayonnaise. Die leichtere, mediterrane Version mit Essig-Öl-Dressing ist aber heute mindestens genauso beliebt und bringt Urlaubsflair auf den Tisch! 🇮🇹🇬🇷"
+      {
+        "title": "Feta-Käse",
+        "description": "Gibt die typische salzig-würzige und cremige Note. Echter griechischer Feta aus Schafs- oder Ziegenmilch schmeckt am besten."
       },
-      "images": {
-        "imageIngredient": "/images/Ingredients/mediterranerNudelsalatIngredient.webp",
-        "image1": "/images/Salads/mediterraner-nudelsalat1.webp",
-        "image2": "/images/Salads/mediterraner-nudelsalat2.webp",
-        "image3": "/images/Salads/mediterraner-nudelsalat3.webp",
-        "image4": "/images/Salads/mediterraner-nudelsalat4.webp",
-        "image5": "/images/Salads/mediterraner-nudelsalat5.webp",
-        "image6": "/images/Salads/mediterraner-nudelsalat6.webp",
-        "image7": "/images/Salads/mediterraner-nudelsalat7.webp"
+      {
+        "title": "Rote Zwiebel",
+        "description": "Für eine milde Schärfe und Farbe. Wer es noch milder mag, kann sie vorher kurz in kaltem Wasser ziehen lassen."
+      },
+      {
+        "title": "Rucola",
+        "description": "Verleiht eine leicht pfeffrige, nussige Note und Frische. Erst kurz vor dem Servieren unterheben, damit er nicht zusammenfällt."
+      },
+      {
+        "title": "Frisches Basilikum",
+        "description": "Das ultimative mediterrane Kraut! Sorgt für ein herrliches Aroma. Nicht zu sparsam verwenden."
+      },
+      {
+        "title": "Einfaches Balsamico-Dressing",
+        "description": "Eine harmonische Mischung aus gutem Olivenöl, hellem Balsamicoessig (oder Rotweinessig), etwas Zitronensaft, Senf und Kräutern."
       }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Salat",
+        "description": "Alle frischen und bunten Zutaten, die den Nudelsalat zu einem mediterranen Genuss machen.",
+        "ingredients": [
+          { "amount": 500, "unit": "g", "name": "Nudeln (z.B. Fusilli, Penne)" },
+          { "amount": 300, "unit": "g", "name": "Cherrytomaten, halbiert" },
+          { "amount": 1, "unit": "", "name": "Salatgurke, entkernt und gewürfelt" },
+          { "amount": 150, "unit": "g", "name": "Schwarze Oliven, entsteint und halbiert" },
+          { "amount": 200, "unit": "g", "name": "Feta-Käse, gewürfelt oder zerbröckelt" },
+          { "amount": 1, "unit": "", "name": "Rote Zwiebel, in feinen Ringen oder Würfeln" },
+          { "amount": 100, "unit": "g", "name": "Rucola, gewaschen" },
+          { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum, Blätter gezupft und grob gehackt" }
+        ]
+      },
+      {
+        "title": "Für das Dressing",
+        "description": "Ein leichtes, aromatisches Dressing, das die mediterranen Aromen unterstreicht.",
+        "ingredients": [
+          { "amount": 8, "unit": "EL", "name": "Gutes Olivenöl Extra Vergine" },
+          { "amount": 4, "unit": "EL", "name": "Heller Balsamicoessig (oder Rotweinessig)" },
+          { "amount": 1, "unit": "EL", "name": "Zitronensaft, frisch gepresst" },
+          { "amount": 1, "unit": "TL", "name": "Mittelscharfer Senf" },
+          { "amount": 1, "unit": "TL", "name": "Agavendicksaft (optional, für die Balance)" },
+          { "amount": 1, "unit": "TL", "name": "Getrockneter Oregano" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 500, "unit": "g", "name": "Nudeln (z.B. Fusilli, Penne)" },
+      { "amount": 300, "unit": "g", "name": "Cherrytomaten, halbiert" },
+      { "amount": 1, "unit": "", "name": "Salatgurke, entkernt und gewürfelt" },
+      { "amount": 150, "unit": "g", "name": "Schwarze Oliven, entsteint und halbiert" },
+      { "amount": 200, "unit": "g", "name": "Feta-Käse, gewürfelt oder zerbröckelt" },
+      { "amount": 1, "unit": "", "name": "Rote Zwiebel, in feinen Ringen oder Würfeln" },
+      { "amount": 100, "unit": "g", "name": "Rucola, gewaschen" },
+      { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum, Blätter gezupft und grob gehackt" },
+      { "amount": 8, "unit": "EL", "name": "Gutes Olivenöl Extra Vergine" },
+      { "amount": 4, "unit": "EL", "name": "Heller Balsamicoessig (oder Rotweinessig)" },
+      { "amount": 1, "unit": "EL", "name": "Zitronensaft, frisch gepresst" },
+      { "amount": 1, "unit": "TL", "name": "Mittelscharfer Senf" },
+      { "amount": 1, "unit": "TL", "name": "Agavendicksaft (optional, für die Balance)" },
+      { "amount": 1, "unit": "TL", "name": "Getrockneter Oregano" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "Prise", "name": "Schwarzer Pfeffer, frisch gemahlen" }
+    ],
+    "instructions": [
+      "Die Nudeln nach Packungsanweisung in reichlich kochendem Salzwasser 'al dente' (bissfest) garen. Nicht zu weich kochen!",
+      "Während die Nudeln kochen, das Gemüse vorbereiten: Tomaten halbieren, Gurke würfeln, Oliven halbieren, Zwiebel in Ringe oder Würfel schneiden.",
+      "Für das Dressing alle Zutaten (Olivenöl, Essig, Zitronensaft, Senf, Oregano, Salz, Pfeffer) in einer großen Salatschüssel gut verquirlen.",
+      "Die Nudeln abgießen, kurz mit kaltem Wasser abschrecken (damit sie nicht weitergaren und kleben) und gut abtropfen lassen.",
+      "Die noch leicht warmen Nudeln direkt in die Schüssel zum Dressing geben und gut vermengen. So nehmen die Nudeln das Aroma am besten auf.",
+      "Tomaten, Gurke, Oliven und Zwiebel hinzufügen und vorsichtig unterheben.",
+      "Den Feta-Käse würfeln oder grob zerbröckeln und zusammen mit dem gehackten Basilikum unter den Salat mischen.",
+      "Den Salat mindestens 30 Minuten, besser noch 1-2 Stunden im Kühlschrank durchziehen lassen.",
+      "Kurz vor dem Servieren den gewaschenen Rucola vorsichtig unterheben.",
+      "Den mediterranen Nudelsalat nochmals abschmecken und eventuell nachwürzen."
+    ],
+    "nutrition": {
+      "calories": 2940,
+      "protein": "79g",
+      "carbs": "229g",
+      "fat": "198g"
     },
-    {
-      "title": "Französische Crêpes mit karamellisierten Granola-Nüssen",
-      "seo_title": "Französische Crêpes mit Granola-Nüssen – Einfach & Knusprig",
-      "image": "/images/Frühstück/franzoesische-crepes.webp",
-      "prepTime": 20,
-      "cookingTime": 25,
-      "seo_keywords": [
-        "französische Crêpes Rezept",
-        "Crêpes mit Nüssen",
-        "Granola Topping",
-        "süße Crêpes Ideen",
-        "einfaches Crêpes Grundrezept",
-        "hausgemachtes Granola",
-        "Crêpes Frühstück"
-      ],
-      "rating": 4.9,
-      "reviews": 87,
-      "category": "Frühstück",
-      "slug": "franzoesische-crepes-granola-nuesse",
-      "tags": ["Frühstück", "Französisch", "Süß"],
-      "createdDate": new Date("2025-03-01T10:00:00Z"),
-      "updatedDate": new Date("2025-04-05T12:00:00Z"),
-      "servings": 4,
-      "description": "Zarte französische Crêpes treffen auf knusprig-süßes Granola mit karamellisierten Nüssen – perfekt zum Frühstück oder als Dessert!",
-      "descriptionOnImage": "Knusprige Granola-Nüsse auf zarten Crêpes",
-      "introductionParagraph": "Es gibt Rezepte, die Erinnerungen wecken – an entspannte Sonntage, gemütliche Frühstücke oder kleine Auszeiten am Nachmittag. Für mich gehören französische Crêpes ganz klar dazu. Dieses herrlich dünne Gebäck, das schon beim Backen einen zarten Duft von Butter und Vanille verströmt, ist für mich pure Lebensfreude. Und wenn ich sie dann noch mit selbstgemachtem, karamellisierten Granola und knackigen Nüssen verfeinere, wird daraus ein kleines kulinarisches Fest. Diese Version ist nicht nur süß und knusprig, sondern auch wunderbar vielseitig. Ob zum Frühstück mit frischen Früchten, als Highlight auf dem Brunch-Buffet oder als schnelles Dessert nach einem langen Tag – diese Crêpes mit Granola-Nüssen passen einfach immer.",
-      "additionalParagraph": "Ich erinnere mich noch gut an den Sonntagmorgen, als ich spontan beschlossen habe, Crêpes zu machen – ganz ohne Plan, aber mit viel Lust auf etwas Besonderes. In der Speisekammer fiel mein Blick auf ein Glas mit selbstgemachtem Granola und eine offene Tüte Haselnüsse. Die Idee war geboren! Ein paar Minuten später brutzelten die ersten Crêpes in der Pfanne, während auf dem Herd die Nüsse im Honig karamellisierten. Es war ein Duft zum Verlieben – warm, nussig, ein Hauch von Vanille. Und das Beste: Die Kombination aus zartem Crêpe-Teig und dem knusprigen Topping war ein echter Volltreffer. Seitdem gehört dieses Rezept zu meinen liebsten Klassikern – immer dann, wenn ich mir und meinen Lieben etwas Gutes tun möchte.",
-      "ingredientsNeeded": [
+    "tips": [
+      "Für mehr Farbe und Geschmack kannst du auch gelbe oder orangefarbene Paprika hinzufügen.",
+      "Getrocknete, in Öl eingelegte Tomaten (klein geschnitten) geben dem Salat eine intensive, süßliche Note.",
+      "Geröstete Pinienkerne oder Sonnenblumenkerne sorgen für einen schönen Crunch.",
+      "Kapern passen ebenfalls wunderbar zu den mediterranen Aromen.",
+      "Wenn du es etwas proteinreicher magst, kannst du Kichererbsen oder weiße Bohnen hinzufügen.",
+      "Statt Feta kannst du auch Mozzarella-Bällchen (Mini-Mozzarella) verwenden.",
+      "Der Salat hält sich gut 2-3 Tage im Kühlschrank. Den Rucola aber immer erst frisch vor dem Servieren hinzufügen.",
+      "Verwende einen hellen Balsamicoessig, damit der Salat seine schöne Farbe behält. Rotweinessig geht aber geschmacklich auch sehr gut."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieser Nudelsalat auf keiner Party fehlen darf",
+      "reasons": [
         {
-          "title": "Eier",
-          "description": "Sie sorgen für Bindung und geben dem Crêpe-Teig seine geschmeidige Textur."
+          "title": "Der absolute Crowd-Pleaser",
+          "description": "Ich kenne niemanden, der diesen Salat nicht mag! Er ist frisch, würzig, sättigend und einfach lecker."
         },
         {
-          "title": "Milch",
-          "description": "Milch verleiht dem Teig eine angenehme Flüssigkeit und sorgt für weiche, zarte Crêpes."
+          "title": "Perfekt zum Vorbereiten",
+          "description": "Er schmeckt durchgezogen sogar noch besser, was ihn ideal für Buffets, Grillpartys oder Meal Prep macht."
         },
         {
-          "title": "Weizenmehl",
-          "description": "Das klassische Mehl gibt Struktur und ist die Basis des Crêpe-Teigs."
+          "title": "Bringt Farbe und Sommerlaune",
+          "description": "Die bunten Zutaten sehen toll aus und schmecken nach Sonne und Urlaub am Mittelmeer."
         },
         {
-          "title": "Butter",
-          "description": "Für den feinen Geschmack und die goldene Farbe der Crêpes – ein Muss in der französischen Küche."
+          "title": "Angenehm leicht & frisch",
+          "description": "Trotz der Nudeln ist er durch das viele Gemüse, den Rucola und das leichte Dressing nicht zu schwer."
         },
         {
-          "title": "Vanilleextrakt",
-          "description": "Gibt dem Teig eine subtile Süße und einen Hauch von französischer Eleganz."
+          "title": "Einfach und schnell gemacht",
+          "description": "Während die Nudeln kochen, ist das Gemüse schnell geschnippelt. Kein kompliziertes Kochen nötig."
         },
         {
-          "title": "Honig",
-          "description": "Zum Karamellisieren der Nüsse – sorgt für süße Knusprigkeit."
+          "title": "Wandelbar und anpassungsfähig",
+          "description": "Man kann ihn leicht mit zusätzlichen Zutaten variieren und an den eigenen Geschmack anpassen."
         },
         {
-          "title": "Nüsse",
-          "description": "Eine Mischung aus Haselnüssen, Mandeln und Walnüssen für ein intensives Aroma und Biss."
-        },
-        {
-          "title": "Haferflocken",
-          "description": "Für das hausgemachte Granola – sie liefern Ballaststoffe und eine schöne Textur."
-        },
-        {
-          "title": "Zimt",
-          "description": "Optional für das Granola – gibt dem Topping eine warme, würzige Note."
+          "title": "Vegetarisch & Sättigend",
+          "description": "Eine vollwertige vegetarische Mahlzeit oder eine sättigende Beilage, die auch ohne Fleisch glücklich macht."
         }
-      ],
-      "ingredientGroups": [
-        {
-          "title": "Für die Crêpes",
-          "description": "Die Grundzutaten für weiche, klassische französische Crêpes.",
-          "ingredients": [
-            { "amount": 2, "unit": "", "name": "Eier" },
-            { "amount": 250, "unit": "ml", "name": "Milch" },
-            { "amount": 125, "unit": "g", "name": "Weizenmehl (Type 405)" },
-            { "amount": 1, "unit": "Prise", "name": "Salz" },
-            { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
-            { "amount": 20, "unit": "g", "name": "geschmolzene Butter" },
-            { "amount": undefined, "unit": "etwas", "name": "Butter zum Ausbacken" }
-          ]
-        },
-        {
-          "title": "Für das Granola-Nuss-Topping",
-          "description": "Ein knuspriges Topping aus Haferflocken und karamellisierten Nüssen.",
-          "ingredients": [
-            { "amount": 60, "unit": "g", "name": "gemischte Nüsse (z. B. Haselnüsse, Mandeln, Walnüsse)" },
-            { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
-            { "amount": 2, "unit": "EL", "name": "Honig" },
-            { "amount": 1, "unit": "EL", "name": "Kokosöl oder Butter" },
-            { "amount": 1, "unit": "Prise", "name": "Zimt (optional)" }
-          ]
-        }
-      ],
-      "ingredients": [
-        { "amount": 2, "unit": "", "name": "Eier" },
-        { "amount": 250, "unit": "ml", "name": "Milch" },
-        { "amount": 125, "unit": "g", "name": "Weizenmehl (Type 405)" },
-        { "amount": 1, "unit": "Prise", "name": "Salz" },
-        { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
-        { "amount": 20, "unit": "g", "name": "geschmolzene Butter" },
-        { "amount": undefined, "unit": "etwas", "name": "Butter zum Ausbacken" },
-        { "amount": 60, "unit": "g", "name": "gemischte Nüsse" },
-        { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
-        { "amount": 2, "unit": "EL", "name": "Honig" },
-        { "amount": 1, "unit": "EL", "name": "Kokosöl oder Butter" },
-        { "amount": 1, "unit": "Prise", "name": "Zimt" }
-      ],
-      "instructions": [
-        "Eier, Milch, Mehl, Salz und Vanilleextrakt in einer Schüssel glatt rühren.",
-        "Die geschmolzene Butter unterheben und den Teig 10 Minuten ruhen lassen.",
-        "In einer beschichteten Pfanne etwas Butter erhitzen, eine dünne Schicht Teig hineingeben und von beiden Seiten goldgelb ausbacken.",
-        "Crêpes warm stellen und mit dem restlichen Teig ebenso verfahren.",
-        "Für das Granola die Nüsse grob hacken.",
-        "In einer Pfanne Kokosöl oder Butter erhitzen, Honig hinzufügen und die Nüsse sowie Haferflocken darin 5–7 Minuten karamellisieren.",
-        "Optional mit etwas Zimt verfeinern und abkühlen lassen.",
-        "Crêpes mit dem Granola-Nuss-Mix bestreuen und nach Wunsch mit Obst oder Joghurt servieren."
-      ],
-      "nutrition": {
-        "calories": 1710,
-        "protein": "51g",
-        "carbs": "185g",
-        "fat": "90g"
-      },
-      "tips": [
-        "Für extra Aroma etwas Zitronenabrieb in den Teig geben.",
-        "Die Crêpes lassen sich prima einfrieren – einfach Backpapier zwischenlegen.",
-        "Das Granola hält luftdicht verschlossen bis zu 2 Wochen – perfekt für Vorrat!",
-        "Statt Honig kann auch Ahornsirup oder Agavendicksaft verwendet werden.",
-        "Die Nüsse nach Geschmack variieren – Pekannüsse oder Cashews passen auch super.",
-        "Wer es fruchtiger mag, kann zusätzlich Apfelscheiben karamellisieren.",
-        "Auch mit einem Klecks griechischem Joghurt ein Genuss!",
-        "Für eine herzhafte Variante den Zucker weglassen und Füllung ändern."
-      ],
-      "whyFavorite": {
-        "title": "Warum diese Crêpes mit Granola-Nüssen ein Lieblingsrezept sind",
-        "reasons": [
-          { "title": "Schnell gemacht", "description": "In unter 30 Minuten steht ein köstliches Gericht auf dem Tisch." },
-          { "title": "Perfekte Textur", "description": "Zart-weiche Crêpes treffen auf knuspriges Topping – ein tolles Mundgefühl!" },
-          { "title": "Individuell anpassbar", "description": "Ob mit Früchten, Joghurt oder pur – diese Crêpes lassen sich vielseitig kombinieren." },
-          { "title": "Ein echter Hingucker", "description": "Ideal für Gäste oder besondere Anlässe – sieht toll aus und schmeckt fantastisch." },
-          { "title": "Vegetarisch & nahrhaft", "description": "Mit Haferflocken und Nüssen liefert das Gericht Ballaststoffe und gesunde Fette." },
-          { "title": "Kinderfreundlich", "description": "Kinder lieben es, sich ihre Crêpes selbst zu belegen." },
-          { "title": "Meal-Prep geeignet", "description": "Granola und Crêpes lassen sich gut vorbereiten – ideal für stressfreie Mahlzeiten." }
-        ]
-      },
-      "handwrittenMessage": {
-        "mainText": "Genieße jede Gabel dieser Crêpes mit Granola-Nüssen – sie sind mit Liebe gemacht!",
-        "subText": "Ich bin gespannt, wie sie dir schmecken – erzähl mir gern davon!",
-        "signature": "Dein Veggie-Rezepte Team"
-      },
-      "steps": [
-        {
-          "title": "Der perfekte Teig",
-          "description": "Ein glatter, ruhender Teig ist das A und O für zarte Crêpes. Durch das Ruhen entspannen sich die Gluten und der Teig wird geschmeidiger."
-        },
-        {
-          "title": "Crêpes goldgelb ausbacken",
-          "description": "Die Pfanne sollte heiß sein, aber nicht rauchend. So gelingen dünne, gleichmäßige Crêpes ohne anzubrennen."
-        },
-        {
-          "title": "Granola frisch karamellisieren",
-          "description": "Nur wenige Minuten in Honig und Öl reichen aus, um ein himmlisch duftendes, knuspriges Topping zu zaubern."
-        },
-        {
-          "title": "Kreativ belegen",
-          "description": "Jetzt darf’s bunt werden! Ob mit Joghurt, Beeren oder Banane – jeder Crêpe wird ein Unikat."
-        }
-      ],
-      "servingSuggestion": "Serviere die Crêpes warm mit einem Löffel Joghurt und frischen Beeren für ein perfektes Frühstückserlebnis.",
-      "servingSuggestions": {
-        "title": "So schmecken die Crêpes mit Granola-Nüssen am besten",
-        "description": "Diese süßen Crêpes lassen sich wunderbar variieren und servieren – hier ein paar meiner Lieblingsideen:",
-        "note": "Ideal für Brunch, Dessert oder sogar ein süßes Abendessen!",
-        "items": [
-          {
-            "emoji": "🍓",
-            "title": "Mit frischen Beeren",
-            "description": "Erdbeeren, Himbeeren oder Blaubeeren bringen Frische und Farbe auf den Teller."
-          },
-          {
-            "emoji": "🍯",
-            "title": "Mit extra Honig",
-            "description": "Ein kleiner Extra-Schuss Honig verstärkt das Karamellaroma und passt perfekt zum Granola."
-          },
-          {
-            "emoji": "🥣",
-            "title": "Mit Joghurt oder Quark",
-            "description": "Ein Klecks Naturjoghurt oder cremiger Quark macht das Ganze noch vollwertiger."
-          },
-          {
-            "emoji": "🍌",
-            "title": "Mit Bananenscheiben",
-            "description": "Süße Bananen harmonieren wunderbar mit den Nüssen und machen satt."
-          },
-          {
-            "emoji": "☕",
-            "title": "Zum Nachmittagskaffee",
-            "description": "Als kleiner Leckerbissen zum Kaffee serviert – ein echter Genussmoment."
-          }
-        ]
-      },
-      "funFact": {
-        "title": "Wusstest du schon?",
-        "description": "Crêpes stammen ursprünglich aus der Bretagne und wurden dort traditionell auf gusseisernen Platten über offenem Feuer zubereitet!"
-      },
-      "images": {
-        "imageIngredient": "/images/Ingredients/franzoesischeCrepesIngredient.webp",
-        "image1": "/images/Frühstück/franzoesische-crepes1.webp",
-        "image2": "/images/Frühstück/franzoesische-crepes2.webp",
-        "image3": "/images/Frühstück/franzoesische-crepes3.webp",
-        "image4": "/images/Frühstück/franzoesische-crepes4.webp",
-        "image5": "/images/Frühstück/franzoesische-crepes5.webp",
-        "image6": "/images/Frühstück/franzoesische-crepes6.webp",
-        "image7": "/images/Frühstück/franzoesische-crepes7.webp"
-      }
+      ]
     },
-    {
-      "title": "Warmer Beeren-Crumble aus dem Ofen",
-      "seo_title": "Beeren-Crumble Rezept – einfach, fruchtig & knusprig",
-      "image": "/images/Desserts/beeren-crumble.webp",
-      "prepTime": 15,
-      "cookingTime": 30,
-      "seo_keywords": [
-        "beeren crumble rezept",
-        "einfacher crumble mit beeren",
-        "schnelles dessert mit beeren",
-        "crumble ohne ei",
-        "knuspriger streuselkuchen",
-        "beeren nachtisch rezept",
-        "süßes rezept mit früchten"
-      ],
-      "rating": 4.9,
-      "reviews": 87,
-      "category": "Desserts",
-      "slug": "beeren-crumble",
-      "tags": [
-        "Beeren",
-        "Crumble",
-        "Dessert",
-        "einfach",
-        "schnell"
-      ],
-      "createdDate": new Date("2025-03-01T10:00:00Z"),
-      "updatedDate": new Date("2025-04-11T12:00:00Z"),
-      "servings": 6,
-      "description": "Ein fruchtiger Beeren-Crumble mit knusprigen Streuseln – perfekt als schnelles Dessert oder süßer Sommergenuss.",
-      "descriptionOnImage": "Fruchtig, warm und herrlich knusprig – dein neuer Lieblingscrumble!",
-      "introductionParagraph": "Es gibt kaum etwas, das mich mehr an einen gemütlichen Nachmittag erinnert als der Duft von warmem Beeren-Crumble aus dem Ofen. Wenn die süßen Beeren beim Backen anfangen zu blubbern und die buttrigen Streusel goldbraun werden, füllt sich meine Küche mit purem Wohlfühlaroma. Dieser Crumble ist für mich ein echter Seelentröster – egal ob im Sommer mit frischen Beeren aus dem Garten oder im Winter mit tiefgekühlten Beeren. Ich erinnere mich noch gut an das erste Mal, als ich diesen Crumble für Freunde gebacken habe: Alle waren begeistert von der Kombination aus säuerlich-fruchtigen Beeren und süßen, knusprigen Streuseln. Dazu eine Kugel Vanilleeis – himmlisch! Und das Beste: Du brauchst keine ausgefallenen Zutaten oder viel Backerfahrung. In gerade mal 15 Minuten ist alles vorbereitet, der Rest erledigt der Ofen. Perfekt also, wenn’s mal schnell gehen muss oder du spontan Gäste bekommst.",
-      "additionalParagraph": "Ich liebe es, wie vielseitig dieser Beeren-Crumble ist. Je nach Saison kannst du ganz nach Lust und Laune Himbeeren, Blaubeeren, Johannisbeeren oder Brombeeren verwenden – oder einfach eine fertige Beerenmischung aus dem Tiefkühlfach. Die Streusel gelingen immer und lassen sich mit Haferflocken oder Nüssen nach Belieben abwandeln. Manchmal streue ich noch etwas Zimt darüber oder gebe gehackte Mandeln mit hinein, wenn ich Lust auf eine extra Portion Crunch habe. Dieser Crumble ist nicht nur bei mir zu Hause ein Dauerbrenner – auch meine Leserinnen und Leser schwärmen regelmäßig davon. Besonders mag ich, dass man ihn sowohl warm als auch kalt genießen kann. Frisch gebacken mit Vanillesoße ist er ein Traum, aber auch am nächsten Tag schmeckt er zum Frühstück (ja, ich gestehe!) mit einem Löffel Joghurt richtig gut. Ich bin mir sicher: Dieser Crumble wird auch in deiner Küche schnell zum Lieblingsrezept!",
-      "ingredientsNeeded": [
-        {
-          "title": "Beerenmischung",
-          "description": "Die saftigen Beeren sind der Star dieses Crumbles. Sie sorgen für Fruchtigkeit, Farbe und ein angenehm säuerlich-süßes Aroma."
-        },
-        {
-          "title": "Zucker",
-          "description": "Zucker bringt die natürliche Süße der Beeren hervor und karamellisiert leicht im Ofen – perfekt für ein harmonisches Aroma."
-        },
-        {
-          "title": "Zitronensaft",
-          "description": "Ein Spritzer Zitronensaft bringt Frische ins Spiel und hebt den Geschmack der Beeren wunderbar hervor."
-        },
-        {
-          "title": "Butter",
-          "description": "Die Butter ist das Herz der Streusel – sie sorgt für eine zart-knusprige Textur und einen feinen, buttrigen Geschmack."
-        },
-        {
-          "title": "Mehl",
-          "description": "Mehl bildet die Basis der Streusel und verbindet sich beim Backen mit der Butter zu herrlich goldenen Krümeln."
-        },
-        {
-          "title": "Haferflocken",
-          "description": "Haferflocken geben den Streuseln eine rustikale Note und extra Biss – ideal für den Kontrast zur weichen Beerenfüllung."
-        },
-        {
-          "title": "Vanillezucker",
-          "description": "Vanillezucker rundet die Streusel geschmacklich ab und verleiht ihnen ein zartes Vanillearoma."
-        }
-      ],
-      "ingredientGroups": [
-        {
-          "title": "Für die Beerenfüllung",
-          "description": "Diese Mischung aus saftigen Beeren und etwas Säure bildet die fruchtige Basis des Crumbles.",
-          "ingredients": [
-            { "amount": 500, "unit": "g", "name": "gemischte Beeren (frisch oder TK)" },
-            { "amount": 2, "unit": "EL", "name": "Zucker" },
-            { "amount": 1, "unit": "EL", "name": "Zitronensaft" }
-          ]
-        },
-        {
-          "title": "Für die Streusel",
-          "description": "Knusprige Streusel mit einer Extraportion Butter und feinem Vanillegeschmack.",
-          "ingredients": [
-            { "amount": 100, "unit": "g", "name": "Mehl" },
-            { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
-            { "amount": 80, "unit": "g", "name": "kalte Butter" },
-            { "amount": 60, "unit": "g", "name": "Zucker" },
-            { "amount": 1, "unit": "Päckchen", "name": "Vanillezucker" }
-          ]
-        }
-      ],
-      "ingredients": [
-        { "amount": 500, "unit": "g", "name": "gemischte Beeren (frisch oder TK)" },
-        { "amount": 1, "unit": "EL", "name": "Zitronensaft" },
-        { "amount": 100, "unit": "g", "name": "Mehl" },
-        { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
-        { "amount": 80, "unit": "g", "name": "kalte Butter" },
-        { "amount": 96, "unit": "g", "name": "Zucker" },
-        { "amount": 1, "unit": "Päckchen", "name": "Vanillezucker" }
-      ],
-      "instructions": [
-        "Backofen auf 180 °C Ober-/Unterhitze vorheizen.",
-        "Beeren in eine ofenfeste Form geben, mit Zucker und Zitronensaft vermengen.",
-        "Für die Streusel Mehl, Haferflocken, Zucker und Vanillezucker in einer Schüssel mischen.",
-        "Butter in kleinen Stücken dazugeben und mit den Händen zu Streuseln verarbeiten.",
-        "Die Streusel gleichmäßig über die Beeren streuen.",
-        "Crumble auf mittlerer Schiene ca. 30 Minuten backen, bis die Streusel goldbraun sind.",
-        "Etwas abkühlen lassen und nach Belieben mit Vanilleeis oder Sahne servieren."
-      ],
-      "nutrition": {
-        "calories": 1805,
-        "protein": "22g",
-        "carbs": "264g",
-        "fat": "73g"
+    "handwrittenMessage": {
+      "mainText": "Hol dir den Sommer auf den Teller mit diesem mediterranen Nudelsalat!",
+      "subText": "Viel Spaß beim Nachmachen und Genießen – lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Pasta al dente",
+        "description": "Die Nudeln bissfest kochen ist wichtig, damit sie später nicht matschig werden. Kurz kalt abschrecken stoppt den Garprozess."
       },
-      "tips": [
-        "Für extra Crunch kannst du gehackte Mandeln oder Haselnüsse zu den Streuseln geben.",
-        "Statt Zucker schmeckt auch brauner Rohrzucker wunderbar karamellig.",
-        "Wenn du Tiefkühlbeeren verwendest, musst du sie nicht auftauen – einfach direkt verwenden.",
-        "Etwas Zimt in den Streuseln sorgt für eine warme, winterliche Note.",
-        "Der Crumble lässt sich super vorbereiten und vor dem Servieren einfach kurz aufwärmen.",
-        "Mit einer Kugel Vanilleeis oder einem Klecks Sahne wird’s besonders lecker.",
-        "Übriggebliebener Crumble schmeckt auch am nächsten Tag kalt zum Frühstück."
-      ],
-      "whyFavorite": {
-        "title": "Warum dieser Beeren-Crumble ein Liebling ist",
-        "reasons": [
-          {
-            "title": "Schnell gemacht",
-            "description": "In nur 15 Minuten vorbereitet – ideal für spontane Gäste oder Dessertgelüste."
-          },
-          {
-            "title": "Saisonunabhängig",
-            "description": "Ob frische Sommerbeeren oder TK-Vorrat – dieses Rezept passt das ganze Jahr."
-          },
-          {
-            "title": "Knusprig trifft fruchtig",
-            "description": "Die Kombination aus warmen Beeren und buttrigen Streuseln ist einfach unwiderstehlich."
-          },
-          {
-            "title": "Super wandelbar",
-            "description": "Zutaten lassen sich nach Lust und Vorrat variieren – kreativ backen war nie so einfach."
-          },
-          {
-            "title": "Familienfreundlich",
-            "description": "Groß und Klein lieben diesen Crumble – perfekt für den Kaffeetisch oder als Nachtisch."
-          },
-          {
-            "title": "Perfekt für Gäste",
-            "description": "Lässt sich gut vorbereiten und ist ein echter Hingucker auf jedem Buffet."
-          },
-          {
-            "title": "Auch kalt ein Genuss",
-            "description": "Am nächsten Tag mit Joghurt ein himmlisches Frühstück – das nenne ich Resteverwertung deluxe!"
-          }
-        ]
+      {
+        "title": "Schritt 2: Das aromatische Dressing",
+        "description": "Die Basis für den Geschmack! Alle Dressing-Zutaten gut verrühren, bevor die warmen Nudeln dazukommen."
       },
-      "handwrittenMessage": {
-        "mainText": "Lass dir jeden Löffel meines Beeren-Crumbles schmecken!",
-        "subText": "Ich bin gespannt, wie er dir gelingt – erzähl mir unbedingt davon!",
-        "signature": "Dein Veggie-Rezepte Team"
+      {
+        "title": "Schritt 3: Nudeln & Dressing vereinen",
+        "description": "Die noch warmen Nudeln nehmen das Dressing besonders gut auf. Das ist ein kleiner Trick für maximalen Geschmack."
       },
-      "steps": [
-        {
-          "title": "Beeren vorbereiten",
-          "description": "Die Früchte werden kurz mit Zucker und Zitronensaft vermengt – das bringt die Aromen zum Leuchten."
-        },
-        {
-          "title": "Streusel anrühren",
-          "description": "Alle trockenen Zutaten mischen und mit Butter zu feinen Krümeln kneten – ganz einfach per Hand."
-        },
-        {
-          "title": "Backen und genießen",
-          "description": "Ab in den Ofen – nach etwa 30 Minuten hast du ein goldbraunes, duftendes Dessert vor dir."
-        }
-      ],
-      "servingSuggestion": "Am besten warm servieren mit einer Kugel Vanilleeis oder einem Klecks Schlagsahne.",
-      "servingSuggestions": {
-        "title": "Perfekte Begleiter für deinen Beeren-Crumble",
-        "description": "So wird dein Dessert-Erlebnis noch besonderer – hier ein paar köstliche Ideen.",
-        "note": "Alle Varianten lassen sich leicht kombinieren.",
-        "items": [
-          {
-            "emoji": "🍦",
-            "title": "Vanilleeis",
-            "description": "Der Klassiker schlechthin – schmilzt wunderbar über dem warmen Crumble."
-          },
-          {
-            "emoji": "🍶",
-            "title": "Warme Vanillesoße",
-            "description": "Sanft und cremig – perfekt zur fruchtigen Beerenfüllung."
-          },
-          {
-            "emoji": "☕",
-            "title": "Eine Tasse Kaffee",
-            "description": "Ein stark gebrühter Kaffee rundet das Dessert geschmacklich ab."
-          },
-          {
-            "emoji": "🍓",
-            "title": "Frische Beeren",
-            "description": "Dekorativ und lecker – ein paar extra Beeren on top machen immer was her."
-          },
-          {
-            "emoji": "🥣",
-            "title": "Joghurt oder Skyr",
-            "description": "Besonders am nächsten Tag – kalt mit etwas Naturjoghurt ein leichtes Frühstück."
-          }
-        ]
+      {
+        "title": "Schritt 4: Gemüse & Co. hinzufügen",
+        "description": "Jetzt kommen die frischen Zutaten dazu. Alles vorsichtig vermengen, damit nichts zerdrückt wird."
       },
-      "funFact": {
-        "title": "Wusstest du schon?",
-        "description": "Das Wort 'Crumble' kommt aus dem Englischen und bedeutet 'Krümel' – passender könnte man diese Streuseldesserts kaum benennen!"
-      },
-      "images": {
-        "imageIngredient": "/images/Ingredients/beerenCrumbleIngredient.webp",
-        "image1": "/images/Desserts/beeren-crumble1.webp",
-        "image2": "/images/Desserts/beeren-crumble2.webp",
-        "image3": "/images/Desserts/beeren-crumble3.webp",
-        "image4": "/images/Desserts/beeren-crumble4.webp",
-        "image5": "/images/Desserts/beeren-crumble5.webp",
-        "image6": "/images/Desserts/beeren-crumble6.webp",
-        "image7": "/images/Desserts/beeren-crumble7.webp"
+      {
+        "title": "Schritt 5: Ziehen lassen & Finalisieren",
+        "description": "Geduld zahlt sich aus! Den Salat durchziehen lassen. Erst kurz vor dem Servieren den empfindlichen Rucola unterheben."
       }
+    ],
+    "servingSuggestion": "Serviere den mediterranen Nudelsalat gut durchgezogen und gekühlt als Hauptgericht oder beliebte Beilage zum Grillen.",
+    "servingSuggestions": {
+      "title": "Was passt zum mediterranen Nudelsalat?",
+      "description": "Er ist solo schon toll, aber hier sind noch ein paar Ideen:",
+      "note": "Perfekt für jede Sommerparty!",
+      "items": [
+        {
+          "emoji": "🥖",
+          "title": "Frisches Baguette oder Ciabatta",
+          "description": "Ideal, um die Reste des leckeren Dressings aufzunehmen."
+        },
+        {
+          "emoji": "🧀",
+          "title": "Gegrillter Halloumi",
+          "description": "Eine fantastische vegetarische Ergänzung, die das mediterrane Thema aufgreift."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Ein einfacher grüner Salat",
+          "description": "Wenn der Nudelsalat Teil eines größeren Buffets ist, passt ein schlichter Blattsalat gut dazu."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Ein leichter Rosé- oder Weißwein",
+          "description": "Ein gekühlter Wein unterstreicht die sommerliche Leichtigkeit des Salats."
+        },
+        {
+          "emoji": "🍉",
+          "title": "Wassermelonen-Feta-Salat",
+          "description": "Als weitere frische Komponente auf dem Buffet ergänzt dieser Salat den Nudelsalat wunderbar."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Nudel-Wissen",
+      "description": "Wusstest du, dass Nudelsalat in Deutschland besonders in den 70er und 80er Jahren zum absoluten Party-Hit wurde? 🕺 Oft waren es damals eher Varianten mit Mayonnaise. Die leichtere, mediterrane Version mit Essig-Öl-Dressing ist aber heute mindestens genauso beliebt und bringt Urlaubsflair auf den Tisch! 🇮🇹🇬🇷"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/mediterranerNudelsalatIngredient.webp",
+      "image1": "/images/Salads/mediterraner-nudelsalat1.webp",
+      "image2": "/images/Salads/mediterraner-nudelsalat2.webp",
+      "image3": "/images/Salads/mediterraner-nudelsalat3.webp",
+      "image4": "/images/Salads/mediterraner-nudelsalat4.webp",
+      "image5": "/images/Salads/mediterraner-nudelsalat5.webp",
+      "image6": "/images/Salads/mediterraner-nudelsalat6.webp",
+      "image7": "/images/Salads/mediterraner-nudelsalat7.webp"
     }
+  },
+  {
+    "title": "Französische Crêpes mit karamellisierten Granola-Nüssen",
+    "seo_title": "Französische Crêpes mit Granola-Nüssen – Einfach & Knusprig",
+    "image": "/images/Frühstück/franzoesische-crepes.webp",
+    "prepTime": 20,
+    "cookingTime": 25,
+    "seo_keywords": [
+      "französische Crêpes Rezept",
+      "Crêpes mit Nüssen",
+      "Granola Topping",
+      "süße Crêpes Ideen",
+      "einfaches Crêpes Grundrezept",
+      "hausgemachtes Granola",
+      "Crêpes Frühstück"
+    ],
+    "rating": 4.9,
+    "reviews": 87,
+    "category": "Frühstück",
+    "slug": "franzoesische-crepes-granola-nuesse",
+    "tags": ["Frühstück", "Französisch", "Süß"],
+    "createdDate": new Date("2025-03-01T10:00:00Z"),
+    "updatedDate": new Date("2025-04-05T12:00:00Z"),
+    "servings": 4,
+    "description": "Zarte französische Crêpes treffen auf knusprig-süßes Granola mit karamellisierten Nüssen – perfekt zum Frühstück oder als Dessert!",
+    "descriptionOnImage": "Knusprige Granola-Nüsse auf zarten Crêpes",
+    "introductionParagraph": "Es gibt Rezepte, die Erinnerungen wecken – an entspannte Sonntage, gemütliche Frühstücke oder kleine Auszeiten am Nachmittag. Für mich gehören französische Crêpes ganz klar dazu. Dieses herrlich dünne Gebäck, das schon beim Backen einen zarten Duft von Butter und Vanille verströmt, ist für mich pure Lebensfreude. Und wenn ich sie dann noch mit selbstgemachtem, karamellisierten Granola und knackigen Nüssen verfeinere, wird daraus ein kleines kulinarisches Fest. Diese Version ist nicht nur süß und knusprig, sondern auch wunderbar vielseitig. Ob zum Frühstück mit frischen Früchten, als Highlight auf dem Brunch-Buffet oder als schnelles Dessert nach einem langen Tag – diese Crêpes mit Granola-Nüssen passen einfach immer.",
+    "additionalParagraph": "Ich erinnere mich noch gut an den Sonntagmorgen, als ich spontan beschlossen habe, Crêpes zu machen – ganz ohne Plan, aber mit viel Lust auf etwas Besonderes. In der Speisekammer fiel mein Blick auf ein Glas mit selbstgemachtem Granola und eine offene Tüte Haselnüsse. Die Idee war geboren! Ein paar Minuten später brutzelten die ersten Crêpes in der Pfanne, während auf dem Herd die Nüsse im Honig karamellisierten. Es war ein Duft zum Verlieben – warm, nussig, ein Hauch von Vanille. Und das Beste: Die Kombination aus zartem Crêpe-Teig und dem knusprigen Topping war ein echter Volltreffer. Seitdem gehört dieses Rezept zu meinen liebsten Klassikern – immer dann, wenn ich mir und meinen Lieben etwas Gutes tun möchte.",
+    "ingredientsNeeded": [
+      {
+        "title": "Eier",
+        "description": "Sie sorgen für Bindung und geben dem Crêpe-Teig seine geschmeidige Textur."
+      },
+      {
+        "title": "Milch",
+        "description": "Milch verleiht dem Teig eine angenehme Flüssigkeit und sorgt für weiche, zarte Crêpes."
+      },
+      {
+        "title": "Weizenmehl",
+        "description": "Das klassische Mehl gibt Struktur und ist die Basis des Crêpe-Teigs."
+      },
+      {
+        "title": "Butter",
+        "description": "Für den feinen Geschmack und die goldene Farbe der Crêpes – ein Muss in der französischen Küche."
+      },
+      {
+        "title": "Vanilleextrakt",
+        "description": "Gibt dem Teig eine subtile Süße und einen Hauch von französischer Eleganz."
+      },
+      {
+        "title": "Honig",
+        "description": "Zum Karamellisieren der Nüsse – sorgt für süße Knusprigkeit."
+      },
+      {
+        "title": "Nüsse",
+        "description": "Eine Mischung aus Haselnüssen, Mandeln und Walnüssen für ein intensives Aroma und Biss."
+      },
+      {
+        "title": "Haferflocken",
+        "description": "Für das hausgemachte Granola – sie liefern Ballaststoffe und eine schöne Textur."
+      },
+      {
+        "title": "Zimt",
+        "description": "Optional für das Granola – gibt dem Topping eine warme, würzige Note."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Crêpes",
+        "description": "Die Grundzutaten für weiche, klassische französische Crêpes.",
+        "ingredients": [
+          { "amount": 2, "unit": "", "name": "Eier" },
+          { "amount": 250, "unit": "ml", "name": "Milch" },
+          { "amount": 125, "unit": "g", "name": "Weizenmehl (Type 405)" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
+          { "amount": 20, "unit": "g", "name": "geschmolzene Butter" },
+          { "amount": undefined, "unit": "etwas", "name": "Butter zum Ausbacken" }
+        ]
+      },
+      {
+        "title": "Für das Granola-Nuss-Topping",
+        "description": "Ein knuspriges Topping aus Haferflocken und karamellisierten Nüssen.",
+        "ingredients": [
+          { "amount": 60, "unit": "g", "name": "gemischte Nüsse (z. B. Haselnüsse, Mandeln, Walnüsse)" },
+          { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
+          { "amount": 2, "unit": "EL", "name": "Honig" },
+          { "amount": 1, "unit": "EL", "name": "Kokosöl oder Butter" },
+          { "amount": 1, "unit": "Prise", "name": "Zimt (optional)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 2, "unit": "", "name": "Eier" },
+      { "amount": 250, "unit": "ml", "name": "Milch" },
+      { "amount": 125, "unit": "g", "name": "Weizenmehl (Type 405)" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
+      { "amount": 20, "unit": "g", "name": "geschmolzene Butter" },
+      { "amount": undefined, "unit": "etwas", "name": "Butter zum Ausbacken" },
+      { "amount": 60, "unit": "g", "name": "gemischte Nüsse" },
+      { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
+      { "amount": 2, "unit": "EL", "name": "Honig" },
+      { "amount": 1, "unit": "EL", "name": "Kokosöl oder Butter" },
+      { "amount": 1, "unit": "Prise", "name": "Zimt" }
+    ],
+    "instructions": [
+      "Eier, Milch, Mehl, Salz und Vanilleextrakt in einer Schüssel glatt rühren.",
+      "Die geschmolzene Butter unterheben und den Teig 10 Minuten ruhen lassen.",
+      "In einer beschichteten Pfanne etwas Butter erhitzen, eine dünne Schicht Teig hineingeben und von beiden Seiten goldgelb ausbacken.",
+      "Crêpes warm stellen und mit dem restlichen Teig ebenso verfahren.",
+      "Für das Granola die Nüsse grob hacken.",
+      "In einer Pfanne Kokosöl oder Butter erhitzen, Honig hinzufügen und die Nüsse sowie Haferflocken darin 5–7 Minuten karamellisieren.",
+      "Optional mit etwas Zimt verfeinern und abkühlen lassen.",
+      "Crêpes mit dem Granola-Nuss-Mix bestreuen und nach Wunsch mit Obst oder Joghurt servieren."
+    ],
+    "nutrition": {
+      "calories": 1710,
+      "protein": "51g",
+      "carbs": "185g",
+      "fat": "90g"
+    },
+    "tips": [
+      "Für extra Aroma etwas Zitronenabrieb in den Teig geben.",
+      "Die Crêpes lassen sich prima einfrieren – einfach Backpapier zwischenlegen.",
+      "Das Granola hält luftdicht verschlossen bis zu 2 Wochen – perfekt für Vorrat!",
+      "Statt Honig kann auch Ahornsirup oder Agavendicksaft verwendet werden.",
+      "Die Nüsse nach Geschmack variieren – Pekannüsse oder Cashews passen auch super.",
+      "Wer es fruchtiger mag, kann zusätzlich Apfelscheiben karamellisieren.",
+      "Auch mit einem Klecks griechischem Joghurt ein Genuss!",
+      "Für eine herzhafte Variante den Zucker weglassen und Füllung ändern."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Crêpes mit Granola-Nüssen ein Lieblingsrezept sind",
+      "reasons": [
+        { "title": "Schnell gemacht", "description": "In unter 30 Minuten steht ein köstliches Gericht auf dem Tisch." },
+        { "title": "Perfekte Textur", "description": "Zart-weiche Crêpes treffen auf knuspriges Topping – ein tolles Mundgefühl!" },
+        { "title": "Individuell anpassbar", "description": "Ob mit Früchten, Joghurt oder pur – diese Crêpes lassen sich vielseitig kombinieren." },
+        { "title": "Ein echter Hingucker", "description": "Ideal für Gäste oder besondere Anlässe – sieht toll aus und schmeckt fantastisch." },
+        { "title": "Vegetarisch & nahrhaft", "description": "Mit Haferflocken und Nüssen liefert das Gericht Ballaststoffe und gesunde Fette." },
+        { "title": "Kinderfreundlich", "description": "Kinder lieben es, sich ihre Crêpes selbst zu belegen." },
+        { "title": "Meal-Prep geeignet", "description": "Granola und Crêpes lassen sich gut vorbereiten – ideal für stressfreie Mahlzeiten." }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Genieße jede Gabel dieser Crêpes mit Granola-Nüssen – sie sind mit Liebe gemacht!",
+      "subText": "Ich bin gespannt, wie sie dir schmecken – erzähl mir gern davon!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Der perfekte Teig",
+        "description": "Ein glatter, ruhender Teig ist das A und O für zarte Crêpes. Durch das Ruhen entspannen sich die Gluten und der Teig wird geschmeidiger."
+      },
+      {
+        "title": "Crêpes goldgelb ausbacken",
+        "description": "Die Pfanne sollte heiß sein, aber nicht rauchend. So gelingen dünne, gleichmäßige Crêpes ohne anzubrennen."
+      },
+      {
+        "title": "Granola frisch karamellisieren",
+        "description": "Nur wenige Minuten in Honig und Öl reichen aus, um ein himmlisch duftendes, knuspriges Topping zu zaubern."
+      },
+      {
+        "title": "Kreativ belegen",
+        "description": "Jetzt darf’s bunt werden! Ob mit Joghurt, Beeren oder Banane – jeder Crêpe wird ein Unikat."
+      }
+    ],
+    "servingSuggestion": "Serviere die Crêpes warm mit einem Löffel Joghurt und frischen Beeren für ein perfektes Frühstückserlebnis.",
+    "servingSuggestions": {
+      "title": "So schmecken die Crêpes mit Granola-Nüssen am besten",
+      "description": "Diese süßen Crêpes lassen sich wunderbar variieren und servieren – hier ein paar meiner Lieblingsideen:",
+      "note": "Ideal für Brunch, Dessert oder sogar ein süßes Abendessen!",
+      "items": [
+        {
+          "emoji": "🍓",
+          "title": "Mit frischen Beeren",
+          "description": "Erdbeeren, Himbeeren oder Blaubeeren bringen Frische und Farbe auf den Teller."
+        },
+        {
+          "emoji": "🍯",
+          "title": "Mit extra Honig",
+          "description": "Ein kleiner Extra-Schuss Honig verstärkt das Karamellaroma und passt perfekt zum Granola."
+        },
+        {
+          "emoji": "🥣",
+          "title": "Mit Joghurt oder Quark",
+          "description": "Ein Klecks Naturjoghurt oder cremiger Quark macht das Ganze noch vollwertiger."
+        },
+        {
+          "emoji": "🍌",
+          "title": "Mit Bananenscheiben",
+          "description": "Süße Bananen harmonieren wunderbar mit den Nüssen und machen satt."
+        },
+        {
+          "emoji": "☕",
+          "title": "Zum Nachmittagskaffee",
+          "description": "Als kleiner Leckerbissen zum Kaffee serviert – ein echter Genussmoment."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du schon?",
+      "description": "Crêpes stammen ursprünglich aus der Bretagne und wurden dort traditionell auf gusseisernen Platten über offenem Feuer zubereitet!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/franzoesischeCrepesIngredient.webp",
+      "image1": "/images/Frühstück/franzoesische-crepes1.webp",
+      "image2": "/images/Frühstück/franzoesische-crepes2.webp",
+      "image3": "/images/Frühstück/franzoesische-crepes3.webp",
+      "image4": "/images/Frühstück/franzoesische-crepes4.webp",
+      "image5": "/images/Frühstück/franzoesische-crepes5.webp",
+      "image6": "/images/Frühstück/franzoesische-crepes6.webp",
+      "image7": "/images/Frühstück/franzoesische-crepes7.webp"
+    }
+  },
+  {
+    "title": "Warmer Beeren-Crumble aus dem Ofen",
+    "seo_title": "Beeren-Crumble Rezept – einfach, fruchtig & knusprig",
+    "image": "/images/Desserts/beeren-crumble.webp",
+    "prepTime": 15,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "beeren crumble rezept",
+      "einfacher crumble mit beeren",
+      "schnelles dessert mit beeren",
+      "crumble ohne ei",
+      "knuspriger streuselkuchen",
+      "beeren nachtisch rezept",
+      "süßes rezept mit früchten"
+    ],
+    "rating": 4.9,
+    "reviews": 87,
+    "category": "Desserts",
+    "slug": "beeren-crumble",
+    "tags": [
+      "Beeren",
+      "Crumble",
+      "Dessert",
+      "einfach",
+      "schnell"
+    ],
+    "createdDate": new Date("2025-03-01T10:00:00Z"),
+    "updatedDate": new Date("2025-04-11T12:00:00Z"),
+    "servings": 6,
+    "description": "Ein fruchtiger Beeren-Crumble mit knusprigen Streuseln – perfekt als schnelles Dessert oder süßer Sommergenuss.",
+    "descriptionOnImage": "Fruchtig, warm und herrlich knusprig – dein neuer Lieblingscrumble!",
+    "introductionParagraph": "Es gibt kaum etwas, das mich mehr an einen gemütlichen Nachmittag erinnert als der Duft von warmem Beeren-Crumble aus dem Ofen. Wenn die süßen Beeren beim Backen anfangen zu blubbern und die buttrigen Streusel goldbraun werden, füllt sich meine Küche mit purem Wohlfühlaroma. Dieser Crumble ist für mich ein echter Seelentröster – egal ob im Sommer mit frischen Beeren aus dem Garten oder im Winter mit tiefgekühlten Beeren. Ich erinnere mich noch gut an das erste Mal, als ich diesen Crumble für Freunde gebacken habe: Alle waren begeistert von der Kombination aus säuerlich-fruchtigen Beeren und süßen, knusprigen Streuseln. Dazu eine Kugel Vanilleeis – himmlisch! Und das Beste: Du brauchst keine ausgefallenen Zutaten oder viel Backerfahrung. In gerade mal 15 Minuten ist alles vorbereitet, der Rest erledigt der Ofen. Perfekt also, wenn’s mal schnell gehen muss oder du spontan Gäste bekommst.",
+    "additionalParagraph": "Ich liebe es, wie vielseitig dieser Beeren-Crumble ist. Je nach Saison kannst du ganz nach Lust und Laune Himbeeren, Blaubeeren, Johannisbeeren oder Brombeeren verwenden – oder einfach eine fertige Beerenmischung aus dem Tiefkühlfach. Die Streusel gelingen immer und lassen sich mit Haferflocken oder Nüssen nach Belieben abwandeln. Manchmal streue ich noch etwas Zimt darüber oder gebe gehackte Mandeln mit hinein, wenn ich Lust auf eine extra Portion Crunch habe. Dieser Crumble ist nicht nur bei mir zu Hause ein Dauerbrenner – auch meine Leserinnen und Leser schwärmen regelmäßig davon. Besonders mag ich, dass man ihn sowohl warm als auch kalt genießen kann. Frisch gebacken mit Vanillesoße ist er ein Traum, aber auch am nächsten Tag schmeckt er zum Frühstück (ja, ich gestehe!) mit einem Löffel Joghurt richtig gut. Ich bin mir sicher: Dieser Crumble wird auch in deiner Küche schnell zum Lieblingsrezept!",
+    "ingredientsNeeded": [
+      {
+        "title": "Beerenmischung",
+        "description": "Die saftigen Beeren sind der Star dieses Crumbles. Sie sorgen für Fruchtigkeit, Farbe und ein angenehm säuerlich-süßes Aroma."
+      },
+      {
+        "title": "Zucker",
+        "description": "Zucker bringt die natürliche Süße der Beeren hervor und karamellisiert leicht im Ofen – perfekt für ein harmonisches Aroma."
+      },
+      {
+        "title": "Zitronensaft",
+        "description": "Ein Spritzer Zitronensaft bringt Frische ins Spiel und hebt den Geschmack der Beeren wunderbar hervor."
+      },
+      {
+        "title": "Butter",
+        "description": "Die Butter ist das Herz der Streusel – sie sorgt für eine zart-knusprige Textur und einen feinen, buttrigen Geschmack."
+      },
+      {
+        "title": "Mehl",
+        "description": "Mehl bildet die Basis der Streusel und verbindet sich beim Backen mit der Butter zu herrlich goldenen Krümeln."
+      },
+      {
+        "title": "Haferflocken",
+        "description": "Haferflocken geben den Streuseln eine rustikale Note und extra Biss – ideal für den Kontrast zur weichen Beerenfüllung."
+      },
+      {
+        "title": "Vanillezucker",
+        "description": "Vanillezucker rundet die Streusel geschmacklich ab und verleiht ihnen ein zartes Vanillearoma."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Beerenfüllung",
+        "description": "Diese Mischung aus saftigen Beeren und etwas Säure bildet die fruchtige Basis des Crumbles.",
+        "ingredients": [
+          { "amount": 500, "unit": "g", "name": "gemischte Beeren (frisch oder TK)" },
+          { "amount": 2, "unit": "EL", "name": "Zucker" },
+          { "amount": 1, "unit": "EL", "name": "Zitronensaft" }
+        ]
+      },
+      {
+        "title": "Für die Streusel",
+        "description": "Knusprige Streusel mit einer Extraportion Butter und feinem Vanillegeschmack.",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Mehl" },
+          { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
+          { "amount": 80, "unit": "g", "name": "kalte Butter" },
+          { "amount": 60, "unit": "g", "name": "Zucker" },
+          { "amount": 1, "unit": "Päckchen", "name": "Vanillezucker" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 500, "unit": "g", "name": "gemischte Beeren (frisch oder TK)" },
+      { "amount": 1, "unit": "EL", "name": "Zitronensaft" },
+      { "amount": 100, "unit": "g", "name": "Mehl" },
+      { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
+      { "amount": 80, "unit": "g", "name": "kalte Butter" },
+      { "amount": 96, "unit": "g", "name": "Zucker" },
+      { "amount": 1, "unit": "Päckchen", "name": "Vanillezucker" }
+    ],
+    "instructions": [
+      "Backofen auf 180 °C Ober-/Unterhitze vorheizen.",
+      "Beeren in eine ofenfeste Form geben, mit Zucker und Zitronensaft vermengen.",
+      "Für die Streusel Mehl, Haferflocken, Zucker und Vanillezucker in einer Schüssel mischen.",
+      "Butter in kleinen Stücken dazugeben und mit den Händen zu Streuseln verarbeiten.",
+      "Die Streusel gleichmäßig über die Beeren streuen.",
+      "Crumble auf mittlerer Schiene ca. 30 Minuten backen, bis die Streusel goldbraun sind.",
+      "Etwas abkühlen lassen und nach Belieben mit Vanilleeis oder Sahne servieren."
+    ],
+    "nutrition": {
+      "calories": 1805,
+      "protein": "22g",
+      "carbs": "264g",
+      "fat": "73g"
+    },
+    "tips": [
+      "Für extra Crunch kannst du gehackte Mandeln oder Haselnüsse zu den Streuseln geben.",
+      "Statt Zucker schmeckt auch brauner Rohrzucker wunderbar karamellig.",
+      "Wenn du Tiefkühlbeeren verwendest, musst du sie nicht auftauen – einfach direkt verwenden.",
+      "Etwas Zimt in den Streuseln sorgt für eine warme, winterliche Note.",
+      "Der Crumble lässt sich super vorbereiten und vor dem Servieren einfach kurz aufwärmen.",
+      "Mit einer Kugel Vanilleeis oder einem Klecks Sahne wird’s besonders lecker.",
+      "Übriggebliebener Crumble schmeckt auch am nächsten Tag kalt zum Frühstück."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieser Beeren-Crumble ein Liebling ist",
+      "reasons": [
+        {
+          "title": "Schnell gemacht",
+          "description": "In nur 15 Minuten vorbereitet – ideal für spontane Gäste oder Dessertgelüste."
+        },
+        {
+          "title": "Saisonunabhängig",
+          "description": "Ob frische Sommerbeeren oder TK-Vorrat – dieses Rezept passt das ganze Jahr."
+        },
+        {
+          "title": "Knusprig trifft fruchtig",
+          "description": "Die Kombination aus warmen Beeren und buttrigen Streuseln ist einfach unwiderstehlich."
+        },
+        {
+          "title": "Super wandelbar",
+          "description": "Zutaten lassen sich nach Lust und Vorrat variieren – kreativ backen war nie so einfach."
+        },
+        {
+          "title": "Familienfreundlich",
+          "description": "Groß und Klein lieben diesen Crumble – perfekt für den Kaffeetisch oder als Nachtisch."
+        },
+        {
+          "title": "Perfekt für Gäste",
+          "description": "Lässt sich gut vorbereiten und ist ein echter Hingucker auf jedem Buffet."
+        },
+        {
+          "title": "Auch kalt ein Genuss",
+          "description": "Am nächsten Tag mit Joghurt ein himmlisches Frühstück – das nenne ich Resteverwertung deluxe!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lass dir jeden Löffel meines Beeren-Crumbles schmecken!",
+      "subText": "Ich bin gespannt, wie er dir gelingt – erzähl mir unbedingt davon!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Beeren vorbereiten",
+        "description": "Die Früchte werden kurz mit Zucker und Zitronensaft vermengt – das bringt die Aromen zum Leuchten."
+      },
+      {
+        "title": "Streusel anrühren",
+        "description": "Alle trockenen Zutaten mischen und mit Butter zu feinen Krümeln kneten – ganz einfach per Hand."
+      },
+      {
+        "title": "Backen und genießen",
+        "description": "Ab in den Ofen – nach etwa 30 Minuten hast du ein goldbraunes, duftendes Dessert vor dir."
+      }
+    ],
+    "servingSuggestion": "Am besten warm servieren mit einer Kugel Vanilleeis oder einem Klecks Schlagsahne.",
+    "servingSuggestions": {
+      "title": "Perfekte Begleiter für deinen Beeren-Crumble",
+      "description": "So wird dein Dessert-Erlebnis noch besonderer – hier ein paar köstliche Ideen.",
+      "note": "Alle Varianten lassen sich leicht kombinieren.",
+      "items": [
+        {
+          "emoji": "🍦",
+          "title": "Vanilleeis",
+          "description": "Der Klassiker schlechthin – schmilzt wunderbar über dem warmen Crumble."
+        },
+        {
+          "emoji": "🍶",
+          "title": "Warme Vanillesoße",
+          "description": "Sanft und cremig – perfekt zur fruchtigen Beerenfüllung."
+        },
+        {
+          "emoji": "☕",
+          "title": "Eine Tasse Kaffee",
+          "description": "Ein stark gebrühter Kaffee rundet das Dessert geschmacklich ab."
+        },
+        {
+          "emoji": "🍓",
+          "title": "Frische Beeren",
+          "description": "Dekorativ und lecker – ein paar extra Beeren on top machen immer was her."
+        },
+        {
+          "emoji": "🥣",
+          "title": "Joghurt oder Skyr",
+          "description": "Besonders am nächsten Tag – kalt mit etwas Naturjoghurt ein leichtes Frühstück."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du schon?",
+      "description": "Das Wort 'Crumble' kommt aus dem Englischen und bedeutet 'Krümel' – passender könnte man diese Streuseldesserts kaum benennen!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/beerenCrumbleIngredient.webp",
+      "image1": "/images/Desserts/beeren-crumble1.webp",
+      "image2": "/images/Desserts/beeren-crumble2.webp",
+      "image3": "/images/Desserts/beeren-crumble3.webp",
+      "image4": "/images/Desserts/beeren-crumble4.webp",
+      "image5": "/images/Desserts/beeren-crumble5.webp",
+      "image6": "/images/Desserts/beeren-crumble6.webp",
+      "image7": "/images/Desserts/beeren-crumble7.webp"
+    }
+  },
+  {
+    "title": "Himmlische Schokoladen-Mousse – Klassisch & Intensiv",
+    "seo_title": "Bestes Schokoladen-Mousse Rezept (klassisch & einfach)",
+    "image": "/images/Desserts/klassische-schokoladen-mousse.webp",
+    "prepTime": 25,
+    "cookingTime": 180,
+    "seo_keywords": [
+      "Schokoladen-Mousse",
+      "Mousse au Chocolat Rezept",
+      "einfaches Schokoladenmousse",
+      "Schokomousse mit Sahne",
+      "bestes Schokoladenmousse",
+      "Mousse au Chocolat klassisch",
+      "Dessert mit Schokolade"
+    ],
+    "rating": 4.9,
+    "reviews": 215,
+    "category": "Desserts",
+    "slug": "bestes-schokoladen-mousse-rezept-klassisch-einfach",
+    "tags": [
+      "Schokoladen-Mousse",
+      "Mousse au Chocolat",
+      "Klassiker",
+      "Schokolade",
+      "Dessert"
+    ],
+    "createdDate": new Date("2024-03-02T11:00:00Z"),
+    "updatedDate": new Date("2025-04-12T02:00:00Z"),
+    "servings": 4,
+    "description": "Entdecke das beste Rezept für klassische Schokoladen-Mousse! Intensiv, luftig und überraschend einfach – ein Mousse au Chocolat Traum mit Sahne.",
+    "descriptionOnImage": "Luftig-zarte Schokoladen-Mousse",
+    "introductionParagraph": "Oh, Schokoladen-Mousse! Allein der Name lässt doch schon das Herz höherschlagen, oder? Für mich ist es der Inbegriff eines eleganten, verführerischen Desserts. Diese unglaublich luftige, zartschmelzende Textur kombiniert mit dem tiefen, intensiven Geschmack von guter Schokolade – einfach unwiderstehlich! Ich erinnere mich noch genau, wie ich als Kind dachte, so etwas Feines könne man nur im Restaurant bekommen. Aber ich verspreche euch: Mit diesem Mousse au Chocolat Rezept zaubert ihr ein Dessert auf den Tisch, das nicht nur beeindruckend aussieht, sondern auch himmlisch schmeckt. Es ist ein echter Klassiker, der nie aus der Mode kommt und zu jedem Anlass passt, sei es ein festliches Dinner, ein gemütlicher Abend zu zweit oder einfach, um sich selbst mal so richtig zu verwöhnen. Dieses spezielle Rezept für Schokoladen-Mousse habe ich über die Jahre perfektioniert, um genau die richtige Balance zwischen Schokoladenintensität und luftiger Leichtigkeit zu finden. Es ist mein absolutes Lieblingsrezept, weil es zuverlässig gelingt und das Ergebnis einfach pure Glückseligkeit auf dem Löffel ist.",
+    "additionalParagraph": "Was ich an diesem klassischen Mousse au Chocolat Rezept besonders liebe, ist die Magie, die passiert, wenn wenige, aber hochwertige Zutaten zusammenkommen. Das Geheimnis liegt wirklich in der Qualität der Schokolade – greift hier unbedingt zu eurer Lieblings-Zartbitterschokolade mit hohem Kakaoanteil! – und in der sorgfältigen Zubereitung. Keine Angst, es ist wirklich kein Hexenwerk, auch wenn es vielleicht erst so klingt. Das Trennen der Eier, das Schmelzen der Schokolade über dem Wasserbad, das luftige Aufschlagen von Eiweiß und Sahne ('Schokomousse mit Sahne' – ja, die gehört für mich dazu!), und dann das vorsichtige Unterheben… jeder Schritt trägt dazu bei, diese unvergleichliche Textur zu erzeugen. Es ist ein fast meditativer Prozess, finde ich. Und das Ergebnis? Ein 'Mousse au Chocolat klassisch', wie es sein soll: nicht zu süß, wunderbar schokoladig und so luftig, dass es auf der Zunge zergeht. Viele halten es für das 'beste Schokoladenmousse', das sie je gegessen haben, und das macht mich natürlich jedes Mal ein bisschen stolz. Probiert es aus, ihr werdet sehen, wie dieses 'einfache Schokoladenmousse' euch verzaubert!",
+    "ingredientsNeeded": [
+      {
+        "title": "Hochwertige Zartbitterschokolade",
+        "description": "Das A und O für ein intensives Geschmackserlebnis. Wählt eine Schokolade mit mindestens 60-70% Kakaoanteil. Ihre Qualität bestimmt maßgeblich den Geschmack eurer Schokoladen-Mousse."
+      },
+      {
+        "title": "Frische Eier",
+        "description": "Sie sind verantwortlich für die Bindung und die luftige Struktur. Getrennt in Eigelb (für Reichhaltigkeit) und Eiweiß (für die Luftigkeit als Eischnee)."
+      },
+      {
+        "title": "Schlagsahne",
+        "description": "Macht die Mousse cremig und trägt ebenfalls zur luftigen Konsistenz bei. Ein Muss für ein echtes 'Schokomousse mit Sahne'."
+      },
+      {
+        "title": "Zucker",
+        "description": "Süßt die Mousse und stabilisiert den Eischnee. Die Menge kann je nach Geschmack und Süße der Schokolade angepasst werden."
+      },
+      {
+        "title": "Butter",
+        "description": "Eine kleine Menge Butter sorgt für zusätzlichen Glanz und Geschmeidigkeit der geschmolzenen Schokolade."
+      },
+      {
+        "title": "Eine Prise Salz",
+        "description": "Hebt den Schokoladengeschmack hervor und balanciert die Süße aus. Ein kleiner Trick mit großer Wirkung!"
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Mousse au Chocolat",
+        "description": "Alle Komponenten, die zusammen die traumhaft luftige und intensiv schokoladige Mousse ergeben.",
+        "ingredients": [
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "gute Zartbitterschokolade (mind. 60% Kakao)"
+          },
+          {
+            "amount": 3,
+            "unit": "",
+            "name": "sehr frische Eier (Größe M), getrennt"
+          },
+          {
+            "amount": 200,
+            "unit": "ml",
+            "name": "kalte Schlagsahne"
+          },
+          {
+            "amount": 30,
+            "unit": "g",
+            "name": "Zucker"
+          },
+          {
+            "amount": 20,
+            "unit": "g",
+            "name": "Butter"
+          },
+          {
+            "amount": 1,
+            "unit": "Prise",
+            "name": "Salz"
+          },
+          {
+            "amount": 1,
+            "unit": "TL",
+            "name": "Vanilleextrakt (optional)"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "gute Zartbitterschokolade (mind. 60% Kakao)"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "sehr frische Eier (Größe M), getrennt"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "name": "kalte Schlagsahne"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "name": "Zucker"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "name": "Butter"
+      },
+      {
+        "amount": 1,
+        "unit": "Prise",
+        "name": "Salz"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "name": "Vanilleextrakt (optional)"
+      }
+    ],
+    "instructions": [
+      "Die Schokolade grob hacken und zusammen mit der Butter in einer hitzebeständigen Schüssel über einem heißen, aber nicht kochenden Wasserbad langsam schmelzen lassen. Gelegentlich umrühren, bis alles glatt ist. Vom Wasserbad nehmen und etwas abkühlen lassen (lauwarm).",
+      "Die Eier trennen. Die Eigelbe mit etwa der Hälfte des Zuckers (15g) und optional Vanilleextrakt hell und cremig aufschlagen.",
+      "Die abgekühlte, aber noch flüssige Schokoladenmischung unter die Eigelbcreme rühren.",
+      "Das Eiweiß mit einer Prise Salz steif schlagen. Dabei nach und nach den restlichen Zucker (15g) einrieseln lassen, bis ein glänzender, fester Eischnee entsteht.",
+      "Die kalte Schlagsahne steif schlagen (nicht zu fest, sie sollte noch cremig sein).",
+      "Zuerst etwa ein Drittel des Eischnees zügig unter die Schokoladen-Eigelb-Masse heben, um sie aufzulockern.",
+      "Dann den restlichen Eischnee vorsichtig unterheben, dabei möglichst wenig Luftigkeit verlieren. Am besten einen Teigschaber verwenden und große, lockernde Bewegungen machen.",
+      "Anschließend die geschlagene Sahne ebenso vorsichtig unterheben, bis keine weißen Schlieren mehr zu sehen sind.",
+      "Die fertige Schokoladen-Mousse in Dessertgläser oder eine Schüssel füllen und für mindestens 3-4 Stunden, am besten über Nacht, im Kühlschrank fest werden lassen.",
+      "Vor dem Servieren nach Belieben garnieren (z.B. mit Sahnetupfern, Schokospänen oder Beeren)."
+    ],
+    "nutrition": {
+      "calories": 2065,
+      "protein": "34g",
+      "carbs": "97g",
+      "fat": "166g"
+    },
+    "tips": [
+      "Schokoladenqualität: Ich kann es nicht oft genug sagen: Die Qualität der Schokolade ist entscheidend für das 'beste Schokoladenmousse'. Experimentiert mit verschiedenen Sorten (60%, 70%, vielleicht sogar eine mit Chili oder Orange?).",
+      "Temperaturmanagement: Achtet darauf, dass die geschmolzene Schokolade nur lauwarm ist, bevor ihr sie mit den Eigelben mischt, sonst könnten diese gerinnen. Sie darf aber auch nicht zu kalt sein, sonst wird sie wieder fest.",
+      "Vorsichtig unterheben: Das A und O für ein luftiges Mousse! Hebt Eischnee und Sahne wirklich sanft unter die Schokomasse, damit die eingeschlagene Luft erhalten bleibt. Nicht rühren!",
+      "Eier-Sicherheit: Verwendet für dieses 'Mousse au Chocolat klassisch' nur ganz frische Eier. Wer Bedenken wegen roher Eier hat, kann pasteurisiertes Eigelb und Eiweiß verwenden oder auf ein 'Schokomousse ohne Ei' Rezept ausweichen (siehe nächster Tipp).",
+      "Variante: Schokomousse ohne Ei? Für eine Version ohne Ei kann man Aquafaba (das Kochwasser von Kichererbsen) wie Eischnee aufschlagen oder eine Basis aus Avocado und geschmolzener Schokolade herstellen. Die Textur wird anders, aber ebenfalls lecker!",
+      "Aromatisieren: Verfeinert eure Schokoladen-Mousse mit einem Schuss Espresso, Rum, Orangenlikör oder etwas Orangenschale für eine besondere Note.",
+      "Perfekte Konsistenz: Lasst die Mousse ausreichend lange kühlen. Mindestens 3-4 Stunden sind nötig, über Nacht wird sie oft noch besser.",
+      "Serviervorschläge: Neben den Klassikern wie Sahne und Beeren passen auch Physalis, Mango, ein salziges Karamell oder geröstete Nüsse wunderbar dazu."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Schokoladen-Mousse Rezept mein Herz erobert hat",
+      "reasons": [
+        {
+          "title": "Purer, intensiver Schokoladengenuss",
+          "description": "Dieses Mousse schmeckt wirklich nach Schokolade! Nicht zu süß, sondern tief, dunkel und unglaublich befriedigend. Ein Traum für jeden Chocoholic."
+        },
+        {
+          "title": "Himmlisch luftige Textur",
+          "description": "Es ist die perfekte Balance zwischen cremig und luftig. Jeder Löffel zergeht förmlich auf der Zunge – so muss ein 'Mousse au Chocolat klassisch' sein."
+        },
+        {
+          "title": "Überraschend einfach gemacht",
+          "description": "Auch wenn es raffiniert aussieht, ist die Zubereitung gut machbar. Mit etwas Sorgfalt gelingt dieses 'einfache Schokoladenmousse' garantiert."
+        },
+        {
+          "title": "Eleganz, die beeindruckt",
+          "description": "Ob im Glas oder als Nocke auf dem Teller serviert – dieses Dessert sieht immer edel aus und sorgt für bewundernde Blicke bei Gästen."
+        },
+        {
+          "title": "Perfekt vorzubereiten",
+          "description": "Man kann (und sollte!) die Mousse am Vortag zubereiten. Das nimmt den Stress am Tag des Essens und der Geschmack kann sich voll entfalten."
+        },
+        {
+          "title": "Ein zeitloser Klassiker",
+          "description": "Mousse au Chocolat kommt nie aus der Mode. Dieses Rezept ist die 'Mousse au Chocolat klassisch', die immer passt und geliebt wird."
+        },
+        {
+          "title": "Mit Sahne für die Cremigkeit",
+          "description": "Die Zugabe von geschlagener Sahne macht dieses 'Schokomousse mit Sahne' besonders zart und rund im Geschmack – für mich unverzichtbar."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lasst euch diese schokoladige Sünde auf der Zunge zergehen!",
+      "subText": "Ich bin gespannt, ob ihr genauso verliebt seid wie ich. Viel Freude beim Genießen!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Schokoladenbasis schaffen",
+        "description": "Das Herzstück beginnt mit dem sanften Schmelzen der hochwertigen Schokolade und Butter. Dies bildet die Grundlage für den intensiven Geschmack."
+      },
+      {
+        "title": "Schritt 2: Eigelb & Schokolade verbinden",
+        "description": "Die cremigen Eigelbe werden mit der lauwarmen Schokolade vereint. Dieser Schritt sorgt für Reichhaltigkeit und Bindung in der Mousse."
+      },
+      {
+        "title": "Schritt 3: Luftigkeit erzeugen",
+        "description": "Hier kommt die Magie ins Spiel: Steif geschlagenes Eiweiß und Sahne werden separat vorbereitet, um maximale Luft unterzuheben. Das ist der Schlüssel zur Mousse-Textur."
+      },
+      {
+        "title": "Schritt 4: Sanft vermählen & Kühlen",
+        "description": "Nun werden alle Komponenten – Schokomasse, Eischnee, Sahne – vorsichtig untergehoben. Geduld beim Kühlen lässt die Mousse fest werden und die Aromen verschmelzen."
+      }
+    ],
+    "servingSuggestion": "Serviert die Schokoladen-Mousse gut gekühlt, garniert mit frischen Himbeeren und ein paar selbstgemachten Schokospänen.",
+    "servingSuggestions": {
+      "title": "Perfekte Begleiter für deine Schokoladen-Mousse",
+      "description": "Diese klassische Schokoladen-Mousse ist solo ein Star, aber mit diesen Ideen wird der Genuss noch größer:",
+      "note": "Achtet auf Kontraste in Textur und Geschmack!",
+      "items": [
+        {
+          "emoji": "🍓",
+          "title": "Frische Beeren",
+          "description": "Himbeeren, Erdbeeren oder ein Mix aus Waldbeeren bringen eine fruchtige Säure ins Spiel, die wunderbar mit der Schokolade harmoniert."
+        },
+        {
+          "emoji": "☁️",
+          "title": "Leichter Sahnetupfer",
+          "description": "Ein kleiner, ungesüßter oder nur leicht gesüßter Sahnetupfer rundet das 'Schokomousse mit Sahne' ab, ohne zu dominieren."
+        },
+        {
+          "emoji": "🍫",
+          "title": "Schokospäne oder Kakaonibs",
+          "description": "Für mehr Textur und noch intensiveren Schokogeschmack. Selbstgemachte Späne sehen besonders edel aus."
+        },
+        {
+          "emoji": "🍊",
+          "title": "Orangenfilets oder -zeste",
+          "description": "Die Kombination von Orange und Schokolade ist ein Klassiker. Frische Filets oder fein geriebene Bio-Orangenschale setzen Akzente."
+        },
+        {
+          "emoji": "☕",
+          "title": "Espresso-Sauce",
+          "description": "Ein kleiner Schuss kalter Espresso oder eine leichte Espresso-Sauce unterstreicht die herben Noten der Schokolade."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstet ihr schon?",
+      "description": "Das Wort 'Mousse' ist französisch und bedeutet 'Schaum'. Die Erfindung der Mousse au Chocolat, wie wir sie heute kennen, wird oft dem französischen Künstler Henri de Toulouse-Lautrec zugeschrieben, der sie Ende des 19. Jahrhunderts unter dem Namen 'Mayonnaise de Chocolat' kreiert haben soll!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/schokoladen-mousse-zutaten.webp",
+      "image1": "/images/Desserts/klassische-schokoladen-mousse1.webp",
+      "image2": "/images/Desserts/klassische-schokoladen-mousse2.webp",
+      "image3": "/images/Desserts/klassische-schokoladen-mousse3.webp",
+      "image4": "/images/Desserts/klassische-schokoladen-mousse4.webp",
+      "image5": "/images/Desserts/klassische-schokoladen-mousse5.webp",
+      "image6": "/images/Desserts/klassische-schokoladen-mousse6.webp",
+      "image7": "/images/Desserts/klassische-schokoladen-mousse7.webp"
+    }
+  }
 ];
 
 export function getRecipeBySlug(slug: string) {

@@ -50,7 +50,8 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     'griechischer-bauernsalat',
     'mediterraner-nudelsalat',
     'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble'
+    'beeren-crumble',
+    'bestes-schokoladen-mousse-rezept-klassisch-einfach'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -126,7 +127,8 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     'griechischer-bauernsalat',
     'mediterraner-nudelsalat',
     'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble'
+    'beeren-crumble',
+    'bestes-schokoladen-mousse-rezept-klassisch-einfach'
   ].includes(slug)) {
     recipe = recipesData1.find((r) => r.slug === slug);
   } else {
@@ -223,7 +225,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'griechischer-bauernsalat',
     'mediterraner-nudelsalat',
     'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble'
+    'beeren-crumble',
+    'bestes-schokoladen-mousse-rezept-klassisch-einfach'
   ].includes(slug)) {
     const foundRecipe = recipesData1.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
@@ -265,7 +268,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'griechischer-bauernsalat',
     'mediterraner-nudelsalat',
     'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble'
+    'beeren-crumble',
+    'bestes-schokoladen-mousse-rezept-klassisch-einfach'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
