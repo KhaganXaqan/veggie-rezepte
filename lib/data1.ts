@@ -5684,8 +5684,225 @@ export const recipes: Recipe[] = [
         "image6": "/images/Frühstück/franzoesische-crepes6.webp",
         "image7": "/images/Frühstück/franzoesische-crepes7.webp"
       }
+    },
+    {
+      "title": "Warmer Beeren-Crumble aus dem Ofen",
+      "seo_title": "Beeren-Crumble Rezept – einfach, fruchtig & knusprig",
+      "image": "/images/Desserts/beeren-crumble.webp",
+      "prepTime": 15,
+      "cookingTime": 30,
+      "seo_keywords": [
+        "beeren crumble rezept",
+        "einfacher crumble mit beeren",
+        "schnelles dessert mit beeren",
+        "crumble ohne ei",
+        "knuspriger streuselkuchen",
+        "beeren nachtisch rezept",
+        "süßes rezept mit früchten"
+      ],
+      "rating": 4.9,
+      "reviews": 87,
+      "category": "Desserts",
+      "slug": "beeren-crumble",
+      "tags": [
+        "Beeren",
+        "Crumble",
+        "Dessert",
+        "einfach",
+        "schnell"
+      ],
+      "createdDate": new Date("2025-03-01T10:00:00Z"),
+      "updatedDate": new Date("2025-04-11T12:00:00Z"),
+      "servings": 6,
+      "description": "Ein fruchtiger Beeren-Crumble mit knusprigen Streuseln – perfekt als schnelles Dessert oder süßer Sommergenuss.",
+      "descriptionOnImage": "Fruchtig, warm und herrlich knusprig – dein neuer Lieblingscrumble!",
+      "introductionParagraph": "Es gibt kaum etwas, das mich mehr an einen gemütlichen Nachmittag erinnert als der Duft von warmem Beeren-Crumble aus dem Ofen. Wenn die süßen Beeren beim Backen anfangen zu blubbern und die buttrigen Streusel goldbraun werden, füllt sich meine Küche mit purem Wohlfühlaroma. Dieser Crumble ist für mich ein echter Seelentröster – egal ob im Sommer mit frischen Beeren aus dem Garten oder im Winter mit tiefgekühlten Beeren. Ich erinnere mich noch gut an das erste Mal, als ich diesen Crumble für Freunde gebacken habe: Alle waren begeistert von der Kombination aus säuerlich-fruchtigen Beeren und süßen, knusprigen Streuseln. Dazu eine Kugel Vanilleeis – himmlisch! Und das Beste: Du brauchst keine ausgefallenen Zutaten oder viel Backerfahrung. In gerade mal 15 Minuten ist alles vorbereitet, der Rest erledigt der Ofen. Perfekt also, wenn’s mal schnell gehen muss oder du spontan Gäste bekommst.",
+      "additionalParagraph": "Ich liebe es, wie vielseitig dieser Beeren-Crumble ist. Je nach Saison kannst du ganz nach Lust und Laune Himbeeren, Blaubeeren, Johannisbeeren oder Brombeeren verwenden – oder einfach eine fertige Beerenmischung aus dem Tiefkühlfach. Die Streusel gelingen immer und lassen sich mit Haferflocken oder Nüssen nach Belieben abwandeln. Manchmal streue ich noch etwas Zimt darüber oder gebe gehackte Mandeln mit hinein, wenn ich Lust auf eine extra Portion Crunch habe. Dieser Crumble ist nicht nur bei mir zu Hause ein Dauerbrenner – auch meine Leserinnen und Leser schwärmen regelmäßig davon. Besonders mag ich, dass man ihn sowohl warm als auch kalt genießen kann. Frisch gebacken mit Vanillesoße ist er ein Traum, aber auch am nächsten Tag schmeckt er zum Frühstück (ja, ich gestehe!) mit einem Löffel Joghurt richtig gut. Ich bin mir sicher: Dieser Crumble wird auch in deiner Küche schnell zum Lieblingsrezept!",
+      "ingredientsNeeded": [
+        {
+          "title": "Beerenmischung",
+          "description": "Die saftigen Beeren sind der Star dieses Crumbles. Sie sorgen für Fruchtigkeit, Farbe und ein angenehm säuerlich-süßes Aroma."
+        },
+        {
+          "title": "Zucker",
+          "description": "Zucker bringt die natürliche Süße der Beeren hervor und karamellisiert leicht im Ofen – perfekt für ein harmonisches Aroma."
+        },
+        {
+          "title": "Zitronensaft",
+          "description": "Ein Spritzer Zitronensaft bringt Frische ins Spiel und hebt den Geschmack der Beeren wunderbar hervor."
+        },
+        {
+          "title": "Butter",
+          "description": "Die Butter ist das Herz der Streusel – sie sorgt für eine zart-knusprige Textur und einen feinen, buttrigen Geschmack."
+        },
+        {
+          "title": "Mehl",
+          "description": "Mehl bildet die Basis der Streusel und verbindet sich beim Backen mit der Butter zu herrlich goldenen Krümeln."
+        },
+        {
+          "title": "Haferflocken",
+          "description": "Haferflocken geben den Streuseln eine rustikale Note und extra Biss – ideal für den Kontrast zur weichen Beerenfüllung."
+        },
+        {
+          "title": "Vanillezucker",
+          "description": "Vanillezucker rundet die Streusel geschmacklich ab und verleiht ihnen ein zartes Vanillearoma."
+        }
+      ],
+      "ingredientGroups": [
+        {
+          "title": "Für die Beerenfüllung",
+          "description": "Diese Mischung aus saftigen Beeren und etwas Säure bildet die fruchtige Basis des Crumbles.",
+          "ingredients": [
+            { "amount": 500, "unit": "g", "name": "gemischte Beeren (frisch oder TK)" },
+            { "amount": 2, "unit": "EL", "name": "Zucker" },
+            { "amount": 1, "unit": "EL", "name": "Zitronensaft" }
+          ]
+        },
+        {
+          "title": "Für die Streusel",
+          "description": "Knusprige Streusel mit einer Extraportion Butter und feinem Vanillegeschmack.",
+          "ingredients": [
+            { "amount": 100, "unit": "g", "name": "Mehl" },
+            { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
+            { "amount": 80, "unit": "g", "name": "kalte Butter" },
+            { "amount": 60, "unit": "g", "name": "Zucker" },
+            { "amount": 1, "unit": "Päckchen", "name": "Vanillezucker" }
+          ]
+        }
+      ],
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "gemischte Beeren (frisch oder TK)" },
+        { "amount": 1, "unit": "EL", "name": "Zitronensaft" },
+        { "amount": 100, "unit": "g", "name": "Mehl" },
+        { "amount": 50, "unit": "g", "name": "zarte Haferflocken" },
+        { "amount": 80, "unit": "g", "name": "kalte Butter" },
+        { "amount": 96, "unit": "g", "name": "Zucker" },
+        { "amount": 1, "unit": "Päckchen", "name": "Vanillezucker" }
+      ],
+      "instructions": [
+        "Backofen auf 180 °C Ober-/Unterhitze vorheizen.",
+        "Beeren in eine ofenfeste Form geben, mit Zucker und Zitronensaft vermengen.",
+        "Für die Streusel Mehl, Haferflocken, Zucker und Vanillezucker in einer Schüssel mischen.",
+        "Butter in kleinen Stücken dazugeben und mit den Händen zu Streuseln verarbeiten.",
+        "Die Streusel gleichmäßig über die Beeren streuen.",
+        "Crumble auf mittlerer Schiene ca. 30 Minuten backen, bis die Streusel goldbraun sind.",
+        "Etwas abkühlen lassen und nach Belieben mit Vanilleeis oder Sahne servieren."
+      ],
+      "nutrition": {
+        "calories": 1805,
+        "protein": "22g",
+        "carbs": "264g",
+        "fat": "73g"
+      },
+      "tips": [
+        "Für extra Crunch kannst du gehackte Mandeln oder Haselnüsse zu den Streuseln geben.",
+        "Statt Zucker schmeckt auch brauner Rohrzucker wunderbar karamellig.",
+        "Wenn du Tiefkühlbeeren verwendest, musst du sie nicht auftauen – einfach direkt verwenden.",
+        "Etwas Zimt in den Streuseln sorgt für eine warme, winterliche Note.",
+        "Der Crumble lässt sich super vorbereiten und vor dem Servieren einfach kurz aufwärmen.",
+        "Mit einer Kugel Vanilleeis oder einem Klecks Sahne wird’s besonders lecker.",
+        "Übriggebliebener Crumble schmeckt auch am nächsten Tag kalt zum Frühstück."
+      ],
+      "whyFavorite": {
+        "title": "Warum dieser Beeren-Crumble ein Liebling ist",
+        "reasons": [
+          {
+            "title": "Schnell gemacht",
+            "description": "In nur 15 Minuten vorbereitet – ideal für spontane Gäste oder Dessertgelüste."
+          },
+          {
+            "title": "Saisonunabhängig",
+            "description": "Ob frische Sommerbeeren oder TK-Vorrat – dieses Rezept passt das ganze Jahr."
+          },
+          {
+            "title": "Knusprig trifft fruchtig",
+            "description": "Die Kombination aus warmen Beeren und buttrigen Streuseln ist einfach unwiderstehlich."
+          },
+          {
+            "title": "Super wandelbar",
+            "description": "Zutaten lassen sich nach Lust und Vorrat variieren – kreativ backen war nie so einfach."
+          },
+          {
+            "title": "Familienfreundlich",
+            "description": "Groß und Klein lieben diesen Crumble – perfekt für den Kaffeetisch oder als Nachtisch."
+          },
+          {
+            "title": "Perfekt für Gäste",
+            "description": "Lässt sich gut vorbereiten und ist ein echter Hingucker auf jedem Buffet."
+          },
+          {
+            "title": "Auch kalt ein Genuss",
+            "description": "Am nächsten Tag mit Joghurt ein himmlisches Frühstück – das nenne ich Resteverwertung deluxe!"
+          }
+        ]
+      },
+      "handwrittenMessage": {
+        "mainText": "Lass dir jeden Löffel meines Beeren-Crumbles schmecken!",
+        "subText": "Ich bin gespannt, wie er dir gelingt – erzähl mir unbedingt davon!",
+        "signature": "Dein Veggie-Rezepte Team"
+      },
+      "steps": [
+        {
+          "title": "Beeren vorbereiten",
+          "description": "Die Früchte werden kurz mit Zucker und Zitronensaft vermengt – das bringt die Aromen zum Leuchten."
+        },
+        {
+          "title": "Streusel anrühren",
+          "description": "Alle trockenen Zutaten mischen und mit Butter zu feinen Krümeln kneten – ganz einfach per Hand."
+        },
+        {
+          "title": "Backen und genießen",
+          "description": "Ab in den Ofen – nach etwa 30 Minuten hast du ein goldbraunes, duftendes Dessert vor dir."
+        }
+      ],
+      "servingSuggestion": "Am besten warm servieren mit einer Kugel Vanilleeis oder einem Klecks Schlagsahne.",
+      "servingSuggestions": {
+        "title": "Perfekte Begleiter für deinen Beeren-Crumble",
+        "description": "So wird dein Dessert-Erlebnis noch besonderer – hier ein paar köstliche Ideen.",
+        "note": "Alle Varianten lassen sich leicht kombinieren.",
+        "items": [
+          {
+            "emoji": "🍦",
+            "title": "Vanilleeis",
+            "description": "Der Klassiker schlechthin – schmilzt wunderbar über dem warmen Crumble."
+          },
+          {
+            "emoji": "🍶",
+            "title": "Warme Vanillesoße",
+            "description": "Sanft und cremig – perfekt zur fruchtigen Beerenfüllung."
+          },
+          {
+            "emoji": "☕",
+            "title": "Eine Tasse Kaffee",
+            "description": "Ein stark gebrühter Kaffee rundet das Dessert geschmacklich ab."
+          },
+          {
+            "emoji": "🍓",
+            "title": "Frische Beeren",
+            "description": "Dekorativ und lecker – ein paar extra Beeren on top machen immer was her."
+          },
+          {
+            "emoji": "🥣",
+            "title": "Joghurt oder Skyr",
+            "description": "Besonders am nächsten Tag – kalt mit etwas Naturjoghurt ein leichtes Frühstück."
+          }
+        ]
+      },
+      "funFact": {
+        "title": "Wusstest du schon?",
+        "description": "Das Wort 'Crumble' kommt aus dem Englischen und bedeutet 'Krümel' – passender könnte man diese Streuseldesserts kaum benennen!"
+      },
+      "images": {
+        "imageIngredient": "/images/Ingredients/beerenCrumbleIngredient.webp",
+        "image1": "/images/Desserts/beeren-crumble1.webp",
+        "image2": "/images/Desserts/beeren-crumble2.webp",
+        "image3": "/images/Desserts/beeren-crumble3.webp",
+        "image4": "/images/Desserts/beeren-crumble4.webp",
+        "image5": "/images/Desserts/beeren-crumble5.webp",
+        "image6": "/images/Desserts/beeren-crumble6.webp",
+        "image7": "/images/Desserts/beeren-crumble7.webp"
+      }
     }
-    
 ];
 
 export function getRecipeBySlug(slug: string) {
