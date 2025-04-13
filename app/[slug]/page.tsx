@@ -126,7 +126,7 @@ export function generateStaticParams() {
     slug: recipe.slug,
   }));
 
-  return [...dataSlugs, ...dataSlugs];
+  return [...dataSlugs];
 }
 
 export default async function RecipePage({ params }: RecipePageProps) {
