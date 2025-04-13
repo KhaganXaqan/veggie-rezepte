@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation'
 import { getRecipeBySlug as getRecipeBySlugData, recipes as recipesData, Recipe as Recipe } from '@/lib/data'
-import { getRecipeBySlug as getRecipeBySlugData1, recipes as recipesData1, Recipe as Recipe1 } from '@/lib/data1'
 import { RecipeHeader } from '@/components/recipe-header'
 import { RecipeIngredients } from '@/components/recipe-ingredients'
 import { RecipeInstructions } from '@/components/recipe-instructions'
@@ -24,39 +23,8 @@ type RecipePageProps = {
 export async function generateMetadata({ params }: RecipePageProps): Promise<Metadata> {
   const slug = params?.slug;
 
-  let recipe;
-  if (['flammkuchen',
-    'kartoffelpuffer',
-    'gemuesesuppe',
-    'kartoffelkloesse',
-    'semmelknoedel',
-    'quinoa-buddha-bowl',
-    'kaesespaetzle',
-    'pilzgulasch',
-    'gemuese-curry',
-    'brokkoli-quiche',
-    'ratatouille',
-    'gefuellte-paprika',
-    'gemuese-strudel',
-    'linsen-bolognese',
-    'dubai-schokolade',
-    'spinatknoedel',
-    'shakshuka',
-    'kuerbissuppe',
-    'suesskartoffel-kokos-suppe',
-    'griessnockerl',
-    'gemuese-couscous-salat',
-    'bunter-quinoa-salat',
-    'griechischer-bauernsalat',
-    'mediterraner-nudelsalat',
-    'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble',
-    'bestes-schokoladen-mousse-rezept-klassisch-einfach'
-  ].includes(slug)) {
-    recipe = recipesData1.find((r) => r.slug === slug);
-  } else {
-    recipe = recipesData.find((r) => r.slug === slug);
-  }
+   let  recipe = recipesData.find((r) => r.slug === slug);
+  
 
   if (!recipe) {
     return {
@@ -101,39 +69,8 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 export async function generateStructuredData({ params }: RecipePageProps) {
   const slug = params?.slug;
 
-  let recipe;
-  if (['flammkuchen',
-    'kartoffelpuffer',
-    'gemuesesuppe',
-    'kartoffelkloesse',
-    'semmelknoedel',
-    'quinoa-buddha-bowl',
-    'kaesespaetzle',
-    'pilzgulasch',
-    'gemuese-curry',
-    'brokkoli-quiche',
-    'ratatouille',
-    'gefuellte-paprika',
-    'gemuese-strudel',
-    'linsen-bolognese',
-    'dubai-schokolade',
-    'spinatknoedel',
-    'shakshuka',
-    'kuerbissuppe',
-    'suesskartoffel-kokos-suppe',
-    'griessnockerl',
-    'gemuese-couscous-salat',
-    'bunter-quinoa-salat',
-    'griechischer-bauernsalat',
-    'mediterraner-nudelsalat',
-    'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble',
-    'bestes-schokoladen-mousse-rezept-klassisch-einfach'
-  ].includes(slug)) {
-    recipe = recipesData1.find((r) => r.slug === slug);
-  } else {
-    recipe = recipesData.find((r) => r.slug === slug);
-  }
+  let recipe = recipesData.find((r) => r.slug === slug);
+  
 
   if (!recipe) return null;
 
@@ -185,55 +122,20 @@ export async function generateStructuredData({ params }: RecipePageProps) {
 }
 
 export function generateStaticParams() {
-  const data1Slugs = recipesData1.map((recipe) => ({
-    slug: recipe.slug,
-  }));
-
   const dataSlugs = recipesData.map((recipe) => ({
     slug: recipe.slug,
   }));
 
-  return [...data1Slugs, ...dataSlugs];
+  return [...dataSlugs, ...dataSlugs];
 }
 
 export default async function RecipePage({ params }: RecipePageProps) {
   const slug = params?.slug;
 
-  let recipe: Recipe | Recipe1 | null = null;
-  if (['flammkuchen',
-    'kartoffelpuffer',
-    'gemuesesuppe',
-    'kartoffelkloesse',
-    'semmelknoedel',
-    'quinoa-buddha-bowl',
-    'kaesespaetzle',
-    'pilzgulasch',
-    'gemuese-curry',
-    'brokkoli-quiche',
-    'ratatouille',
-    'gefuellte-paprika',
-    'gemuese-strudel',
-    'linsen-bolognese',
-    'dubai-schokolade',
-    'spinatknoedel',
-    'shakshuka',
-    'kuerbissuppe',
-    'suesskartoffel-kokos-suppe',
-    'griessnockerl',
-    'gemuese-couscous-salat',
-    'bunter-quinoa-salat',
-    'griechischer-bauernsalat',
-    'mediterraner-nudelsalat',
-    'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble',
-    'bestes-schokoladen-mousse-rezept-klassisch-einfach'
-  ].includes(slug)) {
-    const foundRecipe = recipesData1.find((r) => r.slug === slug);
-    if (foundRecipe) recipe = foundRecipe;
-  } else {
+  let recipe: Recipe | null = null;
     const foundRecipe = recipesData.find((r) => r.slug === slug);
     if (foundRecipe) recipe = foundRecipe;
-  }
+  
 
   if (!recipe) {
     notFound();
@@ -269,7 +171,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'mediterraner-nudelsalat',
     'franzoesische-crepes-granola-nuesse',
     'beeren-crumble',
-    'bestes-schokoladen-mousse-rezept-klassisch-einfach'
+    'bestes-schokoladen-mousse-rezept-klassisch-einfach',
+    'omas-bester-gezogener-apfelstrudel-rezept'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
