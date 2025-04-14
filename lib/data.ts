@@ -1028,103 +1028,7 @@ instructions: [
     image6: "",
     image7: "" 
   }
-  },
-  {
-    title: "Apfelstrudel",
-    image: "/images/Desserts/apfelstrudel.webp",
-    prepTime: 60,
-cookingTime: 20,
-seo_keywords: [],
-rating: 4.8,
-    category: "Desserts",
-    slug: "omas-bester-gezogener-apfelstrudel-rezept",
-    tags: ["Dessert", "Traditionell", "Gebäck"],
-    servings: 8,
-    description: "Ein traditionelles deutsches Apfelstrudel.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 100, unit: "g", name: "Butter" },
-      { amount: 100, unit: "g", name: "Zucker" },
-      { amount: 1, name: "Ei" },
-      { amount: 1, unit: "kg", name: "Äpfel" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei, den Zucker, Salz und Muskatnuss hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
-      "Die Äpfel schälen, entkernen und in dünne Scheiben schneiden. In einer Schüssel mit etwas Zucker und Zimt vermengen.",
-      "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Die Apfelmischung gleichmäßig auf dem Teig verteilen, dabei einen Rand von ca. 2 cm frei lassen.",
-      "Den Teig vorsichtig von einer Seite aufrollen und die Enden gut verschließen. Den Strudel auf ein mit Backpapier ausgelegtes Backblech legen.",
-      "Den Backofen auf 180°C vorheizen. Den Strudel mit etwas verquirltem Ei bestreichen und etwa 30–35 Minuten backen, bis er goldbraun ist. Warm servieren."
-    ],
-    nutrition: {
-      calories: 300,
-      protein: "5g",
-      carbs: "40g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
- 
+  }, 
   {
     title: "Rhabarber-Kompott",
     image: "/images/Desserts/rhabarber-kompott.webp",
@@ -7610,6 +7514,267 @@ instructions: [
       "image5": "/images/Desserts/klassische-schokoladen-mousse5.webp",
       "image6": "/images/Desserts/klassische-schokoladen-mousse6.webp",
       "image7": "/images/Desserts/klassische-schokoladen-mousse7.webp"
+    }
+  },
+  {
+    "title": "Omas Bester Gezogener Apfelstrudel – Ein Stück Wiener Mehlspeisenhimmel",
+    "seo_title": "Bestes Apfelstrudel Rezept (Gezogener Teig) – Einfach Selber Machen",
+    "image": "/images/Desserts/omas-bester-gezogener-apfelstrudel.webp",
+    "prepTime": 60,
+    "cookingTime": 45,
+    "seo_keywords": [
+      "Apfelstrudel Rezept",
+      "Gezogener Apfelstrudel",
+      "Wiener Apfelstrudel",
+      "Apfelstrudel selber machen",
+      "Omas Apfelstrudel",
+      "Apfelstrudel Teig ziehen",
+      "Bester Apfelstrudel"
+    ],
+    "rating": 4.9,
+    "reviews": 215,
+    "category": "Desserts",
+    "slug": "omas-bester-gezogener-apfelstrudel-rezept",
+    "tags": [
+      "Apfelstrudel",
+      "Gezogener Teig",
+      "Österreichische Küche",
+      "Dessert",
+      "Backen"
+    ],
+    "createdDate": new Date("2025-03-11T10:00:00Z"),
+    "updatedDate": new Date("2025-04-12T18:15:00Z"),
+    "servings": 8,
+    "description": "Lerne, wie du Omas besten gezogenen Apfelstrudel selber machen kannst! Dieses authentische Rezept für Wiener Apfelstrudel mit hauchdünnem Teig ist ein wahrer Genuss.",
+    "descriptionOnImage": "Hausgemachter Apfelstrudel wie von Oma",
+    "introductionParagraph": "Hach, Apfelstrudel! Allein der Duft, der beim Backen durchs Haus zieht, weckt doch sofort Kindheitserinnerungen, oder? Für mich ist Apfelstrudel nicht einfach nur ein Dessert, es ist pure Gemütlichkeit, ein Stück österreichische Seele auf dem Teller. Ich erinnere mich noch genau, wie ich als kleines Mädchen meiner Oma in der Küche zugeschaut habe, wie sie mit einer Engelsgeduld den Strudelteig hauchdünn über den großen Küchentisch zog. Es sah immer wie Magie aus! Lange Zeit habe ich mich selbst nicht an den gezogenen Teig herangetraut – zu kompliziert, dachte ich. Aber glaub mir, mit ein bisschen Übung und diesem Rezept, das ich über Jahre perfektioniert habe, schaffst du das auch! Dieses Rezept ist eine Hommage an meine Oma und an alle gemütlichen Kaffeekränzchen, bei denen ihr legendärer Apfelstrudel der Star war. Es ist mehr als nur Backen, es ist ein kleines Abenteuer mit einem unglaublich leckeren Ergebnis: außen knusprig, innen saftig-süß mit der perfekten Zimtnote. Lass uns gemeinsam dieses Stück Wiener Mehlspeisenhimmel zaubern!",
+    "additionalParagraph": "Das Geheimnis eines wirklich herausragenden Apfelstrudels liegt im Teig. Ja, man kann fertigen Strudelteig oder Blätterteig kaufen, und das ist völlig in Ordnung, wenn es schnell gehen muss. Aber das Gefühl, einen elastischen Teig selbst so dünn auszuziehen, dass man fast die Zeitung darunter lesen könnte (wie meine Oma immer sagte!), ist unvergleichlich. Es erfordert etwas Geduld und Fingerspitzengefühl, aber das Ergebnis belohnt jede Mühe. Der Teig wird beim Backen unglaublich zart und blättrig-knusprig, eine Textur, die man mit Fertigteig einfach nicht erreicht. Und die Füllung? Eine Symphonie aus säuerlichen Äpfeln, süßen Rosinen, gerösteten Semmelbröseln und natürlich Zimt. Die Brösel sind übrigens wichtig, sie saugen den austretenden Apfelsaft auf und verhindern, dass der dünne Teig durchweicht. Ich liebe es, wie die einfachen Zutaten zusammenkommen und etwas so Wunderbares ergeben. Trau dich ran – ich begleite dich Schritt für Schritt! Und wenn der fertige, goldbraune Strudel dann dampfend auf dem Tisch steht, wirst du mächtig stolz sein, versprochen!",
+    "ingredientsNeeded": [
+      {
+        "title": "Säuerliche Äpfel (z.B. Boskoop, Topaz)",
+        "description": "Sie geben die perfekte Balance zur Süße, zerfallen beim Backen nicht komplett und sorgen für eine saftige Füllung. Ihre leichte Säure ist essentiell für den klassischen Apfelstrudelgeschmack."
+      },
+      {
+        "title": "Mehl (Typ 405 oder W700)",
+        "description": "Ein gutes Weizenmehl mit ausreichend Kleber (Gluten) ist entscheidend, damit der Teig elastisch wird und sich hauchdünn ausziehen lässt, ohne zu reißen."
+      },
+      {
+        "title": "Semmelbrösel & Butter",
+        "description": "In Butter goldbraun geröstet, geben die Brösel nicht nur ein herrliches Aroma, sondern binden auch den Saft der Äpfel und schützen den zarten Teig vor dem Durchweichen."
+      },
+      {
+        "title": "Zimt & Zucker",
+        "description": "Das klassische Duo für die Apfelfüllung. Zimt sorgt für die warme, wohlige Note, Zucker für die nötige Süße, die die Säure der Äpfel ausgleicht."
+      },
+      {
+        "title": "Rosinen (optional)",
+        "description": "Sie gehören für viele zum traditionellen Wiener Apfelstrudel dazu. In Rum oder Apfelsaft eingeweicht, geben sie kleine Süße- und Aromakicks in der Füllung."
+      },
+      {
+        "title": "Öl & lauwarmes Wasser",
+        "description": "Diese Zutaten machen den Strudelteig geschmeidig und dehnbar. Das Öl sorgt für Elastizität, das lauwarme Wasser aktiviert den Kleber im Mehl optimal."
+      },
+      {
+        "title": "Butter (geschmolzen)",
+        "description": "Wird zum Bestreichen des Teiges vor und während des Backens verwendet. Sie sorgt für eine goldbraune Farbe und den herrlich knusprigen Biss."
+      },
+      {
+        "title": "Zitronensaft",
+        "description": "Ein kleiner Spritzer verhindert nicht nur, dass die Äpfel braun anlaufen, sondern unterstreicht auch die Fruchtigkeit und gibt der Füllung eine angenehme Frische."
+      },
+      {
+        "title": "Vanillezucker / Vanilleschote",
+        "description": "Verleiht der Apfelfüllung ein wunderbar warmes, süßes Aroma, das perfekt mit dem Zimt und den Äpfeln harmoniert. Echte Vanille hebt den Geschmack nochmal an."
+      },
+      {
+        "title": "Puderzucker",
+        "description": "Der feine weiße Schleier ist das klassische Finish für jeden Apfelstrudel. Er sorgt nicht nur für eine hübsche Optik, sondern auch für eine zarte Süße beim ersten Bissen."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Strudelteig (Gezogener Teig)",
+        "description": "Das Herzstück des traditionellen Apfelstrudels. Dieser Teig wird durch Kneten und Ziehen unglaublich elastisch und dünn.",
+        "ingredients": [
+          { "amount": 250, "unit": "g", "name": "Weizenmehl (Typ 405 oder W700)" },
+          { "amount": 1, "unit": "Prise", "name": "Salz" },
+          { "amount": 2, "unit": "EL", "name": "neutrales Pflanzenöl (z.B. Sonnenblumenöl)" },
+          { "amount": 125, "unit": "ml", "name": "lauwarmes Wasser" },
+          { "amount": 1, "unit": "EL", "name": "Essig (optional, für mehr Elastizität)" }
+        ]
+      },
+      {
+        "title": "Für die Apfelfüllung",
+        "description": "Eine saftige, aromatische Mischung aus Äpfeln, süßen Rosinen und knusprigen Butterbröseln.",
+        "ingredients": [
+          { "amount": 1.2, "unit": "kg", "name": "säuerliche Äpfel (z.B. Boskoop, Elstar, Topaz), geschält, entkernt und blättrig geschnitten" },
+          { "amount": 80, "unit": "g", "name": "Zucker (je nach Süße der Äpfel anpassen)" },
+          { "amount": 1, "unit": "TL", "name": "Zimt (gemahlen)" },
+          { "amount": 80, "unit": "g", "name": "Rosinen (optional, nach Belieben in Rum oder Apfelsaft eingeweicht)" },
+          { "amount": 1, "unit": "Pck", "name": "Vanillezucker oder Mark 1/2 Vanilleschote" },
+          { "amount": 1, "unit": "Spritzer", "name": "Zitronensaft (gegen das Braunwerden der Äpfel)" }
+        ]
+      },
+      {
+        "title": "Für die Butterbrösel & Fertigstellung",
+        "description": "Die knusprige Basis für die Füllung und das goldene Finish für den Strudel.",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Semmelbrösel" },
+          { "amount": 80, "unit": "g", "name": "Butter (für die Brösel)" },
+          { "amount": 80, "unit": "g", "name": "Butter (geschmolzen, zum Bestreichen)" },
+          { "amount": undefined, "unit": "", "name": "Puderzucker zum Bestäuben" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 250, "unit": "g", "name": "Weizenmehl (Typ 405 oder W700)" },
+      { "amount": 1, "unit": "Prise", "name": "Salz" },
+      { "amount": 2, "unit": "EL", "name": "neutrales Pflanzenöl (z.B. Sonnenblumenöl)" },
+      { "amount": 125, "unit": "ml", "name": "lauwarmes Wasser" },
+      { "amount": 1, "unit": "EL", "name": "Essig (optional, für mehr Elastizität)" },
+      { "amount": 1.2, "unit": "kg", "name": "säuerliche Äpfel (z.B. Boskoop, Elstar, Topaz), geschält, entkernt und blättrig geschnitten" },
+      { "amount": 80, "unit": "g", "name": "Zucker (je nach Süße der Äpfel anpassen)" },
+      { "amount": 1, "unit": "TL", "name": "Zimt (gemahlen)" },
+      { "amount": 80, "unit": "g", "name": "Rosinen (optional, nach Belieben in Rum oder Apfelsaft eingeweicht)" },
+      { "amount": 1, "unit": "Pck", "name": "Vanillezucker oder Mark 1/2 Vanilleschote" },
+      { "amount": 1, "unit": "Spritzer", "name": "Zitronensaft (gegen das Braunwerden der Äpfel)" },
+      { "amount": 100, "unit": "g", "name": "Semmelbrösel" },
+      { "amount": 80, "unit": "g", "name": "Butter (für die Brösel)" },
+      { "amount": 80, "unit": "g", "name": "Butter (geschmolzen, zum Bestreichen)" },
+      { "amount": undefined, "unit": "", "name": "Puderzucker zum Bestäuben" }
+    ],
+    "instructions": [
+      "Für den Teig Mehl und Salz in einer Schüssel mischen. Öl, Essig (falls verwendet) und lauwarmes Wasser zugeben und alles zu einem glatten, geschmeidigen Teig verkneten (ca. 10 Minuten per Hand oder mit der Küchenmaschine). Der Teig sollte nicht mehr kleben. Zu einer Kugel formen, dünn mit Öl bestreichen, in Frischhaltefolie wickeln und bei Zimmertemperatur mindestens 30-60 Minuten ruhen lassen.",
+      "Währenddessen die Füllung vorbereiten: Äpfel schälen, vierteln, Kerngehäuse entfernen und in dünne Blättchen schneiden oder hobeln. Sofort mit Zitronensaft beträufeln. Zucker, Zimt, Vanillezucker und eingeweichte Rosinen (falls verwendet) untermischen.",
+      "In einer Pfanne 80g Butter schmelzen und die Semmelbrösel darin unter ständigem Rühren goldbraun rösten. Vom Herd nehmen und abkühlen lassen.",
+      "Den Backofen auf 180°C Ober-/Unterhitze vorheizen. Ein Backblech mit Backpapier belegen.",
+      "Ein großes Küchentuch (ca. 70x100 cm) auf der Arbeitsfläche ausbreiten und leicht bemehlen. Den Teig aus der Folie nehmen und auf dem Tuch erst mit dem Nudelholz etwas ausrollen.",
+      "Nun beginnt das Ausziehen: Mit den bemehlten Handrücken vorsichtig unter den Teig greifen und ihn von der Mitte nach außen langsam und gleichmäßig hauchdünn ziehen. Arbeite dich rundherum vor. Der Teig sollte so dünn sein, dass man das Muster des Küchentuchs erkennen kann. Dickere Ränder eventuell abschneiden.",
+      "Den ausgezogenen Teig zuerst mit etwa der Hälfte der geschmolzenen Butter (80g) vorsichtig bestreichen. Die gerösteten Semmelbrösel gleichmäßig darauf verteilen, dabei an den Rändern etwas Platz lassen.",
+      "Die Apfelmischung auf dem unteren Drittel des Teiges (längere Seite) als Strang verteilen. Die seitlichen Ränder des Teiges über die Füllung einschlagen.",
+      "Den Strudel mithilfe des Küchentuchs von der Füllungsseite her vorsichtig, aber zügig aufrollen. Das Tuch dabei immer wieder anheben.",
+      "Den fertigen Strudel mit der Naht nach unten vorsichtig auf das vorbereitete Backblech gleiten lassen. Mit der restlichen geschmolzenen Butter gut bestreichen.",
+      "Im vorgeheizten Ofen ca. 40-50 Minuten goldbraun backen. Während des Backens eventuell noch 1-2 Mal mit geschmolzener Butter bestreichen.",
+      "Den fertigen Apfelstrudel aus dem Ofen nehmen, kurz abkühlen lassen und vor dem Servieren großzügig mit Puderzucker bestäuben. Lauwarm schmeckt er am besten!"
+    ],
+    "nutrition": {
+      "calories": 3865,
+      "protein": "47+g",
+      "carbs": "544+g",
+      "fat": "173+g"
+    },
+    "tips": [
+      "Teigruhe ist König: Lass den Teig wirklich lange genug ruhen. Mindestens 30 Minuten, besser 60. Nur so kann sich das Gluten entspannen und der Teig wird elastisch genug zum Ziehen.",
+      "Warmes Arbeiten: Der Teig und alle Zutaten (besonders das Wasser für den Teig) sollten Zimmertemperatur haben. Auch ein warmer Raum erleichtert das Ausziehen.",
+      "Geduld beim Ziehen: Nicht reißen, sondern sanft ziehen! Wenn doch ein kleines Loch entsteht, ist das nicht schlimm, es wird beim Aufrollen verdeckt. Arbeite mit bemehlten Handrücken, nicht mit den Fingernägeln.",
+      "Apfelwahl: Feste, säuerliche Äpfel sind ideal. Werden die Äpfel zu weich, wird die Füllung matschig. Boskoop, Jonagold oder Elstar eignen sich hervorragend.",
+      "Keine nassen Füße: Die Butterbrösel sind essentiell, um den Saft aufzusaugen. Alternativ oder zusätzlich kannst du auch etwas Grieß unter die Äpfel mischen.",
+      "Variation Nuss: Für mehr Biss kannst du gehackte Walnüsse oder Mandeln unter die Füllung mischen oder zu den Bröseln geben.",
+      "Servierklassiker: Traditionell wird Apfelstrudel mit Vanillesoße oder einer Kugel Vanilleeis und/oder einem Klecks leicht gesüßter Schlagsahne serviert.",
+      "Make-Ahead? Den Strudel am besten frisch backen und lauwarm genießen. Übrig gebliebener Strudel kann am nächsten Tag kurz im Ofen aufgewärmt werden, wird aber nicht mehr ganz so knusprig sein."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Apfelstrudel Rezept ein wahrer Schatz ist",
+      "reasons": [
+        {
+          "title": "Der Teig - Hauchdünn & Knusprig:",
+          "description": "Das Erfolgserlebnis, einen Teig selbst so dünn zu ziehen, und die unvergleichlich zart-knusprige Textur nach dem Backen sind einfach unschlagbar."
+        },
+        {
+          "title": "Perfekte Füllung-Balance:",
+          "description": "Die Mischung aus säuerlichen Äpfeln, süßen Rosinen, Zimt und den buttrigen Bröseln ist einfach harmonisch und nicht zu süß."
+        },
+        {
+          "title": "Authentischer Geschmack:",
+          "description": "Dieses Rezept schmeckt wie in einem Wiener Kaffeehaus – traditionell, ehrlich und unglaublich lecker. Ein Stück österreichische Mehlspeisenkultur."
+        },
+        {
+          "title": "Das Erlebnis:",
+          "description": "Apfelstrudel backen, besonders mit gezogenem Teig, ist mehr als nur Zubereitung. Es ist ein kleines Ritual, das entschleunigt und Freude macht."
+        },
+        {
+          "title": "Beeindruckt Gäste:",
+          "description": "Ein selbstgemachter, gezogener Apfelstrudel sieht nicht nur fantastisch aus, er zeigt auch Liebe zum Detail und beeindruckt Familie und Freunde garantiert."
+        },
+        {
+          "title": "Wandelbar:",
+          "description": "Ob mit oder ohne Rosinen, mit Nüssen verfeinert oder pur – das Grundrezept lässt Raum für kleine Anpassungen nach deinem Geschmack."
+        },
+        {
+          "title": "Gemütlichkeitsfaktor:",
+          "description": "Der Duft von gebackenem Apfelstrudel im Haus ist unbezahlbar und schafft sofort eine warme, gemütliche Atmosphäre – perfekt für kalte Tage."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Genieß jeden Bissen meines liebsten Apfelstrudels!",
+      "subText": "Ich hoffe, dieses Rezept bringt dir genauso viel Freude wie mir. Lass mich wissen, wie er dir gelungen ist!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Der Teig – Basis der Magie",
+        "description": "Hier legen wir den Grundstein. Das sorgfältige Kneten und die anschließende Ruhezeit sind entscheidend, um die nötige Elastizität für den hauchdünnen Teig zu entwickeln. Das Öl macht ihn geschmeidig."
+      },
+      {
+        "title": "Schritt 2: Die Füllung – Fruchtig & Aromatisch",
+        "description": "Während der Teig ruht, bereiten wir die Seele des Strudels vor. Das Zusammenspiel von Äpfeln, Gewürzen und optionalen Rosinen bildet das klassische Aroma. Die Butterbrösel sorgen später für Textur und Saftbindung."
+      },
+      {
+        "title": "Schritt 3: Das Ausziehen – Fingerspitzengefühl gefragt",
+        "description": "Jetzt kommt der spannendste Teil! Mit Geduld und der richtigen Technik wird der Teig auf einem bemehlten Tuch zur berühmten Transparenz gezogen. Das ist der Schlüssel zur knusprigen Hülle."
+      },
+      {
+        "title": "Schritt 4: Füllen, Rollen & Backen – Das Finale",
+        "description": "Der gezogene Teig wird belegt, mithilfe des Tuchs sorgfältig aufgerollt und goldbraun gebacken. Das Bestreichen mit Butter sorgt für Farbe und Knusprigkeit. Der Duft allein ist schon Belohnung!"
+      }
+    ],
+    "servingSuggestion": "Serviere den lauwarmen Apfelstrudel klassisch mit einer Kugel Vanilleeis oder warmer Vanillesoße und einem Hauch Puderzucker.",
+    "servingSuggestions": {
+      "title": "Perfekte Begleiter für deinen Apfelstrudel",
+      "description": "Ein guter Apfelstrudel ist schon solo ein Genuss, aber mit der richtigen Begleitung wird er zum Festmahl!",
+      "note": "Lauwarm schmeckt er einfach am besten!",
+      "items": [
+        {
+          "emoji": "🍨",
+          "title": "Vanilleeis",
+          "description": "Der Klassiker schlechthin. Die Kälte und Cremigkeit des Eises bilden einen wunderbaren Kontrast zum warmen, knusprigen Strudel."
+        },
+        {
+          "emoji": "🍮",
+          "title": "Warme Vanillesoße",
+          "description": "Mindestens genauso traditionell und beliebt. Eine selbstgemachte oder gute gekaufte Vanillesoße umhüllt den Strudel sanft."
+        },
+        {
+          "emoji": "☁️",
+          "title": "Schlagsahne (Schlagobers)",
+          "description": "Ein Klecks ungesüßte oder nur leicht gesüßte Schlagsahne (in Österreich 'Schlagobers') lockert das Ganze auf und bringt Frische."
+        },
+        {
+          "emoji": "☕",
+          "title": "Kaffee oder Tee",
+          "description": "Ein starker Kaffee, ein Cappuccino oder eine gute Tasse Tee runden das Kaffeekränzchen mit Apfelstrudel perfekt ab."
+        },
+        {
+          "emoji": "🌰",
+          "title": "Ein Hauch Nusslikör",
+          "description": "Für die Erwachsenen: Ein kleines Gläschen Nuss- oder Mandellikör passt geschmacklich wunderbar dazu."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "FUN FACT?",
+      "description": "Der Apfelstrudel gilt als österreichische Nationalspeise, seine Ursprünge liegen aber vermutlich weiter östlich. Ähnliche, dünn ausgezogene und gefüllte Teiggerichte wie Baklava waren schon im Osmanischen Reich bekannt und könnten über Ungarn nach Wien gekommen sein."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/omas-bester-gezogener-apfelstrudel-ingredient.webp",
+      "image1": "/images/Desserts/omas-bester-gezogener-apfelstrudel1.webp",
+      "image2": "/images/Desserts/omas-bester-gezogener-apfelstrudel2.webp",
+      "image3": "/images/Desserts/omas-bester-gezogener-apfelstrudel3.webp",
+      "image4": "/images/Desserts/omas-bester-gezogener-apfelstrudel4.webp",
+      "image5": "/images/Desserts/omas-bester-gezogener-apfelstrudel5.webp",
+      "image6": "/images/Desserts/omas-bester-gezogener-apfelstrudel6.webp",
+      "image7": "/images/Desserts/omas-bester-gezogener-apfelstrudel7.webp"
     }
   }
 ];
