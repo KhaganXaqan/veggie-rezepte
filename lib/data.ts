@@ -1651,14 +1651,14 @@ instructions: [
       "description": "Wusstest du, dass Kartoffelpuffer eine lange Tradition haben und in vielen Kulturen unter verschiedenen Namen bekannt sind? 🥔 In Deutschland heißen sie je nach Region auch Reibekuchen oder Reiberdatschi, in der Schweiz heißen sie Rösti, und in Polen nennt man sie Placki ziemniaczane. Ursprünglich waren sie eine einfache und günstige Mahlzeit, die aus wenigen Zutaten zubereitet wurde – perfekt, um Reste zu verwerten. In einigen Regionen werden sie auch als Fastenspeise serviert, da sie ohne Fleisch zubereitet werden können. Heute sind sie ein echter Klassiker, der sowohl süß mit Apfelmus als auch herzhaft mit Dips genossen wird. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kartoffelpufferIngredient.webp",
-      "image1": "/images/Miscellaneous/kartoffelpuffer1.webp",
-      "image2": "/images/Miscellaneous/kartoffelpuffer2.webp",
-      "image3": "/images/Miscellaneous/kartoffelpuffer3.webp",
-      "image4": "/images/Miscellaneous/kartoffelpuffer4.webp",
-      "image5": "/images/Miscellaneous/kartoffelpuffer5.webp",
-      "image6": "/images/Miscellaneous/kartoffelpuffer6.webp",
-      "image7": "/images/Miscellaneous/kartoffelpuffer7.webp"
+      "imageIngredient": "/images/Ingredients/vegetarische-kartoffelpuffer-zutaten.webp",
+      "image1": "/images/Miscellaneous/knusprige-kartoffelpuffer-mit-apfelmus.webp",
+      "image2": "/images/Miscellaneous/reibekuchen-stapel-frisch-gebraten.webp",
+      "image3": "/images/Miscellaneous/kartoffeln-reiben-fuer-kartoffelpuffer.webp",
+      "image4": "/images/Miscellaneous/kartoffelpuffer-braten-in-pfanne.webp",
+      "image5": "/images/Miscellaneous/kartoffelpuffer-mit-kraeuterquark-serviert.webp",
+      "image6": "/images/Miscellaneous/goldbraune-kartoffelpuffer-nahaufnahme.webp",
+      "image7": "/images/Miscellaneous/teller-mit-kartoffelpuffer-und-apfelmus.webp"
     }
   },
   {
