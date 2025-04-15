@@ -405,7 +405,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
                           <img
                             src={randomRecipe.image}
-                            alt={randomRecipe.image}
+                            alt={randomRecipe.image.split("/").pop()?.split(".")[0]}
                             className="w-full h-full object-cover"
                           />
                         </div>
