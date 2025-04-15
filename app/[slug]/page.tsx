@@ -172,7 +172,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'franzoesische-crepes-granola-nuesse',
     'beeren-crumble',
     'bestes-schokoladen-mousse-rezept-klassisch-einfach',
-    'omas-bester-gezogener-apfelstrudel-rezept'
+    'omas-bester-gezogener-apfelstrudel-rezept',
+    'klassisches-ruehrei-rezept'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
@@ -327,7 +328,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     <div className="w-full h-[960px] rounded-2xl overflow-hidden">
                       <img
                         src={validRecipe.image}
-                        alt={validRecipe.title}
+                        alt={validRecipe.image.split("/").pop()?.split(".")[0]}
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -613,7 +614,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         <div style={{ width: '268px', height: '268px', minWidth: '268px', minHeight: '268px' }} className="rounded-lg overflow-hidden border-2 border-gray-200 flex-shrink-0 shadow-md">
                           <img
                             src={validRecipe.image}
-                            alt={validRecipe.title}
+                            alt={validRecipe.image.split("/").pop()?.split(".")[0]}
                             className="w-full h-full object-cover"
                           />
                         </div>

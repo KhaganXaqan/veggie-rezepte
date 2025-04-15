@@ -566,97 +566,6 @@ instructions: [
   }
   },
   {
-    "title": "Klassisches Rührei",
-    "image": "/images/Frühstück/klassisches-ruehrei.webp",
-    "prepTime": 10,
-    "rating": 4.7,
-    "seo_keywords": [],
-    "category": "Frühstück",
-    "slug": "klassisches-ruehrei",
-    "tags": ["Frühstück", "Eier", "Klassisch"],
-    "servings": 2,
-    "description": "Ein einfaches und leckeres Rezept für klassisches Rührei, das perfekt zum Frühstück passt.",
-    "ingredients": [
-      { "amount": 4, "unit": "Stück", "name": "Eier" },
-      { "amount": 2, "unit": "EL", "name": "Milch" },
-      { "amount": 1, "unit": "Prise", "name": "Salz" },
-      { "amount": 1, "unit": "Prise", "name": "Pfeffer" },
-      { "amount": 1, "unit": "EL", "name": "Butter" }
-    ],
-    "instructions": [
-      "Die Eier in einer Schüssel aufschlagen und mit Milch, Salz und Pfeffer gut verquirlen.",
-      "Eine Pfanne bei mittlerer Hitze erhitzen und die Butter darin schmelzen lassen.",
-      "Die Eiermischung in die Pfanne geben und langsam unter Rühren stocken lassen. Gelegentlich umrühren, um eine gleichmäßige Konsistenz zu erreichen.",
-      "Das Rührei nach Wunsch cremig oder fester kochen und sofort servieren."
-    ],
-    "nutrition": {
-      "calories": 200,
-      "protein": "12g",
-      "carbs": "1.5g",
-      "fat": "16g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
     title: "Overnight Oats mit Beeren",
     image: "/images/Frühstück/overnight-oats-beeren.webp",
     prepTime: 60,
@@ -7555,6 +7464,223 @@ instructions: [
       "image5": "/images/Desserts/omas-bester-gezogener-apfelstrudel5.webp",
       "image6": "/images/Desserts/omas-bester-gezogener-apfelstrudel6.webp",
       "image7": "/images/Desserts/omas-bester-gezogener-apfelstrudel7.webp"
+    }
+  },
+  {
+    "title": "Das Perfekte Klassische Rührei – Cremig, Fluffig & Einfach",
+    "seo_title": "Bestes Rührei Rezept: Klassisch, Cremig & Schnell Selber Machen",
+    "image": "/images/Frühstück/klassisches-ruehrei.webp",
+    "prepTime": 5,
+    "cookingTime": 5,
+    "seo_keywords": [
+      "Rührei Rezept",
+      "Klassisches Rührei",
+      "Bestes Rührei",
+      "Rührei selber machen",
+      "Cremiges Rührei",
+      "Rührei mit Milch",
+      "Einfaches Rührei"
+    ],
+    "rating": 4.8,
+    "reviews": 312,
+    "category": "Frühstück",
+    "slug": "klassisches-ruehrei-rezept",
+    "tags": [
+      "Rührei",
+      "Frühstück",
+      "Eier",
+      "Schnell",
+      "Einfach"
+    ],
+    "createdDate": new Date("2025-02-12T09:30:00Z"),
+    "updatedDate": new Date("2025-04-15T19:55:01Z"),
+    "servings": 2,
+    "description": "Lerne, wie du das perfekte klassische Rührei selber machst! Dieses einfache Rezept für cremiges, fluffiges Rührei gelingt garantiert und schmeckt himmlisch.",
+    "descriptionOnImage": "Perfekt cremiges Rührei – einfach & lecker",
+    "introductionParagraph": "Es gibt doch kaum etwas Besseres als ein perfekt zubereitetes Rührei, oder? Ob zum gemütlichen Sonntagsfrühstück, als schneller Sattmacher nach einem langen Tag oder einfach, weil man Lust darauf hat – klassisches Rührei ist für mich pures Wohlfühlessen. Ich liebe es, wie aus so wenigen, simplen Zutaten etwas so unglaublich Leckeres entstehen kann. Aber Hand aufs Herz: Richtig gutes, cremiges und gleichzeitig fluffiges Rührei hinzubekommen, ist eine kleine Kunst. Zu oft wird es zu trocken, zu fest oder erinnert eher an Omelettstücke. Jahrelang habe ich experimentiert, mal mit Milch, mal mit Sahne, mal bei hoher, mal bei niedriger Hitze. Dieses Rezept hier ist das Ergebnis meiner Suche nach dem ultimativen Rührei – cremig, zart, voller Geschmack und dabei wunderbar einfach in der Zubereitung. Es ist mein absolutes Standardrezept geworden, das immer gelingt und einfach jeden glücklich macht. Verabschiede dich von trockenem Rührei und freu dich auf einen wahren Eiergenuss, der dich begeistern wird!",
+    "additionalParagraph": "Das Geheimnis liegt wirklich in der Einfachheit und der richtigen Technik. Viele schwören auf Milch, andere auf Sahne, manche geben sogar einen Schuss Mineralwasser hinzu, um das Rührei besonders fluffig zu machen. Ich persönlich finde eine Mischung aus Milch und einem kleinen Klecks Sahne oder Crème fraîche ideal für die perfekte Cremigkeit, ohne dass es zu schwer wird. Aber das Wichtigste ist die Temperatur! Ein gutes Rührei braucht Liebe und Geduld, sprich: niedrige bis mittlere Hitze. Wenn die Pfanne zu heiß ist, gart das Ei zu schnell, wird fest und trocken. Bei sanfter Hitze hingegen kann man das Ei langsam stocken lassen, immer wieder sanft rühren und so diese wunderbar zarte, fast schon custardtartige Konsistenz erreichen. Lass dich nicht hetzen, nimm dir die paar Minuten Zeit – es lohnt sich! Und das Schöne am Rührei ist ja auch seine Wandelbarkeit. Dieses klassische Rezept ist die perfekte Basis, die du nach Lust und Laune mit Kräutern, Käse, Gemüse oder Speck aufpeppen kannst. Aber erstmal meistern wir gemeinsam das perfekte, klassische Rührei!",
+    "ingredientsNeeded": [
+      {
+        "title": "Frische Eier",
+        "description": "Die Hauptdarsteller! Je frischer und hochwertiger die Eier (am besten Bio oder Freiland), desto besser schmeckt das Rührei. Sie liefern die Basis für Textur und Geschmack."
+      },
+      {
+        "title": "Milch und/oder Sahne",
+        "description": "Das Geheimnis der Cremigkeit. Milch macht das Rührei saftiger, Sahne (oder Crème fraîche) sorgt für eine reichhaltigere Textur und vollmundigeren Geschmack. Eine Kombination ist oft ideal."
+      },
+      {
+        "title": "Butter",
+        "description": "Zum Braten und für den Geschmack. Butter verleiht dem Rührei ein feines Aroma, das Öl nicht bieten kann, und verhindert das Anhaften in der Pfanne."
+      },
+      {
+        "title": "Salz & Pfeffer",
+        "description": "Die Grundwürze. Wichtig ist, erst *nach* dem Garen oder ganz zum Schluss zu salzen, da Salz den Eiern Wasser entziehen und sie zäher machen kann, wenn es zu früh zugegeben wird."
+      },
+      {
+        "title": "Frische Kräuter (z.B. Schnittlauch)",
+        "description": "Optional, aber sehr empfohlen! Frisch gehackter Schnittlauch oder Petersilie gibt dem Rührei eine wunderbare Frische und eine hübsche Optik."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Rührei-Basis",
+        "description": "Nur wenige, hochwertige Zutaten bilden die Grundlage für unser perfektes, klassisches Rührei.",
+        "ingredients": [
+          { "amount": 4, "unit": "", "name": "Eier (Größe M), sehr frisch" },
+          { "amount": 3, "unit": "EL", "name": "Milch (3,5% Fett)" },
+          { "amount": 1, "unit": "EL", "name": "Sahne oder Crème fraîche (optional, für extra Cremigkeit)" },
+          { "amount": 1, "unit": "EL", "name": "Butter" },
+          { "amount": undefined, "unit": "Prise", "name": "Salz (erst zum Schluss!)" },
+          { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" },
+          { "amount": 1, "unit": "EL", "name": "frisch geschnittener Schnittlauch (optional)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 4, "unit": "", "name": "Eier (Größe M), sehr frisch" },
+      { "amount": 3, "unit": "EL", "name": "Milch (3,5% Fett)" },
+      { "amount": 1, "unit": "EL", "name": "Sahne oder Crème fraîche (optional, für extra Cremigkeit)" },
+      { "amount": 1, "unit": "EL", "name": "Butter" },
+      { "amount": undefined, "unit": "Prise", "name": "Salz (erst zum Schluss!)" },
+      { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" },
+      { "amount": 1, "unit": "EL", "name": "frisch geschnittener Schnittlauch (optional)" }
+    ],
+    "instructions": [
+      "Die Eier in eine Schüssel aufschlagen. Milch und Sahne (falls verwendet) hinzufügen.",
+      "Die Eier mit einer Gabel oder einem Schneebesen nur leicht verquirlen. Nicht zu stark schlagen, wir wollen keine Luftmassen einarbeiten, sondern nur Eigelb und Eiweiß grob vermischen. Mit Pfeffer würzen (Salz kommt erst später!).",
+      "Eine beschichtete Pfanne bei niedriger bis mittlerer Hitze (!) erhitzen. Die Butter darin schmelzen lassen, sie sollte nicht bräunen.",
+      "Sobald die Butter geschmolzen ist, die Eiermasse in die Pfanne gießen.",
+      "Die Eiermasse für etwa 30 Sekunden unberührt lassen, bis sie am Rand ganz leicht zu stocken beginnt.",
+      "Nun mit einem hitzebeständigen Gummispatel oder Holzlöffel beginnen, die gestockte Masse vom Rand sanft zur Mitte zu schieben. Die Pfanne dabei leicht kippen, damit das noch flüssige Ei an den heißen Pfannenboden laufen kann.",
+      "Diesen Vorgang des sanften Schiebens und Rührens wiederholen, bis das Rührei fast die gewünschte Konsistenz erreicht hat. Es sollte noch leicht feucht und cremig glänzen – nicht trocken werden lassen!",
+      "Die Pfanne vom Herd nehmen. Das Rührei gart durch die Restwärme noch etwas nach.",
+      "Erst jetzt das Rührei mit Salz abschmecken.",
+      "Optional den frisch geschnittenen Schnittlauch unterheben.",
+      "Das perfekte, cremige Rührei sofort servieren, am besten auf vorgewärmten Tellern."
+    ],
+    "nutrition": {
+      "calories": 470,
+      "protein": "28g",
+      "carbs": "4.5g",
+      "fat": "37g"
+    },
+    "tips": [
+      "Niedrige Hitze ist der Schlüssel: Das ist der wichtigste Tipp! Garen Sie das Rührei langsam bei niedriger bis maximal mittlerer Hitze. So wird es cremig und nicht trocken.",
+      "Nicht zu viel Rühren: Ständiges wildes Rühren macht das Rührei klein und krümelig. Sanftes Schieben vom Rand zur Mitte ist ideal für große, zarte 'Curds'.",
+      "Gute Pfanne verwenden: Eine beschichtete Pfanne verhindert das Anhaften und erleichtert das sanfte Garen und Schieben.",
+      "Timing beim Salzen: Wirklich erst ganz zum Schluss salzen! Zu frühes Salzen kann die Eier zäh machen.",
+      "Pfanne rechtzeitig vom Herd: Nehmen Sie die Pfanne vom Herd, wenn das Rührei noch leicht feucht und glänzend ist. Es gart auf dem Weg zum Teller und auf dem Teller selbst noch etwas nach.",
+      "Variationen: Verfeinern Sie Ihr Rührei mit Käse (z.B. geriebener Cheddar, Parmesan oder Feta), gewürfeltem, Pilzen, Tomatenwürfeln oder anderen Kräutern wie Petersilie oder Dill.",
+      "Keine Milch/Sahne? Sie können auch einen kleinen Schuss Mineralwasser mit Kohlensäure verwenden, um das Rührei etwas aufzulockern, es wird dann aber weniger cremig.",
+      "Für Gäste: Bereiten Sie die Eiermischung (ohne Salz) vor und garen Sie das Rührei frisch, kurz bevor Sie es servieren. Es schmeckt frisch am allerbesten."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Klassische Rührei einfach unschlagbar ist",
+      "reasons": [
+        {
+          "title": "Unglaublich Cremig & Fluffig:",
+          "description": "Die Kombination aus Milch/Sahne und der Garmethode bei niedriger Hitze sorgt für eine unübertroffen zarte, cremige und dennoch lockere Konsistenz."
+        },
+        {
+          "title": "Blitzschnell Fertig:",
+          "description": "In nur 10 Minuten vom Kühlschrank auf den Tisch – perfekt für ein schnelles Frühstück, Mittag- oder Abendessen."
+        },
+        {
+          "title": "Super Einfach:",
+          "description": "Mit nur wenigen Zutaten und einer einfachen Technik gelingt dieses Rührei auch Kochanfängern garantiert perfekt."
+        },
+        {
+          "title": "Pures Wohlfühlessen:",
+          "description": "Warm, sättigend und einfach lecker – Rührei ist Comfort Food vom Feinsten, das die Seele wärmt."
+        },
+        {
+          "title": "Extrem Vielseitig:",
+          "description": "Ob pur, mit Kräutern, Käse, Gemüse oder Speck – dieses Grundrezept ist die ideale Basis für unzählige leckere Variationen."
+        },
+        {
+          "title": "Immer eine gute Idee:",
+          "description": "Rührei passt immer: zum Frühstück, Brunch, als leichte Hauptmahlzeit oder sogar als Füllung für Wraps oder Sandwiches."
+        },
+        {
+          "title": "Preiswert & Zugänglich:",
+          "description": "Eier, Milch und Butter hat man oft zu Hause, und die Zutaten sind budgetfreundlich. Ein luxuriöser Genuss zum kleinen Preis."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Genieß dein perfektes Rührei – Löffel für Löffel!",
+      "subText": "Ich hoffe, dieses Rezept wird dein neuer Favorit für cremigen Eiergenuss. Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Die Vorbereitung – Sanftes Verquirlen",
+        "description": "Die Eier werden mit Milch/Sahne nur leicht verquirlt. Zu starkes Schlagen würde zu viel Luft einbringen und die Textur verändern. Pfeffern ja, salzen nein – das kommt später."
+      },
+      {
+        "title": "Schritt 2: Die Hitze – Langsam zum Erfolg",
+        "description": "Butter bei niedriger (!) Hitze schmelzen. Eine zu heiße Pfanne ist der häufigste Fehler für trockenes Rührei. Geduld ist hier der Schlüssel zur Cremigkeit."
+      },
+      {
+        "title": "Schritt 3: Das Garen – Sanftes Schieben",
+        "description": "Die Eiermasse kurz anstocken lassen, dann langsam und sanft vom Rand zur Mitte schieben. So entstehen große, zarte Flocken und das Rührei gart gleichmäßig."
+      },
+      {
+        "title": "Schritt 4: Das Timing – Kurz vor Perfekt vom Herd",
+        "description": "Das Rührei vom Herd nehmen, wenn es noch leicht feucht ist. Die Restwärme erledigt den Rest. Erst jetzt salzen und eventuell Kräuter hinzufügen. Sofort servieren!"
+      }
+    ],
+    "servingSuggestion": "Genieße das klassische Rührei pur auf frisch getoastetem Brot oder mit frisch gehacktem Schnittlauch bestreut.",
+    "servingSuggestions": {
+      "title": "So schmeckt dein Klassisches Rührei noch besser",
+      "description": "Klassisches Rührei ist köstlich, aber mit ein paar Begleitern wird es zum Star!",
+      "note": "Warm servieren ist ein Muss für den besten Geschmack und die cremigste Textur.",
+      "items": [
+        {
+          "emoji": "🍞",
+          "title": "Frisches Brot oder Toast",
+          "description": "Der Klassiker! Ob Bauernbrot, Vollkorntoast oder ein knuspriges Brötchen – perfekt, um das cremige Rührei aufzunehmen."
+        },
+        {
+          "emoji": "🌿",
+          "title": "Frische Kräuter",
+          "description": "Schnittlauch ist klassisch, aber auch Petersilie, Dill oder Kresse geben eine frische Note und sehen toll aus."
+        },
+        {
+          "emoji": "🥑",
+          "title": "Avocado",
+          "description": "In Scheiben oder als Guacamole – die cremige Avocado harmoniert fantastisch mit Rührei und bringt gesunde Fette ins Spiel."
+        },
+        {
+          "emoji": "🍄",
+          "title": "Gebratene Pilze",
+          "description": "Kurz in Butter gebratene Champignons oder andere Pilze verleihen dem Frühstück eine herzhafte, erdige Note."
+        },
+        {
+          "emoji": "🍅",
+          "title": "Tomaten",
+          "description": "Frische Cherrytomaten halbiert oder kurz angebratene Tomatenwürfel sorgen für eine fruchtige Säure und Farbe."
+        },
+        {
+          "emoji": "🧀",
+          "title": "Käse",
+          "description": "Gegen Ende etwas geriebenen Käse (Cheddar, Gouda, Parmesan) unterheben und schmelzen lassen – unwiderstehlich!"
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du schon?",
+      "description": "Die 'perfekte' Konsistenz von Rührei ist weltweit eine kleine Glaubensfrage! Während man in Deutschland oft ein eher lockeres, leicht gestocktes Rührei bevorzugt, lieben die Franzosen ihr 'Oeufs Brouillés' oft extrem cremig und fast flüssig, erreicht durch langsames Garen im Wasserbad und viel Butter. Die Amerikaner mögen es oft etwas fester gebraten."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/klassisches-ruehrei-zutaten.webp",
+      "image1": "/images/Frühstück/klassisches-ruehrei-auf-teller.webp",
+      "image2": "/images/Frühstück/cremiges-ruehrei-pfanne.webp",
+      "image3": "/images/Frühstück/ruehrei-mit-schnittlauch-nahaufnahme.webp",
+      "image4": "/images/Frühstück/eier-verquirlen-fuer-ruehrei.webp",
+      "image5": "/images/Frühstück/ruehrei-auf-brot-serviert.webp",
+      "image6": "/images/Frühstück/klassisches-ruehrei-fruehstueck.webp",
+      "image7": "/images/Frühstück/bestes-ruehrei-rezept-einfach.webp"
     }
   }
 ];
