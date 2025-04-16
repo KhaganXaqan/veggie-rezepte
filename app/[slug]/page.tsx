@@ -133,9 +133,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const slug = params?.slug;
 
   let recipe: Recipe | null = null;
-    const foundRecipe = recipesData.find((r) => r.slug === slug);
-    if (foundRecipe) recipe = foundRecipe;
-  
+  const foundRecipe = recipesData.find((r) => r.slug === slug);
+  if (foundRecipe) recipe = foundRecipe;
 
   if (!recipe) {
     notFound();
@@ -173,7 +172,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'beeren-crumble',
     'bestes-schokoladen-mousse-rezept-klassisch-einfach',
     'omas-bester-gezogener-apfelstrudel-rezept',
-    'klassisches-ruehrei-rezept'
+    'klassisches-ruehrei-rezept',
+    'bestes-zimtschnecken-rezept-saftig'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }

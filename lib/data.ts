@@ -1028,99 +1028,6 @@ instructions: [
   }
   },
   {
-    title: "Zimtschnecken",
-    image: "/images/Desserts/zimtschnecken.webp",
-    prepTime: 90,
-cookingTime: 20,
-rating: 4.8,
-seo_keywords: [],
-    category: "Desserts",
-    slug: "zimtschnecken",
-    tags: ["Dessert", "Gebäck", "Zimt"],
-    servings: 12,
-    description: "Eine leckere Zimtschnecken aus Mehl und Zimt.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 100, unit: "g", name: "Butter" },
-      { amount: 100, unit: "g", name: "Zucker" },
-      { amount: 1, name: "Ei" },
-      { amount: 10, unit: "g", name: "Zimt" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Das Mehl in eine Schüssel geben. Die Butter in kleinen Stücken hinzufügen und mit den Fingern zu einer krümeligen Masse verarbeiten. Das Ei und den Zucker hinzufügen und alles zu einem glatten Teig kneten. Den Teig 30 Minuten im Kühlschrank ruhen lassen.",
-      "Den Teig auf einer bemehlten Arbeitsfläche dünn ausrollen. Den Zimt mit etwas Zucker vermengen und gleichmäßig auf dem Teig verteilen.",
-      "Den Teig von einer Seite aufrollen und in gleichmäßige Scheiben schneiden. Die Schnecken auf ein mit Backpapier ausgelegtes Backblech legen.",
-      "Den Backofen auf 180°C vorheizen. Die Zimtschnecken etwa 20–25 Minuten backen, bis sie goldbraun sind.",
-      "Die Zimtschnecken warm servieren, z. B. mit einem Glas Milch oder Kaffee."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "5g",
-      carbs: "20g",
-      fat: "10g"
-    },
-    tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: ""
-  }
-  },
-  {
     "title": "Flammkuchen",
     "seo_title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
     "image": "/images/MainCourses/flammkuchen.webp",
@@ -7207,7 +7114,7 @@ instructions: [
   },
   {
     "title": "Omas Bester Gezogener Apfelstrudel – Ein Stück Wiener Mehlspeisenhimmel",
-    "seo_title": "Bestes Apfelstrudel Rezept (Gezogener Teig) – Einfach Selber Machen",
+    "seo_title": "Bestes Apfelstrudel Rezept (Gezogener Teig)",
     "image": "/images/Desserts/omas-bester-gezogener-apfelstrudel.webp",
     "prepTime": 60,
     "cookingTime": 45,
@@ -7234,7 +7141,7 @@ instructions: [
     "createdDate": new Date("2025-03-11T10:00:00Z"),
     "updatedDate": new Date("2025-04-12T18:15:00Z"),
     "servings": 8,
-    "description": "Lerne, wie du Omas besten gezogenen Apfelstrudel selber machen kannst! Dieses authentische Rezept für Wiener Apfelstrudel mit hauchdünnem Teig ist ein wahrer Genuss.",
+    "description": "Lerne, wie du Omas besten gezogenen Apfelstrudel selber machen kannst! Dieses authentische Rezept für Wiener Apfelstrudel.",
     "descriptionOnImage": "Hausgemachter Apfelstrudel wie von Oma",
     "introductionParagraph": "Hach, Apfelstrudel! Allein der Duft, der beim Backen durchs Haus zieht, weckt doch sofort Kindheitserinnerungen, oder? Für mich ist Apfelstrudel nicht einfach nur ein Dessert, es ist pure Gemütlichkeit, ein Stück österreichische Seele auf dem Teller. Ich erinnere mich noch genau, wie ich als kleines Mädchen meiner Oma in der Küche zugeschaut habe, wie sie mit einer Engelsgeduld den Strudelteig hauchdünn über den großen Küchentisch zog. Es sah immer wie Magie aus! Lange Zeit habe ich mich selbst nicht an den gezogenen Teig herangetraut – zu kompliziert, dachte ich. Aber glaub mir, mit ein bisschen Übung und diesem Rezept, das ich über Jahre perfektioniert habe, schaffst du das auch! Dieses Rezept ist eine Hommage an meine Oma und an alle gemütlichen Kaffeekränzchen, bei denen ihr legendärer Apfelstrudel der Star war. Es ist mehr als nur Backen, es ist ein kleines Abenteuer mit einem unglaublich leckeren Ergebnis: außen knusprig, innen saftig-süß mit der perfekten Zimtnote. Lass uns gemeinsam dieses Stück Wiener Mehlspeisenhimmel zaubern!",
     "additionalParagraph": "Das Geheimnis eines wirklich herausragenden Apfelstrudels liegt im Teig. Ja, man kann fertigen Strudelteig oder Blätterteig kaufen, und das ist völlig in Ordnung, wenn es schnell gehen muss. Aber das Gefühl, einen elastischen Teig selbst so dünn auszuziehen, dass man fast die Zeitung darunter lesen könnte (wie meine Oma immer sagte!), ist unvergleichlich. Es erfordert etwas Geduld und Fingerspitzengefühl, aber das Ergebnis belohnt jede Mühe. Der Teig wird beim Backen unglaublich zart und blättrig-knusprig, eine Textur, die man mit Fertigteig einfach nicht erreicht. Und die Füllung? Eine Symphonie aus säuerlichen Äpfeln, süßen Rosinen, gerösteten Semmelbröseln und natürlich Zimt. Die Brösel sind übrigens wichtig, sie saugen den austretenden Apfelsaft auf und verhindern, dass der dünne Teig durchweicht. Ich liebe es, wie die einfachen Zutaten zusammenkommen und etwas so Wunderbares ergeben. Trau dich ran – ich begleite dich Schritt für Schritt! Und wenn der fertige, goldbraune Strudel dann dampfend auf dem Tisch steht, wirst du mächtig stolz sein, versprochen!",
@@ -7495,7 +7402,7 @@ instructions: [
     "createdDate": new Date("2025-02-12T09:30:00Z"),
     "updatedDate": new Date("2025-04-15T19:55:01Z"),
     "servings": 2,
-    "description": "Lerne, wie du das perfekte klassische Rührei selber machst! Dieses einfache Rezept für cremiges, fluffiges Rührei gelingt garantiert und schmeckt himmlisch.",
+    "description": "Lerne, wie du das perfekte klassische Rührei selber machst! Dieses einfache Rezept für cremiges, fluffiges Rührei gelingt garantiert.",
     "descriptionOnImage": "Perfekt cremiges Rührei – einfach & lecker",
     "introductionParagraph": "Es gibt doch kaum etwas Besseres als ein perfekt zubereitetes Rührei, oder? Ob zum gemütlichen Sonntagsfrühstück, als schneller Sattmacher nach einem langen Tag oder einfach, weil man Lust darauf hat – klassisches Rührei ist für mich pures Wohlfühlessen. Ich liebe es, wie aus so wenigen, simplen Zutaten etwas so unglaublich Leckeres entstehen kann. Aber Hand aufs Herz: Richtig gutes, cremiges und gleichzeitig fluffiges Rührei hinzubekommen, ist eine kleine Kunst. Zu oft wird es zu trocken, zu fest oder erinnert eher an Omelettstücke. Jahrelang habe ich experimentiert, mal mit Milch, mal mit Sahne, mal bei hoher, mal bei niedriger Hitze. Dieses Rezept hier ist das Ergebnis meiner Suche nach dem ultimativen Rührei – cremig, zart, voller Geschmack und dabei wunderbar einfach in der Zubereitung. Es ist mein absolutes Standardrezept geworden, das immer gelingt und einfach jeden glücklich macht. Verabschiede dich von trockenem Rührei und freu dich auf einen wahren Eiergenuss, der dich begeistern wird!",
     "additionalParagraph": "Das Geheimnis liegt wirklich in der Einfachheit und der richtigen Technik. Viele schwören auf Milch, andere auf Sahne, manche geben sogar einen Schuss Mineralwasser hinzu, um das Rührei besonders fluffig zu machen. Ich persönlich finde eine Mischung aus Milch und einem kleinen Klecks Sahne oder Crème fraîche ideal für die perfekte Cremigkeit, ohne dass es zu schwer wird. Aber das Wichtigste ist die Temperatur! Ein gutes Rührei braucht Liebe und Geduld, sprich: niedrige bis mittlere Hitze. Wenn die Pfanne zu heiß ist, gart das Ei zu schnell, wird fest und trocken. Bei sanfter Hitze hingegen kann man das Ei langsam stocken lassen, immer wieder sanft rühren und so diese wunderbar zarte, fast schon custardtartige Konsistenz erreichen. Lass dich nicht hetzen, nimm dir die paar Minuten Zeit – es lohnt sich! Und das Schöne am Rührei ist ja auch seine Wandelbarkeit. Dieses klassische Rezept ist die perfekte Basis, die du nach Lust und Laune mit Kräutern, Käse, Gemüse oder Speck aufpeppen kannst. Aber erstmal meistern wir gemeinsam das perfekte, klassische Rührei!",
@@ -7681,6 +7588,268 @@ instructions: [
       "image5": "/images/Frühstück/ruehrei-auf-brot-serviert.webp",
       "image6": "/images/Frühstück/klassisches-ruehrei-fruehstueck.webp",
       "image7": "/images/Frühstück/bestes-ruehrei-rezept-einfach.webp"
+    }
+  },
+  {
+    "title": "Die Besten Saftigen Zimtschnecken mit Frischkäse-Frosting (Original Hefeteig)",
+    "seo_title": "Bestes Zimtschnecken Rezept: Saftig, Fluffig",
+    "image": "/images/Desserts/zimtschnecken.webp",
+    "prepTime": 45,
+    "cookingTime": 25,
+    "seo_keywords": [
+      "Zimtschnecken Rezept",
+      "Zimtschnecken",
+      "Zimtschnecken Rezept saftig",
+      "Rezept Zimtschnecken",
+      "Original Zimtschnecken Rezept",
+      "Hefeteig Zimtschnecken",
+      "Beste Zimtschnecken"
+    ],
+    "rating": 4.9,
+    "reviews": 485,
+    "category": "Desserts",
+    "slug": "bestes-zimtschnecken-rezept-saftig",
+    "tags": [
+      "Zimtschnecken",
+      "Hefeteig",
+      "Backen",
+      "Dessert",
+      "Kaffee und Kuchen"
+    ],
+    "createdDate": new Date("2025-02-16T10:00:00Z"),
+    "updatedDate": new Date("2025-04-16T23:50:00Z"),
+    "servings": 12,
+    "description": "Entdecke das beste Zimtschnecken Rezept für unglaublich saftige, fluffige Rollen mit Hefeteig. Einfach selber machen – unwiderstehlich lecker!",
+    "descriptionOnImage": "Himmlisch saftige Zimtschnecken – frisch gebacken",
+    "introductionParagraph": "Oh, dieser Duft! Gibt es etwas Himmlischeres als den Geruch von frisch gebackenen Zimtschnecken, der durch die Wohnung zieht? Für mich ist das der Inbegriff von Gemütlichkeit und Wochenende. Schon als Kind war es das Größte, wenn meine Oma ihren berühmten Hefeteig ansetzte und wir später diese klebrig-süßen, warmen Schnecken direkt vom Blech naschen durften. Dieses Zimtschnecken Rezept ist meine Hommage an diese Kindheitserinnerungen und das Ergebnis langer Tüftelei, um die absolut saftigsten Zimtschnecken überhaupt zu backen. Es basiert auf einem klassischen, original Hefeteig, der wunderbar fluffig wird und die köstliche Zimt-Butter-Füllung perfekt aufnimmt. Ja, Hefeteig braucht ein bisschen Zeit und Liebe, aber ich verspreche dir, das Ergebnis ist jede Minute wert. Vergiss trockene, feste Gebäckstücke – mit diesem Rezept für Zimtschnecken zauberst du weiche, zarte Rollen, die auf der Zunge zergehen und dich und deine Liebsten garantiert begeistern werden. Es ist einfach das beste Zimtschnecken Rezept, das ich kenne!",
+    "additionalParagraph": "Viele schrecken ja vor Hefeteig zurück, aber ich möchte dir die Angst nehmen! Es ist wirklich keine Hexerei, und das Gefühl, den Teig gehen zu sehen und später die fertigen, goldbraunen Zimtschnecken aus dem Ofen zu holen, ist einfach unbezahlbar. Dieser Teig hier ist wunderbar geschmeidig und lässt sich toll verarbeiten. Das Geheimnis für extra saftige Zimtschnecken liegt nicht nur im Teig selbst, sondern auch in der großzügigen Füllung aus weicher Butter, braunem Zucker und natürlich viel Zimt – hier bitte nicht sparen! Und das cremige Frischkäse-Frosting setzt dem Ganzen die Krone auf. Natürlich gibt es auch schnellere Varianten, zum Beispiel Zimtschnecken mit Blätterteig, die auch lecker sind, wenn es mal eilig ist (ein Tipp dazu findet sich weiter unten!). Aber wenn du das Original Zimtschnecken Rezept mit diesem himmlischen Hefeteig einmal probiert hast, wirst du verstehen, warum sich der kleine Mehraufwand lohnt. Also, trau dich ran ans Backen, lass uns gemeinsam unwiderstehliche Zimtschnecken selber machen – dein Zuhause wird duften wie eine Bäckerei!",
+    "ingredientsNeeded": [
+      {
+        "title": "Hefe & Warme Milch",
+        "description": "Die Basis für den fluffigen Hefeteig. Die warme Milch (nicht heiß!) aktiviert die Hefe, damit der Teig schön aufgehen kann und die Zimtschnecken luftig-leicht werden."
+      },
+      {
+        "title": "Weizenmehl (Typ 550)",
+        "description": "Dieses Mehl hat einen guten Glutengehalt, der für die Elastizität des Hefeteigs sorgt. Es macht die Zimtschnecken zart, aber dennoch stabil genug."
+      },
+      {
+        "title": "Butter",
+        "description": "Sowohl im Teig als auch in der Füllung unverzichtbar! Im Teig sorgt sie für Geschmack und Geschmeidigkeit, in der Füllung für die saftige, leicht karamellige Konsistenz und den Transport des Zimtaromas."
+      },
+      {
+        "title": "Eier",
+        "description": "Binden den Teig, sorgen für eine schöne Farbe und tragen zur Reichhaltigkeit und einer zarten Krume der fertigen Zimtschnecken bei."
+      },
+      {
+        "title": "Brauner Zucker & Zimt",
+        "description": "Das Herzstück der Füllung! Brauner Zucker gibt eine tiefere, karamellige Süße als weißer Zucker. Hochwertiger Zimt ist entscheidend für das intensive, warme Aroma."
+      },
+      {
+        "title": "Frischkäse & Puderzucker",
+        "description": "Für das klassische Cream Cheese Frosting. Der Frischkäse sorgt für eine angenehme Säure als Kontrast zur Süße, Puderzucker für die Süße und Konsistenz des Gusses."
+      },
+      {
+        "title": "Salz",
+        "description": "Ein kleiner, aber wichtiger Gegenspieler zur Süße. Salz hebt die Aromen im Teig und in der Füllung hervor und kontrolliert die Hefeaktivität."
+      },
+      {
+        "title": "Vanilleextrakt",
+        "description": "Verleiht dem Frischkäse-Frosting eine feine, warme Tiefe und rundet den Geschmack harmonisch ab. Ein kleiner Tropfen macht einen großen Unterschied!"
+    },
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Hefeteig (ergibt ca. 12 Stück)",
+        "description": "Ein weicher, leicht süßer Hefeteig, der die perfekte Basis für saftige Zimtschnecken bildet.",
+        "ingredients": [
+          { "amount": 240, "unit": "ml", "name": "Milch (lauwarm)" },
+          { "amount": 7, "unit": "g", "name": "Trockenhefe (1 Päckchen) oder 21g Frischhefe" },
+          { "amount": 75, "unit": "g", "name": "Zucker" },
+          { "amount": 80, "unit": "g", "name": "Butter (weich)" },
+          { "amount": 2, "unit": "", "name": "Eier (Größe M), Raumtemperatur" },
+          { "amount": 1, "unit": "TL", "name": "Salz" },
+          { "amount": 550, "unit": "g", "name": "Weizenmehl (Typ 550), plus etwas mehr zum Verarbeiten" }
+        ]
+      },
+      {
+        "title": "Für die Zimt-Zucker-Füllung",
+        "description": "Eine großzügige, buttrig-süße Füllung mit intensivem Zimtgeschmack – das Geheimnis saftiger Rollen.",
+        "ingredients": [
+          { "amount": 120, "unit": "g", "name": "Butter (sehr weich, fast geschmolzen)" },
+          { "amount": 150, "unit": "g", "name": "Brauner Zucker (fest gepackt)" },
+          { "amount": 2, "unit": "EL", "name": "Zimt (gemahlen, gute Qualität!)" }
+        ]
+      },
+      {
+        "title": "Für das Frischkäse-Frosting (optional, aber empfohlen)",
+        "description": "Ein cremiger, leicht säuerlicher Guss, der die Süße der Zimtschnecken perfekt ausbalanciert.",
+        "ingredients": [
+          { "amount": 100, "unit": "g", "name": "Frischkäse (Doppelrahmstufe), Raumtemperatur" },
+          { "amount": 50, "unit": "g", "name": "Butter (weich)" },
+          { "amount": 150, "unit": "g", "name": "Puderzucker (gesiebt)" },
+          { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
+          { "amount": 1, "unit": "EL", "name": "Milch (oder nach Bedarf für Konsistenz)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 240, "unit": "ml", "name": "Milch (lauwarm)" },
+      { "amount": 7, "unit": "g", "name": "Trockenhefe (1 Päckchen) oder 21g Frischhefe" },
+      { "amount": 75, "unit": "g", "name": "Zucker" },
+      { "amount": 80, "unit": "g", "name": "Butter (weich)" },
+      { "amount": 2, "unit": "", "name": "Eier (Größe M), Raumtemperatur" },
+      { "amount": 1, "unit": "TL", "name": "Salz" },
+      { "amount": 550, "unit": "g", "name": "Weizenmehl (Typ 550), plus etwas mehr zum Verarbeiten" },
+      { "amount": 120, "unit": "g", "name": "Butter (sehr weich, fast geschmolzen)" },
+      { "amount": 150, "unit": "g", "name": "Brauner Zucker (fest gepackt)" },
+      { "amount": 2, "unit": "EL", "name": "Zimt (gemahlen, gute Qualität!)" },
+      { "amount": 100, "unit": "g", "name": "Frischkäse (Doppelrahmstufe), Raumtemperatur" },
+      { "amount": 50, "unit": "g", "name": "Butter (weich)" },
+      { "amount": 150, "unit": "g", "name": "Puderzucker (gesiebt)" },
+      { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
+      { "amount": 1, "unit": "EL", "name": "Milch (oder nach Bedarf für Konsistenz)" }
+    ],
+    "instructions": [
+      "Für den Teig: Die lauwarme Milch in die Schüssel der Küchenmaschine (oder eine große Rührschüssel) geben. Hefe und 1 TL vom Zucker darin auflösen und ca. 5-10 Minuten stehen lassen, bis es leicht schäumt (zeigt, dass die Hefe aktiv ist).",
+      "Restlichen Zucker, weiche Butter, Eier und Salz zur Hefemilch geben und kurz verrühren.",
+      "Das Mehl hinzufügen und alles mit dem Knethaken der Küchenmaschine (oder den Händen) erst auf niedriger, dann auf mittlerer Stufe ca. 8-10 Minuten zu einem glatten, geschmeidigen Teig kneten, der sich vom Schüsselrand löst. Bei Bedarf esslöffelweise etwas Mehl zugeben, falls er zu klebrig ist.",
+      "Den Teig zu einer Kugel formen, in eine leicht geölte Schüssel legen, einmal wenden, damit er rundum mit Öl benetzt ist. Abgedeckt an einem warmen Ort ca. 1 - 1,5 Stunden gehen lassen, bis sich das Volumen verdoppelt hat.",
+      "Währenddessen die Füllung vorbereiten: Weiche Butter, braunen Zucker und Zimt in einer kleinen Schüssel gut verrühren.",
+      "Den aufgegangenen Teig auf eine leicht bemehlte Arbeitsfläche geben und kurz durchkneten. Zu einem Rechteck von ca. 40x30 cm ausrollen.",
+      "Die Zimt-Zucker-Füllung gleichmäßig auf dem Teigrechteck verstreichen, dabei an einer der längeren Seiten einen ca. 1-2 cm breiten Rand frei lassen.",
+      "Das Teigrechteck von der langen Seite gegenüber dem freien Rand her fest aufrollen.",
+      "Die Rolle mit einem scharfen Messer oder (noch besser!) ungewachster Zahnseide in 12 gleichmäßige Scheiben schneiden. Zahnseide unter die Rolle schieben, überkreuzen und ziehen – das gibt saubere Schnitte ohne Quetschen.",
+      "Die Zimtschnecken mit der Schnittfläche nach oben in eine gefettete Auflaufform (ca. 30x20 cm) oder auf ein mit Backpapier belegtes Backblech setzen, dabei etwas Abstand lassen.",
+      "Die Form abdecken und die Schnecken an einem warmen Ort nochmals ca. 30-45 Minuten gehen lassen, bis sie sichtbar größer geworden sind.",
+      "Den Backofen auf 180°C Ober-/Unterhitze vorheizen.",
+      "Die Zimtschnecken im vorgeheizten Ofen ca. 20-25 Minuten backen, bis sie goldbraun und durchgebacken sind. Nicht zu dunkel werden lassen, damit sie saftig bleiben!",
+      "Während die Zimtschnecken backen, das Frosting zubereiten: Weiche Butter und Frischkäse mit dem Handmixer cremig schlagen. Gesiebten Puderzucker und Vanilleextrakt hinzufügen und gut verrühren. Nach Bedarf Milch esslöffelweise zugeben, bis die gewünschte streichfähige Konsistenz erreicht ist.",
+      "Die gebackenen Zimtschnecken aus dem Ofen nehmen und ca. 10-15 Minuten in der Form abkühlen lassen.",
+      "Das Frischkäse-Frosting auf den noch warmen (nicht heißen!) Zimtschnecken verteilen. Warm genießen!"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "protein": "7g",
+      "carbs": "60g",
+      "fat": "20g"
+    },
+    "tips": [
+      "Hefe-Boost: Wenn du unsicher bist, ob deine Hefe noch aktiv ist, gib sie mit 1 TL Zucker in die lauwarme Milch und warte 10 Minuten. Bildet sich Schaum, ist sie startklar!",
+      "Richtig Kneten: Hefeteig liebt es, gut geknetet zu werden. Das entwickelt das Gluten und macht die Zimtschnecken später schön fluffig. 8-10 Minuten sind ideal.",
+      "Geduld beim Gehenlassen: Gib dem Teig genug Zeit zum Aufgehen an einem warmen, zugfreien Ort. Das ist entscheidend für die Textur. Ein leicht geöffneter Backofen nur mit eingeschaltetem Licht ist oft perfekt.",
+      "Zahnseide-Trick: Für perfekt runde Schnecken ohne zerquetschte Füllung: Schneide die Rolle mit ungewachster Zahnseide statt mit dem Messer.",
+      "Extra Saftig-Geheimnis: Achte darauf, die Zimtschnecken nicht zu lange zu backen! Sie sollten goldbraun sein, aber in der Mitte noch ganz leicht weich wirken. Sie garen beim Abkühlen nach.",
+      "Frosting Timing: Das Frosting auf die noch warmen, aber nicht mehr heißen Schnecken geben. So schmilzt es leicht an und zieht schön ein.",
+      "Schnelle Variante (Blätterteig): Für Blätterteig Zimtschnecken einfach eine Rolle fertigen Blätterteig ausrollen, mit der Zimt-Zucker-Butter bestreichen, aufrollen, in Scheiben schneiden und bei ca. 200°C ca. 15-20 Min. backen. Nicht ganz das Original, aber lecker, wenn's schnell gehen muss!",
+      "Aufbewahren & Aufwärmen: Zimtschnecken schmecken frisch am besten. Reste luftdicht verpacken und bei Raumtemperatur lagern (max. 2 Tage) oder einfrieren. Zum Aufwärmen kurz in die Mikrowelle oder den Ofen geben."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Saftige Zimtschnecken Rezept ein Keeper ist",
+      "reasons": [
+        {
+          "title": "Unwiderstehlich Saftig & Fluffig:",
+          "description": "Dieses Rezept liefert garantiert keine trockenen Brötchen, sondern herrlich weiche, saftige Zimtschnecken mit perfekter Hefeteig-Textur."
+        },
+        {
+          "title": "Himmlischer Duft & Geschmack:",
+          "description": "Die Kombination aus warmem Hefeteig, buttrigem Zimt-Zucker und cremigem Frosting ist einfach ein Traum für alle Sinne."
+        },
+        {
+          "title": "Das 'Original' Gefühl:",
+          "description": "Mit diesem klassischen Hefeteig-Rezept backst du Zimtschnecken wie aus dem Bilderbuch – authentisch und traditionell lecker."
+        },
+        {
+          "title": "Perfekt zum Teilen:",
+          "description": "Eine Form voll warmer Zimtschnecken ist ideal zum Teilen mit Familie und Freunden beim Brunch oder Kaffeeklatsch."
+        },
+        {
+          "title": "Back-Therapie:",
+          "description": "Das Kneten des Teigs und das Formen der Schnecken hat etwas unglaublich Beruhigendes und macht einfach Spaß."
+        },
+        {
+          "title": "Anpassbar:",
+          "description": "Du kannst die Füllung variieren (z.B. mit Nüssen, Rosinen, Kardamom) oder das Frosting nach Geschmack anpassen oder weglassen."
+        },
+        {
+          "title": "Wow-Effekt Garantiert:",
+          "description": "Selbstgemachte, warme Zimtschnecken sehen nicht nur toll aus, sie schmecken auch so viel besser als gekaufte und beeindrucken jeden."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Viel Freude beim Backen und Genießen meiner liebsten Zimtschnecken!",
+      "subText": "Ich hoffe, dieses Rezept versüßt dir den Tag genauso wie mir. Lass mich wissen, wie sie dir gelungen sind!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Der Hefeteig – Die fluffige Basis",
+        "description": "Wir starten mit dem Herzstück: Einem geschmeidigen Hefeteig. Die Hefe wird aktiviert, dann alle Zutaten zu einem elastischen Teig geknetet, der anschließend in Ruhe gehen darf, um sein Volumen zu verdoppeln."
+      },
+      {
+        "title": "Schritt 2: Die Füllung & das Formen – Die süße Seele",
+        "description": "Der gegangene Teig wird ausgerollt und großzügig mit der unwiderstehlichen Zimt-Butter-Zucker-Mischung bestrichen. Dann wird er aufgerollt und in gleichmäßige Scheiben geschnitten – die typische Schneckenform entsteht."
+      },
+      {
+        "title": "Schritt 3: Der zweite Gang & das Backen – Geduld wird belohnt",
+        "description": "Die geschnittenen Schnecken dürfen noch einmal kurz ruhen ('zweite Gare'), um noch fluffiger zu werden. Anschließend werden sie im Ofen goldbraun gebacken, bis das ganze Haus duftet."
+      },
+      {
+        "title": "Schritt 4: Das Frosting & der Genuss – Das i-Tüpfelchen",
+        "description": "Während die Schnecken leicht abkühlen, rühren wir ein cremiges Frischkäse-Frosting an. Dieses wird auf die noch warmen Zimtschnecken gegeben und dann heißt es: Schnell genießen, solange sie noch lauwarm sind!"
+      }
+    ],
+    "servingSuggestion": "Genieße die saftigen Zimtschnecken am besten noch lauwarm mit dem geschmolzenen Frischkäse-Frosting.",
+    "servingSuggestions": {
+      "title": "Perfekte Begleiter für deine Zimtschnecken",
+      "description": "Frisch aus dem Ofen sind sie solo schon ein Traum, aber hier sind ein paar Ideen, wie du den Genuss noch steigern kannst:",
+      "note": "Lauwarm sind sie einfach unschlagbar!",
+      "items": [
+        {
+          "emoji": "☕",
+          "title": "Heißgetränke",
+          "description": "Ein Muss! Ein cremiger Cappuccino, ein starker Kaffee, eine heiße Schokolade oder eine Tasse Tee passen perfekt zur Süße der Schnecken."
+        },
+        {
+          "emoji": "🥛",
+          "title": "Ein Glas kalte Milch",
+          "description": "Besonders bei Kindern beliebt, aber auch für Erwachsene ein einfacher, köstlicher Kontrast zur warmen, süßen Zimtschnecke."
+        },
+        {
+          "emoji": "🍨",
+          "title": "Vanilleeis",
+          "description": "Eine Kugel cremiges Vanilleeis neben einer warmen Zimtschnecke – ein himmlisches Dessert, das warm und kalt vereint."
+        },
+        {
+          "emoji": "🍓",
+          "title": "Frische Beeren",
+          "description": "Ein paar frische Erdbeeren, Himbeeren oder Blaubeeren bringen eine fruchtige Säure und Leichtigkeit ins Spiel."
+        },
+        {
+          "emoji": "🌰",
+          "title": "Gehackte Nüsse",
+          "description": "Wer es knackig mag, kann gehackte Pekannüsse oder Walnüsse über das Frosting streuen."
+        },
+        {
+          "emoji": "☀️",
+          "title": "Zum Brunch",
+          "description": "Zimtschnecken sind der Star auf jedem Brunch-Buffet, neben herzhaften Optionen sorgen sie für den süßen Höhepunkt."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Schon gewusst?",
+      "description": "Obwohl Zimtschnecken oft mit Schweden ('Kanelbullar') oder den USA ('Cinnamon Rolls') verbunden werden, haben süße, eingerollte Hefegebäcke eine lange Tradition in vielen Teilen Europas, auch in Deutschland, oft als 'Schneckennudeln' bekannt. Die cremige Frischkäseglasur ist allerdings eher eine amerikanische Erfindung."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/saftige-zimtschnecken-zutaten.webp",
+      "image1": "/images/Desserts/saftige-zimtschnecken-mit-frosting.webp",
+      "image2": "/images/Desserts/zimtschnecken-hefeteig-rezept.webp",
+      "image3": "/images/Desserts/zimtschnecken-aufrollen-fuellung.webp",
+      "image4": "/images/Desserts/zimtschnecken-schneiden-zahnseide.webp",
+      "image5": "/images/Desserts/gebackene-zimtschnecken-in-form.webp",
+      "image6": "/images/Desserts/frischkaese-frosting-fuer-zimtschnecken.webp",
+      "image7": "/images/Desserts/beste-zimtschnecken-nahaufnahme.webp"
     }
   }
 ];
