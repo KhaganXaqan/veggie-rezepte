@@ -939,95 +939,6 @@ instructions: [
   }
   }, 
   {
-    title: "Rhabarber-Kompott",
-    image: "/images/Desserts/rhabarber-kompott.webp",
-    prepTime: 25,
-    seo_keywords: [],
-cookingTime: 20,
-rating: 4.6,
-    category: "Desserts",
-    slug: "rhabarber-kompott",
-    tags: ["Dessert", "Frucht", "Traditionell"],
-    servings: 4,
-    description: "Ein leckeres Rhabarber-Kompott aus verschiedenen Früchten.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Rhabarber" },
-      { amount: 100, unit: "g", name: "Zucker" },
-      { amount: 100, unit: "g", name: "Wasser" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Den Rhabarber waschen, schälen und in kleine Stücke schneiden. In einem Topf mit dem Zucker und dem Wasser vermengen.",
-      "Das Rhabarber-Kompott bei mittlerer Hitze etwa 15–20 Minuten köcheln lassen, bis der Rhabarber weich ist und die Flüssigkeit leicht eingedickt ist.",
-      "Das Kompott abkühlen lassen und in Gläser füllen. Kalt oder warm servieren, z. B. mit Joghurt oder Vanillepudding."
-    ],
-    nutrition: {
-      calories: 100,
-      protein: "1g",
-      carbs: "20g",
-      fat: "0g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
     "title": "Flammkuchen",
     "seo_title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
     "image": "/images/MainCourses/flammkuchen.webp",
@@ -7850,6 +7761,281 @@ instructions: [
       "image5": "/images/Desserts/gebackene-zimtschnecken-in-form.webp",
       "image6": "/images/Desserts/frischkaese-frosting-fuer-zimtschnecken.webp",
       "image7": "/images/Desserts/beste-zimtschnecken-nahaufnahme.webp"
+    }
+  },
+  {
+    "title": "Mein liebstes cremiges Rhabarber-Kompott mit Vanille & Zitrone",
+    "seo_title": "Bestes Rhabarberkompott Rezept einfach & schnell mit Vanille",
+    "image": "/images/Desserts/rhabarber-kompott.webp",
+    "prepTime": 15,
+    "cookingTime": 20,
+    "seo_keywords": [
+      "Rhabarberkompott Rezept",
+      "Einfaches Rhabarberkompott",
+      "Rhabarberkompott kochen",
+      "Rhabarber Vanille Kompott",
+      "Rhabarber Nachtisch",
+      "Rhabarber verarbeiten",
+      "Dessert mit Rhabarber"
+    ],
+    "rating": 4.8,
+    "reviews": 385,
+    "category": "Desserts",
+    "slug": "cremiges-rhabarber-kompott-vanille-zitrone",
+    "tags": [
+      "Frühling",
+      "Dessert",
+      "Einfach",
+      "Traditionell",
+      "Frucht"
+    ],
+    "createdDate": new Date("2025-02-12T14:30:00Z"),
+    "updatedDate": new Date("2025-04-17T16:15:00Z"),
+    "servings": 4,
+    "description": "Entdecke mein einfaches Rezept für cremiges Rhabarberkompott mit Vanille & Zitrone. Perfekt als Dessert oder Beilage – schnell gekocht!",
+    "descriptionOnImage": "Cremiges Vanille-Rhabarberkompott",
+    "introductionParagraph": "Hallo meine Lieben! Sobald die ersten Rhabarberstangen auf dem Markt leuchten, weiß ich: Der Frühling ist endlich da! Und was gibt es Schöneres, als diese säuerlich-frischen Stangen in ein himmlisch cremiges Kompott zu verwandeln? Dieses Rezept für Rhabarberkompott mit einem Hauch Vanille und Zitrone ist mein absoluter Favorit – es ist unglaublich einfach zuzubereiten und schmeckt einfach nach purem Glück. Ich erinnere mich noch genau, wie meine Oma früher im Garten den Rhabarber erntete und wir dann gemeinsam in der Küche standen, um diesen köstlichen Nachtisch zu kochen. Der Duft von köchelndem Rhabarber und Vanille, der durchs Haus zog, ist eine meiner liebsten Kindheitserinnerungen. Dieses Rezept fängt genau dieses Gefühl ein: Es ist unkompliziert, wärmt die Seele und bringt den Frühling direkt auf den Teller. Egal ob pur gelöffelt, zu Waffeln, Pfannkuchen, Milchreis oder als fruchtige Komponente im Schichtdessert – dieses Rhabarberkompott ist ein wahrer Alleskönner und wird garantiert auch euch begeistern. Lasst uns gemeinsam den Frühling feiern und dieses einfache Rhabarberkompott kochen!",
+    "additionalParagraph": "Was ich an diesem Rhabarberkompott Rezept besonders liebe, ist seine Vielseitigkeit und wie leicht es sich an den eigenen Geschmack anpassen lässt. Es ist die perfekte Basis! Manchmal, wenn ich Lust auf eine etwas andere Note habe, gebe ich noch eine Prise Zimt oder etwas frisch geriebenen Ingwer hinzu – das gibt dem Kompott eine wunderbar wärmende Tiefe. Oder wie wäre es mit ein paar Erdbeeren, die gegen Ende der Kochzeit hinzugefügt werden? Rhabarber und Erdbeere sind ja bekanntlich ein Traumpaar! Die Kombination aus der Säure des Rhabarbers, der Süße des Zuckers, dem warmen Aroma der Vanille und der spritzigen Frische der Zitrone ist einfach unschlagbar. Es ist wichtig, den Rhabarber nicht zu lange zu kochen, damit er noch etwas Biss behält und nicht komplett zerfällt – es sei denn, man bevorzugt ein ganz feines Mus. Achtet beim Einkauf auf feste, glänzende Stangen, idealerweise aus regionalem Anbau. Und keine Sorge wegen der Oxalsäure: Durch das Kochen wird sie reduziert, und wer ganz sichergehen will, schält den Rhabarber einfach. Dieses selbstgemachte Kompott ist nicht nur ein köstlicher Nachtisch, sondern auch ein wunderbares Geschenk aus der Küche. In hübsche Gläser gefüllt und mit einem Etikett versehen, macht es jedem eine Freude.",
+    "ingredientsNeeded": [
+      {
+        "title": "Frischer Rhabarber",
+        "description": "Die Hauptzutat! Seine wunderbare Säure ist charakteristisch für das Kompott. Wählt feste, rosafarbene Stangen für die beste Farbe und Geschmack."
+      },
+      {
+        "title": "Zucker",
+        "description": "Gleicht die Säure des Rhabarbers aus und sorgt für die nötige Süße. Die Menge kann je nach Geschmack und Säure des Rhabarbers angepasst werden."
+      },
+      {
+        "title": "Vanille",
+        "description": "Verleiht dem Kompott ein warmes, süßes Aroma, das perfekt mit dem Rhabarber harmoniert. Ich verwende am liebsten das Mark einer echten Vanilleschote."
+      },
+      {
+        "title": "Zitronensaft & -abrieb",
+        "description": "Ein Spritzer Zitrone unterstreicht die Frische des Rhabarbers und rundet den Geschmack ab. Der Abrieb sorgt für ein zusätzliches Zitrusaroma."
+      },
+      {
+        "title": "Wasser (oder Saft)",
+        "description": "Eine kleine Menge Flüssigkeit hilft dem Rhabarber, zu garen und nicht anzubrennen, ohne ihn zu verwässern. Apfel- oder Orangensaft sind leckere Alternativen."
+      },
+      {
+        "title": "Speisestärke (optional)",
+        "description": "Falls das Kompott etwas zu flüssig ist, kann eine kleine Menge in Wasser angerührte Speisestärke helfen, es leicht zu binden und cremiger zu machen."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für das Kompott",
+        "description": "Alle Zutaten für unser fruchtig-cremiges Rhabarberkompott.",
+        "ingredients": [
+          {
+            "amount": 750,
+            "unit": "g",
+            "name": "frischer Rhabarber"
+          },
+          {
+            "amount": 100,
+            "unit": "g",
+            "name": "Zucker (oder nach Geschmack)"
+          },
+          {
+            "amount": 1,
+            "unit": "",
+            "name": "Vanilleschote (Mark davon)"
+          },
+          {
+            "amount": 2,
+            "unit": "EL",
+            "name": "Zitronensaft (frisch gepresst)"
+          },
+          {
+            "amount": 1,
+            "unit": "TL",
+            "name": "Bio-Zitronenabrieb"
+          },
+          {
+            "amount": 50,
+            "unit": "ml",
+            "name": "Wasser (oder Apfelsaft)"
+          },
+          {
+            "amount": 1,
+            "unit": "TL",
+            "name": "Speisestärke (optional, mit 1 EL kaltem Wasser angerührt)"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 750,
+        "unit": "g",
+        "name": "frischer Rhabarber"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Zucker (oder nach Geschmack)"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Vanilleschote (Mark davon)"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "name": "Zitronensaft (frisch gepresst)"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "name": "Bio-Zitronenabrieb"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "name": "Wasser (oder Apfelsaft)"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "name": "Speisestärke (optional, mit 1 EL kaltem Wasser angerührt)"
+      }
+    ],
+    "instructions": [
+      "Den Rhabarber waschen, die Enden abschneiden und eventuell holzige Fasern abziehen (bei jungem Rhabarber oft nicht nötig). Dann die Stangen in ca. 1-2 cm dicke Stücke schneiden.",
+      "Die Vanilleschote längs aufschlitzen und das Mark herauskratzen.",
+      "Die Rhabarberstücke zusammen mit dem Zucker, Vanillemark, der ausgekratzten Vanilleschote, Zitronensaft, Zitronenabrieb und Wasser (oder Saft) in einen Topf geben.",
+      "Alles vorsichtig vermischen und bei mittlerer Hitze unter gelegentlichem Rühren zum Kochen bringen.",
+      "Sobald es kocht, die Hitze reduzieren und das Kompott ca. 10-15 Minuten köcheln lassen, bis der Rhabarber weich ist, aber noch leicht stückig. Nicht zu lange kochen lassen, sonst zerfällt er komplett.",
+      "Probieren und bei Bedarf noch etwas Zucker hinzufügen, falls es zu sauer ist.",
+      "Die ausgekratzte Vanilleschote entfernen.",
+      "Falls das Kompott etwas zu flüssig ist und man es cremiger mag: Die Speisestärke mit 1 EL kaltem Wasser glatt rühren, zum Kompott geben, gut unterrühren und nochmals kurz aufkochen lassen, bis es leicht andickt.",
+      "Das fertige Rhabarberkompott vom Herd nehmen und etwas abkühlen lassen. Es schmeckt lauwarm oder kalt am besten."
+    ],
+    "nutrition": {
+      "calories": 580,
+      "protein": "5g",
+      "carbs": "138g",
+      "fat": "1g"
+    },
+    "tips": [
+      "Weniger Zucker: Wer es weniger süß mag, kann die Zuckermenge reduzieren oder alternative Süßungsmittel wie Agavendicksaft, Honig oder Erythrit verwenden.",
+      "Fruchtige Variation: Gegen Ende der Kochzeit eine Handvoll frische Erdbeeren oder Himbeeren hinzufügen – eine himmlische Kombination!",
+      "Gewürze: Verfeinere das Kompott mit einer Prise Zimt, Kardamom oder etwas frisch geriebenem Ingwer für eine besondere Note.",
+      "Orangensaft: Statt Wasser und Zitronensaft kannst du auch Orangensaft verwenden – das gibt dem Kompott eine fruchtigere Süße.",
+      "Konsistenz: Magst du es lieber feiner? Einfach etwas länger kochen lassen, bis der Rhabarber zerfällt, oder kurz mit dem Pürierstab durchgehen.",
+      "Haltbarkeit: In saubere, heiß ausgespülte Gläser gefüllt und gut verschlossen, hält sich das Kompott im Kühlschrank etwa 1-2 Wochen.",
+      "Einfrieren: Das abgekühlte Kompott lässt sich auch prima portionsweise einfrieren.",
+      "Rote Farbe: Für eine intensivere rote Farbe kannst du ein kleines Stück Rote Bete mitkochen (und vor dem Servieren entfernen) oder Rhabarbersorten mit rotem Fruchtfleisch verwenden."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Rhabarberkompott mein Herz erobert hat",
+      "reasons": [
+        {
+          "title": "Frühlingsbote pur",
+          "description": "Es gibt kaum ein Gericht, das für mich so sehr nach Frühling schmeckt wie dieses Kompott. Die frische Säure des Rhabarbers ist einfach belebend!"
+        },
+        {
+          "title": "Einfach & Schnell",
+          "description": "Kein kompliziertes Rezept! In weniger als 30 Minuten steht dieses köstliche Dessert auf dem Tisch. Perfekt für Kochanfänger und schnelle Gelüste."
+        },
+        {
+          "title": "Kindheitserinnerungen",
+          "description": "Der Duft und Geschmack erinnern mich immer an die Küche meiner Oma und unbeschwerte Frühlingstage. Das ist Soulfood für mich."
+        },
+        {
+          "title": "Unglaublich vielseitig",
+          "description": "Ob zu Süßspeisen, Joghurt, oder Müsli – dieses Kompott passt überraschend oft."
+        },
+        {
+          "title": "Perfekte Balance",
+          "description": "Die Kombination aus säuerlichem Rhabarber, süßem Zucker, warmer Vanille und spritziger Zitrone ist einfach perfekt ausbalanciert."
+        },
+        {
+          "title": "Anpassbar",
+          "description": "Magst du es süßer, saurer, würziger? Kein Problem! Das Rezept lässt sich wunderbar an den eigenen Geschmack anpassen."
+        },
+        {
+          "title": "Geschenkidee",
+          "description": "Selbstgemachtes Kompott in einem hübschen Glas ist immer ein willkommenes Mitbringsel oder kleines Geschenk aus der Küche."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Genieß jeden Löffel meines liebsten Rhabarberkompotts!",
+      "subText": "Ich hoffe, es schmeckt dir genauso gut wie mir und versüßt dir den Frühling!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Vorbereitung des Rhabarbers",
+        "description": "Das A und O ist frischer Rhabarber. Wir waschen ihn gründlich, befreien ihn von unschönen Enden und schneiden ihn in mundgerechte Stücke. Das ist die Basis für unser Kompott."
+      },
+      {
+        "title": "Schritt 2: Aromen vereinen & Kochen",
+        "description": "Nun kommen alle Zutaten zusammen in den Topf: Rhabarber, Zucker, Vanille, Zitrone und Flüssigkeit. Durch das gemeinsame Erhitzen verbinden sich die Aromen und der Rhabarber beginnt, weich zu werden und seinen Saft abzugeben."
+      },
+      {
+        "title": "Schritt 3: Köcheln & Abschmecken",
+        "description": "Bei sanfter Hitze lassen wir das Kompott nun köcheln, bis der Rhabarber die gewünschte Konsistenz hat – nicht zu weich, nicht zu fest. Jetzt ist auch der Moment, die Süße zu prüfen und gegebenenfalls anzupassen."
+      },
+      {
+        "title": "Schritt 4: Optionales Binden & Abkühlen",
+        "description": "Wer es cremiger mag, bindet das Kompott jetzt mit etwas Speisestärke. Danach heißt es: Abkühlen lassen, damit sich die Aromen voll entfalten können. Lauwarm oder kalt genießen!"
+      }
+    ],
+    "servingSuggestion": "Serviere das Rhabarberkompott lauwarm mit einer Kugel Vanilleeis oder einem Klecks griechischem Joghurt.",
+    "servingSuggestions": {
+      "title": "So schmeckt dein Rhabarberkompott am besten",
+      "description": "Dieses Kompott ist ein wahrer Allrounder! Hier sind meine liebsten Ideen, wie du es genießen kannst:",
+      "note": "Lass deiner Fantasie freien Lauf – Rhabarber passt zu mehr, als man denkt!",
+      "items": [
+        {
+          "emoji": "🍨",
+          "title": "Mit Vanilleeis",
+          "description": "Der Klassiker! Die warme Säure des Kompotts und das kalte, cremige Eis sind eine unschlagbare Kombination."
+        },
+        {
+          "emoji": "🥞",
+          "title": "Zu Pfannkuchen & Waffeln",
+          "description": "Ein Muss zum Sonntagsfrühstück! Das Kompott ersetzt Marmelade und gibt einen frischen Kick."
+        },
+        {
+          "emoji": "🥣",
+          "title": "Mit Joghurt & Müsli",
+          "description": "Verwandle dein einfaches Frühstück in etwas Besonderes. Ein Klecks Kompott auf Joghurt oder Quark mit Müsli ist himmlisch."
+        },
+        {
+          "emoji": "🍚",
+          "title": "Zu Milchreis & Grießbrei",
+          "description": "Die fruchtige Säure passt wunderbar zu cremigen Klassikern wie Milchreis oder Grießbrei."
+        },
+        {
+          "emoji": "🍰",
+          "title": "Als Füllung oder Topping",
+          "description": "Verwende das Kompott als fruchtige Schicht in Desserts, auf Käsekuchen oder als Füllung für Blätterteigtaschen."
+        },
+        {
+          "emoji": "🥂",
+          "title": "Im Sekt oder Prosecco",
+          "description": "Ein Löffelchen Kompott in einem Glas Sekt ergibt einen erfrischenden Aperitif mit toller Farbe."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Schon gewusst?",
+      "description": "Obwohl Rhabarber meist wie Obst in Süßspeisen verwendet wird, ist er botanisch gesehen ein Gemüse! Er gehört zur Familie der Knöterichgewächse, genau wie Buchweizen."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/rhabarber-kompott-zutaten.webp",
+      "image1": "/images/Desserts/einfaches-rhabarberkompott-rezept.webp",
+      "image2": "/images/Desserts/rhabarberkompott-kochen-schritte.webp",
+      "image3": "/images/Desserts/rhabarber-vanille-kompott-serviert.webp",
+      "image4": "/images/Desserts/rhabarber-nachtisch-variation.webp",
+      "image5": "/images/Desserts/cremiges-rhabarberkompott-nahaufnahme.webp",
+      "image6": "/images/Desserts/rhabarberkompott-mit-joghurt.webp",
+      "image7": "/images/Desserts/frischer-rhabarber-fuer-kompott.webp"
     }
   }
 ];
