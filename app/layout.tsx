@@ -15,7 +15,10 @@ const inter = InterFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.veggie-rezepte.de'),
-  title: 'Veggie-Rezepte.de - Entdecke köstliche vegetarische Gerichte',
+  title: {
+    default: 'Veggie Rezepte - Entdecke köstliche vegetarische Gerichte',
+    template: '%s | Veggie Rezepte'
+  },
   description: 'Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung.',
   icons: {
     icon: [
@@ -40,19 +43,19 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'de_DE',
     url: 'https://www.veggie-rezepte.de',
-    siteName: 'Veggie-Rezepte.de',
-    title: 'Veggie-Rezepte.de - Köstliche vegetarische Gerichte',
+    siteName: 'Veggie Rezepte',
+    title: 'Veggie Rezepte - Köstliche vegetarische Gerichte',
     description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche.',
     images: [{
       url: '/images/logo/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Veggie-Rezepte.de Logo',
+      alt: 'Veggie Rezepte Logo',
     }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Veggie-Rezepte.de',
+    title: 'Veggie Rezepte',
     description: 'Entdecke köstliche vegetarische Gerichte',
     images: ['/images/logo/og-image.jpg'],
   },
