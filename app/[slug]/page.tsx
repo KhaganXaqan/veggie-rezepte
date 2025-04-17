@@ -20,34 +20,35 @@ type RecipePageProps = {
   }
 }
 
-export async function generateMetadata({ params }: RecipePageProps): Promise<Metadata> {
-  const slug = params?.slug;
-
-   let  recipe = recipesData.find((r) => r.slug === slug);
+// Generate metadata for the page
+export async function generateMetadata(
+  { params }: { params: { slug: string } }
+): Promise<Metadata> {
+  // First await the params object before accessing its properties
+  const { slug } = await params;
   
+  const recipe = recipesData.find((r) => r.slug === slug);
 
   if (!recipe) {
     return {
       title: 'Recipe Not Found - Veggie Rezepte',
-    }
+      description: 'The requested recipe could not be found.',
+    };
   }
 
-  // Determine if we're in development or production
-  const isDevelopment = process.env.NODE_ENV === 'development';
-
-  // Set the base URL based on environment
-  const baseUrl = isDevelopment
+  // Base URL for canonical links
+  const baseUrl = process.env.NODE_ENV === 'development'
     ? 'http://localhost:3000'
     : 'https://www.veggie-rezepte.de';
 
   // Ensure canonical URL is properly set
-  const canonicalUrl = `${baseUrl}/${params.slug}`;
+  const canonicalUrl = `${baseUrl}/${slug}`;
 
   return {
-    title: `${recipe.seo_title} - Veggie Rezepte`,
+    title: `${recipe.seo_title || recipe.title} - Veggie Rezepte`,
     description: recipe.description || '',
     openGraph: {
-      title: `${recipe.seo_title} - Veggie Rezepte`,
+      title: `${recipe.seo_title || recipe.title} - Veggie Rezepte`,
       description: recipe.description || '',
       images: [recipe.image],
       type: 'article',
@@ -55,7 +56,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${recipe.seo_title} - Veggie Rezepte`,
+      title: `${recipe.seo_title || recipe.title} - Veggie Rezepte`,
       description: recipe.description || '',
       images: [recipe.image],
     },
@@ -67,7 +68,8 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 
 // Generate structured data for recipe
 export async function generateStructuredData({ params }: RecipePageProps) {
-  const slug = params?.slug;
+  // First await the params object before accessing its properties
+  const { slug } = await params;
 
   let recipe = recipesData.find((r) => r.slug === slug);
   
@@ -83,7 +85,7 @@ export async function generateStructuredData({ params }: RecipePageProps) {
     : 'https://veggie-rezepte.de';
 
   // Ensure canonical URL is properly set
-  const canonicalUrl = `${baseUrl}/${params.slug}`;
+  const canonicalUrl = `${baseUrl}/${slug}`;
 
   return {
     '@context': 'https://schema.org',
@@ -130,12 +132,12 @@ export function generateStaticParams() {
 }
 
 export default async function RecipePage({ params }: RecipePageProps) {
-  const slug = params?.slug;
+  // First await the params object before accessing its properties
+  const { slug } = await params;
 
   let recipe: Recipe | null = null;
-    const foundRecipe = recipesData.find((r) => r.slug === slug);
-    if (foundRecipe) recipe = foundRecipe;
-  
+  const foundRecipe = recipesData.find((r) => r.slug === slug);
+  if (foundRecipe) recipe = foundRecipe;
 
   if (!recipe) {
     notFound();
@@ -173,7 +175,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'beeren-crumble',
     'bestes-schokoladen-mousse-rezept-klassisch-einfach',
     'omas-bester-gezogener-apfelstrudel-rezept',
-    'klassisches-ruehrei-rezept'
+    'klassisches-ruehrei-rezept',
+    'bestes-zimtschnecken-rezept-saftig'
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
