@@ -176,7 +176,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'bestes-schokoladen-mousse-rezept-klassisch-einfach',
     'omas-bester-gezogener-apfelstrudel-rezept',
     'klassisches-ruehrei-rezept',
-    'bestes-zimtschnecken-rezept-saftig'
+    'bestes-zimtschnecken-rezept-saftig',
+    "cremiges-rhabarber-kompott-vanille-zitrone"
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
