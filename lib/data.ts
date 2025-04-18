@@ -846,99 +846,6 @@ instructions: [
   }
   },
   {
-    title: "Granola mit Nüssen",
-    image: "/images/Frühstück/granola-nuesse.webp",
-    prepTime: 40,
-    seo_keywords: [],
-cookingTime: 20,
-rating: 4.7,
-    category: "Frühstück",
-    slug: "granola-nuesse",
-    tags: ["Frühstück", "Gesund", "Müsli"],
-    servings: 4,
-    description: "Eine leckere Granola aus verschiedenen Nüssen.",
-    ingredients: [
-      { amount: 200, unit: "g", name: "Nüsse" },
-      { amount: 100, unit: "g", name: "Zucker" },
-      { amount: 100, unit: "g", name: "Olivenöl" },
-      { amount: 100, unit: "g", name: "Mehl" },
-      { amount: 100, unit: "g", name: "Backpulver" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Nüsse grob hacken. In einer Schüssel den Zucker, das Olivenöl, das Mehl und das Backpulver vermengen.",
-      "Die Nüsse unter die Mischung heben und alles gut vermengen, bis eine krümelige Masse entsteht.",
-      "Den Backofen auf 160°C vorheizen. Die Granola-Mischung auf ein mit Backpapier ausgelegtes Blech verteilen.",
-      "Die Granola etwa 25–30 Minuten backen, bis sie goldbraun und knusprig ist. Gelegentlich umrühren, um ein gleichmäßiges Backen zu gewährleisten.",
-      "Die Granola abkühlen lassen und in einem luftdichten Behälter aufbewahren. Zum Servieren mit Joghurt oder Milch kombinieren."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "10g",
-      carbs: "20g",
-      fat: "10g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  }, 
-  {
     "title": "Flammkuchen",
     "seo_title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
     "image": "/images/MainCourses/flammkuchen.webp",
@@ -8036,6 +7943,248 @@ instructions: [
       "image5": "/images/Desserts/cremiges-rhabarberkompott-nahaufnahme.webp",
       "image6": "/images/Desserts/rhabarberkompott-mit-joghurt.webp",
       "image7": "/images/Desserts/frischer-rhabarber-fuer-kompott.webp"
+    }
+  },
+  {
+    "title": "Knuspriges Granola mit Nüssen – Einfach Selber Machen & Genießen",
+    "seo_title": "Bestes Nuss Granola Rezept: Knusprig, Gesund",
+    "image": "/images/Frühstück/granola-nuesse.webp",
+    "prepTime": 15,
+    "cookingTime": 35,
+    "seo_keywords": [
+      "Granola Rezept",
+      "Granola selber machen",
+      "Nuss Granola",
+      "Knuspermüsli Rezept",
+      "Gesundes Granola",
+      "Granola mit Nüssen",
+      "Knusper Granola"
+    ],
+    "rating": 4.9,
+    "reviews": 278,
+    "category": "Frühstück",
+    "slug": "knusper-granola-nuesse-rezept",
+    "tags": [
+      "Granola",
+      "Nüsse",
+      "Frühstück",
+      "Gesund",
+      "Selber machen"
+    ],
+    "createdDate": new Date("2025-02-02T20:00:00Z"),
+    "updatedDate": new Date("2025-04-17T22:42:00Z"),
+    "servings": 10,
+    "description": "Das beste Rezept für knuspriges Granola mit vielen Nüssen! Einfach selber machen, gesund genießen und perfekt für dein Frühstück oder als Snack.",
+    "descriptionOnImage": "Hausgemachtes Knusper-Granola mit Nüssen",
+    "introductionParagraph": "Ich liebe, liebe, liebe knuspriges Granola! Aber kennt ihr das? Man kauft eine Packung im Supermarkt, freut sich auf knackige Nüsse und gesunde Zutaten, und dann ist es oft enttäuschend süß, enthält kaum Nüsse oder wird nach zwei Tagen pappig. Seit ich mein Granola selber mache, gibt es kein Zurück mehr! Es ist so unglaublich einfach, schmeckt tausendmal besser und ich weiß genau, was drin ist. Dieses Nuss Granola Rezept ist mein absoluter Favorit, weil es randvoll mit meinen Lieblingsnüssen und Kernen ist und genau die richtige, dezente Süße hat. Wenn dieses Knusper Granola im Ofen backt, zieht ein herrlicher Duft durch die ganze Wohnung – eine Mischung aus gerösteten Nüssen, Haferflocken und einem Hauch Zimt und Vanille. Es ist die perfekte Grundlage für ein gesundes Granola, das dich morgens mit Energie versorgt oder dir als leckerer Snack über den Tag hilft. Lass uns gemeinsam dieses wunderbare Knuspermüsli Rezept ausprobieren – du wirst begeistert sein!",
+    "additionalParagraph": "Das Tolle am Granola selber machen ist die absolute Freiheit. Du bist der Chef in deiner Müsli-Küche! Magst du lieber Mandeln oder Pekannüsse? Oder vielleicht eine exotische Mischung? Kein Problem! Du entscheidest, welche Nüsse, Kerne und Gewürze in dein perfektes Granola mit Nüssen kommen. Du kannst die Süße anpassen – ob mit Ahornsirup, Honig oder einer zuckerärmeren Alternative. Und das Beste: Es ist wirklich kinderleicht! Einmal alle trockenen Zutaten mischen, die flüssigen darüber geben, gut vermengen und ab in den Ofen. Während es backt, kannst du dich schon auf das Ergebnis freuen: Große, goldbraune Knusperstücke voller Nüsse. Eine große Portion reicht locker für eine Woche (wenn man sich beherrschen kann!) und ist so viel preiswerter als gekaufte Edel-Müslis. Für mich ist eine Schüssel von diesem selbstgemachten Nuss Granola mit Joghurt und frischen Früchten der perfekte Start in den Tag. Es gibt mir Energie, hält lange satt und schmeckt einfach himmlisch.",
+    "ingredientsNeeded": [
+      {
+        "title": "Großblättrige Haferflocken",
+        "description": "Sie bilden die Basis des Granolas und sorgen für eine tolle Textur und Ballaststoffe. Großblättrige (kernige) Flocken bleiben beim Backen besser in Form und geben mehr Biss als zarte Flocken."
+      },
+      {
+        "title": "Gemischte Rohe Nüsse",
+        "description": "Das Herzstück dieses Rezepts! Eine Mischung aus z.B. Mandeln, Walnüssen, Pekannüssen, Cashews liefert gesunde Fette, Protein und den unvergleichlichen Geschmack. Unbedingt rohe Nüsse verwenden, da sie im Ofen noch rösten."
+      },
+      {
+        "title": "Kerne & Saaten",
+        "description": "Sonnenblumenkerne, Kürbiskerne, Leinsamen oder Chiasamen ergänzen die Nüsse perfekt, liefern zusätzliche Nährstoffe und sorgen für noch mehr Crunch im Nuss Granola."
+      },
+      {
+        "title": "Natürliche Süße (Ahornsirup/Honig)",
+        "description": "Bindet die Zutaten zusammen, sorgt für eine angenehme Süße und hilft beim Karamellisieren für die Knusprigkeit. Die Menge kann nach Geschmack angepasst werden."
+      },
+      {
+        "title": "Öl (Kokosöl/Neutrales Öl)",
+        "description": "Macht das Granola knusprig und hilft, die Hitze gleichmäßig zu verteilen. Kokosöl gibt eine feine Note, neutrales Pflanzenöl ist geschmacksneutraler."
+      },
+      {
+        "title": "Gewürze (Zimt/Vanille)",
+        "description": "Verleihen dem Granola Wärme und Tiefe. Zimt passt perfekt zu Nüssen und Hafer, Vanille rundet den Geschmack ab. Andere Gewürze wie Kardamom oder Ingwer sind auch toll."
+      },
+      {
+        "title": "Eine Prise Salz",
+        "description": "Ganz wichtig, um die Süße auszubalancieren und die nussigen Aromen hervorzuheben. Nicht weglassen!"
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Trockene Zutaten",
+        "description": "Die Basis für unser knuspriges Nuss Granola – Haferflocken, Nüsse und Kerne.",
+        "ingredients": [
+          { "amount": 250, "unit": "g", "name": "Haferflocken (kernig/großblatt)" },
+          { "amount": 200, "unit": "g", "name": "Gemischte Nüsse (z.B. Mandeln, Walnüsse, Pekannüsse, Cashews), grob gehackt" },
+          { "amount": 100, "unit": "g", "name": "Gemischte Kerne (z.B. Kürbiskerne, Sonnenblumenkerne)" },
+          { "amount": 1, "unit": "TL", "name": "Zimt (gemahlen)" },
+          { "amount": 0.5, "unit": "TL", "name": "Salz" }
+        ]
+      },
+      {
+        "title": "Flüssige Zutaten (Binder & Geschmack)",
+        "description": "Diese Mischung hält alles zusammen, sorgt für Süße und hilft beim Knusprigwerden.",
+        "ingredients": [
+          { "amount": 100, "unit": "ml", "name": "Ahornsirup (oder Honig)" },
+          { "amount": 60, "unit": "ml", "name": "Kokosöl (geschmolzen) oder neutrales Pflanzenöl" },
+          { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" }
+        ]
+      },
+      {
+        "title": "Optional (nach dem Backen)",
+        "description": "Für zusätzliche Süße oder Textur – erst nach dem Abkühlen untermischen!",
+        "ingredients": [
+          { "amount": 50, "unit": "g", "name": "Trockenfrüchte (z.B. Rosinen, Cranberries, Aprikosen gehackt)" },
+          { "amount": 30, "unit": "g", "name": "Kokoschips" },
+          { "amount": 30, "unit": "g", "name": "Schokodrops (zartbitter)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 250, "unit": "g", "name": "Haferflocken (kernig/großblatt)" },
+      { "amount": 200, "unit": "g", "name": "Gemischte Nüsse (z.B. Mandeln, Walnüsse, Pekannüsse, Cashews), grob gehackt" },
+      { "amount": 100, "unit": "g", "name": "Gemischte Kerne (z.B. Kürbiskerne, Sonnenblumenkerne)" },
+      { "amount": 1, "unit": "TL", "name": "Zimt (gemahlen)" },
+      { "amount": 0.5, "unit": "TL", "name": "Salz" },
+      { "amount": 100, "unit": "ml", "name": "Ahornsirup (oder Honig)" },
+      { "amount": 60, "unit": "ml", "name": "Kokosöl (geschmolzen) oder neutrales Pflanzenöl" },
+      { "amount": 1, "unit": "TL", "name": "Vanilleextrakt" },
+      { "amount": 50, "unit": "g", "name": "Trockenfrüchte (z.B. Rosinen, Cranberries, Aprikosen gehackt)" },
+      { "amount": 30, "unit": "g", "name": "Kokoschips" },
+      { "amount": 30, "unit": "g", "name": "Schokodrops (zartbitter)" }
+    ],
+    "instructions": [
+      "Den Backofen auf 160°C Ober-/Unterhitze vorheizen. Ein großes Backblech mit Backpapier auslegen.",
+      "In einer großen Schüssel die trockenen Zutaten vermischen: Haferflocken, grob gehackte Nüsse, Kerne, Zimt und Salz.",
+      "In einer kleinen Schüssel oder einem Messbecher die flüssigen Zutaten verrühren: Ahornsirup (oder Honig), geschmolzenes Kokosöl (oder Pflanzenöl) und Vanilleextrakt.",
+      "Die flüssige Mischung über die trockenen Zutaten gießen.",
+      "Alles gründlich mit einem Löffel oder den Händen vermengen, bis alle trockenen Zutaten gleichmäßig mit der flüssigen Mischung überzogen sind.",
+      "Die Granola-Mischung gleichmäßig auf dem vorbereiteten Backblech verteilen. Nicht zu dick auftragen, sonst wird es nicht knusprig. Ggf. zwei Bleche verwenden.",
+      "Das Granola im vorgeheizten Ofen ca. 30-40 Minuten backen.",
+      "WICHTIG: Nach 15 Minuten Backzeit das Granola einmal gut durchmischen/wenden, damit es gleichmäßig bräunt und knusprig wird. Gegen Ende der Backzeit im Auge behalten, damit die Nüsse nicht verbrennen!",
+      "Das Granola ist fertig, wenn es goldbraun duftet und die Ränder leicht gebräunt sind. Es wird beim Abkühlen noch fester und knuspriger.",
+      "Das Backblech aus dem Ofen nehmen und das Granola auf dem Blech VOLLSTÄNDIG abkühlen lassen. Nicht umrühren, wenn man größere Knusperstücke (Cluster) möchte.",
+      "Sobald das Granola komplett abgekühlt ist, kann es bei Bedarf in Stücke gebrochen werden.",
+      "Optional jetzt die Trockenfrüchte, Kokoschips oder Schokodrops untermischen.",
+      "Das fertige Nuss Granola in einem luftdichten Behälter aufbewahren."
+    ],
+    "nutrition": {
+      "calories": 4100,
+      "protein": "80g",
+      "carbs": "390g",
+      "fat": "277g"
+    },
+    "tips": [
+      "Low & Slow für Crunch: Backe das Granola bei niedriger Temperatur (max. 160°C). Das trocknet es langsam durch und macht es richtig knusprig, ohne dass die Nüsse verbrennen.",
+      "Regelmäßig Wenden: Das Granola während des Backens mindestens einmal wenden, damit es von allen Seiten gleichmäßig röstet und bräunt.",
+      "Vollständig Abkühlen lassen: Das ist der wichtigste Schritt für Knusprigkeit! Lass das Granola nach dem Backen ungestört auf dem Blech komplett auskühlen. Erst dann wird es richtig fest und crunchy.",
+      "Cluster-Bildung: Wenn du große Knusperstücke liebst, drücke die Masse vor dem Backen auf dem Blech leicht an und rühre sie beim Abkühlen NICHT um. Erst nach dem vollständigen Abkühlen vorsichtig zerbrechen.",
+      "Add-Ins nach dem Backen: Trockenfrüchte (Rosinen, Cranberries etc.) oder Schokolade immer erst nach dem Backen und Abkühlen hinzufügen, da sie sonst im Ofen verbrennen oder schmelzen.",
+      "Luftdicht Lagern: Bewahre dein selbstgemachtes Granola in einem luftdichten Glas oder Behälter auf, damit es lange knusprig bleibt (hält sich so mehrere Wochen).",
+      "Variationen: Sei kreativ! Tausche Nüsse und Kerne nach Belieben aus. Füge Kokosflocken (gegen Ende der Backzeit) hinzu, probiere andere Gewürze wie Kardamom, Ingwer oder Kakaopulver.",
+      "Zucker reduzieren? Du kannst die Menge an Ahornsirup oder Honig etwas reduzieren, wenn du es weniger süß magst. Ganz weglassen funktioniert aber nicht, da es auch als Bindemittel dient."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Knusper Granola mit Nüssen mein Liebling ist",
+      "reasons": [
+        {
+          "title": "Unschlagbar Knusprig:",
+          "description": "Dieses Granola Rezept liefert dank der Backmethode eine perfekte, langanhaltende Knusprigkeit, die gekaufte Müslis oft vermissen lassen."
+        },
+        {
+          "title": "Voller Guter Nüsse:",
+          "description": "Hier entscheidest du, wie hoch der Nussanteil ist! Es ist ein echtes Nuss Granola, vollgepackt mit gesunden Fetten und Biss."
+        },
+        {
+          "title": "Gesünder & Kontrolliert:",
+          "description": "Du weißt genau, was drin ist – keine versteckten Zucker oder unnötigen Zusatzstoffe. Ein wirklich gesundes Granola, das du an deine Bedürfnisse anpassen kannst."
+        },
+        {
+          "title": "Einfach & Schnell Gemacht:",
+          "description": "Das Granola selber machen ist super einfach: Zutaten mischen, backen, fertig! Der Aufwand ist minimal, das Ergebnis maximal lecker."
+        },
+        {
+          "title": "Himmlischer Duft:",
+          "description": "Allein der Duft von frisch gebackenem Knusper Granola mit gerösteten Nüssen und Zimt ist die Zubereitung schon wert."
+        },
+        {
+          "title": "Super Vielseitig:",
+          "description": "Perfekt zum Frühstück mit Joghurt, als Topping für Smoothies oder einfach pur als Knusper-Snack für zwischendurch."
+        },
+        {
+          "title": "Tolles Geschenk:",
+          "description": "In ein hübsches Glas gefüllt ist selbstgemachtes Granola mit Nüssen ein wunderbares, persönliches Geschenk aus der Küche."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Viel Spaß beim Kunspern meines liebsten Nuss-Granolas!",
+      "subText": "Ich hoffe, dieses Rezept versorgt dich mit Energie und guter Laune. Lass mich wissen, welche deine Lieblingsmischung ist!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Trockene Zutaten Mischen",
+        "description": "Die Basis legen wir mit Haferflocken, den grob gehackten Nüssen und Kernen. Gewürze wie Zimt und Salz sorgen für das erste Aroma."
+      },
+      {
+        "title": "Schritt 2: Flüssige Zutaten Verbinden",
+        "description": "Ahornsirup oder Honig, geschmolzenes Öl und Vanille werden verrührt. Diese Mischung sorgt später für die Bindung, Süße und hilft beim Knusprigwerden."
+      },
+      {
+        "title": "Schritt 3: Alles Vermengen & Backen",
+        "description": "Die flüssigen Zutaten werden gründlich mit den trockenen vermischt und die Masse auf einem Backblech verteilt. Bei niedriger Temperatur wird das Granola langsam goldbraun und knusprig gebacken, dabei einmal wenden."
+      },
+      {
+        "title": "Schritt 4: Das Wichtigste - Abkühlen Lassen!",
+        "description": "Nach dem Backen muss das Granola komplett auf dem Blech auskühlen. Dieser Schritt ist entscheidend, damit es richtig fest und unwiderstehlich knusprig wird. Erst danach optional Trockenfrüchte hinzufügen und luftdicht verpacken."
+      }
+    ],
+    "servingSuggestion": "Genieße das knusprige Nuss Granola mit griechischem Joghurt und frischen Beeren für einen perfekten Start in den Tag.",
+    "servingSuggestions": {
+      "title": "So schmeckt dein Nuss Granola am besten",
+      "description": "Dieses selbstgemachte Granola ist so vielseitig! Hier sind meine liebsten Arten, es zu genießen:",
+      "note": "Lass deiner Fantasie freien Lauf!",
+      "items": [
+        {
+          "emoji": "🥣",
+          "title": "Mit Joghurt oder Quark",
+          "description": "Der Klassiker! Naturjoghurt, griechischer Joghurt oder Quark bilden die perfekte cremige Basis für das knusprige Nuss Granola."
+        },
+        {
+          "emoji": "🥛",
+          "title": "Als Müsli mit Milch",
+          "description": "Einfach mit kalter Milch (Kuhmilch oder Pflanzendrink wie Hafer- oder Mandelmilch) übergießen – schnell und lecker."
+        },
+        {
+          "emoji": "🍓",
+          "title": "Mit frischem Obst",
+          "description": "Beeren, Bananenscheiben, Apfelstücke oder anderes Lieblingsobst bringen Frische und Vitamine dazu."
+        },
+        {
+          "emoji": "🥤",
+          "title": "Als Smoothie-Bowl-Topping",
+          "description": "Verleiht deiner cremigen Smoothie Bowl den nötigen Crunch und eine Extraportion Nährstoffe."
+        },
+        {
+          "emoji": "🍎",
+          "title": "Auf gebackenem Obst",
+          "description": "Streue es über einen warmen Bratapfel oder gebackene Pflaumen für ein köstliches Dessert."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Granola vs. Müsli - Was ist der Unterschied?",
+      "description": "Wusstest du, dass Granola im Grunde gebackenes Müsli ist? Während klassisches Müsli (oft 'Bircher Müsli') meist aus rohen Haferflocken, Nüssen und Früchten besteht, die direkt mit Milch oder Joghurt gemischt werden, werden beim Granola die Zutaten mit Süßungsmitteln und Öl vermischt und im Ofen knusprig gebacken. Das gibt ihm die typische Textur und den gerösteten Geschmack."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/knusper-granola-nuesse-zutaten.webp",
+      "image1": "/images/Frühstück/knusper-granola-nuesse-schuessel.webp",
+      "image2": "/images/Frühstück/granola-selber-machen-mischen.webp",
+      "image3": "/images/Frühstück/nuss-granola-auf-backblech.webp",
+      "image4": "/images/Frühstück/fertiges-knusper-granola-nuesse.webp",
+      "image5": "/images/Frühstück/granola-nuesse-mit-joghurt-beeren.webp",
+      "image6": "/images/Frühstück/gesundes-granola-rezept-glas.webp",
+      "image7": "/images/Frühstück/knusper-granola-nahaufnahme.webp"
     }
   }
 ];
