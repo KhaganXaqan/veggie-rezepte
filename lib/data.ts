@@ -187,101 +187,6 @@ instructions: [
   }
   },
   {
-    title: "Kartoffelgratin",
-    image: "/images/MainCourses/kartoffelgratin.webp",
-    prepTime: 60,
-    cookingTime: 20,
-    rating: 4.9,
-    seo_keywords: [],
-    category: "Aufläufe",
-    slug: "kartoffelgratin",
-    tags: ["Traditionell", "Auflauf", "Kartoffeln"],
-    servings: 6,
-    description: "Ein klassisches Kartoffelaufläuf aus der Region Schwaben.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Kartoffeln" },
-      { amount: 200, unit: "g", name: "Butter" },
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: 100, unit: "g", name: "Käse" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Kartoffeln schälen und in dünne Scheiben schneiden. Den Backofen auf 180°C vorheizen.",
-      "In einem Topf die Butter schmelzen. Das Mehl unterrühren und kurz anschwitzen. Nach und nach die Milch hinzufügen und unter ständigem Rühren eine glatte Sauce kochen. Mit Salz und Pfeffer abschmecken.",
-      "Eine Auflaufform mit etwas Butter einfetten. Schichtweise die Kartoffelscheiben und die Sauce in die Form geben. Mit einer Schicht Sauce abschließen.",
-      "Den Käse reiben und gleichmäßig über das Gratin streuen. Im vorgeheizten Backofen etwa 45 Minuten backen, bis die Oberfläche goldbraun und die Kartoffeln weich sind.",
-      "Das Gratin vor dem Servieren kurz abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 400,
-      protein: "15g",
-      carbs: "30g",
-      fat: "20g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
     title: "Blumenkohl-Käse-Auflauf",
     image: "/images/MainCourses/blumenkohl-kaese-auflauf.webp",
     seo_keywords: [],
@@ -8185,6 +8090,236 @@ instructions: [
       "image5": "/images/Frühstück/granola-nuesse-mit-joghurt-beeren.webp",
       "image6": "/images/Frühstück/gesundes-granola-rezept-glas.webp",
       "image7": "/images/Frühstück/knusper-granola-nahaufnahme.webp"
+    }
+  },
+  {   
+    "title": "kartoffelgratin",
+    "seo_title": "Cremiges Kartoffelgratin Rezept - Klassisch & Einfach",
+    "image": "/images/Miscellaneous/kartoffelgratin.webp",
+    "prepTime": 25,
+    "cookingTime": 60,
+    "seo_keywords": [
+      "Kartoffelgratin Rezept",
+      "Sahne Gratin",
+      "Cremiges Kartoffelgratin",
+      "Einfaches Gratin",
+      "Kartoffelauflauf",
+      "Gratin Beilage",
+      "Käse Kartoffelgratin"
+    ],
+    "rating": 4.8,
+    "reviews": 187,
+    "category": "Aufläufe",
+    "slug": "kartoffelgratin",
+    "tags": ["Traditionell", "Auflauf", "Kartoffeln"],
+    "createdDate": new Date("2025-02-10T10:00:00Z"),
+    "updatedDate": new Date("2025-04-15T12:00:00Z"),
+    "servings": 7,
+    "description": "Entdecken Sie mein einfaches Rezept für das cremigste Kartoffelgratin! Perfekt als Hauptspeise oder leckere Beilage.",
+    "descriptionOnImage": "Einfach himmlisch cremig!",
+    "introductionParagraph": "Es gibt einfach Gerichte, die ein Zuhause auf dem Teller sind, und für mich gehört ein richtig gutes Kartoffelgratin unbedingt dazu.",
+    "additionalParagraph": "Mit goldbrauner Käsekruste und herrlich zarten Kartoffelscheiben ist dieses cremige Sahne Gratin ein absoluter Familienfavorit.",
+    "ingredientsNeeded": [
+      {
+        "title": "Kartoffeln",
+        "description": "Wir brauchen festkochende Kartoffeln, da sie ihre Form beim Backen behalten und nicht zerfallen, was für die perfekte Textur im Gratin unerlässlich ist."
+      },
+      {
+        "title": "Sahne & Milch",
+        "description": "Die Kombination aus Sahne und Milch bildet die flüssige Basis, die das Gratin so wunderbar cremig macht und die Aromen bindet."
+      },
+      {
+        "title": "Knoblauch",
+        "description": "Ein Hauch frischer Knoblauch gibt der Sahnesauce eine subtile Tiefe und das gewisse Etwas, ohne zu dominant zu sein."
+      },
+      {
+        "title": "Käse",
+        "description": "Ein guter, würziger Hartkäse wie Gruyère oder Emmentaler sorgt für die goldbraune, leicht knusprige Kruste und eine zusätzliche Geschmacksebene."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Frisch geriebene Muskatnuss, Salz und Pfeffer sind klassische Gratin-Begleiter und heben den natürlichen Geschmack der Kartoffeln hervor."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für das Gratin",
+        "description": "Die Hauptzutaten für unser cremiges Kartoffelvergnügen.",
+        "ingredients": [
+          {
+            "amount": 1.2,
+            "unit": "kg",
+            "name": "festkochende Kartoffeln"
+          },
+          {
+            "amount": 500,
+            "unit": "ml",
+            "name": "Sahne (mind. 30% Fett)"
+          },
+          {
+            "amount": 200,
+            "unit": "ml",
+            "name": "Milch"
+          },
+          {
+            "amount": 2,
+            "unit": "Zehen",
+            "name": "Knoblauch"
+          },
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "geriebener Käse (z.B. Gruyère oder Emmentaler)"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch geriebene Muskatnuss"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Butter zum Einfetten der Form"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 1.2,
+        "unit": "kg",
+        "name": "festkochende Kartoffeln"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "name": "Sahne (mind. 30% Fett)"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "name": "Milch"
+      },
+      {
+        "amount": 2,
+        "unit": "Zehen",
+        "name": "Knoblauch"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "geriebener Käse (z.B. Gruyère oder Emmentaler)"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch geriebene Muskatnuss"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Butter zum Einfetten der Form"
+      }
+    ],
+    "instructions": [
+      "Den Backofen auf 180°C Ober-/Unterhitze vorheizen und eine passende Auflaufform großzügig mit Butter einfetten.",
+      "Die Kartoffeln schälen und in sehr dünne Scheiben hobeln oder schneiden (ca. 1-2 mm dick).",
+      "Knoblauchzehen fein reiben oder pressen.",
+      "In einem Topf Sahne und Milch erhitzen, Knoblauch, Salz, Pfeffer und frisch geriebene Muskatnuss hinzufügen. Kurz aufkochen lassen und vom Herd nehmen.",
+      "Die dünnen Kartoffelscheiben schichtweise in die vorbereitete Auflaufform legen.",
+      "Die warme Sahne-Milch-Mischung vorsichtig über die Kartoffelschichten gießen, sodass alle Kartoffeln bedeckt sind.",
+      "Den geriebenen Käse gleichmäßig über die oberste Kartoffelschicht streuen.",
+      "Die Auflaufform auf mittlerer Schiene für ca. 60-75 Minuten backen, bis das Gratin goldbraun und die Kartoffeln gar und weich sind. Mit einem Messer testen.",
+      "Das Gratin vor dem Servieren ca. 5-10 Minuten ruhen lassen."
+    ],
+    "nutrition": {
+      "calories": 3150,
+      "protein": "85g",
+      "carbs": "244g",
+      "fat": "206g"
+    },
+    "tips": [
+      "Für eine extra feine Note können Sie einen Zweig frischen Thymian oder Rosmarin zur Sahne-Milch-Mischung geben und vor dem Übergießen wieder entfernen.",
+      "Wenn Sie es würziger mögen, mischen Sie etwas geriebenen würzigen Bergkäse unter den Emmentaler oder Gruyère."
+    ],
+    "whyFavorite": {
+      "title": "Darum liebe ich dieses Kartoffelgratin",
+      "reasons": [
+        {
+          "title": "Unwiderstehlich cremig",
+          "description": "Die perfekte Balance aus Sahne und Milch sorgt für eine samtige Textur, die einfach auf der Zunge zergeht – ganz ohne Mehl als Bindemittel!"
+        },
+        {
+          "title": "Perfekte Kruste",
+          "description": "Die goldbraune Käseschicht wird herrlich knusprig und bildet einen tollen Kontrast zu den weichen Kartoffeln darunter. Das ist das Highlight für viele!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, du liebst dieses Kartoffelgratin genauso sehr wie ich!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Vorbereiten der Kartoffeln",
+        "description": "Dünne, gleichmäßige Scheiben sind das A und O für ein gleichmäßig gegartes Gratin. Das Schälen und Hobeln erfordert etwas Geduld, zahlt sich aber aus."
+      },
+      {
+        "title": "Würzen der Sahnebasis",
+        "description": "Durch das leichte Erwärmen der Sahne-Milch mit Knoblauch und Gewürzen können sich die Aromen wunderbar entfalten und die Kartoffeln beim Garen durchziehen."
+      },
+      {
+        "title": "Schichten und Backen",
+        "description": "Das sorgfältige Schichten der Kartoffeln und das langsame Backen bei moderater Temperatur ermöglichen es den Kartoffeln, die Flüssigkeit aufzunehmen und zart zu werden, während der Käse gratiniert."
+      }
+    ],
+    "servingSuggestion": "Dieses cremige Kartoffelgratin schmeckt hervorragend als Beilage zu Braten, Gegrilltem oder einfach pur.",
+    "servingSuggestions": {
+      "title": "Passende Begleiter für Ihr Gratin",
+      "description": "Ein klassisches Kartoffelgratin ist unglaublich vielseitig. Hier sind ein paar Ideen, womit es besonders gut harmoniert:",
+      "note": "Auch solo ein Genuss!",
+      "items": [
+        {
+          "emoji": "🥗",
+          "title": "Frischer Blattsalat",
+          "description": "Ein leichter, zitroniger Salat sorgt für eine erfrischende Komponente neben dem reichhaltigen Gratin."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Schon gewusst?",
+      "description": "Kartoffelgratin, auch bekannt als 'Gratin Dauphinois', stammt ursprünglich aus der französischen Region Dauphiné und wurde angeblich erstmals 1788 serviert."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/kartoffelgratin-zutaten.webp",
+      "image1": "/images/Miscellaneous/cremiges-kartoffelgratin-rezept.webp",
+      "image2": "/images/Miscellaneous/einfaches-sahne-gratin.webp",
+      "image3": "/images/Miscellaneous/kartoffelauflauf-klassisch.webp",
+      "image4": "/images/Miscellaneous/gratin-dauphinois-deutsch.webp",
+      "image5": "/images/Miscellaneous/kartoffelgratin-ofen.webp",
+      "image6": "/images/Miscellaneous/selbstgemachtes-kartoffelgratin.webp",
+      "image7": "/images/Miscellaneous/kartoffelgratin-mit-kaese.webp"
     }
   }
 ];
