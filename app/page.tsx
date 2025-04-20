@@ -20,10 +20,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const canonicalUrl = `${baseUrl}/`;
 
   return {
-    title: "Vegetarische & Vegane Rezepte | Lecker & Gesund | Veggie Rezepte",
+    title: "Vegetarische & Vegane Rezepte | Lecker & Gesund",
     description: "Entdecke köstliche vegetarische und vegane Rezepte für jeden Tag. Von schnellen Gerichten bis zu festlichen Menüs - einfach zubereitet und gesund.",
     openGraph: {
-      title: "Vegetarische & Vegane Rezepte | Lecker & Gesund | Veggie Rezepte",
+      title: "Vegetarische & Vegane Rezepte | Lecker & Gesund",
       description: "Entdecke köstliche vegetarische und vegane Rezepte für jeden Tag. Von schnellen Gerichten bis zu festlichen Menüs - einfach zubereitet und gesund.",
       url: canonicalUrl,
       siteName: "Veggie-Rezepte",
@@ -31,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Vegetarische & Vegane Rezepte | Lecker & Gesund | Veggie Rezepte",
+      title: "Vegetarische & Vegane Rezepte | Lecker & Gesund",
       description: "Entdecke köstliche vegetarische und vegane Rezepte für jeden Tag. Von schnellen Gerichten bis zu festlichen Menüs - einfach zubereitet und gesund.",
     },
     alternates: {

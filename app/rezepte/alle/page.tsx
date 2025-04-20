@@ -55,10 +55,10 @@ export default function AllRecipes() {
     
     // Set page title
     document.title = selectedTags.length > 0 
-      ? `${selectedTags.join(', ')} Rezepte | Veggie Rezepte` 
+      ? `${selectedTags.join(', ')} Rezepte` 
       : searchQuery 
-        ? `${searchQuery} Rezepte | Veggie Rezepte` 
-        : 'Alle Rezepte | Vegetarische & Vegane Gerichte | Veggie Rezepte';
+        ? `${searchQuery} Rezepte ` 
+        : 'Alle Rezepte | Vegetarische & Vegane Gerichte';
     
     // Set canonical URL - always point to the base page without query parameters
     const canonicalUrl = `${baseUrl}/rezepte/alle`;

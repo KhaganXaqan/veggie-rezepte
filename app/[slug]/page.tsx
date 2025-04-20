@@ -295,10 +295,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     <div className="w-full h-[960px] rounded-2xl overflow-hidden">
                       <img
                       width="1200"
-                      height="800"
-                      loading="lazy"
-                      decoding="async"
-                      itemProp="contentUrl"
+                              height="800"
+                              loading="lazy"
+                              decoding="async"
+                              itemProp="contentUrl"
                         src={validRecipe.image}
                         alt={validRecipe.image.split("/").pop()?.split(".")[0]}
                         className="w-full h-full object-cover"

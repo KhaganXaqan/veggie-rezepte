@@ -17,7 +17,7 @@ export default function DessertsRecipes() {
   const canonicalUrl = `${baseUrl}/kategorien/${categorySlug}`;
   
   // SEO metadata
-  const pageTitle = `${categoryName} Rezepte | Vegetarische Süßspeisen | Veggie Rezepte`;
+  const pageTitle = `${categoryName} Rezepte | Vegetarische Süßspeisen`;
   const pageDescription = `Kröne deine Mahlzeit mit einem verführerischen vegetarischen Dessert - von fruchtig-frisch bis schokoladig-süß.`;
   
   // Set metadata on component mount

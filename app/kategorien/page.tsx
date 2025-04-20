@@ -18,10 +18,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const canonicalUrl = `${baseUrl}/kategorien`;
 
   return {
-    title: "Rezept Kategorien | Vegetarische & Vegane Gerichte | Veggie Rezepte",
+    title: "Rezept Kategorien | Vegetarische & Vegane Gerichte",
     description: "Entdecke vegetarische Rezeptkategorien - von Hauptgerichten über Salate bis zu Desserts. Einfach zuzubereiten und garantiert lecker!",
     openGraph: {
-      title: "Rezept Kategorien | Vegetarische & Vegane Gerichte | Veggie Rezepte",
+      title: "Rezept Kategorien | Vegetarische & Vegane Gerichte",
       description: "Entdecke vegetarische Rezeptkategorien - von Hauptgerichten über Salate bis zu Desserts. Einfach zuzubereiten und garantiert lecker!",
       url: canonicalUrl,
       siteName: "Veggie Rezepte",
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Rezept Kategorien | Vegetarische & Vegane Gerichte | Veggie Rezepte",
+      title: "Rezept Kategorien | Vegetarische & Vegane Gerichte",
       description: "Entdecke vegetarische Rezeptkategorien - von Hauptgerichten über Salate bis zu Desserts. Einfach zuzubereiten und garantiert lecker!",
     },
     alternates: {

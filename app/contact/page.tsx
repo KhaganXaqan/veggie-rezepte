@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
 export const metadata: Metadata = {
-  title: "Kontakt | Veggie Rezepte",
+  title: "Kontakt",
   description: "Kontaktieren Sie das Veggie Rezepte Team mit Fragen, Anregungen oder Feedback.",
 }
 

@@ -17,7 +17,7 @@ export default function FruehstueckRecipes() {
   const canonicalUrl = `${baseUrl}/kategorien/${categorySlug}`;
   
   // SEO metadata
-  const pageTitle = `${categoryName} Rezepte | Vegetarischer Tagesstart | Veggie Rezepte`;
+  const pageTitle = `${categoryName} Rezepte | Vegetarischer Tagesstart`;
   const pageDescription = `Starte deinen Tag mit einem energiereichen vegetarischen Frühstück - von süßen Optionen bis zu herzhaften Alternativen.`;
   
   // Set metadata on component mount

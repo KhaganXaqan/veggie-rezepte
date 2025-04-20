@@ -17,7 +17,7 @@ export default function HauptgerichteRecipes() {
   const canonicalUrl = `${baseUrl}/kategorien/${categorySlug}`;
   
   // SEO metadata
-  const pageTitle = `${categoryName} Rezepte | Vegetarische Gerichte | Veggie Rezepte`;
+  const pageTitle = `${categoryName} Rezepte | Vegetarische Gerichte`;
   const pageDescription = `Entdecke köstliche vegetarische ${categoryName} für jeden Tag - von herzhaften Pasta-Gerichten bis zu raffinierten Gemüse-Kreationen.`;
   
   // Set metadata on component mount

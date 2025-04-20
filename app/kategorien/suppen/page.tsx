@@ -17,7 +17,7 @@ export default function SuppenRecipes() {
   const canonicalUrl = `${baseUrl}/kategorien/${categorySlug}`;
   
   // SEO metadata
-  const pageTitle = `${categoryName} Rezepte | Vegetarische Suppen & Eintöpfe | Veggie Rezepte`;
+  const pageTitle = `${categoryName} Rezepte | Vegetarische Suppen & Eintöpfe`;
   const pageDescription = `Von cremigen Gemüsesuppen bis zu klaren Brühen - unsere vegetarischen Suppenrezepte wärmen Körper und Seele.`;
   
   // Set metadata on component mount

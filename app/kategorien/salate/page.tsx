@@ -17,7 +17,7 @@ export default function SalateRecipes() {
   const canonicalUrl = `${baseUrl}/kategorien/${categorySlug}`;
   
   // SEO metadata
-  const pageTitle = `${categoryName} Rezepte | Frische vegetarische Salate | Veggie Rezepte`;
+  const pageTitle = `${categoryName} Rezepte | Frische vegetarische Salate`;
   const pageDescription = `Frische, knackige Salate mit saisonalen Zutaten - die perfekte leichte Mahlzeit oder Beilage zu deinem Hauptgericht.`;
   
   // Set metadata on component mount
