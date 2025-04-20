@@ -282,100 +282,6 @@ instructions: [
   }
   },
   {
-    title: "Zucchini-Reis-Auflauf",
-    image: "/images/MainCourses/zucchini-reis-auflauf.webp",
-    prepTime: 50,
-cookingTime: 20,
-seo_keywords: [],
-rating: 4.5,
-    category: "Aufläufe",
-    slug: "zucchini-reis-auflauf",
-    tags: ["Auflauf", "Gemüse", "Reis"],
-    servings: 6,
-    description: "Ein leckerer Auflauf aus Zucchini und Reis.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Zucchini" },
-      { amount: 200, unit: "g", name: "Reis" },
-      { amount: 200, unit: "g", name: "Käse" },
-      { amount: 2, name: "Eier" },
-      { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Zucchini waschen und in dünne Scheiben schneiden. Den Reis nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
-      "Den Käse reiben und die Eier verquirlen. Beides mit der Milch, Salz und Pfeffer in einer Schüssel vermengen.",
-      "Eine Auflaufform mit Butter einfetten. Schichtweise die Zucchini und den Reis in die Form geben. Die Milch-Eier-Mischung darüber gießen.",
-      "Den Auflauf im vorgeheizten Backofen bei 180°C etwa 35–40 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 300,
-      protein: "10g",
-      carbs: "20g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
     title: "Overnight Oats mit Beeren",
     image: "/images/Frühstück/overnight-oats-beeren.webp",
     prepTime: 60,
@@ -8453,6 +8359,293 @@ instructions: [
       "image5": "/images/Miscellaneous/blumenkohl-ueberbacken-rezept.webp",
       "image6": "/images/Miscellaneous/einfacher-vegetarischer-auflauf.webp",
       "image7": "/images/Miscellaneous/blumenkohl-hauptgericht.webp"
+    }
+  },
+  {
+    "title": "Zucchini Reis Auflauf",
+    "seo_title": "Zucchini Reis Auflauf Rezept - Einfach & Vegetarisch",
+    "image": "/images/Miscellaneous/zucchini-reis-auflauf.webp",
+    "prepTime": 15,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Zucchini Reis Auflauf Rezept",
+      "Reis Zucchini Auflauf",
+      "Vegetarischer Reisauflauf",
+      "Schneller Zucchini Auflauf",
+      "Zucchini Auflauf einfach",
+      "Reisauflauf mit Gemüse",
+      "Sommerlicher Auflauf"
+    ],
+    "rating": 4.7,
+    "reviews": 98,
+    "category": "Aufläufe",
+    "slug": "zucchini-reis-auflauf",
+    "tags": [
+      "Zucchini",
+      "Reis",
+      "Auflauf",
+      "Vegetarisch",
+      "Sommerküche"
+    ],
+    "createdDate": new Date("2025-03-01T12:00:00Z"),
+    "updatedDate": new Date("2025-04-20T14:00:00Z"),
+    "servings": 4,
+    "description": "Probieren Sie mein einfaches Zucchini Reis Auflauf Rezept – perfekt für die schnelle Feierabendküche.",
+    "descriptionOnImage": "Einfach & köstlich!",
+    "introductionParagraph": "Wenn die Zucchinischwemme im Garten beginnt oder auf dem Markt lockt, ist dieser einfache Zucchini Reis Auflauf meine erste Wahl!",
+    "additionalParagraph": "Er ist herrlich unkompliziert, steckt voller guter Sachen und schmeckt der ganzen Familie. Ein echtes Wohlfühlessen, das nicht schwer im Magen liegt.",
+    "ingredientsNeeded": [
+      {
+        "title": "Zucchini",
+        "description": "Frische Zucchini bringen eine schöne Saftigkeit und leichte Süße in den Auflauf und sind die Hauptzutat dieses Sommergerichts."
+      },
+      {
+        "title": "Reis",
+        "description": "Gekochter Reis bildet die sättigende Basis und nimmt die Aromen der Sauce wunderbar auf. Perfekt, um Reste vom Vortag zu verwerten."
+      },
+      {
+        "title": "Tomaten",
+        "description": "Fruchtige Tomatenwürfel sorgen für eine angenehme Säure und Frische, die gut zur Zucchini passt und den Geschmack abrundet."
+      },
+      {
+        "title": "Eier & Sahne",
+        "description": "Dieser Guss verbindet die Zutaten, macht den Auflauf cremig und sorgt für eine schöne Bindung beim Backen."
+      },
+      {
+        "title": "Käse",
+        "description": "Geriebener Käse darf in keinem guten Auflauf fehlen! Er sorgt für die goldene, leicht knusprige Oberfläche und eine extra Portion Geschmack."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Auflauf",
+        "description": "Die Hauptdarsteller für unseren leichten Sommerauflauf.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "Stück",
+            "name": "Zucchini (mittelgroß)"
+          },
+          {
+            "amount": 250,
+            "unit": "g",
+            "name": "gekochter Reis (ca. 80g Rohgewicht)"
+          },
+          {
+            "amount": 2,
+            "unit": "Stück",
+            "name": "Tomaten"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "Zwiebel"
+          },
+          {
+            "amount": 1,
+            "unit": "Zehe",
+            "name": "Knoblauch"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Olivenöl zum Anbraten"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Getrocknete Kräuter der Provence (oder Oregano/Basilikum)"
+          }
+        ]
+      },
+      {
+        "title": "Für den Guss und die Kruste",
+        "description": "Was unseren Auflauf zusammenhält und ihm den letzten Schliff gibt.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": "Stück",
+            "name": "Eier"
+          },
+          {
+            "amount": 150,
+            "unit": "ml",
+            "name": "Sahne oder Milch"
+          },
+          {
+            "amount": 100,
+            "unit": "g",
+            "name": "geriebener Käse (z.B. Gouda, Emmentaler)"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Pfeffer"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "name": "Zucchini (mittelgroß)"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "gekochter Reis (ca. 80g Rohgewicht)"
+      },
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "name": "Tomaten"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "Zwiebel"
+      },
+      {
+        "amount": 1,
+        "unit": "Zehe",
+        "name": "Knoblauch"
+      },
+      {
+        "amount": 3,
+        "unit": "Stück",
+        "name": "Eier"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "name": "Sahne oder Milch"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "geriebener Käse (z.B. Gouda, Emmentaler)"
+      },      
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Olivenöl zum Anbraten"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Getrocknete Kräuter der Provence (oder Oregano/Basilikum)"
+      },
+    ],
+    "instructions": [
+      "Den Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+      "Zwiebel und Knoblauch fein hacken. Zucchini raspeln oder in kleine Würfel schneiden. Tomaten würfeln.",
+      "In einer Pfanne Olivenöl erhitzen und Zwiebel und Knoblauch darin glasig dünsten.",
+      "Geraspelte oder gewürfelte Zucchini hinzufügen und ca. 5-7 Minuten mitbraten, bis Flüssigkeit verdampft ist. Mit Salz, Pfeffer und Kräutern würzen.",
+      "Tomatenwürfel kurz mit erwärmen.",
+      "In einer Auflaufform den gekochten Reis mit dem Zucchini-Tomaten-Mix vermischen.",
+      "Für den Guss Eier, Sahne (oder Milch), Salz und Pfeffer verquirlen.",
+      "Den Guss über die Reis-Gemüse-Mischung in der Form gießen.",
+      "Den geriebenen Käse gleichmäßig darüber streuen.",
+      "Den Auflauf im vorgeheizten Ofen ca. 25-30 Minuten backen, bis er goldbraun und gestockt ist."
+    ],
+    "nutrition": {
+      "calories": 1795,
+      "protein": "86g",
+      "carbs": "96g",
+      "fat": "89,6g"
+    },
+    "tips": [
+      "Drücken Sie die geraspelte Zucchini vor dem Anbraten gut aus, um überschüssige Flüssigkeit zu entfernen. So wird der Auflauf nicht wässrig."    
+    ],
+    "whyFavorite": {
+      "title": "Was diesen Auflauf so besonders macht",
+      "reasons": [
+        {
+          "title": "Perfekte Resteverwertung",
+          "description": "Gekochter Reis vom Vortag findet hier eine sinnvolle und köstliche neue Bestimmung. Das spart Zeit und reduziert Lebensmittelverschwendung!"
+        },
+        {
+          "title": "Leicht & dennoch sättigend",
+          "description": "Durch die Zucchini ist der Auflauf wunderbar frisch und leicht, der Reis sorgt aber dafür, dass man angenehm satt wird – ideal für warme Tage."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, mein Zucchini-Reis-Auflauf schmeckt dir genauso gut wie mir!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Gemüse vorbereiten und andünsten",
+        "description": "Durch kurzes Anbraten verlieren Zucchini und Zwiebel überschüssiges Wasser und entwickeln mehr Aroma, bevor sie in die Form kommen."
+      },
+      {
+        "title": "Mischen und gießen",
+        "description": "Das Vermengen von Reis und Gemüse und das Übergießen mit dem Eierguss sorgt dafür, dass alle Zutaten beim Backen schön verbunden werden und der Auflauf zusammenhält."
+      },
+      {
+        "title": "Goldbraun backen",
+        "description": "Die Hitze im Ofen lässt den Guss stocken und den Käse schmelzen und goldbraun werden. Das Ergebnis ist eine leckere, leicht knusprige Oberfläche."
+      }
+    ],
+    "servingSuggestion": "Dieser Zucchini-Reis-Auflauf ist ein wunderbares vegetarisches Hauptgericht für den Sommer.",
+    "servingSuggestions": {
+      "title": "Passt gut dazu",
+      "description": "Der Auflauf schmeckt schon pur fantastisch, aber diese Kleinigkeiten machen ihn noch besser:",
+      "note": "Simpel ist manchmal am besten!",
+      "items": [
+        {
+          "emoji": "🌿",
+          "title": "Frische Kräuter",
+          "description": "Ein paar frische Basilikum- oder Petersilienblätter nach dem Backen sorgen für zusätzliche Frische."
+        },
+        {
+          "emoji": "🥄",
+          "title": "Ein Klecks Sauerrahm",
+          "description": "Für extra Cremigkeit und eine leicht säuerliche Note passt ein Löffel Sauerrahm oder Crème fraîche."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Interessant zu wissen",
+      "description": "Zucchini gehören botanisch gesehen zu den Beerenfrüchten und nicht, wie oft angenommen, zum Gemüse!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/zucchini-reis-auflauf-zutaten.webp",
+      "image1": "/images/Miscellaneous/zucchini-reis-auflauf-rezept.webp",
+      "image2": "/images/Miscellaneous/einfacher-reis-zucchini-auflauf.webp",
+      "image3": "/images/Miscellaneous/vegetarischer-reisauflauf-zucchini.webp",
+      "image4": "/images/Miscellaneous/schneller-zucchini-auflauf-mit-reis.webp",
+      "image5": "/images/Miscellaneous/zucchini-auflauf-sommer.webp",
+      "image6": "/images/Miscellaneous/reisauflauf-vegetarisch.webp",
+      "image7": "/images/Miscellaneous/zucchini-tomaten-reis-auflauf.webp"
     }
   }
 ];
