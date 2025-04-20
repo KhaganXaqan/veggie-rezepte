@@ -9,7 +9,6 @@ import { RecipeComments } from '@/components/recipe-comments'
 import { Separator } from '@/components/ui/separator'
 import { SiteHeader } from "@/components/site-header"
 import { brandColors } from "@/lib/theme"
-import OtherRecipePage from './page-other'
 import Image from 'next/image'
 import { Metadata } from 'next'
 import Script from 'next/script'
@@ -145,51 +144,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
   // After notFound(), recipe is guaranteed to be non-null
   const validRecipe = recipe;
-
-  // For any recipe other than flammkuchen and kartoffelpuffer, use page-other.tsx
-  if (!['flammkuchen',
-    'kartoffelpuffer',
-    'gemuesesuppe',
-    'kartoffelkloesse',
-    'semmelknoedel',
-    'quinoa-buddha-bowl',
-    'kaesespaetzle',
-    'pilzgulasch',
-    'gemuese-curry',
-    'brokkoli-quiche',
-    'ratatouille',
-    'gefuellte-paprika',
-    'gemuese-strudel',
-    'linsen-bolognese',
-    'dubai-schokolade',
-    'spinatknoedel',
-    'shakshuka',
-    'kuerbissuppe',
-    'suesskartoffel-kokos-suppe',
-    'griessnockerl',
-    'gemuese-couscous-salat',
-    'bunter-quinoa-salat',
-    'griechischer-bauernsalat',
-    'mediterraner-nudelsalat',
-    'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble',
-    'bestes-schokoladen-mousse-rezept-klassisch-einfach',
-    'omas-bester-gezogener-apfelstrudel-rezept',
-    'klassisches-ruehrei-rezept',
-    'bestes-zimtschnecken-rezept-saftig',
-    "cremiges-rhabarber-kompott-vanille-zitrone",
-    "knusper-granola-nuesse-rezept",
-    "kartoffelgratin",
-    "blumenkohl-kaese-auflauf",
-    "zucchini-reis-auflauf",
-    "gemuese-polenta-auflauf",
-    "spinat-kaese-lasagne",
-    "beeren-smoothie-bowl",
-    "beeren-overnight-oats",
-    "banana-bread"
-  ].includes(slug)) {
-    return <OtherRecipePage slug={slug} />;
-  }
 
   // Generate structured data for this recipe
   const structuredData = await generateStructuredData({ params });
