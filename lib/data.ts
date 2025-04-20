@@ -90,102 +90,7 @@ export type Recipe = {
 // Then update the recipes array with all required properties
 export const recipes: Recipe[] = [
 
-  {
-    title: "Spinat-Käse Lasagne",
-    image: "/images/MainCourses/spinat-kaese-lasagne.webp",
-    prepTime: 50,
-cookingTime: 20,
-rating: 4.7,
-    seo_keywords: [],
-    category: "Aufläufe",
-    slug: "spinat-kaese-lasagne",
-    tags: ["Auflauf", "Pasta", "Käse"],
-    servings: 6,
-    description: "Eine klassische Lasagne mit Spinat und Käse.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Spinat" },
-      { amount: 200, unit: "g", name: "Käse" },
-      { amount: 2, name: "Eier" },
-      { amount: 500, unit: "g", name: "Pasta" },
-      { amount: 4, name: "Tomaten" },
-      { amount: 2, name: "Zwiebeln" },
-      { amount: 2, name: "Knoblauchzehen" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Den Spinat waschen, abtropfen lassen und in einem großen Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
-      "Die Zwiebeln und den Knoblauch schälen und fein hacken. In einer Pfanne mit etwas Olivenöl glasig dünsten. Die Tomaten waschen, würfeln und zu den Zwiebeln geben. Alles etwa 10 Minuten köcheln lassen, bis eine dickflüssige Sauce entsteht.",
-      "Die Lasagneplatten nach Packungsanleitung in Salzwasser al dente kochen, abgießen und beiseite stellen.",
-      "Den Käse reiben und mit den Eiern und dem Spinat vermengen. Mit Salz und Pfeffer abschmecken.",
-      "Eine Auflaufform mit etwas Olivenöl ausstreichen. Schichtweise die Lasagneplatten, die Spinat-Käse-Mischung und die Tomatensauce in die Form geben. Mit einer Käseschicht abschließen.",
-      "Die Lasagne im vorgeheizten Backofen bei 180°C etwa 30 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 350,
-      protein: "15g",
-      carbs: "30g",
-      fat: "18g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
+
   {
     title: "Overnight Oats mit Beeren",
     image: "/images/Frühstück/overnight-oats-beeren.webp",
@@ -8570,7 +8475,7 @@ instructions: [
     ],
     "rating": 4.5,
     "reviews": 73,
-    "category": "Miscellaneous",
+    "category": "Aufläufe",
     "slug": "gemuese-polenta-auflauf",
     "tags": [
       "Gemüse",
@@ -8842,6 +8747,336 @@ instructions: [
       "image5": "/images/Miscellaneous/polenta-auflauf-mit-buntem-gemuese.webp",
       "image6": "/images/Miscellaneous/gemuese-polenta-rezepte.webp",
       "image7": "/images/Miscellaneous/herzhafter-polenta-gemuese-auflauf.webp"
+    }
+  },
+  {
+    "title": "Spinat Käse Lasagne",
+    "seo_title": "Spinatlasagne Rezept - Cremig, Käsig & Vegetarisch",
+    "image": "/images/Miscellaneous/spinat-kaese-lasagne.webp",
+    "prepTime": 30,
+    "cookingTime": 45,
+    "seo_keywords": [
+      "Spinatlasagne Rezept",
+      "Vegetarische Lasagne",
+      "Spinat Käse Lasagne",
+      "Lasagne mit Spinat",
+      "Einfache Spinatlasagne",
+      "Lasagne ohne Fleisch",
+      "Cremige Spinatlasagne"
+    ],
+    "rating": 4.9,
+    "reviews": 210,
+    "category": "Aufläufe",
+    "slug": "spinat-kaese-lasagne",
+    "tags": [
+      "Spinat",
+      "Käse",
+      "Lasagne",
+      "Vegetarisch",
+      "Auflauf"
+    ],
+    "createdDate": new Date("2025-04-20T15:50:00Z"),
+    "updatedDate": new Date("2025-04-20T15:50:00Z"),
+    "servings": 6,
+    "description": "Ein Traum für alle Lasagne-Liebhaber! Dieses einfache Spinatlasagne Rezept mit viel Käse und cremiger Sauce ist ein köstliches vegetarisches Gericht.",
+    "descriptionOnImage": "Cremig, vegetarisch, perfekt!",
+    "introductionParagraph": "Wenn ich Lust auf richtiges Soulfood habe, das satt und glücklich macht, fällt meine Wahl oft auf eine cremige Lasagne.",
+    "additionalParagraph": "Besonders diese vegetarische Spinat Käse Lasagne ist ein absoluter Favorit. Sie ist so einfach gemacht und das Ergebnis ist einfach nur himmlisch!",
+"ingredientsNeeded": [
+    {
+      "title": "Lasagneplatten",
+      "description": "Am besten nehmen Sie Platten, die nicht vorgekocht werden müssen. Sie garen direkt in der Sauce und machen die Lasagne schön saftig."
+    },
+    {
+      "title": "Spinat",
+      "description": "Frischer Blattspinat bringt eine tolle Farbe und gesunde Nährstoffe in die Füllung. Tiefkühlspinat funktioniert auch super, muss aber gut ausgedrückt werden."
+    },
+    {
+      "title": "Ricotta und Parmesan",
+      "description": "Die klassische italienische Kombination für eine cremige und würzige Spinatfüllung. Ricotta sorgt für Cremigkeit, Parmesan für den nötigen Pfiff."
+    },
+    {
+      "title": "Knoblauch & Olivenöl",
+      "description": "Diese Basis gibt dem Spinat beim Andünsten Tiefe und Aroma, essentiell für den herzhaften Geschmack der Füllung."
+    },
+    {
+      "title": "Für die Béchamelsauce (Butter, Mehl, Milch, Gewürze)",
+      "description": "Die Mehlschwitze aus Butter und Mehl bindet die Milch zu einer sämigen Sauce, während Muskat, Salz und Pfeffer den klassischen Geschmack zaubern."
+    },
+    {
+      "title": "Mozzarella",
+      "description": "Für die unwiderstehliche, zähe Käseschicht obendrauf und zwischen den Schichten, die beim Backen perfekt schmilzt."
+    }
+  ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Spinatfüllung",
+        "description": "Das Herzstück unserer vegetarischen Lasagne.",
+        "ingredients": [
+          {
+            "amount": 500,
+            "unit": "g",
+            "name": "frischer Blattspinat (oder 400g TK-Spinat)"
+          },
+          {
+            "amount": 250,
+            "unit": "g",
+            "name": "Ricotta"
+          },
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "geriebener Parmesan"
+          },
+          {
+            "amount": 1,
+            "unit": "Zehe",
+            "name": "Knoblauch"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Olivenöl"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Eine Prise Muskatnuss"
+          }
+        ]
+      },
+      {
+        "title": "Für die Béchamelsauce",
+        "description": "Die cremige Sauce, die alle Schichten zusammenhält.",
+        "ingredients": [
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "Butter"
+          },
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "Mehl"
+          },
+          {
+            "amount": 700,
+            "unit": "ml",
+            "name": "Milch"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Eine Prise Muskatnuss"
+          }
+        ]
+      },
+      {
+        "title": "Für die Lasagne",
+        "description": "Was wir zum Schichten und Überbacken benötigen.",
+        "ingredients": [
+          {
+            "amount": 12,
+            "unit": "Blätter",
+            "name": "Lasagneplatten (ohne Vorkochen)"
+          },
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "geriebener Mozzarella"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "frischer Blattspinat (oder 400g TK-Spinat)"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Ricotta"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "geriebener Parmesan"
+      },
+      {
+        "amount": 1,
+        "unit": "Zehe",
+        "name": "Knoblauch"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Olivenöl"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Eine Prise Muskatnuss"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Butter"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Mehl"
+      },
+      {
+        "amount": 700,
+        "unit": "ml",
+        "name": "Milch"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Eine Prise Muskatnuss"
+      },
+      {
+        "amount": 12,
+        "unit": "Blätter",
+        "name": "Lasagneplatten (ohne Vorkochen)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "geriebener Mozzarella"
+      }
+    ],
+    "instructions": [
+      "Backofen auf 180°C Ober-/Unterhitze vorheizen.",
+      "Für die Spinatfüllung: Bei frischem Spinat diesen waschen. Bei TK-Spinat diesen auftauen und gut ausdrücken. Knoblauch fein hacken.",
+      "Olivenöl in einer Pfanne erhitzen, Knoblauch kurz andünsten. Spinat dazugeben und zusammenfallen lassen (oder TK-Spinat erwärmen). Mit Salz, Pfeffer und Muskat würzen.",
+      "Spinat vom Herd nehmen, Ricotta und Parmesan unterrühren. Abschmecken.",
+      "Für die Béchamelsauce: Butter in einem Topf schmelzen. Mehl einrühren und 1 Minute anschwitzen.",
+      "Nach und nach die Milch mit einem Schneebesen einrühren, bis eine glatte Sauce entsteht. Unter Rühren aufkochen lassen und ca. 5 Minuten köcheln, bis sie eindickt.",
+      "Béchamelsauce mit Salz, Pfeffer und Muskat abschmecken.",
+      "Eine kleine Menge Béchamelsauce auf den Boden einer Auflaufform geben. Eine Schicht Lasagneplatten darauflegen.",
+      "Abwechselnd Spinatfüllung, Béchamelsauce und Lasagneplatten schichten. Mit einer Schicht Béchamelsauce abschließen.",
+      "Die letzte Schicht Béchamel mit geriebenem Mozzarella bestreuen.",
+      "Im vorgeheizten Ofen ca. 40-45 Minuten backen, bis die Lasagne goldbraun ist und Blasen wirft.",
+      "Vor dem Servieren 5-10 Minuten ruhen lassen."
+    ],
+    "nutrition": {
+      "calories": 2875,
+      "protein": "143g",
+      "carbs": "246g",
+      "fat": "152g"
+    },
+    "tips": [
+      "Verwenden Sie frische Muskatnuss! Der Geschmack ist intensiver und macht einen großen Unterschied in der Béchamelsauce.",
+      "Für eine sämigere Spinatfüllung können Sie einen Esslöffel Béchamelsauce direkt in die Spinat-Ricotta-Mischung rühren."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Spinat-Käse-Lasagne so besonders ist",
+      "reasons": [
+        {
+          "title": "Unglaublich cremig",
+          "description": "Die Kombination aus Ricotta, Parmesan und der selbstgemachten Béchamelsauce macht jede Schicht herrlich saftig und zart. Kein trockener Bissen in Sicht!"
+        },
+        {
+          "title": "Wunderbar vegetarisch",
+          "description": "Diese Lasagne beweist, dass man kein Fleisch braucht, um ein sättigendes und geschmacksintensives Hauptgericht zu zaubern. Spinat und Käse sind ein Dreamteam!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, meine Lieblings-Spinatlasagne zaubert auch dir ein Lächeln ins Gesicht!",
+      "subText": "Guten Appetit!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Vorbereitung der Füllung",
+        "description": "Das sorgfältige Würzen des Spinats und das Mischen mit Ricotta und Parmesan legen den Grundstein für die geschmacksintensive Füllung der Lasagne."
+      },
+      {
+        "title": "Die perfekte Béchamel zaubern",
+        "description": "Eine glatte Béchamelsauce ohne Klümpchen ist essenziell. Sie verbindet nicht nur die Schichten, sondern macht die Lasagne unglaublich saftig und cremig."
+      },
+      {
+        "title": "Schichten und vollenden",
+        "description": "Das abwechselnde Schichten von Nudeln, Spinatfüllung und Sauce sowie das großzügige Bestreuen mit Käse vor dem Backen sind der Weg zur perfekten Lasagne mit goldbrauner Kruste."
+      }
+    ],
+    "servingSuggestion": "Diese vegetarische Spinat Käse Lasagne schmeckt am besten frisch aus dem Ofen.",
+    "servingSuggestions": {
+      "title": "Was passt zur Lasagne?",
+      "description": "Eine Lasagne ist schon ein Gericht für sich, aber ein paar Kleinigkeiten passen immer gut dazu:",
+      "note": "Weniger ist manchmal mehr!",
+      "items": [
+        {
+          "emoji": "🥗",
+          "title": "Ein knackiger Salat",
+          "description": "Ein einfacher grüner Salat mit einem leichten Dressing bildet einen frischen Kontrast zur reichhaltigen Lasagne."
+        },
+        {
+          "emoji": "🥖",
+          "title": "Frisches Baguette",
+          "description": "Zum Aufsaugen der restlichen Sauce ist ein Stück frisches Brot einfach perfekt."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Lustiges Lasagne-Wissen",
+      "description": "Obwohl Lasagne heute typisch italienisch ist, gab es bereits im antiken Griechenland ein ähnliches Gericht mit Teigschichten!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/spinat-kaese-lasagne-zutaten.webp",
+      "image1": "/images/Miscellaneous/spinatlasagne-rezept-vegetarisch.webp",
+      "image2": "/images/Miscellaneous/vegetarische-lasagne-spinat.webp",
+      "image3": "/images/Miscellaneous/spinat-kaese-lasagne-einfach.webp",
+      "image4": "/images/Miscellaneous/lasagne-mit-spinat-kaese.webp",
+      "image5": "/images/Miscellaneous/cremige-spinatlasagne.webp",
+      "image6": "/images/Miscellaneous/einfache-vegetarische-lasagne.webp",
+      "image7": "/images/Miscellaneous/spinatlasagne-ohne-fleisch.webp"
     }
   }
 ];
