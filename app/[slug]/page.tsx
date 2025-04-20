@@ -81,7 +81,7 @@ export async function generateStructuredData({ params }: RecipePageProps) {
   // Set the base URL based on environment
   const baseUrl = isDevelopment
     ? 'http://localhost:3000'
-    : 'https://veggie-rezepte.de';
+    : 'https://www.veggie-rezepte.de';
 
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
@@ -234,7 +234,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       {/* Action Buttons */}
                       <div className="flex items-center gap-4 mt-4">
                         <a
-                          href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://veggie-rezepte.de/${validRecipe.slug}`)}&media=${encodeURIComponent(`https://veggie-rezepte.de${validRecipe.image}`)}&description=${encodeURIComponent(`✨ ${validRecipe.title.toUpperCase()} ✨\n\nEin leckeres vegatarisches Rezept von Veggie Rezepte! Probier es jetzt aus! #veggierezepte #vegetarisch #vegan #rezept`)}`}
+                          href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://www.veggie-rezepte.de/${validRecipe.slug}`)}&media=${encodeURIComponent(`https://www.veggie-rezepte.de${validRecipe.image}`)}&description=${encodeURIComponent(`✨ ${validRecipe.title.toUpperCase()} ✨\n\nEin leckeres vegatarisches Rezept von Veggie Rezepte! Probier es jetzt aus! #veggierezepte #vegetarisch #vegan #rezept`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="border border-black py-2.5 px-6 font-bold text-black hover:bg-gray-100 transition-colors duration-200 text-center rounded-md text-sm"

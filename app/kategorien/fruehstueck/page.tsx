@@ -13,7 +13,7 @@ export default function FruehstueckRecipes() {
   const categoryRecipes = recipes.filter((recipe: Recipe) => recipe.category === categoryName)
   
   // Get the base URL for canonical link
-  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veggie-rezepte.de';
+  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.veggie-rezepte.de';
   const canonicalUrl = `${baseUrl}/kategorien/${categorySlug}`;
   
   // SEO metadata

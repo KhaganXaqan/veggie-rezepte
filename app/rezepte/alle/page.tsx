@@ -42,7 +42,7 @@ export default function AllRecipes() {
   })
 
   // Get the base URL for canonical link
-  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veggie-rezepte.de';
+  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.veggie-rezepte.de';
   
   // Update URL and canonical link when filters change
   useEffect(() => {

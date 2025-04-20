@@ -48,7 +48,7 @@ export async function generateStructuredData() {
   // Set the base URL based on environment
   const baseUrl = isDevelopment 
     ? 'http://localhost:3000'
-    : 'https://veggie-rezepte.de';
+    : 'https://www.veggie-rezepte.de';
   
   return {
     '@context': 'https://schema.org',
@@ -643,7 +643,7 @@ export default async function Home() {
       {/* Footer */}
         <footer className="border-t-2 border-black py-8 bg-muted">
         <div className="container text-center text-sm text-muted-foreground">
-            <p className="font-['Montserrat'] font-bold">© 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
+            <p className="font-['Montserrat'] font-bold"> 2025 Veggie-Rezepte.de - Alle Rechte vorbehalten</p>
         </div>
       </footer>
     </div>

@@ -2,7 +2,8 @@ import { MetadataRoute } from 'next'
 import { recipes } from '@/lib/data'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://veggie-rezepte.de'
+  // Use the canonical www base URL for all sitemap entries
+  const baseUrl = 'https://www.veggie-rezepte.de'
 
   // Base routes
   const routes = [

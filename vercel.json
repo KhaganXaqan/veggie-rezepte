@@ -6,7 +6,7 @@
   "outputDirectory": ".next",
   "regions": ["fra1"],
   "env": {
-    "NEXT_PUBLIC_SITE_URL": "https://veggie-rezepte.de"
+    "NEXT_PUBLIC_SITE_URL": "https://www.veggie-rezepte.de"
   },
   "cleanUrls": true,
   "trailingSlash": false,

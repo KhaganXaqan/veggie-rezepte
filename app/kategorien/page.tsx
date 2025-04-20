@@ -46,7 +46,7 @@ export async function generateStructuredData() {
   // Set the base URL based on environment
   const baseUrl = isDevelopment 
     ? 'http://localhost:3000'
-    : 'https://veggie-rezepte.de';
+    : 'https://www.veggie-rezepte.de';
   
   return {
     '@context': 'https://schema.org',
