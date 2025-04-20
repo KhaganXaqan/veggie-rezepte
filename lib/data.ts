@@ -187,101 +187,6 @@ instructions: [
   }
   },
   {
-    title: "Blumenkohl-Käse-Auflauf",
-    image: "/images/MainCourses/blumenkohl-kaese-auflauf.webp",
-    seo_keywords: [],
-    prepTime: 45,
-cookingTime: 20,
-rating: 4.7,
-    category: "Aufläufe",
-    slug: "blumenkohl-kaese-auflauf",
-    tags: ["Auflauf", "Gemüse", "Käse"],
-    servings: 6,
-    description: "Ein leckerer Auflauf aus Blumenkohl und Käse.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Blumenkohl" },
-      { amount: 200, unit: "g", name: "Käse" },
-      { amount: 2, name: "Eier" },
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Den Blumenkohl waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
-      "Den Backofen auf 180°C vorheizen. Eine Auflaufform mit Butter einfetten.",
-      "Das Mehl, die Eier, die Milch, Salz und Pfeffer in einer Schüssel verrühren, bis ein glatter Teig entsteht. Den Käse reiben und unter den Teig heben.",
-      "Den Blumenkohl gleichmäßig in der Auflaufform verteilen. Den Teig darüber gießen.",
-      "Den Auflauf im Ofen etwa 35–40 Minuten backen, bis er goldbraun ist und der Teig fest ist. Vor dem Servieren etwas abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 300,
-      protein: "10g",
-      carbs: "20g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
     title: "Gemüse-Polenta-Auflauf",
     image: "/images/MainCourses/gemuese-polenta-auflauf.webp",
     prepTime: 55,
@@ -8094,7 +7999,7 @@ instructions: [
   },
   {   
     "title": "kartoffelgratin",
-    "seo_title": "Cremiges Kartoffelgratin Rezept - Klassisch & Einfach",
+    "seo_title": "kartoffelgratin",
     "image": "/images/Miscellaneous/kartoffelgratin.webp",
     "prepTime": 25,
     "cookingTime": 60,
@@ -8320,6 +8225,234 @@ instructions: [
       "image5": "/images/Miscellaneous/kartoffelgratin-ofen.webp",
       "image6": "/images/Miscellaneous/selbstgemachtes-kartoffelgratin.webp",
       "image7": "/images/Miscellaneous/kartoffelgratin-mit-kaese.webp"
+    }
+  },
+  {
+    "title": "Blumenkohl Käse Auflauf",
+    "seo_title": "Blumenkohl Käse Auflauf",
+    "image": "/images/Miscellaneous/blumenkohl-kaese-auflauf.webp",
+    "prepTime": 20,
+    "cookingTime": 35,
+    "seo_keywords": [
+      "Blumenkohl Auflauf Rezept",
+      "Blumenkohl Käse Auflauf",
+      "Einfacher Blumenkohlauflauf",
+      "Cremiger Blumenkohl Auflauf",
+      "Vegetarischer Auflauf",
+      "Auflauf mit Blumenkohl",
+      "Überbackener Blumenkohl"
+    ],
+    "rating": 4.6,
+    "reviews": 125,
+    "category": "Aufläufe",
+    "slug": "blumenkohl-kaese-auflauf",
+    "tags": [
+      "Blumenkohl",
+      "Auflauf",
+      "Käse",
+      "Vegetarisch",
+      "Familienrezept"
+    ],
+    "createdDate": new Date("2025-03-10T14:30:00Z"),
+    "updatedDate": new Date("2025-04-20T10:00:00Z"),
+    "servings": 4,
+    "description": "Dieses einfache Rezept für Blumenkohl Käse Auflauf ist cremig, herzhaft und super einfach gemacht. Der perfekte vegetarische Auflauf für die ganze Familie!",
+    "descriptionOnImage": "Cremig, käsig, lecker!",
+    "introductionParagraph": "Manchmal braucht es einfach Soulfood, das satt und glücklich macht – und genau das ist dieser wunderbare Blumenkohl Auflauf!",
+    "additionalParagraph": "Mit zartem Blumenkohl, umhüllt von einer cremigen Käsesauce und gekrönt von einer goldbraunen Käsekruste, ist dieser Auflauf ein echter Wohlfühlklassiker.",
+    "ingredientsNeeded": [
+      {
+        "title": "Blumenkohl",
+        "description": "Frischer Blumenkohl bildet die gesunde Basis dieses Auflaufs und wird durch die Sauce wunderbar zart."
+      },
+      {
+        "title": "Butter & Mehl",
+        "description": "Sie bilden die Grundlage für eine klassische Mehlschwitze, die der Käsesauce ihre sämige Konsistenz verleiht."
+      },
+      {
+        "title": "Milch",
+        "description": "Vollmilch sorgt für die nötige Cremigkeit in der Béchamelsauce, die wir später mit Käse verfeinern."
+      },
+      {
+        "title": "Käse",
+        "description": "Eine Mischung aus würzigem und mildem Käse garantiert den besten Geschmack und eine tolle, goldene Kruste. Emmentaler und Gouda passen perfekt."
+      },
+      {
+        "title": "Muskatnuss",
+        "description": "Ein Hauch frisch geriebene Muskatnuss ist unerlässlich für eine authentische, leckere Käsesauce, sie rundet den Geschmack wunderbar ab."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Auflauf",
+        "description": "Alles, was wir für unseren köstlichen Blumenkohl-Käse-Auflauf benötigen.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Kopf",
+            "name": "Blumenkohl (mittelgroß)"
+          },
+          {
+            "amount": 40,
+            "unit": "g",
+            "name": "Butter"
+          },
+          {
+            "amount": 40,
+            "unit": "g",
+            "name": "Mehl"
+          },
+          {
+            "amount": 500,
+            "unit": "ml",
+            "name": "Milch"
+          },
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "geriebener Käse (z.B. Emmentaler, Gouda)"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch geriebene Muskatnuss"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Kopf",
+        "name": "Blumenkohl (mittelgroß)"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "name": "Butter"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "name": "Mehl"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "name": "Milch"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "geriebener Käse (z.B. Emmentaler, Gouda)"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch geriebene Muskatnuss"
+      }
+    ],
+    "instructions": [
+      "Den Blumenkohl putzen und in mundgerechte Röschen teilen.",
+      "Blumenkohlröschen in Salzwasser ca. 5-7 Minuten blanchieren (nicht zu weich kochen!), abgießen und gut abtropfen lassen.",
+      "In einem Topf die Butter schmelzen, Mehl einrühren und ca. 1 Minute anschwitzen.",
+      "Nach und nach die Milch unter ständigem Rühren mit einem Schneebesen angießen, bis eine glatte Sauce entsteht.",
+      "Die Sauce kurz aufkochen lassen und dann bei niedriger Hitze ca. 5 Minuten köcheln lassen, dabei gelegentlich umrühren.",
+      "Die Hälfte des geriebenen Käses in die Sauce einrühren, bis er geschmolzen ist. Mit Salz, Pfeffer und reichlich frisch geriebener Muskatnuss abschmecken.",
+      "Den Backofen auf 180°C Ober-/Unterhitze vorheizen.",
+      "Die abgetropften Blumenkohlröschen in eine Auflaufform geben.",
+      "Die Käsesauce gleichmäßig über den Blumenkohl gießen.",
+      "Den restlichen Käse darüber streuen.",
+      "Den Auflauf im vorgeheizten Ofen ca. 25-30 Minuten backen, bis er goldbraun ist und Blasen wirft."
+    ],
+    "nutrition": {
+      "calories": 1485,
+      "protein": "77g",
+      "carbs": "82g",
+      "fat": "97g"
+    },
+    "tips": [
+      "Für extra Geschmack können Sie der Käsesauce eine Prise Paprikapulver oder geräuchertes Paprikapulver hinzufügen.",
+      "Wenn Sie keine Béchamelsauce machen möchten, können Sie den Blumenkohl auch direkt mit Sahne oder einer Sahne-Ei-Mischung übergießen und mit Käse bestreuen. Die Konsistenz wird dann etwas anders, aber auch lecker!"
+    ],
+    "whyFavorite": {
+      "title": "Warum dieser Auflauf einfach immer gelingt",
+      "reasons": [
+        {
+          "title": "Super einfach & schnell",
+          "description": "Dieses Rezept ist perfekt für Kochanfänger und alle, die wenig Zeit haben. Mit wenigen Handgriffen zaubern Sie ein vollwertiges Gericht."
+        },
+        {
+          "title": "Gemüse mal anders",
+          "description": "Selbst Gemüsemuffel greifen hier gerne zu! Die cremige Käsesauce und die knusprige Kruste machen den Blumenkohl unwiderstehlich lecker."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich wünsche dir ganz viel Freude beim Nachkochen dieses leckeren Blumenkohl-Käse-Auflaufs!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Blumenkohl vorbereiten",
+        "description": "Das Blanchieren des Blumenkohls ist wichtig, damit er im Auflauf gar wird, aber noch Biss behält und nicht matschig wird."
+      },
+      {
+        "title": "Käsesauce zaubern",
+        "description": "Eine klassische Mehlschwitze ist die Basis für eine cremige, stabile Sauce. Das langsame Einrühren der Milch verhindert Klümpchen."
+      },
+      {
+        "title": "Schichten und goldbraun backen",
+        "description": "Blumenkohl und Sauce vereinen sich in der Form. Die Hitze im Ofen sorgt dafür, dass alles durchgart und der Käse zu einer herrlichen Kruste schmilzt."
+      }
+    ],
+    "servingSuggestion": "Genießen Sie diesen Blumenkohl Käse Auflauf pur als vegetarisches Hauptgericht.",
+    "servingSuggestions": {
+      "title": "Köstliche Beilagenideen",
+      "description": "Der Auflauf ist zwar ein Hauptgericht, kann aber auch toll mit anderen Komponenten serviert werden:",
+      "note": "Ein grüner Salat passt immer!",
+      "items": [
+        {
+          "emoji": "🥔",
+          "title": "Salzkartoffeln",
+          "description": "Eine klassische, einfache Beilage, die gut zur Cremigkeit des Auflaufs passt."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wussten Sie schon?",
+      "description": "Blumenkohl ist eng mit Brokkoli verwandt und wie dieser reich an Vitamin C und K."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/blumenkohl-kaese-auflauf-zutaten.webp",
+      "image1": "/images/Miscellaneous/blumenkohl-auflauf-rezept-einfach.webp",
+      "image2": "/images/Miscellaneous/vegetarischer-blumenkohl-auflauf.webp",
+      "image3": "/images/Miscellaneous/cremiger-blumenkohl-kaese-auflauf.webp",
+      "image4": "/images/Miscellaneous/auflauf-mit-blumenkohl-kaese.webp",
+      "image5": "/images/Miscellaneous/blumenkohl-ueberbacken-rezept.webp",
+      "image6": "/images/Miscellaneous/einfacher-vegetarischer-auflauf.webp",
+      "image7": "/images/Miscellaneous/blumenkohl-hauptgericht.webp"
     }
   }
 ];

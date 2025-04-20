@@ -179,7 +179,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'bestes-zimtschnecken-rezept-saftig',
     "cremiges-rhabarber-kompott-vanille-zitrone",
     "knusper-granola-nuesse-rezept",
-    "kartoffelgratin"
+    "kartoffelgratin",
+    "blumenkohl-kaese-auflauf"
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
