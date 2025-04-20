@@ -9,7 +9,6 @@ import { RecipeComments } from '@/components/recipe-comments'
 import { Separator } from '@/components/ui/separator'
 import { SiteHeader } from "@/components/site-header"
 import { brandColors } from "@/lib/theme"
-import OtherRecipePage from './page-other'
 import Image from 'next/image'
 import { Metadata } from 'next'
 import Script from 'next/script'
@@ -145,47 +144,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
   // After notFound(), recipe is guaranteed to be non-null
   const validRecipe = recipe;
-
-  // For any recipe other than flammkuchen and kartoffelpuffer, use page-other.tsx
-  if (!['flammkuchen',
-    'kartoffelpuffer',
-    'gemuesesuppe',
-    'kartoffelkloesse',
-    'semmelknoedel',
-    'quinoa-buddha-bowl',
-    'kaesespaetzle',
-    'pilzgulasch',
-    'gemuese-curry',
-    'brokkoli-quiche',
-    'ratatouille',
-    'gefuellte-paprika',
-    'gemuese-strudel',
-    'linsen-bolognese',
-    'dubai-schokolade',
-    'spinatknoedel',
-    'shakshuka',
-    'kuerbissuppe',
-    'suesskartoffel-kokos-suppe',
-    'griessnockerl',
-    'gemuese-couscous-salat',
-    'bunter-quinoa-salat',
-    'griechischer-bauernsalat',
-    'mediterraner-nudelsalat',
-    'franzoesische-crepes-granola-nuesse',
-    'beeren-crumble',
-    'bestes-schokoladen-mousse-rezept-klassisch-einfach',
-    'omas-bester-gezogener-apfelstrudel-rezept',
-    'klassisches-ruehrei-rezept',
-    'bestes-zimtschnecken-rezept-saftig',
-    "cremiges-rhabarber-kompott-vanille-zitrone",
-    "knusper-granola-nuesse-rezept",
-    "kartoffelgratin",
-    "blumenkohl-kaese-auflauf",
-    "zucchini-reis-auflauf",
-    "gemuese-polenta-auflauf"  
-  ].includes(slug)) {
-    return <OtherRecipePage slug={slug} />;
-  }
 
   // Generate structured data for this recipe
   const structuredData = await generateStructuredData({ params });
@@ -336,6 +294,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   <div className="w-full ">
                     <div className="w-full h-[960px] rounded-2xl overflow-hidden">
                       <img
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
                         src={validRecipe.image}
                         alt={validRecipe.image.split("/").pop()?.split(".")[0]}
                         className="w-full h-full object-cover"
@@ -353,10 +316,22 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Recipe Images 1*/}
                   <div className="flex justify-center gap-4 w-full mb-1">
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={validRecipe.images.image1} alt={validRecipe.images.image1.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      <img 
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.image1} alt={validRecipe.images.image1.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
                     </div>
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={validRecipe.images.image2} alt={validRecipe.images.image2.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      <img
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.image2} alt={validRecipe.images.image2.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
 
@@ -383,7 +358,13 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Ingredients Image */}
                   <div className="flex justify-center gap-4 w-full mb-4">
                     <div className="w-[98%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={validRecipe.images.imageIngredient} alt={validRecipe.images.imageIngredient.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      <img 
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.imageIngredient} alt={validRecipe.images.imageIngredient.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
 
@@ -414,6 +395,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       <div className="flex items-start gap-6">
                         <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
                           <img
+                          width="1200"
+                          height="800"
+                          loading="lazy"
+                          decoding="async"
+                          itemProp="contentUrl"
                             src={randomRecipe.image}
                             alt={randomRecipe.image.split("/").pop()?.split(".")[0]}
                             className="w-full h-full object-cover"
@@ -457,10 +443,22 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Recipe Images 2*/}
                   <div className="flex justify-center gap-4 w-full mb-1">
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={validRecipe.images.image3} alt={validRecipe.images.image3.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      <img 
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.image3} alt={validRecipe.images.image3.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
                     </div>
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={validRecipe.images.image4} alt={validRecipe.images.image4.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      <img 
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.image4} alt={validRecipe.images.image4.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
 
@@ -505,6 +503,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Schritt für Schritt - Recipe */}
                   <div className="w-full mx-auto mb-1">
                     <img
+                    width="1200"
+                    height="800"
+                    loading="lazy"
+                    decoding="async"
+                    itemProp="contentUrl"
                       src={validRecipe.images.image5}
                       alt={validRecipe.images.image5.split("/").pop()?.split(".")[0]}
                       className="w-full h-[960px] rounded-lg"
@@ -525,6 +528,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           <div className="relative group bg-[#f9d24f]/30 p-4">
                             <div className="w-full aspect-square rounded-lg overflow-hidden">
                               <img
+                              width="1200"
+                              height="800"
+                              loading="lazy"
+                              decoding="async"
+                              itemProp="contentUrl"
                                 src={recommendedRecipe.image}
                                 alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -608,10 +616,22 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   {/* Recipe Images 3*/}
                   <div className="flex justify-center gap-4 w-full mb-1">
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={validRecipe.images.image6} alt={validRecipe.images.image6.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      <img 
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.image6} alt={validRecipe.images.image6.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
                     </div>
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
-                      <img src={validRecipe.images.image7} alt={ validRecipe.images.image7.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      <img
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl" 
+                      src={validRecipe.images.image7} alt={ validRecipe.images.image7.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
 
@@ -622,6 +642,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       <div className="absolute -top-5 right-6 z-0">
                         <div style={{ width: '268px', height: '268px', minWidth: '268px', minHeight: '268px' }} className="rounded-lg overflow-hidden border-2 border-gray-200 flex-shrink-0 shadow-md">
                           <img
+                          width="1200"
+                          height="800"
+                          loading="lazy"
+                          decoding="async"
+                          itemProp="contentUrl"
                             src={validRecipe.image}
                             alt={validRecipe.image.split("/").pop()?.split(".")[0]}
                             className="w-full h-full object-cover"
@@ -706,6 +731,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           <div className="relative group bg-[#f9d24f]/30 p-4 h-full flex flex-col">
                             <div className="w-full aspect-square rounded-lg overflow-hidden">
                               <img
+                              width="1200"
+                              height="800"
+                              loading="lazy"
+                              decoding="async"
+                              itemProp="contentUrl"
                                 src={recommendedRecipe.image}
                                 alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -737,6 +767,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         <a key={index} href={`/${popularRecipe.slug}`} className="flex items-start gap-3 group">
                           <div className="w-20 h-20 rounded-md overflow-hidden flex-shrink-0">
                             <img
+                              width="1200"
+                              height="800"
+                              loading="lazy"
+                              decoding="async"
+                              itemProp="contentUrl"
                               src={popularRecipe.image}
                               alt={popularRecipe.title}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

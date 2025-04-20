@@ -89,383 +89,6 @@ export type Recipe = {
 
 // Then update the recipes array with all required properties
 export const recipes: Recipe[] = [
-
-  {
-    title: "Spinat-Käse Lasagne",
-    image: "/images/MainCourses/spinat-kaese-lasagne.webp",
-    prepTime: 50,
-cookingTime: 20,
-rating: 4.7,
-    seo_keywords: [],
-    category: "Aufläufe",
-    slug: "spinat-kaese-lasagne",
-    tags: ["Auflauf", "Pasta", "Käse"],
-    servings: 6,
-    description: "Eine klassische Lasagne mit Spinat und Käse.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Spinat" },
-      { amount: 200, unit: "g", name: "Käse" },
-      { amount: 2, name: "Eier" },
-      { amount: 500, unit: "g", name: "Pasta" },
-      { amount: 4, name: "Tomaten" },
-      { amount: 2, name: "Zwiebeln" },
-      { amount: 2, name: "Knoblauchzehen" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Den Spinat waschen, abtropfen lassen und in einem großen Topf mit etwas Wasser etwa 5 Minuten dünsten, bis er zusammengefallen ist. Anschließend abkühlen lassen und gut auspressen, um überschüssige Flüssigkeit zu entfernen.",
-      "Die Zwiebeln und den Knoblauch schälen und fein hacken. In einer Pfanne mit etwas Olivenöl glasig dünsten. Die Tomaten waschen, würfeln und zu den Zwiebeln geben. Alles etwa 10 Minuten köcheln lassen, bis eine dickflüssige Sauce entsteht.",
-      "Die Lasagneplatten nach Packungsanleitung in Salzwasser al dente kochen, abgießen und beiseite stellen.",
-      "Den Käse reiben und mit den Eiern und dem Spinat vermengen. Mit Salz und Pfeffer abschmecken.",
-      "Eine Auflaufform mit etwas Olivenöl ausstreichen. Schichtweise die Lasagneplatten, die Spinat-Käse-Mischung und die Tomatensauce in die Form geben. Mit einer Käseschicht abschließen.",
-      "Die Lasagne im vorgeheizten Backofen bei 180°C etwa 30 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 350,
-      protein: "15g",
-      carbs: "30g",
-      fat: "18g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
-    title: "Overnight Oats mit Beeren",
-    image: "/images/Frühstück/overnight-oats-beeren.webp",
-    prepTime: 60,
-cookingTime: 20,
-rating: 4.7,
-seo_keywords: [],
-    category: "Frühstück",
-    slug: "overnight-oats-beeren",
-    tags: ["Frühstück", "Gesund", "Haferflocken"],
-    servings: 2,
-    description: "Ein leckerer Frühstücks-Salat aus Haferflocken und Beeren.",
-    ingredients: [
-      { amount: 100, unit: "g", name: "Haferflocken" },
-      { amount: 200, unit: "g", name: "Milch" },
-      { amount: 100, unit: "g", name: "Beeren" },
-      { amount: 1, name: "Ei" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Haferflocken und Milch in einer Schüssel vermengen. Das Ei hinzufügen und alles gut verrühren.",
-      "Mit Salz und Muskatnuss würzen. Die Beeren waschen und unter die Haferflocken heben.",
-      "Die Mischung in ein verschließbares Glas füllen und über Nacht im Kühlschrank ziehen lassen.",
-      "Am nächsten Morgen die Overnight Oats kalt servieren, eventuell mit zusätzlichen Beeren oder Nüssen garnieren."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "10g",
-      carbs: "20g",
-      fat: "5g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
-    title: "Veganes Banana Bread",
-    image: "/images/Frühstück/veganes-banana-bread.webp",
-    prepTime: 55,
-cookingTime: 20,
-rating: 4.8,
-seo_keywords: [],
-    category: "Frühstück",
-    slug: "veganes-banana-bread",
-    tags: ["Frühstück", "Vegan", "Gebäck"],
-    servings: 8,
-    description: "Ein leckeres Vegan-Banana-Bread aus Bananen und verschiedenen Zutaten.",
-    ingredients: [
-      { amount: 3, name: "Bananen" },
-      { amount: 100, unit: "g", name: "Mehl" },
-      { amount: 100, unit: "g", name: "Zucker" },
-      { amount: 100, unit: "g", name: "Olivenöl" },
-      { amount: 1, name: "Ei" },
-      { amount: 1, unit: "Teelöffel", name: "Backpulver" },
-      { amount: 1, unit: "Teelöffel", name: "Backgewürz" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Bananen schälen und in einer Schüssel mit einer Gabel zerdrücken. Das Mehl, den Zucker, das Olivenöl und das Ei hinzufügen und alles gut vermengen.",
-      "Das Backpulver und das Backgewürz unterheben. Den Teig in eine gefettete Kastenform füllen.",
-      "Den Backofen auf 180°C vorheizen. Das Banana Bread etwa 45 Minuten backen, bis es goldbraun ist und ein Zahnstocher sauber herauskommt.",
-      "Vor dem Servieren abkühlen lassen und in Scheiben schneiden."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "3g",
-      carbs: "30g",
-      fat: "10g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
-    title: "Smoothie Bowl",
-    image: "/images/Frühstück/smoothie-bowl.webp",
-    prepTime: 15,
-cookingTime: 20,
-seo_keywords: [],
-rating: 4.6,
-    category: "Frühstück",
-    slug: "smoothie-bowl",
-    tags: ["Frühstück", "Gesund", "Obst"],
-    servings: 1,
-    description: "Ein leckerer Smoothie-Bowl aus verschiedenen Früchten und Nüssen.",
-    ingredients: [
-      { amount: 100, unit: "g", name: "Früchte" },
-      { amount: 100, unit: "g", name: "Nüsse" },
-      { amount: 100, unit: "g", name: "Joghurt" },
-      { amount: 100, unit: "g", name: "Bananen" },
-      { amount: 100, unit: "g", name: "Kokosnussöl" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Früchte waschen und in Stücke schneiden. Die Bananen schälen und in Scheiben schneiden.",
-      "Die Früchte, Bananen und den Joghurt in einen Mixer geben und zu einem cremigen Smoothie pürieren.",
-      "Die Nüsse in einer Pfanne ohne Fett kurz anrösten, bis sie duften.",
-      "Den Smoothie in eine Schüssel gießen. Die gerösteten Nüsse und etwas Kokosnussöl darüber geben.",
-      "Die Smoothie Bowl sofort servieren, eventuell mit zusätzlichen Früchten oder Kokosflocken garnieren."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "5g",
-      carbs: "20g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
   {
     "title": "Flammkuchen",
     "seo_title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
@@ -8570,7 +8193,7 @@ instructions: [
     ],
     "rating": 4.5,
     "reviews": 73,
-    "category": "Miscellaneous",
+    "category": "Aufläufe",
     "slug": "gemuese-polenta-auflauf",
     "tags": [
       "Gemüse",
@@ -8842,6 +8465,1066 @@ instructions: [
       "image5": "/images/Miscellaneous/polenta-auflauf-mit-buntem-gemuese.webp",
       "image6": "/images/Miscellaneous/gemuese-polenta-rezepte.webp",
       "image7": "/images/Miscellaneous/herzhafter-polenta-gemuese-auflauf.webp"
+    }
+  },
+  {
+    "title": "Spinat Käse Lasagne",
+    "seo_title": "Spinatlasagne Rezept - Cremig, Käsig & Vegetarisch",
+    "image": "/images/Miscellaneous/spinat-kaese-lasagne.webp",
+    "prepTime": 30,
+    "cookingTime": 45,
+    "seo_keywords": [
+      "Spinatlasagne Rezept",
+      "Vegetarische Lasagne",
+      "Spinat Käse Lasagne",
+      "Lasagne mit Spinat",
+      "Einfache Spinatlasagne",
+      "Lasagne ohne Fleisch",
+      "Cremige Spinatlasagne"
+    ],
+    "rating": 4.9,
+    "reviews": 210,
+    "category": "Aufläufe",
+    "slug": "spinat-kaese-lasagne",
+    "tags": [
+      "Spinat",
+      "Käse",
+      "Lasagne",
+      "Vegetarisch",
+      "Auflauf"
+    ],
+    "createdDate": new Date("2025-04-20T15:50:00Z"),
+    "updatedDate": new Date("2025-04-20T15:50:00Z"),
+    "servings": 6,
+    "description": "Ein Traum für alle Lasagne-Liebhaber! Dieses einfache Spinatlasagne Rezept mit viel Käse und cremiger Sauce ist ein köstliches vegetarisches Gericht.",
+    "descriptionOnImage": "Cremig, vegetarisch, perfekt!",
+    "introductionParagraph": "Wenn ich Lust auf richtiges Soulfood habe, das satt und glücklich macht, fällt meine Wahl oft auf eine cremige Lasagne.",
+    "additionalParagraph": "Besonders diese vegetarische Spinat Käse Lasagne ist ein absoluter Favorit. Sie ist so einfach gemacht und das Ergebnis ist einfach nur himmlisch!",
+"ingredientsNeeded": [
+    {
+      "title": "Lasagneplatten",
+      "description": "Am besten nehmen Sie Platten, die nicht vorgekocht werden müssen. Sie garen direkt in der Sauce und machen die Lasagne schön saftig."
+    },
+    {
+      "title": "Spinat",
+      "description": "Frischer Blattspinat bringt eine tolle Farbe und gesunde Nährstoffe in die Füllung. Tiefkühlspinat funktioniert auch super, muss aber gut ausgedrückt werden."
+    },
+    {
+      "title": "Ricotta und Parmesan",
+      "description": "Die klassische italienische Kombination für eine cremige und würzige Spinatfüllung. Ricotta sorgt für Cremigkeit, Parmesan für den nötigen Pfiff."
+    },
+    {
+      "title": "Knoblauch & Olivenöl",
+      "description": "Diese Basis gibt dem Spinat beim Andünsten Tiefe und Aroma, essentiell für den herzhaften Geschmack der Füllung."
+    },
+    {
+      "title": "Für die Béchamelsauce (Butter, Mehl, Milch, Gewürze)",
+      "description": "Die Mehlschwitze aus Butter und Mehl bindet die Milch zu einer sämigen Sauce, während Muskat, Salz und Pfeffer den klassischen Geschmack zaubern."
+    },
+    {
+      "title": "Mozzarella",
+      "description": "Für die unwiderstehliche, zähe Käseschicht obendrauf und zwischen den Schichten, die beim Backen perfekt schmilzt."
+    }
+  ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Spinatfüllung",
+        "description": "Das Herzstück unserer vegetarischen Lasagne.",
+        "ingredients": [
+          {
+            "amount": 500,
+            "unit": "g",
+            "name": "frischer Blattspinat (oder 400g TK-Spinat)"
+          },
+          {
+            "amount": 250,
+            "unit": "g",
+            "name": "Ricotta"
+          },
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "geriebener Parmesan"
+          },
+          {
+            "amount": 1,
+            "unit": "Zehe",
+            "name": "Knoblauch"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Olivenöl"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Eine Prise Muskatnuss"
+          }
+        ]
+      },
+      {
+        "title": "Für die Béchamelsauce",
+        "description": "Die cremige Sauce, die alle Schichten zusammenhält.",
+        "ingredients": [
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "Butter"
+          },
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "Mehl"
+          },
+          {
+            "amount": 700,
+            "unit": "ml",
+            "name": "Milch"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Eine Prise Muskatnuss"
+          }
+        ]
+      },
+      {
+        "title": "Für die Lasagne",
+        "description": "Was wir zum Schichten und Überbacken benötigen.",
+        "ingredients": [
+          {
+            "amount": 12,
+            "unit": "Blätter",
+            "name": "Lasagneplatten (ohne Vorkochen)"
+          },
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "geriebener Mozzarella"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "frischer Blattspinat (oder 400g TK-Spinat)"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Ricotta"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "geriebener Parmesan"
+      },
+      {
+        "amount": 1,
+        "unit": "Zehe",
+        "name": "Knoblauch"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Olivenöl"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Eine Prise Muskatnuss"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Butter"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Mehl"
+      },
+      {
+        "amount": 700,
+        "unit": "ml",
+        "name": "Milch"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Eine Prise Muskatnuss"
+      },
+      {
+        "amount": 12,
+        "unit": "Blätter",
+        "name": "Lasagneplatten (ohne Vorkochen)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "geriebener Mozzarella"
+      }
+    ],
+    "instructions": [
+      "Backofen auf 180°C Ober-/Unterhitze vorheizen.",
+      "Für die Spinatfüllung: Bei frischem Spinat diesen waschen. Bei TK-Spinat diesen auftauen und gut ausdrücken. Knoblauch fein hacken.",
+      "Olivenöl in einer Pfanne erhitzen, Knoblauch kurz andünsten. Spinat dazugeben und zusammenfallen lassen (oder TK-Spinat erwärmen). Mit Salz, Pfeffer und Muskat würzen.",
+      "Spinat vom Herd nehmen, Ricotta und Parmesan unterrühren. Abschmecken.",
+      "Für die Béchamelsauce: Butter in einem Topf schmelzen. Mehl einrühren und 1 Minute anschwitzen.",
+      "Nach und nach die Milch mit einem Schneebesen einrühren, bis eine glatte Sauce entsteht. Unter Rühren aufkochen lassen und ca. 5 Minuten köcheln, bis sie eindickt.",
+      "Béchamelsauce mit Salz, Pfeffer und Muskat abschmecken.",
+      "Eine kleine Menge Béchamelsauce auf den Boden einer Auflaufform geben. Eine Schicht Lasagneplatten darauflegen.",
+      "Abwechselnd Spinatfüllung, Béchamelsauce und Lasagneplatten schichten. Mit einer Schicht Béchamelsauce abschließen.",
+      "Die letzte Schicht Béchamel mit geriebenem Mozzarella bestreuen.",
+      "Im vorgeheizten Ofen ca. 40-45 Minuten backen, bis die Lasagne goldbraun ist und Blasen wirft.",
+      "Vor dem Servieren 5-10 Minuten ruhen lassen."
+    ],
+    "nutrition": {
+      "calories": 2875,
+      "protein": "143g",
+      "carbs": "246g",
+      "fat": "152g"
+    },
+    "tips": [
+      "Verwenden Sie frische Muskatnuss! Der Geschmack ist intensiver und macht einen großen Unterschied in der Béchamelsauce.",
+      "Für eine sämigere Spinatfüllung können Sie einen Esslöffel Béchamelsauce direkt in die Spinat-Ricotta-Mischung rühren."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Spinat-Käse-Lasagne so besonders ist",
+      "reasons": [
+        {
+          "title": "Unglaublich cremig",
+          "description": "Die Kombination aus Ricotta, Parmesan und der selbstgemachten Béchamelsauce macht jede Schicht herrlich saftig und zart. Kein trockener Bissen in Sicht!"
+        },
+        {
+          "title": "Wunderbar vegetarisch",
+          "description": "Diese Lasagne beweist, dass man kein Fleisch braucht, um ein sättigendes und geschmacksintensives Hauptgericht zu zaubern. Spinat und Käse sind ein Dreamteam!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, meine Lieblings-Spinatlasagne zaubert auch dir ein Lächeln ins Gesicht!",
+      "subText": "Guten Appetit!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Vorbereitung der Füllung",
+        "description": "Das sorgfältige Würzen des Spinats und das Mischen mit Ricotta und Parmesan legen den Grundstein für die geschmacksintensive Füllung der Lasagne."
+      },
+      {
+        "title": "Die perfekte Béchamel zaubern",
+        "description": "Eine glatte Béchamelsauce ohne Klümpchen ist essenziell. Sie verbindet nicht nur die Schichten, sondern macht die Lasagne unglaublich saftig und cremig."
+      },
+      {
+        "title": "Schichten und vollenden",
+        "description": "Das abwechselnde Schichten von Nudeln, Spinatfüllung und Sauce sowie das großzügige Bestreuen mit Käse vor dem Backen sind der Weg zur perfekten Lasagne mit goldbrauner Kruste."
+      }
+    ],
+    "servingSuggestion": "Diese vegetarische Spinat Käse Lasagne schmeckt am besten frisch aus dem Ofen.",
+    "servingSuggestions": {
+      "title": "Was passt zur Lasagne?",
+      "description": "Eine Lasagne ist schon ein Gericht für sich, aber ein paar Kleinigkeiten passen immer gut dazu:",
+      "note": "Weniger ist manchmal mehr!",
+      "items": [
+        {
+          "emoji": "🥗",
+          "title": "Ein knackiger Salat",
+          "description": "Ein einfacher grüner Salat mit einem leichten Dressing bildet einen frischen Kontrast zur reichhaltigen Lasagne."
+        },
+        {
+          "emoji": "🥖",
+          "title": "Frisches Baguette",
+          "description": "Zum Aufsaugen der restlichen Sauce ist ein Stück frisches Brot einfach perfekt."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Lustiges Lasagne-Wissen",
+      "description": "Obwohl Lasagne heute typisch italienisch ist, gab es bereits im antiken Griechenland ein ähnliches Gericht mit Teigschichten!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/spinat-kaese-lasagne-zutaten.webp",
+      "image1": "/images/Miscellaneous/spinatlasagne-rezept-vegetarisch.webp",
+      "image2": "/images/Miscellaneous/vegetarische-lasagne-spinat.webp",
+      "image3": "/images/Miscellaneous/spinat-kaese-lasagne-einfach.webp",
+      "image4": "/images/Miscellaneous/lasagne-mit-spinat-kaese.webp",
+      "image5": "/images/Miscellaneous/cremige-spinatlasagne.webp",
+      "image6": "/images/Miscellaneous/einfache-vegetarische-lasagne.webp",
+      "image7": "/images/Miscellaneous/spinatlasagne-ohne-fleisch.webp"
+    }
+  },
+  {
+    "title": "Beeren Smoothie Bowl",
+    "seo_title": "Smoothie Bowl Rezept Beeren - Schnell & Einfach selber machen",
+    "image": "/images/Frühstück/beeren-smoothie-bowl.webp",
+    "prepTime": 5,
+    "cookingTime": 0,
+    "seo_keywords": [
+      "smoothie bowl",
+      "smoothie bowl rezepte",
+      "smoothie bowl selber machen",
+      "smoothie bowl rezept",
+      "gesundes frühstück",
+      "beeren smoothie bowl",
+      "schnelles frühstück"
+    ],
+    "rating": 4.7,
+    "reviews": 155,
+    "category": "Frühstück",
+    "slug": "beeren-smoothie-bowl",
+    "tags": [
+      "Smoothie Bowl",
+      "Frühstück",
+      "Gesund",
+      "Beeren",
+      "Vegan (Optional)"
+    ],
+    "createdDate": new Date("2025-02-11T12:10:00Z"),
+    "updatedDate": new Date("2025-04-20T12:10:00Z"),
+    "servings": 1,
+    "description": "Ein einfaches Smoothie Bowl Rezept mit Beeren, das Sie schnell selber machen können! Perfekt als gesundes Frühstück oder Snack.",
+    "descriptionOnImage": "Dein Energie-Booster!",
+    "introductionParagraph": "Es gibt Tage, da brauche ich etwas Schnelles und richtig Gutes am Morgen, und da ist meine liebste Beeren Smoothie Bowl einfach unschlagbar!",
+    "additionalParagraph": "Sie ist nicht nur super gesund und sättigend, sondern auch ein echtes Fest für die Augen. Eine Smoothie Bowl selber machen ist wirklich kinderleicht und macht Spaß!",
+    "ingredientsNeeded": [
+      {
+        "title": "Gefrorene Beeren",
+        "description": "Das A und O für die perfekte, dickflüssige Konsistenz einer Smoothie Bowl. Gemischte Beeren wie Erdbeeren, Himbeeren und Blaubeeren sind meine Favoriten."
+      },
+      {
+        "title": "Eine reife Banane",
+        "description": "Sie gibt Süße und zusätzliche Cremigkeit. Am besten eine reife Banane einfrieren, das verstärkt den Effekt."
+      },
+      {
+        "title": "Flüssigkeit",
+        "description": "Pflanzenmilch (Mandel, Hafer) oder Saft – nur ein kleiner Schuss wird benötigt, um dem Mixer zu helfen und die gewünschte Konsistenz zu erreichen."
+      },
+      {
+        "title": "Toppings",
+        "description": "Hier wird es kreativ! Granola für Crunch, frische Früchte für Frische, Kokoschips, Chiasamen, Nüsse – alles, was schmeckt und textur gibt."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Smoothie Basis",
+        "description": "Diese Zutaten mixen wir zu einer cremigen, kalten Masse.",
+        "ingredients": [
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "gefrorene gemischte Beeren"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "gefrorene oder sehr reife Banane"
+          },
+          {
+            "amount": 50,
+            "unit": "ml",
+            "name": "Pflanzenmilch oder Orangensaft"
+          }
+        ]
+      },
+      {
+        "title": "Für die Toppings",
+        "description": "Was deine Smoothie Bowl unwiderstehlich macht und extra Nährstoffe liefert.",
+        "ingredients": [
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Granola"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frische Beeren oder andere Früchte"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Kokoschips"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Chiasamen, Leinsamen oder Hanfsamen"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Gehackte Nüsse oder Mandeln"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "gefrorene gemischte Beeren"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "gefrorene oder sehr reife Banane"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "name": "Pflanzenmilch oder Orangensaft"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Granola"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frische Beeren oder andere Früchte"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Kokoschips"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Chiasamen, Leinsamen oder Hanfsamen"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Gehackte Nüsse oder Mandeln"
+      }
+    ],
+    "instructions": [
+      "Gib die gefrorenen Beeren und die (gefrorene) Banane in einen leistungsstarken Mixer.",
+      "Füge nur einen kleinen Schuss Flüssigkeit hinzu.",
+      "Mixe alles auf höchster Stufe. Stoppe zwischendurch und schiebe die Masse mit einem Stößel (falls vorhanden) oder einem Löffel nach unten.",
+      "Mixe nur so lange, bis eine sehr dicke, eiscreme-ähnliche Konsistenz entsteht. Gib nur bei Bedarf mehr Flüssigkeit hinzu, esslöffelweise.",
+      "Gib den dicken Smoothie in eine Schüssel (Bowl).",
+      "Arrangiere deine Lieblingstoppings dekorativ auf der Oberfläche.",
+      "Sofort genießen!"
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein": "11,3g",
+      "carbs": "81,5g",
+      "fat": "23,5g"
+    },
+    "tips": [
+      "Je weniger Flüssigkeit du verwendest und je kälter/gefrorener deine Früchte sind, desto dicker wird deine Smoothie Bowl. Ein leistungsstarker Mixer ist hier Gold wert!",
+      "Experimentiere mit gefrorenen Früchten wie Mango, Ananas oder Açaí für andere leckere Smoothie Bowl Varianten. Grünes Blattgemüse kann auch mitgemixt werden."
+    ],
+    "whyFavorite": {
+      "title": "Darum liebe ich diese Smoothie Bowl",
+      "reasons": [
+        {
+          "title": "Blitzschnell gemacht",
+          "description": "In weniger als 5 Minuten steht ein gesundes und leckeres Frühstück auf dem Tisch. Perfekt für hektische Morgen, wenn jede Minute zählt!"
+        },
+        {
+          "title": "Vollgepackt mit Guten Dingen",
+          "description": "Sie liefert Vitamine, Ballaststoffe und gesunde Fette – ein echter Energie-Booster, der lange satt hält und dich fit für den Tag macht."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, deine Smoothie Bowl schmeckt dir genauso gut wie mir!",
+      "subText": "Genieße deinen Start in den Tag!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Die Basis mixen",
+        "description": "Das Geheimnis liegt im Mixen von gefrorenen Früchten mit nur sehr wenig Flüssigkeit, um diese unwiderstehlich dicke Konsistenz zu erhalten, die eine Smoothie Bowl ausmacht."
+      },
+      {
+        "title": "Anrichten in der Bowl",
+        "description": "Gib den dicken Smoothie in eine Schüssel. Das ist wichtig, denn es ist ja eine 'Bowl' und kein Trink-Smoothie. Die Schüssel hält die Kälte besser."
+      },
+      {
+        "title": "Kreativ toppen",
+        "description": "Jetzt kommt der beste Teil! Das Hinzufügen verschiedenster Toppings sorgt nicht nur für Textur und Geschmack, sondern macht jede Smoothie Bowl zu einem kleinen Kunstwerk."
+      }
+    ],
+    "servingSuggestion": "Genießen Sie die Smoothie Bowl löffelweise als nahrhaftes Frühstück.",
+    "servingSuggestions": {
+      "title": "Leckere Topping-Ideen",
+      "description": "Deine Smoothie Bowl wird erst mit den richtigen Toppings komplett. Hier ein paar meiner Favoriten:",
+      "note": "Je bunter, desto besser!",
+      "items": [
+        {
+          "emoji": "🥥",
+          "title": "Kokoschips & Granola",
+          "description": "Für einen tropischen Touch und extra Crunch – das macht jede Gabel spannender!"
+        },
+        {
+          "emoji": "🌰",
+          "title": "Nüsse & Samen",
+          "description": "Liefern gesunde Fette und Proteine und geben der Bowl Biss. Chiasamen quellen leicht an und machen zusätzlich satt."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du schon?",
+      "description": "Smoothie Bowls wurden in den 2000er Jahren in den USA populär, aber die Idee, dickflüssige Fruchtpürees zu essen, gibt es schon viel länger, zum Beispiel Açaí Bowls in Brasilien."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/beeren-smoothie-bowl-zutaten.webp",
+      "image1": "/images/Frühstück/smoothie-bowl-rezepte-einfach.webp",
+      "image2": "/images/Frühstück/smoothie-bowl-selber-machen.webp",
+      "image3": "/images/Frühstück/gesundes-fruehstueck-smoothie-bowl.webp",
+      "image4": "/images/Frühstück/beeren-smoothie-bowl-rezept.webp",
+      "image5": "/images/Frühstück/schnelle-smoothie-bowl.webp",
+      "image6": "/images/Frühstück/vegetarische-smoothie-bowl.webp",
+      "image7": "/images/Frühstück/smoothie-bowl-mit-granola.webp"
+    }
+  },
+  {
+    "title": "Beeren Overnight Oats",
+    "seo_title": "Overnight Oats Beeren Rezept: Einfach & Gesund Frühstücken",
+    "image": "/images/Frühstück/beeren-overnight-oats.webp",
+    "prepTime": 5,
+    "cookingTime": 0,
+    "seo_keywords": [
+      "Overnight Oats Beeren",
+      "Frühstück mit Beeren",
+      "Haferflocken Frühstück",
+      "gesundes Frühstück",
+      "einfaches Frühstück",
+      "Beeren Overnight Oats Rezept",
+      "Meal Prep Frühstück"
+    ],
+    "rating": 4.8,
+    "reviews": 125,
+    "category": "Frühstück",
+    "slug": "beeren-overnight-oats",
+    "tags": [
+      "Overnight Oats",
+      "Beeren",
+      "Frühstück",
+      "Meal Prep",
+      "Vegetarisch"
+    ],
+    "createdDate": new Date("2025-02-15T09:00:00Z"),
+    "updatedDate": new Date("2025-04-20T11:30:00Z"),
+    "servings": 1,
+    "description": "Starte deinen Tag mit cremigem Beeren-Overnight-Oats! Dieses einfache Rezept ist perfekt für ein gesundes Frühstück und lässt sich wunderbar vorbereiten.",
+    "descriptionOnImage": "Beeren-Overnight-Oats: Dein perfekter Start.",
+    "introductionParagraph": "Morgens wenig Zeit? Kenn ich!",
+    "additionalParagraph": "Diese Beeren-Overnight-Oats sind mein Retter.",
+    "ingredientsNeeded": [
+      {
+        "title": "Haferflocken",
+        "description": "Die Basis für ein sättigendes Frühstück voller Ballaststoffe."
+      },
+      {
+        "title": "Beeren",
+        "description": "Sorgen für Süße, Vitamine und eine wunderschöne Farbe."
+      },
+      {
+        "title": "Milch oder Joghurt",
+        "description": "Macht die Oats cremig und liefert zusätzliches Protein."
+      },
+      {
+        "title": "Süße nach Wahl",
+        "description": "Ein Hauch von Süße für den perfekten Start in den Tag."
+      },
+      {
+        "title": "Chiasamen",
+        "description": "Für extra Ballaststoffe, Omega-3-Fettsäuren und eine dickere Konsistenz."
+      },
+      {
+        "title": "Vanilleextrakt",
+        "description": "Verleiht eine subtile, süße Note."
+      },
+      {
+        "title": "Honig oder Ahornsirup",
+        "description": "Für eine natürliche Süße und ein angenehmes Aroma."
+      },
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Overnight Oats Basis",
+        "description": "Die Grundlage für dein cremiges Frühstück.",
+        "ingredients": [
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "kernige Haferflocken"
+          },
+          {
+            "amount": 120,
+            "unit": "g",
+            "name": "gemischte Beeren (frisch oder gefroren)"
+          },
+          {
+            "amount": 120,
+            "unit": "g",
+            "name": "Milch (120g) oder Naturjoghurt (120g)"
+          },
+          {
+            "amount": 5,
+            "unit": "g",
+            "name": "Chiasamen"
+          },
+          {
+            "amount": 2,
+            "unit": "g",
+            "name": "Vanilleextrakt"
+          },
+          {
+            "amount": 7,
+            "unit": "g",
+            "name": "Ahornsirup oder Honig"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "kernige Haferflocken"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "name": "gemischte Beeren (frisch oder gefroren)"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "name": "Milch oder Naturjoghurt"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "name": "Chiasamen"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "name": "Vanilleextrakt"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "name": "Ahornsirup oder Honig"
+      }
+    ],
+    "instructions": [
+      "Vermische in einem Glas oder einer kleinen Schüssel 50g kernige Haferflocken, 5g Chiasamen und 2g Vanilleextrakt.",
+      "Gib 120g gemischte Beeren hinzu.",
+      "Übergieße alles mit 120g Milch oder Naturjoghurt.",
+      "Verrühre die Zutaten leicht.",
+      "Decke das Glas oder die Schüssel ab und stelle es für mindestens 4 Stunden oder über Nacht in den Kühlschrank.",
+      "Am nächsten Morgen mit 7g Ahornsirup oder Honig genießen."
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": "10g",
+      "carbs": "55g",
+      "fat": "8g"
+    },
+    "tips": [
+      "Für eine cremigere Konsistenz verwende 150g Naturjoghurt anstelle von Milch.",
+      "Experimentiere mit 150g verschiedenen Beerenarten wie Himbeeren, Blaubeeren, Erdbeeren und Brombeeren."
+    ],
+    "whyFavorite": {
+      "title": "Darum liebe ich diese Beeren-Overnight-Oats so!",
+      "reasons": [
+        {
+          "title": "Super einfach & schnell",
+          "description": "In nur 5 Minuten vorbereitet, während ich meinen Abend genieße – der perfekte Start ohne Stress."
+        },
+        {
+          "title": "Gesund & sättigend",
+          "description": "Voller Ballaststoffe, Vitamine und Proteine hält mich diese Bowl bis zum Mittagessen fit und munter."
+        },
+        {
+          "title": "Lecker und vielseitig",
+          "description": "Die Kombination aus cremigen Oats und fruchtigen Beeren ist einfach unwiderstehlich."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lasst euch diese cremigen Beeren-Overnight-Oats schmecken!",
+      "subText": "Ein einfacher Genuss für jeden Morgen!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Die Basis schaffen",
+        "description": "50g Haferflocken und 5g Chiasamen bilden die Grundlage."
+      },
+      {
+        "title": "Fruchtige Süße",
+        "description": "120g Beeren für den natürlichen Geschmack."
+      },
+      {
+        "title": "Die Cremigkeit",
+        "description": "120g Milch oder Joghurt machen es cremig."
+      },
+      {
+        "title": "Süße Note",
+        "description": "7g Ahornsirup oder Honig für den Hauch Süße."
+      },
+      {
+        "title": "Über Nacht",
+        "description": "Im Kühlschrank ziehen lassen."
+      }
+    ],
+    "servingSuggestion": "Gekühlt genießen.",
+    "servingSuggestions": {
+      "title": "So schmecken deine Beeren-Overnight-Oats noch besser",
+      "description": "Auch ohne extra Toppings ein Genuss!",
+      "note": "",
+      "items": [
+        {
+          "emoji": "🍓",
+          "title": "Pur mit Beeren",
+          "description": "Der natürliche Geschmack der Beeren kommt pur besonders gut zur Geltung."
+        },
+        {
+          "emoji": "🥄",
+          "title": "Ein Löffel mehr Joghurt",
+          "description": "Für eine extra cremige Textur."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du?",
+      "description": "Overnight Oats sind nicht nur super praktisch, sondern durch das Einweichen werden die Haferflocken auch leichter verdaulich!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/beeren-overnight-oats-zutaten.webp",
+      "image1": "/images/Frühstück/overnight-oats-mit-frischen-beeren.webp",
+      "image2": "/images/Frühstück/overnight-oats-rezept-einfach.webp",
+      "image3": "/images/Frühstück/gesundes-fruhstuck-mit-haferflocken.webp",
+      "image4": "/images/Frühstück/meal-prep-overnight-oats.webp",
+      "image5": "/images/Frühstück/beeren-bowl-fruhstuck.webp",
+      "image6": "/images/Frühstück/schnelles-fruhstuck-ideen.webp",
+      "image7": "/images/Frühstück/cremige-overnight-oats.webp"
+    }
+  },
+  {
+    "title": "Banana Bread",
+    "seo_title": "Veganes Banana Bread Rezept Einfach - Saftig & Ohne Ei",
+    "image": "/images/Frühstück/banana-bread.webp",
+    "prepTime": 15,
+    "cookingTime": 55,
+    "seo_keywords": [
+      "Veganes Banana Bread Rezept",
+      "Banana Bread vegan",
+      "Veganes Bananenbrot",
+      "Einfaches veganes Banana Bread",
+      "Bananenbrot ohne Ei",
+      "Vegan backen",
+      "Saftiges Bananenbrot"
+    ],
+    "rating": 4.8,
+    "reviews": 195,
+    "category": "Frühstück",
+    "slug": "banana-bread",
+    "tags": [
+      "Vegan",
+      "Backen",
+      "Bananen",
+      "Kuchen",
+      "Frühstück"
+    ],
+    "createdDate": new Date("2025-02-15T13:00:00Z"),
+    "updatedDate": new Date("2025-04-20T13:00:00Z"),
+    "servings": 10,
+    "description": "Dieses einfache vegane Banana Bread Rezept ist die perfekte Lösung für überreife Bananen! Es ist unglaublich saftig, kommt ganz ohne Ei aus.",
+    "descriptionOnImage": "Deine Bananen lieben dieses Brot!",
+    "introductionParagraph": "Kennt ihr das? Die Bananen sind schon etwas braun und keiner mag sie mehr essen? Perfekt, denn das sind die besten Bananen für ein richtig saftiges veganes Banana Bread!",
+    "additionalParagraph": "Dieses Rezept ist nicht nur unglaublich lecker und feucht, sondern auch so einfach, dass es wirklich jeder hinbekommt. Und der Duft beim Backen ist einfach himmlisch – so riecht vegan backen!",
+"ingredientsNeeded": [
+    {
+      "title": "Sehr reife Bananen",
+      "description": "Je reifer, desto süßer und weicher – das ist das Geheimnis für den intensiven Bananengeschmack und die saftige Textur im veganen Bananenbrot."
+    },
+    {
+      "title": "Pflanzenmilch & flüssiges Fett",
+      "description": "Statt tierischer Produkte sorgen Pflanzenmilch und geschmacksneutrales Öl oder geschmolzene vegane Butter für die nötige Feuchtigkeit und Zartheit."
+    },
+    {
+      "title": "Mehl",
+      "description": "Die Basis für jedes Brot und Gebäck. Weizenmehl Type 405 oder 550 funktioniert am besten für eine feine Krume."
+    },
+    {
+      "title": "Zucker & Vanillezucker",
+      "description": "Sie liefern nicht nur Süße, sondern helfen auch bei der Bräunung und tragen zur Textur des Brotes bei. Vanillezucker rundet das Aroma ab."
+    },
+    {
+      "title": "Backpulver & Natron",
+      "description": "Das unschlagbare Team für den perfekten Auftrieb beim Backen ohne Ei. Natron reagiert hier mit der Säure der Bananen und sorgt für extra Fluffigkeit."
+    },
+    {
+      "title": "Salz & Gewürze",
+      "description": "Eine Prise Salz hebt die Süße hervor, während Zimt und optional Muskatnuss das typisch warme Aroma von Banana Bread zaubern."
+    }
+  ],
+    "ingredientGroups": [
+      {
+        "title": "Feuchte Zutaten",
+        "description": "Die Basis für die Saftigkeit des Banana Breads.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": "Stück",
+            "name": "sehr reife Bananen"
+          },
+          {
+            "amount": 80,
+            "unit": "ml",
+            "name": "Pflanzenöl oder geschmolzene vegane Butter"
+          },
+          {
+            "amount": 100,
+            "unit": "g",
+            "name": "Zucker (braun oder weiß)"
+          },
+          {
+            "amount": 1,
+            "unit": "Pck",
+            "name": "Vanillezucker"
+          },
+          {
+            "amount": 60,
+            "unit": "ml",
+            "name": "Pflanzenmilch"
+          }
+        ]
+      },
+      {
+        "title": "Trockene Zutaten",
+        "description": "Was dem Teig Struktur und Auftrieb gibt.",
+        "ingredients": [
+          {
+            "amount": 250,
+            "unit": "g",
+            "name": "Weizenmehl (Type 405 oder 550)"
+          },
+          {
+            "amount": 1,
+            "unit": "TL",
+            "name": "Backpulver"
+          },
+          {
+            "amount": 0.5,
+            "unit": "TL",
+            "name": "Natron (Speisesoda)"
+          },
+          {
+            "amount": 0.5,
+            "unit": "TL",
+            "name": "Zimt"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Eine Prise Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: Eine Prise Muskatnuss"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "Stück",
+        "name": "sehr reife Bananen"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "name": "Pflanzenöl oder geschmolzene vegane Butter"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Zucker (braun oder weiß)"
+      },
+      {
+        "amount": 1,
+        "unit": "Pck",
+        "name": "Vanillezucker"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "name": "Pflanzenmilch"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Weizenmehl (Type 405 oder 550)"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "name": "Backpulver"
+      },
+      {
+        "amount": 0.5,
+        "unit": "TL",
+        "name": "Natron (Speisesoda)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "TL",
+        "name": "Zimt"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Eine Prise Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: Eine Prise Muskatnuss"
+      }
+    ],
+    "instructions": [
+      "Den Backofen auf 180°C Ober-/Unterhitze vorheizen. Eine Kastenform (ca. 25 cm) einfetten und mit Mehl bestäuben oder mit Backpapier auslegen.",
+      "Die sehr reifen Bananen in einer Schüssel mit einer Gabel zerdrücken, bis ein grobes Püree entsteht.",
+      "Pflanzenöl (oder geschmolzene vegane Butter), Zucker, Vanillezucker und Pflanzenmilch zu den zerdrückten Bananen geben und alles gut vermischen.",
+      "In einer separaten Schüssel Mehl, Backpulver, Natron, Zimt, Salz und optional Muskat vermischen.",
+      "Die trockenen Zutaten zu den feuchten Zutaten geben und nur kurz mit einem Teigschaber oder Löffel verrühren, bis keine trockenen Mehlstellen mehr zu sehen sind. Nicht übermischen!",
+      "Den Teig in die vorbereitete Kastenform füllen und glatt streichen.",
+      "Optional eine Banane halbieren und der Länge nach auf den Teig legen.",
+      "Im vorgeheizten Ofen ca. 50-60 Minuten backen. Mit einem Holzstäbchen prüfen, ob der Teig innen gar ist (es sollten keine feuchten Krümel kleben bleiben).",
+      "Das Banana Bread aus dem Ofen nehmen und ca. 10-15 Minuten in der Form abkühlen lassen, dann vorsichtig auf ein Kuchengitter stürzen und vollständig abkühlen lassen."
+    ],
+    "nutrition": {
+      "calories": 2440,
+      "protein": "35,5g",
+      "carbs": "400,5g",
+      "fat": "84,5g"
+    },
+    "tips": [
+      "Verwenden Sie wirklich überreife Bananen! Je mehr braune Punkte, desto besser der Geschmack und die Süße. Das ist entscheidend für ein saftiges veganes Banana Bread.",
+      "Übermischen Sie den Teig nicht, sonst wird das Brot zäh. Nur so lange rühren, bis alles gerade eben verbunden ist."
+    ],
+    "whyFavorite": {
+      "title": "Was dieses vegane Bananenbrot besonders macht",
+      "reasons": [
+        {
+          "title": "Unglaublich saftig & lecker",
+          "description": "Trotzdem es ohne Ei gebacken wird, ist dieses Banana Bread wunderbar feucht und aromatisch – die Bananen machen es möglich!"
+        },
+        {
+          "title": "Perfekt für Vegans und Nicht-Vegans",
+          "description": "Man schmeckt kaum einen Unterschied zu herkömmlichem Bananenbrot. Es ist ein Rezept, das jeder liebt und das super einfach nachzubacken ist."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, dieses saftige vegane Bananenbrot versüßt dir den Tag!",
+      "subText": "Viel Spaß beim Nachbacken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Feuchte Zutaten vorbereiten",
+        "description": "Das Zerdrücken der reifen Bananen und das Vermischen mit den flüssigen Komponenten legt den Grundstein für die spätere Saftigkeit des Brotes – ganz ohne Ei."
+      },
+      {
+        "title": "Trockenes mischen",
+        "description": "Das separate Vermischen der trockenen Zutaten, inklusive Backpulver und Natron, sorgt dafür, dass die Triebmittel gleichmäßig verteilt sind und das Brot gut aufgeht."
+      },
+      {
+        "title": "Alles zusammenbringen & backen",
+        "description": "Das behutsame Zusammenführen der feuchten und trockenen Komponenten und das anschließende Backen verwandeln die einfache Mischung in ein wunderbar duftendes und saftiges veganes Banana Bread."
+      }
+    ],
+    "servingSuggestion": "Genießen Sie das vegane Banana Bread pur, leicht warm oder getoastet.",
+    "servingSuggestions": {
+      "title": "Passt wunderbar dazu",
+      "description": "Ein Stück Banana Bread schmeckt pur schon toll, aber diese Kleinigkeiten machen es noch besser:",
+      "note": "Nicht zu viel auf einmal wegnaschen!",
+      "items": [
+        {
+          "emoji": "🥜",
+          "title": "Erdnussbutter oder Mandelmus",
+          "description": "Ein Klecks Nussmus auf einer Scheibe warmem Banana Bread ist unwiderstehlich lecker."
+        },
+        {
+          "emoji": "☕",
+          "title": "Eine Tasse Kaffee oder Tee",
+          "description": "Der perfekte Begleiter für eine gemütliche Kaffeepause oder ein schnelles Frühstück."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Lustiger Fakt über Bananen",
+      "description": "Botanisch gesehen sind Bananen Beeren! Und sie sind die einzigen Früchte, deren Schale sich von selbst öffnet, wenn sie wirklich reif sind."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/banana-bread-zutaten.webp",
+      "image1": "/images/Frühstück/banana-bread.webp",
+      "image2": "/images/Frühstück/banana-bread-vegan-saftig.webp",
+      "image3": "/images/Frühstück/veganes-bananenbrot-ohne-ei.webp",
+      "image4": "/images/Frühstück/einfaches-veganes-banana-bread-backen.webp",
+      "image5": "/images/Frühstück/saftiges-veganes-bananenbrot.webp",
+      "image6": "/images/Frühstück/bestes-veganes-banana-bread.webp",
+      "image7": "/images/Frühstück/banana-bread-rezept-vegan.webp"
     }
   }
 ];
