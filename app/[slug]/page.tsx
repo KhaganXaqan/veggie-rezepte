@@ -185,7 +185,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     "gemuese-polenta-auflauf",
     "spinat-kaese-lasagne",
     "beeren-smoothie-bowl",
-    "beeren-overnight-oats"
+    "beeren-overnight-oats",
+    "banana-bread"
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }

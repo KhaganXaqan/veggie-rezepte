@@ -9349,6 +9349,277 @@ instructions: [
       "image6": "/images/Frühstück/schnelles-fruhstuck-ideen.webp",
       "image7": "/images/Frühstück/cremige-overnight-oats.webp"
     }
+  },
+  {
+    "title": "Banana Bread",
+    "seo_title": "Veganes Banana Bread Rezept Einfach - Saftig & Ohne Ei",
+    "image": "/images/Frühstück/banana-bread.webp",
+    "prepTime": 15,
+    "cookingTime": 55,
+    "seo_keywords": [
+      "Veganes Banana Bread Rezept",
+      "Banana Bread vegan",
+      "Veganes Bananenbrot",
+      "Einfaches veganes Banana Bread",
+      "Bananenbrot ohne Ei",
+      "Vegan backen",
+      "Saftiges Bananenbrot"
+    ],
+    "rating": 4.8,
+    "reviews": 195,
+    "category": "Frühstück",
+    "slug": "banana-bread",
+    "tags": [
+      "Vegan",
+      "Backen",
+      "Bananen",
+      "Kuchen",
+      "Frühstück"
+    ],
+    "createdDate": new Date("2025-02-15T13:00:00Z"),
+    "updatedDate": new Date("2025-04-20T13:00:00Z"),
+    "servings": 10,
+    "description": "Dieses einfache vegane Banana Bread Rezept ist die perfekte Lösung für überreife Bananen! Es ist unglaublich saftig, kommt ganz ohne Ei aus.",
+    "descriptionOnImage": "Deine Bananen lieben dieses Brot!",
+    "introductionParagraph": "Kennt ihr das? Die Bananen sind schon etwas braun und keiner mag sie mehr essen? Perfekt, denn das sind die besten Bananen für ein richtig saftiges veganes Banana Bread!",
+    "additionalParagraph": "Dieses Rezept ist nicht nur unglaublich lecker und feucht, sondern auch so einfach, dass es wirklich jeder hinbekommt. Und der Duft beim Backen ist einfach himmlisch – so riecht vegan backen!",
+"ingredientsNeeded": [
+    {
+      "title": "Sehr reife Bananen",
+      "description": "Je reifer, desto süßer und weicher – das ist das Geheimnis für den intensiven Bananengeschmack und die saftige Textur im veganen Bananenbrot."
+    },
+    {
+      "title": "Pflanzenmilch & flüssiges Fett",
+      "description": "Statt tierischer Produkte sorgen Pflanzenmilch und geschmacksneutrales Öl oder geschmolzene vegane Butter für die nötige Feuchtigkeit und Zartheit."
+    },
+    {
+      "title": "Mehl",
+      "description": "Die Basis für jedes Brot und Gebäck. Weizenmehl Type 405 oder 550 funktioniert am besten für eine feine Krume."
+    },
+    {
+      "title": "Zucker & Vanillezucker",
+      "description": "Sie liefern nicht nur Süße, sondern helfen auch bei der Bräunung und tragen zur Textur des Brotes bei. Vanillezucker rundet das Aroma ab."
+    },
+    {
+      "title": "Backpulver & Natron",
+      "description": "Das unschlagbare Team für den perfekten Auftrieb beim Backen ohne Ei. Natron reagiert hier mit der Säure der Bananen und sorgt für extra Fluffigkeit."
+    },
+    {
+      "title": "Salz & Gewürze",
+      "description": "Eine Prise Salz hebt die Süße hervor, während Zimt und optional Muskatnuss das typisch warme Aroma von Banana Bread zaubern."
+    }
+  ],
+    "ingredientGroups": [
+      {
+        "title": "Feuchte Zutaten",
+        "description": "Die Basis für die Saftigkeit des Banana Breads.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": "Stück",
+            "name": "sehr reife Bananen"
+          },
+          {
+            "amount": 80,
+            "unit": "ml",
+            "name": "Pflanzenöl oder geschmolzene vegane Butter"
+          },
+          {
+            "amount": 100,
+            "unit": "g",
+            "name": "Zucker (braun oder weiß)"
+          },
+          {
+            "amount": 1,
+            "unit": "Pck",
+            "name": "Vanillezucker"
+          },
+          {
+            "amount": 60,
+            "unit": "ml",
+            "name": "Pflanzenmilch"
+          }
+        ]
+      },
+      {
+        "title": "Trockene Zutaten",
+        "description": "Was dem Teig Struktur und Auftrieb gibt.",
+        "ingredients": [
+          {
+            "amount": 250,
+            "unit": "g",
+            "name": "Weizenmehl (Type 405 oder 550)"
+          },
+          {
+            "amount": 1,
+            "unit": "TL",
+            "name": "Backpulver"
+          },
+          {
+            "amount": 0.5,
+            "unit": "TL",
+            "name": "Natron (Speisesoda)"
+          },
+          {
+            "amount": 0.5,
+            "unit": "TL",
+            "name": "Zimt"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Eine Prise Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: Eine Prise Muskatnuss"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "Stück",
+        "name": "sehr reife Bananen"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "name": "Pflanzenöl oder geschmolzene vegane Butter"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Zucker (braun oder weiß)"
+      },
+      {
+        "amount": 1,
+        "unit": "Pck",
+        "name": "Vanillezucker"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "name": "Pflanzenmilch"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Weizenmehl (Type 405 oder 550)"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "name": "Backpulver"
+      },
+      {
+        "amount": 0.5,
+        "unit": "TL",
+        "name": "Natron (Speisesoda)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "TL",
+        "name": "Zimt"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Eine Prise Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: Eine Prise Muskatnuss"
+      }
+    ],
+    "instructions": [
+      "Den Backofen auf 180°C Ober-/Unterhitze vorheizen. Eine Kastenform (ca. 25 cm) einfetten und mit Mehl bestäuben oder mit Backpapier auslegen.",
+      "Die sehr reifen Bananen in einer Schüssel mit einer Gabel zerdrücken, bis ein grobes Püree entsteht.",
+      "Pflanzenöl (oder geschmolzene vegane Butter), Zucker, Vanillezucker und Pflanzenmilch zu den zerdrückten Bananen geben und alles gut vermischen.",
+      "In einer separaten Schüssel Mehl, Backpulver, Natron, Zimt, Salz und optional Muskat vermischen.",
+      "Die trockenen Zutaten zu den feuchten Zutaten geben und nur kurz mit einem Teigschaber oder Löffel verrühren, bis keine trockenen Mehlstellen mehr zu sehen sind. Nicht übermischen!",
+      "Den Teig in die vorbereitete Kastenform füllen und glatt streichen.",
+      "Optional eine Banane halbieren und der Länge nach auf den Teig legen.",
+      "Im vorgeheizten Ofen ca. 50-60 Minuten backen. Mit einem Holzstäbchen prüfen, ob der Teig innen gar ist (es sollten keine feuchten Krümel kleben bleiben).",
+      "Das Banana Bread aus dem Ofen nehmen und ca. 10-15 Minuten in der Form abkühlen lassen, dann vorsichtig auf ein Kuchengitter stürzen und vollständig abkühlen lassen."
+    ],
+    "nutrition": {
+      "calories": 2440,
+      "protein": "35,5g",
+      "carbs": "400,5g",
+      "fat": "84,5g"
+    },
+    "tips": [
+      "Verwenden Sie wirklich überreife Bananen! Je mehr braune Punkte, desto besser der Geschmack und die Süße. Das ist entscheidend für ein saftiges veganes Banana Bread.",
+      "Übermischen Sie den Teig nicht, sonst wird das Brot zäh. Nur so lange rühren, bis alles gerade eben verbunden ist."
+    ],
+    "whyFavorite": {
+      "title": "Was dieses vegane Bananenbrot besonders macht",
+      "reasons": [
+        {
+          "title": "Unglaublich saftig & lecker",
+          "description": "Trotzdem es ohne Ei gebacken wird, ist dieses Banana Bread wunderbar feucht und aromatisch – die Bananen machen es möglich!"
+        },
+        {
+          "title": "Perfekt für Vegans und Nicht-Vegans",
+          "description": "Man schmeckt kaum einen Unterschied zu herkömmlichem Bananenbrot. Es ist ein Rezept, das jeder liebt und das super einfach nachzubacken ist."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, dieses saftige vegane Bananenbrot versüßt dir den Tag!",
+      "subText": "Viel Spaß beim Nachbacken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Feuchte Zutaten vorbereiten",
+        "description": "Das Zerdrücken der reifen Bananen und das Vermischen mit den flüssigen Komponenten legt den Grundstein für die spätere Saftigkeit des Brotes – ganz ohne Ei."
+      },
+      {
+        "title": "Trockenes mischen",
+        "description": "Das separate Vermischen der trockenen Zutaten, inklusive Backpulver und Natron, sorgt dafür, dass die Triebmittel gleichmäßig verteilt sind und das Brot gut aufgeht."
+      },
+      {
+        "title": "Alles zusammenbringen & backen",
+        "description": "Das behutsame Zusammenführen der feuchten und trockenen Komponenten und das anschließende Backen verwandeln die einfache Mischung in ein wunderbar duftendes und saftiges veganes Banana Bread."
+      }
+    ],
+    "servingSuggestion": "Genießen Sie das vegane Banana Bread pur, leicht warm oder getoastet.",
+    "servingSuggestions": {
+      "title": "Passt wunderbar dazu",
+      "description": "Ein Stück Banana Bread schmeckt pur schon toll, aber diese Kleinigkeiten machen es noch besser:",
+      "note": "Nicht zu viel auf einmal wegnaschen!",
+      "items": [
+        {
+          "emoji": "🥜",
+          "title": "Erdnussbutter oder Mandelmus",
+          "description": "Ein Klecks Nussmus auf einer Scheibe warmem Banana Bread ist unwiderstehlich lecker."
+        },
+        {
+          "emoji": "☕",
+          "title": "Eine Tasse Kaffee oder Tee",
+          "description": "Der perfekte Begleiter für eine gemütliche Kaffeepause oder ein schnelles Frühstück."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Lustiger Fakt über Bananen",
+      "description": "Botanisch gesehen sind Bananen Beeren! Und sie sind die einzigen Früchte, deren Schale sich von selbst öffnet, wenn sie wirklich reif sind."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/banana-bread-zutaten.webp",
+      "image1": "/images/Frühstück/banana-bread.webp",
+      "image2": "/images/Frühstück/banana-bread-vegan-saftig.webp",
+      "image3": "/images/Frühstück/veganes-bananenbrot-ohne-ei.webp",
+      "image4": "/images/Frühstück/einfaches-veganes-banana-bread-backen.webp",
+      "image5": "/images/Frühstück/saftiges-veganes-bananenbrot.webp",
+      "image6": "/images/Frühstück/bestes-veganes-banana-bread.webp",
+      "image7": "/images/Frühstück/banana-bread-rezept-vegan.webp"
+    }
   }
 ];
 
