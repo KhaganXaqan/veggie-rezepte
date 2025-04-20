@@ -187,101 +187,6 @@ instructions: [
   }
   },
   {
-    title: "Gemüse-Polenta-Auflauf",
-    image: "/images/MainCourses/gemuese-polenta-auflauf.webp",
-    prepTime: 55,
-    cookingTime: 20,
-    rating: 4.6,
-    seo_keywords: [],
-    category: "Aufläufe",
-    slug: "gemuese-polenta-auflauf",
-    tags: ["Auflauf", "Italienisch", "Polenta"],
-    servings: 6,
-    description: "Ein leckerer Auflauf aus Gemüse und Polenta.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Gemüse" },
-      { amount: 200, unit: "g", name: "Polenta" },
-      { amount: 200, unit: "g", name: "Käse" },
-      { amount: 2, name: "Eier" },
-      { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem Topf die Milch zum Kochen bringen und die Polenta langsam unter Rühren hinzufügen. Etwa 10 Minuten köcheln lassen, bis die Polenta dick ist.",
-      "Den Käse reiben und die Eier verquirlen. Beides unter die Polenta heben und mit Salz und Pfeffer abschmecken.",
-      "Das Gemüse in einer Pfanne mit etwas Öl etwa 5 Minuten anbraten. Eine Auflaufform mit Butter einfetten.",
-      "Schichtweise die Polenta und das Gemüse in die Form geben. Mit einer Schicht Polenta abschließen.",
-      "Den Auflauf im vorgeheizten Backofen bei 180°C etwa 30 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 300,
-      protein: "10g",
-      carbs: "20g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
     title: "Overnight Oats mit Beeren",
     image: "/images/Frühstück/overnight-oats-beeren.webp",
     prepTime: 60,
@@ -8646,6 +8551,297 @@ instructions: [
       "image5": "/images/Miscellaneous/zucchini-auflauf-sommer.webp",
       "image6": "/images/Miscellaneous/reisauflauf-vegetarisch.webp",
       "image7": "/images/Miscellaneous/zucchini-tomaten-reis-auflauf.webp"
+    }
+  },
+  {
+    "title": "Gemüse Polenta Auflauf",
+    "seo_title": "Vegetarischer Gemüse Polenta Auflauf - Einfaches Rezept",
+    "image": "/images/Miscellaneous/gemuese-polenta-auflauf.webp",
+    "prepTime": 20,
+    "cookingTime": 40,
+    "seo_keywords": [
+      "gemüse polenta auflauf",
+      "gemüse polenta",
+      "gemüse polenta rezept",
+      "rezept gemüse polenta",
+      "gemüse polenta gratin",
+      "vegetarischer auflauf",
+      "polenta auflauf"
+    ],
+    "rating": 4.5,
+    "reviews": 73,
+    "category": "Miscellaneous",
+    "slug": "gemuese-polenta-auflauf",
+    "tags": [
+      "Gemüse",
+      "Polenta",
+      "Auflauf",
+      "Vegetarisch",
+      "Einfach"
+    ],
+    "createdDate": new Date("2025-02-17T15:00:00Z"),
+    "updatedDate": new Date("2025-04-20T15:00:00Z"),
+    "servings": 4,
+    "description": "Entdecken Sie mein einfaches Gemüse Polenta Auflauf Rezept! Dieser vegetarische Auflauf mit cremigem Polenta",
+    "descriptionOnImage": "Cremig & voller Geschmack!",
+    "introductionParagraph": "Manchmal brauche ich ein Gericht, das mich von innen wärmt und einfach nur glücklich macht. Dieser Gemüse Polenta Auflauf gehört definitiv dazu!",
+    "additionalParagraph": "Die cremige Polenta, das bunte Gemüse und die goldene Käsekruste machen diesen Auflauf zu einem echten Familienhit. Ein einfaches Gemüse Polenta Rezept, das immer gelingt.",
+    "ingredientsNeeded": [
+      {
+        "title": "Polenta (Maisgrieß)",
+        "description": "Feiner Maisgrieß, der aufgekocht zu einer cremigen Basis wird. Ideal für herzhafte Aufläufe und eine tolle glutenfreie Option."
+      },
+      {
+        "title": "Buntes Gemüse",
+        "description": "Zucchini, Paprika, Tomaten – was immer Saison hat und schmeckt! Das Gemüse bringt Vitamine, Farbe und Frische in den Polenta Gratin."
+      },
+      {
+        "title": "Flüssigkeit (Brühe/Milch)",
+        "description": "Die Basis für die Polenta. Gemüsebrühe gibt extra Geschmack, Milch macht die Polenta cremiger."
+      },
+      {
+        "title": "Käse",
+        "description": "Ein guter Schmelzkäse wie Gouda oder Emmentaler sorgt für die unwiderstehliche goldbraune Kruste und rundet den Geschmack ab."
+      },
+      {
+        "title": "Zwiebel & Knoblauch",
+        "description": "Sie bilden das aromatische Fundament für das Gemüse im Auflauf und sorgen für eine herzhafte Note."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Polenta",
+        "description": "Die cremige Basis, die den Auflauf so besonders macht.",
+        "ingredients": [
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "Polenta (Maisgrieß)"
+          },
+          {
+            "amount": 600,
+            "unit": "ml",
+            "name": "Gemüsebrühe oder Milch"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: 1 EL Butter"
+          }
+        ]
+      },
+      {
+        "title": "Für das Gemüse und den Auflauf",
+        "description": "Frische Zutaten und alles, was wir zum Überbacken brauchen.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "Zwiebel"
+          },
+          {
+            "amount": 1,
+            "unit": "Zehe",
+            "name": "Knoblauch"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "Zucchini"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "rote Paprika"
+          },
+          {
+            "amount": 2,
+            "unit": "Stück",
+            "name": "Tomaten"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Olivenöl zum Anbraten"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Getrocknete Kräuter (z.B. Oregano, Basilikum)"
+          },
+          {
+            "amount": 100,
+            "unit": "g",
+            "name": "geriebener Käse"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "Polenta (Maisgrieß)"
+      },
+      {
+        "amount": 600,
+        "unit": "ml",
+        "name": "Gemüsebrühe oder Milch"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "Zwiebel"
+      },
+      {
+        "amount": 1,
+        "unit": "Zehe",
+        "name": "Knoblauch"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "Zucchini"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "rote Paprika"
+      },
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "name": "Tomaten"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "geriebener Käse"
+      },      
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Olivenöl zum Anbraten"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Getrocknete Kräuter (z.B. Oregano, Basilikum)"
+      },      
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: 1 EL Butter"
+      },
+      
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+    ],
+    "instructions": [
+      "Für die Polenta die Gemüsebrühe (oder Milch) in einem Topf zum Kochen bringen. Salzen.",
+      "Polenta unter ständigem Rühren mit einem Schneebesen langsam einrieseln lassen, um Klümpchen zu vermeiden.",
+      "Bei geringer Hitze nach Packungsanweisung quellen lassen (meist 5-10 Minuten für Instant-Polenta), dabei immer wieder umrühren. Optional Butter einrühren und mit Salz/Pfeffer abschmecken.",
+      "Währenddessen Zwiebel und Knoblauch fein würfeln. Zucchini und Paprika in mundgerechte Stücke schneiden, Tomaten grob würfeln.",
+      "In einer Pfanne Olivenöl erhitzen, Zwiebel und Knoblauch darin andünsten.",
+      "Paprika und Zucchini hinzufügen und ca. 5 Minuten mitbraten. Mit Salz, Pfeffer und Kräutern würzen.",
+      "Tomaten kurz mit erwärmen.",
+      "Den Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+      "Die fertige Polenta in eine Auflaufform geben und glatt streichen.",
+      "Das gebratene Gemüse gleichmäßig auf der Polenta verteilen.",
+      "Mit geriebenem Käse bestreuen.",
+      "Den Gemüse Polenta Auflauf im vorgeheizten Ofen ca. 15-20 Minuten backen, bis der Käse goldbraun und geschmolzen ist."
+    ],
+    "nutrition": {
+      "calories": 1520,
+      "protein": "43,5g",
+      "carbs": "153g",
+      "fat": "47,6g"
+    },
+    "tips": [
+      "Geben Sie für extra Würze etwas geräuchertes Paprikapulver oder eine Prise Chiliflocken zum Gemüse, bevor Sie es in die Form geben.",
+      "Sie können auch anderes Gemüse verwenden, z.B. Brokkoliröschen, Karottenwürfel oder Spinat. Passen Sie die Garzeit entsprechend an."
+    ],
+    "whyFavorite": {
+      "title": "Darum lieben wir diesen Gemüse Polenta Auflauf",
+      "reasons": [
+        {
+          "title": "Blitzschnell vorbereitet",
+          "description": "Wenn es mal schnell gehen muss, ist dieses Rezept perfekt. Während die Polenta kocht, schnippeln und braten Sie das Gemüse – ruckzuck fertig!"
+        },
+        {
+          "title": "Wandelbar & saisonal",
+          "description": "Verwenden Sie einfach das Gemüse, das gerade frisch und knackig ist. So schmeckt der Auflauf immer wieder anders und nutzt saisonale Vielfalt."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich wünsche dir ganz viel Freude und Genuss mit diesem köstlichen Gemüse Polenta Auflauf!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Die Polenta zubereiten",
+        "description": "Das A und O ist eine cremige Polenta ohne Klümpchen. Langsames Einrühren und ständiges Rühren beim Kochen sind entscheidend für die perfekte Basis des Auflaufs."
+      },
+      {
+        "title": "Gemüse anbraten",
+        "description": "Das kurze Anbraten des Gemüses bringt die Aromen hervor und sorgt dafür, dass es im Auflauf nicht zu wässrig wird. Hier können Sie kreativ werden mit Ihren Lieblingssorten."
+      },
+      {
+        "title": "Schichten und backen",
+        "description": "Polenta und Gemüse werden in der Auflaufform vereint und unter einer Käseschicht goldbraun gebacken. Die Hitze verbindet alle Aromen zu einem harmonischen Ganzen."
+      }
+    ],
+    "servingSuggestion": "Dieser herzhafte Gemüse Polenta Auflauf ist ein sättigendes und köstliches vegetarisches Hauptgericht.",
+    "servingSuggestions": {
+      "title": "Passende Begleiter",
+      "description": "Der Auflauf ist bereits eine vollwertige Mahlzeit, kann aber wunderbar ergänzt werden:",
+      "note": "Manchmal braucht es nur wenig Drumherum!",
+      "items": [
+        {
+          "emoji": "🥗",
+          "title": "Grüner Salat",
+          "description": "Ein einfacher Blattsalat mit Vinaigrette sorgt für Frische und Leichtigkeit neben dem cremigen Auflauf."
+        },
+        {
+          "emoji": "🌿",
+          "title": "Frisches Basilikum",
+          "description": "Ein paar frische Basilikumblätter vor dem Servieren sorgen für ein mediterranes Aroma-Highlight."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wissenswertes über Polenta",
+      "description": "Polenta war lange Zeit ein Grundnahrungsmittel in Norditalien und ist extrem vielseitig – von cremig als Brei bis fest gebacken oder gegrillt."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/gemuese-polenta-auflauf-zutaten.webp",
+      "image1": "/images/Miscellaneous/gemuese-polenta-auflauf-rezept-vegetarisch.webp",
+      "image2": "/images/Miscellaneous/einfacher-gemuese-polenta.webp",
+      "image3": "/images/Miscellaneous/vegetarischer-polenta-auflauf-gemuese.webp",
+      "image4": "/images/Miscellaneous/schneller-gemuese-polenta-gratin.webp",
+      "image5": "/images/Miscellaneous/polenta-auflauf-mit-buntem-gemuese.webp",
+      "image6": "/images/Miscellaneous/gemuese-polenta-rezepte.webp",
+      "image7": "/images/Miscellaneous/herzhafter-polenta-gemuese-auflauf.webp"
     }
   }
 ];

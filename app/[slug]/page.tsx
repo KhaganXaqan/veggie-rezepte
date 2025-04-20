@@ -181,7 +181,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
     "knusper-granola-nuesse-rezept",
     "kartoffelgratin",
     "blumenkohl-kaese-auflauf",
-    "zucchini-reis-auflauf"
+    "zucchini-reis-auflauf",
+    "gemuese-polenta-auflauf"  
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
