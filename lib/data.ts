@@ -187,385 +187,6 @@ instructions: [
   }
   },
   {
-    title: "Kartoffelgratin",
-    image: "/images/MainCourses/kartoffelgratin.webp",
-    prepTime: 60,
-    cookingTime: 20,
-    rating: 4.9,
-    seo_keywords: [],
-    category: "Aufläufe",
-    slug: "kartoffelgratin",
-    tags: ["Traditionell", "Auflauf", "Kartoffeln"],
-    servings: 6,
-    description: "Ein klassisches Kartoffelaufläuf aus der Region Schwaben.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Kartoffeln" },
-      { amount: 200, unit: "g", name: "Butter" },
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: 100, unit: "g", name: "Käse" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Kartoffeln schälen und in dünne Scheiben schneiden. Den Backofen auf 180°C vorheizen.",
-      "In einem Topf die Butter schmelzen. Das Mehl unterrühren und kurz anschwitzen. Nach und nach die Milch hinzufügen und unter ständigem Rühren eine glatte Sauce kochen. Mit Salz und Pfeffer abschmecken.",
-      "Eine Auflaufform mit etwas Butter einfetten. Schichtweise die Kartoffelscheiben und die Sauce in die Form geben. Mit einer Schicht Sauce abschließen.",
-      "Den Käse reiben und gleichmäßig über das Gratin streuen. Im vorgeheizten Backofen etwa 45 Minuten backen, bis die Oberfläche goldbraun und die Kartoffeln weich sind.",
-      "Das Gratin vor dem Servieren kurz abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 400,
-      protein: "15g",
-      carbs: "30g",
-      fat: "20g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
-    title: "Blumenkohl-Käse-Auflauf",
-    image: "/images/MainCourses/blumenkohl-kaese-auflauf.webp",
-    seo_keywords: [],
-    prepTime: 45,
-cookingTime: 20,
-rating: 4.7,
-    category: "Aufläufe",
-    slug: "blumenkohl-kaese-auflauf",
-    tags: ["Auflauf", "Gemüse", "Käse"],
-    servings: 6,
-    description: "Ein leckerer Auflauf aus Blumenkohl und Käse.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Blumenkohl" },
-      { amount: 200, unit: "g", name: "Käse" },
-      { amount: 2, name: "Eier" },
-      { amount: 200, unit: "g", name: "Mehl" },
-      { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Den Blumenkohl waschen und in kleine Röschen schneiden. In Salzwasser etwa 5 Minuten blanchieren, abgießen und abkühlen lassen.",
-      "Den Backofen auf 180°C vorheizen. Eine Auflaufform mit Butter einfetten.",
-      "Das Mehl, die Eier, die Milch, Salz und Pfeffer in einer Schüssel verrühren, bis ein glatter Teig entsteht. Den Käse reiben und unter den Teig heben.",
-      "Den Blumenkohl gleichmäßig in der Auflaufform verteilen. Den Teig darüber gießen.",
-      "Den Auflauf im Ofen etwa 35–40 Minuten backen, bis er goldbraun ist und der Teig fest ist. Vor dem Servieren etwas abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 300,
-      protein: "10g",
-      carbs: "20g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
-    title: "Gemüse-Polenta-Auflauf",
-    image: "/images/MainCourses/gemuese-polenta-auflauf.webp",
-    prepTime: 55,
-    cookingTime: 20,
-    rating: 4.6,
-    seo_keywords: [],
-    category: "Aufläufe",
-    slug: "gemuese-polenta-auflauf",
-    tags: ["Auflauf", "Italienisch", "Polenta"],
-    servings: 6,
-    description: "Ein leckerer Auflauf aus Gemüse und Polenta.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Gemüse" },
-      { amount: 200, unit: "g", name: "Polenta" },
-      { amount: 200, unit: "g", name: "Käse" },
-      { amount: 2, name: "Eier" },
-      { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Das Gemüse waschen und in gleichmäßige Stücke schneiden. In einem Topf die Milch zum Kochen bringen und die Polenta langsam unter Rühren hinzufügen. Etwa 10 Minuten köcheln lassen, bis die Polenta dick ist.",
-      "Den Käse reiben und die Eier verquirlen. Beides unter die Polenta heben und mit Salz und Pfeffer abschmecken.",
-      "Das Gemüse in einer Pfanne mit etwas Öl etwa 5 Minuten anbraten. Eine Auflaufform mit Butter einfetten.",
-      "Schichtweise die Polenta und das Gemüse in die Form geben. Mit einer Schicht Polenta abschließen.",
-      "Den Auflauf im vorgeheizten Backofen bei 180°C etwa 30 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 300,
-      protein: "10g",
-      carbs: "20g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
-    title: "Zucchini-Reis-Auflauf",
-    image: "/images/MainCourses/zucchini-reis-auflauf.webp",
-    prepTime: 50,
-cookingTime: 20,
-seo_keywords: [],
-rating: 4.5,
-    category: "Aufläufe",
-    slug: "zucchini-reis-auflauf",
-    tags: ["Auflauf", "Gemüse", "Reis"],
-    servings: 6,
-    description: "Ein leckerer Auflauf aus Zucchini und Reis.",
-    ingredients: [
-      { amount: 1, unit: "kg", name: "Zucchini" },
-      { amount: 200, unit: "g", name: "Reis" },
-      { amount: 200, unit: "g", name: "Käse" },
-      { amount: 2, name: "Eier" },
-      { amount: 1, unit: "Liter", name: "Milch" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Pfeffer" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Zucchini waschen und in dünne Scheiben schneiden. Den Reis nach Packungsanleitung in Salzwasser kochen, abgießen und abkühlen lassen.",
-      "Den Käse reiben und die Eier verquirlen. Beides mit der Milch, Salz und Pfeffer in einer Schüssel vermengen.",
-      "Eine Auflaufform mit Butter einfetten. Schichtweise die Zucchini und den Reis in die Form geben. Die Milch-Eier-Mischung darüber gießen.",
-      "Den Auflauf im vorgeheizten Backofen bei 180°C etwa 35–40 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren etwas abkühlen lassen."
-    ],
-    nutrition: {
-      calories: 300,
-      protein: "10g",
-      carbs: "20g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
     title: "Overnight Oats mit Beeren",
     image: "/images/Frühstück/overnight-oats-beeren.webp",
     prepTime: 60,
@@ -8185,6 +7806,1042 @@ instructions: [
       "image5": "/images/Frühstück/granola-nuesse-mit-joghurt-beeren.webp",
       "image6": "/images/Frühstück/gesundes-granola-rezept-glas.webp",
       "image7": "/images/Frühstück/knusper-granola-nahaufnahme.webp"
+    }
+  },
+  {   
+    "title": "kartoffelgratin",
+    "seo_title": "kartoffelgratin",
+    "image": "/images/Miscellaneous/kartoffelgratin.webp",
+    "prepTime": 25,
+    "cookingTime": 60,
+    "seo_keywords": [
+      "Kartoffelgratin Rezept",
+      "Sahne Gratin",
+      "Cremiges Kartoffelgratin",
+      "Einfaches Gratin",
+      "Kartoffelauflauf",
+      "Gratin Beilage",
+      "Käse Kartoffelgratin"
+    ],
+    "rating": 4.8,
+    "reviews": 187,
+    "category": "Aufläufe",
+    "slug": "kartoffelgratin",
+    "tags": ["Traditionell", "Auflauf", "Kartoffeln"],
+    "createdDate": new Date("2025-02-10T10:00:00Z"),
+    "updatedDate": new Date("2025-04-15T12:00:00Z"),
+    "servings": 7,
+    "description": "Entdecken Sie mein einfaches Rezept für das cremigste Kartoffelgratin! Perfekt als Hauptspeise oder leckere Beilage.",
+    "descriptionOnImage": "Einfach himmlisch cremig!",
+    "introductionParagraph": "Es gibt einfach Gerichte, die ein Zuhause auf dem Teller sind, und für mich gehört ein richtig gutes Kartoffelgratin unbedingt dazu.",
+    "additionalParagraph": "Mit goldbrauner Käsekruste und herrlich zarten Kartoffelscheiben ist dieses cremige Sahne Gratin ein absoluter Familienfavorit.",
+    "ingredientsNeeded": [
+      {
+        "title": "Kartoffeln",
+        "description": "Wir brauchen festkochende Kartoffeln, da sie ihre Form beim Backen behalten und nicht zerfallen, was für die perfekte Textur im Gratin unerlässlich ist."
+      },
+      {
+        "title": "Sahne & Milch",
+        "description": "Die Kombination aus Sahne und Milch bildet die flüssige Basis, die das Gratin so wunderbar cremig macht und die Aromen bindet."
+      },
+      {
+        "title": "Knoblauch",
+        "description": "Ein Hauch frischer Knoblauch gibt der Sahnesauce eine subtile Tiefe und das gewisse Etwas, ohne zu dominant zu sein."
+      },
+      {
+        "title": "Käse",
+        "description": "Ein guter, würziger Hartkäse wie Gruyère oder Emmentaler sorgt für die goldbraune, leicht knusprige Kruste und eine zusätzliche Geschmacksebene."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Frisch geriebene Muskatnuss, Salz und Pfeffer sind klassische Gratin-Begleiter und heben den natürlichen Geschmack der Kartoffeln hervor."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für das Gratin",
+        "description": "Die Hauptzutaten für unser cremiges Kartoffelvergnügen.",
+        "ingredients": [
+          {
+            "amount": 1.2,
+            "unit": "kg",
+            "name": "festkochende Kartoffeln"
+          },
+          {
+            "amount": 500,
+            "unit": "ml",
+            "name": "Sahne (mind. 30% Fett)"
+          },
+          {
+            "amount": 200,
+            "unit": "ml",
+            "name": "Milch"
+          },
+          {
+            "amount": 2,
+            "unit": "Zehen",
+            "name": "Knoblauch"
+          },
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "geriebener Käse (z.B. Gruyère oder Emmentaler)"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch geriebene Muskatnuss"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Butter zum Einfetten der Form"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 1.2,
+        "unit": "kg",
+        "name": "festkochende Kartoffeln"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "name": "Sahne (mind. 30% Fett)"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "name": "Milch"
+      },
+      {
+        "amount": 2,
+        "unit": "Zehen",
+        "name": "Knoblauch"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "geriebener Käse (z.B. Gruyère oder Emmentaler)"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch geriebene Muskatnuss"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Butter zum Einfetten der Form"
+      }
+    ],
+    "instructions": [
+      "Den Backofen auf 180°C Ober-/Unterhitze vorheizen und eine passende Auflaufform großzügig mit Butter einfetten.",
+      "Die Kartoffeln schälen und in sehr dünne Scheiben hobeln oder schneiden (ca. 1-2 mm dick).",
+      "Knoblauchzehen fein reiben oder pressen.",
+      "In einem Topf Sahne und Milch erhitzen, Knoblauch, Salz, Pfeffer und frisch geriebene Muskatnuss hinzufügen. Kurz aufkochen lassen und vom Herd nehmen.",
+      "Die dünnen Kartoffelscheiben schichtweise in die vorbereitete Auflaufform legen.",
+      "Die warme Sahne-Milch-Mischung vorsichtig über die Kartoffelschichten gießen, sodass alle Kartoffeln bedeckt sind.",
+      "Den geriebenen Käse gleichmäßig über die oberste Kartoffelschicht streuen.",
+      "Die Auflaufform auf mittlerer Schiene für ca. 60-75 Minuten backen, bis das Gratin goldbraun und die Kartoffeln gar und weich sind. Mit einem Messer testen.",
+      "Das Gratin vor dem Servieren ca. 5-10 Minuten ruhen lassen."
+    ],
+    "nutrition": {
+      "calories": 3150,
+      "protein": "85g",
+      "carbs": "244g",
+      "fat": "206g"
+    },
+    "tips": [
+      "Für eine extra feine Note können Sie einen Zweig frischen Thymian oder Rosmarin zur Sahne-Milch-Mischung geben und vor dem Übergießen wieder entfernen.",
+      "Wenn Sie es würziger mögen, mischen Sie etwas geriebenen würzigen Bergkäse unter den Emmentaler oder Gruyère."
+    ],
+    "whyFavorite": {
+      "title": "Darum liebe ich dieses Kartoffelgratin",
+      "reasons": [
+        {
+          "title": "Unwiderstehlich cremig",
+          "description": "Die perfekte Balance aus Sahne und Milch sorgt für eine samtige Textur, die einfach auf der Zunge zergeht – ganz ohne Mehl als Bindemittel!"
+        },
+        {
+          "title": "Perfekte Kruste",
+          "description": "Die goldbraune Käseschicht wird herrlich knusprig und bildet einen tollen Kontrast zu den weichen Kartoffeln darunter. Das ist das Highlight für viele!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, du liebst dieses Kartoffelgratin genauso sehr wie ich!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Vorbereiten der Kartoffeln",
+        "description": "Dünne, gleichmäßige Scheiben sind das A und O für ein gleichmäßig gegartes Gratin. Das Schälen und Hobeln erfordert etwas Geduld, zahlt sich aber aus."
+      },
+      {
+        "title": "Würzen der Sahnebasis",
+        "description": "Durch das leichte Erwärmen der Sahne-Milch mit Knoblauch und Gewürzen können sich die Aromen wunderbar entfalten und die Kartoffeln beim Garen durchziehen."
+      },
+      {
+        "title": "Schichten und Backen",
+        "description": "Das sorgfältige Schichten der Kartoffeln und das langsame Backen bei moderater Temperatur ermöglichen es den Kartoffeln, die Flüssigkeit aufzunehmen und zart zu werden, während der Käse gratiniert."
+      }
+    ],
+    "servingSuggestion": "Dieses cremige Kartoffelgratin schmeckt hervorragend als Beilage zu Braten, Gegrilltem oder einfach pur.",
+    "servingSuggestions": {
+      "title": "Passende Begleiter für Ihr Gratin",
+      "description": "Ein klassisches Kartoffelgratin ist unglaublich vielseitig. Hier sind ein paar Ideen, womit es besonders gut harmoniert:",
+      "note": "Auch solo ein Genuss!",
+      "items": [
+        {
+          "emoji": "🥗",
+          "title": "Frischer Blattsalat",
+          "description": "Ein leichter, zitroniger Salat sorgt für eine erfrischende Komponente neben dem reichhaltigen Gratin."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Schon gewusst?",
+      "description": "Kartoffelgratin, auch bekannt als 'Gratin Dauphinois', stammt ursprünglich aus der französischen Region Dauphiné und wurde angeblich erstmals 1788 serviert."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/kartoffelgratin-zutaten.webp",
+      "image1": "/images/Miscellaneous/cremiges-kartoffelgratin-rezept.webp",
+      "image2": "/images/Miscellaneous/einfaches-sahne-gratin.webp",
+      "image3": "/images/Miscellaneous/kartoffelauflauf-klassisch.webp",
+      "image4": "/images/Miscellaneous/gratin-dauphinois-deutsch.webp",
+      "image5": "/images/Miscellaneous/kartoffelgratin-ofen.webp",
+      "image6": "/images/Miscellaneous/selbstgemachtes-kartoffelgratin.webp",
+      "image7": "/images/Miscellaneous/kartoffelgratin-mit-kaese.webp"
+    }
+  },
+  {
+    "title": "Blumenkohl Käse Auflauf",
+    "seo_title": "Blumenkohl Käse Auflauf",
+    "image": "/images/Miscellaneous/blumenkohl-kaese-auflauf.webp",
+    "prepTime": 20,
+    "cookingTime": 35,
+    "seo_keywords": [
+      "Blumenkohl Auflauf Rezept",
+      "Blumenkohl Käse Auflauf",
+      "Einfacher Blumenkohlauflauf",
+      "Cremiger Blumenkohl Auflauf",
+      "Vegetarischer Auflauf",
+      "Auflauf mit Blumenkohl",
+      "Überbackener Blumenkohl"
+    ],
+    "rating": 4.6,
+    "reviews": 125,
+    "category": "Aufläufe",
+    "slug": "blumenkohl-kaese-auflauf",
+    "tags": [
+      "Blumenkohl",
+      "Auflauf",
+      "Käse",
+      "Vegetarisch",
+      "Familienrezept"
+    ],
+    "createdDate": new Date("2025-03-10T14:30:00Z"),
+    "updatedDate": new Date("2025-04-20T10:00:00Z"),
+    "servings": 4,
+    "description": "Dieses einfache Rezept für Blumenkohl Käse Auflauf ist cremig, herzhaft und super einfach gemacht. Der perfekte vegetarische Auflauf für die ganze Familie!",
+    "descriptionOnImage": "Cremig, käsig, lecker!",
+    "introductionParagraph": "Manchmal braucht es einfach Soulfood, das satt und glücklich macht – und genau das ist dieser wunderbare Blumenkohl Auflauf!",
+    "additionalParagraph": "Mit zartem Blumenkohl, umhüllt von einer cremigen Käsesauce und gekrönt von einer goldbraunen Käsekruste, ist dieser Auflauf ein echter Wohlfühlklassiker.",
+    "ingredientsNeeded": [
+      {
+        "title": "Blumenkohl",
+        "description": "Frischer Blumenkohl bildet die gesunde Basis dieses Auflaufs und wird durch die Sauce wunderbar zart."
+      },
+      {
+        "title": "Butter & Mehl",
+        "description": "Sie bilden die Grundlage für eine klassische Mehlschwitze, die der Käsesauce ihre sämige Konsistenz verleiht."
+      },
+      {
+        "title": "Milch",
+        "description": "Vollmilch sorgt für die nötige Cremigkeit in der Béchamelsauce, die wir später mit Käse verfeinern."
+      },
+      {
+        "title": "Käse",
+        "description": "Eine Mischung aus würzigem und mildem Käse garantiert den besten Geschmack und eine tolle, goldene Kruste. Emmentaler und Gouda passen perfekt."
+      },
+      {
+        "title": "Muskatnuss",
+        "description": "Ein Hauch frisch geriebene Muskatnuss ist unerlässlich für eine authentische, leckere Käsesauce, sie rundet den Geschmack wunderbar ab."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Auflauf",
+        "description": "Alles, was wir für unseren köstlichen Blumenkohl-Käse-Auflauf benötigen.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Kopf",
+            "name": "Blumenkohl (mittelgroß)"
+          },
+          {
+            "amount": 40,
+            "unit": "g",
+            "name": "Butter"
+          },
+          {
+            "amount": 40,
+            "unit": "g",
+            "name": "Mehl"
+          },
+          {
+            "amount": 500,
+            "unit": "ml",
+            "name": "Milch"
+          },
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "geriebener Käse (z.B. Emmentaler, Gouda)"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch geriebene Muskatnuss"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Kopf",
+        "name": "Blumenkohl (mittelgroß)"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "name": "Butter"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "name": "Mehl"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "name": "Milch"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "geriebener Käse (z.B. Emmentaler, Gouda)"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch geriebene Muskatnuss"
+      }
+    ],
+    "instructions": [
+      "Den Blumenkohl putzen und in mundgerechte Röschen teilen.",
+      "Blumenkohlröschen in Salzwasser ca. 5-7 Minuten blanchieren (nicht zu weich kochen!), abgießen und gut abtropfen lassen.",
+      "In einem Topf die Butter schmelzen, Mehl einrühren und ca. 1 Minute anschwitzen.",
+      "Nach und nach die Milch unter ständigem Rühren mit einem Schneebesen angießen, bis eine glatte Sauce entsteht.",
+      "Die Sauce kurz aufkochen lassen und dann bei niedriger Hitze ca. 5 Minuten köcheln lassen, dabei gelegentlich umrühren.",
+      "Die Hälfte des geriebenen Käses in die Sauce einrühren, bis er geschmolzen ist. Mit Salz, Pfeffer und reichlich frisch geriebener Muskatnuss abschmecken.",
+      "Den Backofen auf 180°C Ober-/Unterhitze vorheizen.",
+      "Die abgetropften Blumenkohlröschen in eine Auflaufform geben.",
+      "Die Käsesauce gleichmäßig über den Blumenkohl gießen.",
+      "Den restlichen Käse darüber streuen.",
+      "Den Auflauf im vorgeheizten Ofen ca. 25-30 Minuten backen, bis er goldbraun ist und Blasen wirft."
+    ],
+    "nutrition": {
+      "calories": 1485,
+      "protein": "77g",
+      "carbs": "82g",
+      "fat": "97g"
+    },
+    "tips": [
+      "Für extra Geschmack können Sie der Käsesauce eine Prise Paprikapulver oder geräuchertes Paprikapulver hinzufügen.",
+      "Wenn Sie keine Béchamelsauce machen möchten, können Sie den Blumenkohl auch direkt mit Sahne oder einer Sahne-Ei-Mischung übergießen und mit Käse bestreuen. Die Konsistenz wird dann etwas anders, aber auch lecker!"
+    ],
+    "whyFavorite": {
+      "title": "Warum dieser Auflauf einfach immer gelingt",
+      "reasons": [
+        {
+          "title": "Super einfach & schnell",
+          "description": "Dieses Rezept ist perfekt für Kochanfänger und alle, die wenig Zeit haben. Mit wenigen Handgriffen zaubern Sie ein vollwertiges Gericht."
+        },
+        {
+          "title": "Gemüse mal anders",
+          "description": "Selbst Gemüsemuffel greifen hier gerne zu! Die cremige Käsesauce und die knusprige Kruste machen den Blumenkohl unwiderstehlich lecker."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich wünsche dir ganz viel Freude beim Nachkochen dieses leckeren Blumenkohl-Käse-Auflaufs!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Blumenkohl vorbereiten",
+        "description": "Das Blanchieren des Blumenkohls ist wichtig, damit er im Auflauf gar wird, aber noch Biss behält und nicht matschig wird."
+      },
+      {
+        "title": "Käsesauce zaubern",
+        "description": "Eine klassische Mehlschwitze ist die Basis für eine cremige, stabile Sauce. Das langsame Einrühren der Milch verhindert Klümpchen."
+      },
+      {
+        "title": "Schichten und goldbraun backen",
+        "description": "Blumenkohl und Sauce vereinen sich in der Form. Die Hitze im Ofen sorgt dafür, dass alles durchgart und der Käse zu einer herrlichen Kruste schmilzt."
+      }
+    ],
+    "servingSuggestion": "Genießen Sie diesen Blumenkohl Käse Auflauf pur als vegetarisches Hauptgericht.",
+    "servingSuggestions": {
+      "title": "Köstliche Beilagenideen",
+      "description": "Der Auflauf ist zwar ein Hauptgericht, kann aber auch toll mit anderen Komponenten serviert werden:",
+      "note": "Ein grüner Salat passt immer!",
+      "items": [
+        {
+          "emoji": "🥔",
+          "title": "Salzkartoffeln",
+          "description": "Eine klassische, einfache Beilage, die gut zur Cremigkeit des Auflaufs passt."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wussten Sie schon?",
+      "description": "Blumenkohl ist eng mit Brokkoli verwandt und wie dieser reich an Vitamin C und K."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/blumenkohl-kaese-auflauf-zutaten.webp",
+      "image1": "/images/Miscellaneous/blumenkohl-auflauf-rezept-einfach.webp",
+      "image2": "/images/Miscellaneous/vegetarischer-blumenkohl-auflauf.webp",
+      "image3": "/images/Miscellaneous/cremiger-blumenkohl-kaese-auflauf.webp",
+      "image4": "/images/Miscellaneous/auflauf-mit-blumenkohl-kaese.webp",
+      "image5": "/images/Miscellaneous/blumenkohl-ueberbacken-rezept.webp",
+      "image6": "/images/Miscellaneous/einfacher-vegetarischer-auflauf.webp",
+      "image7": "/images/Miscellaneous/blumenkohl-hauptgericht.webp"
+    }
+  },
+  {
+    "title": "Zucchini Reis Auflauf",
+    "seo_title": "Zucchini Reis Auflauf Rezept - Einfach & Vegetarisch",
+    "image": "/images/Miscellaneous/zucchini-reis-auflauf.webp",
+    "prepTime": 15,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Zucchini Reis Auflauf Rezept",
+      "Reis Zucchini Auflauf",
+      "Vegetarischer Reisauflauf",
+      "Schneller Zucchini Auflauf",
+      "Zucchini Auflauf einfach",
+      "Reisauflauf mit Gemüse",
+      "Sommerlicher Auflauf"
+    ],
+    "rating": 4.7,
+    "reviews": 98,
+    "category": "Aufläufe",
+    "slug": "zucchini-reis-auflauf",
+    "tags": [
+      "Zucchini",
+      "Reis",
+      "Auflauf",
+      "Vegetarisch",
+      "Sommerküche"
+    ],
+    "createdDate": new Date("2025-03-01T12:00:00Z"),
+    "updatedDate": new Date("2025-04-20T14:00:00Z"),
+    "servings": 4,
+    "description": "Probieren Sie mein einfaches Zucchini Reis Auflauf Rezept – perfekt für die schnelle Feierabendküche.",
+    "descriptionOnImage": "Einfach & köstlich!",
+    "introductionParagraph": "Wenn die Zucchinischwemme im Garten beginnt oder auf dem Markt lockt, ist dieser einfache Zucchini Reis Auflauf meine erste Wahl!",
+    "additionalParagraph": "Er ist herrlich unkompliziert, steckt voller guter Sachen und schmeckt der ganzen Familie. Ein echtes Wohlfühlessen, das nicht schwer im Magen liegt.",
+    "ingredientsNeeded": [
+      {
+        "title": "Zucchini",
+        "description": "Frische Zucchini bringen eine schöne Saftigkeit und leichte Süße in den Auflauf und sind die Hauptzutat dieses Sommergerichts."
+      },
+      {
+        "title": "Reis",
+        "description": "Gekochter Reis bildet die sättigende Basis und nimmt die Aromen der Sauce wunderbar auf. Perfekt, um Reste vom Vortag zu verwerten."
+      },
+      {
+        "title": "Tomaten",
+        "description": "Fruchtige Tomatenwürfel sorgen für eine angenehme Säure und Frische, die gut zur Zucchini passt und den Geschmack abrundet."
+      },
+      {
+        "title": "Eier & Sahne",
+        "description": "Dieser Guss verbindet die Zutaten, macht den Auflauf cremig und sorgt für eine schöne Bindung beim Backen."
+      },
+      {
+        "title": "Käse",
+        "description": "Geriebener Käse darf in keinem guten Auflauf fehlen! Er sorgt für die goldene, leicht knusprige Oberfläche und eine extra Portion Geschmack."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Auflauf",
+        "description": "Die Hauptdarsteller für unseren leichten Sommerauflauf.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "Stück",
+            "name": "Zucchini (mittelgroß)"
+          },
+          {
+            "amount": 250,
+            "unit": "g",
+            "name": "gekochter Reis (ca. 80g Rohgewicht)"
+          },
+          {
+            "amount": 2,
+            "unit": "Stück",
+            "name": "Tomaten"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "Zwiebel"
+          },
+          {
+            "amount": 1,
+            "unit": "Zehe",
+            "name": "Knoblauch"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Olivenöl zum Anbraten"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Getrocknete Kräuter der Provence (oder Oregano/Basilikum)"
+          }
+        ]
+      },
+      {
+        "title": "Für den Guss und die Kruste",
+        "description": "Was unseren Auflauf zusammenhält und ihm den letzten Schliff gibt.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": "Stück",
+            "name": "Eier"
+          },
+          {
+            "amount": 150,
+            "unit": "ml",
+            "name": "Sahne oder Milch"
+          },
+          {
+            "amount": 100,
+            "unit": "g",
+            "name": "geriebener Käse (z.B. Gouda, Emmentaler)"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Pfeffer"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "name": "Zucchini (mittelgroß)"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "gekochter Reis (ca. 80g Rohgewicht)"
+      },
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "name": "Tomaten"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "Zwiebel"
+      },
+      {
+        "amount": 1,
+        "unit": "Zehe",
+        "name": "Knoblauch"
+      },
+      {
+        "amount": 3,
+        "unit": "Stück",
+        "name": "Eier"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "name": "Sahne oder Milch"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "geriebener Käse (z.B. Gouda, Emmentaler)"
+      },      
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Olivenöl zum Anbraten"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Getrocknete Kräuter der Provence (oder Oregano/Basilikum)"
+      },
+    ],
+    "instructions": [
+      "Den Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+      "Zwiebel und Knoblauch fein hacken. Zucchini raspeln oder in kleine Würfel schneiden. Tomaten würfeln.",
+      "In einer Pfanne Olivenöl erhitzen und Zwiebel und Knoblauch darin glasig dünsten.",
+      "Geraspelte oder gewürfelte Zucchini hinzufügen und ca. 5-7 Minuten mitbraten, bis Flüssigkeit verdampft ist. Mit Salz, Pfeffer und Kräutern würzen.",
+      "Tomatenwürfel kurz mit erwärmen.",
+      "In einer Auflaufform den gekochten Reis mit dem Zucchini-Tomaten-Mix vermischen.",
+      "Für den Guss Eier, Sahne (oder Milch), Salz und Pfeffer verquirlen.",
+      "Den Guss über die Reis-Gemüse-Mischung in der Form gießen.",
+      "Den geriebenen Käse gleichmäßig darüber streuen.",
+      "Den Auflauf im vorgeheizten Ofen ca. 25-30 Minuten backen, bis er goldbraun und gestockt ist."
+    ],
+    "nutrition": {
+      "calories": 1795,
+      "protein": "86g",
+      "carbs": "96g",
+      "fat": "89,6g"
+    },
+    "tips": [
+      "Drücken Sie die geraspelte Zucchini vor dem Anbraten gut aus, um überschüssige Flüssigkeit zu entfernen. So wird der Auflauf nicht wässrig."    
+    ],
+    "whyFavorite": {
+      "title": "Was diesen Auflauf so besonders macht",
+      "reasons": [
+        {
+          "title": "Perfekte Resteverwertung",
+          "description": "Gekochter Reis vom Vortag findet hier eine sinnvolle und köstliche neue Bestimmung. Das spart Zeit und reduziert Lebensmittelverschwendung!"
+        },
+        {
+          "title": "Leicht & dennoch sättigend",
+          "description": "Durch die Zucchini ist der Auflauf wunderbar frisch und leicht, der Reis sorgt aber dafür, dass man angenehm satt wird – ideal für warme Tage."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, mein Zucchini-Reis-Auflauf schmeckt dir genauso gut wie mir!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Gemüse vorbereiten und andünsten",
+        "description": "Durch kurzes Anbraten verlieren Zucchini und Zwiebel überschüssiges Wasser und entwickeln mehr Aroma, bevor sie in die Form kommen."
+      },
+      {
+        "title": "Mischen und gießen",
+        "description": "Das Vermengen von Reis und Gemüse und das Übergießen mit dem Eierguss sorgt dafür, dass alle Zutaten beim Backen schön verbunden werden und der Auflauf zusammenhält."
+      },
+      {
+        "title": "Goldbraun backen",
+        "description": "Die Hitze im Ofen lässt den Guss stocken und den Käse schmelzen und goldbraun werden. Das Ergebnis ist eine leckere, leicht knusprige Oberfläche."
+      }
+    ],
+    "servingSuggestion": "Dieser Zucchini-Reis-Auflauf ist ein wunderbares vegetarisches Hauptgericht für den Sommer.",
+    "servingSuggestions": {
+      "title": "Passt gut dazu",
+      "description": "Der Auflauf schmeckt schon pur fantastisch, aber diese Kleinigkeiten machen ihn noch besser:",
+      "note": "Simpel ist manchmal am besten!",
+      "items": [
+        {
+          "emoji": "🌿",
+          "title": "Frische Kräuter",
+          "description": "Ein paar frische Basilikum- oder Petersilienblätter nach dem Backen sorgen für zusätzliche Frische."
+        },
+        {
+          "emoji": "🥄",
+          "title": "Ein Klecks Sauerrahm",
+          "description": "Für extra Cremigkeit und eine leicht säuerliche Note passt ein Löffel Sauerrahm oder Crème fraîche."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Interessant zu wissen",
+      "description": "Zucchini gehören botanisch gesehen zu den Beerenfrüchten und nicht, wie oft angenommen, zum Gemüse!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/zucchini-reis-auflauf-zutaten.webp",
+      "image1": "/images/Miscellaneous/zucchini-reis-auflauf-rezept.webp",
+      "image2": "/images/Miscellaneous/einfacher-reis-zucchini-auflauf.webp",
+      "image3": "/images/Miscellaneous/vegetarischer-reisauflauf-zucchini.webp",
+      "image4": "/images/Miscellaneous/schneller-zucchini-auflauf-mit-reis.webp",
+      "image5": "/images/Miscellaneous/zucchini-auflauf-sommer.webp",
+      "image6": "/images/Miscellaneous/reisauflauf-vegetarisch.webp",
+      "image7": "/images/Miscellaneous/zucchini-tomaten-reis-auflauf.webp"
+    }
+  },
+  {
+    "title": "Gemüse Polenta Auflauf",
+    "seo_title": "Vegetarischer Gemüse Polenta Auflauf - Einfaches Rezept",
+    "image": "/images/Miscellaneous/gemuese-polenta-auflauf.webp",
+    "prepTime": 20,
+    "cookingTime": 40,
+    "seo_keywords": [
+      "gemüse polenta auflauf",
+      "gemüse polenta",
+      "gemüse polenta rezept",
+      "rezept gemüse polenta",
+      "gemüse polenta gratin",
+      "vegetarischer auflauf",
+      "polenta auflauf"
+    ],
+    "rating": 4.5,
+    "reviews": 73,
+    "category": "Miscellaneous",
+    "slug": "gemuese-polenta-auflauf",
+    "tags": [
+      "Gemüse",
+      "Polenta",
+      "Auflauf",
+      "Vegetarisch",
+      "Einfach"
+    ],
+    "createdDate": new Date("2025-02-17T15:00:00Z"),
+    "updatedDate": new Date("2025-04-20T15:00:00Z"),
+    "servings": 4,
+    "description": "Entdecken Sie mein einfaches Gemüse Polenta Auflauf Rezept! Dieser vegetarische Auflauf mit cremigem Polenta",
+    "descriptionOnImage": "Cremig & voller Geschmack!",
+    "introductionParagraph": "Manchmal brauche ich ein Gericht, das mich von innen wärmt und einfach nur glücklich macht. Dieser Gemüse Polenta Auflauf gehört definitiv dazu!",
+    "additionalParagraph": "Die cremige Polenta, das bunte Gemüse und die goldene Käsekruste machen diesen Auflauf zu einem echten Familienhit. Ein einfaches Gemüse Polenta Rezept, das immer gelingt.",
+    "ingredientsNeeded": [
+      {
+        "title": "Polenta (Maisgrieß)",
+        "description": "Feiner Maisgrieß, der aufgekocht zu einer cremigen Basis wird. Ideal für herzhafte Aufläufe und eine tolle glutenfreie Option."
+      },
+      {
+        "title": "Buntes Gemüse",
+        "description": "Zucchini, Paprika, Tomaten – was immer Saison hat und schmeckt! Das Gemüse bringt Vitamine, Farbe und Frische in den Polenta Gratin."
+      },
+      {
+        "title": "Flüssigkeit (Brühe/Milch)",
+        "description": "Die Basis für die Polenta. Gemüsebrühe gibt extra Geschmack, Milch macht die Polenta cremiger."
+      },
+      {
+        "title": "Käse",
+        "description": "Ein guter Schmelzkäse wie Gouda oder Emmentaler sorgt für die unwiderstehliche goldbraune Kruste und rundet den Geschmack ab."
+      },
+      {
+        "title": "Zwiebel & Knoblauch",
+        "description": "Sie bilden das aromatische Fundament für das Gemüse im Auflauf und sorgen für eine herzhafte Note."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Polenta",
+        "description": "Die cremige Basis, die den Auflauf so besonders macht.",
+        "ingredients": [
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "Polenta (Maisgrieß)"
+          },
+          {
+            "amount": 600,
+            "unit": "ml",
+            "name": "Gemüsebrühe oder Milch"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: 1 EL Butter"
+          }
+        ]
+      },
+      {
+        "title": "Für das Gemüse und den Auflauf",
+        "description": "Frische Zutaten und alles, was wir zum Überbacken brauchen.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "Zwiebel"
+          },
+          {
+            "amount": 1,
+            "unit": "Zehe",
+            "name": "Knoblauch"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "Zucchini"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "rote Paprika"
+          },
+          {
+            "amount": 2,
+            "unit": "Stück",
+            "name": "Tomaten"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Olivenöl zum Anbraten"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Getrocknete Kräuter (z.B. Oregano, Basilikum)"
+          },
+          {
+            "amount": 100,
+            "unit": "g",
+            "name": "geriebener Käse"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "Polenta (Maisgrieß)"
+      },
+      {
+        "amount": 600,
+        "unit": "ml",
+        "name": "Gemüsebrühe oder Milch"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "Zwiebel"
+      },
+      {
+        "amount": 1,
+        "unit": "Zehe",
+        "name": "Knoblauch"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "Zucchini"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "rote Paprika"
+      },
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "name": "Tomaten"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "geriebener Käse"
+      },      
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Olivenöl zum Anbraten"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Getrocknete Kräuter (z.B. Oregano, Basilikum)"
+      },      
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: 1 EL Butter"
+      },
+      
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+    ],
+    "instructions": [
+      "Für die Polenta die Gemüsebrühe (oder Milch) in einem Topf zum Kochen bringen. Salzen.",
+      "Polenta unter ständigem Rühren mit einem Schneebesen langsam einrieseln lassen, um Klümpchen zu vermeiden.",
+      "Bei geringer Hitze nach Packungsanweisung quellen lassen (meist 5-10 Minuten für Instant-Polenta), dabei immer wieder umrühren. Optional Butter einrühren und mit Salz/Pfeffer abschmecken.",
+      "Währenddessen Zwiebel und Knoblauch fein würfeln. Zucchini und Paprika in mundgerechte Stücke schneiden, Tomaten grob würfeln.",
+      "In einer Pfanne Olivenöl erhitzen, Zwiebel und Knoblauch darin andünsten.",
+      "Paprika und Zucchini hinzufügen und ca. 5 Minuten mitbraten. Mit Salz, Pfeffer und Kräutern würzen.",
+      "Tomaten kurz mit erwärmen.",
+      "Den Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+      "Die fertige Polenta in eine Auflaufform geben und glatt streichen.",
+      "Das gebratene Gemüse gleichmäßig auf der Polenta verteilen.",
+      "Mit geriebenem Käse bestreuen.",
+      "Den Gemüse Polenta Auflauf im vorgeheizten Ofen ca. 15-20 Minuten backen, bis der Käse goldbraun und geschmolzen ist."
+    ],
+    "nutrition": {
+      "calories": 1520,
+      "protein": "43,5g",
+      "carbs": "153g",
+      "fat": "47,6g"
+    },
+    "tips": [
+      "Geben Sie für extra Würze etwas geräuchertes Paprikapulver oder eine Prise Chiliflocken zum Gemüse, bevor Sie es in die Form geben.",
+      "Sie können auch anderes Gemüse verwenden, z.B. Brokkoliröschen, Karottenwürfel oder Spinat. Passen Sie die Garzeit entsprechend an."
+    ],
+    "whyFavorite": {
+      "title": "Darum lieben wir diesen Gemüse Polenta Auflauf",
+      "reasons": [
+        {
+          "title": "Blitzschnell vorbereitet",
+          "description": "Wenn es mal schnell gehen muss, ist dieses Rezept perfekt. Während die Polenta kocht, schnippeln und braten Sie das Gemüse – ruckzuck fertig!"
+        },
+        {
+          "title": "Wandelbar & saisonal",
+          "description": "Verwenden Sie einfach das Gemüse, das gerade frisch und knackig ist. So schmeckt der Auflauf immer wieder anders und nutzt saisonale Vielfalt."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich wünsche dir ganz viel Freude und Genuss mit diesem köstlichen Gemüse Polenta Auflauf!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Die Polenta zubereiten",
+        "description": "Das A und O ist eine cremige Polenta ohne Klümpchen. Langsames Einrühren und ständiges Rühren beim Kochen sind entscheidend für die perfekte Basis des Auflaufs."
+      },
+      {
+        "title": "Gemüse anbraten",
+        "description": "Das kurze Anbraten des Gemüses bringt die Aromen hervor und sorgt dafür, dass es im Auflauf nicht zu wässrig wird. Hier können Sie kreativ werden mit Ihren Lieblingssorten."
+      },
+      {
+        "title": "Schichten und backen",
+        "description": "Polenta und Gemüse werden in der Auflaufform vereint und unter einer Käseschicht goldbraun gebacken. Die Hitze verbindet alle Aromen zu einem harmonischen Ganzen."
+      }
+    ],
+    "servingSuggestion": "Dieser herzhafte Gemüse Polenta Auflauf ist ein sättigendes und köstliches vegetarisches Hauptgericht.",
+    "servingSuggestions": {
+      "title": "Passende Begleiter",
+      "description": "Der Auflauf ist bereits eine vollwertige Mahlzeit, kann aber wunderbar ergänzt werden:",
+      "note": "Manchmal braucht es nur wenig Drumherum!",
+      "items": [
+        {
+          "emoji": "🥗",
+          "title": "Grüner Salat",
+          "description": "Ein einfacher Blattsalat mit Vinaigrette sorgt für Frische und Leichtigkeit neben dem cremigen Auflauf."
+        },
+        {
+          "emoji": "🌿",
+          "title": "Frisches Basilikum",
+          "description": "Ein paar frische Basilikumblätter vor dem Servieren sorgen für ein mediterranes Aroma-Highlight."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wissenswertes über Polenta",
+      "description": "Polenta war lange Zeit ein Grundnahrungsmittel in Norditalien und ist extrem vielseitig – von cremig als Brei bis fest gebacken oder gegrillt."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/gemuese-polenta-auflauf-zutaten.webp",
+      "image1": "/images/Miscellaneous/gemuese-polenta-auflauf-rezept-vegetarisch.webp",
+      "image2": "/images/Miscellaneous/einfacher-gemuese-polenta.webp",
+      "image3": "/images/Miscellaneous/vegetarischer-polenta-auflauf-gemuese.webp",
+      "image4": "/images/Miscellaneous/schneller-gemuese-polenta-gratin.webp",
+      "image5": "/images/Miscellaneous/polenta-auflauf-mit-buntem-gemuese.webp",
+      "image6": "/images/Miscellaneous/gemuese-polenta-rezepte.webp",
+      "image7": "/images/Miscellaneous/herzhafter-polenta-gemuese-auflauf.webp"
     }
   }
 ];

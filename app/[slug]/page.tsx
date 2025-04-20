@@ -45,10 +45,10 @@ export async function generateMetadata(
   const canonicalUrl = `${baseUrl}/${slug}`;
 
   return {
-    title: `${recipe.seo_title || recipe.title} - Veggie Rezepte`,
+    title: `${recipe.seo_title || recipe.title}`,
     description: recipe.description || '',
     openGraph: {
-      title: `${recipe.seo_title || recipe.title} - Veggie Rezepte`,
+      title: `${recipe.seo_title || recipe.title}`,
       description: recipe.description || '',
       images: [recipe.image],
       type: 'article',
@@ -56,7 +56,7 @@ export async function generateMetadata(
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${recipe.seo_title || recipe.title} - Veggie Rezepte`,
+      title: `${recipe.seo_title || recipe.title}`,
       description: recipe.description || '',
       images: [recipe.image],
     },
@@ -178,7 +178,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
     'klassisches-ruehrei-rezept',
     'bestes-zimtschnecken-rezept-saftig',
     "cremiges-rhabarber-kompott-vanille-zitrone",
-    "knusper-granola-nuesse-rezept"
+    "knusper-granola-nuesse-rezept",
+    "kartoffelgratin",
+    "blumenkohl-kaese-auflauf",
+    "zucchini-reis-auflauf",
+    "gemuese-polenta-auflauf"  
   ].includes(slug)) {
     return <OtherRecipePage slug={slug} />;
   }
@@ -272,7 +276,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       {/* Action Buttons */}
                       <div className="flex items-center gap-4 mt-4">
                         <a
-                          href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://veggie-rezepte.de/${validRecipe.slug}`)}&media=${encodeURIComponent(`https://veggie-rezepte.de${validRecipe.image}`)}&description=${encodeURIComponent(`✨ ${validRecipe.title.toUpperCase()} ✨\n\nEin leckeres veganes Rezept von Veggie Rezepte! Probier es jetzt aus! #veggierezepte #vegetarisch #vegan #rezept`)}`}
+                          href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://veggie-rezepte.de/${validRecipe.slug}`)}&media=${encodeURIComponent(`https://veggie-rezepte.de${validRecipe.image}`)}&description=${encodeURIComponent(`✨ ${validRecipe.title.toUpperCase()} ✨\n\nEin leckeres vegatarisches Rezept von Veggie Rezepte! Probier es jetzt aus! #veggierezepte #vegetarisch #vegan #rezept`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="border border-black py-2.5 px-6 font-bold text-black hover:bg-gray-100 transition-colors duration-200 text-center rounded-md text-sm"
