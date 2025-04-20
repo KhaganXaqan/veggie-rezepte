@@ -279,99 +279,6 @@ instructions: [
   }
   },
   {
-    title: "Smoothie Bowl",
-    image: "/images/Frühstück/smoothie-bowl.webp",
-    prepTime: 15,
-cookingTime: 20,
-seo_keywords: [],
-rating: 4.6,
-    category: "Frühstück",
-    slug: "smoothie-bowl",
-    tags: ["Frühstück", "Gesund", "Obst"],
-    servings: 1,
-    description: "Ein leckerer Smoothie-Bowl aus verschiedenen Früchten und Nüssen.",
-    ingredients: [
-      { amount: 100, unit: "g", name: "Früchte" },
-      { amount: 100, unit: "g", name: "Nüsse" },
-      { amount: 100, unit: "g", name: "Joghurt" },
-      { amount: 100, unit: "g", name: "Bananen" },
-      { amount: 100, unit: "g", name: "Kokosnussöl" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Früchte waschen und in Stücke schneiden. Die Bananen schälen und in Scheiben schneiden.",
-      "Die Früchte, Bananen und den Joghurt in einen Mixer geben und zu einem cremigen Smoothie pürieren.",
-      "Die Nüsse in einer Pfanne ohne Fett kurz anrösten, bis sie duften.",
-      "Den Smoothie in eine Schüssel gießen. Die gerösteten Nüsse und etwas Kokosnussöl darüber geben.",
-      "Die Smoothie Bowl sofort servieren, eventuell mit zusätzlichen Früchten oder Kokosflocken garnieren."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "5g",
-      carbs: "20g",
-      fat: "15g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
-  {
     "title": "Flammkuchen",
     "seo_title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
     "image": "/images/MainCourses/flammkuchen.webp",
@@ -9077,6 +8984,237 @@ instructions: [
       "image5": "/images/Miscellaneous/cremige-spinatlasagne.webp",
       "image6": "/images/Miscellaneous/einfache-vegetarische-lasagne.webp",
       "image7": "/images/Miscellaneous/spinatlasagne-ohne-fleisch.webp"
+    }
+  },
+  {
+    "title": "Beeren Smoothie Bowl",
+    "seo_title": "Smoothie Bowl Rezept Beeren - Schnell & Einfach selber machen",
+    "image": "/images/Frühstück/beeren-smoothie-bowl.webp",
+    "prepTime": 5,
+    "cookingTime": 0,
+    "seo_keywords": [
+      "smoothie bowl",
+      "smoothie bowl rezepte",
+      "smoothie bowl selber machen",
+      "smoothie bowl rezept",
+      "gesundes frühstück",
+      "beeren smoothie bowl",
+      "schnelles frühstück"
+    ],
+    "rating": 4.7,
+    "reviews": 155,
+    "category": "Frühstück",
+    "slug": "beeren-smoothie-bowl",
+    "tags": [
+      "Smoothie Bowl",
+      "Frühstück",
+      "Gesund",
+      "Beeren",
+      "Vegan (Optional)"
+    ],
+    "createdDate": new Date("2025-02-11T12:10:00Z"),
+    "updatedDate": new Date("2025-04-20T12:10:00Z"),
+    "servings": 1,
+    "description": "Ein einfaches Smoothie Bowl Rezept mit Beeren, das Sie schnell selber machen können! Perfekt als gesundes Frühstück oder Snack.",
+    "descriptionOnImage": "Dein Energie-Booster!",
+    "introductionParagraph": "Es gibt Tage, da brauche ich etwas Schnelles und richtig Gutes am Morgen, und da ist meine liebste Beeren Smoothie Bowl einfach unschlagbar!",
+    "additionalParagraph": "Sie ist nicht nur super gesund und sättigend, sondern auch ein echtes Fest für die Augen. Eine Smoothie Bowl selber machen ist wirklich kinderleicht und macht Spaß!",
+    "ingredientsNeeded": [
+      {
+        "title": "Gefrorene Beeren",
+        "description": "Das A und O für die perfekte, dickflüssige Konsistenz einer Smoothie Bowl. Gemischte Beeren wie Erdbeeren, Himbeeren und Blaubeeren sind meine Favoriten."
+      },
+      {
+        "title": "Eine reife Banane",
+        "description": "Sie gibt Süße und zusätzliche Cremigkeit. Am besten eine reife Banane einfrieren, das verstärkt den Effekt."
+      },
+      {
+        "title": "Flüssigkeit",
+        "description": "Pflanzenmilch (Mandel, Hafer) oder Saft – nur ein kleiner Schuss wird benötigt, um dem Mixer zu helfen und die gewünschte Konsistenz zu erreichen."
+      },
+      {
+        "title": "Toppings",
+        "description": "Hier wird es kreativ! Granola für Crunch, frische Früchte für Frische, Kokoschips, Chiasamen, Nüsse – alles, was schmeckt und textur gibt."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Smoothie Basis",
+        "description": "Diese Zutaten mixen wir zu einer cremigen, kalten Masse.",
+        "ingredients": [
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "gefrorene gemischte Beeren"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "gefrorene oder sehr reife Banane"
+          },
+          {
+            "amount": 50,
+            "unit": "ml",
+            "name": "Pflanzenmilch oder Orangensaft"
+          }
+        ]
+      },
+      {
+        "title": "Für die Toppings",
+        "description": "Was deine Smoothie Bowl unwiderstehlich macht und extra Nährstoffe liefert.",
+        "ingredients": [
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Granola"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frische Beeren oder andere Früchte"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Kokoschips"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Chiasamen, Leinsamen oder Hanfsamen"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Gehackte Nüsse oder Mandeln"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "gefrorene gemischte Beeren"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "gefrorene oder sehr reife Banane"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "name": "Pflanzenmilch oder Orangensaft"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Granola"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frische Beeren oder andere Früchte"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Kokoschips"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Chiasamen, Leinsamen oder Hanfsamen"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Gehackte Nüsse oder Mandeln"
+      }
+    ],
+    "instructions": [
+      "Gib die gefrorenen Beeren und die (gefrorene) Banane in einen leistungsstarken Mixer.",
+      "Füge nur einen kleinen Schuss Flüssigkeit hinzu.",
+      "Mixe alles auf höchster Stufe. Stoppe zwischendurch und schiebe die Masse mit einem Stößel (falls vorhanden) oder einem Löffel nach unten.",
+      "Mixe nur so lange, bis eine sehr dicke, eiscreme-ähnliche Konsistenz entsteht. Gib nur bei Bedarf mehr Flüssigkeit hinzu, esslöffelweise.",
+      "Gib den dicken Smoothie in eine Schüssel (Bowl).",
+      "Arrangiere deine Lieblingstoppings dekorativ auf der Oberfläche.",
+      "Sofort genießen!"
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein": "11,3g",
+      "carbs": "81,5g",
+      "fat": "23,5g"
+    },
+    "tips": [
+      "Je weniger Flüssigkeit du verwendest und je kälter/gefrorener deine Früchte sind, desto dicker wird deine Smoothie Bowl. Ein leistungsstarker Mixer ist hier Gold wert!",
+      "Experimentiere mit gefrorenen Früchten wie Mango, Ananas oder Açaí für andere leckere Smoothie Bowl Varianten. Grünes Blattgemüse kann auch mitgemixt werden."
+    ],
+    "whyFavorite": {
+      "title": "Darum liebe ich diese Smoothie Bowl",
+      "reasons": [
+        {
+          "title": "Blitzschnell gemacht",
+          "description": "In weniger als 5 Minuten steht ein gesundes und leckeres Frühstück auf dem Tisch. Perfekt für hektische Morgen, wenn jede Minute zählt!"
+        },
+        {
+          "title": "Vollgepackt mit Guten Dingen",
+          "description": "Sie liefert Vitamine, Ballaststoffe und gesunde Fette – ein echter Energie-Booster, der lange satt hält und dich fit für den Tag macht."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, deine Smoothie Bowl schmeckt dir genauso gut wie mir!",
+      "subText": "Genieße deinen Start in den Tag!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Die Basis mixen",
+        "description": "Das Geheimnis liegt im Mixen von gefrorenen Früchten mit nur sehr wenig Flüssigkeit, um diese unwiderstehlich dicke Konsistenz zu erhalten, die eine Smoothie Bowl ausmacht."
+      },
+      {
+        "title": "Anrichten in der Bowl",
+        "description": "Gib den dicken Smoothie in eine Schüssel. Das ist wichtig, denn es ist ja eine 'Bowl' und kein Trink-Smoothie. Die Schüssel hält die Kälte besser."
+      },
+      {
+        "title": "Kreativ toppen",
+        "description": "Jetzt kommt der beste Teil! Das Hinzufügen verschiedenster Toppings sorgt nicht nur für Textur und Geschmack, sondern macht jede Smoothie Bowl zu einem kleinen Kunstwerk."
+      }
+    ],
+    "servingSuggestion": "Genießen Sie die Smoothie Bowl löffelweise als nahrhaftes Frühstück.",
+    "servingSuggestions": {
+      "title": "Leckere Topping-Ideen",
+      "description": "Deine Smoothie Bowl wird erst mit den richtigen Toppings komplett. Hier ein paar meiner Favoriten:",
+      "note": "Je bunter, desto besser!",
+      "items": [
+        {
+          "emoji": "🥥",
+          "title": "Kokoschips & Granola",
+          "description": "Für einen tropischen Touch und extra Crunch – das macht jede Gabel spannender!"
+        },
+        {
+          "emoji": "🌰",
+          "title": "Nüsse & Samen",
+          "description": "Liefern gesunde Fette und Proteine und geben der Bowl Biss. Chiasamen quellen leicht an und machen zusätzlich satt."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du schon?",
+      "description": "Smoothie Bowls wurden in den 2000er Jahren in den USA populär, aber die Idee, dickflüssige Fruchtpürees zu essen, gibt es schon viel länger, zum Beispiel Açaí Bowls in Brasilien."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/beeren-smoothie-bowl-zutaten.webp",
+      "image1": "/images/Frühstück/smoothie-bowl-rezepte-einfach.webp",
+      "image2": "/images/Frühstück/smoothie-bowl-selber-machen.webp",
+      "image3": "/images/Frühstück/gesundes-fruehstueck-smoothie-bowl.webp",
+      "image4": "/images/Frühstück/beeren-smoothie-bowl-rezept.webp",
+      "image5": "/images/Frühstück/schnelle-smoothie-bowl.webp",
+      "image6": "/images/Frühstück/vegetarische-smoothie-bowl.webp",
+      "image7": "/images/Frühstück/smoothie-bowl-mit-granola.webp"
     }
   }
 ];
