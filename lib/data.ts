@@ -89,101 +89,6 @@ export type Recipe = {
 
 // Then update the recipes array with all required properties
 export const recipes: Recipe[] = [
-
-
-  {
-    title: "Overnight Oats mit Beeren",
-    image: "/images/Frühstück/overnight-oats-beeren.webp",
-    prepTime: 60,
-cookingTime: 20,
-rating: 4.7,
-seo_keywords: [],
-    category: "Frühstück",
-    slug: "overnight-oats-beeren",
-    tags: ["Frühstück", "Gesund", "Haferflocken"],
-    servings: 2,
-    description: "Ein leckerer Frühstücks-Salat aus Haferflocken und Beeren.",
-    ingredients: [
-      { amount: 100, unit: "g", name: "Haferflocken" },
-      { amount: 200, unit: "g", name: "Milch" },
-      { amount: 100, unit: "g", name: "Beeren" },
-      { amount: 1, name: "Ei" },
-      { amount: undefined, unit: "", name: "Salz" },
-      { amount: undefined, unit: "", name: "Muskatnuss" }
-    ],
-    descriptionOnImage: "",
-  introductionParagraph: "",
-  additionalParagraph: "",
-  ingredientsNeeded: [{
-    title: "",
-    description: ""
-  }],
-instructions: [
-      "Die Haferflocken und Milch in einer Schüssel vermengen. Das Ei hinzufügen und alles gut verrühren.",
-      "Mit Salz und Muskatnuss würzen. Die Beeren waschen und unter die Haferflocken heben.",
-      "Die Mischung in ein verschließbares Glas füllen und über Nacht im Kühlschrank ziehen lassen.",
-      "Am nächsten Morgen die Overnight Oats kalt servieren, eventuell mit zusätzlichen Beeren oder Nüssen garnieren."
-    ],
-    nutrition: {
-      calories: 200,
-      protein: "10g",
-      carbs: "20g",
-      fat: "5g"
-},
- tips: [""],
-  whyFavorite: {
-    title: "",
-    reasons: [{
-      title: "",
-      description: "",
-    }]
-  },
-  handwrittenMessage: {
-    mainText: "",
-    subText: "",
-    signature: ""
-  },
-  ingredientGroups: [{
-    title: "",
-    description: "",
-    ingredients: [{
-      amount: "",
-      unit: "",
-      name: ""
-    }]
-  }],
-  steps: [
-{
-    title: "",
-    description: ""
-  }
-],
-  servingSuggestion: "",
-  servingSuggestions: {
-    title: "",
-    description: "",
-    note: "",
-    items: [{
-      emoji: "",
-      title: "",
-      description: ""
-    }]
-  },
-  funFact: {
-    title: "",
-    description: ""
-  },
-  images: {
-    imageIngredient: "",
-    image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
-    image5: "",
-    image6: "",
-    image7: "" 
-  }
-  },
   {
     title: "Veganes Banana Bread",
     image: "/images/Frühstück/veganes-banana-bread.webp",
@@ -9215,6 +9120,234 @@ instructions: [
       "image5": "/images/Frühstück/schnelle-smoothie-bowl.webp",
       "image6": "/images/Frühstück/vegetarische-smoothie-bowl.webp",
       "image7": "/images/Frühstück/smoothie-bowl-mit-granola.webp"
+    }
+  },
+  {
+    "title": "Beeren Overnight Oats",
+    "seo_title": "Overnight Oats Beeren Rezept: Einfach & Gesund Frühstücken",
+    "image": "/images/Frühstück/beeren-overnight-oats.webp",
+    "prepTime": 5,
+    "cookingTime": 0,
+    "seo_keywords": [
+      "Overnight Oats Beeren",
+      "Frühstück mit Beeren",
+      "Haferflocken Frühstück",
+      "gesundes Frühstück",
+      "einfaches Frühstück",
+      "Beeren Overnight Oats Rezept",
+      "Meal Prep Frühstück"
+    ],
+    "rating": 4.8,
+    "reviews": 125,
+    "category": "Frühstück",
+    "slug": "beeren-overnight-oats",
+    "tags": [
+      "Overnight Oats",
+      "Beeren",
+      "Frühstück",
+      "Meal Prep",
+      "Vegetarisch"
+    ],
+    "createdDate": new Date("2025-02-15T09:00:00Z"),
+    "updatedDate": new Date("2025-04-20T11:30:00Z"),
+    "servings": 1,
+    "description": "Starte deinen Tag mit cremigem Beeren-Overnight-Oats! Dieses einfache Rezept ist perfekt für ein gesundes Frühstück und lässt sich wunderbar vorbereiten.",
+    "descriptionOnImage": "Beeren-Overnight-Oats: Dein perfekter Start.",
+    "introductionParagraph": "Morgens wenig Zeit? Kenn ich!",
+    "additionalParagraph": "Diese Beeren-Overnight-Oats sind mein Retter.",
+    "ingredientsNeeded": [
+      {
+        "title": "Haferflocken",
+        "description": "Die Basis für ein sättigendes Frühstück voller Ballaststoffe."
+      },
+      {
+        "title": "Beeren",
+        "description": "Sorgen für Süße, Vitamine und eine wunderschöne Farbe."
+      },
+      {
+        "title": "Milch oder Joghurt",
+        "description": "Macht die Oats cremig und liefert zusätzliches Protein."
+      },
+      {
+        "title": "Süße nach Wahl",
+        "description": "Ein Hauch von Süße für den perfekten Start in den Tag."
+      },
+      {
+        "title": "Chiasamen",
+        "description": "Für extra Ballaststoffe, Omega-3-Fettsäuren und eine dickere Konsistenz."
+      },
+      {
+        "title": "Vanilleextrakt",
+        "description": "Verleiht eine subtile, süße Note."
+      },
+      {
+        "title": "Honig oder Ahornsirup",
+        "description": "Für eine natürliche Süße und ein angenehmes Aroma."
+      },
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Overnight Oats Basis",
+        "description": "Die Grundlage für dein cremiges Frühstück.",
+        "ingredients": [
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "kernige Haferflocken"
+          },
+          {
+            "amount": 120,
+            "unit": "g",
+            "name": "gemischte Beeren (frisch oder gefroren)"
+          },
+          {
+            "amount": 120,
+            "unit": "g",
+            "name": "Milch (120g) oder Naturjoghurt (120g)"
+          },
+          {
+            "amount": 5,
+            "unit": "g",
+            "name": "Chiasamen"
+          },
+          {
+            "amount": 2,
+            "unit": "g",
+            "name": "Vanilleextrakt"
+          },
+          {
+            "amount": 7,
+            "unit": "g",
+            "name": "Ahornsirup oder Honig"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "kernige Haferflocken"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "name": "gemischte Beeren (frisch oder gefroren)"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "name": "Milch oder Naturjoghurt"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "name": "Chiasamen"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "name": "Vanilleextrakt"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "name": "Ahornsirup oder Honig"
+      }
+    ],
+    "instructions": [
+      "Vermische in einem Glas oder einer kleinen Schüssel 50g kernige Haferflocken, 5g Chiasamen und 2g Vanilleextrakt.",
+      "Gib 120g gemischte Beeren hinzu.",
+      "Übergieße alles mit 120g Milch oder Naturjoghurt.",
+      "Verrühre die Zutaten leicht.",
+      "Decke das Glas oder die Schüssel ab und stelle es für mindestens 4 Stunden oder über Nacht in den Kühlschrank.",
+      "Am nächsten Morgen mit 7g Ahornsirup oder Honig genießen."
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": "10g",
+      "carbs": "55g",
+      "fat": "8g"
+    },
+    "tips": [
+      "Für eine cremigere Konsistenz verwende 150g Naturjoghurt anstelle von Milch.",
+      "Experimentiere mit 150g verschiedenen Beerenarten wie Himbeeren, Blaubeeren, Erdbeeren und Brombeeren."
+    ],
+    "whyFavorite": {
+      "title": "Darum liebe ich diese Beeren-Overnight-Oats so!",
+      "reasons": [
+        {
+          "title": "Super einfach & schnell",
+          "description": "In nur 5 Minuten vorbereitet, während ich meinen Abend genieße – der perfekte Start ohne Stress."
+        },
+        {
+          "title": "Gesund & sättigend",
+          "description": "Voller Ballaststoffe, Vitamine und Proteine hält mich diese Bowl bis zum Mittagessen fit und munter."
+        },
+        {
+          "title": "Lecker und vielseitig",
+          "description": "Die Kombination aus cremigen Oats und fruchtigen Beeren ist einfach unwiderstehlich."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lasst euch diese cremigen Beeren-Overnight-Oats schmecken!",
+      "subText": "Ein einfacher Genuss für jeden Morgen!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Die Basis schaffen",
+        "description": "50g Haferflocken und 5g Chiasamen bilden die Grundlage."
+      },
+      {
+        "title": "Fruchtige Süße",
+        "description": "120g Beeren für den natürlichen Geschmack."
+      },
+      {
+        "title": "Die Cremigkeit",
+        "description": "120g Milch oder Joghurt machen es cremig."
+      },
+      {
+        "title": "Süße Note",
+        "description": "7g Ahornsirup oder Honig für den Hauch Süße."
+      },
+      {
+        "title": "Über Nacht",
+        "description": "Im Kühlschrank ziehen lassen."
+      }
+    ],
+    "servingSuggestion": "Gekühlt genießen.",
+    "servingSuggestions": {
+      "title": "So schmecken deine Beeren-Overnight-Oats noch besser",
+      "description": "Auch ohne extra Toppings ein Genuss!",
+      "note": "",
+      "items": [
+        {
+          "emoji": "🍓",
+          "title": "Pur mit Beeren",
+          "description": "Der natürliche Geschmack der Beeren kommt pur besonders gut zur Geltung."
+        },
+        {
+          "emoji": "🥄",
+          "title": "Ein Löffel mehr Joghurt",
+          "description": "Für eine extra cremige Textur."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du?",
+      "description": "Overnight Oats sind nicht nur super praktisch, sondern durch das Einweichen werden die Haferflocken auch leichter verdaulich!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/beeren-overnight-oats-zutaten.webp",
+      "image1": "/images/Frühstück/overnight-oats-mit-frischen-beeren.webp",
+      "image2": "/images/Frühstück/overnight-oats-rezept-einfach.webp",
+      "image3": "/images/Frühstück/gesundes-fruhstuck-mit-haferflocken.webp",
+      "image4": "/images/Frühstück/meal-prep-overnight-oats.webp",
+      "image5": "/images/Frühstück/beeren-bowl-fruhstuck.webp",
+      "image6": "/images/Frühstück/schnelles-fruhstuck-ideen.webp",
+      "image7": "/images/Frühstück/cremige-overnight-oats.webp"
     }
   }
 ];
