@@ -33,7 +33,8 @@ export async function generateMetadata(
       title: 'Recipe Not Found - Veggie Rezepte',
       description: 'The requested recipe could not be found.',
     };
-  }
+  }  
+  
 
   // Base URL for canonical links
   const baseUrl = process.env.NODE_ENV === 'development'
@@ -158,6 +159,13 @@ export default async function RecipePage({ params }: RecipePageProps) {
     r.category === validRecipe.category
   )
 
+  const categoryMap: Record<string, string> = {
+    frühstück: 'fruehstueck',
+    aufläufe: 'auflaeufe',
+  };
+  
+  const normalizedCategory = categoryMap[validRecipe.category.toLowerCase()] || validRecipe.category.toLowerCase();
+
   // Get 3 random recipes from the filtered list
   const getRandomRecipes = (arr: typeof recipesData, count: number) => {
     const shuffled = [...arr].sort(() => 0.5 - Math.random())
@@ -192,7 +200,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     <span className="text-xs">»</span>
                     <a href="/kategorien" className="hover:text-[#0b3558] transition-colors">Kategorien</a>
                     <span className="text-xs">»</span>
-                    <a href={`/kategorien/${validRecipe.category.toLowerCase()}`} className="hover:text-[#0b3558] transition-colors">{validRecipe.category}</a>
+                    <a href={`/kategorien/${normalizedCategory}`} className="hover:text-[#0b3558] transition-colors">{validRecipe.category}</a>
                   </div>
                 </div>
 
