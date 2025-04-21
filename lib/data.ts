@@ -9526,6 +9526,339 @@ export const recipes: Recipe[] = [
       "image6": "/images/Frühstück/bestes-veganes-banana-bread.webp",
       "image7": "/images/Frühstück/banana-bread-rezept-vegan.webp"
     }
+  },
+  {
+    "title": "Cremige Spargelcremesuppe aus Spargelfond – Schnell & Lecker!",
+    "seo_title": "Spargelcremesuppe Rezept - Cremig & Einfach mit Fond",
+    "image": "/images/Soups/spargelcremesuppe.webp",
+    "prepTime": 15,
+    "cookingTime": 25,
+    "seo_keywords": [
+      "spargelcremesuppe",
+      "spargelcremesuppe rezept",
+      "omas spargelcremesuppe",
+      "rezept spargelcremesuppe",
+      "spargelcremesuppe als hauptgericht",
+      "spargelcremesuppe selber machen",
+      "rezept für spargelcremesuppe",
+      "spargelcremesuppe kochen",
+      "cremige spargelsuppe",
+      "weißer spargel suppe",
+      "spargelsuppe mit fond"
+    ],
+    "rating": 4.8,
+    "reviews": 280,
+    "category": "Suppen",
+    "slug": "cremige-spargelcremesuppe-aus-spargelfond",
+    "tags": [
+      "Spargel",
+      "Suppe",
+      "Saisonal",
+      "Schnell",
+      "Cremesuppe"
+    ],
+    "createdDate": new Date("2025-04-21T16:50:00Z"),
+    "updatedDate": new Date("2025-04-21T16:50:00Z"),
+    "servings": 3,
+    "description": "Ein schnelles Spargelcremesuppe Rezept, wenn der Spargelfond schon bereit ist!",
+    "descriptionOnImage": "Fertig ist die Spargelzeit-Suppe!",
+    "introductionParagraph": "Die Spargelzeit ist einfach die schönste Zeit im Frühling, oder? Und was passt besser dazu als eine richtig leckere, samtige Spargelcremesuppe! Manchmal hat man schon einen wunderbaren Spargelfond übrig – vielleicht vom Spargel kochen am Vortag oder einen gekauften hochwertigen Fond. Genau dafür ist dieses Spargelcremesuppe Rezept gedacht! Es ist die Express-Variante des Klassikers, ohne Kompromisse beim Geschmack. Denn das volle Spargelaroma steckt ja schon im Fond! Ich liebe es, wenn ich schnell etwas Leckeres zaubern kann, das trotzdem nach viel Arbeit schmeckt. Und diese Spargelcremesuppe ist genau das. Sie erinnert mich an die köstliche Spargelsuppe, die früher bei uns zu Hause auf den Tisch kam. Auch wenn Oma ihren Fond oft selber machte, so war die Suppe immer das Highlight. Mit diesem Rezept kannst du dieses Gefühl ganz einfach in deiner eigenen Küche erleben. Es zeigt dir, wie du aus gutem Spargelfond und frischem Spargel in wenigen Minuten eine himmlisch cremige Spargelcremesuppe selber machen kannst. Das ist Kochen mit Effizienz und Genuss, perfekt für den Feierabend oder wenn Gäste kommen und du schnell etwas Besonderes servieren möchtest. Probier es aus und lass dich von der Einfachheit und dem tollen Geschmack überzeugen!",
+    "additionalParagraph": "Dieses Spargelcremesuppe Rezept konzentriert sich auf die Zubereitung der Suppe, sobald du deinen Spargelfond oder eine gute Gemüsebrühe bereitstehen hast. Das macht das Spargelcremesuppe kochen so herrlich unkompliziert und schnell. Wir nehmen frischen weißen Spargel, der kurz im Fond gar gekocht wird, um sein frisches Aroma an die Flüssigkeit abzugeben. Dann kommt der Trick für die cremige Textur: eine feine Mehlschwitze, die zusammen mit der Sahne die Suppe wunderbar sämig macht. Es ist erstaunlich, wie wenig es braucht, um aus wenigen Zutaten eine so geschmackvolle Spargelcremesuppe zu zaubern. Das Pürieren ist ein entscheidender Schritt, um diese typische samtige Konsistenz zu erreichen, die wir so lieben. Achte darauf, wirklich fein zu pürieren! Die finale Würze mit Salz, Pfeffer und einer Prise Muskat rundet das Geschmackserlebnis ab. Dieses Rezept für Spargelcremesuppe ist dein idealer Begleiter durch die Spargelsaison, wenn du schnell und einfach ein köstliches Ergebnis möchtest. Ob du sie als elegante Vorspeise servierst oder als leichte Spargelcremesuppe als Hauptgericht genießt – sie wird immer gut ankommen. Mach dich bereit für den puren Frühlingsgenuss in deiner Schüssel!",
+    "ingredientsNeeded": [
+      {
+        "title": "Guter Spargelfond oder Gemüsebrühe",
+        "description": "Die flüssige Basis für deine Suppe. Ein aromatischer Fond, idealerweise selbstgemacht aus Spargelschalen, oder eine gute Gemüsebrühe liefert die geschmackliche Grundlage."
+      },
+      {
+        "title": "Frischer weißer Spargel",
+        "description": "Er wird direkt im Fond gekocht und anschließend püriert. Er bringt das frische Spargelaroma in die Suppe und sorgt für die typische Note."
+      },
+      {
+        "title": "Butter & Mehl",
+        "description": "Das Duo für die klassische Mehlschwitze. Sie bindet den Spargelfond und macht die Suppe schön sämig und cremig, wie es für eine Spargelcremesuppe sein soll."
+      },
+      {
+        "title": "Sahne",
+        "description": "Sie verleiht der Suppe die luxuriöse Cremigkeit und rundet den Geschmack ab. Ein Muss für eine samtige Spargelcremesuppe."
+      },
+      {
+        "title": "Gewürze (Salz, Pfeffer, Muskatnuss)",
+        "description": "Salz und Pfeffer zum Abschmecken, und vor allem frisch geriebene Muskatnuss, die das feine Spargelaroma wunderbar unterstreicht und zur cremigen Note passt."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Spargelcremesuppe",
+        "description": "Alles, was du brauchst, wenn der Spargelfond schon bereitsteht.",
+        "ingredients": [
+          {
+            "amount": 750,
+            "unit": "ml",
+            "name": "Spargelfond (oder gute Gemüsebrühe)"
+          },
+          {
+            "amount": 500,
+            "unit": "g",
+            "name": "weißer Spargel"
+          },
+          {
+            "amount": 40,
+            "unit": "g",
+            "name": "Butter"
+          },
+          {
+            "amount": 40,
+            "unit": "g",
+            "name": "Mehl"
+          },
+          {
+            "amount": 100,
+            "unit": "ml",
+            "name": "Sahne"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch geriebene Muskatnuss"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: Prise Zucker"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: Spritzer Zitronensaft"
+          }
+        ]
+      },
+      {
+        "title": "Zum Garnieren (Optional)",
+        "description": "Details, die deine Spargelcremesuppe perfekt machen.",
+        "ingredients": [
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Einige Spargelspitzen (vom Spargel abgetrennt)"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frische Petersilie oder Schnittlauch, gehackt"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Brotschnittchen oder Croutons"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Ein Klecks Sahne oder Crème fraîche"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 750,
+        "unit": "ml",
+        "name": "Spargelfond (oder gute Gemüsebrühe)"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "weißer Spargel"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "name": "Butter"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "name": "Mehl"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Sahne"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch geriebene Muskatnuss"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: Prise Zucker"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: Spritzer Zitronensaft"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Einige Spargelspitzen (vom Spargel abgetrennt)"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frische Petersilie oder Schnittlauch, gehackt"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Brotschnittchen oder Croutons"
+      },
+      {
+            "amount": undefined,
+            "unit": "",
+            "name": "Ein Klecks Sahne oder Crème fraîche"
+          }
+    ],
+    "instructions": [
+      "Spargel schälen. Spargelspitzen (ca. 3-4 cm) für Garnitur (optional) abschneiden und beiseitelegen. Restlichen Spargel in ca. 2-3 cm lange Stücke schneiden.",
+      "Spargelfond (oder Gemüsebrühe) in einem Topf erhitzen. Die Spargelstücke (ohne Spitzen) und optional die Spargelspitzen darin ca. 10-15 Minuten köcheln lassen, bis der Spargel weich ist.",
+      "Spargelspitzen (falls mitgekocht) vorsichtig aus dem Fond nehmen und beiseitestellen.",
+      "In einem separaten Topf die Butter schmelzen. Mehl einrühren, 1-2 Min anschwitzen (nicht bräunen).",
+      "Ca. 600 ml des heißen Spargelfonds (in dem der Spargel gekocht hat) nach und nach mit Schneebesen einrühren, glatte Suppenbasis rühren.",
+      "Gekochte Spargelstücke (ohne Spitzen) zur Suppenbasis geben.",
+      "Suppe vom Herd nehmen. Mit Stabmixer sehr fein pürieren, bis sie samtig ist. Bei Bedarf restlichen Fond (150 ml) einrühren für gewünschte Konsistenz.",
+      "Sahne einrühren. Suppe erwärmen (nicht kochen).",
+      "Mit Salz, Pfeffer, Muskat abschmecken. Optional Prise Zucker oder Spritzer Zitronensaft hinzufügen.",
+      "Spargelcremesuppe heiß anrichten. Mit Spargelspitzen, Kräutern, Croutons oder Sahne garnieren. Sofort genießen!"
+    ],
+    "nutrition": {
+      "calories": 860,
+      "protein": "18g",
+      "carbs": "58g",
+      "fat": "64g"
+    },
+    "tips": [
+      "Für schnellste Spargelcremesuppe guten fertigen Spargelfond nutzen. Das spart Zeit und garantiert gutes Aroma, wenn du keine Schalen hast.",
+      "Konsistenz zu dick? Einfach noch etwas Spargelfond oder Gemüsebrühe einrühren, bis die Spargelcremesuppe perfekt ist.",
+      "Vegan? Butter/Mehl durch Öl/Pflanzenmehl ersetzen. Sahne durch Pflanzensahne. Schon kochst du vegane Spargelcremesuppe aus Fond.",
+      "Für noch mehr Bindung ohne mehr Mehl eine gekochte Kartoffel mitpürieren. Macht die Spargelcremesuppe sämiger.",
+      "Spargelcremesuppe gut würzen! Muskat ist essentiell, eine Prise Zucker kann helfen, das Aroma des Spargels zu betonen.",
+      "Einen sehr leistungsstarken Stabmixer verwenden, um die Spargelcremesuppe wirklich fein und samtig zu pürieren und faserige Reste zu vermeiden.",
+      "Experimentiere mit Kräutern! Kerbel oder Estragon passen auch hervorragend zum feinen Geschmack einer cremigen Spargelsuppe."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Spargelcremesuppe Rezept überzeugt",
+      "reasons": [
+        {
+          "title": "Blitzschnell",
+          "description": "Wenn der Fond bereitsteht, zauberst du in wenigen Minuten eine köstliche Spargelcremesuppe. Perfekt für spontanen Spargelgenuss, auch wenn wenig Zeit bleibt, Spargelcremesuppe selber zu machen."
+        },
+        {
+          "title": "Volles Spargelaroma",
+          "description": "Mit einem guten Spargelfond oder Gemüsebrühe bringst du den reinen Geschmack des weißen Spargels in deine Suppe. Das macht sie so authentisch und lecker, fast wie Omas Spargelcremesuppe."
+        },
+        {
+          "title": "Wunderbar cremig",
+          "description": "Dank der klassischen Mehlschwitze und der Sahne gelingt die samtige Textur jedes Mal. So muss eine perfekte Spargelcremesuppe sein, ohne zu dünn oder klumpig zu werden."
+        },
+        {
+          "title": "Einfach & gelingsicher",
+          "description": "Dieses Rezept ist super einfach nachzukochen. Auch wenn du zum ersten Mal Spargelcremesuppe kochst, wird sie dir garantiert gelingen. Ein tolles Rezept für Spargelcremesuppe für jeden!"
+        },
+        {
+          "title": "Vielseitig einsetzbar",
+          "description": "Ob als leichte Vorspeise, elegantes Menühighlight oder als Spargelcremesuppe als Hauptgericht mit leckeren Einlagen – sie passt immer perfekt."
+        },
+        {
+          "title": "Saisonaler Genuss",
+          "description": "Diese Suppe feiert den Frühling und das beste saisonale Gemüse. Sie bringt den Geschmack der Spargelzeit direkt auf deinen Tisch und ist ein echter Genussmoment."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, diese schnelle Spargelcremesuppe schmeckt dir fantastisch!",
+      "subText": "Genieße die Spargelzeit!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Spargel vorbereiten und garen",
+        "description": "Der frische Spargel wird geschält und in mundgerechte Stücke geschnitten. Das Garen im heißen Spargelfond sorgt dafür, dass er zart wird und sein Aroma an die Suppenbasis abgibt, bereit für die Weiterverarbeitung zur Spargelcremesuppe."
+      },
+      {
+        "title": "Suppenbasis binden",
+        "description": "Eine klassische Mehlschwitze aus Butter und Mehl wird mit dem aromatisierten Spargelfond abgelöscht. Dies ist der entscheidende Schritt, um der Spargelcremesuppe die gewünschte sämige und cremige Konsistenz zu verleihen, die sie so beliebt macht."
+      },
+      {
+        "title": "Pürieren und vollenden",
+        "description": "Die gekochten Spargelstücke und die gebundene Suppenbasis werden fein püriert, bis eine samtige Cremesuppe entsteht. Mit Sahne, Salz, Pfeffer und Muskat wird die Spargelcremesuppe abgeschmeckt und ist bereit zum Genießen."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die cremige Spargelcremesuppe heiß, garniert nach Belieben.",
+    "servingSuggestions": {
+      "title": "Passende Begleiter für deine Suppe",
+      "description": "Diese Spargelcremesuppe ist auch ohne viel Drumherum schon ein Genuss, aber mit diesen Ideen wird sie zum Fest:",
+      "note": "Kreativität erwünscht!",
+      "items": [
+        {
+          "emoji": "🍞",
+          "title": "Knusprige Croutons",
+          "description": "Für etwas Biss zur samtigen Suppe. Einfach altbackenes Brot würfeln und in Butter oder Olivenöl goldbraun rösten."
+        },
+        {
+          "emoji": "🌿",
+          "title": "Frische Kräuter",
+          "description": "Ein paar fein gehackte Kräuter wie Petersilie, Schnittlauch oder Kerbel geben der Spargelcremesuppe eine frische Note und sehen hübsch aus."
+        },
+        {
+          "emoji": "🥄",
+          "title": "Klecks Sahne/Crème fraîche",
+          "description": "Sieht nicht nur gut aus, sondern verstärkt auch die Cremigkeit. Ein kleiner Löffel in die Tellermitte setzen."
+        },
+        {
+          "emoji": "🌶️",
+          "title": "Chili-Fäden oder -Öl",
+          "description": "Für eine ganz leichte Schärfe, die das Spargelaroma spannend unterstreicht. Sparsam verwenden!"
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wusstest du schon?",
+      "description": "Weißer Spargel wird auch Bleichspargel genannt, weil er unter der Erde wächst und dadurch kein Sonnenlicht bekommt, das ihn grün färben würde."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/spargelcremesuppe-zutaten.webp",
+      "image1": "/images/Soups/spargelcremesuppe-rezept-mit-fond.webp",
+      "image2": "/images/Soups/schnelle-spargelcremesuppe-kochen.webp",
+      "image3": "/images/Soups/rezept-spargelcremesuppe-einfach.webp",
+      "image4": "/images/Soups/spargelcremesuppe-aus-fond-selber-machen.webp",
+      "image5": "/images/Soups/weißer-spargel-suppe-cremig.webp",
+      "image6": "/images/Soups/spargelcremesuppe-als-hauptgericht-rezept.webp",
+      "image7": "/images/Soups/omas-spargelcremesuppe-schnell.webp"
+    }
   }
 ];
 
