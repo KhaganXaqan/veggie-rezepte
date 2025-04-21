@@ -118,7 +118,7 @@ export async function generateStructuredData({ params }: RecipePageProps) {
       position: index + 1,
       text: step
     })),
-    keywords: recipe.tags ? recipe.tags.join(', ') : 'vegetarisch, rezept',
+    keywords: recipe.seo_keywords ? recipe.seo_keywords.join(', ') : 'vegetarisch, rezept',
     mainEntityOfPage: canonicalUrl
   };
 }
