@@ -9859,6 +9859,294 @@ export const recipes: Recipe[] = [
       "image6": "/images/Soups/spargelcremesuppe-als-hauptgericht-rezept.webp",
       "image7": "/images/Soups/omas-spargelcremesuppe-schnell.webp"
     }
+  },
+  {
+    "title": "Leuchtend Grüne Bärlauchcremesuppe",
+    "seo_title": "Bärlauchcremesuppe Rezept - Cremig, Einfach & Saisonal kochen",
+    "image": "/images/Soups/baerlauchcremesuppe.webp",
+    "prepTime": 10,
+    "cookingTime": 15,
+    "seo_keywords": [
+      "Bärlauchcremesuppe Rezept",
+      "Bärlauchcremesuppe",
+      "Rezept Bärlauchcremesuppe",
+      "Bärlauchsuppe cremig",
+      "Bärlauchcremesuppe kochen",
+      "Saisonale Bärlauchsuppe",
+      "Cremige Bärlauchsuppe"
+    ],
+    "rating": 4.7,
+    "reviews": 110,
+    "category": "Suppen",
+    "slug": "leuchtend-gruene-baerlauchcremesuppe",
+    "tags": [
+      "Bärlauch",
+      "Suppe",
+      "Saisonal",
+      "Vegetarisch",
+      "Frühling"
+    ],
+    "createdDate": new Date("2025-04-22T18:30:00Z"),
+    "updatedDate": new Date("2025-04-22T18:30:00Z"),
+    "servings": 3,
+    "description": "Einfaches Bärlauchcremesuppe Rezept. Cremig, leuchtend grün und voller Frühlingsaroma!",
+    "descriptionOnImage": "So schmeckt Frühling!",
+    "introductionParagraph": "Wenn der Wald nach Knoblauch duftet, weiß ich: Bärlauchzeit ist da! Und das bedeutet: Es gibt leuchtend grüne Bärlauchcremesuppe!",
+    "additionalParagraph": "Diese cremige Bärlauchsuppe ist ein echtes Highlight im Frühling und so einfach, dass du sie jederzeit Bärlauchcremesuppe kochen kannst.",
+    "ingredientsNeeded": [
+      {
+        "title": "Frischer Bärlauch",
+        "description": "Das Herzstück! Er bringt das intensive, frische Knoblauch-Aroma in die Bärlauchcremesuppe. Wähle knackige, unbeschädigte Blätter."
+      },
+      {
+        "title": "Gemüsebrühe",
+        "description": "Die flüssige Basis für die Suppe. Eine gute Gemüsebrühe unterstreicht das Bärlaucharoma, ohne es zu überdecken."
+      },
+      {
+        "title": "Fett zum Andünsten (Butter oder Öl)",
+        "description": "Butter oder Olivenöl dienen dazu, die Zwiebeln anzudünsten und Aromen freizusetzen, bevor die Flüssigkeit hinzukommt."
+      },
+      {
+        "title": "Sahne oder Pflanzensahne",
+        "description": "Für die unwiderstehliche Cremigkeit. Sie macht die Bärlauchcremesuppe samtig weich und rundet den Geschmack ab."
+      },
+      {
+        "title": "Zwiebel & optional Kartoffel",
+        "description": "Die Zwiebel sorgt für eine aromatische Grundlage. Eine kleine Kartoffel macht die cremige Bärlauchsuppe sämiger und milder, ohne Mehl."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Suppe",
+        "description": "Alle Zutaten für diese leckere Bärlauchcremesuppe.",
+        "ingredients": [
+          {
+            "amount": 150,
+            "unit": "g",
+            "name": "frischer Bärlauch"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "Zwiebel"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: 1 kleine Kartoffel"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Olivenöl oder Butter"
+          },
+          {
+            "amount": 750,
+            "unit": "ml",
+            "name": "Gemüsebrühe"
+          },
+          {
+            "amount": 100,
+            "unit": "ml",
+            "name": "Sahne oder Pflanzensahne"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: Prise Muskatnuss"
+          }
+        ]
+      },
+      {
+        "title": "Zum Garnieren (Optional)",
+        "description": "Details, die deine Bärlauchcremesuppe perfekt machen.",
+        "ingredients": [
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Einige Bärlauchblätter"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Bärlauchöl"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Croutons"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Klecks Sahne oder Crème fraîche"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "frischer Bärlauch"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "Zwiebel"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: 1 kleine Kartoffel"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Olivenöl oder Butter"
+      },
+      {
+        "amount": 750,
+        "unit": "ml",
+        "name": "Gemüsebrühe"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Sahne oder Pflanzensahne"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: Prise Muskatnuss"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Einige Bärlauchblätter"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Bärlauchöl"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Croutons"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Klecks Sahne oder Crème fraîche"
+      }
+    ],
+    "instructions": [
+      "Bärlauch waschen, trockenschütteln und grob hacken. Einige Blätter für Garnitur beiseitelegen.",
+      "Zwiebel fein würfeln. Kartoffel (falls verwendet) schälen und würfeln.",
+      "In einem Topf Olivenöl oder Butter erhitzen. Zwiebel darin glasig dünsten.",
+      "Kartoffelwürfel (falls verwendet) kurz mitdünsten.",
+      "Gemüsebrühe angießen und aufkochen lassen. Ca. 10-12 Minuten köcheln lassen (bis Kartoffel weich ist).",
+      "Topf vom Herd nehmen. Gehackten Bärlauch (bis auf Garnitur-Blätter) zur Suppe geben.",
+      "Suppe mit einem Stabmixer sehr fein pürieren, bis sie cremig und leuchtend grün ist.",
+      "Sahne (oder Pflanzensahne) einrühren. Suppe erneut erwärmen (nicht kochen!).",
+      "Mit Salz, Pfeffer und optional Muskat abschmecken.",
+      "Bärlauchcremesuppe heiß servieren. Mit beiseitegelegten Bärlauchblättern, Bärlauchöl, Croutons oder einem Klecks Sahne garnieren."
+    ],
+    "nutrition": {
+      "calories": 590,
+      "protein": "9.5g",
+      "carbs": "35.5g",
+      "fat": "43g"
+    },
+    "tips": [
+      "Gib den Bärlauch wirklich erst NACH dem Kochen in die heiße Suppe und püriere sofort. Das erhält die leuchtend grüne Farbe und das frische Aroma deiner Bärlauchcremesuppe.",
+      "Für eine vegane Bärlauchcremesuppe einfach Pflanzensahne und Pflanzenöl/vegane Butter verwenden. Funktioniert genauso gut und schmeckt toll!"
+    ],
+    "whyFavorite": {
+      "title": "Was diese Bärlauchcremesuppe besonders macht",
+      "reasons": [
+        {
+          "title": "Intensives Frühlingsaroma",
+          "description": "Der frische Bärlauch bringt ein einzigartiges, knoblauchiges Aroma in die Suppe. Ein Geschmackserlebnis, das nur die Saison bietet und jede Bärlauchsuppe besonders macht."
+        },
+        {
+          "title": "Schnell & unkompliziert",
+          "description": "In weniger als 30 Minuten steht diese cremige Bärlauchsuppe auf dem Tisch. Perfekt, wenn du schnell etwas Gesundes und Leckeres kochen möchtest."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Genieße den Geschmack des Frühlings mit dieser Bärlauchcremesuppe!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Basis vorbereiten",
+        "description": "Zwiebeln und optional Kartoffel werden angedünstet und in Brühe gekocht. Das schafft eine milde, sämige Grundlage für die cremige Bärlauchsuppe."
+      },
+      {
+        "title": "Bärlauch-Power entfalten",
+        "description": "Der frische Bärlauch kommt erst kurz vor dem Pürieren dazu. So bleibt sein intensives Aroma erhalten und die Suppe bekommt ihre leuchtend grüne Farbe – das Highlight der Bärlauchcremesuppe."
+      },
+      {
+        "title": "Cremigkeit & Würze",
+        "description": "Fein pürieren macht die Suppe samtig. Sahne rundet die Textur ab, Salz und Pfeffer bringen die Bärlauchcremesuppe geschmacklich ins Gleichgewicht."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Bärlauchcremesuppe heiß, garniert nach Belieben.",
+    "servingSuggestions": {
+      "title": "Ideen zur Garnitur",
+      "description": "Die richtige Garnitur macht deine Bärlauchcremesuppe noch schöner und leckerer:",
+      "note": "Das Auge isst mit!",
+      "items": [
+        {
+          "emoji": "🌿",
+          "title": "Frische Bärlauchblätter",
+          "description": "Einige feine Streifen roher Bärlauchblätter obenauf geben extra Aroma und sind dekorativ."
+        },
+        {
+          "emoji": "✨",
+          "title": "Bärlauchöl",
+          "description": "Ein paar Tropfen selbstgemachtes oder gekauftes Bärlauchöl sorgen für einen intensiven Akzent auf deiner Bärlauchcremesuppe."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Lustiges Bärlauchwissen",
+      "description": "Bärlauch wird auch 'Wildknoblauch' genannt und wächst bevorzugt in schattigen Laubwäldern. Achte beim Sammeln darauf, ihn nicht mit giftigen Maiglöckchen zu verwechseln!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/baerlauchcremesuppe-zutaten.webp",
+      "image1": "/images/Soups/baerlauchcremesuppe-rezept-einfach.webp",
+      "image2": "/images/Soups/cremige-baerlauchsuppe-kochen.webp",
+      "image3": "/images/Soups/rezept-baerlauchcremesuppe-saisonal.webp",
+      "image4": "/images/Soups/baerlauchsuppe-cremig-rezept.webp",
+      "image5": "/images/Soups/baerlauchcremesuppe-fruehling.webp",
+      "image6": "/images/Soups/schnelle-baerlauchcremesuppe.webp",
+      "image7": "/images/Soups/vegetarische-baerlauchsuppe.webp"
+    }
   }
 ];
 
