@@ -10147,6 +10147,260 @@ export const recipes: Recipe[] = [
       "image6": "/images/Soups/schnelle-baerlauchcremesuppe.webp",
       "image7": "/images/Soups/vegetarische-baerlauchsuppe.webp"
     }
+  },
+  {
+    "title": "Himmlisch Cremiges Spargelrisotto",
+    "seo_title": "Spargelrisotto Rezept - Cremig, Italienisch & Saisonal",
+    "image": "/images/MainCourses/spargelrisotto.webp",
+    "prepTime": 20,
+    "cookingTime": 25,
+    "seo_keywords": [
+      "Spargelrisotto Rezept",
+      "Spargelrisotto",
+      "Cremiges Spargelrisotto",
+      "Rezept Spargelrisotto",
+      "Spargelrisotto weißer Spargel",
+      "Spargelrisotto grün",
+      "Italienisches Spargelrisotto"
+    ],
+    "rating": 4.9,
+    "reviews": 180,
+    "category": "Hauptgerichte",
+    "slug": "himmlisch-cremiges-spargelrisotto",
+    "tags": [
+      "Spargel",
+      "Risotto",
+      "Italienisch",
+      "Saisonal",
+      "Vegetarisch"
+    ],
+    "createdDate": new Date("2025-04-23T21:20:00Z"),
+    "updatedDate": new Date("2025-04-23T21:20:00Z"),
+    "servings": 4,
+    "description": "Ein traumhaft cremiges Spargelrisotto Rezept wie in Italien. Perfekt für die Spargelzeit!",
+    "descriptionOnImage": "Spargelzeit-Genuss!",
+    "introductionParagraph": "Die Spargelzeit ist für mich Risottozeit! Dieses cremige Spargelrisotto ist einfach himmlisch und bringt Italien auf den Teller.",
+    "additionalParagraph": "Mit frischem Spargel und der perfekten cremigen Konsistenz ist dieses Spargelrisotto Rezept ein Muss in jeder Saison.",
+    "ingredientsNeeded": [
+      {
+        "title": "Risotto Reis",
+        "description": "Arborio oder Carnaroli Reis ist ideal. Seine Stärke sorgt für die cremige Textur des Risottos."
+      },
+      {
+        "title": "Frischer Spargel",
+        "description": "Ob weiß oder grün – er bringt das saisonale Aroma. Weißer Spargelrisotto ist klassisch, grüner schneller gar."
+      },
+      {
+        "title": "Brühe",
+        "description": "Warme Gemüsebrühe oder Spargelfond wird nach und nach eingerührt. Sie gart den Reis und macht das Spargelrisotto cremig."
+      },
+      {
+        "title": "Zwiebel oder Schalotte",
+        "description": "Fein gewürfelt bildet sie die aromatische Grundlage, in der der Reis vor dem Ablöschen angedünstet wird."
+      },
+      {
+        "title": "Weißwein",
+        "description": "Ein trockener Weißwein gibt Säure und Geschmack. Er wird zu Beginn eingerührt und verkocht."
+      },
+      {
+        "title": "Parmesan & Butter",
+        "description": "Für das finale 'mantecare' – das Einrühren für extra Cremigkeit und herzhaften Geschmack im Spargelrisotto."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für das Spargelrisotto",
+        "description": "Alle Zutaten für den italienischen Klassiker mit Spargel.",
+        "ingredients": [
+          {
+            "amount": 300,
+            "unit": "g",
+            "name": "Risotto Reis (Arborio oder Carnaroli)"
+          },
+          {
+            "amount": 500,
+            "unit": "g",
+            "name": "weißer oder grüner Spargel"
+          },
+          {
+            "amount": 1,
+            "unit": "Stück",
+            "name": "Zwiebel oder Schalotte"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Olivenöl oder Butter zum Andünsten"
+          },
+          {
+            "amount": 100,
+            "unit": "ml",
+            "name": "trockener Weißwein"
+          },
+          {
+            "amount": 1,
+            "unit": "L",
+            "name": "heiße Gemüsebrühe oder Spargelfond"
+          },
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "Butter (kalt)"
+          },
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "geriebener Parmesan"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Risotto Reis (Arborio oder Carnaroli)"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "weißer oder grüner Spargel"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "name": "Zwiebel oder Schalotte"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Olivenöl oder Butter zum Andünsten"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "trockener Weißwein"
+      },
+      {
+        "amount": 1,
+        "unit": "L",
+        "name": "heiße Gemüsebrühe oder Spargelfond"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Butter (kalt)"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "geriebener Parmesan"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      }
+    ],
+    "instructions": [
+      "Spargel schälen (grünen Spargel nur am unteren Ende). Holzige Enden abschneiden.",
+      "Spargelspitzen (ca. 3-4 cm) abschneiden, restlichen Spargel in ca. 1 cm dicke Stücke schneiden.",
+      "Zwiebel oder Schalotte fein würfeln.",
+      "Heiße Brühe in einem Topf warm halten.",
+      "In einem großen Topf Olivenöl oder Butter erhitzen. Zwiebel/Schalotte darin glasig dünsten.",
+      "Risotto Reis hinzufügen und 1-2 Minuten unter Rühren glasig anbraten.",
+      "Mit Weißwein ablöschen und unter Rühren einkochen lassen.",
+      "Nun nach und nach heiße Brühe angießen, immer nur so viel, dass der Reis gerade bedeckt ist. Rühren, bis die Flüssigkeit fast aufgenommen ist, dann neue Brühe nachgießen.",
+      "Nach ca. 10 Minuten die Spargelstücke (ohne Spitzen) zum Reis geben.",
+      "Weiter Brühe angießen und rühren. Nach ca. 18-20 Minuten (oder nach Packungsanweisung) ist der Reis gar (al dente).",
+      "Kurz vor Ende die Spargelspitzen hinzufügen (grüner Spargel nur 3-4 Minuten, weißer länger).",
+      "Topf vom Herd nehmen. Kalte Butter und Parmesan unterrühren, bis das Risotto schön cremig bindet (mantecare). Mit Salz und Pfeffer abschmecken.",
+      "Zugedeckt 2 Minuten ruhen lassen, dann sofort servieren."
+    ],
+    "nutrition": {
+      "calories": 2050,
+      "protein": "50g",
+      "carbs": "260g",
+      "fat": "81g"
+    },
+    "tips": [
+      "Die Brühe muss heiß sein! Kalte Brühe stoppt den Kochvorgang und macht das Risotto nicht cremig. Immer nur eine Kelle auf einmal angießen.",
+      "Für ein cremiges Ergebnis ist ständiges Rühren wichtig. Das setzt die Stärke frei, die das Risotto bindet. Mit weißem Spargelrisotto gelingt die Cremigkeit besonders gut."
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Spargelrisotto begeistert",
+      "reasons": [
+        {
+          "title": "Perfekte Cremigkeit",
+          "description": "Durch das langsame Angießen der Brühe und das Rühren entsteht die typische samtige Risotto-Textur, die einfach unwiderstehlich ist."
+        },
+        {
+          "title": "Bestes Spargelaroma",
+          "description": "Frischer Spargel, ob als weißes Spargelrisotto oder mit grünem Spargel, gibt sein feines Aroma ab und macht das Gericht zu einem saisonalen Highlight."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, dein cremiges Spargelrisotto schmeckt dir fantastisch!",
+      "subText": "Genieße die Spargelzeit!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Basis schaffen",
+        "description": "Das Andünsten der Zwiebel und das Anrösten des Reis sind entscheidend für das Aroma und die spätere Textur des cremigen Spargelrisottos. So beginnt jedes gute italienische Risotto."
+      },
+      {
+        "title": "Schrittweise garen",
+        "description": "Das langsame Angießen der heißen Brühe bei ständigem Rühren gart den Reis perfekt al dente und setzt gleichzeitig die Stärke frei, die das Spargelrisotto so cremig macht. Der Spargel wird mitgegart."
+      },
+      {
+        "title": "Vollenden ('Mantecare')",
+        "description": "Das kräftige Einrühren von Butter und Parmesan am Ende bindet das Spargelrisotto zu einer himmlisch cremigen Einheit. Dies ist der finale Schritt zum perfekten Ergebnis."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie das cremige Spargelrisotto sofort nach dem Kochen, garniert mit Parmesan.",
+    "servingSuggestions": {
+      "title": "Perfekt anrichten",
+      "description": "Ein schön angerichtetes Spargelrisotto schmeckt noch besser:",
+      "note": "Sofort genießen!",
+      "items": [
+        {
+          "emoji": "🌿",
+          "title": "Frische Kräuter",
+          "description": "Etwas gehackte Petersilie oder Schnittlauch bringt Frische und Farbe auf das Spargelrisotto."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wussten Sie schon?",
+      "description": "Risotto stammt ursprünglich aus Norditalien und seine Cremigkeit entsteht nicht durch Sahne, sondern durch die langsame Freisetzung von Stärke aus dem Reis durch Rühren."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/spargelrisotto-zutaten.webp",
+      "image1": "/images/MainCourses/spargelrisotto-rezept-cremig.webp",
+      "image2": "/images/MainCourses/italienisches-spargelrisotto.webp",
+      "image3": "/images/MainCourses/weisses-spargelrisotto-rezept.webp",
+      "image4": "/images/MainCourses/rezept-spargelrisotto-gruen-weiss.webp",
+      "image5": "/images/MainCourses/spargelrisotto-weisser-spargel.webp",
+      "image6": "/images/MainCourses/spargelrisotto-mit-gruenem-spargel.webp",
+      "image7": "/images/MainCourses/cremiges-risotto-spargelzeit.webp"
+    }
   }
 ];
 
