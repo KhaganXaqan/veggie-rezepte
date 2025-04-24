@@ -175,6 +175,43 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const recommendedRecipes = getRandomRecipes(recipesFromSameCategory, 3)
   const recommendedRecipes2 = getRandomRecipes(otherRecipes, 6)
 
+  // Render a single horizontally-filled star
+  function HorizontalStar({ fill, index }: { fill: number; index: number }) {
+    // Clamp fill between 0 and 1
+    const fillPct = Math.max(0, Math.min(1, fill));
+    return (
+      <svg
+        width={24}
+        height={24}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+        focusable="false"
+        style={{ display: 'block' }}
+      >
+        {/* Background: white star with gray border */}
+        <path
+          d="M12 2.5l3.09 6.26 6.91.99-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.62l-5-4.87 6.91-.99L12 2.5z"
+          fill="#fff"
+          stroke="#D1D5DB"
+          strokeWidth={1}
+        />
+        {/* Foreground: yellow fill, clipped to fillPct width */}
+        <defs>
+          <clipPath id={`star-clip-${index}`}> {/* Unique per star */}
+            <rect x="0" y="0" width={24 * fillPct} height="24" />
+          </clipPath>
+        </defs>
+        <path
+          d="M12 2.5l3.09 6.26 6.91.99-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.62l-5-4.87 6.91-.99L12 2.5z"
+          fill="#FFD700"
+          clipPath={`url(#star-clip-${index})`}
+        />
+      </svg>
+    );
+  }
+
   return (
     <>
       {/* Add structured data script */}
@@ -261,13 +298,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     {/* Right Column - Rating Stars and Recipe Metadata */}
                     <div className="flex flex-col items-end">
                       {/* Rating Stars */}
-                      <div className="flex items-center gap-2 mb-2">
-                        <div className="flex text-yellow-400">
-                          {[...Array(5)].map((_, i) => (
-                            <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill={i < Math.floor(validRecipe.rating || 0) ? "currentColor" : "rgba(209, 213, 219, 0.5)"}>
-                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                            </svg>
-                          ))}
+                      <div className="flex items-center gap-2 mb-2" title={`Rating: ${validRecipe.rating || 0} out of 5`} aria-label={`Bewertung: ${validRecipe.rating || 0} von 5 Sternen`}>
+                        <div className="flex">
+                          {[...Array(5)].map((_, i) => {
+                            const rating = validRecipe.rating || 0;
+                            // Calculate fill for this star: 1 = full, 0 = empty, fraction = partial
+                            const fill = Math.max(0, Math.min(1, rating - i));
+                            return <HorizontalStar key={i} fill={fill} index={i} />;
+                          })}
                         </div>
                         <span className="ml-2 text-sm font-normal text-black">{validRecipe.rating || 0}</span>
                         <span className="ml-1 text-gray-500 text-xs">aus {validRecipe.reviews} Bewertungen</span>
@@ -494,7 +532,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       </p>
                       <div className="space-y-2">
                         {validRecipe.servingSuggestions.items.map((item, index) => (
-                          <div key={index} className="flex items-start gap-2">
+                          <div key={index} className="flex items-start gap-3">
                             <span className="text-3xl">{item.emoji}</span>
                             <div>
                               <strong className="font-semibold ">{item.title}</strong> {item.description}
