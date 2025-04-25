@@ -818,7 +818,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                               loading="lazy"
                               decoding="async"
                               itemProp="contentUrl"
-                              src={popularRecipe.image}
+                              src={popularRecipe.1ge}
                               alt={popularRecipe.title}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                             />
