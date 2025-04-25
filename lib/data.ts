@@ -10401,6 +10401,260 @@ export const recipes: Recipe[] = [
       "image6": "/images/MainCourses/spargelrisotto-mit-gruenem-spargel.webp",
       "image7": "/images/MainCourses/cremiges-risotto-spargelzeit.webp"
     }
+  },
+  {
+    "title": "Einfacher Spargelsalat mit Vinaigrette",
+    "seo_title": "Spargelsalat Rezept - Einfach, Saisonal & Perfekt für Frühling",
+    "image": "/images/Salads/spargelsalat-mit-vinaigrette.webp",
+    "prepTime": 15,
+    "cookingTime": 15,
+    "seo_keywords": [
+      "Spargelsalat Rezept",
+      "Spargelsalat weiß",
+      "Spargelsalat grün",
+      "Rezept Spargelsalat",
+      "Spargelsalat einfach",
+      "Spargelsalat Dressing",
+      "Saisonaler Spargelsalat"
+    ],
+    "rating": 4.6,
+    "reviews": 95,
+    "category": "Salate",
+    "slug": "einfacher-spargelsalat-mit-vinaigrette",
+    "tags": [
+      "Spargel",
+      "Salat",
+      "Saisonal",
+      "Vegetarisch",
+      "Frühling"
+    ],
+    "createdDate": new Date("2025-04-24T19:50:00Z"),
+    "updatedDate": new Date("2025-04-24T19:50:00Z"),
+    "servings": 4,
+    "description": "Ein schnelles Spargelsalat Rezept – perfekt für die Spargelzeit! Einfach & köstlich.",
+    "descriptionOnImage": "Frische Spargelzeit!",
+    "introductionParagraph": "Spargelzeit bedeutet für mich nicht nur Sauce Hollandaise, sondern auch: leichter, frischer Spargelsalat!",
+    "additionalParagraph": "Ob mit weißem Spargelrisotto oder grünem Spargel, dieses einfache Rezept ist ein Muss im Frühling und passt super als Beilage oder leichte Mahlzeit.",
+    "ingredientsNeeded": [
+      {
+        "title": "Frischer Spargel",
+        "description": "Weißen Spargel schälen und grüne Spargelenden abschneiden. Er ist der Star und bringt sein feines saisonales Aroma in den Salat."
+      },
+      {
+        "title": "Flüssigkeit für den Spargel",
+        "description": "Wasser mit Salz und Zucker. Darin wird der Spargel gar gekocht. Das Kochwasser kann für Suppen verwendet werden."
+      },
+      {
+        "title": "Dressing: Öl, Essig, Senf & Zucker",
+        "description": "Olivenöl, Weißweinessig, Senf und eine Prise Zucker bilden die klassische Vinaigrette. Der Essig sorgt für Frische und Säure im Spargelsalat Dressing."
+      },
+      {
+        "title": "Kräuter",
+        "description": "Frische Petersilie oder Schnittlauch passen hervorragend zum Spargelsalat und bringen zusätzliche Frische und Farbe."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für den Spargel",
+        "description": "Vorbereitung des Hauptdarstellers.",
+        "ingredients": [
+          {
+            "amount": 500,
+            "unit": "g",
+            "name": "weißer oder grüner Spargel"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Wasser"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Zucker"
+          }
+        ]
+      },
+      {
+        "title": "Fürs Dressing",
+        "description": "Die leckere Vinaigrette für deinen Spargelsalat.",
+        "ingredients": [
+          {
+            "amount": 4,
+            "unit": "EL",
+            "name": "Olivenöl"
+          },
+          {
+            "amount": 2,
+            "unit": "EL",
+            "name": "Weißweinessig"
+          },
+          {
+            "amount": 1,
+            "unit": "TL",
+            "name": "mittelscharfer Senf"
+          },
+          {
+            "amount": 1,
+            "unit": "Prise",
+            "name": "Zucker"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Salz"
+          },
+          {
+            "amount": undefined,
+  
+            "unit": "",
+            "name": "Frisch gemahlener Pfeffer"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: frische gehackte Kräuter (Petersilie, Schnittlauch)"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "weißer oder grüner Spargel"
+      },     
+      {
+        "amount": 4,
+        "unit": "EL",
+        "name": "Olivenöl"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "name": "Weißweinessig"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "name": "mittelscharfer Senf"
+      },
+      {
+        "amount": 1,
+        "unit": "Prise",
+        "name": "Zucker"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Salz"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Wasser"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Zucker"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: frische gehackte Kräuter (Petersilie, Schnittlauch)"
+      }
+    ],
+    "instructions": [
+      "Spargel schälen (weißen komplett, grünen nur das untere Drittel). Holzige Enden abschneiden.",
+      "In einem Topf Wasser mit Salz und einer Prise Zucker aufkochen.",
+      "Spargel darin gar kochen. Weißen Spargel ca. 12-15 Minuten, grünen ca. 6-8 Minuten, je nach Dicke.",
+      "Gekochten Spargel aus dem Wasser nehmen und abtropfen lassen.",
+      "Für das Dressing Olivenöl, Essig, Senf, Zucker, Salz und Pfeffer in einer kleinen Schüssel verquirlen, bis es sich verbindet.",
+      "Den abgekühlten (oder noch leicht warmen) Spargel in mundgerechte Stücke schneiden.",
+      "Spargelstücke in eine Schüssel geben. Das Dressing darüber gießen.",
+      "Optional gehackte Kräuter hinzufügen und alles vorsichtig vermischen.",
+      "Den Spargelsalat vor dem Servieren ca. 10-15 Minuten ziehen lassen."
+    ],
+    "nutrition": {
+      "calories": 614,
+      "protein": "10g",
+      "carbs": "22g",
+      "fat": "57g"
+    },
+    "tips": [
+      "Das Spargelkochwasser nicht wegschütten! Es ist eine tolle Basis für eine Spargelcremesuppe oder andere Saucen.",
+      "Experimentiere mit dem Dressing! Statt Vinaigrette passt auch eine cremige Variante mit Joghurt oder Mayonnaise zum Spargelsalat."
+    ],
+    "whyFavorite": {
+      "title": "Was diesen Spargelsalat so toll macht",
+      "reasons": [
+        {
+          "title": "Herrlich frisch & leicht",
+          "description": "Dieser Spargelsalat ist ein Genuss an warmen Tagen. Er ist leicht verdaulich und voller saisonaler Aromen."
+        },
+        {
+          "title": "Super einfach",
+          "description": "Mit wenigen Schritten und Zutaten zauberst du einen köstlichen Salat. Das Spargelsalat Rezept ist perfekt für jeden Anlass."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, dieser Spargelsalat versüßt dir die Spargelzeit!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Spargel kochen",
+        "description": "Der erste Schritt ist das richtige Garen des Spargels. Er sollte gar, aber noch leicht bissfest sein. Das Kochwasser wird gewürzt, um dem Spargel schon beim Kochen Geschmack zu geben."
+      },
+      {
+        "title": "Dressing mixen",
+        "description": "Eine schnelle Vinaigrette mit guten Zutaten ist entscheidend. Das Mischen von Öl und Essig mit Senf und Zucker sorgt für Balance und Aroma im Spargelsalat Dressing."
+      },
+      {
+        "title": "Alles vereinen",
+        "description": "Den gekochten Spargel schneiden und mit dem Dressing vermischen. Das kurze Ziehenlassen vor dem Servieren ermöglicht es dem Spargel, die Aromen aufzunehmen."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie den Spargelsalat als Beilage oder leichte Mahlzeit.",
+    "servingSuggestions": {
+      "title": "Passt gut dazu",
+      "description": "Dieser Spargelsalat ist vielseitig:",
+      "note": "Auch mit anderen Zutaten lecker!",
+      "items": [
+        {
+          "emoji": "🍓",
+          "title": "Erdbeeren",
+          "description": "Für eine überraschende Süße und Farbe: Ein paar Erdbeeren passen wunderbar in den Spargelsalat."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wissenswertes über Spargel",
+      "description": "Spargel wächst bis zu 7 cm pro Tag! Das macht die Ernte während der Saison zu einem ständigen Auf und Ab."
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/spargelsalat-mit-vinaigrette-zutaten.webp",
+      "image1": "/images/Salads/spargelsalat-rezept-einfach.webp",
+      "image2": "/images/Salads/spargelsalat-weiss-gruen.webp",
+      "image3": "/images/Salads/rezept-spargelsalat-dressing.webp",
+      "image4": "/images/Salads/saisonaler-spargelsalat.webp",
+      "image5": "/images/Salads/spargelsalat-fruehling.webp",
+      "image6": "/images/Salads/vegetarischer-spargelsalat.webp",
+      "image7": "/images/Salads/vegetarischer-spargelsalat-mit-vinaigrette.webp"
+    }
   }
 ];
 
