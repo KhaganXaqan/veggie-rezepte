@@ -279,7 +279,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       {/* Action Buttons */}
                       <div className="flex items-center gap-4 mt-4">
                         <a
-                          href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://veggie-rezepte.de/${validRecipe.slug}`)}&media=${encodeURIComponent(`https://veggie-rezepte.de${validRecipe.image}`)}&description=${encodeURIComponent(`✨ ${validRecipe.title.toUpperCase()} ✨\n\nEin leckeres vegatarisches Rezept von Veggie Rezepte! Probier es jetzt aus! #veggierezepte #vegetarisch #vegan #rezept`)}`}
+                          href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://veggie-rezepte.de/${validRecipe.slug}`)}&media=${encodeURIComponent(`https://veggie-rezepte.de${validRecipe.image}`)}&description=${encodeURIComponent(`✨ ${validRecipe.title.toUpperCase()} ✨\n\n${validRecipe.description} #veggierezepte #vegetarisch #rezept`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="border border-black py-2.5 px-6 font-bold text-black hover:bg-gray-100 transition-colors duration-200 text-center rounded-md text-sm"

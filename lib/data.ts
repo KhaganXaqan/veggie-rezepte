@@ -10655,6 +10655,258 @@ export const recipes: Recipe[] = [
       "image6": "/images/Salads/vegetarischer-spargelsalat.webp",
       "image7": "/images/Salads/vegetarischer-spargelsalat-mit-vinaigrette.webp"
     }
+  },
+  {
+    "title": "Sommerliches Erdbeer-Tiramisu im Glas",
+    "seo_title": "Erdbeer-Tiramisu Rezept Einfach - Am Vortag zubereiten!",
+    "image": "/images/Desserts/sommerliches-erdbeer-tiramisu-im-glas.webp",
+    "prepTime": 25,
+    "cookingTime": 0,
+    "seo_keywords": [
+      "Erdbeer-Tiramisu Rezept",
+      "Erdbeer Tiramisu einfach",
+      "Erdbeer-Tiramisu am Vortag zubereiten",
+      "Bestes Erdbeer-Tiramisu Rezept",
+      "Erdbeer Tiramisu Mascarpone",
+      "Sommer Dessert Erdbeeren",
+      "Tiramisu mit Erdbeeren"
+    ],
+    "rating": 4.8,
+    "reviews": 150,
+    "category": "Desserts",
+    "slug": "sommerliches-erdbeer-tiramisu-im-glas",
+    "tags": [
+      "Erdbeeren",
+      "Tiramisu",
+      "Dessert",
+      "Sommer",
+      "Einfach"
+    ],
+    "createdDate": new Date("2025-04-27T09:00:00Z"),
+    "updatedDate": new Date("2025-04-27T09:00:00Z"),
+    "servings": 6,
+    "description": "Ein einfaches Erdbeer-Tiramisu Rezept – perfekt, um es am Vortag zuzubereiten. Dein bestes Sommer-Dessert!",
+    "descriptionOnImage": "So schmeckt der Sommer!",
+    "introductionParagraph": "Sobald die ersten süßen Erdbeeren reif sind, muss ich einfach Erdbeer-Tiramisu machen! Es ist das perfekte Sommer-Dessert.",
+    "additionalParagraph": "Dieses Erdbeer-Tiramisu ist so einfach gemacht und lässt sich super am Vortag zubereiten – ideal für Gäste oder einen gemütlichen Abend.",
+    "ingredientsNeeded": [
+      {
+        "title": "Frische Erdbeeren",
+        "description": "Süße, reife Erdbeeren sind das Herzstück. Sie werden mariniert und liefern den fruchtigen Geschmack und die Farbe für dein Erdbeer-Tiramisu."
+      },
+      {
+        "title": "Mascarpone",
+        "description": "Der italienische Frischkäse sorgt für die typisch cremige, reichhaltige Textur der Tiramisu-Creme. Unverzichtbar für ein authentisches Ergebnis."
+      },
+      {
+        "title": "Eier",
+        "description": "Eigelb und geschlagenes Eiweiß geben der Creme Bindung, Leichtigkeit und eine tolle Konsistenz. (Beachte Hinweise zur Verwendung roher Eier)."
+      },
+      {
+        "title": "Zucker & Vanille",
+        "description": "Sie süßen die Creme und die Erdbeeren. Vanille rundet das Aroma perfekt ab und passt wunderbar zu Erdbeeren und Mascarpone."
+      },
+      {
+        "title": "Löffelbiskuits",
+        "description": "Sie saugen die Erdbeerflüssigkeit auf und bilden die lockere Schicht zwischen den Cremeschichten. Die Basis für dein Erdbeer-Tiramisu."
+      },
+      {
+        "title": "Flüssigkeit zum Tränken",
+        "description": "Erdbeersaft, Sirup oder ein Schuss Likör (wie Cointreau) geben den Löffelbiskuits Feuchtigkeit und zusätzliches Aroma."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Für die Creme",
+        "description": "Die cremige Mascarpone-Basis für unser Erdbeer-Tiramisu.",
+        "ingredients": [
+          {
+            "amount": 250,
+            "unit": "g",
+            "name": "Mascarpone"
+          },
+          {
+            "amount": 2,
+            "unit": "Stück",
+            "name": "Eier (getrennt)"
+          },
+          {
+            "amount": 50,
+            "unit": "g",
+            "name": "Zucker"
+          },
+          {
+            "amount": 1,
+            "unit": "Pck",
+            "name": "Vanillezucker"
+          }
+        ]
+      },
+      {
+        "title": "Für die Schichten & Tränke",
+        "description": "Was wir zum Schichten und für das fruchtige Aroma brauchen.",
+        "ingredients": [
+          {
+            "amount": 500,
+            "unit": "g",
+            "name": "frische Erdbeeren"
+          },
+          {
+            "amount": 200,
+            "unit": "g",
+            "name": "Löffelbiskuits"
+          },
+          {
+            "amount": 150,
+            "unit": "ml",
+            "name": "Erdbeersaft, Sirup oder Saft/Likör-Mischung"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: Minze zum Garnieren"
+          },
+          {
+            "amount": undefined,
+            "unit": "",
+            "name": "Optional: Puderzucker zum Bestäuben"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Mascarpone"
+      },
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "name": "Eier (getrennt)"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Zucker"
+      },
+      {
+        "amount": 1,
+        "unit": "Pck",
+        "name": "Vanillezucker"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "frische Erdbeeren"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Löffelbiskuits"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "name": "Erdbeersaft, Sirup oder Saft/Likör-Mischung"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: Minze zum Garnieren"
+      },
+      {
+        "amount": undefined,
+        "unit": "",
+        "name": "Optional: Puderzucker zum Bestäuben"
+      }
+    ],
+    "instructions": [
+      "Erdbeeren waschen, putzen. Einige Erdbeeren für die Garnitur beiseitestellen. Restliche Erdbeeren würfeln und mit 1 EL Zucker mischen, ca. 10 Min. ziehen lassen.",
+      "Für die Creme: Eigelb mit Zucker und Vanillezucker cremig schlagen, bis die Masse heller wird.",
+      "Mascarpone löffelweise unter die Eigelbmasse rühren, bis eine glatte Creme entsteht.",
+      "Eiweiß steif schlagen und vorsichtig unter die Mascarpone-Creme heben.",
+      "Eine Schicht Löffelbiskuits in eine passende Form oder einzelne Gläser legen.",
+      "Löffelbiskuits mit Erdbeersaft/Tränke beträufeln.",
+      "Eine Schicht Mascarpone-Creme daraufgeben. Dann eine Schicht gewürfelte Erdbeeren verteilen.",
+      "Schichten wiederholen, bis alle Zutaten verbraucht sind. Mit Creme abschließen.",
+      "Erdbeer-Tiramisu abdecken und mindestens 4 Stunden, besser über Nacht, im Kühlschrank durchziehen lassen.",
+      "Vor dem Servieren mit beiseitegelegten Erdbeeren und optional Minze/Puderzucker garnieren."
+    ],
+    "nutrition": {
+      "calories": 2580,
+      "protein": "54g",
+      "carbs": "280g",
+      "fat": "148g"
+    },
+    "tips": [
+      "Für eine egg-free Variante die Eier weglassen und stattdessen geschlagene Sahne unter die Mascarpone rühren. Funktioniert auch super!",
+      "Statt nur Erdbeeren passen auch andere Beeren wie Himbeeren oder Blaubeeren sehr gut zum Erdbeer-Tiramisu. Probiere deine Lieblingskombination!"
+    ],
+    "whyFavorite": {
+      "title": "Warum dieses Erdbeer-Tiramisu so gut ist",
+      "reasons": [
+        {
+          "title": "Herrlich fruchtig & cremig",
+          "description": "Die Kombination aus süßen Erdbeeren und cremiger Mascarpone ist einfach unschlagbar. Ein leichtes, sommerliches Tiramisu mit Suchtpotenzial!"
+        },
+        {
+          "title": "Perfekt vorbereitet",
+          "description": "Dieses Erdbeer-Tiramisu lässt sich wunderbar am Vortag zubereiten. Über Nacht zieht es richtig durch und schmeckt am nächsten Tag noch besser. So entspannt ist Gastgeber sein!"
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Ich hoffe, dieses Erdbeer-Tiramisu versüßt dir den Sommer!",
+      "subText": "Lass es dir schmecken!",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Erdbeeren vorbereiten",
+        "description": "Frische Erdbeeren werden gewaschen, geschnitten und leicht gezuckert. Sie geben Saft ab, der später die Löffelbiskuits tränkt und das ganze Erdbeer-Tiramisu fruchtig macht."
+      },
+      {
+        "title": "Creme anrühren",
+        "description": "Eigelb wird mit Zucker schaumig geschlagen und mit Mascarpone und Eischnee vorsichtig verbunden. Das Ergebnis ist eine luftig-cremige Masse, die später den Kern des Erdbeer-Tiramisus bildet."
+      },
+      {
+        "title": "Schichten & Kühlen",
+        "description": "Löffelbiskuits werden kurz in Flüssigkeit getunkt und abwechselnd mit Creme und Erdbeeren geschichtet. Das lange Kühlen ist entscheidend, damit alles fest wird und die Aromen sich verbinden – unerlässlich, wenn man es am Vortag zubereitet."
+      }
+    ],
+    "servingSuggestion": "Genießen Sie das Erdbeer-Tiramisu gut gekühlt als Dessert.",
+    "servingSuggestions": {
+      "title": "So schmeckt's noch besser",
+      "description": "Dein Erdbeer-Tiramisu ist schon ein Star, aber diese Kleinigkeiten setzen noch Akzente:",
+      "note": "Eiskalt ein Genuss!",
+      "items": [
+        {
+          "emoji": "🍓",
+          "title": "Frische Erdbeeren",
+          "description": "Ein paar Scheiben frische Erdbeeren obenauf sehen nicht nur toll aus, sondern bringen extra Fruchtigkeit."
+        },
+        {
+          "emoji": "🍃",
+          "title": "Minzblättchen",
+          "description": "Ein frisches Minzblättchen als Garnitur sorgt für eine erfrischende Note und rundet das sommerliche Dessert ab."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Wissenswertes über Tiramisu",
+      "description": "Tiramisu bedeutet wörtlich 'zieh mich hoch' oder 'munter mich auf' auf Italienisch – passend für dieses belebende Dessert!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/sommerliches-erdbeer-tiramisu-im-glas-zutaten.webp",
+      "image1": "/images/Desserts/erdbeer-tiramisu-rezept-einfach.webp",
+      "image2": "/images/Desserts/erdbeer-tiramisu-am-vortag-zubereiten.webp",
+      "image3": "/images/Desserts/bestes-erdbeer-tiramisu-rezept.webp",
+      "image4": "/images/Desserts/erdbeer-tiramisu-mascarpone.webp",
+      "image5": "/images/Desserts/sommer-dessert-erdbeeren-tiramisu.webp",
+      "image6": "/images/Desserts/tiramisu-mit-erdbeeren-rezept.webp",
+      "image7": "/images/Desserts/schnelles-erdbeer-tiramisu.webp"
+    }
   }
 ];
 
