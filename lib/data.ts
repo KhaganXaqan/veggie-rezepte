@@ -11186,6 +11186,222 @@ export const recipes: Recipe[] = [
     "image6": "/images/Desserts/kaesekuchen-mit-beeren-rezept-cremig.jpeg",
     "image7": "/images/Desserts/beeren-kaesekuchen-saisonal.jpeg"
   }
+},
+{
+  "title": "Tomaten-Mozzarella-Auflauf",
+  "seo_title": "Tomaten Mozzarella Auflauf Rezept - Cremig & Einfach",
+  "image": "/images/Miscellaneous/tomaten-mozzarella-auflauf.jpeg",
+  "prepTime": 15,
+  "cookingTime": 25,
+  "seo_keywords": [
+    "Tomaten Mozzarella Auflauf Rezept",
+    "Tomaten Mozzarella Auflauf",
+    "Cremiger Tomaten Mozzarella Auflauf",
+    "Rezept Tomaten Mozzarella Auflauf",
+    "Vegetarischer Tomaten Mozzarella Auflauf",
+    "Einfacher Tomaten Mozzarella Auflauf",
+    "Caprese Auflauf"
+  ],
+  "rating": 4.7,
+  "reviews": 130,
+  "category": "Aufläufe",
+  "slug": "tomaten-mozzarella-auflauf",
+  "tags": [
+    "Tomaten",
+    "Mozzarella",
+    "Auflauf",
+    "Vegetarisch",
+    "Italienisch"
+  ],
+  "createdDate": new Date("2025-04-29T19:55:00Z"),
+  "updatedDate": new Date("2025-04-29T19:55:00Z"),
+  "servings": 2,
+  "description": "Ein einfaches Tomaten Mozzarella Auflauf Rezept. Schnell, cremig & vegetarisch!",
+  "descriptionOnImage": "Italienisch genießen!",
+  "introductionParagraph": "Manchmal brauche ich schnelles Essen, das trotzdem nach Sonne und Urlaub schmeckt – da ist ein Tomaten-Mozzarella-Auflauf perfekt!",
+  "additionalParagraph": "Dieser cremige Tomaten Mozzarella Auflauf ist so einfach und eine tolle vegetarische Variante des italienischen Klassikers.",
+  "ingredientsNeeded": [
+    {
+      "title": "Tomaten",
+      "description": "Reife Tomaten liefern die saftige Basis und den süßlich-säuerlichen Geschmack für den Auflauf."
+    },
+    {
+      "title": "Mozzarella",
+      "description": "Frischer Mozzarella, der beim Backen wunderbar schmilzt und Fäden zieht. Er macht den Tomaten Mozzarella Auflauf herrlich cremig."
+    },
+    {
+      "title": "Basilikum",
+      "description": "Das A und O für den Caprese-Geschmack. Frische Basilikumblätter bringen das typische Aroma in den Auflauf."
+    },
+    {
+      "title": "Olivenöl & Gewürze",
+      "description": "Gutes Olivenöl, Salz und Pfeffer. Einfache Zutaten, die den Geschmack der Tomaten und des Mozzarellas hervorheben."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Auflauf",
+      "description": "Die wenigen, aber entscheidenden Zutaten.",
+      "ingredients": [
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "reife Tomaten"
+        },
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "Mozzarella (in Kugeln)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frische Basilikumblätter"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Gutes Olivenöl"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frisch gemahlener Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: Balsamico Glaze zum Garnieren"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "reife Tomaten"
+    },
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "Mozzarella (in Kugeln)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frische Basilikumblätter"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Gutes Olivenöl"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frisch gemahlener Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: Balsamico Glaze zum Garnieren"
+    }
+  ],
+  "instructions": [
+    "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+    "Tomaten in Scheiben schneiden. Mozzarella abtropfen lassen und ebenfalls in Scheiben schneiden.",
+    "Eine kleine Auflaufform (ca. 20x15 cm) mit etwas Olivenöl ausstreichen.",
+    "Tomatenscheiben und Mozzarellascheiben abwechselnd schichtweise oder fächerförmig in die Form geben.",
+    "Basilikumblätter dazwischen oder darüber zupfen.",
+    "Mit Olivenöl beträufeln, mit Salz und Pfeffer würzen.",
+    "Im vorgeheizten Ofen ca. 20-25 Minuten backen, bis der Käse geschmolzen und leicht gebräunt ist und die Tomaten weich sind.",
+    "Herausnehmen und optional mit Balsamico Glaze beträufeln."
+  ],
+  "nutrition": {
+    "calories": 975,
+    "protein": "55g",
+    "carbs": "22.5g",
+    "fat": "28g"
+  },
+  "tips": [
+    "Verwenden Sie Büffelmozzarella für extra Cremigkeit. Er schmilzt besonders schön im Tomaten Mozzarella Auflauf.",
+    "Für mehr Geschmack können Sie Knoblauchscheiben zwischen die Tomaten und Mozzarella legen oder getrocknete Kräuter hinzufügen."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Auflauf so beliebt ist",
+    "reasons": [
+      {
+        "title": "Klassische Kombi",
+        "description": "Die einfache, aber geniale Kombination aus Tomate, Mozzarella und Basilikum ist einfach immer lecker. Dieser Auflauf feiert diesen Geschmack!"
+      },
+      {
+        "title": "Blitzschnell gemacht",
+        "description": "Wenige Zutaten, schnelle Zubereitung – perfekt für spontane Gelüste oder wenn es schnell gehen muss. Ein einfaches Rezept für Tomaten Mozzarella Auflauf."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieser Tomaten-Mozzarella-Auflauf schmeckt dir wunderbar!",
+    "subText": "Genieße italienische Momente!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Zutaten vorbereiten",
+      "description": "Tomaten und Mozzarella werden in Scheiben geschnitten, Basilikum gezupft. Das ist die simple Basis für deinen Tomaten Mozzarella Auflauf."
+    },
+    {
+      "title": "Schichten & Würzen",
+      "description": "Tomaten, Mozzarella und Basilikum werden in der Form geschichtet und gut gewürzt. So verteilen sich die Aromen im Auflauf."
+    },
+    {
+      "title": "Backen bis cremig",
+      "description": "Im Ofen verschmelzen die Zutaten zu einem cremigen, leckeren Tomaten Mozzarella Auflauf. Der Käse wird goldbraun und die Tomaten saftig."
+    }
+  ],
+  "servingSuggestion": "Servieren Sie den Tomaten-Mozzarella-Auflauf heiß, pur oder mit Brot.",
+  "servingSuggestions": {
+    "title": "Passt gut dazu",
+    "description": "Dieser Auflauf ist eine tolle Beilage oder ein leichtes Hauptgericht. Probiere dazu:",
+    "note": "Einfach lecker!",
+    "items": [
+      {
+        "emoji": "🥖",
+        "title": "Ciabatta oder Baguette",
+        "description": "Ideal zum Aufsaugen des leckeren Saftes im Tomaten Mozzarella Auflauf."
+      },
+      {
+        "emoji": "🥗",
+        "title": "Grüner Salat",
+        "description": "Ein einfacher Blattsalat sorgt für Frische und einen leichten Kontrast."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes",
+    "description": "Die Farben des Caprese-Salats (Tomate, Mozzarella, Basilikum) entsprechen den Farben der italienischen Flagge."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/tomaten-mozzarella-auflauf-zutaten.jpeg",
+    "image1": "/images/Miscellaneous/tomaten-mozzarella-auflauf-rezept-einfach.jpeg",
+    "image2": "/images/Miscellaneous/cremiger-tomaten-mozzarella-auflauf.jpeg",
+    "image3": "/images/Miscellaneous/rezept-tomaten-mozzarella-auflauf-vegetarisch.jpeg",
+    "image4": "/images/Miscellaneous/einfacher-tomaten-mozzarella-auflauf.jpeg",
+    "image5": "/images/Miscellaneous/caprese-auflauf-rezept.jpeg",
+    "image6": "/images/Miscellaneous/auflauf-mit-mozzarella-und-tomaten.jpeg",
+    "image7": "/images/Miscellaneous/vegetarischer-auflauf-tomate-mozzarella.jpeg"
+  }
 }
 ];
 
