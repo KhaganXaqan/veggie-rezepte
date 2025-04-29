@@ -10907,7 +10907,502 @@ export const recipes: Recipe[] = [
       "image6": "/images/Desserts/tiramisu-mit-erdbeeren-rezept.webp",
       "image7": "/images/Desserts/schnelles-erdbeer-tiramisu.webp"
     }
+  },
+  {
+  "title": "Cremiger Käsekuchen mit Sommerbeeren",
+  "seo_title": "Käsekuchen mit Beeren Rezept - Cremig, Einfach & Saisonal",
+  "image": "/images/Desserts/cremiger-kaesekuchen-mit-sommerbeeren.jpeg",
+  "prepTime": 20,
+  "cookingTime": 65,
+  "seo_keywords": [
+    "Käsekuchen mit Beeren Rezept",
+    "Käsekuchen mit Beeren",
+    "Cremiger Käsekuchen mit Beeren",
+    "Schneller Käsekuchen mit Beeren",
+    "Käsekuchen mit Beeren Topping",
+    "Rezept Käsekuchen mit Beeren",
+    "Sommerlicher Käsekuchen mit Beeren"
+  ],
+  "rating": 4.9,
+  "reviews": 230,
+  "category": "Kuchen & Gebäck",
+  "slug": "cremiger-kaesekuchen-mit-sommerbeeren",
+  "tags": [
+    "Käsekuchen",
+    "Beeren",
+    "Backen",
+    "Saisonal",
+    "Sommer",
+    "Desserts"
+  ],
+  "createdDate": new Date("2025-04-28T10:00:00Z"),
+  "updatedDate": new Date("2025-04-28T10:00:00Z"),
+  "servings": 8,
+  "description": "Ein Traum! Cremiger Käsekuchen mit Beeren Rezept. Einfach & perfekt für den Sommer.",
+  "descriptionOnImage": "Sommerkuchen-Liebe!",
+  "introductionParagraph": "Sommerzeit ist Beerenzeit! Und was passt besser zu frischen Beeren als ein cremiger Käsekuchen?",
+  "additionalParagraph": "Dieses Käsekuchen mit Beeren Rezept ist herrlich saftig, einfach zu backen und perfekt für sonnige Tage.",
+"ingredientsNeeded": [
+    {
+      "title": "Beeren",
+      "description": "Frische Sommerbeeren bringen Süße, Farbe und Fruchtigkeit ins Spiel. Sie sind das Beeren-Topping deines Kuchens."
+    },
+    {
+      "title": "Quark, Frischkäse/Mascarpone & Milch",
+      "description": "Die Basis für die Füllung. Quark für Frische, Frischkäse/Mascarpone für Cremigkeit, Milch für die richtige Konsistenz."
+    },
+    {
+      "title": "Eier",
+      "description": "Sie binden die Füllung und sorgen dafür, dass der Käsekuchen mit Beeren beim Backen aufgeht und später nicht zusammenfällt."
+    },
+    {
+      "title": "Zucker & Vanillezucker",
+      "description": "Sie süßen die Creme und geben ein feines Aroma. Vanillezucker rundet den Geschmack perfekt ab."
+    },
+    {
+      "title": "Vanillepuddingpulver",
+      "description": "Hilft der Füllung, beim Backen fest zu werden und eine stabile, cremige Konsistenz zu bekommen. Wichtig für cremigen Käsekuchen."
+    },
+    {
+      "title": "Für den Boden (Optional)",
+      "description": "Butterkekse und geschmolzene Butter für einen schnellen Keksboden oder Zutaten für Mürbeteig."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Boden",
+      "description": "Die Grundlage für deinen Käsekuchen.",
+      "ingredients": [
+        {
+          "amount": 150,
+          "unit": "g",
+          "name": "Butterkekse"
+        },
+        {
+          "amount": 75,
+          "unit": "g",
+          "name": "Butter (geschmolzen)"
+        }
+      ]
+    },
+    {
+      "title": "Für die Füllung",
+      "description": "Was deinen Käsekuchen cremig macht.",
+      "ingredients": [
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "Magerquark"
+        },
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "Frischkäse oder Mascarpone"
+        },
+        {
+          "amount": 3,
+          "unit": "Stück",
+          "name": "Eier"
+        },
+        {
+          "amount": 150,
+          "unit": "g",
+          "name": "Zucker"
+        },
+        {
+          "amount": 1,
+          "unit": "Pck",
+          "name": "Vanillezucker"
+        },
+        {
+          "amount": 1,
+          "unit": "Pck",
+          "name": "Vanillepuddingpulver (zum Kochen)"
+        },
+        {
+          "amount": 100,
+          "unit": "ml",
+          "name": "Milch oder Sahne"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Abrieb einer halben Bio-Zitrone (optional)"
+        }
+      ]
+    },
+    {
+      "title": "Für die Beeren",
+      "description": "Die fruchtige Komponente.",
+      "ingredients": [
+        {
+          "amount": 300,
+          "unit": "g",
+          "name": "gemischte Beeren (frisch oder TK)"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Butterkekse"
+    },
+    {
+      "amount": 75,
+      "unit": "g",
+      "name": "Butter (geschmolzen)"
+    },
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "Magerquark"
+    },
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "Frischkäse oder Mascarpone"
+    },
+    {
+      "amount": 3,
+      "unit": "Stück",
+      "name": "Eier"
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "amount": 1,
+      "unit": "Pck",
+      "name": "Vanillezucker"
+    },
+    {
+      "amount": 1,
+      "unit": "Pck",
+      "name": "Vanillepuddingpulver (zum Kochen)"
+    },
+    {
+      "amount": 100,
+      "unit": "ml",
+      "name": "Milch oder Sahne"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Abrieb einer halben Bio-Zitrone (optional)"
+    },
+    {
+      "amount": 300,
+      "unit": "g",
+      "name": "gemischte Beeren (frisch oder TK)"
+    }
+  ],
+  "instructions": [
+    "Springform (ca. 24-26 cm) einfetten und mit Mehl bestäuben. Backofen auf 170°C Ober-/Unterhitze vorheizen.",
+    "Für den Boden Butterkekse fein zerbröseln. Mit geschmolzener Butter mischen. In der Form verteilen und fest andrücken. Ca. 10 Minuten kühlen.",
+    "Für die Füllung Quark, Frischkäse/Mascarpone, Eier, Zucker, Vanillezucker, Puddingpulver und Milch/Sahne in einer Schüssel verrühren, bis eine glatte Masse entsteht. Optional Zitronenabrieb zugeben.",
+    "Die Hälfte der Füllung auf den Keksboden geben.",
+    "Die Hälfte der Beeren auf der Füllung verteilen.",
+    "Restliche Füllung darüber geben und glatt streichen.",
+    "Restliche Beeren als Käsekuchen mit Beeren Topping auf der Oberfläche verteilen.",
+    "Käsekuchen im vorgeheizten Ofen ca. 60-70 Minuten backen, bis er am Rand fest und in der Mitte noch leicht wackelig ist.",
+    "Ofen ausschalten, Tür einen Spalt öffnen und Kuchen ca. 30 Minuten im Ofen abkühlen lassen.",
+    "Anschließend bei Raumtemperatur vollständig abkühlen lassen, dann mind. 2-3 Stunden (besser länger) im Kühlschrank kühlen."
+  ],
+  "nutrition": {
+    "calories": 3557,
+    "protein": "126.5g",
+    "carbs": "360.5g",
+    "fat": "199.5g"
+  },
+  "tips": [
+    "Für einen Käsekuchen mit Beeren ohne Boden einfach die Boden-Zutaten weglassen und die Füllung direkt in eine gut gefettete Form geben.",
+    "Beeren-Topping variieren: Statt Beeren in die Füllung zu geben, alle Beeren erst nach dem Backen als frisches Topping darauf verteilen. So kannst du den Käsekuchen mit Beeren dekorieren."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Käsekuchen mit Beeren so besonders ist",
+    "reasons": [
+      {
+        "title": "Himmlisch cremig",
+        "description": "Die Kombination aus Quark und Frischkäse/Mascarpone macht die Füllung extra cremig und zartschmelzend. Ein echter Genuss bei jedem Bissen deines Käsekuchens mit Beeren."
+      },
+      {
+        "title": "Perfekt fruchtig",
+        "description": "Die frischen Beeren bringen eine wunderbare Süße und leicht säuerliche Note, die hervorragend zur Cremigkeit des Käsekuchens passt. So schmeckt der Sommer!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieser Käsekuchen mit Beeren versüßt dir den Tag!",
+    "subText": "Viel Spaß beim Backen & Genießen!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Boden vorbereiten (optional)",
+      "description": "Ein Keksboden ist schnell gemacht und gibt dem Käsekuchen mit Beeren eine knusprige Grundlage. Alternativ geht auch ein einfacher Mürbeteig oder gar kein Boden."
+    },
+    {
+      "title": "Cremige Füllung mixen",
+      "description": "Alle Zutaten für die Käsemasse werden glatt gerührt. Das ist der Schlüssel zur Cremigkeit. Achte darauf, nicht zu lange zu rühren, um Risse zu vermeiden."
+    },
+    {
+      "title": "Beeren einarbeiten & Backen",
+      "description": "Beeren werden in die Füllung gegeben oder als Käsekuchen mit Beeren Topping verwendet. Das langsame Backen bei moderater Temperatur und das Abkühlen im Ofen verhindern das Reißen der Oberfläche."
+    }
+  ],
+  "servingSuggestion": "Servieren Sie den Käsekuchen mit Beeren gut gekühlt, pur oder mit Puderzucker.",
+  "servingSuggestions": {
+    "title": "So wird's perfekt",
+    "description": "Dein Käsekuchen mit Beeren schmeckt pur schon lecker, aber diese kleinen Extras machen ihn zum Highlight:",
+    "note": "Eiskalt genießen!",
+    "items": [
+      {
+        "emoji": "🍓",
+        "title": "Frische Beeren",
+        "description": "Zusätzliche frische Beeren auf dem Kuchen sehen nicht nur toll aus, sondern unterstreichen den fruchtigen Geschmack."
+      },
+      {
+        "emoji": "🍦",
+        "title": "Klecks Sahne oder Eis",
+        "description": "Eine Kugel Vanilleeis oder ein Klecks geschlagene Sahne passen wunderbar zum cremigen Käsekuchen mit Beeren."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wussten Sie schon?",
+    "description": "Käsekuchen gibt es schon sehr lange! Erste Formen wurden bereits im antiken Griechenland hergestellt – lange vor dem modernen Käsekuchen mit Beeren."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/cremiger-kaesekuchen-mit-sommerbeeren-zutaten.jpeg",
+    "image1": "/images/Desserts/kaesekuchen-mit-beeren-rezept-cremig.jpeg",
+    "image2": "/images/Desserts/schneller-kaesekuchen-mit-beeren-einfach.jpeg",
+    "image3": "/images/Desserts/kaesekuchen-mit-beeren-topping-rezept.jpeg",
+    "image4": "/images/Desserts/sommerlicher-kaesekuchen-mit-beeren.jpeg",
+    "image5": "/images/Desserts/rezept-kaesekuchen-mit-beeren.jpeg",
+    "image6": "/images/Desserts/kaesekuchen-mit-beeren-rezept-cremig.jpeg",
+    "image7": "/images/Desserts/beeren-kaesekuchen-saisonal.jpeg"
   }
+},
+{
+  "title": "Tomaten-Mozzarella-Auflauf",
+  "seo_title": "Tomaten Mozzarella Auflauf Rezept - Cremig & Einfach",
+  "image": "/images/Miscellaneous/tomaten-mozzarella-auflauf.jpeg",
+  "prepTime": 15,
+  "cookingTime": 25,
+  "seo_keywords": [
+    "Tomaten Mozzarella Auflauf Rezept",
+    "Tomaten Mozzarella Auflauf",
+    "Cremiger Tomaten Mozzarella Auflauf",
+    "Rezept Tomaten Mozzarella Auflauf",
+    "Vegetarischer Tomaten Mozzarella Auflauf",
+    "Einfacher Tomaten Mozzarella Auflauf",
+    "Caprese Auflauf"
+  ],
+  "rating": 4.7,
+  "reviews": 130,
+  "category": "Aufläufe",
+  "slug": "tomaten-mozzarella-auflauf",
+  "tags": [
+    "Tomaten",
+    "Mozzarella",
+    "Auflauf",
+    "Vegetarisch",
+    "Italienisch"
+  ],
+  "createdDate": new Date("2025-04-29T19:55:00Z"),
+  "updatedDate": new Date("2025-04-29T19:55:00Z"),
+  "servings": 2,
+  "description": "Ein einfaches Tomaten Mozzarella Auflauf Rezept. Schnell, cremig & vegetarisch!",
+  "descriptionOnImage": "Italienisch genießen!",
+  "introductionParagraph": "Manchmal brauche ich schnelles Essen, das trotzdem nach Sonne und Urlaub schmeckt – da ist ein Tomaten-Mozzarella-Auflauf perfekt!",
+  "additionalParagraph": "Dieser cremige Tomaten Mozzarella Auflauf ist so einfach und eine tolle vegetarische Variante des italienischen Klassikers.",
+  "ingredientsNeeded": [
+    {
+      "title": "Tomaten",
+      "description": "Reife Tomaten liefern die saftige Basis und den süßlich-säuerlichen Geschmack für den Auflauf."
+    },
+    {
+      "title": "Mozzarella",
+      "description": "Frischer Mozzarella, der beim Backen wunderbar schmilzt und Fäden zieht. Er macht den Tomaten Mozzarella Auflauf herrlich cremig."
+    },
+    {
+      "title": "Basilikum",
+      "description": "Das A und O für den Caprese-Geschmack. Frische Basilikumblätter bringen das typische Aroma in den Auflauf."
+    },
+    {
+      "title": "Olivenöl & Gewürze",
+      "description": "Gutes Olivenöl, Salz und Pfeffer. Einfache Zutaten, die den Geschmack der Tomaten und des Mozzarellas hervorheben."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Auflauf",
+      "description": "Die wenigen, aber entscheidenden Zutaten.",
+      "ingredients": [
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "reife Tomaten"
+        },
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "Mozzarella (in Kugeln)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frische Basilikumblätter"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Gutes Olivenöl"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frisch gemahlener Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: Balsamico Glaze zum Garnieren"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "reife Tomaten"
+    },
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "Mozzarella (in Kugeln)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frische Basilikumblätter"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Gutes Olivenöl"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frisch gemahlener Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: Balsamico Glaze zum Garnieren"
+    }
+  ],
+  "instructions": [
+    "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+    "Tomaten in Scheiben schneiden. Mozzarella abtropfen lassen und ebenfalls in Scheiben schneiden.",
+    "Eine kleine Auflaufform (ca. 20x15 cm) mit etwas Olivenöl ausstreichen.",
+    "Tomatenscheiben und Mozzarellascheiben abwechselnd schichtweise oder fächerförmig in die Form geben.",
+    "Basilikumblätter dazwischen oder darüber zupfen.",
+    "Mit Olivenöl beträufeln, mit Salz und Pfeffer würzen.",
+    "Im vorgeheizten Ofen ca. 20-25 Minuten backen, bis der Käse geschmolzen und leicht gebräunt ist und die Tomaten weich sind.",
+    "Herausnehmen und optional mit Balsamico Glaze beträufeln."
+  ],
+  "nutrition": {
+    "calories": 975,
+    "protein": "55g",
+    "carbs": "22.5g",
+    "fat": "28g"
+  },
+  "tips": [
+    "Verwenden Sie Büffelmozzarella für extra Cremigkeit. Er schmilzt besonders schön im Tomaten Mozzarella Auflauf.",
+    "Für mehr Geschmack können Sie Knoblauchscheiben zwischen die Tomaten und Mozzarella legen oder getrocknete Kräuter hinzufügen."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Auflauf so beliebt ist",
+    "reasons": [
+      {
+        "title": "Klassische Kombi",
+        "description": "Die einfache, aber geniale Kombination aus Tomate, Mozzarella und Basilikum ist einfach immer lecker. Dieser Auflauf feiert diesen Geschmack!"
+      },
+      {
+        "title": "Blitzschnell gemacht",
+        "description": "Wenige Zutaten, schnelle Zubereitung – perfekt für spontane Gelüste oder wenn es schnell gehen muss. Ein einfaches Rezept für Tomaten Mozzarella Auflauf."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieser Tomaten-Mozzarella-Auflauf schmeckt dir wunderbar!",
+    "subText": "Genieße italienische Momente!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Zutaten vorbereiten",
+      "description": "Tomaten und Mozzarella werden in Scheiben geschnitten, Basilikum gezupft. Das ist die simple Basis für deinen Tomaten Mozzarella Auflauf."
+    },
+    {
+      "title": "Schichten & Würzen",
+      "description": "Tomaten, Mozzarella und Basilikum werden in der Form geschichtet und gut gewürzt. So verteilen sich die Aromen im Auflauf."
+    },
+    {
+      "title": "Backen bis cremig",
+      "description": "Im Ofen verschmelzen die Zutaten zu einem cremigen, leckeren Tomaten Mozzarella Auflauf. Der Käse wird goldbraun und die Tomaten saftig."
+    }
+  ],
+  "servingSuggestion": "Servieren Sie den Tomaten-Mozzarella-Auflauf heiß, pur oder mit Brot.",
+  "servingSuggestions": {
+    "title": "Passt gut dazu",
+    "description": "Dieser Auflauf ist eine tolle Beilage oder ein leichtes Hauptgericht. Probiere dazu:",
+    "note": "Einfach lecker!",
+    "items": [
+      {
+        "emoji": "🥖",
+        "title": "Ciabatta oder Baguette",
+        "description": "Ideal zum Aufsaugen des leckeren Saftes im Tomaten Mozzarella Auflauf."
+      },
+      {
+        "emoji": "🥗",
+        "title": "Grüner Salat",
+        "description": "Ein einfacher Blattsalat sorgt für Frische und einen leichten Kontrast."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes",
+    "description": "Die Farben des Caprese-Salats (Tomate, Mozzarella, Basilikum) entsprechen den Farben der italienischen Flagge."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/tomaten-mozzarella-auflauf-zutaten.jpeg",
+    "image1": "/images/Miscellaneous/tomaten-mozzarella-auflauf-rezept-einfach.jpeg",
+    "image2": "/images/Miscellaneous/cremiger-tomaten-mozzarella-auflauf.jpeg",
+    "image3": "/images/Miscellaneous/rezept-tomaten-mozzarella-auflauf-vegetarisch.jpeg",
+    "image4": "/images/Miscellaneous/einfacher-tomaten-mozzarella-auflauf.jpeg",
+    "image5": "/images/Miscellaneous/caprese-auflauf-rezept.jpeg",
+    "image6": "/images/Miscellaneous/auflauf-mit-mozzarella-und-tomaten.jpeg",
+    "image7": "/images/Miscellaneous/vegetarischer-auflauf-tomate-mozzarella.jpeg"
+  }
+}
 ];
 
 export function getRecipeBySlug(slug: string) {
