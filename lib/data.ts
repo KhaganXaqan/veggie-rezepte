@@ -10925,7 +10925,7 @@ export const recipes: Recipe[] = [
   ],
   "rating": 4.9,
   "reviews": 230,
-  "category": "Kuchen & Gebäck",
+  "category": "Desserts",
   "slug": "cremiger-kaesekuchen-mit-sommerbeeren",
   "tags": [
     "Käsekuchen",
