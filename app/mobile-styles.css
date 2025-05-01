@@ -56,28 +56,34 @@
     object-position: center !important;
   }
   
-  /* Side-by-side image pairs - FIXED */
+  /* Side-by-side image pairs - KEEP THEM SIDE BY SIDE ON MOBILE */
   .flex.justify-center.gap-4.w-full.mb-1,
   .flex.justify-center.gap-4.w-full.mb-4 {
-    flex-direction: column !important;
-    gap: 1rem !important;
+    flex-direction: row !important; /* Changed from column to row to keep images side by side */
+    gap: 0.5rem !important; /* Reduced gap for mobile */
+    flex-wrap: nowrap !important;
   }
   
   .w-\[49\%\].h-\[543px\].rounded-2xl.overflow-hidden,
   .w-\[98\%\].h-\[543px\].rounded-2xl.overflow-hidden {
-    width: 100% !important;
+    width: 49% !important; /* Keep the width at 49% for side-by-side display */
     height: auto !important;
-    min-height: 300px !important; /* Add minimum height to ensure images aren't too small */
-    max-height: 450px !important; /* Limit maximum height */
+    min-height: 200px !important; /* Reduced minimum height for side-by-side display */
+    max-height: 300px !important; /* Limit maximum height */
   }
   
   .w-\[49\%\].h-\[543px\].rounded-2xl.overflow-hidden img,
   .w-\[98\%\].h-\[543px\].rounded-2xl.overflow-hidden img {
     width: 100% !important;
     height: 100% !important; /* Fill the container height */
-    min-height: 300px !important;
+    min-height: 200px !important; /* Reduced minimum height for side-by-side display */
     object-fit: cover !important; /* Cover instead of contain to fill the space better */
     object-position: center !important;
+  }
+  
+  /* Special case for the ingredients image which should remain full width */
+  .flex.justify-center.gap-4.w-full.mb-4 .w-\[98\%\].h-\[543px\].rounded-2xl.overflow-hidden {
+    width: 100% !important;
   }
   
   /* Ensure all images maintain aspect ratio and are fully visible */
@@ -94,7 +100,7 @@
   img[itemProp="contentUrl"] {
     object-fit: cover !important; /* Cover instead of contain to fill the space better */
     height: 100% !important;
-    min-height: 300px !important;
+    min-height: 200px !important; /* Reduced for side-by-side display */
   }
   
   /* Recommended post images - FIXED */
@@ -142,7 +148,7 @@
   .flex.justify-center.gap-4.w-full.mb-1 .w-\[49\%\].h-\[543px\] img {
     width: 100% !important;
     height: 100% !important;
-    min-height: 300px !important;
+    min-height: 200px !important; /* Reduced for side-by-side display */
     object-fit: cover !important;
   }
 
