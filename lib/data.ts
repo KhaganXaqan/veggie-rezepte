@@ -11637,6 +11637,208 @@ export const recipes: Recipe[] = [
     "image7": "/images/MainCourses/saisonales-kartoffel-spargel-blech.jpeg"
   }
 },
+{
+  "title": "Omas Bestes Cremiges Kartoffelpüree",
+  "seo_title": "Kartoffelpüree Rezept - Cremig, Wie von Oma & Selber machen",
+  "image": "/images/MainCourses/omas-bestes-cremiges-kartoffelpüree.jpeg",
+  "prepTime": 15,
+  "cookingTime": 25,
+  "seo_keywords": [
+    "Kartoffelpüree Rezept",
+    "Kartoffelpüree selber machen",
+    "Cremiges Kartoffelpüree",
+    "Omas Kartoffelpüree",
+    "Kartoffelpüree wie von Oma",
+    "Kartoffelpüree Beilage",
+    "Bestes Kartoffelpüree"
+  ],
+  "rating": 5.0,
+  "reviews": 410,
+  "category": "Beilagen",
+  "slug": "omas-bestes-cremiges-kartoffelpueree",
+  "tags": [
+    "Kartoffeln",
+    "Püree",
+    "Beilage",
+    "Klassiker",
+    "Vegetarisch",
+    "Hauptgerichte"
+  ],
+  "createdDate": new Date("2025-05-01T12:20:00Z"),
+  "updatedDate": new Date("2025-05-01T12:20:00Z"),
+  "servings": 4,
+  "description": "Das perfekte Kartoffelpüree Rezept wie von Oma. Cremig, locker & einfach selber machen!",
+  "descriptionOnImage": "Einfach himmlisch!",
+  "introductionParagraph": "Kartoffelpüree ist für mich die ultimative Wohlfühl-Beilage. Besonders dieses Kartoffelpüree Rezept, das mich immer an Omas Kartoffelpüree erinnert.",
+  "additionalParagraph": "Selbstgemacht schmeckt es einfach am besten und ist in wenigen Schritten fertig. Vergiss Pulver – Kartoffelpüree selber machen ist so einfach!",
+  "ingredientsNeeded": [
+    {
+      "title": "Mehligkochende Kartoffeln",
+      "description": "Die richtige Kartoffelsorte ist entscheidend. Mehligkochende Kartoffeln zerfallen beim Kochen leicht und lassen sich wunderbar cremig pürieren."
+    },
+    {
+      "title": "Milch & Butter",
+      "description": "Warme Milch und gute Butter machen das Püree sahnig und geschmeidig. Sie sind unverzichtbar für ein cremiges Kartoffelpüree."
+    },
+    {
+      "title": "Salz",
+      "description": "Zum Salzen des Kochwassers und natürlich zum Abschmecken des Pürees. Es hebt den Eigengeschmack der Kartoffeln hervor."
+    },
+    {
+      "title": "Muskatnuss",
+      "description": "Eine Prise frisch geriebene Muskatnuss gibt dem Kartoffelpüree den klassischen, feinen Geschmack. Wie bei Omas Kartoffelpüree!"
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für Omas Kartoffelpüree",
+      "description": "Die wenigen Zutaten für die beste Beilage.",
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "kg",
+          "name": "mehligkochende Kartoffeln"
+        },
+        {
+          "amount": 200,
+          "unit": "ml",
+          "name": "Milch"
+        },
+        {
+          "amount": 50,
+          "unit": "g",
+          "name": "Butter"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frisch geriebene Muskatnuss"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: Prise Pfeffer"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "kg",
+      "name": "mehligkochende Kartoffeln"
+    },
+    {
+      "amount": 200,
+      "unit": "ml",
+      "name": "Milch"
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Butter"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frisch geriebene Muskatnuss"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: Prise Pfeffer"
+    }
+  ],
+  "instructions": [
+    "Kartoffeln schälen, waschen und in gleich große Stücke schneiden.",
+    "In einem Topf mit reichlich Salzwasser geben und aufkochen lassen.",
+    "Ca. 15-20 Minuten kochen lassen, bis die Kartoffeln sehr weich sind.",
+    "Milch und Butter in einem kleinen Topf erwärmen.",
+    "Kartoffeln abgießen und gut ausdampfen lassen.",
+    "Die heißen Kartoffeln durch eine Kartoffelpresse drücken oder mit einem Kartoffelstampfer fein zerstampfen (nicht pürieren!).",
+    "Nach und nach die warme Milch-Butter-Mischung unterrühren, bis das Püree cremig ist.",
+    "Mit Salz und frisch geriebener Muskatnuss abschmecken. Sofort servieren."
+  ],
+  "nutrition": {
+    "calories": 1280,
+    "protein": "27g",
+    "carbs": "180g",
+    "fat": "52g"
+  },
+  "tips": [
+    "Kartoffeln gut ausdampfen lassen ist super wichtig! Das entfernt überschüssiges Wasser und sorgt für ein trockenes Fundament für ein cremiges Kartoffelpüree.",
+    "Nicht mit dem Pürierstab pürieren! Das macht Kartoffelpüree klebrig wie Kleister. Presse oder Stampfer sind die Werkzeuge für ein lockeres, cremiges Ergebnis."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieses Püree das Beste ist",
+    "reasons": [
+      {
+        "title": "Unglaublich cremig",
+        "description": "Die richtige Kartoffelsorte, warme Milch/Butter und die Zubereitung machen dieses Kartoffelpüree wunderbar samtig und locker. Einfach das beste cremige Kartoffelpüree!"
+      },
+      {
+        "title": "Purer Geschmack",
+        "description": "Der reine Kartoffelgeschmack, verfeinert mit Butter und Muskat – so schmeckt Kartoffelpüree wie von Oma. Ein echter Klassiker, einfach selber machen!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieses Kartoffelpüree schmeckt dir wie bei Oma!",
+    "subText": "Lass es dir schmecken!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kartoffeln vorbereiten",
+      "description": "Die Wahl der richtigen, mehligkochenden Kartoffeln und das Kochen in Salzwasser sind die Basis. Sie müssen richtig weich gekocht werden, damit sie sich gut verarbeiten lassen."
+    },
+    {
+      "title": "Trocken legen",
+      "description": "Nach dem Abgießen müssen die Kartoffeln gut ausdampfen. Dieser Schritt ist entscheidend, damit das Püree nicht wässrig, sondern wirklich cremig wird."
+    },
+    {
+      "title": "Cremig rühren",
+      "description": "Das vorsichtige Einarbeiten der warmen Milch-Butter-Mischung und das Abschmecken mit Salz und Muskat verwandeln die zerstampften Kartoffeln in das perfekte, cremige Kartoffelpüree."
+    }
+  ],
+  "servingSuggestion": "Servieren Sie das cremige Kartoffelpüree sofort nach der Zubereitung.",
+  "servingSuggestions": {
+    "title": "Was passt zu Kartoffelpüree?",
+    "description": "Kartoffelpüree ist die perfekte Beilage zu vielen Rezepten. Probiere es zu:",
+    "note": "Ein echter Allrounder!",
+    "items": [
+      {
+        "emoji": "🥕",
+        "title": "Gemüsepfanne",
+        "description": "Auch zu gebratenem Gemüse oder einem vegetarischen Gericht ist es eine tolle Sättigungsbeilage."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes",
+    "description": "In Frankreich wird Kartoffelpüree 'Purée de pommes de terre' genannt und oft mit sehr viel Butter verfeinert – manchmal bis zur Hälfte des Kartoffelgewichts!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/omas-bestes-cremiges-kartoffelpüree-zutaten.jpeg",
+    "image1": "/images/MainCourses/kartoffelpüree-rezept-selber-machen.jpeg",
+    "image2": "/images/MainCourses/cremiges-kartoffelpüree-beilage.jpeg",
+    "image3": "/images/MainCourses/omas-kartoffelpüree-wie-von-oma.jpeg",
+    "image4": "/images/MainCourses/bestes-kartoffelpüree-rezept.jpeg",
+    "image5": "/images/MainCourses/kartoffelpüree-mit-was.jpeg",
+    "image6": "/images/MainCourses/hausgemachtes-kartoffelpüree.jpeg",
+    "image7": "/images/MainCourses/kartoffelpüree-klassiker.jpeg"
+  }
+},
 ];
 
 export function getRecipeBySlug(slug: string) {
