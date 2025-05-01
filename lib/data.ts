@@ -11402,7 +11402,241 @@ export const recipes: Recipe[] = [
     "image6": "/images/Miscellaneous/auflauf-mit-mozzarella-und-tomaten.jpeg",
     "image7": "/images/Miscellaneous/vegetarischer-auflauf-tomate-mozzarella.jpeg"
   }
-}
+},
+{
+  "title": "Kartoffel-Spargel-Blech mit Ziegenkäse",
+  "seo_title": "Kartoffel Spargel Blech Rezept - Einfach & Saisonal",
+  "image": "/images/MainCourses/kartoffel-spargel-blech-mit-ziegenkaese.jpeg",
+  "prepTime": 20,
+  "cookingTime": 40,
+  "seo_keywords": [
+    "Kartoffel Spargel Blech Rezept",
+    "Kartoffel Spargel Blech",
+    "Kartoffel Spargel Blech mit Ziegenkäse",
+    "Einfaches Kartoffel Spargel Blech",
+    "Spargel mit Kartoffeln Ofen",
+    "Blechgericht Spargel Kartoffeln",
+    "Vegetarisches Blechgericht Spargel"
+  ],
+  "rating": 4.8,
+  "reviews": 75,
+  "category": "Hauptgerichte",
+  "slug": "kartoffel-spargel-blech-mit-ziegenkaese",
+  "tags": [
+    "Kartoffeln",
+    "Spargel",
+    "Blechgericht",
+    "Saisonal",
+    "Vegetarisch",
+    "Hauptgerichte"
+  ],
+  "createdDate": new Date("2025-04-30T19:15:00Z"),
+  "updatedDate": new Date("2025-04-30T19:15:00Z"),
+  "servings": 2,
+  "description": "Ein einfaches Kartoffel Spargel Blech Rezept. Schnell, vegetarisch & lecker aus dem Ofen!",
+  "descriptionOnImage": "Alles auf ein Blech!",
+  "introductionParagraph": "Wenn die Spargelzeit beginnt, liebe ich schnelle Ofengerichte. Dieses Kartoffel Spargel Blech ist unkompliziert und voller Aroma!",
+  "additionalParagraph": "Ob mit oder ohne Ziegenkäse, dieses einfache Blechgericht mit Spargel und Kartoffeln ist perfekt für den Feierabend.",
+  "ingredientsNeeded": [
+    {
+      "title": "Kartoffeln",
+      "description": "Vorwiegend festkochende Kartoffeln. Sie werden gewürfelt und bilden die sättigende Basis für dein Kartoffel Spargel Blech."
+    },
+    {
+      "title": "Spargel",
+      "description": "Frischer weißer oder grüner Spargel. Er bringt das saisonale Aroma auf das Blech. Grüner Spargel muss nicht geschält werden."
+    },
+    {
+      "title": "Öl & Gewürze",
+      "description": "Olivenöl, Salz, Pfeffer, Paprika und Kräuter. Diese würzige Marinade gibt den Kartoffeln und dem Spargel Geschmack im Ofen."
+    },
+    {
+      "title": "Ziegenkäse (optional)",
+      "description": "Ein Highlight! Der Ziegenkäse schmilzt leicht und gibt dem Kartoffel Spargel Blech eine wunderbar cremige und würzige Note."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Fürs Blech",
+      "description": "Die Hauptzutaten für dieses einfache Blechgericht.",
+      "ingredients": [
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "kleine Kartoffeln"
+        },
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "weißer oder grüner Spargel"
+        },
+        {
+          "amount": 3,
+          "unit": "EL",
+          "name": "Olivenöl"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Paprikapulver edelsüß"
+        },
+        {
+          "amount": 0.5,
+          "unit": "TL",
+          "name": "getrocknete Kräuter (z.B. Rosmarin, Thymian)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frisch gemahlener Pfeffer"
+        }
+      ]
+    },
+    {
+      "title": "Optional",
+      "description": "Für extra Geschmack.",
+      "ingredients": [
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "Ziegenkäse (Rolle)"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "kleine Kartoffeln"
+    },
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "weißer oder grüner Spargel"
+    },
+    {
+      "amount": 3,
+      "unit": "EL",
+      "name": "Olivenöl"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Paprikapulver edelsüß"
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "getrocknete Kräuter (z.B. Rosmarin, Thymian)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frisch gemahlener Pfeffer"
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Ziegenkäse (Rolle)"
+    }
+  ],
+  "instructions": [
+    "Backofen auf 200°C Ober-/Unterhitze vorheizen. Ein Backblech mit Backpapier auslegen.",
+    "Kartoffeln waschen, halbieren oder vierteln. Mit 2 EL Olivenöl, Paprikapulver, getrockneten Kräutern, Salz und Pfeffer mischen.",
+    "Kartoffeln auf dem Backblech verteilen und ca. 15-20 Minuten im Ofen vorbacken.",
+    "Spargel schälen (weißen komplett, grünen nur das untere Drittel). Holzige Enden abschneiden. Spargel in ca. 3-4 cm lange Stücke schneiden.",
+    "Spargelstücke mit restlichem Olivenöl (1 EL), Salz und Pfeffer mischen.",
+    "Spargel zu den vorgebackenen Kartoffeln auf das Blech geben. Alles gut vermischen.",
+    "Optional Ziegenkäse in Scheiben schneiden und auf dem Blech verteilen.",
+    "Weitere ca. 15-20 Minuten backen, bis Kartoffeln und Spargel gar sind und leichte Farbe haben.",
+    "Herausnehmen und sofort servieren."
+  ],
+  "nutrition": {
+    "calories": 1210,
+    "protein": "41g",
+    "carbs": "110g",
+    "fat": "72g"
+  },
+  "tips": [
+    "Für schnelleres Garen die Kartoffeln vor dem Würzen ca. 5 Minuten in Salzwasser vorkochen.",
+    "Kein Ziegenkäse? Feta oder Halloumi passen auch super aufs Kartoffel Spargel Blech!"
+  ],
+  "whyFavorite": {
+    "title": "Darum liebe ich dieses Blechgericht",
+    "reasons": [
+      {
+        "title": "Super einfach & schnell",
+        "description": "Alles kommt auf ein Blech – weniger Abwasch, mehr Genuss! Ein ideales, schnelles Rezept für Kartoffel Spargel Blech."
+      },
+      {
+        "title": "Saisonal & lecker",
+        "description": "Die Kombination aus Kartoffeln und frischem Spargel ist ein Klassiker. Mit Ziegenkäse wird es besonders aromatisch auf deinem Blech."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dein Kartoffel-Spargel-Blech schmeckt dir fantastisch!",
+    "subText": "Genieße die Spargelzeit!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kartoffeln vorbereiten",
+      "description": "Kartoffeln werden gewaschen, geschnitten und gut gewürzt. Sie brauchen eine längere Garzeit, daher starten sie alleine auf dem Blech."
+    },
+    {
+      "title": "Spargel & Käse hinzufügen",
+      "description": "Spargel wird vorbereitet, gewürzt und kommt später zu den Kartoffeln auf das Blech. Optional Ziegenkäse für extra Geschmack verteilen."
+    },
+    {
+      "title": "Goldbraun backen",
+      "description": "Alles zusammen wird im Ofen goldbraun und gar gebacken. So entsteht dein leckeres Kartoffel Spargel Blech mit perfekt gegarten Zutaten."
+    }
+  ],
+  "servingSuggestion": "Serviere das Kartoffel-Spargel-Blech heiß, pur oder mit einem Dip.",
+  "servingSuggestions": {
+    "title": "Passt super dazu",
+    "description": "Das Blechgericht ist schon eine Mahlzeit, aber lecker dazu sind:",
+    "note": "Einfach genießen!",
+    "items": [
+      {
+        "emoji": "🥄",
+        "title": "Quark oder Kräuterquark",
+        "description": "Ein frischer Dip passt wunderbar zu den Ofenkartoffeln und dem Spargel."
+      },
+      {
+        "emoji": "🥗",
+        "title": "Frischer Salat",
+        "description": "Ein leichter grüner Salat rundet das Blechgericht ab."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes",
+    "description": "Deutschland ist einer der größten Spargelproduzenten der Welt. Das ist gut, denn so gibt es in der Saison viel Spargel für Blechgerichte!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/kartoffel-spargel-blech-mit-ziegenkaese-zutaten.jpeg",
+    "image1": "/images/MainCourses/kartoffel-spargel-blech-rezept-einfach.jpeg",
+    "image2": "/images/MainCourses/vegetarisches-blechgericht-spargel.jpeg",
+    "image3": "/images/MainCourses/einfaches-kartoffel-spargel-blech.jpeg",
+    "image4": "/images/MainCourses/spargel-mit-kartoffeln-ofen-rezept.jpeg",
+    "image5": "/images/MainCourses/blechgericht-spargel-kartoffeln.jpeg",
+    "image6": "/images/MainCourses/vegetarisches-blechgericht-spargel.jpeg",
+    "image7": "/images/MainCourses/saisonales-kartoffel-spargel-blech.jpeg"
+  }
+},
 ];
 
 export function getRecipeBySlug(slug: string) {
