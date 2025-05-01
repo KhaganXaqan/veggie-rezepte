@@ -340,14 +340,16 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   <div className="w-full ">
                     <div className="w-full h-[960px] rounded-2xl overflow-hidden">
                       <img
-                      width="1200"
-                      height="800"
-                      loading="lazy"
-                      decoding="async"
-                      itemProp="contentUrl"
+                        width="1200"
+                        height="800"
+                        loading="lazy"
+                        decoding="async"
+                        itemProp="contentUrl"
                         src={validRecipe.image}
                         alt={validRecipe.image.split("/").pop()?.split(".")[0]}
                         className="w-full h-full object-cover"
+                        sizes="(max-width: 768px) 100vw, 1200px"
+                        style={{ maxHeight: '100%' }}
                       />
                     </div>
                   </div>
@@ -363,21 +365,29 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   <div className="flex justify-center gap-4 w-full mb-1">
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
                       <img 
-                      width="1200"
-                      height="800"
-                      loading="lazy"
-                      decoding="async"
-                      itemProp="contentUrl"
-                      src={validRecipe.images.image1} alt={validRecipe.images.image1.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                        width="800"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        itemProp="contentUrl"
+                        src={validRecipe.images.image1} 
+                        alt={validRecipe.images.image1.split("/").pop()?.split(".")[0]} 
+                        className="w-full h-full object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, 49vw" 
+                      />
                     </div>
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
                       <img
-                      width="1200"
-                      height="800"
-                      loading="lazy"
-                      decoding="async"
-                      itemProp="contentUrl"
-                      src={validRecipe.images.image2} alt={validRecipe.images.image2.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                        width="800"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        itemProp="contentUrl"
+                        src={validRecipe.images.image2} 
+                        alt={validRecipe.images.image2.split("/").pop()?.split(".")[0]} 
+                        className="w-full h-full object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, 49vw"
+                      />
                     </div>
                   </div>
 
@@ -405,12 +415,16 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   <div className="flex justify-center gap-4 w-full mb-4">
                     <div className="w-[98%] h-[543px] rounded-2xl overflow-hidden">
                       <img 
-                      width="1200"
-                      height="800"
-                      loading="lazy"
-                      decoding="async"
-                      itemProp="contentUrl"
-                      src={validRecipe.images.imageIngredient} alt={validRecipe.images.imageIngredient.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                        width="1200"
+                        height="800"
+                        loading="lazy"
+                        decoding="async"
+                        itemProp="contentUrl"
+                        src={validRecipe.images.imageIngredient} 
+                        alt={validRecipe.images.imageIngredient.split("/").pop()?.split(".")[0]} 
+                        className="w-full h-full object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 49vw, 1200px"
+                      />
                     </div>
                   </div>
 
