@@ -137,19 +137,21 @@
     border-radius: 50% !important; /* Make it circular for a nicer mobile look */
     border-width: 3px !important; /* Thicker border for emphasis */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; /* Enhanced shadow */
+    background-color: transparent !important; /* Make background transparent */
+    overflow: hidden !important; /* Ensure content stays within borders */
   }
   
+  #recipe-card img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Back to cover to fill the container */
+    object-position: center !important; /* Center the image */
+  }
+
   /* Add padding to the recipe card content to make room for the image */
   #recipe-card .bg-white.border-2 {
     padding-top: 6rem !important; /* Add space at the top for the image */
     margin-top: 5rem !important; /* Add margin to account for the image position */
-  }
-  
-  /* Fix image display in recipe card */
-  #recipe-card img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
   }
 
   /* Recipe Images 3 - FIXED */
