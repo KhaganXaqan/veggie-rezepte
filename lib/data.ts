@@ -11654,7 +11654,7 @@ export const recipes: Recipe[] = [
   ],
   "rating": 5.0,
   "reviews": 410,
-  "category": "Beilagen",
+  "category": "Hauptgerichte",
   "slug": "omas-bestes-cremiges-kartoffelpueree",
   "tags": [
     "Kartoffeln",
