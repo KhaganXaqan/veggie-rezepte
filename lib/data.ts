@@ -11839,6 +11839,253 @@ export const recipes: Recipe[] = [
     "image7": "/images/MainCourses/kartoffelpüree-klassiker.jpeg"
   }
 },
+{
+  "title": "Kartoffelsalat Rezept mit Mayo",
+  "seo_title": "Kartoffelsalat Rezept mit Mayonnaise - Cremig & Klassisch",
+  "image": "/images/Salads/mein-bestes-klassisches-kartoffelsalat-rezept-mit-mayo.jpeg",
+  "prepTime": 20,
+  "cookingTime": 20,
+  "seo_keywords": [
+    "Kartoffelsalat Rezept",
+    "Kartoffelsalat mit Mayonnaise",
+    "Rezept Kartoffelsalat Klassisch",
+    "Kartoffelsalat Geheimrezept",
+    "Cremiger Kartoffelsalat",
+    "Kartoffelsalat selber machen",
+    "Kartoffelsalat mit Mayo"
+  ],
+  "rating": 4.9,
+  "reviews": 310,
+  "category": "Salads",
+  "slug": "kartoffelsalat-rezept-mit-mayo",
+  "tags": [
+    "Kartoffeln",
+    "Salads",
+    "Klassiker",
+    "Beilage",
+    "Sommer"
+  ],
+  "createdDate": new Date("2025-05-02T13:15:00Z"),
+  "updatedDate": new Date("2025-05-02T13:15:00Z"),
+  "servings": 4,
+  "description": "Das klassische Kartoffelsalat Rezept mit Mayonnaise – cremig, lecker & einfach!",
+  "descriptionOnImage": "Party-Klassiker!",
+  "introductionParagraph": "Keine Party, kein Grillabend, kein Familienfest ohne ihn: Kartoffelsalat! Und dieses Kartoffelsalat Rezept ist mein absoluter Favorit.",
+  "additionalParagraph": "Cremig, würzig und einfach zuzubereiten – mein kleines Kartoffelsalat Geheimrezept für den besten Kartoffelsalat mit Mayo.",
+  "ingredientsNeeded": [
+    {
+      "title": "Festkochende Kartoffeln",
+      "description": "Die richtige Sorte ist entscheidend. Festkochende Kartoffeln behalten ihre Form und werden nicht matschig im Salat."
+    },
+    {
+      "title": "Mayonnaise",
+      "description": "Die Basis für die cremige Bindung. Eine gute Mayo macht den Kartoffelsalat mit Mayonnaise so wunderbar sahnig."
+    },
+    {
+      "title": "Gewürzgurken & Zwiebel",
+      "description": "Sie geben dem Salat Würze, Säure und Biss. Klassische Begleiter im deutschen Kartoffelsalat Rezept."
+    },
+    {
+      "title": "Hartgekochte Eier",
+      "description": "Sie gehören für mich einfach in einen klassischen Kartoffelsalat mit Mayonnaise und machen ihn sättigender."
+    },
+    {
+      "title": "Gewürze & Flüssigkeit",
+      "description": "Salz, Pfeffer und etwas Brühe oder Gurkenwasser zum Abschmecken und für die perfekte Konsistenz."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Kartoffelsalat",
+      "description": "Die Basis für deinen cremigen Klassiker.",
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "kg",
+          "name": "festkochende Kartoffeln"
+        },
+        {
+          "amount": 4,
+          "unit": "Stück",
+          "name": "hartgekochte Eier"
+        },
+        {
+          "amount": 150,
+          "unit": "g",
+          "name": "Gewürzgurken"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "rote Zwiebel"
+        }
+      ]
+    },
+    {
+      "title": "Für das Dressing",
+      "description": "Was deinen Kartoffelsalat mit Mayo so cremig macht.",
+      "ingredients": [
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "Mayonnaise"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Gurkenwasser (aus dem Glas der Gewürzgurken)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frisch gemahlener Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: etwas Brühe"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "kg",
+      "name": "festkochende Kartoffeln"
+    },
+    {
+      "amount": 4,
+      "unit": "Stück",
+      "name": "hartgekochte Eier"
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Gewürzgurken"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "rote Zwiebel"
+    },
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "Mayonnaise"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Gurkenwasser (aus dem Glas der Gewürzgurken)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frisch gemahlener Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: etwas Brühe"
+    }
+  ],
+  "instructions": [
+    "Kartoffeln gründlich waschen und in Salzwasser ca. 20-25 Minuten kochen, bis sie gar sind.",
+    "Eier hart kochen, abschrecken und schälen.",
+    "Gekochte Kartoffeln abgießen, kurz ausdampfen lassen und noch warm pellen.",
+    "Kartoffeln komplett abkühlen lassen, dann in Scheiben oder Würfel schneiden.",
+    "Gewürzgurken und Zwiebel fein würfeln. Eier klein schneiden.",
+    "In einer großen Schüssel Mayonnaise, Gurkenwasser, Salz und Pfeffer verrühren. Optional etwas Brühe für eine flüssigere Konsistenz zugeben.",
+    "Kartoffeln, Gewürzgurken, Zwiebel und Eier vorsichtig zum Dressing geben und alles gut vermischen.",
+    "Kartoffelsalat zugedeckt mindestens 30 Minuten, besser aber 1-2 Stunden im Kühlschrank durchziehen lassen.",
+    "Vor dem Servieren nochmals abschmecken und gegebenenfalls nachwürzen."
+  ],
+  "nutrition": {
+    "calories": 2973,
+    "protein": "54.5g",
+    "carbs": "188g",
+    "fat": "220,1g"
+  },
+  "tips": [
+    "Verwende festkochende Kartoffeln für einen Kartoffelsalat, der nicht zerfällt. Sie behalten ihre Form am besten.",
+    "Lass den Kartoffelsalat gut durchziehen! Das ist das Geheimnis für intensiven Geschmack. Am besten schmeckt er, wenn er ein paar Stunden oder über Nacht im Kühlschrank war."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Kartoffelsalat der Hit ist",
+    "reasons": [
+      {
+        "title": "Klassisch & cremig",
+        "description": "Dieses Kartoffelsalat Rezept mit Mayonnaise ist ein echter Klassiker und gelingt immer cremig und lecker. So lieben ihn alle!"
+      },
+      {
+        "title": "Einfach gut",
+        "description": "Mit wenigen Handgriffen zauberst du einen Kartoffelsalat, der wie von Oma schmeckt. Perfekt für jede Gelegenheit!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dein Kartoffelsalat wird zum Party-Highlight!",
+    "subText": "Guten Appetit!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kartoffeln kochen & kühlen",
+      "description": "Die Kartoffeln werden gar gekocht und dann komplett abgekühlt. Das ist wichtig, damit sie das Dressing gut aufnehmen und der Salat nicht matschig wird."
+    },
+    {
+      "title": "Dressing & Extras",
+      "description": "Während die Kartoffeln kühlen, wird das cremige Mayonnaise-Dressing angerührt und die restlichen Zutaten wie Gurken und Zwiebel vorbereitet."
+    },
+    {
+      "title": "Vereinen & ziehen lassen",
+      "description": "Alle Komponenten werden vorsichtig vermischt. Das anschließende Ruhen im Kühlschrank ist entscheidend, damit die Aromen verschmelzen und der Kartoffelsalat seinen vollen Geschmack entfaltet."
+    }
+  ],
+  "servingSuggestion": "Servieren Sie den Kartoffelsalat gut gekühlt als Beilage.",
+  "servingSuggestions": {
+    "title": "Passt perfekt dazu",
+    "description": "Kartoffelsalat ist die ideale Beilage zu vielen vegetarischen Gerichten. Probiere ihn zu:",
+    "note": "Der Veggie-Alleskönner!",
+    "items": [
+      {
+        "emoji": "🍔",
+        "title": "Veggie-Frikadellen oder -Patties",
+        "description": "Eine leckere fleischlose Alternative, die hervorragend zum cremigen Kartoffelsalat passt. Ideal für den vegetarischen Grillteller."
+      },
+      {
+        "emoji": "🍢",
+        "title": "Gegrilltes Gemüse oder Halloumi",
+        "description": "Ob bunte Gemüsespieße oder Grillkäse wie Halloumi – gegrillt ist der Kartoffelsalat eine tolle vegetarische Beilage."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Schon gewusst?",
+    "description": "Es gibt unzählige Varianten von Kartoffelsalat in Deutschland – von Mayonnaise-Basis im Norden bis zu Essig & Öl-Basis im Süden. Jeder hat sein eigenes 'Geheimrezept'!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/mein-bestes-klassisches-kartoffelsalat-rezept-mit-mayo-zutaten.jpeg",
+    "image1": "/images/Salads/kartoffelsalat-rezept-mit-mayonnaise.jpeg",
+    "image2": "/images/Salads/rezept-kartoffelsalat-klassisch.jpeg",
+    "image3": "/images/Salads/kartoffelsalat-mit-mayo-cremig.jpeg",
+    "image4": "/images/Salads/kartoffelsalat-geheimrezept.jpeg",
+    "image5": "/images/Salads/cremiger-kartoffelsalat-selber-machen.jpeg",
+    "image6": "/images/Salads/kartoffelsalat-beilage.jpeg",
+    "image7": "/images/Salads/klassisches-kartoffelsalat-rezept.jpeg"
+  }
+},
 ];
 
 export function getRecipeBySlug(slug: string) {
