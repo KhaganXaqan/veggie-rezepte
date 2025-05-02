@@ -161,7 +161,7 @@ export function RecipeIngredients({
               </div>
               <div className="text-center">
                 <h3 className="font-black text-base uppercase">KOCHZEIT</h3>
-                <p className="text-base mt-1">{cookTime} Min</p>
+                <p className="text-base mt-1">{cookTime || 0} Min</p>
               </div>
               <div className="text-center">
                 <h3 className="font-black text-base uppercase">GESAMTZEIT</h3>

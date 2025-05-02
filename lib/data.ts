@@ -12089,7 +12089,7 @@ export const recipes: Recipe[] = [
 {
   "title": "Cremiger Gurkensalat",
   "seo_title": "Gurkensalat Rezept - Klassisch, Mit Dill & Wie von Oma",
-  "image": "/images/Salate/cremiger-gurkensalat.jpeg",
+  "image": "/images/Salads/cremiger-gurkensalat.jpeg",
   "prepTime": 15,
   "cookingTime": 0,
   "seo_keywords": [
