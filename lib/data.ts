@@ -4556,7 +4556,7 @@ export const recipes: Recipe[] = [
     "reviews": 188,
     "category": "Salate",
     "slug": "gemuese-couscous-salat",
-    "tags": ["Salat", "Orientalisch", "Couscous"],
+    "tags": ["Salate", "Orientalisch", "Couscous"],
     "createdDate": new Date("2025-04-01T11:00:00Z"),
     "updatedDate": new Date("2025-04-04T14:30:00Z"),
     "servings": 4,
@@ -12084,6 +12084,235 @@ export const recipes: Recipe[] = [
     "image5": "/images/Salads/cremiger-kartoffelsalat-selber-machen.jpeg",
     "image6": "/images/Salads/kartoffelsalat-beilage.jpeg",
     "image7": "/images/Salads/klassisches-kartoffelsalat-rezept.jpeg"
+  }
+},
+{
+  "title": "Cremiger Gurkensalat",
+  "seo_title": "Gurkensalat Rezept - Klassisch, Mit Dill & Wie von Oma",
+  "image": "/images/Salate/cremiger-gurkensalat.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "Gurkensalat Rezept",
+    "Gurkensalat",
+    "Gurkensalat wie früher",
+    "Gurkensalat mit Dill",
+    "Rezept Gurkensalat Klassisch",
+    "Gurkensalat Rezept Oma",
+    "Cremiger Gurkensalat",
+    "gurkensalat mit joghurt",
+    "gurkensalat mit saurer sahne",
+    "gurkensalat saure sahne"
+  ],
+  "rating": 4.8,
+  "reviews": 190,
+  "category": "Salate",
+  "slug": "cremiger-gurkensalat",
+  "tags": [
+    "Gurke",
+    "Salate",
+    "Klassiker",
+    "Beilage",
+    "Sommer",
+    "Vegetarisch"
+  ],
+  "createdDate": new Date("2025-05-03T10:30:00Z"),
+  "updatedDate": new Date("2025-05-03T10:30:00Z"),
+  "servings": 2,
+  "description": "Ein Gurkensalat Rezept wie früher – cremig, mit Dill & einfach gemacht. Lecker!",
+  "descriptionOnImage": "Erfrischend & lecker!",
+  "introductionParagraph": "Dieser Gurkensalat erinnert mich sofort an Omas Küche! So frisch und cremig, genau wie Gurkensalat wie früher schmecken muss.",
+  "additionalParagraph": "Mit viel Dill und einem einfachen Dressing ist dieses Rezept für Gurkensalat ein echter Klassiker, der immer passt.",
+  "ingredientsNeeded": [
+    {
+      "title": "Frische Gurke",
+      "description": "Der Hauptdarsteller! Eine frische Salatgurke, die dünn gehobelt wird. Sie sorgt für die knackige und erfrischende Basis deines Gurkensalats."
+    },
+    {
+      "title": "Salz",
+      "description": "Wichtig, um der Gurke Wasser zu entziehen. So bleibt der Gurkensalat knackig und das Dressing verwässert nicht."
+    },
+    {
+      "title": "Für das cremige Dressing",
+      "description": "Sauerrahm, Joghurt oder Sahne gemischt mit Essig und Zucker. Das macht das Dressing herrlich cremig und rundet den Geschmack ab."
+    },
+    {
+      "title": "Frischer Dill",
+      "description": "Ein Muss für Gurkensalat wie früher! Viel frischer Dill gibt dem Salat sein unverwechselbares Aroma und passt perfekt zur Gurke."
+    },
+    {
+      "title": "Pfeffer",
+      "description": "Frisch gemahlen passt er wunderbar zum Dill und Essig im Dressing und gibt dem Gurkensalat die nötige Würze."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Gurkensalat",
+      "description": "Was du für den klassischen Salat brauchst.",
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Salatgurke"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        }
+      ]
+    },
+    {
+      "title": "Fürs cremige Dressing",
+      "description": "Das Herzstück für Gurkensalat wie früher.",
+      "ingredients": [
+        {
+          "amount": 150,
+          "unit": "g",
+          "name": "Sauerrahm oder Joghurt (3,5 % Fett)"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Essig (z.B. Weißweinessig)"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Zucker"
+        },
+        {
+          "amount": 0.5,
+          "unit": "Bund",
+          "name": "frischer Dill"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frisch gemahlener Pfeffer"
+        },
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Salatgurke"
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Sauerrahm oder Joghurt (3,5 % Fett)"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Essig (z.B. Weißweinessig)"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Zucker"
+    },
+    {
+      "amount": 0.5,
+      "unit": "Bund",
+      "name": "frischer Dill"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frisch gemahlener Pfeffer"
+    },
+  ],
+  "instructions": [
+    "Gurke waschen und mit einem Gemüsehobel oder Messer in sehr dünne Scheiben hobeln/schneiden.",
+    "Gurkenscheiben in ein Sieb geben, salzen und ca. 10-15 Minuten Wasser ziehen lassen. Überschüssiges Wasser ausdrücken.",
+    "Dill fein hacken.",
+    "Für das Dressing Sauerrahm/Joghurt, Essig, Zucker, Salz und Pfeffer in einer Schüssel verrühren.",
+    "Gehackten Dill zum Dressing geben und unterrühren.",
+    "Die ausgedrückten Gurkenscheiben zum Dressing geben und alles vorsichtig vermischen.",
+    "Gurkensalat abdecken und mindestens 15-30 Minuten im Kühlschrank durchziehen lassen. Vor dem Servieren nochmals abschmecken."
+  ],
+  "nutrition": {
+    "calories": 155,
+    "protein": "8g",
+    "carbs": "20g",
+    "fat": "5,5g"
+  },
+  "tips": [
+    "Drücke die Gurkenscheiben nach dem Salzen wirklich gut aus. Je weniger Wasser in den Salat kommt, desto cremiger bleibt dein Gurkensalat mit Dill.",
+    "Wer es nicht cremig mag, kann den Gurkensalat auch mit einem Dressing aus Essig, Öl, Zucker, Salz und Pfeffer zubereiten."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Gurkensalat ein Klassiker ist",
+    "reasons": [
+      {
+        "title": "Erfrischend & lecker",
+        "description": "Besonders an warmen Tagen ist dieser Salat eine wunderbare Erfrischung. Die Gurke ist leicht und das Dressing passt perfekt."
+      },
+      {
+        "title": "Wie bei Oma",
+        "description": "So schmeckt Gurkensalat wie früher! Die cremige Variante mit Dill ist ein Stück Kindheit und Tradition auf dem Teller."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieser Gurkensalat schmeckt dir wunderbar erfrischend!",
+    "subText": "Guten Appetit!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Gurke vorbereiten",
+      "description": "Die Gurke wird dünn geschnitten und gesalzen, um ihr Wasser zu entziehen. Das ist der Schlüssel für einen knackigen Salat, der nicht verwässert."
+    },
+    {
+      "title": "Dressing & Dill mischen",
+      "description": "Während die Gurke zieht, wird das cremige Dressing angerührt und mit reichlich frischem Dill verfeinert. So entsteht das typische Aroma des Gurkensalats mit Dill."
+    },
+    {
+      "title": "Vereinen & ziehen lassen",
+      "description": "Gurke und Dressing werden vorsichtig vermischt. Das Ruhen im Kühlschrank lässt die Aromen verschmelzen und macht den Gurkensalat erst richtig lecker."
+    }
+  ],
+  "servingSuggestion": "Serviere den Gurkensalat gut gekühlt als Beilage.",
+  "servingSuggestions": {
+    "title": "Passt perfekt dazu",
+    "description": "Gurkensalat ist die ideale Beilage zu vielen deutschen Klassikern:",
+    "note": "Ein echter Allrounder!",
+    "items": [
+      {
+        "emoji": "🥔",
+        "title": "Salzkartoffeln",
+        "description": "Eine einfache und köstliche Kombination. Die Salzkartoffeln passen wunderbar zur Cremigkeit des Gurkensalats."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes",
+    "description": "Gurken bestehen zu über 95 % aus Wasser! Darum ist das Salzen und Ausdrücken so wichtig, um den Gurkensalat nicht wässrig zu machen."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/omas-cremiger-gurkensalat-wie-früher-zutaten.jpeg",
+    "image1": "/images/Salads/gurkensalat-rezept-klassisch.jpeg",
+    "image2": "/images/Salads/cremiger-gurkensalat-mit-dill.jpeg",
+    "image3": "/images/Salads/gurkensalat-wie-früher-rezept.jpeg",
+    "image4": "/images/Salads/rezept-gurkensalat-oma.jpeg",
+    "image5": "/images/Salads/gurkensalat-mit-dill-cremig.jpeg",
+    "image6": "/images/Salads/einfacher-gurkensalat-rezept.jpeg",
+    "image7": "/images/Salads/klassischer-gurkensalat.jpeg"
   }
 },
 ];
