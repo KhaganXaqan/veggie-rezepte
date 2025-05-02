@@ -11856,11 +11856,11 @@ export const recipes: Recipe[] = [
   ],
   "rating": 4.9,
   "reviews": 310,
-  "category": "Salads",
+  "category": "Salate",
   "slug": "kartoffelsalat-rezept-mit-mayo",
   "tags": [
     "Kartoffeln",
-    "Salads",
+    "Salate",
     "Klassiker",
     "Beilage",
     "Sommer"
