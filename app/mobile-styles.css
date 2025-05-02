@@ -56,28 +56,34 @@
     object-position: center !important;
   }
   
-  /* Side-by-side image pairs - FIXED */
+  /* Side-by-side image pairs - KEEP THEM SIDE BY SIDE ON MOBILE */
   .flex.justify-center.gap-4.w-full.mb-1,
   .flex.justify-center.gap-4.w-full.mb-4 {
-    flex-direction: column !important;
-    gap: 1rem !important;
+    flex-direction: row !important; /* Changed from column to row to keep images side by side */
+    gap: 0.5rem !important; /* Reduced gap for mobile */
+    flex-wrap: nowrap !important;
   }
   
   .w-\[49\%\].h-\[543px\].rounded-2xl.overflow-hidden,
   .w-\[98\%\].h-\[543px\].rounded-2xl.overflow-hidden {
-    width: 100% !important;
+    width: 49% !important; /* Keep the width at 49% for side-by-side display */
     height: auto !important;
-    min-height: 300px !important; /* Add minimum height to ensure images aren't too small */
-    max-height: 450px !important; /* Limit maximum height */
+    min-height: 280px !important; /* Reduced minimum height for side-by-side display */
+    max-height: 300px !important; /* Limit maximum height */
   }
   
   .w-\[49\%\].h-\[543px\].rounded-2xl.overflow-hidden img,
   .w-\[98\%\].h-\[543px\].rounded-2xl.overflow-hidden img {
     width: 100% !important;
     height: 100% !important; /* Fill the container height */
-    min-height: 300px !important;
+    min-height: 200px !important; /* Reduced minimum height for side-by-side display */
     object-fit: cover !important; /* Cover instead of contain to fill the space better */
     object-position: center !important;
+  }
+  
+  /* Special case for the ingredients image which should remain full width */
+  .flex.justify-center.gap-4.w-full.mb-4 .w-\[98\%\].h-\[543px\].rounded-2xl.overflow-hidden {
+    width: 100% !important;
   }
   
   /* Ensure all images maintain aspect ratio and are fully visible */
@@ -94,7 +100,7 @@
   img[itemProp="contentUrl"] {
     object-fit: cover !important; /* Cover instead of contain to fill the space better */
     height: 100% !important;
-    min-height: 300px !important;
+    min-height: 200px !important; /* Reduced for side-by-side display */
   }
   
   /* Recommended post images - FIXED */
@@ -113,36 +119,46 @@
     object-fit: cover !important;
   }
   
-  /* Recipe card image - FIXED */
+  /* Recipe card image - FIXED to maintain the "extending outside the box" effect */
   #recipe-card .absolute.-top-5.right-6 {
-    position: static !important;
-    margin: 0 auto 1rem auto !important;
-    width: 100% !important;
-    text-align: center !important;
+    position: absolute !important; /* Keep absolute positioning */
+    top: -5rem !important; /* Move it higher up on mobile */
+    right: 50% !important; /* Center it horizontally */
+    transform: translateX(50%) !important; /* Center adjustment */
+    width: auto !important;
+    z-index: 1 !important;
   }
 
   #recipe-card .absolute.-top-5.right-6 > div {
-    width: 80% !important;
-    max-width: 300px !important;
-    margin: 0 auto !important;
-    height: auto !important;
-    min-height: 250px !important;
-    aspect-ratio: 1/1;
+    width: 200px !important;
+    height: 200px !important;
+    min-width: 200px !important;
+    min-height: 200px !important;
+    border-radius: 50% !important; /* Make it circular for a nicer mobile look */
+    border-width: 3px !important; /* Thicker border for emphasis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; /* Enhanced shadow */
+    background-color: transparent !important; /* Make background transparent */
+    overflow: hidden !important; /* Ensure content stays within borders */
   }
   
-  /* Fix image display in recipe card */
   #recipe-card img {
     width: 100% !important;
     height: 100% !important;
-    min-height: 250px !important;
-    object-fit: cover !important;
+    object-fit: cover !important; /* Back to cover to fill the container */
+    object-position: center !important; /* Center the image */
+  }
+
+  /* Add padding to the recipe card content to make room for the image */
+  #recipe-card .bg-white.border-2 {
+    padding-top: 6rem !important; /* Add space at the top for the image */
+    margin-top: 5rem !important; /* Add margin to account for the image position */
   }
 
   /* Recipe Images 3 - FIXED */
   .flex.justify-center.gap-4.w-full.mb-1 .w-\[49\%\].h-\[543px\] img {
     width: 100% !important;
     height: 100% !important;
-    min-height: 300px !important;
+    min-height: 200px !important; /* Reduced for side-by-side display */
     object-fit: cover !important;
   }
 
