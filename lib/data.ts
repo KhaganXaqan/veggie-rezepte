@@ -318,7 +318,7 @@ export const recipes: Recipe[] = [
   },
   {
     "title": "Kartoffelpuffer",
-    "seo_title": "Vegetarische Kartoffelpuffer Rezept – Schnell, einfach und knusprig",
+    "seo_title": "Vegetarische Kartoffelpuffer Rezept – Schnell und einfach",
     "image": "/images/Miscellaneous/kartoffelpuffer.webp",
     "prepTime": 25,
     "cookingTime": 25,
