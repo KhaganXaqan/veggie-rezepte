@@ -318,7 +318,7 @@ export const recipes: Recipe[] = [
   },
   {
     "title": "Kartoffelpuffer",
-    "seo_title": "Vegetarische Kartoffelpuffer Rezept – Schnell, einfach und knusprig",
+    "seo_title": "Vegetarische Kartoffelpuffer Rezept – Schnell und einfach",
     "image": "/images/Miscellaneous/kartoffelpuffer.webp",
     "prepTime": 25,
     "cookingTime": 25,
@@ -12313,6 +12313,309 @@ export const recipes: Recipe[] = [
     "image5": "/images/Salads/gurkensalat-mit-dill-cremig.jpeg",
     "image6": "/images/Salads/einfacher-gurkensalat-rezept.jpeg",
     "image7": "/images/Salads/klassischer-gurkensalat.jpeg"
+  }
+},
+{
+  "title": "Herzhaftes Veganes Chili sin Carne mit Linsen",
+  "seo_title": "Chili con Carne Vegetarisch Rezept - Mit Linsen & Vegan",
+  "image": "/images/MainCourses/veganes-chili-sin-carne-mit-linsen.jpeg",
+  "prepTime": 15,
+  "cookingTime": 40,
+  "seo_keywords": [
+    "Chili con Carne vegetarisch Rezept",
+    "Chili con Carne vegetarisch",
+    "Rezept Chili con Carne vegetarisch",
+    "Chili con Carne vegetarisch mit Linsen",
+    "Veganes Chili con Carne",
+    "Bestes Chili con Carne vegetarisch",
+    "Vegetarisches Chili Rezept"
+  ],
+  "rating": 4.7,
+  "reviews": 160,
+  "category": "Hauptgerichte",
+  "slug": "veganes-chili-sin-carne-mit-linsen",
+  "tags": [
+    "Chili",
+    "Eintopf",
+    "Linsen",
+    "Hauptgerichte"
+  ],
+  "createdDate": new Date("2025-05-04T15:45:00Z"),
+  "updatedDate": new Date("2025-05-04T15:45:00Z"),
+  "servings": 3,
+  "description": "Das beste Chili con Carne vegetarisch Rezept mit Linsen! Herzhaft, einfach & vegan.",
+  "descriptionOnImage": "Wärmt von innen!",
+  "introductionParagraph": "Du liebst Chili, möchtest aber auf Fleisch verzichten? Dann ist dieses Chili con Carne vegetarisch Rezept mit Linsen genau das Richtige für dich!",
+  "additionalParagraph": "Es ist super herzhaft, voller Geschmack und so einfach, dass du es immer wieder kochen möchtest – vielleicht das beste Chili con Carne vegetarisch!",
+  "ingredientsNeeded": [
+    {
+      "title": "Zwiebel, Knoblauch & Chili",
+      "description": "Das unschlagbare Trio für die würzige Basis. Sie geben deinem Chili con Carne vegetarisch den nötigen Kick."
+    },
+    {
+      "title": "Gewürze",
+      "description": "Chilipulver, Kreuzkümmel und Paprikapulver sorgen für das typische Chili-Aroma und die Schärfe."
+    },
+    {
+      "title": "Tomaten (stückig)",
+      "description": "Aus der Dose sind sie super praktisch und bilden die fruchtige Grundlage für die Sauce deines vegetarischen Chilis."
+    },
+    {
+      "title": "Gemüsebrühe",
+      "description": "Flüssigkeit und zusätzlicher Geschmacksträger. Sie sorgt dafür, dass das Chili schön sämig köchelt."
+    },
+    {
+      "title": "Linsen & Bohnen",
+      "description": "Rote Linsen zerfallen leicht und geben Bindung. Kidneybohnen sorgen für die klassische Chili-Textur und Proteine. Dein Fleischersatz im Chili con Carne vegetarisch."
+    },
+    {
+      "title": "Mais",
+      "description": "Bringt eine süßliche Komponente und Farbe ins Spiel. Gehört für viele einfach in ein gutes Chili."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Fürs Chili",
+      "description": "Alle Zutaten für dein herzhaftes Veganes Chili.",
+      "ingredients": [
+        {
+          "amount": 2,
+          "unit": "Stück",
+          "name": "Zwiebeln"
+        },
+        {
+          "amount": 2,
+          "unit": "Zehen",
+          "name": "Knoblauch"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "rote Chilischote (oder mehr/weniger nach Geschmack)"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Olivenöl"
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Chilipulver"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Kreuzkümmel (gemahlen)"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Paprikapulver edelsüß"
+        },
+        {
+          "amount": 1,
+          "unit": "Dose",
+          "name": "stückige Tomaten (400 g)"
+        },
+        {
+          "amount": 400,
+          "unit": "ml",
+          "name": "Gemüsebrühe"
+        },
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "rote Linsen"
+        },
+        {
+          "amount": 1,
+          "unit": "Dose",
+          "name": "Kidneybohnen (250 g Abtropfgewicht)"
+        },
+        {
+          "amount": 1,
+          "unit": "Dose",
+          "name": "Mais (150 g Abtropfgewicht)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: Prise Zucker"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Zwiebeln"
+    },
+    {
+      "amount": 2,
+      "unit": "Zehen",
+      "name": "Knoblauch"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "rote Chilischote (oder mehr/weniger nach Geschmack)"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Olivenöl"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Chilipulver"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Kreuzkümmel (gemahlen)"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Paprikapulver edelsüß"
+    },
+    {
+      "amount": 1,
+      "unit": "Dose",
+      "name": "stückige Tomaten (400 g)"
+    },
+    {
+      "amount": 400,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "rote Linsen"
+    },
+    {
+      "amount": 1,
+      "unit": "Dose",
+      "name": "Kidneybohnen (250 g Abtropfgewicht)"
+    },
+    {
+      "amount": 1,
+      "unit": "Dose",
+      "name": "Mais (150 g Abtropfgewicht)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: Prise Zucker"
+    }
+  ],
+  "instructions": [
+    "Zwiebeln, Knoblauch und Chilischote fein würfeln.",
+    "Olivenöl in einem großen Topf erhitzen. Zwiebeln darin glasig dünsten.",
+    "Knoblauch und Chili zugeben, 1-2 Minuten mitdünsten.",
+    "Chilipulver, Kreuzkümmel und Paprikapulver einrühren und kurz mitrösten.",
+    "Stückige Tomaten und Gemüsebrühe angießen. Rote Linsen zugeben und aufkochen lassen.",
+    "Zugedeckt bei kleiner Hitze ca. 20 Minuten köcheln lassen, bis die Linsen gar sind.",
+    "Kidneybohnen und Mais (abgespült und abgetropft) zugeben.",
+    "Weitere 10-15 Minuten köcheln lassen, bis das Chili sämig ist. Mit Salz, Pfeffer und optional Zucker abschmecken."
+  ],
+  "nutrition": {
+    "calories": 1210,
+    "protein": "52g",
+    "carbs": "175g",
+    "fat": "37g"
+  },
+  "tips": [
+    "Für extra Tiefe im Geschmack etwas geräuchertes Paprikapulver oder eine Prise Kakaopulver mit den Gewürzen mitrösten.",
+    "Das Chili schmeckt am nächsten Tag noch besser! Bereite es am Vortag zu und wärme es langsam auf, damit sich die Aromen voll entfalten."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieses Vegane Chili so gut ist",
+    "reasons": [
+      {
+        "title": "Herzhaft & sättigend",
+        "description": "Dank der Linsen und Bohnen ist dieses Chili con Carne vegetarisch super sättigend und voller Proteine. Man vermisst das Fleisch gar nicht!"
+      },
+      {
+        "title": "Voller Geschmack",
+        "description": "Eine tolle Gewürzmischung und langes Köcheln sorgen für ein intensives, würziges Aroma. Das beste vegetarische Chili Rezept, das ich kenne!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieses Chili wärmt dich von innen!",
+    "subText": "Guten Appetit!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Aromen Basis schaffen",
+      "description": "Zwiebeln, Knoblauch, Chili und Gewürze werden angedünstet. Das setzt die Aromen frei und bildet das Fundament für das herzhafte Vegane Chili con Carne."
+    },
+    {
+      "title": "Köcheln & Bindung",
+      "description": "Tomaten, Brühe und Linsen kommen in den Topf. Die roten Linsen zerfallen beim Köcheln und machen das Chili auf natürliche Weise sämig und cremig."
+    },
+    {
+      "title": "Abschmecken & Genießen",
+      "description": "Bohnen und Mais werden hinzugefügt. Das finale Abschmecken sorgt für die perfekte Balance. Langes Köcheln verstärkt den Geschmack deines vegetarischen Chilis."
+    }
+  ],
+  "servingSuggestion": "Serviere das Chili con Carne vegetarisch heiß, pur oder mit Beilagen.",
+  "servingSuggestions": {
+    "title": "Leckere Begleiter",
+    "description": "Dein Veganes Chili schmeckt pur, aber diese Beilagen und Toppings passen toll:",
+    "note": "Sei kreativ!",
+    "items": [
+      {
+        "emoji": "🍚",
+        "title": "Reis",
+        "description": "Ein Klassiker! Lockerer Reis passt wunderbar zur sämigen Konsistenz des Chilis."
+      },
+      {
+        "emoji": "🥑",
+        "title": "Toppings",
+        "description": "Ein Klecks (veganer) Sauerrahm, gewürfelte Avocado, frischer Koriander oder geriebener (veganer) Käse machen dein Chili noch besser."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Chili con Carne bedeutet 'Chili mit Fleisch'. Die fleischlose Variante wird oft Chili sin Carne genannt, was 'Chili ohne Fleisch' bedeutet."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/veganes-chili-sin-carne-mit-linsen-zutaten.jpeg",
+    "image1": "/images/MainCourses/chili-con-carne-vegetarisch-rezept.jpeg",
+    "image2": "/images/MainCourses/veganes-chili-con-carne-mit-linsen.jpeg",
+    "image3": "/images/MainCourses/rezept-chili-con-carne-vegetarisch-linsen.jpeg",
+    "image4": "/images/MainCourses/bestes-chili-con-carne-vegetarisch.jpeg",
+    "image5": "/images/MainCourses/vegetarisches-chili-rezept.jpeg",
+    "image6": "/images/MainCourses/chili-con-carne-vegetarisch-rote-linsen.jpeg",
+    "image7": "/images/MainCourses/einfaches-veganes-chili.jpeg"
   }
 },
 ];
