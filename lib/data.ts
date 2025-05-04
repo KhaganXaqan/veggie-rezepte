@@ -12342,7 +12342,7 @@ export const recipes: Recipe[] = [
   ],
   "createdDate": new Date("2025-05-04T15:45:00Z"),
   "updatedDate": new Date("2025-05-04T15:45:00Z"),
-  "servings": 5,
+  "servings": 3,
   "description": "Das beste Chili con Carne vegetarisch Rezept mit Linsen! Herzhaft, einfach & vegan.",
   "descriptionOnImage": "Wärmt von innen!",
   "introductionParagraph": "Du liebst Chili, möchtest aber auf Fleisch verzichten? Dann ist dieses Chili con Carne vegetarisch Rezept mit Linsen genau das Richtige für dich!",
