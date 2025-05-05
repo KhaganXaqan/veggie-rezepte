@@ -4544,6 +4544,9 @@ export const recipes: Recipe[] = [
     "prepTime": 20,
     "cookingTime": 5,
     "seo_keywords": [
+      "couscous salat",
+      "rezept couscous salat",
+      "couscous salat original",
       "Couscous Salat Rezept",
       "Gemüse Couscous Salat",
       "einfacher Couscous Salat",
@@ -12618,6 +12621,254 @@ export const recipes: Recipe[] = [
     "image7": "/images/MainCourses/einfaches-veganes-chili.jpeg"
   }
 },
+{
+  "title": "Kartoffelsuppe",
+  "seo_title": "Kartoffelsuppe Rezept - Cremig, Einfach & Vegetarisch",
+  "image": "/images/Soups/kartoffelsuppe.jpeg",
+  "prepTime": 15,
+  "cookingTime": 30,
+  "seo_keywords": [
+    "kartoffelsuppe",
+    "kartoffelsuppe rezept",
+    "beste kartoffelsuppe rezepte",
+    "rezept kartoffelsuppe",
+    "kartoffelsuppe rezepte",
+    "kartoffelsuppe klassisch",
+    "omas kartoffelsuppe",
+    "kartoffelsuppe oma",
+    "kartoffelsuppe oma ddr",
+    "cremige kartoffelsuppe",
+    "kartoffelsuppe einfach",
+    "einfache kartoffelsuppe",
+    "kartoffelsuppe vegetarisch"
+  ],
+  "rating": 4.9,
+  "reviews": 350,
+  "category": "Suppen",
+  "slug": "kartoffelsuppe",
+  "tags": [
+    "Kartoffeln",
+    "Suppe",
+    "Klassiker",
+    "Vegetarisch",
+    "Einfach",
+    "Salate"
+  ],
+  "createdDate": new Date("2025-05-05T14:00:00Z"),
+  "updatedDate": new Date("2025-05-05T14:00:00Z"),
+  "servings": 3,
+  "description": "Ein einfaches Kartoffelsuppe Rezept – cremig, vegetarisch & wärmt wie bei Oma!",
+  "descriptionOnImage": "Wärmt das Herz!",
+  "introductionParagraph": "Wenn es draußen kälter wird, gibt es nichts Besseres als eine dampfende Schüssel Kartoffelsuppe. Dieses Rezept ist wie bei Oma!",
+  "additionalParagraph": "So einfach zuzubereiten, wunderbar cremig und voller Geschmack – das ist meine Lieblings-Kartoffelsuppe vegetarisch.",
+  "ingredientsNeeded": [
+    {
+      "title": "Kartoffeln",
+      "description": "Mehligkochende Kartoffeln sind ideal. Sie zerfallen beim Kochen und sorgen ganz natürlich für die cremige Konsistenz deiner Kartoffelsuppe."
+    },
+    {
+      "title": "Suppengrün",
+      "description": "Karotten, Lauch und Sellerie. Sie geben der Suppe eine aromatische Basis und machen sie gehaltvoller. Unverzichtbar für eine klassische Kartoffelsuppe."
+    },
+    {
+      "title": "Gemüsebrühe",
+      "description": "Die flüssige Grundlage, in der alles gar kocht. Eine gute Gemüsebrühe sorgt für den ersten wichtigen Geschmacksschub in der Suppe."
+    },
+    {
+      "title": "Zwiebel & Öl/Butter",
+      "description": "Angedünstet liefern sie die aromatische Basis, bevor das Gemüse und die Flüssigkeit hinzukommen."
+    },
+    {
+      "title": "Sahne & Gewürze",
+      "description": "Für extra Cremigkeit (optional) und zum Abschmecken. Salz, Pfeffer und Majoran sind klassische Gewürze für Kartoffelsuppe wie von Oma."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für die Suppe",
+      "description": "Alle Zutaten für diesen wärmenden Klassiker.",
+      "ingredients": [
+        {
+          "amount": 800,
+          "unit": "g",
+          "name": "mehligkochende Kartoffeln"
+        },
+        {
+          "amount": 1,
+          "unit": "Bund",
+          "name": "Suppengrün (ca. 200 g Karotten, Sellerie, Lauch)"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Zwiebel"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Olivenöl oder Butter"
+        },
+        {
+          "amount": 1.2,
+          "unit": "L",
+          "name": "Gemüsebrühe"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frisch gemahlener Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: etwas Majoran (getrocknet)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: Schuss Sahne"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 800,
+      "unit": "g",
+      "name": "mehligkochende Kartoffeln"
+    },
+    {
+      "amount": 1,
+      "unit": "Bund",
+      "name": "Suppengrün (ca. 200 g Karotten, Sellerie, Lauch)"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel"
+    },
+    {
+      "amount": 1.2,
+      "unit": "L",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Olivenöl oder Butter"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frisch gemahlener Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: etwas Majoran (getrocknet)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: Schuss Sahne"
+    }
+  ],
+  "instructions": [
+    "Kartoffeln schälen und in Würfel schneiden.",
+    "Suppengrün putzen und in grobe Stücke schneiden. Zwiebel fein würfeln.",
+    "In einem großen Topf Öl/Butter erhitzen. Zwiebel darin glasig dünsten.",
+    "Suppengrün kurz mitdünsten.",
+    "Kartoffelwürfel zugeben und ebenfalls kurz mitbraten.",
+    "Gemüsebrühe angießen, salzen, pfeffern und optional Majoran zugeben. Alles aufkochen lassen.",
+    "Ca. 20-25 Minuten köcheln lassen, bis das Gemüse und die Kartoffeln sehr weich sind.",
+    "Topf vom Herd nehmen. Suppe mit einem Stabmixer teilweise oder komplett pürieren, bis die gewünschte Cremigkeit erreicht ist.",
+    "Optional Schuss Sahne einrühren. Suppe abschmecken und bei Bedarf nachwürzen."
+  ],
+  "nutrition": {
+    "calories": 1070,
+    "protein": "24g",
+    "carbs": "172g",
+    "fat": "28g"
+  },
+  "tips": [
+    "Für eine sämigere Kartoffelsuppe mehr Kartoffeln verwenden oder weniger Flüssigkeit nehmen. Für eine Suppe mit Stücken nur einen Teil pürieren.",
+    "Eine Prise frisch geriebene Muskatnuss gibt der Kartoffelsuppe eine feine Note, wie bei Omas Klassiker. Passt wunderbar zu Kartoffeln!"
+  ],
+  "whyFavorite": {
+    "title": "Warum dieses Rezept überzeugt",
+    "reasons": [
+      {
+        "title": "Wärmt & tröstet",
+        "description": "Kartoffelsuppe ist Seelenfutter pur. Dieses einfache Rezept wärmt von innen und erinnert an Kindheitstage bei Oma."
+      },
+      {
+        "title": "Cremig & einfach",
+        "description": "Dank der Kartoffeln wird die Suppe ganz natürlich cremig, ohne viel Aufwand. Ein einfaches Kartoffelsuppe Rezept, das immer gelingt."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, diese Kartoffelsuppe schmeckt dir fantastisch!",
+    "subText": "Wärmende Grüße aus meiner Küche!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Gemüse vorbereiten",
+      "description": "Kartoffeln und Suppengrün werden geschält und geschnitten. Das Andünsten der Zwiebel legt die aromatische Basis für deine Kartoffelsuppe."
+    },
+    {
+      "title": "Weich kochen",
+      "description": "Alles zusammen wird in Gemüsebrühe gekocht, bis die Kartoffeln und das Gemüse sehr weich sind. Das ist wichtig für die spätere Cremigkeit der Suppe."
+    },
+    {
+      "title": "Cremig pürieren & verfeinern",
+      "description": "Die Suppe wird püriert (ganz oder teilweise). Mit Sahne (optional) und Gewürzen wird sie abgeschmeckt und zu einer perfekten cremigen Kartoffelsuppe vollendet."
+    }
+  ],
+  "servingSuggestion": "Serviere die Kartoffelsuppe heiß, garniert nach Belieben.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter",
+    "description": "Eine Kartoffelsuppe ist schon eine Mahlzeit für sich, aber diese Extras passen wunderbar:",
+    "note": "Einfach lecker!",
+    "items": [
+      {
+        "emoji": "🥖",
+        "title": "Frisches Brot",
+        "description": "Rustikales Brot oder Baguette zum Dippen passt immer hervorragend zu einer Kartoffelsuppe."
+      },
+      {
+        "emoji": "🥓",
+        "title": "Toppings",
+        "description": "Optional: Röstzwiebeln, frische Kräuter oder ein Klecks Crème fraîche."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes",
+    "description": "In manchen Regionen Deutschlands wird Kartoffelsuppe süßlich zubereitet, z.B. mit Pflaumen oder Äpfeln. Ganz anders als die klassische Variante!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/kartoffelsuppe-zutaten.jpeg",
+    "image1": "/images/Soups/kartoffelsuppe-rezept-klassisch.jpeg",
+    "image2": "/images/Soups/cremige-kartoffelsuppe-vegetarisch.jpeg",
+    "image3": "/images/Soups/omas-kartoffelsuppe-einfach.jpeg",
+    "image4": "/images/Soups/beste-kartoffelsuppe-rezept.jpeg",
+    "image5": "/images/Soups/rezept-kartoffelsuppe-wie-von-oma.jpeg",
+    "image6": "/images/Soups/einfache-kartoffelsuppe-vegetarisch.jpeg",
+    "image7": "/images/Soups/hausgemachte-kartoffelsuppe.jpeg"
+  }
+}
 ];
 
 export function getRecipeBySlug(slug: string) {
