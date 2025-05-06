@@ -5246,7 +5246,7 @@ export const recipes: Recipe[] = [
     "slug": "mediterraner-nudelsalat",
     "tags": ["Salat", "Pasta", "Mediterran"],
     "createdDate": new Date("2025-03-15T10:00:00Z"),
-    "updatedDate": new Date("2025-04-05T11:30:00Z"),
+    "updatedDate": new Date("2025-05-06T11:30:00Z"),
     "servings": 6,
     "description": "Der perfekte mediterrane Nudelsalat für Grillfeste & Buffets! Schnell gemacht, mit Feta, Oliven, Rucola & sonnengereiften Tomaten. Einfach köstlich!",
     "descriptionOnImage": "Ein bunter, appetitlicher mediterraner Nudelsalat in einer großen Schüssel, bereit für die Party.",
