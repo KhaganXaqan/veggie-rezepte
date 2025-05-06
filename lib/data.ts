@@ -5228,7 +5228,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Sonniger Mediterraner Nudelsalat mit Feta & Oliven",
     "seo_title": "Bester Mediterraner Nudelsalat: Einfach, schnell & lecker",
-    "image": "/images/Salads/mediterraner-nudelsalat.webp",
+    "image": "/images/Salads/mediterraner-nudelsalat.jpeg",
     "prepTime": 25,
     "cookingTime": 10,
     "seo_keywords": [
@@ -5464,14 +5464,14 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Nudelsalat in Deutschland besonders in den 70er und 80er Jahren zum absoluten Party-Hit wurde? 🕺 Oft waren es damals eher Varianten mit Mayonnaise. Die leichtere, mediterrane Version mit Essig-Öl-Dressing ist aber heute mindestens genauso beliebt und bringt Urlaubsflair auf den Tisch! 🇮🇹🇬🇷"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/mediterranerNudelsalatIngredient.webp",
-      "image1": "/images/Salads/mediterraner-nudelsalat1.webp",
-      "image2": "/images/Salads/mediterraner-nudelsalat2.webp",
-      "image3": "/images/Salads/mediterraner-nudelsalat3.webp",
-      "image4": "/images/Salads/mediterraner-nudelsalat4.webp",
-      "image5": "/images/Salads/mediterraner-nudelsalat5.webp",
-      "image6": "/images/Salads/mediterraner-nudelsalat6.webp",
-      "image7": "/images/Salads/mediterraner-nudelsalat7.webp"
+      "imageIngredient": "/images/Ingredients/mediterraner-nudelsalat-zutaten.jpeg",
+      "image1": "/images/Salads/mediterraner-nudelsalat-rezept-einfach.jpeg",
+      "image2": "/images/Salads/nudelsalat-mediterran-klassisch.jpeg",
+      "image3": "/images/Salads/schneller-mediterraner-nudelsalat.jpeg",
+      "image4": "/images/Salads/vegetarischer-nudelsalat-mediterran.jpeg",
+      "image5": "/images/Salads/italienischer-nudelsalat-mit-pesto.jpeg",
+      "image6": "/images/Salads/sommerlicher-nudelsalat-mediterran.jpeg",
+      "image7": "/images/Salads/bester-mediterraner-nudelsalat.jpeg"
     }
   },
   {
