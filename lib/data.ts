@@ -12959,7 +12959,301 @@ export const recipes: Recipe[] = [
     "image6": "/images/Soups/einfache-kartoffelsuppe-vegetarisch.jpeg",
     "image7": "/images/Soups/hausgemachte-kartoffelsuppe.jpeg"
   }
-}
+},
+{
+  "title": "Authentische Falafel selber machen",
+  "seo_title": "Falafel Rezept Original - Vegatarisch & Einfach selber machen",
+  "image": "/images/MainCourses/falafel.jpeg",
+  "prepTime": 25,
+  "cookingTime": 15,
+  "seo_keywords": [
+    "falafel",
+    "falafel rezept",
+    "falafel selber machen",
+    "falafel bowl",
+    "rezept falafel",
+    "falafel teller",
+    "falafel rezepte",
+    "falafel beilage",
+    "falafel recipe"
+  ],
+  "rating": 4.8,
+  "reviews": 280,
+  "category": "Hauptgerichte",
+  "slug": "falafel",
+  "tags": [
+    "Falafel",    
+    "Orientalisch",
+    "Kichererbsen",
+    "Selber machen",
+    "Hauptgerichte"
+  ],
+  "createdDate": new Date("2025-05-06T09:00:00Z"),
+  "updatedDate": new Date("2025-05-06T09:00:00Z"),
+  "servings": 3,
+  "description": "Authentisches Falafel Rezept original – vegan & einfach selber machen. Perfekt für Falafel Bowl oder Teller!",
+  "descriptionOnImage": "Orientalischer Genuss!",
+  "introductionParagraph": "Echte, selbstgemachte Falafel sind einfach unschlagbar! Knusprig außen, saftig innen – so muss Falafel schmecken.",
+  "additionalParagraph": "Mit diesem Falafel Rezept original aus getrockneten Kichererbsen kannst du Falafel selber machen, die schmecken wie im Imbiss deines Vertrauens.",
+  "ingredientsNeeded": [
+    {
+      "title": "Getrocknete Kichererbsen",
+      "description": "Der wichtigste Schritt: Verwende getrocknete Kichererbsen, die über Nacht eingeweicht werden! Dosen-Kichererbsen funktionieren nicht für originale Falafel-Textur."
+    },
+    {
+      "title": "Zwiebel & Knoblauch",
+      "description": "Sie geben der Falafel-Masse die würzige Grundnote. Eine gute Portion Knoblauch gehört unbedingt dazu!"
+    },
+    {
+      "title": "Frische Kräuter",
+      "description": "Viel frische Petersilie und Koriander sind essenziell für den typischen Geschmack und die grüne Farbe der Falafel."
+    },
+    {
+      "title": "Gewürze",
+      "description": "Kreuzkümmel, Koriandersaat und etwas Cayennepfeffer (für Schärfe) sorgen für das authentisch orientalische Aroma deiner Falafel."
+    },
+    {
+      "title": "Mehl & Backpulver",
+      "description": "Mehl hilft beim Binden (optional) und Backpulver macht die Falafel schön locker und fluffig beim Ausbacken."
+    },
+    {
+      "title": "Pflanzenöl",
+      "description": "Zum Ausbacken. Die Falafel werden traditionell frittiert, um die perfekte knusprige Hülle zu bekommen."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für die Falafel-Masse",
+      "description": "Alle Zutaten für deine selbstgemachten Falafel.",
+      "ingredients": [
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "Getrocknete Kichererbsen (über Nacht eingeweicht)"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Zwiebel"
+        },
+        {
+          "amount": 3,
+          "unit": "Zehen",
+          "name": "Knoblauch"
+        },
+        {
+          "amount": 0.5,
+          "unit": "Bund",
+          "name": "Frische Petersilie"
+        },
+        {
+          "amount": 0.5,
+          "unit": "Bund",
+          "name": "Frischer Koriander (oder mehr Petersilie)"
+        },
+        {
+          "amount": 1.5,
+          "unit": "TL",
+          "name": "Kreuzkümmel (gemahlen)"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Koriandersaat (gemahlen)"
+        },
+        {
+          "amount": 0.5,
+          "unit": "TL",
+          "name": "Cayennepfeffer (oder mehr/weniger)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Pfeffer"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Mehl (z.B. Kichererbsenmehl oder Weizenmehl, optional)"
+        },
+        {
+          "amount": 0.5,
+          "unit": "TL",
+          "name": "Backpulver"
+        }
+      ]
+    },
+    {
+      "title": "Zum Ausbacken",
+      "description": "Damit die Falafel goldbraun und knusprig werden.",
+      "ingredients": [
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Pflanzenöl (ca. 500-750 ml zum Frittieren)"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "Getrocknete Kichererbsen (über Nacht eingeweicht)"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel"
+    },
+    {
+      "amount": 3,
+      "unit": "Zehen",
+      "name": "Knoblauch"
+    },
+    {
+      "amount": 0.5,
+      "unit": "Bund",
+      "name": "Frische Petersilie"
+    },
+    {
+      "amount": 0.5,
+      "unit": "Bund",
+      "name": "Frischer Koriander (oder mehr Petersilie)"
+    },
+    {
+      "amount": 1.5,
+      "unit": "TL",
+      "name": "Kreuzkümmel (gemahlen)"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Koriandersaat (gemahlen)"
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "Cayennepfeffer (oder mehr/weniger)"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Mehl (z.B. Kichererbsenmehl oder Weizenmehl, optional)"
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "Backpulver"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Pflanzenöl (ca. 500-750 ml zum Frittieren)"
+    },    
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Pfeffer"
+    },
+  ],
+  "instructions": [
+    "Die über Nacht eingeweichten Kichererbsen gut abspülen und abtropfen lassen.",
+    "Zwiebel grob würfeln, Knoblauch schälen. Petersilie und Koriander grob hacken.",
+    "Kichererbsen, Zwiebel, Knoblauch, Kräuter, Kreuzkümmel, Koriandersaat, Cayennepfeffer, Salz und Pfeffer in einem Food Processor oder starken Mixer geben.",
+    "Alles zu einer groben, krümeligen Masse verarbeiten. Nicht zu fein pürieren!",
+    "Mehl (falls verwendet) und Backpulver zugeben und kurz untermixen.",
+    "Masse in eine Schüssel geben und ca. 15-30 Minuten im Kühlschrank ruhen lassen.",
+    "Aus der Masse mit angefeuchteten Händen oder einem Falafel-Former kleine Bällchen oder Patties formen.",
+    "Pflanzenöl in einem Topf oder einer tiefen Pfanne auf ca. 170-180°C erhitzen.",
+    "Falafel portionsweise goldbraun und knusprig ausbacken (ca. 5-7 Minuten).",
+    "Mit einer Schaumkelle herausnehmen und auf Küchenpapier abtropfen lassen."
+  ],
+  "nutrition": {
+    "calories": 1953,
+    "protein": "57g",
+    "carbs": "178g",
+    "fat": "120g"
+  },
+  "tips": [
+    "Wenn die Masse zu feucht ist, etwas mehr Mehl zugeben. Ist sie zu trocken, einen Esslöffel Wasser oder Zitronensaft einarbeiten.",
+    "Du kannst Falafel auch im Ofen backen (ca. 25-30 Min. bei 180°C, mit Öl bepinselt) oder einfrieren und später frittieren/backen."
+  ],
+  "whyFavorite": {
+    "title": "Darum liebe ich diese Falafel",
+    "reasons": [
+      {
+        "title": "Echt original",
+        "description": "Die Zubereitung aus getrockneten Kichererbsen mit vielen Kräutern und Gewürzen macht den Unterschied. So schmecken Falafel wie im Nahen Osten!"
+      },
+      {
+        "title": "Vegetarisch & vielseitig",
+        "description": "Diese Falafel sind nicht nur super lecker, sondern auch komplett vegan und voller pflanzlicher Proteine. Perfekt für Falafel Bowl, Teller oder im Brot!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, deine selbstgemachten Falafel schmecken dir großartig!",
+    "subText": "Guten Appetit!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kichererbsen vorbereiten",
+      "description": "Getrocknete Kichererbsen sind der Kern. Sie müssen lange einweichen, damit sie sich gut verarbeiten lassen und die richtige Textur für die Falafel bekommen."
+    },
+    {
+      "title": "Masse mixen & formen",
+      "description": "Eingeweichte Kichererbsen werden mit Zwiebel, Knoblauch, Kräutern und Gewürzen gemahlen. Aus der Masse werden dann die typischen Bällchen oder Patties geformt."
+    },
+    {
+      "title": "Goldbraun ausbacken",
+      "description": "Die Falafel werden in heißem Öl frittiert, bis sie außen knusprig und innen gar sind. Das sorgt für die charakteristische Textur der originalen Falafel."
+    }
+  ],
+  "servingSuggestion": "Serviere Falafel heiß, klassisch in Pita, als Falafel Bowl oder auf dem Falafel Teller.",
+  "servingSuggestions": {
+    "title": "So genießt du Falafel am besten",
+    "description": "Falafel sind super vielseitig. Hier ein paar Ideen:",
+    "note": "Viele Möglichkeiten!",
+    "items": [
+      {
+        "emoji": "🥙",
+        "title": "In Pita Brot",
+        "description": "Gefüllt mit Salat, Tomaten, Gurken und Tahin-Sauce – der Klassiker!"
+      },
+      {
+        "emoji": "🥗",
+        "title": "Als Falafel Bowl",
+        "description": "Auf einem Bett aus Salat, mit Hummus, Couscous, Gemüse und Tahin-Dressing – eine komplette Mahlzeit!"
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Falafel sind in vielen Ländern des Nahen Ostens sehr beliebt und gelten als eine Art Nationalgericht, z.B. in Ägypten und Israel."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/falafel-zutaten.jpeg",
+    "image1": "/images/MainCourses/falafel-rezept-original-vegan.jpeg",
+    "image2": "/images/MainCourses/falafel-selber-machen-rezept.jpeg",
+    "image3": "/images/MainCourses/vegane-falafel-rezept.jpeg",
+    "image4": "/images/MainCourses/falafel-bowl-rezept.jpeg",
+    "image5": "/images/MainCourses/falafel-teller-rezept.jpeg",
+    "image6": "/images/MainCourses/orientalische-falafel.jpeg",
+    "image7": "/images/MainCourses/bestes-falafel-rezept.jpeg"
+  }
+},
 ];
 
 export function getRecipeBySlug(slug: string) {
