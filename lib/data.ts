@@ -4984,7 +4984,6 @@ export const recipes: Recipe[] = [
       "Wenn du es schärfer magst, füge fein gehackte Jalapeños (frisch oder eingelegt) hinzu.",
       "Übrig gebliebener Salat schmeckt auch toll in Wraps gewickelt am nächsten Tag.",
       "Statt schwarzer Bohnen kannst du auch Kidneybohnen verwenden.",
-      "Für eine nicht-vegane Variante passt auch etwas zerbröselter Feta oder Cotija-Käse gut dazu.",
       "Achte darauf, die Quinoa wirklich gut abzuspülen, sonst kann sie leicht bitter schmecken.",
       "Die Avocado erst ganz zum Schluss hinzufügen, damit sie nicht braun wird und matscht."
     ],
@@ -13254,6 +13253,288 @@ export const recipes: Recipe[] = [
     "image7": "/images/MainCourses/bestes-falafel-rezept.jpeg"
   }
 },
+{
+  "title": "Einfacher Italienischer Nudelsalat mit Pesto",
+  "seo_title": "Italienischer Nudelsalat Rezept Einfach - Mit Pesto & Rucola",
+  "image": "/images/Salads/italienischer-nudelsalat.jpeg",
+  "prepTime": 20,
+  "cookingTime": 12,
+  "seo_keywords": [
+    "Italienischer Nudelsalat Rezept",
+    "Italienischer Nudelsalat",
+    "Rezept Italienischer Nudelsalat",
+    "Italienischer Nudelsalat mit Rucola",
+    "Italienischer Nudelsalat mit Pesto",
+    "Italienischer Nudelsalat mit getrockneten Tomaten",
+    "Bester Italienischer Nudelsalat"
+  ],
+  "rating": 4.7,
+  "reviews": 210,
+  "category": "Salate",
+  "slug": "italienischer-nudelsalat",
+  "tags": [
+    "Nudelsalat",
+    "Italienisch",
+    "Sommer",
+    "Einfach",    
+    "Salate"
+  ],
+  "createdDate": new Date("2025-05-08T18:00:00Z"),
+  "updatedDate": new Date("2025-05-08T18:00:00Z"),
+  "servings": 5,
+  "description": "Das beste Italienischer Nudelsalat Rezept! Einfach, sommerlich, mit Pesto & Rucola.",
+  "descriptionOnImage": "Viva l'Italia!",
+  "introductionParagraph": "Sommer, Sonne, Gartenparty – da darf ein italienischer Nudelsalat einfach nicht fehlen! Dieses Rezept ist mein absoluter Favorit.",
+  "additionalParagraph": "So einfach gemacht, voller mediterraner Aromen und immer ein Hit. Probier mein Rezept für Italienischer Nudelsalat mit Pesto!",
+  "ingredientsNeeded": [
+    {
+      "title": "Kurze Nudeln",
+      "description": "Fusilli, Penne oder Farfalle eignen sich am besten. Die Sauce haftet gut daran."
+    },
+    {
+      "title": "Tomaten",
+      "description": "Frische Cherrytomaten und getrocknete Tomaten in Öl. Sie bringen Süße, Würze und intensiven Tomatengeschmack in den Salat."
+    },
+    {
+      "title": "Mozzarella",
+      "description": "Mini-Mozzarellakugeln passen perfekt zur Größe der Nudeln und bringen cremige Frische."
+    },
+    {
+      "title": "Oliven",
+      "description": "Schwarze oder grüne Oliven, entkernt. Sie sind essenziell für den mediterranen Geschmack."
+    },
+    {
+      "title": "Olivenöl",
+      "description": "Gutes Öl bildet die Grundlage des Dressings. Nutze das Öl der getrockneten Tomaten für mehr Aroma."
+    },
+    {
+      "title": "Essig (Balsamico Bianco)",
+      "description": "Ein heller Essig sorgt für die nötige Säure im Dressing."
+    },
+    {
+      "title": "Pesto",
+      "description": "Grünes Pesto Genovese. Es ist das Herzstück des Dressings und gibt dem italienischen Nudelsalat sein unverwechselbares Aroma."
+    },
+    {
+      "title": "Rucola",
+      "description": "Frischer Rucola mit seiner leicht pfeffrigen Note passt super gut und bringt eine frische, grüne Komponente."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Salat",
+      "description": "Die Basis und die mediterranen Stars.",
+      "ingredients": [
+        {
+          "amount": 300,
+          "unit": "g",
+          "name": "Kurze Nudeln"
+        },
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "Cherrytomaten"
+        },
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "getrocknete Tomaten in Öl"
+        },
+        {
+          "amount": 150,
+          "unit": "g",
+          "name": "Mini-Mozzarellakugeln"
+        },
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "entsteinte schwarze oder grüne Oliven"
+        },
+        {
+          "amount": 50,
+          "unit": "g",
+          "name": "Rucola"
+        }
+      ]
+    },
+    {
+      "title": "Für das Dressing",
+      "description": "Was den Salat zum italienischen Nudelsalat macht.",
+      "ingredients": [
+        {
+          "amount": 4,
+          "unit": "EL",
+          "name": "Olivenöl (aus den getrockneten Tomaten oder extra natives)"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Balsamico Bianco oder heller Essig"
+        },
+        {
+          "amount": 3,
+          "unit": "EL",
+          "name": "Pesto Genovese"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: Prise Zucker"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 300,
+      "unit": "g",
+      "name": "Kurze Nudeln"
+    },
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "Cherrytomaten"
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "getrocknete Tomaten in Öl"
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Mini-Mozzarellakugeln"
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "entsteinte schwarze oder grüne Oliven"
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Rucola"
+    },
+    {
+      "amount": 4,
+      "unit": "EL",
+      "name": "Olivenöl (aus den getrockneten Tomaten oder extra natives)"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Balsamico Bianco oder heller Essig"
+    },
+    {
+      "amount": 3,
+      "unit": "EL",
+      "name": "Pesto Genovese"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: Prise Zucker"
+    }
+  ],
+  "instructions": [
+    "Nudeln in Salzwasser al dente kochen. Abgießen, kalt abspülen und gut abtropfen lassen.",
+    "Cherrytomaten halbieren, getrocknete Tomaten abtropfen lassen und in Streifen schneiden.",
+    "Mozzarellakugeln und Oliven abtropfen lassen.",
+    "Rucola waschen und trockenschütteln.",
+    "Für das Dressing Olivenöl, Essig, Pesto, Salz, Pfeffer und optional Zucker verrühren.",
+    "Nudeln, Tomaten, Mozzarella, Oliven und Rucola in einer großen Schüssel mischen.",
+    "Dressing über den Salat gießen und alles vorsichtig vermengen.",
+    "Italienischer Nudelsalat mindestens 30 Minuten, besser länger, im Kühlschrank ziehen lassen."
+  ],
+  "nutrition": {
+    "calories": 2001,
+    "protein": "53g",
+    "carbs": "126g",
+    "fat": "170g"
+  },
+  "tips": [
+    "Verwende das Öl aus dem Glas der getrockneten Tomaten fürs Dressing – das gibt extra viel Aroma!",    
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Nudelsalat so gut ist",
+    "reasons": [
+      {
+        "title": "Voller Geschmack",
+        "description": "Die Kombination aus Pesto, getrockneten Tomaten, Mozzarella und frischem Rucola ist einfach unwiderstehlich mediterran."
+      },
+      {
+        "title": "Perfekt für den Sommer",
+        "description": "Schnell gemacht, lässt sich vorbereiten und schmeckt herrlich frisch. Der ideale italienischer Nudelsalat für Grillpartys oder als Mittagessen."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieser italienische Nudelsalat zaubert dir ein Lächeln ins Gesicht!",
+    "subText": "Buon appetito!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Pasta kochen & kühlen",
+      "description": "Die Nudeln müssen al dente gekocht und dann gut abgekühlt werden. Das ist wichtig, damit sie nicht matschig werden und das Dressing gut aufnehmen."
+    },
+    {
+      "title": "Zutaten vorbereiten",
+      "description": "Gemüse, Käse und Oliven werden geschnitten und das Dressing angerührt. So sind alle Komponenten bereit für den besten italienischen Nudelsalat."
+    },
+    {
+      "title": "Alles vermischen & ziehen lassen",
+      "description": "Alle Zutaten und das Dressing werden vorsichtig kombiniert. Das Ruhen im Kühlschrank lässt die Aromen der getrockneten Tomaten und des Pesto in die Nudeln einziehen."
+    }
+  ],
+  "servingSuggestion": "Serviere den italienischen Nudelsalat gekühlt.",
+  "servingSuggestions": {
+    "title": "Passt wunderbar dazu",
+    "description": "Dieser Nudelsalat ist vielseitig. Probiere ihn als:",
+    "note": "Immer eine gute Wahl!",
+    "items": [
+      {
+        "emoji": "🥪",
+        "title": "Leichtes Mittagessen",
+        "description": "Eine Portion italienischer Nudelsalat ist eine sättigende und leckere Mittagsmahlzeit."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes über Pesto",
+    "description": "Originales Pesto Genovese wird traditionell im Mörser zubereitet. Das langsame Zermahlen der Zutaten setzt die Aromen besonders gut frei."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/italienischer-nudelsalat-zutaten.jpeg",
+    "image1": "/images/Salads/italienischer-nudelsalat-rezept-einfach.jpeg",
+    "image2": "/images/Salads/italienischer-nudelsalat-mit-pesto-rucola.jpeg",
+    "image3": "/images/Salads/rezept-italienischer-nudelsalat-getrocknete-tomaten.jpeg",
+    "image4": "/images/Salads/bester-italienischer-nudelsalat.jpeg",
+    "image5": "/images/Salads/einfacher-italienischer-nudelsalat-sommer.jpeg",
+    "image6": "/images/Salads/italienischer-nudelsalat-vegetarisch.jpeg",
+    "image7": "/images/Salads/nudelsalat-mediterran-rezept.jpeg"
+  }
+}
 ];
 
 export function getRecipeBySlug(slug: string) {
