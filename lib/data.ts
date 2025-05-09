@@ -4631,7 +4631,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Mediterraner Gemüse-Couscous-Salat",
     "seo_title": "Schneller Gemüse Couscous Salat: Mediterran, frisch & lecker",
-    "image": "/images/Salads/gemuese-couscous-salat.webp",
+    "image": "/images/Salads/gemuese-couscous-salat.jpeg",
     "prepTime": 20,
     "cookingTime": 5,
     "seo_keywords": [
@@ -4845,20 +4845,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Couscous traditionell nicht gekocht, sondern über kochendem Wasser oder Eintopf gedämpft wird?  steamed? 💨 In Nordafrika, seiner Heimat, ist die Zubereitung oft ein geselliges Ritual. Der Instant-Couscous, den wir meist verwenden, ist vorgegart und muss nur noch quellen – super praktisch für unsere schnelle Küche! Aber egal wie, er ist einfach lecker und vielseitig. 😊"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/gemueseCouscousSalatIngredient.webp",
-      "image1": "/images/Salads/gemuese-couscous-salat1.webp",
-      "image2": "/images/Salads/gemuese-couscous-salat2.webp",
-      "image3": "/images/Salads/gemuese-couscous-salat3.webp",
-      "image4": "/images/Salads/gemuese-couscous-salat4.webp",
-      "image5": "/images/Salads/gemuese-couscous-salat5.webp",
-      "image6": "/images/Salads/gemuese-couscous-salat6.webp",
-      "image7": "/images/Salads/gemuese-couscous-salat7.webp"
+      "imageIngredient": "/images/Ingredients/gemuese-couscous-salat-zutaten.jpg",
+      "image1": "/images/Salads/couscous-salat-mit-gemuese-rezept.jpeg",
+      "image2": "/images/Salads/gemuese-couscous-salat-rezept-einfach.jpeg",
+      "image3": "/images/Salads/veganer-gemuese-couscous-salat.jpeg",
+      "image4": "/images/Salads/sommerlicher-couscous-salat-gemuese.jpeg",
+      "image5": "/images/Salads/orientalischer-gemuese-couscous-salat.jpeg",
+      "image6": "/images/Salads/einfacher-couscous-salat-rezept.jpeg",
+      "image7": "/images/Salads/vegetarischer-couscous-salat-gemuese.jpeg"
     }
   },
   {
     "title": "Energievoller Bunter Quinoa-Salat",
     "seo_title": "Gesunder Bunter Quinoa Salat: Vegan, proteinreich & lecker",
-    "image": "/images/Salads/bunter-quinoa-salat.webp",
+    "image": "/images/Salads/bunter-quinoa-salat.jpeg",
     "prepTime": 20,
     "cookingTime": 15,
     "seo_keywords": [
@@ -5081,20 +5081,20 @@ export const recipes: Recipe[] = [
       "description": "Quinoa wird oft als Getreide bezeichnet, ist aber botanisch gesehen ein 'Pseudogetreide'. Es gehört zur selben Familie wie Spinat und Rote Bete! 🌿 Schon die Inkas schätzten Quinoa vor Tausenden von Jahren als Grundnahrungsmittel und nannten es 'Mutterkorn'. Heute feiern wir es als Superfood – zu Recht, bei all den Nährstoffen! 💪"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/bunterQuinoaSalatIngredient.webp",
-      "image1": "/images/Salads/bunter-quinoa-salat1.webp",
-      "image2": "/images/Salads/bunter-quinoa-salat2.webp",
-      "image3": "/images/Salads/bunter-quinoa-salat3.webp",
-      "image4": "/images/Salads/bunter-quinoa-salat4.webp",
-      "image5": "/images/Salads/bunter-quinoa-salat5.webp",
-      "image6": "/images/Salads/bunter-quinoa-salat6.webp",
-      "image7": "/images/Salads/bunter-quinoa-salat7.webp"
+      "imageIngredient": "/images/Ingredients/bunter-quinoa-salat-zutaten.jpg",
+      "image1": "/images/Salads/quinoa-salat-mit-gemuese-vegan.jpeg",
+      "image2": "/images/Salads/bunter-quinoa-salat-rezept-gesund.jpeg",
+      "image3": "/images/Salads/einfacher-quinoa-salat-rezept.jpeg",
+      "image4": "/images/Salads/gesunder-quinoa-salat-selber-machen.jpeg",
+      "image5": "/images/Salads/vegetarischer-quinoa-salat-bowl.jpeg",
+      "image6": "/images/Salads/quinoa-salat-rezept-einfach.jpeg",
+      "image7": "/images/Salads/bunter-quinoa-salat-sommer.jpeg"
     }
   },
   {
     "title": "Authentischer Griechischer Bauernsalat (Horiatiki)",
     "seo_title": "Original Griechischer Bauernsalat (Horiatiki) Rezept - Einfach",
-    "image": "/images/Salads/griechischer-bauernsalat.webp",
+    "image": "/images/Salads/griechischer-bauernsalat.jpeg",
     "prepTime": 15,
     "cookingTime": 0,
     "seo_keywords": [
@@ -5305,14 +5305,14 @@ export const recipes: Recipe[] = [
       "description": "Der Name 'Horiatiki' ( χωριάτικη) bedeutet wörtlich 'Dorf-' oder 'Bauernsalat'. 🇬🇷 Er entstand angeblich, weil die Bauern einfache, frische Zutaten aus ihrem Garten verwendeten. Die Zugabe von Feta soll erst später populär geworden sein, möglicherweise um Touristen anzulocken oder als nahrhafte Ergänzung. Aber egal wie, ohne Feta ist er heute kaum vorstellbar! 😉"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/griechischerBauernsalatIngredient.webp",
-      "image1": "/images/Salads/griechischer-bauernsalat1.webp",
-      "image2": "/images/Salads/griechischer-bauernsalat2.webp",
-      "image3": "/images/Salads/griechischer-bauernsalat3.webp",
-      "image4": "/images/Salads/griechischer-bauernsalat4.webp",
-      "image5": "/images/Salads/griechischer-bauernsalat5.webp",
-      "image6": "/images/Salads/griechischer-bauernsalat6.webp",
-      "image7": "/images/Salads/griechischer-bauernsalat7.webp"
+      "imageIngredient": "/images/Ingredients/griechischer-bauernsalat-zutaten.jpg",
+      "image1": "/images/Salads/griechischer-bauernsalat-rezept-feta.jpeg",
+      "image2": "/images/Salads/bauernsalat-griechisch-dressing.jpeg",
+      "image3": "/images/Salads/sommerlicher-bauernsalat-griechisch.jpeg",
+      "image4": "/images/Salads/einfacher-griechischer-bauernsalat.jpeg",
+      "image5": "/images/Salads/original-griechischer-bauernsalat-rezept.jpeg",
+      "image6": "/images/Salads/griechischer-salat-mit-feta.jpeg",
+      "image7": "/images/Salads/bester-griechischer-bauernsalat.jpeg"
     }
   },
   {
@@ -10752,7 +10752,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Sommerliches Erdbeer-Tiramisu im Glas",
     "seo_title": "Erdbeer-Tiramisu Rezept Einfach - Am Vortag zubereiten!",
-    "image": "/images/Desserts/sommerliches-erdbeer-tiramisu-im-glas.webp",
+    "image": "/images/Desserts/sommerliches-erdbeer-tiramisu-im-glas.jpeg",
     "prepTime": 25,
     "cookingTime": 0,
     "seo_keywords": [
@@ -10991,14 +10991,14 @@ export const recipes: Recipe[] = [
       "description": "Tiramisu bedeutet wörtlich 'zieh mich hoch' oder 'munter mich auf' auf Italienisch – passend für dieses belebende Dessert!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/sommerliches-erdbeer-tiramisu-im-glas-zutaten.webp",
-      "image1": "/images/Desserts/erdbeer-tiramisu-rezept-einfach.webp",
-      "image2": "/images/Desserts/erdbeer-tiramisu-am-vortag-zubereiten.webp",
-      "image3": "/images/Desserts/bestes-erdbeer-tiramisu-rezept.webp",
-      "image4": "/images/Desserts/erdbeer-tiramisu-mascarpone.webp",
-      "image5": "/images/Desserts/sommer-dessert-erdbeeren-tiramisu.webp",
-      "image6": "/images/Desserts/tiramisu-mit-erdbeeren-rezept.webp",
-      "image7": "/images/Desserts/schnelles-erdbeer-tiramisu.webp"
+      "imageIngredient": "/images/Ingredients/sommerliches-erdbeer-tiramisu-im-glas-zutaten.jpg",
+      "image1": "/images/Desserts/erdbeer-tiramisu-rezept-einfach.jpg",
+      "image2": "/images/Desserts/erdbeer-tiramisu-am-vortag-zubereiten.jpg",
+      "image3": "/images/Desserts/bestes-erdbeer-tiramisu-rezept.jpg",
+      "image4": "/images/Desserts/erdbeer-tiramisu-mascarpone.jpeg",
+      "image5": "/images/Desserts/sommer-dessert-erdbeeren-tiramisu.jpeg",
+      "image6": "/images/Desserts/tiramisu-mit-erdbeeren-rezept.jpeg",
+      "image7": "/images/Desserts/schnelles-erdbeer-tiramisu.jpeg"
     }
   },
   {
