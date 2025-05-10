@@ -6270,7 +6270,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Omas Bester Gezogener Apfelstrudel – Ein Stück Wiener Mehlspeisenhimmel",
     "seo_title": "Bestes Apfelstrudel Rezept (Gezogener Teig)",
-    "image": "/images/Desserts/omas-bester-gezogener-apfelstrudel.webp",
+    "image": "/images/Desserts/omas-bester-gezogener-apfelstrudel.jpeg",
     "prepTime": 60,
     "cookingTime": 45,
     "seo_keywords": [
@@ -6517,21 +6517,21 @@ export const recipes: Recipe[] = [
       "title": "FUN FACT?",
       "description": "Der Apfelstrudel gilt als österreichische Nationalspeise, seine Ursprünge liegen aber vermutlich weiter östlich. Ähnliche, dünn ausgezogene und gefüllte Teiggerichte wie Baklava waren schon im Osmanischen Reich bekannt und könnten über Ungarn nach Wien gekommen sein."
     },
-    "images": {
-      "imageIngredient": "/images/Ingredients/omas-bester-gezogener-apfelstrudel-ingredient.webp",
-      "image1": "/images/Desserts/omas-bester-gezogener-apfelstrudel1.webp",
-      "image2": "/images/Desserts/omas-bester-gezogener-apfelstrudel2.webp",
-      "image3": "/images/Desserts/omas-bester-gezogener-apfelstrudel3.webp",
-      "image4": "/images/Desserts/omas-bester-gezogener-apfelstrudel4.webp",
-      "image5": "/images/Desserts/omas-bester-gezogener-apfelstrudel5.webp",
-      "image6": "/images/Desserts/omas-bester-gezogener-apfelstrudel6.webp",
-      "image7": "/images/Desserts/omas-bester-gezogener-apfelstrudel7.webp"
-    }
+"images": {
+    "imageIngredient": "/images/Ingredients/omas-bester-gezogener-apfelstrudel-zutaten.jpg",
+    "image1": "/images/Desserts/omas-bester-gezogener-apfelstrudel-rezept.jpeg",
+    "image2": "/images/Desserts/apfelstrudel-wie-oma-original.jpeg",
+    "image3": "/images/Desserts/klassischer-gezogener-apfelstrudel.jpeg",
+    "image4": "/images/Desserts/apfelstrudel-teig-selbstgemacht.jpeg",
+    "image5": "/images/Desserts/einfacher-apfelstrudel-rezept.jpeg",
+    "image6": "/images/Desserts/hausgemachter-apfelstrudel.jpeg",
+    "image7": "/images/Desserts/traditioneller-apfelstrudel-backen.jpeg"
+  }
   },
   {
     "title": "Das Perfekte Klassische Rührei – Cremig, Fluffig & Einfach",
     "seo_title": "Bestes Rührei Rezept: Klassisch, Cremig & Schnell Selber Machen",
-    "image": "/images/Frühstück/klassisches-ruehrei.webp",
+    "image": "/images/Frühstück/klassisches-ruehrei.jpeg",
     "prepTime": 5,
     "cookingTime": 5,
     "seo_keywords": [
@@ -6555,7 +6555,7 @@ export const recipes: Recipe[] = [
       "Einfach"
     ],
     "createdDate": new Date("2025-02-12T09:30:00Z"),
-    "updatedDate": new Date("2025-04-15T19:55:01Z"),
+    "updatedDate": new Date("2025-05-10T19:55:01Z"),
     "servings": 2,
     "description": "Lerne, wie du das perfekte klassische Rührei selber machst! Dieses einfache Rezept für cremiges, fluffiges Rührei gelingt garantiert.",
     "descriptionOnImage": "Perfekt cremiges Rührei – einfach & lecker",
@@ -6735,20 +6735,20 @@ export const recipes: Recipe[] = [
       "description": "Die 'perfekte' Konsistenz von Rührei ist weltweit eine kleine Glaubensfrage! Während man in Deutschland oft ein eher lockeres, leicht gestocktes Rührei bevorzugt, lieben die Franzosen ihr 'Oeufs Brouillés' oft extrem cremig und fast flüssig, erreicht durch langsames Garen im Wasserbad und viel Butter. Die Amerikaner mögen es oft etwas fester gebraten."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/klassisches-ruehrei-zutaten.webp",
-      "image1": "/images/Frühstück/klassisches-ruehrei-auf-teller.webp",
-      "image2": "/images/Frühstück/cremiges-ruehrei-pfanne.webp",
-      "image3": "/images/Frühstück/ruehrei-mit-schnittlauch-nahaufnahme.webp",
-      "image4": "/images/Frühstück/eier-verquirlen-fuer-ruehrei.webp",
-      "image5": "/images/Frühstück/ruehrei-auf-brot-serviert.webp",
-      "image6": "/images/Frühstück/klassisches-ruehrei-fruehstueck.webp",
-      "image7": "/images/Frühstück/bestes-ruehrei-rezept-einfach.webp"
+      "imageIngredient": "/images/Ingredients/klassisches-ruehrei-zutaten.jpeg",
+      "image1": "/images/Frühstück/klassisches-ruehrei-auf-teller.jpeg",
+      "image2": "/images/Frühstück/cremiges-ruehrei-pfanne.jpeg",
+      "image3": "/images/Frühstück/ruehrei-mit-schnittlauch-nahaufnahme.jpeg",
+      "image4": "/images/Frühstück/eier-verquirlen-fuer-ruehrei.jpeg",
+      "image5": "/images/Frühstück/ruehrei-auf-brot-serviert.jpeg",
+      "image6": "/images/Frühstück/klassisches-ruehrei-fruehstueck.jpeg",
+      "image7": "/images/Frühstück/bestes-ruehrei-rezept-einfach.jpeg"
     }
   },
   {
     "title": "Die Besten Saftigen Zimtschnecken mit Frischkäse-Frosting (Original Hefeteig)",
     "seo_title": "Bestes Zimtschnecken Rezept: Saftig, Fluffig",
-    "image": "/images/Desserts/zimtschnecken.webp",
+    "image": "/images/Desserts/zimtschnecken.jpeg",
     "prepTime": 45,
     "cookingTime": 25,
     "seo_keywords": [
@@ -6772,7 +6772,7 @@ export const recipes: Recipe[] = [
       "Kaffee und Kuchen"
     ],
     "createdDate": new Date("2025-02-16T10:00:00Z"),
-    "updatedDate": new Date("2025-04-16T23:50:00Z"),
+    "updatedDate": new Date("2025-05-10T23:50:00Z"),
     "servings": 12,
     "description": "Entdecke das beste Zimtschnecken Rezept für unglaublich saftige, fluffige Rollen mit Hefeteig. Einfach selber machen – unwiderstehlich lecker!",
     "descriptionOnImage": "Himmlisch saftige Zimtschnecken – frisch gebacken",
@@ -6997,20 +6997,20 @@ export const recipes: Recipe[] = [
       "description": "Obwohl Zimtschnecken oft mit Schweden ('Kanelbullar') oder den USA ('Cinnamon Rolls') verbunden werden, haben süße, eingerollte Hefegebäcke eine lange Tradition in vielen Teilen Europas, auch in Deutschland, oft als 'Schneckennudeln' bekannt. Die cremige Frischkäseglasur ist allerdings eher eine amerikanische Erfindung."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/saftige-zimtschnecken-zutaten.webp",
-      "image1": "/images/Desserts/saftige-zimtschnecken-mit-frosting.webp",
-      "image2": "/images/Desserts/zimtschnecken-hefeteig-rezept.webp",
-      "image3": "/images/Desserts/zimtschnecken-aufrollen-fuellung.webp",
-      "image4": "/images/Desserts/zimtschnecken-schneiden-zahnseide.webp",
-      "image5": "/images/Desserts/gebackene-zimtschnecken-in-form.webp",
-      "image6": "/images/Desserts/frischkaese-frosting-fuer-zimtschnecken.webp",
-      "image7": "/images/Desserts/beste-zimtschnecken-nahaufnahme.webp"
+      "imageIngredient": "/images/Ingredients/saftige-zimtschnecken-zutaten.jpg",
+      "image1": "/images/Desserts/saftige-zimtschnecken-mit-frosting.jpeg",
+      "image2": "/images/Desserts/zimtschnecken-hefeteig-rezept.jpeg",
+      "image3": "/images/Desserts/zimtschnecken-aufrollen-fuellung.jpeg",
+      "image4": "/images/Desserts/zimtschnecken-schneiden-zahnseide.jpeg",
+      "image5": "/images/Desserts/gebackene-zimtschnecken-in-form.jpeg",
+      "image6": "/images/Desserts/frischkaese-frosting-fuer-zimtschnecken.jpeg",
+      "image7": "/images/Desserts/beste-zimtschnecken-nahaufnahme.jpeg"
     }
   },
   {
     "title": "Mein liebstes cremiges Rhabarber-Kompott mit Vanille & Zitrone",
     "seo_title": "Bestes Rhabarberkompott Rezept einfach & schnell mit Vanille",
-    "image": "/images/Desserts/rhabarber-kompott.webp",
+    "image": "/images/Desserts/rhabarber-kompott.jpeg",
     "prepTime": 15,
     "cookingTime": 20,
     "seo_keywords": [
@@ -7034,7 +7034,7 @@ export const recipes: Recipe[] = [
       "Frucht"
     ],
     "createdDate": new Date("2025-02-12T14:30:00Z"),
-    "updatedDate": new Date("2025-04-17T16:15:00Z"),
+    "updatedDate": new Date("2025-05-10T16:15:00Z"),
     "servings": 4,
     "description": "Entdecke mein einfaches Rezept für cremiges Rhabarberkompott mit Vanille & Zitrone. Perfekt als Dessert oder Beilage – schnell gekocht!",
     "descriptionOnImage": "Cremiges Vanille-Rhabarberkompott",
@@ -7272,20 +7272,20 @@ export const recipes: Recipe[] = [
       "description": "Obwohl Rhabarber meist wie Obst in Süßspeisen verwendet wird, ist er botanisch gesehen ein Gemüse! Er gehört zur Familie der Knöterichgewächse, genau wie Buchweizen."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/rhabarber-kompott-zutaten.webp",
-      "image1": "/images/Desserts/einfaches-rhabarberkompott-rezept.webp",
-      "image2": "/images/Desserts/rhabarberkompott-kochen-schritte.webp",
-      "image3": "/images/Desserts/rhabarber-vanille-kompott-serviert.webp",
-      "image4": "/images/Desserts/rhabarber-nachtisch-variation.webp",
-      "image5": "/images/Desserts/cremiges-rhabarberkompott-nahaufnahme.webp",
-      "image6": "/images/Desserts/rhabarberkompott-mit-joghurt.webp",
-      "image7": "/images/Desserts/frischer-rhabarber-fuer-kompott.webp"
+      "imageIngredient": "/images/Ingredients/rhabarber-kompott-zutaten.jpg",
+      "image1": "/images/Desserts/einfaches-rhabarberkompott-rezept.jpeg",
+      "image2": "/images/Desserts/rhabarberkompott-kochen-schritte.jpeg",
+      "image3": "/images/Desserts/rhabarber-vanille-kompott-serviert.jpeg",
+      "image4": "/images/Desserts/rhabarber-nachtisch-variation.jpeg",
+      "image5": "/images/Desserts/cremiges-rhabarberkompott-nahaufnahme.jpeg",
+      "image6": "/images/Desserts/rhabarberkompott-mit-joghurt.jpeg",
+      "image7": "/images/Desserts/frischer-rhabarber-fuer-kompott.jpeg"
     }
   },
   {
     "title": "Knuspriges Granola mit Nüssen – Einfach Selber Machen & Genießen",
     "seo_title": "Bestes Nuss Granola Rezept: Knusprig, Gesund",
-    "image": "/images/Frühstück/granola-nuesse.webp",
+    "image": "/images/Frühstück/granola-nuesse.jpeg",
     "prepTime": 15,
     "cookingTime": 35,
     "seo_keywords": [
@@ -7309,7 +7309,7 @@ export const recipes: Recipe[] = [
       "Selber machen"
     ],
     "createdDate": new Date("2025-02-02T20:00:00Z"),
-    "updatedDate": new Date("2025-04-17T22:42:00Z"),
+    "updatedDate": new Date("2025-05-10T22:42:00Z"),
     "servings": 10,
     "description": "Das beste Rezept für knuspriges Granola mit vielen Nüssen! Einfach selber machen, gesund genießen und perfekt für dein Frühstück oder als Snack.",
     "descriptionOnImage": "Hausgemachtes Knusper-Granola mit Nüssen",
@@ -7514,20 +7514,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Granola im Grunde gebackenes Müsli ist? Während klassisches Müsli (oft 'Bircher Müsli') meist aus rohen Haferflocken, Nüssen und Früchten besteht, die direkt mit Milch oder Joghurt gemischt werden, werden beim Granola die Zutaten mit Süßungsmitteln und Öl vermischt und im Ofen knusprig gebacken. Das gibt ihm die typische Textur und den gerösteten Geschmack."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/knusper-granola-nuesse-zutaten.webp",
-      "image1": "/images/Frühstück/knusper-granola-nuesse-schuessel.webp",
-      "image2": "/images/Frühstück/granola-selber-machen-mischen.webp",
-      "image3": "/images/Frühstück/nuss-granola-auf-backblech.webp",
-      "image4": "/images/Frühstück/fertiges-knusper-granola-nuesse.webp",
-      "image5": "/images/Frühstück/granola-nuesse-mit-joghurt-beeren.webp",
-      "image6": "/images/Frühstück/gesundes-granola-rezept-glas.webp",
-      "image7": "/images/Frühstück/knusper-granola-nahaufnahme.webp"
+      "imageIngredient": "/images/Ingredients/knusper-granola-nuesse-zutaten.jpg",
+      "image1": "/images/Frühstück/knusper-granola-nuesse-schuessel.jpeg",
+      "image2": "/images/Frühstück/granola-selber-machen-mischen.jpeg",
+      "image3": "/images/Frühstück/nuss-granola-auf-backblech.jpeg",
+      "image4": "/images/Frühstück/fertiges-knusper-granola-nuesse.jpeg",
+      "image5": "/images/Frühstück/granola-nuesse-mit-joghurt-beeren.jpeg",
+      "image6": "/images/Frühstück/gesundes-granola-rezept-glas.jpeg",
+      "image7": "/images/Frühstück/knusper-granola-nahaufnahme.jpeg"
     }
   },
   {   
     "title": "kartoffelgratin",
     "seo_title": "kartoffelgratin",
-    "image": "/images/Miscellaneous/kartoffelgratin.webp",
+    "image": "/images/Miscellaneous/kartoffelgratin.jpeg",
     "prepTime": 25,
     "cookingTime": 60,
     "seo_keywords": [
@@ -7545,7 +7545,7 @@ export const recipes: Recipe[] = [
     "slug": "kartoffelgratin",
     "tags": ["Traditionell", "Auflauf", "Kartoffeln"],
     "createdDate": new Date("2025-02-10T10:00:00Z"),
-    "updatedDate": new Date("2025-04-15T12:00:00Z"),
+    "updatedDate": new Date("2025-05-10T12:00:00Z"),
     "servings": 7,
     "description": "Entdecken Sie mein einfaches Rezept für das cremigste Kartoffelgratin! Perfekt als Hauptspeise oder leckere Beilage.",
     "descriptionOnImage": "Einfach himmlisch cremig!",
@@ -7744,20 +7744,20 @@ export const recipes: Recipe[] = [
       "description": "Kartoffelgratin, auch bekannt als 'Gratin Dauphinois', stammt ursprünglich aus der französischen Region Dauphiné und wurde angeblich erstmals 1788 serviert."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kartoffelgratin-zutaten.webp",
-      "image1": "/images/Miscellaneous/cremiges-kartoffelgratin-rezept.webp",
-      "image2": "/images/Miscellaneous/einfaches-sahne-gratin.webp",
-      "image3": "/images/Miscellaneous/kartoffelauflauf-klassisch.webp",
-      "image4": "/images/Miscellaneous/gratin-dauphinois-deutsch.webp",
-      "image5": "/images/Miscellaneous/kartoffelgratin-ofen.webp",
-      "image6": "/images/Miscellaneous/selbstgemachtes-kartoffelgratin.webp",
-      "image7": "/images/Miscellaneous/kartoffelgratin-mit-kaese.webp"
+      "imageIngredient": "/images/Ingredients/kartoffelgratin-zutaten.jpg",
+      "image1": "/images/Miscellaneous/cremiges-kartoffelgratin-rezept.jpeg",
+      "image2": "/images/Miscellaneous/einfaches-sahne-gratin.jpeg",
+      "image3": "/images/Miscellaneous/kartoffelauflauf-klassisch.jpeg",
+      "image4": "/images/Miscellaneous/gratin-dauphinois-deutsch.jpeg",
+      "image5": "/images/Miscellaneous/kartoffelgratin-ofen.jpeg",
+      "image6": "/images/Miscellaneous/selbstgemachtes-kartoffelgratin.jpeg",
+      "image7": "/images/Miscellaneous/kartoffelgratin-mit-kaese.jpeg"
     }
   },
   {
     "title": "Blumenkohl Käse Auflauf",
     "seo_title": "Blumenkohl Käse Auflauf",
-    "image": "/images/Miscellaneous/blumenkohl-kaese-auflauf.webp",
+    "image": "/images/Miscellaneous/blumenkohl-kaese-auflauf.jpeg",
     "prepTime": 20,
     "cookingTime": 35,
     "seo_keywords": [
@@ -7781,7 +7781,7 @@ export const recipes: Recipe[] = [
       "Familienrezept"
     ],
     "createdDate": new Date("2025-03-10T14:30:00Z"),
-    "updatedDate": new Date("2025-04-20T10:00:00Z"),
+    "updatedDate": new Date("2025-05-10T10:00:00Z"),
     "servings": 4,
     "description": "Dieses einfache Rezept für Blumenkohl Käse Auflauf ist cremig, herzhaft und super einfach gemacht. Der perfekte vegetarische Auflauf für die ganze Familie!",
     "descriptionOnImage": "Cremig, käsig, lecker!",
@@ -7972,14 +7972,14 @@ export const recipes: Recipe[] = [
       "description": "Blumenkohl ist eng mit Brokkoli verwandt und wie dieser reich an Vitamin C und K."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/blumenkohl-kaese-auflauf-zutaten.webp",
-      "image1": "/images/Miscellaneous/blumenkohl-auflauf-rezept-einfach.webp",
-      "image2": "/images/Miscellaneous/vegetarischer-blumenkohl-auflauf.webp",
-      "image3": "/images/Miscellaneous/cremiger-blumenkohl-kaese-auflauf.webp",
-      "image4": "/images/Miscellaneous/auflauf-mit-blumenkohl-kaese.webp",
-      "image5": "/images/Miscellaneous/blumenkohl-ueberbacken-rezept.webp",
-      "image6": "/images/Miscellaneous/einfacher-vegetarischer-auflauf.webp",
-      "image7": "/images/Miscellaneous/blumenkohl-hauptgericht.webp"
+      "imageIngredient": "/images/Ingredients/blumenkohl-kaese-auflauf-zutaten.jpg",
+      "image1": "/images/Miscellaneous/blumenkohl-auflauf-rezept-einfach.jpeg",
+      "image2": "/images/Miscellaneous/vegetarischer-blumenkohl-auflauf.jpeg",
+      "image3": "/images/Miscellaneous/cremiger-blumenkohl-kaese-auflauf.jpeg",
+      "image4": "/images/Miscellaneous/auflauf-mit-blumenkohl-kaese.jpeg",
+      "image5": "/images/Miscellaneous/blumenkohl-ueberbacken-rezept.jpeg",
+      "image6": "/images/Miscellaneous/einfacher-vegetarischer-auflauf.jpeg",
+      "image7": "/images/Miscellaneous/blumenkohl-hauptgericht.jpeg"
     }
   },
   {
