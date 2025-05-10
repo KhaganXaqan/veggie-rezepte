@@ -5567,7 +5567,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Französische Crêpes mit karamellisierten Granola-Nüssen",
     "seo_title": "Französische Crêpes mit Granola-Nüssen – Einfach & Knusprig",
-    "image": "/images/Frühstück/franzoesische-crepes.webp",
+    "image": "/images/Frühstück/franzoesische-crepes.jpeg",
     "prepTime": 20,
     "cookingTime": 25,
     "seo_keywords": [
@@ -5585,7 +5585,7 @@ export const recipes: Recipe[] = [
     "slug": "franzoesische-crepes-granola-nuesse",
     "tags": ["Frühstück", "Französisch", "Süß"],
     "createdDate": new Date("2025-03-01T10:00:00Z"),
-    "updatedDate": new Date("2025-04-05T12:00:00Z"),
+    "updatedDate": new Date("2025-10-05T12:00:00Z"),
     "servings": 4,
     "description": "Zarte französische Crêpes treffen auf knusprig-süßes Granola mit karamellisierten Nüssen – perfekt zum Frühstück oder als Dessert!",
     "descriptionOnImage": "Knusprige Granola-Nüsse auf zarten Crêpes",
@@ -5766,22 +5766,22 @@ export const recipes: Recipe[] = [
     "funFact": {
       "title": "Wusstest du schon?",
       "description": "Crêpes stammen ursprünglich aus der Bretagne und wurden dort traditionell auf gusseisernen Platten über offenem Feuer zubereitet!"
-    },
-    "images": {
-      "imageIngredient": "/images/Ingredients/franzoesischeCrepesIngredient.webp",
-      "image1": "/images/Frühstück/franzoesische-crepes1.webp",
-      "image2": "/images/Frühstück/franzoesische-crepes2.webp",
-      "image3": "/images/Frühstück/franzoesische-crepes3.webp",
-      "image4": "/images/Frühstück/franzoesische-crepes4.webp",
-      "image5": "/images/Frühstück/franzoesische-crepes5.webp",
-      "image6": "/images/Frühstück/franzoesische-crepes6.webp",
-      "image7": "/images/Frühstück/franzoesische-crepes7.webp"
-    }
+    },    
+      "images": {
+        "imageIngredient": "/images/Ingredients/franzoesische-crepes-zutaten.jpg",
+        "image1": "/images/Frühstück/franzoesische-crepes-rezept-einfach.jpeg",
+        "image2": "/images/Frühstück/crepes-franzoesisch-original.jpeg",
+        "image3": "/images/Frühstück/crepes-rezept-franzoesisch-herzhaft.jpeg",
+        "image4": "/images/Frühstück/franzoesische-crepes-suess.jpeg",
+        "image5": "/images/Frühstück/schnelle-franzoesische-crepes.jpeg",
+        "image6": "/images/Frühstück/beste-franzoesische-crepes.jpeg",
+        "image7": "/images/Frühstück/franzoesische-crepes-grundrezept.jpeg"
+      }
   },
   {
     "title": "Warmer Beeren-Crumble aus dem Ofen",
     "seo_title": "Beeren-Crumble Rezept – einfach, fruchtig & knusprig",
-    "image": "/images/Desserts/beeren-crumble.webp",
+    "image": "/images/Desserts/beeren-crumble.jpeg",
     "prepTime": 15,
     "cookingTime": 30,
     "seo_keywords": [
@@ -5805,7 +5805,7 @@ export const recipes: Recipe[] = [
       "schnell"
     ],
     "createdDate": new Date("2025-03-01T10:00:00Z"),
-    "updatedDate": new Date("2025-04-11T12:00:00Z"),
+    "updatedDate": new Date("2025-05-10T12:00:00Z"),
     "servings": 6,
     "description": "Ein fruchtiger Beeren-Crumble mit knusprigen Streuseln – perfekt als schnelles Dessert oder süßer Sommergenuss.",
     "descriptionOnImage": "Fruchtig, warm und herrlich knusprig – dein neuer Lieblingscrumble!",
@@ -5986,20 +5986,20 @@ export const recipes: Recipe[] = [
       "description": "Das Wort 'Crumble' kommt aus dem Englischen und bedeutet 'Krümel' – passender könnte man diese Streuseldesserts kaum benennen!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/beerenCrumbleIngredient.webp",
-      "image1": "/images/Desserts/beeren-crumble1.webp",
-      "image2": "/images/Desserts/beeren-crumble2.webp",
-      "image3": "/images/Desserts/beeren-crumble3.webp",
-      "image4": "/images/Desserts/beeren-crumble4.webp",
-      "image5": "/images/Desserts/beeren-crumble5.webp",
-      "image6": "/images/Desserts/beeren-crumble6.webp",
-      "image7": "/images/Desserts/beeren-crumble7.webp"
-    }
+    "imageIngredient": "/images/Ingredients/beeren-crumble-zutaten.jpg",
+    "image1": "/images/Desserts/beeren-crumble-rezept-einfach.jpeg",
+    "image2": "/images/Desserts/crumble-mit-beeren-vegetarisch.jpeg",
+    "image3": "/images/Desserts/sommerlicher-beeren-crumble.jpeg",
+    "image4": "/images/Desserts/schneller-beeren-crumble-haferflocken.jpeg",
+    "image5": "/images/Desserts/crumble-rezept-beeren-backen.jpeg",
+    "image6": "/images/Desserts/ofen-beeren-crumble.jpeg",
+    "image7": "/images/Desserts/fruchtiger-beeren-crumble.jpeg"
+  }
   },
   {
     "title": "Himmlische Schokoladen-Mousse – Klassisch & Intensiv",
     "seo_title": "Bestes Schokoladen-Mousse Rezept (klassisch & einfach)",
-    "image": "/images/Desserts/klassische-schokoladen-mousse.webp",
+    "image": "/images/Desserts/klassische-schokoladen-mousse.jpeg",
     "prepTime": 25,
     "cookingTime": 180,
     "seo_keywords": [
@@ -6023,7 +6023,7 @@ export const recipes: Recipe[] = [
       "Dessert"
     ],
     "createdDate": new Date("2024-03-02T11:00:00Z"),
-    "updatedDate": new Date("2025-04-12T02:00:00Z"),
+    "updatedDate": new Date("2025-05-10T02:00:00Z"),
     "servings": 4,
     "description": "Entdecke das beste Rezept für klassische Schokoladen-Mousse! Intensiv, luftig und überraschend einfach – ein Mousse au Chocolat Traum mit Sahne.",
     "descriptionOnImage": "Luftig-zarte Schokoladen-Mousse",
@@ -6257,15 +6257,15 @@ export const recipes: Recipe[] = [
       "description": "Das Wort 'Mousse' ist französisch und bedeutet 'Schaum'. Die Erfindung der Mousse au Chocolat, wie wir sie heute kennen, wird oft dem französischen Künstler Henri de Toulouse-Lautrec zugeschrieben, der sie Ende des 19. Jahrhunderts unter dem Namen 'Mayonnaise de Chocolat' kreiert haben soll!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/schokoladen-mousse-zutaten.webp",
-      "image1": "/images/Desserts/klassische-schokoladen-mousse1.webp",
-      "image2": "/images/Desserts/klassische-schokoladen-mousse2.webp",
-      "image3": "/images/Desserts/klassische-schokoladen-mousse3.webp",
-      "image4": "/images/Desserts/klassische-schokoladen-mousse4.webp",
-      "image5": "/images/Desserts/klassische-schokoladen-mousse5.webp",
-      "image6": "/images/Desserts/klassische-schokoladen-mousse6.webp",
-      "image7": "/images/Desserts/klassische-schokoladen-mousse7.webp"
-    }
+    "imageIngredient": "/images/Ingredients/schokoladen-mousse-zutaten.jpg",
+    "image1": "/images/Desserts/klassische-schokoladen-mousse-rezept.jpeg",
+    "image2": "/images/Desserts/mousse-au-chocolat-rezept-original.jpeg",
+    "image3": "/images/Desserts/einfache-schokoladen-mousse-selbstgemacht.jpeg",
+    "image4": "/images/Desserts/schnelle-schokoladen-mousse-mit-ei.jpeg",
+    "image5": "/images/Desserts/beste-schokoladen-mousse-rezept.jpeg",
+    "image6": "/images/Desserts/cremige-schokoladen-mousse.jpeg",
+    "image7": "/images/Desserts/schokoladen-dessert-mousse.jpeg"
+  }
   },
   {
     "title": "Omas Bester Gezogener Apfelstrudel – Ein Stück Wiener Mehlspeisenhimmel",
