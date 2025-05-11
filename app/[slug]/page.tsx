@@ -44,9 +44,13 @@ export async function generateMetadata(
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
 
+  // Prepare keywords from recipe's SEO keywords
+  const keywordsString = recipe.seo_keywords ? recipe.seo_keywords.join(', ') : 'vegetarisch, rezept';
+
   return {
     title: `${recipe.seo_title || recipe.title}`,
     description: recipe.description || '',
+    keywords: keywordsString,
     openGraph: {
       title: `${recipe.seo_title || recipe.title}`,
       description: recipe.description || '',

@@ -70,7 +70,7 @@ export default function AllRecipes() {
     }
     canonicalLink.setAttribute('href', canonicalUrl);
     
-    // Update meta description
+    // Set meta description
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -85,6 +85,22 @@ export default function AllRecipes() {
         : 'Entdecke alle vegetarischen Rezepte - von Hauptgerichten über Suppen bis zu Desserts. Einfach, lecker und gesund!';
     
     metaDescription.setAttribute('content', description);
+    
+    // Set meta keywords
+    let metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (!metaKeywords) {
+      metaKeywords = document.createElement('meta');
+      metaKeywords.setAttribute('name', 'keywords');
+      document.head.appendChild(metaKeywords);
+    }
+    
+    const keywords = selectedTags.length > 0
+      ? `${selectedTags.join(', ')}, vegetarische rezepte, veggie rezepte, ${selectedTags.join(' rezepte, ')} rezepte`
+      : searchQuery
+        ? `${searchQuery} rezepte, vegetarische ${searchQuery} rezepte, veggie rezepte, rezeptsuche`
+        : 'alle rezepte, vegetarische rezepte, veggie rezepte, rezeptsammlung, vegetarische gerichte, vegane rezepte';
+    
+    metaKeywords.setAttribute('content', keywords);
     
     // Update OpenGraph tags
     updateOpenGraphTags(description);

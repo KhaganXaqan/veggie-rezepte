@@ -19,9 +19,13 @@ export async function generateMetadata(): Promise<Metadata> {
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/`;
 
+  // Define specific keywords for the homepage
+  const homeKeywords = 'vegetarische rezepte, vegane rezepte, veggie rezepte, gesunde rezepte, schnelle rezepte, einfache rezepte, deutsche küche, kochen, vegetarisch';
+
   return {
     title: "Vegetarische & Vegane Rezepte | Lecker & Gesund | Veggie Rezepte",
     description: "Entdecke köstliche vegetarische und vegane Rezepte für jeden Tag. Von schnellen Gerichten bis zu festlichen Menüs - einfach zubereitet und gesund.",
+    keywords: homeKeywords,
     openGraph: {
       title: "Vegetarische & Vegane Rezepte | Lecker & Gesund | Veggie Rezepte",
       description: "Entdecke köstliche vegetarische und vegane Rezepte für jeden Tag. Von schnellen Gerichten bis zu festlichen Menüs - einfach zubereitet und gesund.",
