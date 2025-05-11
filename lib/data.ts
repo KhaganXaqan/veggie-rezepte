@@ -13534,6 +13534,264 @@ export const recipes: Recipe[] = [
     "image6": "/images/Salads/italienischer-nudelsalat-vegetarisch.jpeg",
     "image7": "/images/Salads/nudelsalat-mediterran-rezept.jpeg"
   }
+},
+{
+  "title": "Omas Schwäbischer Kartoffelsalat mit Brühe",
+  "seo_title": "Schwäbischer Kartoffelsalat Rezept – Warm mit Brühe & Essig",
+  "image": "/images/Salads/schwaebischer-kartoffelsalat-mit-bruehe.jpeg",
+  "prepTime": 25,
+  "cookingTime": 25,
+  "seo_keywords": [
+    "kartoffelsalat mit brühe",
+    "omas kartoffelsalat mit brühe",
+    "bester kartoffelsalat mit brühe",
+    "warmer kartoffelsalat mit brühe",
+    "lauwarmer kartoffelsalat mit brühe",
+    "rezept kartoffelsalat mit brühe",
+    "vegetarische kartoffelsalat mit brühe",
+    "kartoffelsalat mit brühe rezept",
+    "kartoffelsalat mit brühe essig und öl",
+    "warmer kartoffelsalat mit brühe und essig"
+  ],
+  "rating": 4.7,
+  "reviews": 345,
+  "category": "Salate",
+  "slug": "kartoffelsalat-mit-bruehe",
+  "tags": [
+    "Kartoffelsalat",
+    "Schwäbisch",
+    "Vegetarisch",
+    "Beilage",
+    "Traditionell",
+    "Salate"
+  ],
+  "createdDate": new Date("2025-05-11T14:00:00Z"),
+  "updatedDate": new Date("2025-05-11T14:00:00Z" ),
+  "servings": 5,
+  "description": "Das beste Rezept für schwäbischen Kartoffelsalat mit Brühe. Traditionell & einfach!",
+  "descriptionOnImage": "Original schwäbisch!",
+  "introductionParagraph": "Wer kennt ihn nicht, den unvergleichlichen schwäbischen Kartoffelsalat? Dieses Rezept für Kartoffelsalat mit Brühe ist genau wie bei Oma!",
+  "additionalParagraph": "Das Geheimnis ist das warme Dressing, das die Kartoffeln wunderbar aufsaugen. Er schmeckt am besten lauwarm – ein Genuss!",
+  "ingredientsNeeded": [
+    {
+      "title": "Festkochende Kartoffeln",
+      "description": "Die richtige Sorte ist entscheidend. Sie bleiben schnittfest und nehmen das Dressing optimal auf."
+    },
+    {
+      "title": "Zwiebeln",
+      "description": "Fein gewürfelt geben sie dem Kartoffelsalat eine angenehme Schärfe und Würze."
+    },
+    {
+      "title": "Gemüsebrühe",
+      "description": "Sie bildet die Basis des Dressings und sorgt für die typische Saftigkeit und den unverwechselbaren Geschmack. Warm hinzugefügt, zieht sie gut ein."
+    },
+    {
+      "title": "Essig & Öl",
+      "description": "Ein guter Weißweinessig und neutrales Pflanzenöl sind für das authentische schwäbische Dressing unerlässlich."
+    },
+    {
+      "title": "Senf",
+      "description": "Ein Löffel Senf rundet den Geschmack ab und gibt dem Dressing eine feine Würze."
+    },
+    {
+      "title": "Frische Kräuter",
+      "description": "Schnittlauch und Petersilie sorgen für Frische und Aroma. Sie sind das i-Tüpfelchen."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Salat",
+      "description": "Die Hauptzutaten, die diesen Salat so besonders machen.",
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "kg",
+          "name": "festkochende Kartoffeln"
+        },
+        {
+          "amount": 1,
+          "unit": "",
+          "name": "große Zwiebel"
+        }
+      ]
+    },
+    {
+      "title": "Für das Dressing",
+      "description": "Das Herzstück des schwäbischen Kartoffelsalats.",
+      "ingredients": [
+        {
+          "amount": 300,
+          "unit": "ml",
+          "name": "Gemüsebrühe"
+        },
+        {
+          "amount": 4,
+          "unit": "EL",
+          "name": "Weißweinessig"
+        },
+        {
+          "amount": 3,
+          "unit": "EL",
+          "name": "neutrales Pflanzenöl (z.B. Sonnenblumenöl)"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "mittelscharfer Senf"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "frischer Schnittlauch (geschnitten)"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "frische Petersilie (gehackt)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "frisch gemahlener Pfeffer"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "kg",
+      "name": "festkochende Kartoffeln"
+    },
+    {
+      "amount": 1,
+      "unit": "",
+      "name": "große Zwiebel"
+    },
+    {
+      "amount": 300,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "amount": 4,
+      "unit": "EL",
+      "name": "Weißweinessig"
+    },
+    {
+      "amount": 3,
+      "unit": "EL",
+      "name": "neutrales Pflanzenöl (z.B. Sonnenblumenöl)"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "mittelscharfer Senf"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "frischer Schnittlauch (geschnitten)"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "frische Petersilie (gehackt)"
+    },
+    
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "frisch gemahlener Pfeffer"
+    }
+  ],
+  "instructions": [
+    "Kartoffeln gründlich waschen und mit Schale ca. 20-25 Minuten gar kochen. Sie sollten weich, aber noch bissfest sein.",
+    "Währenddessen die Zwiebel schälen und sehr fein würfeln.",
+    "Für das Dressing die Gemüsebrühe erhitzen (nicht kochen).",
+    "In einer großen Schüssel Essig, Öl, Senf, Salz und Pfeffer verrühren. Die heiße Brühe hinzufügen und gut mischen.",
+    "Die noch warmen Kartoffeln pellen und sofort in etwa 3-4 mm dicke Scheiben schneiden oder hobeln. Direkt in die Schüssel mit dem Dressing geben.",
+    "Die Zwiebelwürfel zu den Kartoffeln geben. Alles vorsichtig vermengen, sodass die Kartoffeln das Dressing gut aufsaugen können.",
+    "Den Kartoffelsalat mindestens 30 Minuten ziehen lassen. Vor dem Servieren die frischen Kräuter unterheben und ggf. nachwürzen."
+  ],
+  "nutrition": {
+    "calories": 1350,
+    "protein": "22g",
+    "carbs": "179g",
+    "fat": "57g"
+  },
+  "tips": [
+    "Serviere den schwäbischen Kartoffelsalat lauwarm. So entfaltet er sein volles Aroma. Er schmeckt aber auch kalt am nächsten Tag noch hervorragend."    
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Kartoffelsalat so besonders ist",
+    "reasons": [
+      {
+        "title": "Traditionell & Authentisch",
+        "description": "Dieses Rezept für Kartoffelsalat mit Brühe ist ein echtes Stück schwäbische Heimat. Genau so, wie man ihn liebt!"
+      },
+      {
+        "title": "Unglaublich saftig",
+        "description": "Die warmen Kartoffeln saugen das herzhafte Dressing mit Essig und Öl perfekt auf. So bleibt der Kartoffelsalat mit Brühe wunderbar saftig."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dir diesen köstlichen schwäbischen Kartoffelsalat schmecken!",
+    "subText": "Ein Gruß aus Omas Küche an dich!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kartoffeln vorbereiten",
+      "description": "Die richtigen Kartoffeln kochen und warm in Scheiben schneiden ist der erste Schritt zum perfekten schwäbischen Kartoffelsalat."
+    },
+    {
+      "title": "Dressing anrühren",
+      "description": "Das warme Dressing aus Brühe, Essig und Öl ist das Herzstück. Es muss gut gewürzt sein, damit der Kartoffelsalat seinen Geschmack entfaltet."
+    },
+    {
+      "title": "Vermengen und ziehen lassen",
+      "description": "Die warmen Kartoffeln saugen das Dressing am besten auf. Eine Ruhezeit lässt die Aromen perfekt durchziehen."
+    }
+  ],
+  "servingSuggestion": "Dieser warme Kartoffelsalat mit Brühe schmeckt am besten lauwarm.",
+  "servingSuggestions": {
+    "title": "Passende Begleiter für deinen Kartoffelsalat",
+    "description": "Er ist die perfekte Beilage zu vielen Gerichten oder ein leichter Hauptgang.",
+    "note": "Einfach unwiderstehlich!",
+    "items": [
+      {
+        "emoji": "🥗",
+        "title": "Als Hauptspeise",
+        "description": "Mit einem Spiegelei oder etwas Blattsalat wird er zu einer vollwertigen Mahlzeit."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Der schwäbische Kartoffelsalat ist so beliebt, weil er anders als viele andere Kartoffelsalate kein Mayonnaise-Dressing hat, sondern eine leichte Essig-Öl-Brühe."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/kartoffelsalat-mit-bruehe-schwaebisch-zutaten.jpeg",
+    "image1": "/images/Salads/omas-kartoffelsalat-mit-bruehe-rezept.jpeg",
+    "image2": "/images/Salads/bester-schwaebischer-kartoffelsalat.jpeg",
+    "image3": "/images/Salads/warmer-kartoffelsalat-mit-bruehe-essig-oel.jpeg",
+    "image4": "/images/Salads/lauwarmer-kartoffelsalat-mit-bruehe-vegetarisch.jpeg",
+    "image5": "/images/Salads/traditioneller-kartoffelsalat-bruehe.jpeg",
+    "image6": "/images/Salads/kartoffelsalat-schwaebisch-original.jpeg",
+    "image7": "/images/Salads/einfacher-kartoffelsalat-mit-bruehe.jpeg"
+  }
 }
 ];
 
