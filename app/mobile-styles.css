@@ -189,6 +189,63 @@
     #recipe-card .border-b {
       margin-bottom: 1rem !important;
     }
+    
+    /* Fix Serving Suggestions section for mobile */
+    /* Target the specific Serving Suggestions section */
+    div[class="w-full mb-1"] {
+      background-color: #ffffff !important;
+      padding: 1rem !important;
+      border-radius: 0.5rem !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+      margin-bottom: 1.5rem !important;
+      position: relative !important;
+      z-index: 5 !important;
+    }
+    
+    div[class="w-full mb-1"] h2.font-black.text-4xl {
+      font-size: 1.75rem !important;
+      line-height: 1.2 !important;
+      color: #000000 !important;
+      margin-bottom: 0.75rem !important;
+      text-shadow: none !important;
+    }
+    
+    div[class="w-full mb-1"] p.text-lg {
+      font-size: 1rem !important;
+      line-height: 1.4 !important;
+      color: #000000 !important;
+      margin-bottom: 1rem !important;
+    }
+    
+    div[class="w-full mb-1"] .flex.items-start.gap-3 {
+      background-color: #ffffff !important;
+      padding: 0.75rem !important;
+      border-radius: 0.25rem !important;
+      margin-bottom: 0.75rem !important;
+      border: 1px solid #f0f0f0 !important;
+      display: flex !important;
+      align-items: flex-start !important;
+    }
+    
+    div[class="w-full mb-1"] .flex.items-start.gap-3 span.text-3xl {
+      font-size: 1.5rem !important;
+      margin-right: 0.5rem !important;
+    }
+    
+    div[class="w-full mb-1"] .flex.items-start.gap-3 strong {
+      color: #000000 !important;
+      font-weight: 600 !important;
+      display: block !important;
+      margin-bottom: 0.25rem !important;
+      font-size: 1.1rem !important;
+    }
+    
+    /* Description text */
+    .w-full.mb-1 .flex.items-start.gap-3 div {
+      color: #000000 !important;
+      font-size: 0.95rem !important;
+      line-height: 1.4 !important;
+    }
   }
 
   /* Recipe Images 3 - FIXED */
