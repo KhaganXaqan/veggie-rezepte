@@ -126,7 +126,7 @@
     right: 50% !important; /* Center it horizontally */
     transform: translateX(50%) !important; /* Center adjustment */
     width: auto !important;
-    z-index: 1 !important;
+    z-index: 1 !important; /* Set to negative z-index to ensure it's behind all content */
   }
 
   #recipe-card .absolute.-top-5.right-6 > div {
@@ -152,6 +152,100 @@
   #recipe-card .bg-white.border-2 {
     padding-top: 6rem !important; /* Add space at the top for the image */
     margin-top: 5rem !important; /* Add margin to account for the image position */
+  }
+  
+  /* Mobile-specific fixes for recipe card text visibility */
+  @media (max-width: 768px) {
+    /* Ensure text is visible with proper contrast */
+    #recipe-card p, 
+    #recipe-card span, 
+    #recipe-card div {
+      color: #000000 !important; /* Force black text color */
+    }
+    
+    /* Ensure the content area is above the image */
+    #recipe-card .w-full.md\:w-2\/3.z-10 {
+      position: relative !important;
+      z-index: 10 !important; /* Higher z-index to ensure content is above image */
+      background-color: #ffffff !important; /* Solid white background */
+    }
+    
+    /* Fix the yellow title banner */
+    #recipe-card .w-full.mt-4.pt-4.pb-4.px-5.mb-4.-ml-5.rounded-lg {
+      position: relative !important;
+      z-index: 5 !important;
+      margin-left: 0 !important;
+      width: 100% !important;
+    }
+    
+    /* Ensure recipe ingredients section is visible */
+    #recipe-card .p-5 {
+      position: relative !important;
+      z-index: 10 !important;
+      background-color: #ffffff !important;
+    }
+    
+    /* Add additional spacing between sections */
+    #recipe-card .border-b {
+      margin-bottom: 1rem !important;
+    }
+    
+    /* Fix Serving Suggestions section for mobile */
+    /* Target the specific Serving Suggestions section */
+    div[class="w-full mb-1"] {
+      background-color: #ffffff !important;
+      padding: 1rem !important;
+      border-radius: 0.5rem !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+      margin-bottom: 1.5rem !important;
+      position: relative !important;
+      z-index: 5 !important;
+    }
+    
+    div[class="w-full mb-1"] h2.font-black.text-4xl {
+      font-size: 1.75rem !important;
+      line-height: 1.2 !important;
+      color: #000000 !important;
+      margin-bottom: 0.75rem !important;
+      text-shadow: none !important;
+    }
+    
+    div[class="w-full mb-1"] p.text-lg {
+      font-size: 1rem !important;
+      line-height: 1.4 !important;
+      color: #000000 !important;
+      margin-bottom: 1rem !important;
+    }
+    
+    div[class="w-full mb-1"] .flex.items-start.gap-3 {
+      background-color: #ffffff !important;
+      padding: 0.75rem !important;
+      border-radius: 0.25rem !important;
+      margin-bottom: 0.75rem !important;
+      border: 1px solid #f0f0f0 !important;
+      display: flex !important;
+      align-items: flex-start !important;
+    }
+    
+    div[class="w-full mb-1"] .flex.items-start.gap-3 span.text-3xl {
+      font-size: 1.5rem !important;
+      margin-right: 0.5rem !important;
+    }
+    
+    div[class="w-full mb-1"] .flex.items-start.gap-3 strong {
+      color: #000000 !important;
+      font-weight: 600 !important;
+      display: block !important;
+      margin-bottom: 0.25rem !important;
+      font-size: 1.1rem !important;
+    }
+    
+    /* Description text */
+    .w-full.mb-1 .flex.items-start.gap-3 div {
+      color: #000000 !important;
+      font-size: 0.95rem !important;
+      line-height: 1.4 !important;
+    }
   }
 
   /* Recipe Images 3 - FIXED */
