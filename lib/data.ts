@@ -2905,7 +2905,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Gemüse-Strudel Vegetarisch",
     "seo_title": "Vegetarischer Gemüsestrudel Rezept – Blättrige Köstlichkeit",
-    "image": "/images/Miscellaneous/gemueseStrudel.webp",
+    "image": "/images/Miscellaneous/gemueseStrudelV1.webp",
     "prepTime": 40,
     "cookingTime": 35,
     "seo_keywords": [
