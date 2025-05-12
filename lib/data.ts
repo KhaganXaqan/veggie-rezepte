@@ -6735,7 +6735,7 @@ export const recipes: Recipe[] = [
       "description": "Die 'perfekte' Konsistenz von Rührei ist weltweit eine kleine Glaubensfrage! Während man in Deutschland oft ein eher lockeres, leicht gestocktes Rührei bevorzugt, lieben die Franzosen ihr 'Oeufs Brouillés' oft extrem cremig und fast flüssig, erreicht durch langsames Garen im Wasserbad und viel Butter. Die Amerikaner mögen es oft etwas fester gebraten."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/klassisches-ruehrei-zutaten.jpeg",
+      "imageIngredient": "/images/Ingredients/klassisches-ruehrei-zutaten.jpg",
       "image1": "/images/Frühstück/klassisches-ruehrei-auf-teller.jpeg",
       "image2": "/images/Frühstück/cremiges-ruehrei-pfanne.jpeg",
       "image3": "/images/Frühstück/ruehrei-mit-schnittlauch-nahaufnahme.jpeg",
