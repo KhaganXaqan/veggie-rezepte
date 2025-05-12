@@ -13792,7 +13792,296 @@ export const recipes: Recipe[] = [
     "image6": "/images/Salads/kartoffelsalat-schwaebisch-original.jpeg",
     "image7": "/images/Salads/einfacher-kartoffelsalat-mit-bruehe.jpeg"
   }
-}
+},
+{
+  "title": "Cremiger Hummus – Einfach selbst gemacht!",
+  "seo_title": "Hummus Rezept: Cremiger Hummus Selber Machen – Vegan & Einfach",
+  "image": "/images/Frühstück/hummus.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "hummus",
+    "hummus rezept",
+    "hummus selber machen",
+    "hummus rezept original",
+    "rezept hummus",
+    "hummus küch",
+    "hummus gesund",
+    "hummus selbst machen",
+    "hummus rezept original arabisch",
+    "hummus recipe",
+    "hummus rezept einfach"
+  ],
+  "rating": 5.0,
+  "reviews": 345,
+  "category": "Frühstück",
+  "slug": "hummus",
+  "tags": [
+    "Hummus",
+    "Vegan",
+    "Orientalisch",
+    "Einfach",
+    "Frühstück"
+  ],
+  "createdDate": new Date("2025-05-12T10:00:00Z"),
+  "updatedDate": new Date("2025-05-12T14:30:00Z"),
+  "servings": 4,
+  "description": "Entdecke unser einfaches Hummus Rezept: Cremiger Hummus selber machen, vegan!",
+  "descriptionOnImage": "So lecker & gesund!",
+  "introductionParagraph": "Ach, Hummus! Dieser vielseitige Kichererbsen-Dip ist einfach ein Genuss und unglaublich einfach selbst zu machen.",
+  "additionalParagraph": "Er ist nicht nur lecker, sondern auch voller guter Nährstoffe. Mein einfaches Hummus Rezept wird dich begeistern!",
+  "ingredientsNeeded": [
+    {
+      "title": "Kichererbsen",
+      "description": "Das Herzstück jedes Hummus. Wir verwenden gekochte Kichererbsen aus der Dose. Für einen besonders feinen Hummus empfehle ich, die Haut zu entfernen."
+    },
+    {
+      "title": "Tahini (Sesampaste)",
+      "description": "Unverzichtbar für den authentischen Geschmack und die typisch cremige Konsistenz."
+    },
+    {
+      "title": "Zitronensaft",
+      "description": "Frisch gepresst bringt er eine belebende Säure und Frische in den Hummus."
+    },
+    {
+      "title": "Knoblauch",
+      "description": "Er gibt dem Hummus die nötige Würze. Die Menge kann nach Geschmack angepasst werden."
+    },
+    {
+      "title": "Eiswasser",
+      "description": "Mein Geheimtipp für einen wirklich fluffigen und cremigen Hummus."
+    },
+    {
+      "title": "Olivenöl",
+      "description": "Für ein intensives Aroma und die perfekte Konsistenz. Auch zum Beträufeln vor dem Servieren."
+    },
+    {
+      "title": "Kreuzkümmel",
+      "description": "Verleiht dem Hummus seine typisch orientalische Note und Wärme."
+    },
+    {
+      "title": "Frische Kräuter",
+      "description": "Petersilie oder Koriander zum Garnieren verleihen dem Hummus Frische und Farbe."
+    },
+    {
+      "title": "Salz",
+      "description": "Zum Abschmecken unerlässlich und hebt die Aromen der anderen Zutaten hervor."
+    },
+    {
+      "title": "Paprikapulver",
+      "description": "Sorgt für eine leicht süßliche Note und eine schöne Farbe beim Servieren."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Hummus",
+      "description": "Diese Zutaten ergeben die cremige Basis.",
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "Dose",
+          "name": "Kichererbsen (ca. 240g Abtropfgewicht)"
+        },
+        {
+          "amount": 3,
+          "unit": "EL",
+          "name": "Tahini"
+        },
+        {
+          "amount": 3,
+          "unit": "EL",
+          "name": "frisch gepresster Zitronensaft"
+        },
+        {
+          "amount": 1,
+          "unit": "Zehe",
+          "name": "Knoblauch (gepresst)"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "kaltes Wasser"
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Olivenöl extra nativ"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz nach Geschmack"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Kreuzkümmel (optional, 1/2 TL)"
+        }
+      ]
+    },
+    {
+      "title": "Zum Servieren",
+      "description": "Für das Auge und den Extra-Kick.",
+      "ingredients": [
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Olivenöl extra nativ"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Paprikapulver edelsüß"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frische Petersilie oder Koriander"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "Dose",
+      "name": "Kichererbsen (ca. 240g Abtropfgewicht)"
+    },
+    {
+      "amount": 3,
+      "unit": "EL",
+      "name": "Tahini"
+    },
+    {
+      "amount": 3,
+      "unit": "EL",
+      "name": "frisch gepresster Zitronensaft"
+    },
+    {
+      "amount": 1,
+      "unit": "Zehe",
+      "name": "Knoblauch (gepresst)"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "kaltes Wasser"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Olivenöl extra nativ"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz nach Geschmack"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Kreuzkümmel (optional, 1/2 TL)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Olivenöl extra nativ (zum Servieren)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Paprikapulver edelsüß"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frische Petersilie oder Koriander"
+    }
+  ],
+  "instructions": [
+    "Kichererbsen abgießen und gründlich abspülen. Für einen besonders cremigen Hummus kannst du die Häutchen entfernen.",
+    "Kichererbsen, Tahini, Zitronensaft, Knoblauch, Salz und optional Kreuzkümmel in einen Mixer geben.",
+    "Mixer starten und nach und nach das kalte Wasser sowie das Olivenöl dazugeben.",
+    "Püriere alles, bis eine sehr glatte, cremige Masse entsteht. Falls nötig, mehr Eiswasser hinzufügen.",
+    "Schmecke den Hummus ab und würze bei Bedarf nach.",
+    "Den Hummus in eine Schale füllen, mit einem Löffel eine Mulde formen.",
+    "Mit einem Schuss Olivenöl, Paprikapulver und frischer Petersilie oder Koriander garnieren."
+  ],
+  "nutrition": {
+    "calories": 770,
+    "protein": "28.5g",
+    "carbs": "73.5g",
+    "fat": "42.5g"
+  },
+  "tips": [
+    "Für den ultra-cremigen Hummus-Genuss: Die Häutchen der Kichererbsen lassen sich leicht entfernen, indem du sie zwischen den Händen reibst oder in einer Schüssel mit Wasser spülst.",
+    "Variationen: Füge geröstete Paprika, gekochte Rote Bete oder etwas gerösteten Kürbis für einen farbigen und aromatischen Twist hinzu."
+  ],
+  "whyFavorite": {
+    "title": "Warum ich diesen Hummus liebe",
+    "reasons": [
+      {
+        "title": "Unglaublich vielseitig",
+        "description": "Als Dip für Gemüse, Aufstrich auf Brot oder Beilage zu Falafel – dieser Hummus passt immer und ist ein Muss!"
+      },
+      {
+        "title": "Gesund & Sättigend",
+        "description": "Reich an Proteinen und Ballaststoffen ist er die perfekte pflanzliche Alternative, die lange satt macht."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich wünsche dir viel Freude beim Genießen deines selbstgemachten Hummus!",
+    "subText": "Lass es dir schmecken!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Vorbereitung ist alles",
+      "description": "Die Kichererbsen gut abspülen und optional die Häutchen entfernen. Das ist der erste Schritt zu deinem besten Hummus."
+    },
+    {
+      "title": "Mixen für die Cremigkeit",
+      "description": "Alle Zutaten im Mixer pürieren. Gib das Eiswasser und Öl langsam hinzu, um die perfekte Konsistenz zu erreichen."
+    },
+    {
+      "title": "Abschmecken & Servieren",
+      "description": "Der Hummus ist fertig! Jetzt nur noch nachwürzen und schön anrichten, damit er auch optisch begeistert."
+    }
+  ],
+  "servingSuggestion": "Serviere den cremigen Hummus mit frischem Fladenbrot oder Gemüsesticks.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Hummus",
+    "description": "Hummus ist unglaublich vielseitig.",
+    "note": "Probiere es einfach aus!",
+    "items": [
+      {
+        "emoji": "🥖",
+        "title": "Mit Brot",
+        "description": "Warmes Fladenbrot, Pita oder knuspriges Sauerteigbrot sind ideale Dippartner."
+      },
+      {
+        "emoji": "🥕",
+        "title": "Als Gemüsedip",
+        "description": "Karottensticks, Gurkenscheiben, Paprikastreifen oder Sellerie – der perfekte gesunde Snack."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Hummus bedeutet auf Arabisch schlicht 'Kichererbse'. Ein Beweis dafür, wie zentral diese Hülsenfrucht für das Gericht ist!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/hummus-zutaten.jpeg",
+    "image1": "/images/Frühstück/cremiger-hummus-rezept.jpeg",
+    "image2": "/images/Frühstück/hummus-selber-machen-vegan.jpeg",
+    "image3": "/images/Frühstück/einfacher-hummus-dip.jpeg",
+    "image4": "/images/Frühstück/orientalischer-kichererbsen-dip.jpeg",
+    "image5": "/images/Frühstück/hummus-mit-tahini-rezept.jpeg",
+    "image6": "/images/Frühstück/gesunder-hummus-aufstrich.jpeg",
+    "image7": "/images/Frühstück/bester-cremiger-hummus.jpeg"
+  }
+},
 ];
 
 export function getRecipeBySlug(slug: string) {
