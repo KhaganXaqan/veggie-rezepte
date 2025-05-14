@@ -14105,12 +14105,13 @@ export const recipes: Recipe[] = [
   ],
   "rating": 4.8,
   "reviews": 255,
-  "category": "Dips & Aufstriche",
+  "category":"Salate",
   "slug": "remoulade",
   "tags": [
     "Remoulade",
     "Sauce",
     "Klassiker",
+    "Salate",
     "Einfach",
     "Vegetarisch"
   ],
