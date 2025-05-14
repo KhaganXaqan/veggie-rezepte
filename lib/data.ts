@@ -14082,6 +14082,269 @@ export const recipes: Recipe[] = [
     "image7": "/images/Frühstück/bester-cremiger-hummus.jpeg"
   }
 },
+{
+  "title": "Klassische Remoulade einfach selber machen",
+  "seo_title": "Remoulade Rezept - Klassische Remoulade Einfach Selber Machen",
+  "image": "/images/Salads/remoulade.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "remoulade",
+    "remoulade rezept",
+    "remoulade selber machen",
+    "remoulade selbst machen",
+    "remoulade rezept original",
+    "remoulade sauce",
+    "remoulade selbst gemacht",
+    "schnelle remoulade selber machen",
+    "remoulade rezept schnell",
+    "selbstgemachte remoulade",
+    "rezept remoulade",
+    "remoulade rezept einfach",
+    "remoulade selber machen einfach"
+  ],
+  "rating": 4.8,
+  "reviews": 255,
+  "category": "Dips & Aufstriche",
+  "slug": "remoulade",
+  "tags": [
+    "Remoulade",
+    "Sauce",
+    "Klassiker",
+    "Einfach",
+    "Vegetarisch"
+  ],
+  "createdDate": new Date("2025-05-13T19:00:00Z"),
+  "updatedDate": new Date("2025-05-13T19:00:00Z"),
+  "servings": 5,
+  "description": "Remoulade Rezept: Klassische Remoulade einfach selber machen – vielseitig & lecker!",
+  "descriptionOnImage": "Würzig & cremig!",
+  "introductionParagraph": "Selbstgemachte Remoulade schmeckt so viel besser als gekauft! Dieses Rezept ist super einfach und gelingt immer.",
+  "additionalParagraph": "Ob zu Kartoffeln oder im Sandwich, diese klassische Remoulade ist die perfekte Beilage und schnell gemacht.",
+  "ingredientsNeeded": [
+    {
+      "title": "Mayonnaise",
+      "description": "Sie bildet die cremige Basis der Remoulade. Für eine leichtere Variante kannst du Joghurt untermischen."
+    },
+    {
+      "title": "Gewürzgurken",
+      "description": "Fein gewürfelt geben sie der Remoulade eine angenehme Säure und Würze."
+    },
+    {
+      "title": "Kapern",
+      "description": "Die kleinen Blütenknospen sorgen für einen leicht salzigen, würzigen Akzent."
+    },
+    {
+      "title": "Frische Kräuter",
+      "description": "Eine Mischung aus Petersilie, Schnittlauch und Kerbel ist typisch und bringt Frische."
+    },
+    {
+      "title": "Zwiebel oder Schalotte",
+      "description": "Ganz fein gehackt für eine leichte Zwiebelnote (optional, aber lecker!)."
+    },
+    {
+      "title": "Senf",
+      "description": "Ein Klecks mittelscharfer Senf rundet den Geschmack ab und sorgt für Bindung."
+    },
+    {
+      "title": "Hartgekochtes Ei (optional)",
+      "description": "Gibt der Remoulade zusätzliche Cremigkeit und ist klassisch, kann aber weggelassen werden (für Remoulade ohne Ei)."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für die Remoulade",
+      "description": "Alle Zutaten für deine selbstgemachte Remouladensauce.",
+      "ingredients": [
+        {
+          "amount": 200,
+          "unit": "g",
+          "name": "Mayonnaise"
+        },
+        {
+          "amount": 3,
+          "unit": "Stück",
+          "name": "Gewürzgurken"
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Kapern"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "gemischte frische Kräuter (gehackt)"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "mittelscharfer Senf"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: 1/2 kleine Zwiebel oder Schalotte"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: 1 hartgekochtes Ei"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Frisch gemahlener Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: Spritzer Zitronensaft"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Mayonnaise"
+    },
+    {
+      "amount": 3,
+      "unit": "Stück",
+      "name": "Gewürzgurken"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Kapern"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "gemischte frische Kräuter (gehackt)"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "mittelscharfer Senf"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: 1/2 kleine Zwiebel oder Schalotte"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: 1 hartgekochtes Ei"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Frisch gemahlener Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: Spritzer Zitronensaft"
+    }
+  ],
+  "instructions": [
+    "Gewürzgurken und Kapern sehr fein hacken.",
+    "Optional Zwiebel/Schalotte ebenfalls sehr fein hacken.",
+    "Optional hartgekochtes Ei pellen und fein hacken oder mit einer Gabel zerdrücken.",
+    "Frische Kräuter fein hacken.",
+    "In einer Schüssel Mayonnaise, gehackte Gewürzgurken, Kapern, Kräuter, optional Zwiebel und Ei sowie Senf vermischen.",
+    "Mit Salz, Pfeffer und optional Zitronensaft abschmecken.",
+    "Remoulade abdecken und mindestens 15 Minuten, besser länger, im Kühlschrank ziehen lassen, damit sich die Aromen verbinden."
+  ],
+  "nutrition": {
+    "calories": 1512,
+    "protein": "8.9g",
+    "carbs": "5.6g",
+    "fat": "159.1g"
+  },
+  "tips": [
+    "Für eine Remoulade ohne Ei lass das Ei einfach weg. Für eine vegane Remoulade vegane Mayo verwenden.",
+    "Remoulade schmeckt am besten, wenn sie gut durchgezogen ist. Am besten bereitest du sie einige Stunden vorher zu."
+  ],
+  "whyFavorite": {
+    "title": "Warum diese Remoulade so gut ist",
+    "reasons": [
+      {
+        "title": "Frischer Geschmack",
+        "description": "Selbstgemacht mit frischen Kräutern schmeckt Remoulade einfach lebendiger als gekaufte Saucen."
+      },
+      {
+        "title": "Vielseitig einsetzbar",
+        "description": "Als Dip, zu Kartoffeln, im Sandwich oder zu vegetarischen 'Fisch'-Alternativen – die klassische Remouladensauce passt immer!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, diese Remoulade verfeinert deine Lieblingsgerichte!",
+    "subText": "Guten Appetit!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Alle Zutaten vorbereiten",
+      "description": "Gewürzgurken, Kapern und Kräuter (sowie optional Zwiebel und Ei) werden sehr fein gehackt. Das ist die Basis für die Textur."
+    },
+    {
+      "title": "Das Dressing mischen",
+      "description": "Die gehackten Zutaten werden mit Mayonnaise und Senf verrührt und abgeschmeckt. So entsteht die cremige Remouladensauce."
+    },
+    {
+      "title": "Aromen entfalten lassen",
+      "description": "Die Remoulade sollte vor dem Servieren im Kühlschrank ziehen. Das gibt den Aromen Zeit, sich zu verbinden und den Geschmack zu perfektionieren."
+    }
+  ],
+  "servingSuggestion": "Serviere die Remoulade gut gekühlt als Dip oder Sauce.",
+  "servingSuggestions": {
+    "title": "Passt perfekt dazu",
+    "description": "Remoulade ist ein toller Begleiter für:",
+    "note": "Ein echter Klassiker!",
+    "items": [
+      {
+        "emoji": "🥔",
+        "title": "Pellkartoffeln oder Pommes",
+        "description": "Ein Klassiker! Die cremige Remoulade passt wunderbar zu warmen Kartoffelgerichten."
+      },
+      {
+        "emoji": "🥪",
+        "title": "Sandwiches oder Burger",
+        "description": "Ein Klecks Remoulade macht jedes vegetarische Sandwich oder jeden Burger zu etwas Besonderem."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Der Name Remoulade kommt wahrscheinlich vom französischen Wort 'rémolat', einer Art Radieschen, das früher in die Sauce gegeben wurde."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/remoulade-zutaten.jpeg",
+    "image1": "/images/Salads/remoulade-rezept-selber-machen.jpeg",
+    "image2": "/images/Salads/einfache-remoulade-rezept.jpeg",
+    "image3": "/images/Salads/klassische-remouladensauce.jpeg",
+    "image4": "/images/Salads/vegetarische-remoulade-rezept.jpeg",
+    "image5": "/images/Salads/remoulade-mit-kraeutern.jpeg",
+    "image6": "/images/Salads/hausgemachte-remoulade.jpeg",
+    "image7": "/images/Salads/remoulade-mit-ei.jpeg"
+  }
+},
 ];
 
 export function getRecipeBySlug(slug: string) {
