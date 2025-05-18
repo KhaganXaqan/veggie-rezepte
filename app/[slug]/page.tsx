@@ -44,28 +44,41 @@ export async function generateMetadata(
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
 
-  // Prepare keywords from recipe's SEO keywords
-  const keywordsString = recipe.seo_keywords ? recipe.seo_keywords.join(', ') : 'vegetarisch, rezept';
+  // Combine SEO keywords and tags for better coverage
+  const allKeywords = [
+    ...(recipe.seo_keywords || []),
+    ...(recipe.tags || []),
+    recipe.category,
+    'vegetarisch',
+    'rezept'
+  ].filter((value, index, self) => self.indexOf(value) === index); // Remove duplicates
+
+  const keywordsString = allKeywords.join(', ');
 
   return {
-    title: `${recipe.seo_title || recipe.title}`,
+    title: `${recipe.seo_title || recipe.title} | Veggie Rezepte`,
     description: recipe.description || '',
     keywords: keywordsString,
     openGraph: {
-      title: `${recipe.seo_title || recipe.title}`,
+      title: `${recipe.seo_title || recipe.title} | Veggie Rezepte`,
       description: recipe.description || '',
       images: [recipe.image],
       type: 'article',
       url: canonicalUrl,
+      tags: recipe.tags,
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${recipe.seo_title || recipe.title}`,
+      title: `${recipe.seo_title || recipe.title} | Veggie Rezepte`,
       description: recipe.description || '',
       images: [recipe.image],
     },
     alternates: {
       canonical: canonicalUrl,
+    },
+    other: {
+      'article:tag': recipe.tags,
+      'article:section': recipe.category,
     },
   }
 }
@@ -91,6 +104,15 @@ export async function generateStructuredData({ params }: RecipePageProps) {
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
 
+  // Combine all keywords and tags for better SEO
+  const allKeywords = [
+    ...(recipe.seo_keywords || []),
+    ...(recipe.tags || []),
+    recipe.category,
+    'vegetarisch',
+    'rezept'
+  ].filter((value, index, self) => self.indexOf(value) === index);
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
@@ -101,11 +123,12 @@ export async function generateStructuredData({ params }: RecipePageProps) {
       '@type': 'Organization',
       name: 'Veggie-Rezepte'
     },
-    datePublished: new Date().toISOString().split('T')[0],
+    datePublished: recipe.createdDate?.toISOString().split('T')[0] || new Date().toISOString().split('T')[0],
+    dateModified: recipe.updatedDate?.toISOString().split('T')[0] || new Date().toISOString().split('T')[0],
     recipeCategory: recipe.category,
     recipeCuisine: 'Vegetarisch',
     prepTime: `PT${recipe.prepTime || 30}M`,
-    cookTime: 'PT30M',
+    cookTime: `PT${recipe.cookingTime || 30}M`,
     recipeYield: `${recipe.servings || 4} Portionen`,
     nutrition: recipe.nutrition ? {
       '@type': 'NutritionInformation',
@@ -122,8 +145,14 @@ export async function generateStructuredData({ params }: RecipePageProps) {
       position: index + 1,
       text: step
     })),
-    keywords: recipe.seo_keywords ? recipe.seo_keywords.join(', ') : 'vegetarisch, rezept',
-    mainEntityOfPage: canonicalUrl
+    keywords: allKeywords.join(', '),
+    mainEntityOfPage: canonicalUrl,
+    aggregateRating: recipe.rating ? {
+      '@type': 'AggregateRating',
+      ratingValue: recipe.rating,
+      reviewCount: recipe.reviews || 0
+    } : undefined,
+    recipeTag: recipe.tags
   };
 }
 
