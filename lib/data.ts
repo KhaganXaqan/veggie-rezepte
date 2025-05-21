@@ -1474,7 +1474,7 @@ export const recipes: Recipe[] = [
     "slug": "kaesespaetzle",
     "tags": ["Traditionell", "Pasta", "Käse"],
     "createdDate": new Date('2025-02-21T00:00:00'),
-    "updatedDate": new Date('2025-03-26T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Cremige vegetarische Käsespätzle mit drei Käsesorten, karamellisierten Zwiebeln und frischem Schnittlauch – ein herzhafter Genuss ohne Fleisch!",
     "descriptionOnImage": "Goldbraune Käsespätzle mit zerlaufenem Käse und knusprigen Zwiebelringen – vegetarischer Komfort auf höchstem Niveau.",
@@ -1700,7 +1700,7 @@ export const recipes: Recipe[] = [
     "slug": "pilzgulasch",
     "tags": ["Traditionell", "Pilze", "Hauptgericht"],
     "createdDate": new Date('2025-02-23T00:00:00'),
-    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 2,
     "description": "Ein tief aromatisches Pilzgulasch mit rauchigen Paprika- und Sojasoßen-Noten – eine vegetarische Meisterleistung, die selbst Fleischliebhaber überzeugt.",
     "descriptionOnImage": "Ein dunkles, glänzendes Pilzgulasch mit Champignons, Austernpilzen und Rauchpaprika, serviert mit fluffigem Kartoffelpüree – pure Komfortküche.",
@@ -1916,7 +1916,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Gemüse-Curry",
     "seo_title": "Vegetarisches Gemüse-Curry Rezept – Cremig - würzig",
-    "image": "/images/MainCourses/gemuese-curry.webp",
+    "image": "/images/MainCourses/gemuese-curry.jpeg",
     "prepTime": 25,
     "cookingTime": 35,
     "seo_keywords": [
@@ -2178,14 +2178,14 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/gemueseCurryIngredient.webp",
-      "image1": "/images/MainCourses/gemuese-curry1.webp",
-      "image2": "/images/MainCourses/gemuese-curry2.webp",
-      "image3": "/images/MainCourses/gemuese-curry3.webp",
-      "image4": "/images/MainCourses/gemuese-curry4.webp",
-      "image5": "/images/MainCourses/gemuese-curry5.webp",
-      "image6": "/images/MainCourses/gemuese-curry6.webp",
-      "image7": "/images/MainCourses/gemuese-curry7.webp"
+    "imageIngredient": "/images/Ingredients/gemuese-curry-zutaten.jpeg",
+    "image1": "/images/MainCourses/gemuese-curry-mit-kuerbis-und-kokosmilch.jpeg",
+    "image2": "/images/MainCourses/gemuese-curry-mit-kichererbsen-und-blumenkohl.jpeg",
+    "image3": "/images/MainCourses/vegetarisches-curry-mit-garam-masala-und-kreuzkuemmel.jpeg",
+    "image4": "/images/MainCourses/gemuese-curry-indisch-mit-kurkuma-und-senfsamen.jpeg",
+    "image5": "/images/MainCourses/gemuese-curry-ohne-fleisch-mit-kokosoel-und-tomatenmark.jpeg",
+    "image6": "/images/MainCourses/cremiges-gemuese-curry-low-carb-vegetarisch.jpeg",
+    "image7": "/images/MainCourses/gemuese-curry-gesund-und-proteinreich.jpeg"
     }
   },
   {
