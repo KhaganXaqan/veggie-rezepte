@@ -1679,7 +1679,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Pilzgulasch",
     "seo_title": "Vegetarisches Pilzgulasch Rezept – Herzhaft, rauchig & umami",
-    "image": "/images/Miscellaneous/pilzgulasch.webp",
+    "image": "/images/MainCourses/pilzgulasch.jpeg",
     "prepTime": 20,
     "cookingTime": 40,
     "seo_keywords": [
@@ -1903,14 +1903,14 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Pilze unterirdische 'Internet'-Netzwerke betreiben? 🌐 Myzelien (Pilzwurzeln) verbinden Bäume über Kilometer und tauschen Nährstoffe aus – Wissenschaftler nennen es 'Wood Wide Web'. Unsere Speisepilze sind nur die Früchte dieses gigantischen Systems! Beim Kochen ahmen wir diese Verbindungen nach: Sojasoße (fermentiert wie Pilze), Rauchpaprika (erinnert an verbranntes Holz) und Rotwein (terroir-reich wie Waldboden) schaffen ein Geschmacksnetzwerk, das genauso komplex ist wie die Natur selbst. Kochen ist eben auch Biologie!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/pilzgulaschIngredient.webp",
-      "image1": "/images/MainCourses/pilzgulasch1.webp",
-      "image2": "/images/MainCourses/pilzgulasch2.webp",
-      "image3": "/images/MainCourses/pilzgulasch3.webp",
-      "image4": "/images/MainCourses/pilzgulasch4.webp",
-      "image5": "/images/MainCourses/pilzgulasch5.webp",
-      "image6": "/images/MainCourses/pilzgulasch6.webp",
-      "image7": "/images/MainCourses/pilzgulasch7.webp"
+      "imageIngredient": "/images/Ingredients/pilzgulasch-zutaten.jpeg",
+      "image1": "/images/MainCourses/pilzgulasch-vegetarisch-serviert-mit-champignons.jpeg",
+      "image2": "/images/MainCourses/pilzgulasch-mit-austernpilzen-und-shiitake.jpeg",
+      "image3": "/images/MainCourses/pilzgulasch-mit-getrockneten-steinpilzen-und-bruehe.jpeg",
+      "image4": "/images/MainCourses/pilzgulasch-umami-mit-rauchpaprika-und-sojasosse.jpeg",
+      "image5": "/images/MainCourses/pilzgulasch-schmorgericht-mit-rotwein-und-gemuesebruehe.jpeg",
+      "image6": "/images/MainCourses/pilzgulasch-ohne-fleisch-deftig-und-wuerzig.jpeg",
+      "image7": "/images/MainCourses/pilzgulasch-naheaufnahme-cremig-und-aromatisch.jpeg"
     }
   },
   {
