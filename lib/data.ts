@@ -324,7 +324,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Kartoffelpuffer",
     "seo_title": "Vegetarische Kartoffelpuffer Rezept – Schnell und einfach",
-    "image": "/images/Miscellaneous/kartoffelpuffer.webp",
+    "image": "/images/Miscellaneous/kartoffelpuffer.jpeg",
     "prepTime": 25,
     "cookingTime": 25,
     "seo_keywords": [
@@ -540,20 +540,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Kartoffelpuffer eine lange Tradition haben und in vielen Kulturen unter verschiedenen Namen bekannt sind? 🥔 In Deutschland heißen sie je nach Region auch Reibekuchen oder Reiberdatschi, in der Schweiz heißen sie Rösti, und in Polen nennt man sie Placki ziemniaczane. Ursprünglich waren sie eine einfache und günstige Mahlzeit, die aus wenigen Zutaten zubereitet wurde – perfekt, um Reste zu verwerten. In einigen Regionen werden sie auch als Fastenspeise serviert, da sie ohne Fleisch zubereitet werden können. Heute sind sie ein echter Klassiker, der sowohl süß mit Apfelmus als auch herzhaft mit Dips genossen wird. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/vegetarische-kartoffelpuffer-zutaten.webp",
-      "image1": "/images/Miscellaneous/knusprige-kartoffelpuffer-mit-apfelmus.webp",
-      "image2": "/images/Miscellaneous/reibekuchen-stapel-frisch-gebraten.webp",
-      "image3": "/images/Miscellaneous/kartoffeln-reiben-fuer-kartoffelpuffer.webp",
-      "image4": "/images/Miscellaneous/kartoffelpuffer-braten-in-pfanne.webp",
-      "image5": "/images/Miscellaneous/kartoffelpuffer-mit-kraeuterquark-serviert.webp",
-      "image6": "/images/Miscellaneous/goldbraune-kartoffelpuffer-nahaufnahme.webp",
-      "image7": "/images/Miscellaneous/teller-mit-kartoffelpuffer-und-apfelmus.webp"
+      "imageIngredient": "/images/Ingredients/kartoffelpuffer-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/knusprige-kartoffelpuffer-mit-apfelmus.jpeg",
+      "image2": "/images/Miscellaneous/reibekuchen-stapel-frisch-gebraten.jpeg",
+      "image3": "/images/Miscellaneous/kartoffeln-reiben-fuer-kartoffelpuffer.jpeg",
+      "image4": "/images/Miscellaneous/kartoffelpuffer-braten-in-pfanne.jpeg",
+      "image5": "/images/Miscellaneous/kartoffelpuffer-mit-kraeuterquark-serviert.jpeg",
+      "image6": "/images/Miscellaneous/goldbraune-kartoffelpuffer-nahaufnahme.jpeg",
+      "image7": "/images/Miscellaneous/teller-mit-kartoffelpuffer-und-apfelmus.jpeg"
     }
   },
   {
     "title": "Gemüsesuppe",
     "seo_title": "Einfache vegetarische Gemüsesuppe Rezept – Schnell und gesund",
-    "image": "/images/Soups/gemuesesuppe.webp",
+    "image": "/images/Soups/gemuesesuppe.jpeg",
     "prepTime": 20,
     "cookingTime": 30,
     "seo_keywords": [
@@ -761,14 +761,14 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Gemüsesuppe schon seit der Antike als Heilmittel verwendet wird? 🥕 In vielen Kulturen gilt sie als „Arznei für die Seele“, da sie nicht nur nahrhaft, sondern auch leicht verdaulich ist. Besonders bei Erkältungen oder Magenverstimmungen ist sie eine beliebte Wahl. Heute ist sie ein Klassiker, der in unzähligen Varianten zubereitet wird – von der einfachen Hausmannskost bis zur Gourmet-Kreation. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/gemuesesuppeIngredient.webp",
-      "image1": "/images/Soups/gemuesesuppe1.webp",
-      "image2": "/images/Soups/gemuesesuppe2.webp",
-      "image3": "/images/Soups/gemuesesuppe3.webp",
-      "image4": "/images/Soups/gemuesesuppe4.webp",
-      "image5": "/images/Soups/gemuesesuppe5.webp",
-      "image6": "/images/Soups/gemuesesuppe6.webp",
-      "image7": "/images/Soups/gemuesesuppe7.webp"
+      "imageIngredient": "/images/Ingredients/gemuesesuppe-zutaten.jpeg",
+      "image1": "/images/Soups/vegetarische-gemuesesuppe-rezept-servierteller.jpeg",
+      "image2": "/images/Soups/einfaches-gemuesesuppe-rezept-naheaufnahme.jpeg",
+      "image3": "/images/Soups/gesunde-gemuesesuppe-mit-kartoffeln.jpeg",
+      "image4": "/images/Soups/leckere-gemuesesuppe-ohne-fleisch.jpeg",
+      "image5": "/images/Soups/hausgemachte-gemuesesuppe-kochtopf.jpeg",
+      "image6": "/images/Soups/gemuesesuppe-rezept-schritt-fuer-schritt.jpeg",
+      "image7": "/images/Soups/schnelle-gemuesesuppe-veggie-rezept.jpeg"
     }
   },
   {
