@@ -1940,7 +1940,7 @@ export const recipes: Recipe[] = [
     "slug": "gemuese-curry",
     "tags": ["Asiatisch", "Proteinreich", "Cremig", "Meal Prep", "Glutenfrei"],
     "createdDate": new Date('2025-02-10T00:00:00'),
-    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Ein cremiges, würziges Gemüse-Curry mit geröstetem Kürbis, Blumenkohl und Kichererbsen – eine vegetarische Geschmacksexplosion, die mit exotischen Gewürzen und einer samtigen Kokossoße überzeugt.",
     "descriptionOnImage": "Ein goldgelbes Gemüse-Curry mit Kürbis, Blumenkohl und Kichererbsen in cremiger Kokossoße, garniert mit frischem Koriander – ein Fest der Farben und Aromen.",
@@ -2191,7 +2191,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Brokkoli-Quiche",
     "seo_title": "Vegetarische Brokkoli-Quiche – Cremig, nussig & voller Aromen",
-    "image": "/images/MainCourses/brokkoli-quiche.webp",
+    "image": "/images/Miscellaneous/brokkoli-quiche.jpeg",
     "prepTime": 30,
     "cookingTime": 45,
     "seo_keywords": [
@@ -2211,7 +2211,7 @@ export const recipes: Recipe[] = [
     "slug": "brokkoli-quiche",
     "tags": ["Französisch", "Gebäck", "Gemüse"],
     "createdDate": new Date('2025-02-14T00:00:00'),
-    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 9,
     "description": "Eine vollständig vegetarische Quiche mit knusprigem Brokkoli, gerösteten Haselnüssen und zwei Käsesorten – eine pflanzliche Proteinbombe, die beweist, dass Backen ohne Fleisch genauso herzhaft schmeckt.",
     "descriptionOnImage": "Eine goldbraune Quiche mit saftigem Brokkoli, knusprigen Haselnüssen und geschmolzenem Käse – vegetarische Backkunst auf höchstem Niveau.",
@@ -2405,14 +2405,14 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/brokkoliquicheIngredint.webp",
-      "image1": "/images/MainCourses/brokkoli-quiche1.webp",
-      "image2": "/images/MainCourses/brokkoli-quiche2.webp",
-      "image3": "/images/MainCourses/brokkoli-quiche3.webp",
-      "image4": "/images/MainCourses/brokkoli-quiche4.webp",
-      "image5": "/images/MainCourses/brokkoli-quiche5.webp",
-      "image6": "/images/MainCourses/brokkoli-quiche6.webp",
-      "image7": "/images/MainCourses/brokkoli-quiche7.webp"
+      "imageIngredient": "/images/Ingredients/brokkoli-quiche-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/brokkoli-quiche-vegetarisch-mit-haselnuss-crunch.jpeg",
+      "image2": "/images/Miscellaneous/cremige-brokkoli-quiche-mit-ricotta-und-bergkaese.jpeg",
+      "image3": "/images/Miscellaneous/brokkoli-quiche-dinkelvollkorn-teig.jpeg",
+      "image4": "/images/Miscellaneous/brokkoli-quiche-mit-griechischem-joghurt.jpeg",
+      "image5": "/images/Miscellaneous/gesunde-brokkoli-quiche-mit-vollkornhaferflocken.jpeg",
+      "image6": "/images/Miscellaneous/brokkoli-quiche-vegetarisch-mit-muskatnuss.jpeg",
+      "image7": "/images/Miscellaneous/brokkoli-quiche-vegetarisch-ohne-ei.jpeg"
     }
   },
   {
