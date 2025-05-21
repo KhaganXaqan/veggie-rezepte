@@ -345,7 +345,7 @@ export const recipes: Recipe[] = [
     "slug": "kartoffelpuffer",
     "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
     "createdDate": new Date('2025-02-20T00:00:00'),
-    "updatedDate": new Date('2025-03-21T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Fluffige Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu Braten, Pilzen oder einfach pur!",
     "descriptionOnImage": "Traditionelle Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften Gerichten.",
@@ -572,7 +572,7 @@ export const recipes: Recipe[] = [
     "slug": "gemuesesuppe",
     "tags": ["Traditionell", "Suppe", "Gemüse"],
     "createdDate": new Date('2025-02-17T00:00:00'),
-    "updatedDate": new Date('2025-03-22T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Eine einfache und gesunde vegetarische Gemüsesuppe, die in weniger als einer Stunde zubereitet ist – perfekt für kalte Tage oder als schnelle Mahlzeit!",
     "descriptionOnImage": "Eine herzhafte vegetarische Gemüsesuppe mit frischem Gemüse und würziger Brühe – gesund, lecker und schnell zubereitet.",
@@ -774,7 +774,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Kartoffelklöße",
     "seo_title": "Vegetarische Kartoffelklöße Rezept – Einfach und lecker",
-    "image": "/images/Miscellaneous/kartoffelkloesse.webp",
+    "image": "/images/Miscellaneous/kartoffelkloesse.jpeg",
     "prepTime": 40,
     "cookingTime": 20,
     "seo_keywords": [
@@ -794,7 +794,7 @@ export const recipes: Recipe[] = [
     "slug": "kartoffelkloesse",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
     "createdDate": new Date('2025-02-18T00:00:00'),
-    "updatedDate": new Date('2025-03-23T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Fluffige vegetarische Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
     "descriptionOnImage": "Traditionelle vegetarische Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
@@ -974,20 +974,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Kartoffelklöße in vielen Regionen Deutschlands unterschiedliche Namen haben? 🥔 In Thüringen heißen sie „Thüringer Klöße“, in Bayern „Semmelknödel“ und in Schwaben „Gaisburger Marsch“. Ursprünglich wurden sie als einfache, sättigende vegetarische Beilage erfunden, um aus wenigen Zutaten etwas Köstliches zu zaubern. Heute sind sie ein fester Bestandteil der vegetarischen deutschen Küche und werden zu festlichen Anlässen genauso serviert wie im Alltag. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kartoffelkloesseIngredient.webp",
-      "image1": "/images/Miscellaneous/kartoffelkloesse1.webp",
-      "image2": "/images/Miscellaneous/kartoffelkloesse2.webp",
-      "image3": "/images/Miscellaneous/kartoffelkloesse3.webp",
-      "image4": "/images/Miscellaneous/kartoffelkloesse4.webp",
-      "image5": "/images/Miscellaneous/kartoffelkloesse5.webp",
-      "image6": "/images/Miscellaneous/kartoffelkloesse6.webp",
-      "image7": "/images/Miscellaneous/kartoffelkloesse7.webp"
+      "imageIngredient": "/images/Ingredients/kartoffelkloesse-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/vegetarische-kartoffelkloesse-rezept-serviert.jpeg",
+      "image2": "/images/Miscellaneous/kartoffelkloesse-mehligkochende-kartoffeln-masse.jpeg",
+      "image3": "/images/Miscellaneous/kartoffelkloesse-formen-mit-haenden.jpeg",
+      "image4": "/images/Miscellaneous/kartoffelkloesse-klassisch-mit-muskat-und-salz.jpeg",
+      "image5": "/images/Miscellaneous/kartoffelkloesse-mit-staerke-und-ei-binden.jpeg",
+      "image6": "/images/Miscellaneous/kartoffelkloesse-panieren-mit-semmelbroesel-und-butter.jpeg",
+      "image7": "/images/Miscellaneous/kartoffelkloesse-knusprig-und-vegetarisch-serviert.jpeg"
     }
   },
   {
     "title": "Semmelknödel",
     "seo_title": "Vegetarische Semmelknödel Rezept – Einfach und lecker",
-    "image": "/images/Miscellaneous/semmelknoedel.webp",
+    "image": "/images/Miscellaneous/semmelknoedel.jpeg",
     "prepTime": 30,
     "cookingTime": 20,
     "seo_keywords": [
@@ -1013,7 +1013,7 @@ export const recipes: Recipe[] = [
     "slug": "semmelknoedel",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
     "createdDate": new Date('2025-02-15T00:00:00'),
-    "updatedDate": new Date('2025-03-24T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Fluffige vegetarische Semmelknödel, die mit ihrer goldenen Kruste und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
     "descriptionOnImage": "Traditionelle vegetarische Semmelknödel – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
@@ -1195,20 +1195,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Semmelknödel ursprünglich als Resteverwertung erfunden wurden? 🥖 In der bayerischen Küche wurden altbackene Brötchen verwendet, um daraus etwas Köstliches zu zaubern. Heute sind sie ein fester Bestandteil der vegetarischen deutschen Küche und werden zu festlichen Anlässen genauso serviert wie im Alltag. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/semmelknoedelIngredient.webp",
-      "image1": "/images/Miscellaneous/semmelknoedel1.webp",
-      "image2": "/images/Miscellaneous/semmelknoedel2.webp",
-      "image3": "/images/Miscellaneous/semmelknoedel3.webp",
-      "image4": "/images/Miscellaneous/semmelknoedel4.webp",
-      "image5": "/images/Miscellaneous/semmelknoedel5.webp",
-      "image6": "/images/Miscellaneous/semmelknoedel6.webp",
-      "image7": "/images/Miscellaneous/semmelknoedel7.webp"
+    "imageIngredient": "/images/Ingredients/semmelknoedel-zutaten.jpeg",
+    "image1": "/images/Miscellaneous/vegetarische-semmelknoedel-serviert.jpeg",
+    "image2": "/images/Miscellaneous/semmelknoedel-broetchenmasse-milch.jpeg",
+    "image3": "/images/Miscellaneous/semmelknoedel-zwiebeln-butter.jpeg",
+    "image4": "/images/Miscellaneous/semmelknoedel-petersilie-muskat.jpeg",
+    "image5": "/images/Miscellaneous/semmelknoedel-formen-kochen.jpeg",
+    "image6": "/images/Miscellaneous/semmelknoedel-locker-saftig.jpeg",
+    "image7": "/images/Miscellaneous/semmelknoedel-mit-sosse.jpeg"
     }
   },
   {
     "title": "Quinoa-Buddha-Bowl",
     "seo_title": "Vegetarische Quinoa-Buddha-Bowl Rezept – Gesund - lecker",
-    "image": "/images/MainCourses/quinoa-buddha-bowl.webp",
+    "image": "/images/MainCourses/quinoa-buddha-bowl.jpeg",
     "prepTime": 25,
     "cookingTime": 20,
     "seo_keywords": [
@@ -1227,7 +1227,7 @@ export const recipes: Recipe[] = [
     "slug": "quinoa-buddha-bowl",
     "tags": ["Modern", "Gesund", "Bowl"],
     "createdDate": new Date('2025-02-20T00:00:00'),
-    "updatedDate": new Date('2025-03-25T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 2,
     "description": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl, die mit frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings überzeugt",
     "descriptionOnImage": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl – voller frischer Zutaten und voller Geschmack.",
@@ -1434,20 +1434,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Buddha-Bowls ursprünglich aus der veganen und vegetarischen Küche stammen? 🥗 Sie wurden erfunden, um eine ausgewogene und nahrhafte Mahlzeit in einer Schüssel zu servieren. Heute sind sie weltweit beliebt und werden in unzähligen Variationen zubereitet – von der einfachen Hausmannskost bis zur Gourmet-Kreation. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/quinoaBuddhaBowlIngredient.webp",
-      "image1": "/images/MainCourses/quinoa-buddha-bowl1.webp",
-      "image2": "/images/MainCourses/quinoa-buddha-bowl2.webp",
-      "image3": "/images/MainCourses/quinoa-buddha-bowl3.webp",
-      "image4": "/images/MainCourses/quinoa-buddha-bowl4.webp",
-      "image5": "/images/MainCourses/quinoa-buddha-bowl5.webp",
-      "image6": "/images/MainCourses/quinoa-buddha-bowl6.webp",
-      "image7": "/images/MainCourses/quinoa-buddha-bowl7.webp"
+    "imageIngredient": "/images/Ingredients/quinoa-buddha-bowl-zutaten.jpeg",
+    "image1": "/images/MainCourses/quinoa-buddha-bowl-vegetarisch-serviert.jpeg",
+    "image2": "/images/MainCourses/quinoa-bowl-mit-suesskartoffel-paprika.jpeg",
+    "image3": "/images/MainCourses/quinoa-bowl-mit-geroesteten-kichererbsen.jpeg",
+    "image4": "/images/MainCourses/quinoa-bowl-avocado-und-tahini-dressing.jpeg",
+    "image5": "/images/MainCourses/quinoa-buddha-bowl-buntes-gemuese.jpeg",
+    "image6": "/images/MainCourses/quinoa-bowl-mit-zitrone-und-sesam.jpeg",
+    "image7": "/images/MainCourses/quinoa-bowl-naheaufnahme-gesund-lecker.jpeg"
     }
   },
   {
     "title": "Käsespätzle",
     "seo_title": "Vegetarische Käsespätzle Rezept – Cremig und würzig",
-    "image": "/images/MainCourses/kaesespaetzle.webp",
+    "image": "/images/MainCourses/kaesespaetzle.jpeg",
     "prepTime": 40,
     "cookingTime": 25,
     "seo_keywords": [
@@ -1666,14 +1666,14 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Spätzle ursprünglich als 'Armenspeise' galten? 🥄 Im 18. Jahrhundert wurden sie aus Restmehl und Wasser zubereitet – erst die Zugabe von Eiern und Käse machte sie zur heutigen Delikatesse. In Schwaben gibt es sogar eine 'Spätzlepflicht' in Sterne-Restaurants: Jedes Lokal muss täglich frische Spätzle anbieten! Heute sind sie UNESCO-Kulturerbe und vegetarischer Stolz der deutschen Küche."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kaesespaetzleIngredient.webp",
-      "image1": "/images/MainCourses/kaesespaetzle1.webp",
-      "image2": "/images/MainCourses/kaesespaetzle2.webp",
-      "image3": "/images/MainCourses/kaesespaetzle3.webp",
-      "image4": "/images/MainCourses/kaesespaetzle4.webp",
-      "image5": "/images/MainCourses/kaesespaetzle5.webp",
-      "image6": "/images/MainCourses/kaesespaetzle6.webp",
-      "image7": "/images/MainCourses/kaesespaetzle7.webp"
+      "imageIngredient": "/images/Ingredients/kaesespaetzle-zutaten.jpeg",
+      "image1": "/images/MainCourses/kaesespaetzle-original-rezept-serviert.jpeg",
+      "image2": "/images/MainCourses/kaesespaetzle-spaetzle-mehl-und-eier.jpeg",
+      "image3": "/images/MainCourses/kaesespaetzle-mit-bergkaese-emmentaler.jpeg",
+      "image4": "/images/MainCourses/kaesespaetzle-karamellisierte-zwiebeln.jpeg",
+      "image5": "/images/MainCourses/kaesespaetzle-im-ofen-ueberbacken.jpeg",
+      "image6": "/images/MainCourses/kaesespaetzle-mit-schnittlauch-garniert.jpeg",
+      "image7": "/images/MainCourses/kaesespaetzle-cremig-und-goldbraun.jpeg"
     }
   },
   {
