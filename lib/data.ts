@@ -4024,7 +4024,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Kürbissuppe – Omas einfaches Rezept für den Herbst",
     "seo_title": "Kürbissuppe Rezept – Omas cremige Kürbissuppe vegetarisch",
-    "image": "/images/Soups/kuerbissuppe.webp",
+    "image": "/images/Soups/kuerbissuppe.jpeg",
     "prepTime": 20,
     "cookingTime": 30,
     "seo_keywords": [
@@ -4222,14 +4222,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass es über 800 verschiedene Kürbissorten gibt? Von Hokkaido bis Butternut gibt es unzählige Möglichkeiten, Kürbis in der Küche zu verwenden. Unsere Kürbissuppe ist eine Hommage an die Vielfalt des Kürbisses und zeigt, wie vielfältig und schmackhaft Kürbis sein kann!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kuerbissuppeIngredint.webp",
-      "image1": "/images/Soups/kuerbissuppe1.webp",
-      "image2": "/images/Soups/kuerbissuppe2.webp",
-      "image3": "/images/Soups/kuerbissuppe3.webp",
-      "image4": "/images/Soups/kuerbissuppe4.webp",
-      "image5": "/images/Soups/kuerbissuppe5.webp",
-      "image6": "/images/Soups/kuerbissuppe6.webp",
-      "image7": "/images/Soups/kuerbissuppe7.webp"
+      "imageIngredient": "/images/Ingredients/kuerbissuppe-zutaten.jpeg",
+      "image1": "/images/Soups/kuerbissuppe-cremig-mit-hokkaido-und-kokosmilch.jpeg",
+      "image2": "/images/Soups/kuerbissuppe-herbstlich-mit-muskat-und-zimt.jpeg",
+      "image3": "/images/Soups/kuerbissuppe-vegetarisch-mit-geroesteten-kuerbiskernen.jpeg",
+      "image4": "/images/Soups/kuerbissuppe-naheaufnahme-cremige-suppe-mit-sahne.jpeg",
+      "image5": "/images/Soups/kuerbissuppe-mit-gemuese-und-kraeutern-serviert.jpeg",
+      "image6": "/images/Soups/kuerbissuppe-hokkaido-suppe-fuer-den-herbst.jpeg",
+      "image7": "/images/Soups/kuerbissuppe-mit-kokosmilch-und-knoblauch-rezept.jpeg"
     }
   },
   {
