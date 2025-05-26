@@ -2656,7 +2656,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Gefüllte Paprika Vegetarisch",
     "seo_title": "Mediterrane gefüllte Paprika – Pflanzliche Geschmacksexplosion",
-    "image": "/images/MainCourses/gefuellte-paprika.webp",
+    "image": "/images/MainCourses/gefüllte-paprika.jpeg",
     "prepTime": 30,
     "cookingTime": 45,
     "seo_keywords": [
@@ -2892,14 +2892,14 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/gefuelltePaprikaIngredient.webp",
-      "image1": "/images/MainCourses/gefuellte-paprika1.webp",
-      "image2": "/images/MainCourses/gefuellte-paprika2.webp",
-      "image3": "/images/MainCourses/gefuellte-paprika3.webp",
-      "image4": "/images/MainCourses/gefuellte-paprika4.webp",
-      "image5": "/images/MainCourses/gefuellte-paprika5.webp",
-      "image6": "/images/MainCourses/gefuellte-paprika6.webp",
-      "image7": "/images/MainCourses/gefuellte-paprika7.webp"
+      "imageIngredient": "/images/Ingredients/gefuellte-paprika-zutaten.jpeg",
+      "image1": "/images/MainCourses/vegetarisch-gefuellte-paprika-mit-feta-und-quinoa.jpeg",
+      "image2": "/images/MainCourses/paprika-gefüllt-ohne-fleisch-vegetarisch.jpeg",
+      "image3": "/images/MainCourses/gesunde-gefuellte-paprika-mit-pilzen-und-feta.jpeg",
+      "image4": "/images/MainCourses/quinoa-paprika-vegetarisch-ofengericht.jpeg",
+      "image5": "/images/MainCourses/paprika-gefüllt-mit-quinoa-pilzen-und-kraeutern.jpeg",
+      "image6": "/images/MainCourses/vegetarisches-paprika-rezept-mit-quinoa.jpeg",
+      "image7": "/images/MainCourses/gefüllte-paprika-ohne-fleisch-gesund-leicht.jpeg"
     }
   },
   {
