@@ -14346,6 +14346,274 @@ export const recipes: Recipe[] = [
     "image7": "/images/Salads/remoulade-mit-ei.jpeg"
   }
 },
+{
+  "title": "Mein fluffiger Kaiserschmarrn – ein Traum aus Österreich!",
+  "seo_title": "Kaiserschmarrn Rezept:Original & Einfach selber machen Fluffig!",
+  "image": "/images/Desserts/kaiserschmarrn.jpeg",
+  "prepTime": 20,
+  "cookingTime": 25,
+  "seo_keywords": [
+    "kaiserschmarrn",
+    "kaiserschmarrn rezept",
+    "rezept kaiserschmarrn",
+    "kaiserschmarrn rezept fluffig",
+    "kaiserschmarrn alm",
+    "kaiserschmarrn rezepte",
+    "kaiserschmarrn rezept original",
+    "kaiserschmarrn rezept schnell",
+    "rezept für kaiserschmarrn",
+    "kaiserschmarrn ohne rosinen",
+    "kaiserschmarrn im backofen",
+    "kaiserschmarrn backofen",
+    "kaiserschmarrn einfach",
+    "kaiserschmarrn selber machen"
+  ],
+  "rating": 4.9,
+  "reviews": 487,
+  "category": "Desserts",
+  "slug": "kaiserschmarrn",
+  "tags": [
+    "Kaiserschmarrn",
+    "Österreichisch",
+    "Süßspeise",
+    "Desserts",
+    "Einfach"
+  ],
+  "createdDate": new Date("2025-05-26T08:00:00Z"),
+  "updatedDate": new Date("2025-05-26T12:00:00Z"),
+  "servings": 2,
+  "description": "Lerne, wie du einen fluffigen Kaiserschmarrn einfach selber machst – ein Genuss!",
+  "descriptionOnImage": "So einfach & lecker!",
+  "introductionParagraph": "Ach, Kaiserschmarrn! Dieses österreichische Schmankerl erinnert mich immer an gemütliche Skitage oder Familienfeste.",
+  "additionalParagraph": "Die Zubereitung ist leichter, als du vielleicht denkst, und das Ergebnis ist ein wahrer Genuss für Groß und Klein.",
+  "ingredientsNeeded": [
+    {
+      "title": "Eier",
+      "description": "Frische Eier sind entscheidend für die fluffige Textur, besonders das getrennte Eiweiß."
+    },
+    {
+      "title": "Mehl",
+      "description": "Weizenmehl Type 405 für einen zarten Teig."
+    },
+    {
+      "title": "Milch",
+      "description": "Sie sorgt für die richtige Konsistenz des Teiges und macht den Schmarrn cremig."
+    },
+    {
+      "title": "Zucker",
+      "description": "Verleiht dem Kaiserschmarrn seine typische Süße und hilft beim Karamellisieren."
+    },
+    {
+      "title": "Butter",
+      "description": "Zum Ausbacken unverzichtbar für den Geschmack und die goldbraune Farbe."
+    },
+    {
+      "title": "Rosinen (optional)",
+      "description": "Für alle Liebhaber des klassischen Geschmacks, gerne in Rum eingelegt."
+    },
+    {
+      "title": "Puderzucker",
+      "description": "Das i-Tüpfelchen zum Bestäuben, verleiht den letzten süßen Schliff."
+    },
+    {
+      "title": "Vanillezucker",
+      "description": "Für eine feine Vanillenote, die das Aroma des Schmarrns abrundet."
+    },
+    {
+      "title": "Salz",
+      "description": "Eine Prise Salz gleicht die Süße aus und intensiviert die Aromen."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Kaiserschmarrn-Teig",
+      "description": "Diese Zutaten ergeben die luftige Basis für deinen Kaiserschmarrn.",
+      "ingredients": [
+        {
+          "amount": 3,
+          "unit": "Stück",
+          "name": "Eier (Größe M)"
+        },
+        {
+          "amount": 120,
+          "unit": "ml",
+          "name": "Milch"
+        },
+        {
+          "amount": 80,
+          "unit": "g",
+          "name": "Weizenmehl (Type 405)"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Zucker"
+        },
+        {
+          "amount": 1,
+          "unit": "Päckchen",
+          "name": "Vanillezucker"
+        },
+        {
+          "amount": 1,
+          "unit": "Prise",
+          "name": "Salz"
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Rosinen (optional, in Rum eingelegt)"
+        }
+      ]
+    },
+    {
+      "title": "Zum Ausbacken & Servieren",
+      "description": "Für die goldbraune Farbe und den süßen Abschluss.",
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Butter"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Puderzucker zum Bestäuben"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 3,
+      "unit": "Stück",
+      "name": "Eier (Größe M)"
+    },
+    {
+      "amount": 120,
+      "unit": "ml",
+      "name": "Milch"
+    },
+    {
+      "amount": 80,
+      "unit": "g",
+      "name": "Weizenmehl (Type 405)"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Zucker"
+    },
+    {
+      "amount": 1,
+      "unit": "Päckchen",
+      "name": "Vanillezucker"
+    },
+    {
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Rosinen (optional, in Rum eingelegt)"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Butter"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Puderzucker zum Bestäuben"
+    }
+  ],
+  "instructions": [
+    "Eier trennen. Eigelb mit Milch, Mehl, Zucker, Vanillezucker und Salz zu einem glatten Teig verrühren.",
+    "Eiweiß steif schlagen. Rosinen (falls verwendet) unter den Teig mischen.",
+    "Eischnee vorsichtig unter den Teig heben, bis alles gut vermischt ist.",
+    "In einer großen, ofenfesten Pfanne Butter schmelzen. Teig hineingießen und bei mittlerer Hitze anbacken, bis die Unterseite goldbraun ist und der Teig oben stockt.",
+    "Den Kaiserschmarrn wenden. Du kannst ihn auch kurz im Ofen (ca. 180°C Ober-/Unterhitze) fertig backen, bis er aufgegangen und durch ist.",
+    "Mit zwei Gabeln oder Pfannenwendern den Schmarrn in mundgerechte Stücke reißen.",
+    "Den fertigen Kaiserschmarrn direkt aus der Pfanne auf Teller verteilen und mit Puderzucker bestäuben."
+  ],
+  "nutrition": {
+    "calories": 800,
+    "protein": "31g",
+    "carbs": "95g",
+    "fat": "32g"
+  },
+  "tips": [
+    "Für extra Flauschigkeit: Achte darauf, dass der Eischnee wirklich steif ist und hebe ihn nur ganz vorsichtig unter den Teig.",
+    "Traditionell wird Kaiserschmarrn oft mit Apfelmus oder Zwetschkenröster serviert – das passt perfekt zur Süße!"
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Kaiserschmarrn einfach himmlisch ist",
+    "reasons": [
+      {
+        "title": "Fluffig & zart",
+        "description": "Die perfekte Konsistenz, die auf der Zunge zergeht. Ein wahrer Genuss für alle Süßspeisen-Fans."
+      },
+      {
+        "title": "Heimeliger Klassiker",
+        "description": "Dieses Rezept bringt den Geschmack Österreichs direkt zu dir nach Hause. Ein Stück Gemütlichkeit!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dein Kaiserschmarrn schmeckt so himmlisch wie er aussieht!",
+    "subText": "Guten Appetit!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Teig vorbereiten",
+      "description": "Eier trennen, Eigelb mit den flüssigen und trockenen Zutaten mischen und den steifen Eischnee vorsichtig unterheben. Das ist das Geheimnis der Fluffigkeit."
+    },
+    {
+      "title": "Backen & Zerreißen",
+      "description": "Den Teig goldbraun anbraten und entweder in der Pfanne oder im Ofen gar ziehen lassen, bevor er traditionell zerrissen wird."
+    },
+    {
+      "title": "Anrichten & Genießen",
+      "description": "Den noch warmen Kaiserschmarrn mit Puderzucker bestäuben und sofort mit deiner Lieblingsbeilage servieren. Pure Freude!"
+    }
+  ],
+  "servingSuggestion": "Serviere den warmen Kaiserschmarrn direkt mit Apfelmus oder Puderzucker bestäubt.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Kaiserschmarrn",
+    "description": "Kaiserschmarrn schmeckt am besten mit einer fruchtigen Beilage.",
+    "note": "Unbedingt probieren!",
+    "items": [
+      {
+        "emoji": "🍎",
+        "title": "Apfelmus",
+        "description": "Der Klassiker! Fruchtiges Apfelmus passt wunderbar zur Süße des Schmarrns."
+      },
+      {
+        "emoji": "🍒",
+        "title": "Zwetschkenröster",
+        "description": "Eine weitere traditionelle österreichische Beilage, ein Kompott aus eingelegten Zwetschken."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Der Kaiserschmarrn soll angeblich nach Kaiser Franz Joseph I. benannt sein, der ihn sehr liebte und dessen 'Schmarrn' (Durcheinander) es war."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/kaiserschmarrn-zutaten.jpeg",
+    "image1": "/images/Desserts/original-kaiserschmarrn-rezept.jpeg",
+    "image2": "/images/Desserts/kaiserschmarrn-selber-machen.jpeg",
+    "image3": "/images/Desserts/einfacher-kaiserschmarrn.jpeg",
+    "image4": "/images/Desserts/fluffiger-kaiserschmarrn.jpeg",
+    "image5": "/images/Desserts/österreichischer-kaiserschmarrn.jpeg",
+    "image6": "/images/Desserts/kaiserschmarrn-mit-apfelmus.jpeg",
+    "image7": "/images/Desserts/kaiserschmarrn-backofen.jpeg"
+  }
+}
 ];
 
 export function getRecipeBySlug(slug: string) {
