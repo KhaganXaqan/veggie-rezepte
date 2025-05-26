@@ -324,7 +324,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Kartoffelpuffer",
     "seo_title": "Vegetarische Kartoffelpuffer Rezept – Schnell und einfach",
-    "image": "/images/Miscellaneous/kartoffelpuffer.webp",
+    "image": "/images/Miscellaneous/kartoffelpuffer.jpeg",
     "prepTime": 25,
     "cookingTime": 25,
     "seo_keywords": [
@@ -345,7 +345,7 @@ export const recipes: Recipe[] = [
     "slug": "kartoffelpuffer",
     "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
     "createdDate": new Date('2025-02-20T00:00:00'),
-    "updatedDate": new Date('2025-03-21T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Fluffige Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu Braten, Pilzen oder einfach pur!",
     "descriptionOnImage": "Traditionelle Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften Gerichten.",
@@ -540,20 +540,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Kartoffelpuffer eine lange Tradition haben und in vielen Kulturen unter verschiedenen Namen bekannt sind? 🥔 In Deutschland heißen sie je nach Region auch Reibekuchen oder Reiberdatschi, in der Schweiz heißen sie Rösti, und in Polen nennt man sie Placki ziemniaczane. Ursprünglich waren sie eine einfache und günstige Mahlzeit, die aus wenigen Zutaten zubereitet wurde – perfekt, um Reste zu verwerten. In einigen Regionen werden sie auch als Fastenspeise serviert, da sie ohne Fleisch zubereitet werden können. Heute sind sie ein echter Klassiker, der sowohl süß mit Apfelmus als auch herzhaft mit Dips genossen wird. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/vegetarische-kartoffelpuffer-zutaten.webp",
-      "image1": "/images/Miscellaneous/knusprige-kartoffelpuffer-mit-apfelmus.webp",
-      "image2": "/images/Miscellaneous/reibekuchen-stapel-frisch-gebraten.webp",
-      "image3": "/images/Miscellaneous/kartoffeln-reiben-fuer-kartoffelpuffer.webp",
-      "image4": "/images/Miscellaneous/kartoffelpuffer-braten-in-pfanne.webp",
-      "image5": "/images/Miscellaneous/kartoffelpuffer-mit-kraeuterquark-serviert.webp",
-      "image6": "/images/Miscellaneous/goldbraune-kartoffelpuffer-nahaufnahme.webp",
-      "image7": "/images/Miscellaneous/teller-mit-kartoffelpuffer-und-apfelmus.webp"
+      "imageIngredient": "/images/Ingredients/kartoffelpuffer-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/knusprige-kartoffelpuffer-mit-apfelmus.jpeg",
+      "image2": "/images/Miscellaneous/reibekuchen-stapel-frisch-gebraten.jpeg",
+      "image3": "/images/Miscellaneous/kartoffeln-reiben-fuer-kartoffelpuffer.jpeg",
+      "image4": "/images/Miscellaneous/kartoffelpuffer-braten-in-pfanne.jpeg",
+      "image5": "/images/Miscellaneous/kartoffelpuffer-mit-kraeuterquark-serviert.jpeg",
+      "image6": "/images/Miscellaneous/goldbraune-kartoffelpuffer-nahaufnahme.jpeg",
+      "image7": "/images/Miscellaneous/teller-mit-kartoffelpuffer-und-apfelmus.jpeg"
     }
   },
   {
     "title": "Gemüsesuppe",
     "seo_title": "Einfache vegetarische Gemüsesuppe Rezept – Schnell und gesund",
-    "image": "/images/Soups/gemuesesuppe.webp",
+    "image": "/images/Soups/gemuesesuppe.jpeg",
     "prepTime": 20,
     "cookingTime": 30,
     "seo_keywords": [
@@ -572,7 +572,7 @@ export const recipes: Recipe[] = [
     "slug": "gemuesesuppe",
     "tags": ["Traditionell", "Suppe", "Gemüse"],
     "createdDate": new Date('2025-02-17T00:00:00'),
-    "updatedDate": new Date('2025-03-22T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Eine einfache und gesunde vegetarische Gemüsesuppe, die in weniger als einer Stunde zubereitet ist – perfekt für kalte Tage oder als schnelle Mahlzeit!",
     "descriptionOnImage": "Eine herzhafte vegetarische Gemüsesuppe mit frischem Gemüse und würziger Brühe – gesund, lecker und schnell zubereitet.",
@@ -761,20 +761,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Gemüsesuppe schon seit der Antike als Heilmittel verwendet wird? 🥕 In vielen Kulturen gilt sie als „Arznei für die Seele“, da sie nicht nur nahrhaft, sondern auch leicht verdaulich ist. Besonders bei Erkältungen oder Magenverstimmungen ist sie eine beliebte Wahl. Heute ist sie ein Klassiker, der in unzähligen Varianten zubereitet wird – von der einfachen Hausmannskost bis zur Gourmet-Kreation. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/gemuesesuppeIngredient.webp",
-      "image1": "/images/Soups/gemuesesuppe1.webp",
-      "image2": "/images/Soups/gemuesesuppe2.webp",
-      "image3": "/images/Soups/gemuesesuppe3.webp",
-      "image4": "/images/Soups/gemuesesuppe4.webp",
-      "image5": "/images/Soups/gemuesesuppe5.webp",
-      "image6": "/images/Soups/gemuesesuppe6.webp",
-      "image7": "/images/Soups/gemuesesuppe7.webp"
+      "imageIngredient": "/images/Ingredients/gemuesesuppe-zutaten.jpeg",
+      "image1": "/images/Soups/vegetarische-gemuesesuppe-rezept-servierteller.jpeg",
+      "image2": "/images/Soups/einfaches-gemuesesuppe-rezept-naheaufnahme.jpeg",
+      "image3": "/images/Soups/gesunde-gemuesesuppe-mit-kartoffeln.jpeg",
+      "image4": "/images/Soups/leckere-gemuesesuppe-ohne-fleisch.jpeg",
+      "image5": "/images/Soups/hausgemachte-gemuesesuppe-kochtopf.jpeg",
+      "image6": "/images/Soups/gemuesesuppe-rezept-schritt-fuer-schritt.jpeg",
+      "image7": "/images/Soups/schnelle-gemuesesuppe-veggie-rezept.jpeg"
     }
   },
   {
     "title": "Kartoffelklöße",
     "seo_title": "Vegetarische Kartoffelklöße Rezept – Einfach und lecker",
-    "image": "/images/Miscellaneous/kartoffelkloesse.webp",
+    "image": "/images/Miscellaneous/kartoffelkloesse.jpeg",
     "prepTime": 40,
     "cookingTime": 20,
     "seo_keywords": [
@@ -794,7 +794,7 @@ export const recipes: Recipe[] = [
     "slug": "kartoffelkloesse",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
     "createdDate": new Date('2025-02-18T00:00:00'),
-    "updatedDate": new Date('2025-03-23T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Fluffige vegetarische Kartoffelklöße, die mit ihrer zarten Textur und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
     "descriptionOnImage": "Traditionelle vegetarische Kartoffelklöße – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
@@ -974,20 +974,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Kartoffelklöße in vielen Regionen Deutschlands unterschiedliche Namen haben? 🥔 In Thüringen heißen sie „Thüringer Klöße“, in Bayern „Semmelknödel“ und in Schwaben „Gaisburger Marsch“. Ursprünglich wurden sie als einfache, sättigende vegetarische Beilage erfunden, um aus wenigen Zutaten etwas Köstliches zu zaubern. Heute sind sie ein fester Bestandteil der vegetarischen deutschen Küche und werden zu festlichen Anlässen genauso serviert wie im Alltag. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kartoffelkloesseIngredient.webp",
-      "image1": "/images/Miscellaneous/kartoffelkloesse1.webp",
-      "image2": "/images/Miscellaneous/kartoffelkloesse2.webp",
-      "image3": "/images/Miscellaneous/kartoffelkloesse3.webp",
-      "image4": "/images/Miscellaneous/kartoffelkloesse4.webp",
-      "image5": "/images/Miscellaneous/kartoffelkloesse5.webp",
-      "image6": "/images/Miscellaneous/kartoffelkloesse6.webp",
-      "image7": "/images/Miscellaneous/kartoffelkloesse7.webp"
+      "imageIngredient": "/images/Ingredients/kartoffelkloesse-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/vegetarische-kartoffelkloesse-rezept-serviert.jpeg",
+      "image2": "/images/Miscellaneous/kartoffelkloesse-mehligkochende-kartoffeln-masse.jpeg",
+      "image3": "/images/Miscellaneous/kartoffelkloesse-formen-mit-haenden.jpeg",
+      "image4": "/images/Miscellaneous/kartoffelkloesse-klassisch-mit-muskat-und-salz.jpeg",
+      "image5": "/images/Miscellaneous/kartoffelkloesse-mit-staerke-und-ei-binden.jpeg",
+      "image6": "/images/Miscellaneous/kartoffelkloesse-panieren-mit-semmelbroesel-und-butter.jpeg",
+      "image7": "/images/Miscellaneous/kartoffelkloesse-knusprig-und-vegetarisch-serviert.jpeg"
     }
   },
   {
     "title": "Semmelknödel",
     "seo_title": "Vegetarische Semmelknödel Rezept – Einfach und lecker",
-    "image": "/images/Miscellaneous/semmelknoedel.webp",
+    "image": "/images/Miscellaneous/semmelknoedel.jpeg",
     "prepTime": 30,
     "cookingTime": 20,
     "seo_keywords": [
@@ -1013,7 +1013,7 @@ export const recipes: Recipe[] = [
     "slug": "semmelknoedel",
     "tags": ["Traditionell", "Beilage", "Kartoffeln"],
     "createdDate": new Date('2025-02-15T00:00:00'),
-    "updatedDate": new Date('2025-03-24T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Fluffige vegetarische Semmelknödel, die mit ihrer goldenen Kruste und ihrem herzhaften Geschmack jeden überzeugen – perfekt zu vegetarischen Gerichten!",
     "descriptionOnImage": "Traditionelle vegetarische Semmelknödel – fluffig, lecker und perfekt zu herzhaften vegetarischen Gerichten.",
@@ -1195,20 +1195,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Semmelknödel ursprünglich als Resteverwertung erfunden wurden? 🥖 In der bayerischen Küche wurden altbackene Brötchen verwendet, um daraus etwas Köstliches zu zaubern. Heute sind sie ein fester Bestandteil der vegetarischen deutschen Küche und werden zu festlichen Anlässen genauso serviert wie im Alltag. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/semmelknoedelIngredient.webp",
-      "image1": "/images/Miscellaneous/semmelknoedel1.webp",
-      "image2": "/images/Miscellaneous/semmelknoedel2.webp",
-      "image3": "/images/Miscellaneous/semmelknoedel3.webp",
-      "image4": "/images/Miscellaneous/semmelknoedel4.webp",
-      "image5": "/images/Miscellaneous/semmelknoedel5.webp",
-      "image6": "/images/Miscellaneous/semmelknoedel6.webp",
-      "image7": "/images/Miscellaneous/semmelknoedel7.webp"
+    "imageIngredient": "/images/Ingredients/semmelknoedel-zutaten.jpeg",
+    "image1": "/images/Miscellaneous/vegetarische-semmelknoedel-serviert.jpeg",
+    "image2": "/images/Miscellaneous/semmelknoedel-broetchenmasse-milch.jpeg",
+    "image3": "/images/Miscellaneous/semmelknoedel-zwiebeln-butter.jpeg",
+    "image4": "/images/Miscellaneous/semmelknoedel-petersilie-muskat.jpeg",
+    "image5": "/images/Miscellaneous/semmelknoedel-formen-kochen.jpeg",
+    "image6": "/images/Miscellaneous/semmelknoedel-locker-saftig.jpeg",
+    "image7": "/images/Miscellaneous/semmelknoedel-mit-sosse.jpeg"
     }
   },
   {
     "title": "Quinoa-Buddha-Bowl",
     "seo_title": "Vegetarische Quinoa-Buddha-Bowl Rezept – Gesund - lecker",
-    "image": "/images/MainCourses/quinoa-buddha-bowl.webp",
+    "image": "/images/MainCourses/quinoa-buddha-bowl.jpeg",
     "prepTime": 25,
     "cookingTime": 20,
     "seo_keywords": [
@@ -1227,7 +1227,7 @@ export const recipes: Recipe[] = [
     "slug": "quinoa-buddha-bowl",
     "tags": ["Modern", "Gesund", "Bowl"],
     "createdDate": new Date('2025-02-20T00:00:00'),
-    "updatedDate": new Date('2025-03-25T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 2,
     "description": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl, die mit frischem Gemüse, cremigem Avocado-Dressing und knackigen Toppings überzeugt",
     "descriptionOnImage": "Eine bunte und gesunde vegetarische Quinoa-Buddha-Bowl – voller frischer Zutaten und voller Geschmack.",
@@ -1434,20 +1434,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Buddha-Bowls ursprünglich aus der veganen und vegetarischen Küche stammen? 🥗 Sie wurden erfunden, um eine ausgewogene und nahrhafte Mahlzeit in einer Schüssel zu servieren. Heute sind sie weltweit beliebt und werden in unzähligen Variationen zubereitet – von der einfachen Hausmannskost bis zur Gourmet-Kreation. Einfach, aber genial! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/quinoaBuddhaBowlIngredient.webp",
-      "image1": "/images/MainCourses/quinoa-buddha-bowl1.webp",
-      "image2": "/images/MainCourses/quinoa-buddha-bowl2.webp",
-      "image3": "/images/MainCourses/quinoa-buddha-bowl3.webp",
-      "image4": "/images/MainCourses/quinoa-buddha-bowl4.webp",
-      "image5": "/images/MainCourses/quinoa-buddha-bowl5.webp",
-      "image6": "/images/MainCourses/quinoa-buddha-bowl6.webp",
-      "image7": "/images/MainCourses/quinoa-buddha-bowl7.webp"
+    "imageIngredient": "/images/Ingredients/quinoa-buddha-bowl-zutaten.jpeg",
+    "image1": "/images/MainCourses/quinoa-buddha-bowl-vegetarisch-serviert.jpeg",
+    "image2": "/images/MainCourses/quinoa-bowl-mit-suesskartoffel-paprika.jpeg",
+    "image3": "/images/MainCourses/quinoa-bowl-mit-geroesteten-kichererbsen.jpeg",
+    "image4": "/images/MainCourses/quinoa-bowl-avocado-und-tahini-dressing.jpeg",
+    "image5": "/images/MainCourses/quinoa-buddha-bowl-buntes-gemuese.jpeg",
+    "image6": "/images/MainCourses/quinoa-bowl-mit-zitrone-und-sesam.jpeg",
+    "image7": "/images/MainCourses/quinoa-bowl-naheaufnahme-gesund-lecker.jpeg"
     }
   },
   {
     "title": "Käsespätzle",
     "seo_title": "Vegetarische Käsespätzle Rezept – Cremig und würzig",
-    "image": "/images/MainCourses/kaesespaetzle.webp",
+    "image": "/images/MainCourses/kaesespaetzle.jpeg",
     "prepTime": 40,
     "cookingTime": 25,
     "seo_keywords": [
@@ -1474,7 +1474,7 @@ export const recipes: Recipe[] = [
     "slug": "kaesespaetzle",
     "tags": ["Traditionell", "Pasta", "Käse"],
     "createdDate": new Date('2025-02-21T00:00:00'),
-    "updatedDate": new Date('2025-03-26T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Cremige vegetarische Käsespätzle mit drei Käsesorten, karamellisierten Zwiebeln und frischem Schnittlauch – ein herzhafter Genuss ohne Fleisch!",
     "descriptionOnImage": "Goldbraune Käsespätzle mit zerlaufenem Käse und knusprigen Zwiebelringen – vegetarischer Komfort auf höchstem Niveau.",
@@ -1666,20 +1666,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Spätzle ursprünglich als 'Armenspeise' galten? 🥄 Im 18. Jahrhundert wurden sie aus Restmehl und Wasser zubereitet – erst die Zugabe von Eiern und Käse machte sie zur heutigen Delikatesse. In Schwaben gibt es sogar eine 'Spätzlepflicht' in Sterne-Restaurants: Jedes Lokal muss täglich frische Spätzle anbieten! Heute sind sie UNESCO-Kulturerbe und vegetarischer Stolz der deutschen Küche."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kaesespaetzleIngredient.webp",
-      "image1": "/images/MainCourses/kaesespaetzle1.webp",
-      "image2": "/images/MainCourses/kaesespaetzle2.webp",
-      "image3": "/images/MainCourses/kaesespaetzle3.webp",
-      "image4": "/images/MainCourses/kaesespaetzle4.webp",
-      "image5": "/images/MainCourses/kaesespaetzle5.webp",
-      "image6": "/images/MainCourses/kaesespaetzle6.webp",
-      "image7": "/images/MainCourses/kaesespaetzle7.webp"
+      "imageIngredient": "/images/Ingredients/kaesespaetzle-zutaten.jpeg",
+      "image1": "/images/MainCourses/kaesespaetzle-original-rezept-serviert.jpeg",
+      "image2": "/images/MainCourses/kaesespaetzle-spaetzle-mehl-und-eier.jpeg",
+      "image3": "/images/MainCourses/kaesespaetzle-mit-bergkaese-emmentaler.jpeg",
+      "image4": "/images/MainCourses/kaesespaetzle-karamellisierte-zwiebeln.jpeg",
+      "image5": "/images/MainCourses/kaesespaetzle-im-ofen-ueberbacken.jpeg",
+      "image6": "/images/MainCourses/kaesespaetzle-mit-schnittlauch-garniert.jpeg",
+      "image7": "/images/MainCourses/kaesespaetzle-cremig-und-goldbraun.jpeg"
     }
   },
   {
     "title": "Pilzgulasch",
     "seo_title": "Vegetarisches Pilzgulasch Rezept – Herzhaft, rauchig & umami",
-    "image": "/images/Miscellaneous/pilzgulasch.webp",
+    "image": "/images/MainCourses/pilzgulasch.jpeg",
     "prepTime": 20,
     "cookingTime": 40,
     "seo_keywords": [
@@ -1700,7 +1700,7 @@ export const recipes: Recipe[] = [
     "slug": "pilzgulasch",
     "tags": ["Traditionell", "Pilze", "Hauptgericht"],
     "createdDate": new Date('2025-02-23T00:00:00'),
-    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 2,
     "description": "Ein tief aromatisches Pilzgulasch mit rauchigen Paprika- und Sojasoßen-Noten – eine vegetarische Meisterleistung, die selbst Fleischliebhaber überzeugt.",
     "descriptionOnImage": "Ein dunkles, glänzendes Pilzgulasch mit Champignons, Austernpilzen und Rauchpaprika, serviert mit fluffigem Kartoffelpüree – pure Komfortküche.",
@@ -1903,20 +1903,20 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Pilze unterirdische 'Internet'-Netzwerke betreiben? 🌐 Myzelien (Pilzwurzeln) verbinden Bäume über Kilometer und tauschen Nährstoffe aus – Wissenschaftler nennen es 'Wood Wide Web'. Unsere Speisepilze sind nur die Früchte dieses gigantischen Systems! Beim Kochen ahmen wir diese Verbindungen nach: Sojasoße (fermentiert wie Pilze), Rauchpaprika (erinnert an verbranntes Holz) und Rotwein (terroir-reich wie Waldboden) schaffen ein Geschmacksnetzwerk, das genauso komplex ist wie die Natur selbst. Kochen ist eben auch Biologie!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/pilzgulaschIngredient.webp",
-      "image1": "/images/MainCourses/pilzgulasch1.webp",
-      "image2": "/images/MainCourses/pilzgulasch2.webp",
-      "image3": "/images/MainCourses/pilzgulasch3.webp",
-      "image4": "/images/MainCourses/pilzgulasch4.webp",
-      "image5": "/images/MainCourses/pilzgulasch5.webp",
-      "image6": "/images/MainCourses/pilzgulasch6.webp",
-      "image7": "/images/MainCourses/pilzgulasch7.webp"
+      "imageIngredient": "/images/Ingredients/pilzgulasch-zutaten.jpeg",
+      "image1": "/images/MainCourses/pilzgulasch-vegetarisch-serviert-mit-champignons.jpeg",
+      "image2": "/images/MainCourses/pilzgulasch-mit-austernpilzen-und-shiitake.jpeg",
+      "image3": "/images/MainCourses/pilzgulasch-mit-getrockneten-steinpilzen-und-bruehe.jpeg",
+      "image4": "/images/MainCourses/pilzgulasch-umami-mit-rauchpaprika-und-sojasosse.jpeg",
+      "image5": "/images/MainCourses/pilzgulasch-schmorgericht-mit-rotwein-und-gemuesebruehe.jpeg",
+      "image6": "/images/MainCourses/pilzgulasch-ohne-fleisch-deftig-und-wuerzig.jpeg",
+      "image7": "/images/MainCourses/pilzgulasch-naheaufnahme-cremig-und-aromatisch.jpeg"
     }
   },
   {
     "title": "Gemüse-Curry",
     "seo_title": "Vegetarisches Gemüse-Curry Rezept – Cremig - würzig",
-    "image": "/images/MainCourses/gemuese-curry.webp",
+    "image": "/images/MainCourses/gemuese-curry.jpeg",
     "prepTime": 25,
     "cookingTime": 35,
     "seo_keywords": [
@@ -1940,7 +1940,7 @@ export const recipes: Recipe[] = [
     "slug": "gemuese-curry",
     "tags": ["Asiatisch", "Proteinreich", "Cremig", "Meal Prep", "Glutenfrei"],
     "createdDate": new Date('2025-02-10T00:00:00'),
-    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
     "description": "Ein cremiges, würziges Gemüse-Curry mit geröstetem Kürbis, Blumenkohl und Kichererbsen – eine vegetarische Geschmacksexplosion, die mit exotischen Gewürzen und einer samtigen Kokossoße überzeugt.",
     "descriptionOnImage": "Ein goldgelbes Gemüse-Curry mit Kürbis, Blumenkohl und Kichererbsen in cremiger Kokossoße, garniert mit frischem Koriander – ein Fest der Farben und Aromen.",
@@ -2178,20 +2178,20 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/gemueseCurryIngredient.webp",
-      "image1": "/images/MainCourses/gemuese-curry1.webp",
-      "image2": "/images/MainCourses/gemuese-curry2.webp",
-      "image3": "/images/MainCourses/gemuese-curry3.webp",
-      "image4": "/images/MainCourses/gemuese-curry4.webp",
-      "image5": "/images/MainCourses/gemuese-curry5.webp",
-      "image6": "/images/MainCourses/gemuese-curry6.webp",
-      "image7": "/images/MainCourses/gemuese-curry7.webp"
+    "imageIngredient": "/images/Ingredients/gemuese-curry-zutaten.jpeg",
+    "image1": "/images/MainCourses/gemuese-curry-mit-kuerbis-und-kokosmilch.jpeg",
+    "image2": "/images/MainCourses/gemuese-curry-mit-kichererbsen-und-blumenkohl.jpeg",
+    "image3": "/images/MainCourses/vegetarisches-curry-mit-garam-masala-und-kreuzkuemmel.jpeg",
+    "image4": "/images/MainCourses/gemuese-curry-indisch-mit-kurkuma-und-senfsamen.jpeg",
+    "image5": "/images/MainCourses/gemuese-curry-ohne-fleisch-mit-kokosoel-und-tomatenmark.jpeg",
+    "image6": "/images/MainCourses/cremiges-gemuese-curry-low-carb-vegetarisch.jpeg",
+    "image7": "/images/MainCourses/gemuese-curry-gesund-und-proteinreich.jpeg"
     }
   },
   {
     "title": "Brokkoli-Quiche",
     "seo_title": "Vegetarische Brokkoli-Quiche – Cremig, nussig & voller Aromen",
-    "image": "/images/MainCourses/brokkoli-quiche.webp",
+    "image": "/images/Miscellaneous/brokkoli-quiche.jpeg",
     "prepTime": 30,
     "cookingTime": 45,
     "seo_keywords": [
@@ -2211,7 +2211,7 @@ export const recipes: Recipe[] = [
     "slug": "brokkoli-quiche",
     "tags": ["Französisch", "Gebäck", "Gemüse"],
     "createdDate": new Date('2025-02-14T00:00:00'),
-    "updatedDate": new Date('2025-03-27T00:00:00'),
+    "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 9,
     "description": "Eine vollständig vegetarische Quiche mit knusprigem Brokkoli, gerösteten Haselnüssen und zwei Käsesorten – eine pflanzliche Proteinbombe, die beweist, dass Backen ohne Fleisch genauso herzhaft schmeckt.",
     "descriptionOnImage": "Eine goldbraune Quiche mit saftigem Brokkoli, knusprigen Haselnüssen und geschmolzenem Käse – vegetarische Backkunst auf höchstem Niveau.",
@@ -2405,14 +2405,14 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/brokkoliquicheIngredint.webp",
-      "image1": "/images/MainCourses/brokkoli-quiche1.webp",
-      "image2": "/images/MainCourses/brokkoli-quiche2.webp",
-      "image3": "/images/MainCourses/brokkoli-quiche3.webp",
-      "image4": "/images/MainCourses/brokkoli-quiche4.webp",
-      "image5": "/images/MainCourses/brokkoli-quiche5.webp",
-      "image6": "/images/MainCourses/brokkoli-quiche6.webp",
-      "image7": "/images/MainCourses/brokkoli-quiche7.webp"
+      "imageIngredient": "/images/Ingredients/brokkoli-quiche-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/brokkoli-quiche-vegetarisch-mit-haselnuss-crunch.jpeg",
+      "image2": "/images/Miscellaneous/cremige-brokkoli-quiche-mit-ricotta-und-bergkaese.jpeg",
+      "image3": "/images/Miscellaneous/brokkoli-quiche-dinkelvollkorn-teig.jpeg",
+      "image4": "/images/Miscellaneous/brokkoli-quiche-mit-griechischem-joghurt.jpeg",
+      "image5": "/images/Miscellaneous/gesunde-brokkoli-quiche-mit-vollkornhaferflocken.jpeg",
+      "image6": "/images/Miscellaneous/brokkoli-quiche-vegetarisch-mit-muskatnuss.jpeg",
+      "image7": "/images/Miscellaneous/brokkoli-quiche-vegetarisch-ohne-ei.jpeg"
     }
   },
   {
