@@ -2905,7 +2905,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Gemüse-Strudel Vegetarisch",
     "seo_title": "Vegetarischer Gemüsestrudel Rezept – Blättrige Köstlichkeit",
-    "image": "/images/Miscellaneous/gemueseStrudelV1.webp",
+    "image": "/images/Miscellaneous/gemuesestrudel.jpeg",
     "prepTime": 40,
     "cookingTime": 35,
     "seo_keywords": [
@@ -2922,7 +2922,7 @@ export const recipes: Recipe[] = [
     ],
     "rating": 4.8,
     "reviews": 187,
-    "category": "Hauptgerichte",
+    "category": "Aufläufe",
     "slug": "gemuese-strudel",
     "tags": ["Traditionell", "Gebäck", "Gemüse"],
     "createdDate": new Date('2025-02-17T00:00:00'),
@@ -3135,20 +3135,20 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/gemueseStrudelIngredient.webp",
-      "image1": "/images/Miscellaneous/gemueseStrudel1.webp",
-      "image2": "/images/Miscellaneous/gemueseStrudel2.webp",
-      "image3": "/images/Miscellaneous/gemueseStrudel3.webp",
-      "image4": "/images/Miscellaneous/gemueseStrudel4.webp",
-      "image5": "/images/Miscellaneous/gemueseStrudel5.webp",
-      "image6": "/images/Miscellaneous/gemueseStrudel6.webp",
-      "image7": "/images/Miscellaneous/gemueseStrudel7.webp"
+      "imageIngredient": "/images/Ingredients/gemuesestrudel-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/gemuesestrudel-frisch-gebacken-aufgeschnitten.jpeg",
+      "image2": "/images/Miscellaneous/gemuesestrudel-naheaufnahme-knusprige-kruste.jpeg",
+      "image3": "/images/Miscellaneous/gemuesestrudel-serviert-mit-salat-und-dip.jpeg",
+      "image4": "/images/Miscellaneous/gemuesestrudel-vegetarisch-ofengericht.jpeg",
+      "image5": "/images/Miscellaneous/gemuesestrudel-anschnitt-mit-gemuese-fuellung.jpeg",
+      "image6": "/images/Miscellaneous/gemuesestrudel-rezeptfoto-fertig-gebacken.jpeg",
+      "image7": "/images/Miscellaneous/gemuesestrudel-portion-auf-teller.jpeg"
     }
   },
   {
     "title": "Vegetarische Linsen-Bolognese: Ein Herzhaftes Geschmackserlebnis",
     "seo_title": "Rezept: Linsen-Bolognese (Vegetarisch / Vegan) – Einfach",
-    "image": "/images/MainCourses/linsen-bolognese.webp",
+    "image": "/images/MainCourses/linsen-bolognese.jpeg",
     "prepTime": 20,
     "cookingTime": 40,
     "seo_keywords": [
@@ -3365,14 +3365,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass Linsen zu den ältesten kultivierten Pflanzen gehören? Sie sind nicht nur unglaublich nahrhaft und ein Symbol für Wohlstand und Glück in vielen Kulturen, sondern auch das Herzstück unserer vegetarischen Linsen-Bolognese. Ein Beweis dafür, wie vielseitig und köstlich diese kleinen Kraftpakete in der vegetarischen Küche sein können!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/linsenBologneseIngredient.webp",
-      "image1": "/images/MainCourses/linsen-bolognese1.webp",
-      "image2": "/images/MainCourses/linsen-bolognese2.webp",
-      "image3": "/images/MainCourses/linsen-bolognese3.webp",
-      "image4": "/images/MainCourses/linsen-bolognese4.webp",
-      "image5": "/images/MainCourses/linsen-bolognese5.webp",
-      "image6": "/images/MainCourses/linsen-bolognese6.webp",
-      "image7": "/images/MainCourses/linsen-bolognese7.webp"
+      "imageIngredient": "/images/Ingredients/linsen-bolognese-zutaten.jpeg",
+      "image1": "/images/MainCourses/linsen-bolognese-vegatarisch-mit-roten-linsen-und-tomaten.jpeg",
+      "image2": "/images/MainCourses/linsen-bolognese-vegatarisch.jpeg",
+      "image3": "/images/MainCourses/linsen-bolognese-mit-gemuesewuerfeln-und-rotwein.jpeg",
+      "image4": "/images/MainCourses/linsen-bolognese-vegatarisches-rezept-mit-karotten-und-sellerie.jpeg",
+      "image5": "/images/MainCourses/linsen-bolognese-nahaufnahme-pasta-mit-linsen.jpeg",
+      "image6": "/images/MainCourses/linsen-bolognese-fertig-angerichtet-mit-kräutern.jpeg",
+      "image7": "/images/MainCourses/linsen-bolognese-gesunde-vegetarisch-pasta-alternative.jpeg"
     }
   },
   {
