@@ -2418,13 +2418,13 @@ export const recipes: Recipe[] = [
   {
     "title": "Ratatouille Provençal",
     "seo_title": "Vegetarisches Ratatouille Rezept – Gemüseperfektion",
-    "image": "/images/Miscellaneous/ratatouille.webp",
+    "image": "/images/MainCourses/ratatouille.jpeg",
     "prepTime": 20,
     "cookingTime": 50,
     "seo_keywords": [
       "Vegetarisches Ratatouille",
       "ratatouille gemüse",
-      "Gratatouille",
+      "ratatouille",
       "ratatouille koch",
       "ratatouille rezept",
       "ratatouille rezept original",
@@ -2643,14 +2643,14 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/ratatouilleIngredient.webp",
-      "image1": "/images/MainCourses/ratatouille1.webp",
-      "image2": "/images/MainCourses/ratatouille2.webp",
-      "image3": "/images/MainCourses/ratatouille3.webp",
-      "image4": "/images/MainCourses/ratatouille4.webp",
-      "image5": "/images/MainCourses/ratatouille5.webp",
-      "image6": "/images/MainCourses/ratatouille6.webp",
-      "image7": "/images/MainCourses/ratatouille7.webp"
+      "imageIngredient": "/images/Ingredients/ratatouille-zutaten.jpeg",
+      "image1": "/images/MainCourses/ratatouille-klassisch-franzoesisch-mit-zucchini-und-aubergine.jpeg",
+      "image2": "/images/MainCourses/ofenratatouille-mediterranes-gemuese-rezept.jpeg",
+      "image3": "/images/MainCourses/ratatouille-mit-tomaten-paprika-und-kraeutern.jpeg",
+      "image4": "/images/MainCourses/vegetarisches-ratatouille-rezept-mit-olivenoel.jpeg",
+      "image5": "/images/MainCourses/ratatouille-einfach-selbstgemacht-gesund.jpeg",
+      "image6": "/images/MainCourses/ratatouille-mit-thymian-und-rosmarin.jpeg",
+      "image7": "/images/MainCourses/franzoesisches-ratatouille-fuer-vegetarier.jpeg"
     }
   },
   {
