@@ -3788,7 +3788,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Shakshuka",
     "seo_title": "Shakshuka: Orientalisches Frühstücksrezept",
-    "image": "/images/Frühstück/shakshuka.webp",
+    "image": "/images/Frühstück/shakshuka.jpeg",
     "prepTime": 15,
     "cookingTime": 25,
     "seo_keywords": [
@@ -4011,14 +4011,14 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Shakshuka als 'kulinarischer Diplomat' gilt? 🌍 Dieses Gericht wird in Nordafrika, dem Nahen Osten und dem Mittelmeerraum gleichermaßen beansprucht – Tunesien, Marokko, Israel, Ägypten und die Türkei führen freundschaftliche Debatten über seinen Ursprung. In Israel wurde es in den 1950er Jahren durch eingewanderte tunesische Juden populär und ist heute ein Nationalgericht, das Grenzen überwindet. Bei UN-Veranstaltungen wird Shakshuka manchmal als 'Friedensgericht' serviert, das kulturelle Gemeinsamkeiten statt Unterschiede betont. Die wahre Magie? Egal woher es stammt – sobald der Duft von Kreuzkümmel und Tomaten die Luft erfüllt, sind alle Streitigkeiten vergessen! 😊"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/shakshukaIngredient.webp",
-      "image1": "/images/Frühstück/shakshuka1.webp",
-      "image2": "/images/Frühstück/shakshuka2.webp",
-      "image3": "/images/Frühstück/shakshuka3.webp",
-      "image4": "/images/Frühstück/shakshuka4.webp",
-      "image5": "/images/Frühstück/shakshuka5.webp",
-      "image6": "/images/Frühstück/shakshuka6.webp",
-      "image7": "/images/Frühstück/shakshuka7.webp"
+      "imageIngredient": "/images/Ingredients/shakshuka-zutaten.jpeg",
+      "image1": "/images/Frühstück/shakshuka-mit-eiern-und-tomatensauce.jpeg",
+      "image2": "/images/Frühstück/shakshuka-orientalisches-fruehstueck-mit-feta.jpeg",
+      "image3": "/images/Frühstück/shakshuka-naheaufnahme-mit-zwiebeln-und-paprika.jpeg",
+      "image4": "/images/Frühstück/shakshuka-im-pfannengericht-mit-koriander.jpeg",
+      "image5": "/images/Frühstück/shakshuka-vegetarisch-mit-kreuzkuemmel-und-chili.jpeg",
+      "image6": "/images/Frühstück/shakshuka-mediterranes-fruehstueck-mit-kraeutern.jpeg",
+      "image7": "/images/Frühstück/shakshuka-mit-feta-und-frischem-brot-serviert.jpeg"
     }
   },
   {
