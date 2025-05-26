@@ -3378,7 +3378,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Dubai Schokolade: Ein Exotischer Genuss mit Milchschokolade",
     "seo_title": "Dubai Schokolade Rezept – Exotische Schokoladenkreation für Vegetarier",
-    "image": "/images/Desserts/dubaiSchokolade.webp",
+    "image": "/images/Desserts/dubai-schokolade.jpeg",
     "prepTime": 30,
     "cookingTime": 15,
     "seo_keywords": [
@@ -3564,14 +3564,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass Gold in vielen Kulturen als Symbol für Reichtum und Luxus gilt? In Dubai wird Gold oft in Desserts verwendet, um die Opulenz der Stadt widerzuspiegeln. Unsere vegetarische Dubai Schokolade ist eine Hommage an diese Tradition, ganz ohne tierische Produkte, und zeigt, wie luxuriös und vielfältig vegetarische Desserts sein können!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/dubaiSchokoladeIngredient.webp",
-      "image1": "/images/Desserts/dubaiSchokolade1.webp",
-      "image2": "/images/Desserts/dubaiSchokolade2.webp",
-      "image3": "/images/Desserts/dubaiSchokolade3.webp",
-      "image4": "/images/Desserts/dubaiSchokolade4.webp",
-      "image5": "/images/Desserts/dubaiSchokolade5.webp",
-      "image6": "/images/Desserts/dubaiSchokolade6.webp",
-      "image7": "/images/Desserts/dubaiSchokolade7.webp"
+      "imageIngredient": "/images/Ingredients/dubai-schokolade-zutaten.jpeg",
+      "image1": "/images/Desserts/dubai-schokolade-mit-datteln-und-nuessen.jpeg",
+      "image2": "/images/Desserts/dubai-schokolade-orientalisches-dessert.jpeg",
+      "image3": "/images/Desserts/dubai-schokolade-mit-rosenwasser-und-kardamom.jpeg",
+      "image4": "/images/Desserts/dubai-schokolade-naheaufnahme-goldstaub.jpeg",
+      "image5": "/images/Desserts/dubai-schokolade-veggie-dessert-edel-und-exotisch.jpeg",
+      "image6": "/images/Desserts/dubai-schokolade-mit-milchschokolade-und-pistazien.jpeg",
+      "image7": "/images/Desserts/dubai-schokolade-anschnitt-und-textur.jpeg"
     }
   },
   {
