@@ -91,6 +91,12 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
         />
         <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378654958981077"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        <Script
           id="schema-org"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
