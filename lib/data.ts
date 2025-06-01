@@ -14820,14 +14820,14 @@ export const recipes: Recipe[] = [
     "description": "Grüne Smoothies wurden in den 1990er Jahren populär und sind eine einfache Möglichkeit, mehr rohes Blattgemüse in den Alltag zu integrieren."
   },
   "images": {
-    "imageIngredient": "/images/Ingredients/gruener-smoothie-zutaten.jpeg",
-    "image1": "/images/Frühstück/gesunder-smoothie-selber-machen.jpeg",
-    "image2": "/images/Frühstück/veganer-smoothie-mit-spinat.jpeg",
-    "image3": "/images/Frühstück/detox-power-smoothie.jpeg",
-    "image4": "/images/Frühstück/gruener-smoothie-apfel-banane.jpeg",
-    "image5": "/images/Frühstück/smoothie-fruehstueck.jpeg",
-    "image6": "/images/Frühstück/einfacher-gruener-smoothie.jpeg",
-    "image7": "/images/Frühstück/frischer-gruener-smoothie.jpeg"
+    "imageIngredient": "/images/Ingredients/gruener-smoothie-zutaten.jpg",
+    "image1": "/images/Frühstück/gesunder-smoothie-selber-machen.jpg",
+    "image2": "/images/Frühstück/veganer-smoothie-mit-spinat.jpg",
+    "image3": "/images/Frühstück/detox-power-smoothie.jpg",
+    "image4": "/images/Frühstück/gruener-smoothie-apfel-banane.jpg",
+    "image5": "/images/Frühstück/smoothie-fruehstueck.jpg",
+    "image6": "/images/Frühstück/einfacher-gruener-smoothie.jpg",
+    "image7": "/images/Frühstück/frischer-gruener-smoothie.jpg"
   }
 }
 ];
