@@ -14613,6 +14613,222 @@ export const recipes: Recipe[] = [
     "image6": "/images/Desserts/kaiserschmarrn-mit-apfelmus.jpeg",
     "image7": "/images/Desserts/kaiserschmarrn-backofen.jpeg"
   }
+},
+{
+  "title": "Mein liebster Grüner Smoothie für einen energiegeladenen Start!",
+  "seo_title": "Grüner Smoothie Rezept: Gesund, Vegan & Einfach selber machen",
+  "image": "/images/Frühstück/gruener-smoothie.jpg",
+  "prepTime": 7,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "grüner smoothie",
+    "grüner smoothie rezept",
+    "grüner smoothie rezepte",
+    "grüner smoothie zum abnehmen",
+    "rezept grüner smoothie",
+    "grüner smoothie gesund",
+    "grüner smoothie zutaten",
+    "gesunder grüner smoothie",
+    "rezepte grüner smoothie",
+    "zutaten grüner smoothie",
+    "grüner smoothie spinat",
+    "grüner smoothie mit spinat",
+    "grüner smoothie frühstück"
+  ],
+  "rating": 4.7,
+  "reviews": 312,
+  "category": "Frühstück",
+  "slug": "gruener-smoothie",
+  "tags": [
+    "Smoothie",
+    "Grün",
+    "Gesund",
+    "Vegan",
+    "Frühstück"
+  ],
+  "createdDate": new Date("2025-06-01T09:00:00Z"),
+  "updatedDate": new Date("2025-06-01T10:30:00Z"),
+  "servings": 1,
+  "description": "Starte gesund in den Tag mit diesem Grüner Smoothie Rezept – super einfach & lecker!",
+  "descriptionOnImage": "Dein täglicher Vitaminkick!",
+  "introductionParagraph": "Dieser grüne Smoothie ist mein Geheimtipp für einen energiereichen Start in den Tag. Er schmeckt erstaunlich lecker und ist voller Vitamine!",
+  "additionalParagraph": "Wenn du nach einem schnellen, gesunden Frühstück oder einem Power-Snack suchst, ist dieser vegane Smoothie genau das Richtige für dich.",
+  "ingredientsNeeded": [
+    {
+      "title": "Frischer Spinat",
+      "description": "Die Basis für die grüne Farbe und liefert viele Vitamine und Mineralien ohne starken Eigengeschmack."
+    },
+    {
+      "title": "Apfel",
+      "description": "Sorgt für natürliche Süße und eine angenehme Frische im Grünen Smoothie."
+    },
+    {
+      "title": "Banane",
+      "description": "Gibt dem Smoothie Cremigkeit und zusätzliche Süße. Ideal auch aus dem Gefrierfach für Kälte."
+    },
+    {
+      "title": "Flüssigkeit",
+      "description": "Wasser oder pflanzliche Milch bilden die Basis und helfen beim Mixen für die perfekte Konsistenz."
+    },
+    {
+      "title": "Ingwer (optional)",
+      "description": "Ein kleines Stück Ingwer sorgt für eine leichte Schärfe und extra gesundheitliche Vorteile."
+    },
+    {
+      "title": "Chiasamen (optional)",
+      "description": "Liefern wertvolle Omega-3-Fettsäuren und Ballaststoffe und machen den Smoothie sättigender."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Grünen Power Smoothie",
+      "description": "Alle Zutaten für deinen nährstoffreichen und leckeren Start in den Tag.",
+      "ingredients": [
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "frischer Spinat"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Apfel (z.B. Elstar), entkernt"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Banane (gerne gefroren)"
+        },
+        {
+          "amount": 150,
+          "unit": "ml",
+          "name": "Wasser oder Pflanzendrink (Mandel, Hafer)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: 1 cm Ingwer, geschält"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Optional: Chiasamen"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "frischer Spinat"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Apfel (z.B. Elstar), entkernt"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Banane (gerne gefroren)"
+    },
+    {
+      "amount": 150,
+      "unit": "ml",
+      "name": "Wasser oder Pflanzendrink (Mandel, Hafer)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: 1 cm Ingwer, geschält"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Optional: Chiasamen"
+    }
+  ],
+  "instructions": [
+    "Spinat gründlich waschen.",
+    "Apfel entkernen und in grobe Stücke schneiden. Banane schälen.",
+    "Alle Zutaten in einen leistungsstarken Mixer geben. Beginne mit der Flüssigkeit, dann Spinat, Apfel, Banane und optionale Zutaten.",
+    "Alles cremig pürieren, bis keine Stückchen mehr vorhanden sind und die gewünschte Konsistenz erreicht ist. Bei Bedarf mehr Flüssigkeit hinzufügen."
+  ],
+  "nutrition": {
+    "calories": 250,
+    "protein": "5g",
+    "carbs": "45g",
+    "fat": "3g"
+  },
+  "tips": [
+    "Für einen kälteren Smoothie: Verwende eine gefrorene Banane oder gib eine Handvoll Eiswürfel mit in den Mixer.",
+    "Experimentiere mit Grünkohl statt Spinat für eine noch nährstoffreichere Variante, oder füge Beeren für andere Geschmacksnoten hinzu."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Grüne Smoothie ein Hit ist",
+    "reasons": [
+      {
+        "title": "Schnell & einfach",
+        "description": "In weniger als 10 Minuten hast du ein gesundes, leckeres Frühstück oder einen Snack zubereitet."
+      },
+      {
+        "title": "Vollgepackt mit Nährstoffen",
+        "description": "Er liefert dir eine Extraportion Vitamine und Energie, die dich durch den Tag bringt."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass es dir schmecken und genieße deinen Vitaminkick!",
+    "subText": "Bleib gesund!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Zutaten vorbereiten",
+      "description": "Wasche den Spinat und schneide Apfel und Banane in Stücke. Je kleiner die Stücke, desto leichter püriert es sich."
+    },
+    {
+      "title": "Alles mixen",
+      "description": "Gib alle Zutaten in den Mixer. Achte darauf, dass die Flüssigkeit zuerst hineinkommt, um das Mixen zu erleichtern."
+    },
+    {
+      "title": "Genießen",
+      "description": "Püriere alles, bis es cremig ist, und genieße deinen frischen Grünen Smoothie sofort. Am besten schmeckt er eiskalt!"
+    }
+  ],
+  "servingSuggestion": "Serviere den Grünen Smoothie frisch zubereitet und gut gekühlt.",
+  "servingSuggestions": {
+    "title": "Dein Grüner Smoothie – so vielfältig!",
+    "description": "Dieser Power-Smoothie ist perfekt als:",
+    "note": "Probier's aus!",
+    "items": [
+      {
+        "emoji": "☀️",
+        "title": "Muntermacher am Morgen",
+        "description": "Ideal als schnelles, nahrhaftes Frühstück, das dich fit für den Tag macht."
+      },
+      {
+        "emoji": "💪",
+        "title": "Post-Workout-Drink",
+        "description": "Die perfekte Erfrischung und Nährstoffzufuhr nach dem Sport."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Grüne Smoothies wurden in den 1990er Jahren populär und sind eine einfache Möglichkeit, mehr rohes Blattgemüse in den Alltag zu integrieren."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/gruener-smoothie-zutaten.jpeg",
+    "image1": "/images/Frühstück/gesunder-smoothie-selber-machen.jpeg",
+    "image2": "/images/Frühstück/veganer-smoothie-mit-spinat.jpeg",
+    "image3": "/images/Frühstück/detox-power-smoothie.jpeg",
+    "image4": "/images/Frühstück/gruener-smoothie-apfel-banane.jpeg",
+    "image5": "/images/Frühstück/smoothie-fruehstueck.jpeg",
+    "image6": "/images/Frühstück/einfacher-gruener-smoothie.jpeg",
+    "image7": "/images/Frühstück/frischer-gruener-smoothie.jpeg"
+  }
 }
 ];
 
