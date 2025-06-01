@@ -2418,13 +2418,13 @@ export const recipes: Recipe[] = [
   {
     "title": "Ratatouille Provençal",
     "seo_title": "Vegetarisches Ratatouille Rezept – Gemüseperfektion",
-    "image": "/images/Miscellaneous/ratatouille.webp",
+    "image": "/images/MainCourses/ratatouille.jpeg",
     "prepTime": 20,
     "cookingTime": 50,
     "seo_keywords": [
       "Vegetarisches Ratatouille",
       "ratatouille gemüse",
-      "Gratatouille",
+      "ratatouille",
       "ratatouille koch",
       "ratatouille rezept",
       "ratatouille rezept original",
@@ -2643,20 +2643,20 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/ratatouilleIngredient.webp",
-      "image1": "/images/MainCourses/ratatouille1.webp",
-      "image2": "/images/MainCourses/ratatouille2.webp",
-      "image3": "/images/MainCourses/ratatouille3.webp",
-      "image4": "/images/MainCourses/ratatouille4.webp",
-      "image5": "/images/MainCourses/ratatouille5.webp",
-      "image6": "/images/MainCourses/ratatouille6.webp",
-      "image7": "/images/MainCourses/ratatouille7.webp"
+      "imageIngredient": "/images/Ingredients/ratatouille-zutaten.jpeg",
+      "image1": "/images/MainCourses/ratatouille-klassisch-franzoesisch-mit-zucchini-und-aubergine.jpeg",
+      "image2": "/images/MainCourses/ofenratatouille-mediterranes-gemuese-rezept.jpeg",
+      "image3": "/images/MainCourses/ratatouille-mit-tomaten-paprika-und-kraeutern.jpeg",
+      "image4": "/images/MainCourses/vegetarisches-ratatouille-rezept-mit-olivenoel.jpeg",
+      "image5": "/images/MainCourses/ratatouille-einfach-selbstgemacht-gesund.jpeg",
+      "image6": "/images/MainCourses/ratatouille-mit-thymian-und-rosmarin.jpeg",
+      "image7": "/images/MainCourses/franzoesisches-ratatouille-fuer-vegetarier.jpeg"
     }
   },
   {
     "title": "Gefüllte Paprika Vegetarisch",
     "seo_title": "Mediterrane gefüllte Paprika – Pflanzliche Geschmacksexplosion",
-    "image": "/images/MainCourses/gefuellte-paprika.webp",
+    "image": "/images/MainCourses/gefüllte-paprika.jpeg",
     "prepTime": 30,
     "cookingTime": 45,
     "seo_keywords": [
@@ -2892,20 +2892,20 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/gefuelltePaprikaIngredient.webp",
-      "image1": "/images/MainCourses/gefuellte-paprika1.webp",
-      "image2": "/images/MainCourses/gefuellte-paprika2.webp",
-      "image3": "/images/MainCourses/gefuellte-paprika3.webp",
-      "image4": "/images/MainCourses/gefuellte-paprika4.webp",
-      "image5": "/images/MainCourses/gefuellte-paprika5.webp",
-      "image6": "/images/MainCourses/gefuellte-paprika6.webp",
-      "image7": "/images/MainCourses/gefuellte-paprika7.webp"
+      "imageIngredient": "/images/Ingredients/gefuellte-paprika-zutaten.jpeg",
+      "image1": "/images/MainCourses/vegetarisch-gefuellte-paprika-mit-feta-und-quinoa.jpeg",
+      "image2": "/images/MainCourses/paprika-gefüllt-ohne-fleisch-vegetarisch.jpeg",
+      "image3": "/images/MainCourses/gesunde-gefuellte-paprika-mit-pilzen-und-feta.jpeg",
+      "image4": "/images/MainCourses/quinoa-paprika-vegetarisch-ofengericht.jpeg",
+      "image5": "/images/MainCourses/paprika-gefüllt-mit-quinoa-pilzen-und-kraeutern.jpeg",
+      "image6": "/images/MainCourses/vegetarisches-paprika-rezept-mit-quinoa.jpeg",
+      "image7": "/images/MainCourses/gefüllte-paprika-ohne-fleisch-gesund-leicht.jpeg"
     }
   },
   {
     "title": "Gemüse-Strudel Vegetarisch",
     "seo_title": "Vegetarischer Gemüsestrudel Rezept – Blättrige Köstlichkeit",
-    "image": "/images/Miscellaneous/gemueseStrudelV1.webp",
+    "image": "/images/Miscellaneous/gemuesestrudel.jpeg",
     "prepTime": 40,
     "cookingTime": 35,
     "seo_keywords": [
@@ -2922,7 +2922,7 @@ export const recipes: Recipe[] = [
     ],
     "rating": 4.8,
     "reviews": 187,
-    "category": "Hauptgerichte",
+    "category": "Aufläufe",
     "slug": "gemuese-strudel",
     "tags": ["Traditionell", "Gebäck", "Gemüse"],
     "createdDate": new Date('2025-02-17T00:00:00'),
@@ -3135,20 +3135,20 @@ export const recipes: Recipe[] = [
     },
 
     "images": {
-      "imageIngredient": "/images/Ingredients/gemueseStrudelIngredient.webp",
-      "image1": "/images/Miscellaneous/gemueseStrudel1.webp",
-      "image2": "/images/Miscellaneous/gemueseStrudel2.webp",
-      "image3": "/images/Miscellaneous/gemueseStrudel3.webp",
-      "image4": "/images/Miscellaneous/gemueseStrudel4.webp",
-      "image5": "/images/Miscellaneous/gemueseStrudel5.webp",
-      "image6": "/images/Miscellaneous/gemueseStrudel6.webp",
-      "image7": "/images/Miscellaneous/gemueseStrudel7.webp"
+      "imageIngredient": "/images/Ingredients/gemuesestrudel-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/gemuesestrudel-frisch-gebacken-aufgeschnitten.jpeg",
+      "image2": "/images/Miscellaneous/gemuesestrudel-naheaufnahme-knusprige-kruste.jpeg",
+      "image3": "/images/Miscellaneous/gemuesestrudel-serviert-mit-salat-und-dip.jpeg",
+      "image4": "/images/Miscellaneous/gemuesestrudel-vegetarisch-ofengericht.jpeg",
+      "image5": "/images/Miscellaneous/gemuesestrudel-anschnitt-mit-gemuese-fuellung.jpeg",
+      "image6": "/images/Miscellaneous/gemuesestrudel-rezeptfoto-fertig-gebacken.jpeg",
+      "image7": "/images/Miscellaneous/gemuesestrudel-portion-auf-teller.jpeg"
     }
   },
   {
     "title": "Vegetarische Linsen-Bolognese: Ein Herzhaftes Geschmackserlebnis",
     "seo_title": "Rezept: Linsen-Bolognese (Vegetarisch / Vegan) – Einfach",
-    "image": "/images/MainCourses/linsen-bolognese.webp",
+    "image": "/images/MainCourses/linsen-bolognese.jpeg",
     "prepTime": 20,
     "cookingTime": 40,
     "seo_keywords": [
@@ -3365,20 +3365,20 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass Linsen zu den ältesten kultivierten Pflanzen gehören? Sie sind nicht nur unglaublich nahrhaft und ein Symbol für Wohlstand und Glück in vielen Kulturen, sondern auch das Herzstück unserer vegetarischen Linsen-Bolognese. Ein Beweis dafür, wie vielseitig und köstlich diese kleinen Kraftpakete in der vegetarischen Küche sein können!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/linsenBologneseIngredient.webp",
-      "image1": "/images/MainCourses/linsen-bolognese1.webp",
-      "image2": "/images/MainCourses/linsen-bolognese2.webp",
-      "image3": "/images/MainCourses/linsen-bolognese3.webp",
-      "image4": "/images/MainCourses/linsen-bolognese4.webp",
-      "image5": "/images/MainCourses/linsen-bolognese5.webp",
-      "image6": "/images/MainCourses/linsen-bolognese6.webp",
-      "image7": "/images/MainCourses/linsen-bolognese7.webp"
+      "imageIngredient": "/images/Ingredients/linsen-bolognese-zutaten.jpeg",
+      "image1": "/images/MainCourses/linsen-bolognese-vegatarisch-mit-roten-linsen-und-tomaten.jpeg",
+      "image2": "/images/MainCourses/linsen-bolognese-vegatarisch.jpeg",
+      "image3": "/images/MainCourses/linsen-bolognese-mit-gemuesewuerfeln-und-rotwein.jpeg",
+      "image4": "/images/MainCourses/linsen-bolognese-vegatarisches-rezept-mit-karotten-und-sellerie.jpeg",
+      "image5": "/images/MainCourses/linsen-bolognese-nahaufnahme-pasta-mit-linsen.jpeg",
+      "image6": "/images/MainCourses/linsen-bolognese-fertig-angerichtet-mit-kräutern.jpeg",
+      "image7": "/images/MainCourses/linsen-bolognese-gesunde-vegetarisch-pasta-alternative.jpeg"
     }
   },
   {
     "title": "Dubai Schokolade: Ein Exotischer Genuss mit Milchschokolade",
     "seo_title": "Dubai Schokolade Rezept – Exotische Schokoladenkreation für Vegetarier",
-    "image": "/images/Desserts/dubaiSchokolade.webp",
+    "image": "/images/Desserts/dubai-schokolade.jpeg",
     "prepTime": 30,
     "cookingTime": 15,
     "seo_keywords": [
@@ -3564,14 +3564,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass Gold in vielen Kulturen als Symbol für Reichtum und Luxus gilt? In Dubai wird Gold oft in Desserts verwendet, um die Opulenz der Stadt widerzuspiegeln. Unsere vegetarische Dubai Schokolade ist eine Hommage an diese Tradition, ganz ohne tierische Produkte, und zeigt, wie luxuriös und vielfältig vegetarische Desserts sein können!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/dubaiSchokoladeIngredient.webp",
-      "image1": "/images/Desserts/dubaiSchokolade1.webp",
-      "image2": "/images/Desserts/dubaiSchokolade2.webp",
-      "image3": "/images/Desserts/dubaiSchokolade3.webp",
-      "image4": "/images/Desserts/dubaiSchokolade4.webp",
-      "image5": "/images/Desserts/dubaiSchokolade5.webp",
-      "image6": "/images/Desserts/dubaiSchokolade6.webp",
-      "image7": "/images/Desserts/dubaiSchokolade7.webp"
+      "imageIngredient": "/images/Ingredients/dubai-schokolade-zutaten.jpeg",
+      "image1": "/images/Desserts/dubai-schokolade-mit-datteln-und-nuessen.jpeg",
+      "image2": "/images/Desserts/dubai-schokolade-orientalisches-dessert.jpeg",
+      "image3": "/images/Desserts/dubai-schokolade-mit-rosenwasser-und-kardamom.jpeg",
+      "image4": "/images/Desserts/dubai-schokolade-naheaufnahme-goldstaub.jpeg",
+      "image5": "/images/Desserts/dubai-schokolade-veggie-dessert-edel-und-exotisch.jpeg",
+      "image6": "/images/Desserts/dubai-schokolade-mit-milchschokolade-und-pistazien.jpeg",
+      "image7": "/images/Desserts/dubai-schokolade-anschnitt-und-textur.jpeg"
     }
   },
   {
@@ -3788,7 +3788,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Shakshuka",
     "seo_title": "Shakshuka: Orientalisches Frühstücksrezept",
-    "image": "/images/Frühstück/shakshuka.webp",
+    "image": "/images/Frühstück/shakshuka.jpeg",
     "prepTime": 15,
     "cookingTime": 25,
     "seo_keywords": [
@@ -4011,20 +4011,224 @@ export const recipes: Recipe[] = [
       "description": "Wusstest du, dass Shakshuka als 'kulinarischer Diplomat' gilt? 🌍 Dieses Gericht wird in Nordafrika, dem Nahen Osten und dem Mittelmeerraum gleichermaßen beansprucht – Tunesien, Marokko, Israel, Ägypten und die Türkei führen freundschaftliche Debatten über seinen Ursprung. In Israel wurde es in den 1950er Jahren durch eingewanderte tunesische Juden populär und ist heute ein Nationalgericht, das Grenzen überwindet. Bei UN-Veranstaltungen wird Shakshuka manchmal als 'Friedensgericht' serviert, das kulturelle Gemeinsamkeiten statt Unterschiede betont. Die wahre Magie? Egal woher es stammt – sobald der Duft von Kreuzkümmel und Tomaten die Luft erfüllt, sind alle Streitigkeiten vergessen! 😊"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/shakshukaIngredient.webp",
-      "image1": "/images/Frühstück/shakshuka1.webp",
-      "image2": "/images/Frühstück/shakshuka2.webp",
-      "image3": "/images/Frühstück/shakshuka3.webp",
-      "image4": "/images/Frühstück/shakshuka4.webp",
-      "image5": "/images/Frühstück/shakshuka5.webp",
-      "image6": "/images/Frühstück/shakshuka6.webp",
-      "image7": "/images/Frühstück/shakshuka7.webp"
+      "imageIngredient": "/images/Ingredients/shakshuka-zutaten.jpeg",
+      "image1": "/images/Frühstück/shakshuka-mit-eiern-und-tomatensauce.jpeg",
+      "image2": "/images/Frühstück/shakshuka-orientalisches-fruehstueck-mit-feta.jpeg",
+      "image3": "/images/Frühstück/shakshuka-naheaufnahme-mit-zwiebeln-und-paprika.jpeg",
+      "image4": "/images/Frühstück/shakshuka-im-pfannengericht-mit-koriander.jpeg",
+      "image5": "/images/Frühstück/shakshuka-vegetarisch-mit-kreuzkuemmel-und-chili.jpeg",
+      "image6": "/images/Frühstück/shakshuka-mediterranes-fruehstueck-mit-kraeutern.jpeg",
+      "image7": "/images/Frühstück/shakshuka-mit-feta-und-frischem-brot-serviert.jpeg"
+    }
+  },
+  {
+    "title": "Einfache Süßkartoffel-Kokos-Suppe",
+    "seo_title": "Einfache Süßkartoffel-Kokos-Suppe mit Kokosmilch",
+    "image": "/images/Soups/suesskartoffel-kokos-suppe.jpg",
+    "prepTime": 20,
+    "cookingTime": 30,
+    "seo_keywords": [
+      "Süßkartoffel-Kokos-Suppe Einfach",
+      "Süßkartoffel-Kokos-Suppe",
+      "Süßkartoffel Kokos Suppe",
+      "Süßkartoffelsuppe Kokosmilch",
+      "Süßkartoffelsuppe mit Kokosmilch",
+      "Einfache Süßkartoffelsuppe mit Kokosmilch",
+      "rezept süßkartoffel kokos suppe",
+      "süßkartoffel kokos suppe essen und trinken",
+      "süßkartoffel kokos suppe eat smarter"
+    ],
+    "rating": 4.8,
+    "reviews": 1280,
+    "category": "Suppen",
+    "slug": "suesskartoffel-kokos-suppe",
+    "tags": ["Süßkartoffel-Kokos-Suppe", "Süßkartoffelsuppe", "Kokosmilch", "Einfach", "Rezept", "Vegan", "Suppe"],
+    "createdDate": new Date("2025-03-25T00:00:00.000Z"),
+    "updatedDate": new Date("2025-04-10T00:00:00.000Z"),
+    "servings": 5,
+    "description": "Ein einfaches Rezept für eine cremige Süßkartoffel-Kokos-Suppe. Diese Süßkartoffelsuppe mit Kokosmilch gelingt leicht und schmeckt unglaublich lecker!",
+    "descriptionOnImage": "Cremige Süßkartoffel-Kokos-Suppe mit einem Hauch von Limette und frischem Koriander – ein exotisches Geschmackserlebnis, das die Aromen Asiens auf den Teller bringt.",
+    "introductionParagraph": "Entdecke unser bestes Rezept für Süßkartoffel Kokos Suppe! Dieses Gericht vereint die natürliche Süße der Süßkartoffel mit der samtigen Cremigkeit von Kokosmilch und einem Hauch exotischer Gewürze. Du suchst eine Süßkartoffel-Kokos-Suppe, die einfach zuzubereiten ist? Perfekt! Unser Rezept ist unkompliziert und sowohl für Kochanfänger als auch erfahrene Köche geeignet. Diese Süßkartoffelsuppe mit Kokosmilch wärmt von innen und ist ideal für kühle Tage. Sie ist nicht nur lecker, sondern auch nahrhaft und vegan. Probiere diese einfache Süßkartoffelsuppe mit Kokosmilch aus und lass dich begeistern!",
+    "additionalParagraph": "Das Besondere an dieser Süßkartoffel-Kokos-Suppe ist ihre wunderbare Balance aus süßen und würzigen Noten, abgerundet durch die frische Säure der Limette. Sie ist ein tolles Hauptgericht, kann aber auch als Vorspeise serviert werden. Ob du ein schnelles Mittagessen oder ein gemütliches Abendessen planst, diese Süßkartoffelsuppe Kokosmilch passt immer. Verfeinere sie nach Belieben mit Toppings wie gerösteten Kokoschips, Kürbiskernen oder einem Klecks Chilipaste für mehr Schärfe. Mit diesem Rezept gelingt dir eine Süßkartoffel-Kokos-Suppe, einfach und köstlich!",
+    "ingredientsNeeded": [
+      {
+        "title": "Süßkartoffeln",
+        "description": "Die Basis dieser Süßkartoffel-Kokos-Suppe. Sie verleihen der Suppe ihre Süße und cremige Textur."
+      },
+      {
+        "title": "Kokosmilch",
+        "description": "Sie sorgt für die cremige Konsistenz und den exotischen Geschmack der Süßkartoffel-Kokos-Suppe."
+      },
+      {
+        "title": "Zwiebeln und Knoblauch",
+        "description": "Die aromatische Grundlage für jede gute Süßkartoffel-Kokos-Suppe. Sie werden langsam angeschwitzt, um ihre Süße und ihr Aroma zu entfalten."
+      },
+      {
+        "title": "Gemüsebrühe",
+        "description": "Sie bildet die flüssige Grundlage der Süßkartoffel-Kokos-Suppe und verleiht ihr zusätzliche Tiefe und Geschmack."
+      },
+      {
+        "title": "Gewürze",
+        "description": "Ingwer, Currypulver und Limettensaft verleihen der Süßkartoffel-Kokos-Suppe ihren charakteristischen asiatischen Geschmack."
+      },
+      {
+        "title": "Koriander",
+        "description": "Frischer Koriander sorgt für eine frische, aromatische Note in der Süßkartoffel-Kokos-Suppe."
+      }
+    ],
+    "ingredientGroups": [
+      {
+        "title": "Die Basis der Süßkartoffel-Kokos-Suppe",
+        "description": "Die Grundlage für eine cremige, exotische Süßkartoffel-Kokos-Suppe:",
+        "ingredients": [
+          { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
+          { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+          { "amount": 1, "unit": "", "name": "Zwiebel" },
+          { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+          { "amount": 1, "unit": "l", "name": "Gemüsebrühe" }
+        ]
+      },
+      {
+        "title": "Die Aromen der Süßkartoffel-Kokos-Suppe",
+        "description": "Die Zutaten, die der Süßkartoffel-Kokos-Suppe ihren unverwechselbaren, asiatischen Geschmack verleihen:",
+        "ingredients": [
+          { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
+          { "amount": 2, "unit": "TL", "name": "Currypulver" },
+          { "amount": 2, "unit": "EL", "name": "Limettensaft" },
+          { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
+        ]
+      }
+    ],
+    "ingredients": [
+      { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
+      { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+      { "amount": 1, "unit": "", "name": "Zwiebel" },
+      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": 1, "unit": "l", "name": "Gemüsebrühe" },
+      { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
+      { "amount": 2, "unit": "TL", "name": "Currypulver" },
+      { "amount": 2, "unit": "EL", "name": "Limettensaft" },
+      { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
+    ],
+    "instructions": [
+      "Süßkartoffeln schälen und in grobe Würfel schneiden. Zwiebeln, Knoblauch und Ingwer fein hacken.",
+      "Zwiebeln, Knoblauch und Ingwer in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.",
+      "Süßkartoffelwürfel und Currypulver hinzufügen und kurz mitbraten. Mit Gemüsebrühe ablöschen und ca. 20 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.",
+      "Suppe mit einem Stabmixer fein pürieren. Kokosmilch und Limettensaft hinzufügen und mit Salz und Pfeffer abschmecken.",
+      "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
+    ],
+    "nutrition": {
+      "calories": 1551,
+      "protein": "25.5g",
+      "carbs": "205.2g",
+      "fat": "74,6g"
+    },
+    "tips": [
+      "Für eine intensivere Geschmacksnote können Sie gerösteten Ingwer oder Knoblauch hinzufügen.",
+      "Verwenden Sie Kokosmilch mit hohem Fettgehalt für eine besonders cremige Konsistenz.",
+      "Experimentieren Sie mit verschiedenen Gewürzen wie Chili oder Kreuzkümmel, um die Süßkartoffel-Kokos-Suppe zu variieren.",
+      "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft."
+    ],
+    "whyFavorite": {
+      "title": "Warum diese Süßkartoffel-Kokos-Suppe mein Herz erobert",
+      "reasons": [
+        {
+          "title": "Exotische Aromen",
+          "description": "Die Kombination aus Süßkartoffel, Kokosmilch und asiatischen Gewürzen ist ein wahrer Genuss für die Sinne."
+        },
+        {
+          "title": "Cremige Textur",
+          "description": "Die Süßkartoffel-Kokos-Suppe ist unglaublich cremig und samtig, ein wahrer Genuss für den Gaumen."
+        },
+        {
+          "title": "Einfache Zubereitung",
+          "description": "Dieses Rezept für Süßkartoffel-Kokos-Suppe ist einfach und unkompliziert nachzukochen."
+        },
+        {
+          "title": "Vielseitig",
+          "description": "Die Süßkartoffel-Kokos-Suppe lässt sich leicht an individuelle Vorlieben anpassen und mit verschiedenen Beilagen kombinieren."
+        }
+      ]
+    },
+    "handwrittenMessage": {
+      "mainText": "Lassen Sie sich von den exotischen Aromen dieser Süßkartoffel-Kokos-Suppe verzaubern – ein Gericht, das die Sinne weckt und die Seele wärmt!",
+      "subText": "Ich bin sicher, diese Süßkartoffel-Kokos-Suppe wird Ihre Gäste begeistern und Sie in eine Welt des asiatischen Genusses entführen...",
+      "signature": "Dein Veggie-Rezepte Team"
+    },
+    "steps": [
+      {
+        "title": "Schritt 1: Das Gemüse Vorbereiten",
+        "description": "Süßkartoffeln, Zwiebeln, Knoblauch und Ingwer vorbereiten, um die Grundlage für die Süßkartoffel-Kokos-Suppe zu schaffen."
+      },
+      {
+        "title": "Schritt 2: Die Aromen Anbraten",
+        "description": "Zwiebeln, Knoblauch und Ingwer anschwitzen, um die aromatische Basis für die Süßkartoffel-Kokos-Suppe zu schaffen."
+      },
+      {
+        "title": "Schritt 3: Die Süßkartoffel-Kokos-Suppe Kochen",
+        "description": "Süßkartoffeln, Currypulver und Gemüsebrühe hinzufügen und köcheln lassen, bis die Süßkartoffeln weich sind."
+      },
+      {
+        "title": "Schritt 4: Die Süßkartoffel-Kokos-Suppe Pürieren",
+        "description": "Süßkartoffel-Kokos-Suppe pürieren und mit Kokosmilch und Limettensaft verfeinern."
+      },
+      {
+        "title": "Schritt 5: Das Servieren",
+        "description": "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
+      }
+    ],
+    "servingSuggestion": "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft, um die asiatischen Aromen zu unterstreichen.",
+    "servingSuggestions": {
+      "title": "Globale Süßkartoffel-Pairings",
+      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Süßkartoffel-Kokos-Suppe:",
+      "note": "Diese Ideen zeigen, wie vielseitig Süßkartoffeln sein können und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
+      "items": [
+        {
+          "emoji": "🍛",
+          "title": "Indisches Süßkartoffel-Curry",
+          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in ein indisches Süßkartoffel-Curry mit Reis und Naan-Brot."
+        },
+        {
+          "emoji": "🌮",
+          "title": "Mexikanische Süßkartoffel-Tacos",
+          "description": "Verwenden Sie die Süßkartoffel-Kokos-Suppe als Füllung für mexikanische Süßkartoffel-Tacos mit Avocado und Salsa."
+        },
+        {
+          "emoji": "🍲",
+          "title": "Afrikanischer Süßkartoffel-Eintopf",
+          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe als Basis für einen afrikanischen Süßkartoffel-Eintopf mit Erdnüssen und Spinat."
+        },
+        {
+          "emoji": "🍜",
+          "title": "Thailändische Süßkartoffel-Nudelsuppe",
+          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in eine thailändische Nudelsuppe mit Reisnudeln und Gemüse."
+        },
+        {
+          "emoji": "🥗",
+          "title": "Karibischer Süßkartoffel-Salat",
+          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe kalt als Basis für einen karibischen Süßkartoffel-Salat mit Mango und schwarzen Bohnen."
+        }
+      ]
+    },
+    "funFact": {
+      "title": "Fun Fact: Süßkartoffel-Vielfalt",
+      "description": "Wussten Sie, dass Süßkartoffeln nicht mit Kartoffeln verwandt sind? Sie gehören zur Familie der Windengewächse und sind reich an Vitaminen und Mineralstoffen. Unsere Süßkartoffel-Kokos-Suppe ist eine Hommage an die Vielseitigkeit der Süßkartoffel und zeigt, wie vielfältig und schmackhaft sie sein kann!"
+    },
+    "images": {
+      "imageIngredient": "/images/Ingredients/suesskartoffel-kokos-suppe-zutaten.jpg",
+      "image1": "/images/Soups/suesskartoffel-kokos-suppe-mit-kokosmilch-und-ingwer.jpg",
+      "image2": "/images/Soups/vegane-suesskartoffelsuppe-mit-koriander-und-limette.jpg",
+      "image3": "/images/Soups/suesskartoffel-kokossuppe-cremig-und-asiatisch.jpg",
+      "image4": "/images/Soups/suesskartoffelsuppe-mit-curry-und-kokosmilch.jpg",
+      "image5": "/images/Soups/suesskartoffel-kokossuppe-gesund-und-aromatisch.jpg",
+      "image6": "/images/Soups/suesskartoffel-kokossuppe-mit-knoblauch-und-zwiebeln.jpg",
+      "image7": "/images/Soups/suesskartoffelsuppe-exotisch-mit-limettensaft-und-kokos.jpg"
     }
   },
   {
     "title": "Kürbissuppe – Omas einfaches Rezept für den Herbst",
     "seo_title": "Kürbissuppe Rezept – Omas cremige Kürbissuppe vegetarisch",
-    "image": "/images/Soups/kuerbissuppe.webp",
+    "image": "/images/Soups/kuerbissuppe.jpeg",
     "prepTime": 20,
     "cookingTime": 30,
     "seo_keywords": [
@@ -4222,218 +4426,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass es über 800 verschiedene Kürbissorten gibt? Von Hokkaido bis Butternut gibt es unzählige Möglichkeiten, Kürbis in der Küche zu verwenden. Unsere Kürbissuppe ist eine Hommage an die Vielfalt des Kürbisses und zeigt, wie vielfältig und schmackhaft Kürbis sein kann!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/kuerbissuppeIngredint.webp",
-      "image1": "/images/Soups/kuerbissuppe1.webp",
-      "image2": "/images/Soups/kuerbissuppe2.webp",
-      "image3": "/images/Soups/kuerbissuppe3.webp",
-      "image4": "/images/Soups/kuerbissuppe4.webp",
-      "image5": "/images/Soups/kuerbissuppe5.webp",
-      "image6": "/images/Soups/kuerbissuppe6.webp",
-      "image7": "/images/Soups/kuerbissuppe7.webp"
-    }
-  },
-  {
-    "title": "Einfache Süßkartoffel-Kokos-Suppe",
-    "seo_title": "Einfache Süßkartoffel-Kokos-Suppe mit Kokosmilch",
-    "image": "/images/Soups/suesskartoffelKokosSuppe.webp",
-    "prepTime": 20,
-    "cookingTime": 30,
-    "seo_keywords": [
-      "Süßkartoffel-Kokos-Suppe Einfach",
-      "Süßkartoffel-Kokos-Suppe",
-      "Süßkartoffel Kokos Suppe",
-      "Süßkartoffelsuppe Kokosmilch",
-      "Süßkartoffelsuppe mit Kokosmilch",
-      "Einfache Süßkartoffelsuppe mit Kokosmilch",
-      "rezept süßkartoffel kokos suppe",
-      "süßkartoffel kokos suppe essen und trinken",
-      "süßkartoffel kokos suppe eat smarter"
-    ],
-    "rating": 4.8,
-    "reviews": 1280,
-    "category": "Suppen",
-    "slug": "suesskartoffel-kokos-suppe",
-    "tags": ["Süßkartoffel-Kokos-Suppe", "Süßkartoffelsuppe", "Kokosmilch", "Einfach", "Rezept", "Vegan", "Suppe"],
-    "createdDate": new Date("2025-03-25T00:00:00.000Z"),
-    "updatedDate": new Date("2025-04-10T00:00:00.000Z"),
-    "servings": 5,
-    "description": "Ein einfaches Rezept für eine cremige Süßkartoffel-Kokos-Suppe. Diese Süßkartoffelsuppe mit Kokosmilch gelingt leicht und schmeckt unglaublich lecker!",
-    "descriptionOnImage": "Cremige Süßkartoffel-Kokos-Suppe mit einem Hauch von Limette und frischem Koriander – ein exotisches Geschmackserlebnis, das die Aromen Asiens auf den Teller bringt.",
-    "introductionParagraph": "Entdecke unser bestes Rezept für Süßkartoffel Kokos Suppe! Dieses Gericht vereint die natürliche Süße der Süßkartoffel mit der samtigen Cremigkeit von Kokosmilch und einem Hauch exotischer Gewürze. Du suchst eine Süßkartoffel-Kokos-Suppe, die einfach zuzubereiten ist? Perfekt! Unser Rezept ist unkompliziert und sowohl für Kochanfänger als auch erfahrene Köche geeignet. Diese Süßkartoffelsuppe mit Kokosmilch wärmt von innen und ist ideal für kühle Tage. Sie ist nicht nur lecker, sondern auch nahrhaft und vegan. Probiere diese einfache Süßkartoffelsuppe mit Kokosmilch aus und lass dich begeistern!",
-    "additionalParagraph": "Das Besondere an dieser Süßkartoffel-Kokos-Suppe ist ihre wunderbare Balance aus süßen und würzigen Noten, abgerundet durch die frische Säure der Limette. Sie ist ein tolles Hauptgericht, kann aber auch als Vorspeise serviert werden. Ob du ein schnelles Mittagessen oder ein gemütliches Abendessen planst, diese Süßkartoffelsuppe Kokosmilch passt immer. Verfeinere sie nach Belieben mit Toppings wie gerösteten Kokoschips, Kürbiskernen oder einem Klecks Chilipaste für mehr Schärfe. Mit diesem Rezept gelingt dir eine Süßkartoffel-Kokos-Suppe, einfach und köstlich!",
-    "ingredientsNeeded": [
-      {
-        "title": "Süßkartoffeln",
-        "description": "Die Basis dieser Süßkartoffel-Kokos-Suppe. Sie verleihen der Suppe ihre Süße und cremige Textur."
-      },
-      {
-        "title": "Kokosmilch",
-        "description": "Sie sorgt für die cremige Konsistenz und den exotischen Geschmack der Süßkartoffel-Kokos-Suppe."
-      },
-      {
-        "title": "Zwiebeln und Knoblauch",
-        "description": "Die aromatische Grundlage für jede gute Süßkartoffel-Kokos-Suppe. Sie werden langsam angeschwitzt, um ihre Süße und ihr Aroma zu entfalten."
-      },
-      {
-        "title": "Gemüsebrühe",
-        "description": "Sie bildet die flüssige Grundlage der Süßkartoffel-Kokos-Suppe und verleiht ihr zusätzliche Tiefe und Geschmack."
-      },
-      {
-        "title": "Gewürze",
-        "description": "Ingwer, Currypulver und Limettensaft verleihen der Süßkartoffel-Kokos-Suppe ihren charakteristischen asiatischen Geschmack."
-      },
-      {
-        "title": "Koriander",
-        "description": "Frischer Koriander sorgt für eine frische, aromatische Note in der Süßkartoffel-Kokos-Suppe."
-      }
-    ],
-    "ingredientGroups": [
-      {
-        "title": "Die Basis der Süßkartoffel-Kokos-Suppe",
-        "description": "Die Grundlage für eine cremige, exotische Süßkartoffel-Kokos-Suppe:",
-        "ingredients": [
-          { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
-          { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-          { "amount": 1, "unit": "", "name": "Zwiebel" },
-          { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
-          { "amount": 1, "unit": "l", "name": "Gemüsebrühe" }
-        ]
-      },
-      {
-        "title": "Die Aromen der Süßkartoffel-Kokos-Suppe",
-        "description": "Die Zutaten, die der Süßkartoffel-Kokos-Suppe ihren unverwechselbaren, asiatischen Geschmack verleihen:",
-        "ingredients": [
-          { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
-          { "amount": 2, "unit": "TL", "name": "Currypulver" },
-          { "amount": 2, "unit": "EL", "name": "Limettensaft" },
-          { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
-        ]
-      }
-    ],
-    "ingredients": [
-      { "amount": 800, "unit": "g", "name": "Süßkartoffeln" },
-      { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-      { "amount": 1, "unit": "", "name": "Zwiebel" },
-      { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
-      { "amount": 1, "unit": "l", "name": "Gemüsebrühe" },
-      { "amount": 2, "unit": "cm", "name": "Ingwer (frisch)" },
-      { "amount": 2, "unit": "TL", "name": "Currypulver" },
-      { "amount": 2, "unit": "EL", "name": "Limettensaft" },
-      { "amount": 1, "unit": "Bund", "name": "Koriander (frisch)" }
-    ],
-    "instructions": [
-      "Süßkartoffeln schälen und in grobe Würfel schneiden. Zwiebeln, Knoblauch und Ingwer fein hacken.",
-      "Zwiebeln, Knoblauch und Ingwer in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.",
-      "Süßkartoffelwürfel und Currypulver hinzufügen und kurz mitbraten. Mit Gemüsebrühe ablöschen und ca. 20 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.",
-      "Suppe mit einem Stabmixer fein pürieren. Kokosmilch und Limettensaft hinzufügen und mit Salz und Pfeffer abschmecken.",
-      "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
-    ],
-    "nutrition": {
-      "calories": 1551,
-      "protein": "25.5g",
-      "carbs": "205.2g",
-      "fat": "74,6g"
-    },
-    "tips": [
-      "Für eine intensivere Geschmacksnote können Sie gerösteten Ingwer oder Knoblauch hinzufügen.",
-      "Verwenden Sie Kokosmilch mit hohem Fettgehalt für eine besonders cremige Konsistenz.",
-      "Experimentieren Sie mit verschiedenen Gewürzen wie Chili oder Kreuzkümmel, um die Süßkartoffel-Kokos-Suppe zu variieren.",
-      "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft."
-    ],
-    "whyFavorite": {
-      "title": "Warum diese Süßkartoffel-Kokos-Suppe mein Herz erobert",
-      "reasons": [
-        {
-          "title": "Exotische Aromen",
-          "description": "Die Kombination aus Süßkartoffel, Kokosmilch und asiatischen Gewürzen ist ein wahrer Genuss für die Sinne."
-        },
-        {
-          "title": "Cremige Textur",
-          "description": "Die Süßkartoffel-Kokos-Suppe ist unglaublich cremig und samtig, ein wahrer Genuss für den Gaumen."
-        },
-        {
-          "title": "Einfache Zubereitung",
-          "description": "Dieses Rezept für Süßkartoffel-Kokos-Suppe ist einfach und unkompliziert nachzukochen."
-        },
-        {
-          "title": "Vielseitig",
-          "description": "Die Süßkartoffel-Kokos-Suppe lässt sich leicht an individuelle Vorlieben anpassen und mit verschiedenen Beilagen kombinieren."
-        }
-      ]
-    },
-    "handwrittenMessage": {
-      "mainText": "Lassen Sie sich von den exotischen Aromen dieser Süßkartoffel-Kokos-Suppe verzaubern – ein Gericht, das die Sinne weckt und die Seele wärmt!",
-      "subText": "Ich bin sicher, diese Süßkartoffel-Kokos-Suppe wird Ihre Gäste begeistern und Sie in eine Welt des asiatischen Genusses entführen...",
-      "signature": "Dein Veggie-Rezepte Team"
-    },
-    "steps": [
-      {
-        "title": "Schritt 1: Das Gemüse Vorbereiten",
-        "description": "Süßkartoffeln, Zwiebeln, Knoblauch und Ingwer vorbereiten, um die Grundlage für die Süßkartoffel-Kokos-Suppe zu schaffen."
-      },
-      {
-        "title": "Schritt 2: Die Aromen Anbraten",
-        "description": "Zwiebeln, Knoblauch und Ingwer anschwitzen, um die aromatische Basis für die Süßkartoffel-Kokos-Suppe zu schaffen."
-      },
-      {
-        "title": "Schritt 3: Die Süßkartoffel-Kokos-Suppe Kochen",
-        "description": "Süßkartoffeln, Currypulver und Gemüsebrühe hinzufügen und köcheln lassen, bis die Süßkartoffeln weich sind."
-      },
-      {
-        "title": "Schritt 4: Die Süßkartoffel-Kokos-Suppe Pürieren",
-        "description": "Süßkartoffel-Kokos-Suppe pürieren und mit Kokosmilch und Limettensaft verfeinern."
-      },
-      {
-        "title": "Schritt 5: Das Servieren",
-        "description": "Süßkartoffel-Kokos-Suppe mit frischem Koriander garniert servieren."
-      }
-    ],
-    "servingSuggestion": "Servieren Sie die Süßkartoffel-Kokos-Suppe mit gerösteten Erdnüssen oder einem Spritzer Limettensaft, um die asiatischen Aromen zu unterstreichen.",
-    "servingSuggestions": {
-      "title": "Globale Süßkartoffel-Pairings",
-      "description": "Entdecken Sie neue Geschmackswelten mit diesen internationalen Servierideen für Ihre Süßkartoffel-Kokos-Suppe:",
-      "note": "Diese Ideen zeigen, wie vielseitig Süßkartoffeln sein können und wie einfach es ist, internationale Aromen in Ihre Küche zu integrieren!",
-      "items": [
-        {
-          "emoji": "🍛",
-          "title": "Indisches Süßkartoffel-Curry",
-          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in ein indisches Süßkartoffel-Curry mit Reis und Naan-Brot."
-        },
-        {
-          "emoji": "🌮",
-          "title": "Mexikanische Süßkartoffel-Tacos",
-          "description": "Verwenden Sie die Süßkartoffel-Kokos-Suppe als Füllung für mexikanische Süßkartoffel-Tacos mit Avocado und Salsa."
-        },
-        {
-          "emoji": "🍲",
-          "title": "Afrikanischer Süßkartoffel-Eintopf",
-          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe als Basis für einen afrikanischen Süßkartoffel-Eintopf mit Erdnüssen und Spinat."
-        },
-        {
-          "emoji": "🍜",
-          "title": "Thailändische Süßkartoffel-Nudelsuppe",
-          "description": "Verwandeln Sie die Süßkartoffel-Kokos-Suppe in eine thailändische Nudelsuppe mit Reisnudeln und Gemüse."
-        },
-        {
-          "emoji": "🥗",
-          "title": "Karibischer Süßkartoffel-Salat",
-          "description": "Servieren Sie die Süßkartoffel-Kokos-Suppe kalt als Basis für einen karibischen Süßkartoffel-Salat mit Mango und schwarzen Bohnen."
-        }
-      ]
-    },
-    "funFact": {
-      "title": "Fun Fact: Süßkartoffel-Vielfalt",
-      "description": "Wussten Sie, dass Süßkartoffeln nicht mit Kartoffeln verwandt sind? Sie gehören zur Familie der Windengewächse und sind reich an Vitaminen und Mineralstoffen. Unsere Süßkartoffel-Kokos-Suppe ist eine Hommage an die Vielseitigkeit der Süßkartoffel und zeigt, wie vielfältig und schmackhaft sie sein kann!"
-    },
-    "images": {
-      "imageIngredient": "/images/Ingredients/suesskartoffelKokosSuppeIngredient.webp",
-      "image1": "/images/Soups/suesskartoffelKokosSuppe1.webp",
-      "image2": "/images/Soups/suesskartoffelKokosSuppe2.webp",
-      "image3": "/images/Soups/suesskartoffelKokosSuppe3.webp",
-      "image4": "/images/Soups/suesskartoffelKokosSuppe4.webp",
-      "image5": "/images/Soups/suesskartoffelKokosSuppe5.webp",
-      "image6": "/images/Soups/suesskartoffelKokosSuppe6.webp",
-      "image7": "/images/Soups/suesskartoffelKokosSuppe7.webp"
+      "imageIngredient": "/images/Ingredients/kuerbissuppe-zutaten.jpeg",
+      "image1": "/images/Soups/kuerbissuppe-cremig-mit-hokkaido-und-kokosmilch.jpeg",
+      "image2": "/images/Soups/kuerbissuppe-herbstlich-mit-muskat-und-zimt.jpeg",
+      "image3": "/images/Soups/kuerbissuppe-vegetarisch-mit-geroesteten-kuerbiskernen.jpeg",
+      "image4": "/images/Soups/kuerbissuppe-naheaufnahme-cremige-suppe-mit-sahne.jpeg",
+      "image5": "/images/Soups/kuerbissuppe-mit-gemuese-und-kraeutern-serviert.jpeg",
+      "image6": "/images/Soups/kuerbissuppe-hokkaido-suppe-fuer-den-herbst.jpeg",
+      "image7": "/images/Soups/kuerbissuppe-mit-kokosmilch-und-knoblauch-rezept.jpeg"
     }
   },
   {
@@ -14612,6 +14612,222 @@ export const recipes: Recipe[] = [
     "image5": "/images/Desserts/österreichischer-kaiserschmarrn.jpeg",
     "image6": "/images/Desserts/kaiserschmarrn-mit-apfelmus.jpeg",
     "image7": "/images/Desserts/kaiserschmarrn-backofen.jpeg"
+  }
+},
+{
+  "title": "Mein liebster Grüner Smoothie für einen energiegeladenen Start!",
+  "seo_title": "Grüner Smoothie Rezept: Gesund, Vegan & Einfach selber machen",
+  "image": "/images/Frühstück/gruener-smoothie.jpg",
+  "prepTime": 7,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "grüner smoothie",
+    "grüner smoothie rezept",
+    "grüner smoothie rezepte",
+    "grüner smoothie zum abnehmen",
+    "rezept grüner smoothie",
+    "grüner smoothie gesund",
+    "grüner smoothie zutaten",
+    "gesunder grüner smoothie",
+    "rezepte grüner smoothie",
+    "zutaten grüner smoothie",
+    "grüner smoothie spinat",
+    "grüner smoothie mit spinat",
+    "grüner smoothie frühstück"
+  ],
+  "rating": 4.7,
+  "reviews": 312,
+  "category": "Frühstück",
+  "slug": "gruener-smoothie",
+  "tags": [
+    "Smoothie",
+    "Grün",
+    "Gesund",
+    "Vegan",
+    "Frühstück"
+  ],
+  "createdDate": new Date("2025-06-01T09:00:00Z"),
+  "updatedDate": new Date("2025-06-01T10:30:00Z"),
+  "servings": 1,
+  "description": "Starte gesund in den Tag mit diesem Grüner Smoothie Rezept – super einfach & lecker!",
+  "descriptionOnImage": "Dein täglicher Vitaminkick!",
+  "introductionParagraph": "Dieser grüne Smoothie ist mein Geheimtipp für einen energiereichen Start in den Tag. Er schmeckt erstaunlich lecker und ist voller Vitamine!",
+  "additionalParagraph": "Wenn du nach einem schnellen, gesunden Frühstück oder einem Power-Snack suchst, ist dieser vegane Smoothie genau das Richtige für dich.",
+  "ingredientsNeeded": [
+    {
+      "title": "Frischer Spinat",
+      "description": "Die Basis für die grüne Farbe und liefert viele Vitamine und Mineralien ohne starken Eigengeschmack."
+    },
+    {
+      "title": "Apfel",
+      "description": "Sorgt für natürliche Süße und eine angenehme Frische im Grünen Smoothie."
+    },
+    {
+      "title": "Banane",
+      "description": "Gibt dem Smoothie Cremigkeit und zusätzliche Süße. Ideal auch aus dem Gefrierfach für Kälte."
+    },
+    {
+      "title": "Flüssigkeit",
+      "description": "Wasser oder pflanzliche Milch bilden die Basis und helfen beim Mixen für die perfekte Konsistenz."
+    },
+    {
+      "title": "Ingwer (optional)",
+      "description": "Ein kleines Stück Ingwer sorgt für eine leichte Schärfe und extra gesundheitliche Vorteile."
+    },
+    {
+      "title": "Chiasamen (optional)",
+      "description": "Liefern wertvolle Omega-3-Fettsäuren und Ballaststoffe und machen den Smoothie sättigender."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Grünen Power Smoothie",
+      "description": "Alle Zutaten für deinen nährstoffreichen und leckeren Start in den Tag.",
+      "ingredients": [
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "frischer Spinat"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Apfel (z.B. Elstar), entkernt"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Banane (gerne gefroren)"
+        },
+        {
+          "amount": 150,
+          "unit": "ml",
+          "name": "Wasser oder Pflanzendrink (Mandel, Hafer)"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Optional: 1 cm Ingwer, geschält"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Optional: Chiasamen"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "frischer Spinat"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Apfel (z.B. Elstar), entkernt"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Banane (gerne gefroren)"
+    },
+    {
+      "amount": 150,
+      "unit": "ml",
+      "name": "Wasser oder Pflanzendrink (Mandel, Hafer)"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Optional: 1 cm Ingwer, geschält"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Optional: Chiasamen"
+    }
+  ],
+  "instructions": [
+    "Spinat gründlich waschen.",
+    "Apfel entkernen und in grobe Stücke schneiden. Banane schälen.",
+    "Alle Zutaten in einen leistungsstarken Mixer geben. Beginne mit der Flüssigkeit, dann Spinat, Apfel, Banane und optionale Zutaten.",
+    "Alles cremig pürieren, bis keine Stückchen mehr vorhanden sind und die gewünschte Konsistenz erreicht ist. Bei Bedarf mehr Flüssigkeit hinzufügen."
+  ],
+  "nutrition": {
+    "calories": 250,
+    "protein": "5g",
+    "carbs": "45g",
+    "fat": "3g"
+  },
+  "tips": [
+    "Für einen kälteren Smoothie: Verwende eine gefrorene Banane oder gib eine Handvoll Eiswürfel mit in den Mixer.",
+    "Experimentiere mit Grünkohl statt Spinat für eine noch nährstoffreichere Variante, oder füge Beeren für andere Geschmacksnoten hinzu."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Grüne Smoothie ein Hit ist",
+    "reasons": [
+      {
+        "title": "Schnell & einfach",
+        "description": "In weniger als 10 Minuten hast du ein gesundes, leckeres Frühstück oder einen Snack zubereitet."
+      },
+      {
+        "title": "Vollgepackt mit Nährstoffen",
+        "description": "Er liefert dir eine Extraportion Vitamine und Energie, die dich durch den Tag bringt."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass es dir schmecken und genieße deinen Vitaminkick!",
+    "subText": "Bleib gesund!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Zutaten vorbereiten",
+      "description": "Wasche den Spinat und schneide Apfel und Banane in Stücke. Je kleiner die Stücke, desto leichter püriert es sich."
+    },
+    {
+      "title": "Alles mixen",
+      "description": "Gib alle Zutaten in den Mixer. Achte darauf, dass die Flüssigkeit zuerst hineinkommt, um das Mixen zu erleichtern."
+    },
+    {
+      "title": "Genießen",
+      "description": "Püriere alles, bis es cremig ist, und genieße deinen frischen Grünen Smoothie sofort. Am besten schmeckt er eiskalt!"
+    }
+  ],
+  "servingSuggestion": "Serviere den Grünen Smoothie frisch zubereitet und gut gekühlt.",
+  "servingSuggestions": {
+    "title": "Dein Grüner Smoothie – so vielfältig!",
+    "description": "Dieser Power-Smoothie ist perfekt als:",
+    "note": "Probier's aus!",
+    "items": [
+      {
+        "emoji": "☀️",
+        "title": "Muntermacher am Morgen",
+        "description": "Ideal als schnelles, nahrhaftes Frühstück, das dich fit für den Tag macht."
+      },
+      {
+        "emoji": "💪",
+        "title": "Post-Workout-Drink",
+        "description": "Die perfekte Erfrischung und Nährstoffzufuhr nach dem Sport."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Grüne Smoothies wurden in den 1990er Jahren populär und sind eine einfache Möglichkeit, mehr rohes Blattgemüse in den Alltag zu integrieren."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/gruener-smoothie-zutaten.jpeg",
+    "image1": "/images/Frühstück/gesunder-smoothie-selber-machen.jpeg",
+    "image2": "/images/Frühstück/veganer-smoothie-mit-spinat.jpeg",
+    "image3": "/images/Frühstück/detox-power-smoothie.jpeg",
+    "image4": "/images/Frühstück/gruener-smoothie-apfel-banane.jpeg",
+    "image5": "/images/Frühstück/smoothie-fruehstueck.jpeg",
+    "image6": "/images/Frühstück/einfacher-gruener-smoothie.jpeg",
+    "image7": "/images/Frühstück/frischer-gruener-smoothie.jpeg"
   }
 }
 ];
