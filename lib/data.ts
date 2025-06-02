@@ -14829,6 +14829,257 @@ export const recipes: Recipe[] = [
     "image6": "/images/Frühstück/einfacher-gruener-smoothie.jpg",
     "image7": "/images/Frühstück/frischer-gruener-smoothie.jpg"
   }
+},
+{
+  "title": "Erfrischender Tomaten-Gurken-Salat mit Dill-Joghurt-Dressing",
+  "seo_title": "Tomaten-Gurken-Salat: Leicht & Erfrischend mit Dill",
+  "image": "/images/Salads/tomaten-gurken-salat.jpg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "einfacher tomaten-gurken-salat",
+    "tomaten-gurken-salat",
+    "tomaten-gurken-salat einfach",
+    "tomaten-gurken-salat gesund",
+    "tomaten-gurken-salat orientalisch",
+    "tomaten-gurken-salat mit joghurt",
+    "tomaten-gurken-salat joghurt dressing",
+    "tomaten-gurken-salat mit joghurt",
+    "tomaten-gurken-salat joghurt-dressing",
+    "tomaten-gurken-salat mit zwiebeln",
+    "tomaten-gurken-salat essig öl",
+    "tomaten-gurken-salat mit essig und öl"
+  ],
+  "rating": 4.8,
+  "reviews": 128,
+  "category": "Salate",
+  "slug": "tomaten-gurken-salat",
+  "tags": [
+    "Salate",
+    "Sommer",
+    "schnell",
+    "Beilage"
+  ],
+  "createdDate": new Date("2025-05-20T14:30:00Z"),
+  "updatedDate": new Date("2025-05-28T10:15:00Z"),
+  "servings": 4,
+  "description": "Erfrischender Tomaten-Gurken-Salat mit cremigem Dill-Joghurt-Dressing. Perfekt für den Sommer!",
+  "descriptionOnImage": "Sommerliche Frische auf dem Teller!",
+  "introductionParagraph": "Ich liebe die Leichtigkeit dieses Tomaten-Gurken-Salats, der mich sofort an sonnige Nachmittage erinnert! Es ist einfach das perfekte Gericht, wenn man etwas Schnelles und Erfrischendes braucht.",
+  "additionalParagraph": "Ob als Beilage zum Grillen oder als leichte Hauptmahlzeit an heißen Tagen – dieser Salat ist ein echter Allrounder und schmeckt einfach immer unwiderstehlich.",
+  "ingredientsNeeded": [
+    {
+      "title": "Reife Tomaten",
+      "description": "Sie bilden die saftige Basis und verleihen dem Salat seine Süße und Farbe."
+    },
+    {
+      "title": "Frische Gurken",
+      "description": "Sorgen für die knackige Textur und die wunderbare Frische, die wir so lieben."
+    },
+    {
+      "title": "Frischer Dill",
+      "description": "Unverzichtbar für das Dressing, er gibt dem Salat sein typisch nordisches Aroma."
+    },
+    {
+      "title": "Naturjoghurt",
+      "description": "Die cremige Grundlage für das leichte und doch geschmackvolle Dressing."
+    },
+    {
+      "title": "Rote Zwiebel",
+      "description": "Bringt eine milde Schärfe und eine schöne Farbe in den Salat."
+    },
+    {
+      "title": "Weißweinessig",
+      "description": "Verleiht dem Dressing eine feine Säure und rundet den Geschmack perfekt ab."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Salat",
+      "description": "Die knackigen und saftigen Hauptdarsteller unseres Salats.",
+      "ingredients": [
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "Tomaten (z.B. Roma oder Kirschtomaten)"
+        },
+        {
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Salatgurke"
+        },
+        {
+          "amount": 0.5,
+          "unit": "Stück",
+          "name": "Rote Zwiebel"
+        }
+      ]
+    },
+    {
+      "title": "Für das Dill-Joghurt-Dressing",
+      "description": "Das cremige und aromatische Dressing, das alles zusammenbringt.",
+      "ingredients": [
+        {
+          "amount": 200,
+          "unit": "g",
+          "name": "Naturjoghurt (1,5% Fett)"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Frischer Dill, fein gehackt"
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Olivenöl extra vergine"
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Weißweinessig"
+        },
+        {
+          "amount": undefined,
+          "unit": "Prise",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "Prise",
+          "name": "Frisch gemahlener schwarzer Pfeffer"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "Tomaten (z.B. Roma oder Kirschtomaten)"
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Salatgurke"
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Rote Zwiebel"
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Naturjoghurt (1,5% Fett)"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Frischer Dill, fein gehackt"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Olivenöl extra vergine"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Weißweinessig"
+    },
+    {
+      "amount": undefined,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+          "unit": "Prise",
+      "name": "Frisch gemahlener schwarzer Pfeffer"
+    }
+  ],
+  "instructions": [
+    "Waschen Sie die Tomaten und Gurke gründlich. Die Tomaten vierteln oder halbieren (je nach Größe), die Gurke schälen und in Scheiben schneiden. Die rote Zwiebel sehr fein würfeln.",
+    "Geben Sie die vorbereiteten Tomaten, Gurken und Zwiebeln in eine große Salatschüssel.",
+    "Für das Dressing Joghurt, fein gehackten Dill, Olivenöl und Weißweinessig in einer kleinen Schüssel vermischen.",
+    "Mit Salz und frisch gemahlenem schwarzem Pfeffer abschmecken, bis das Dressing perfekt gewürzt ist.",
+    "Das Dressing über den Salat gießen und alles vorsichtig vermengen. Den Salat für mindestens 10-15 Minuten im Kühlschrank ziehen lassen, damit sich die Aromen verbinden können."
+  ],
+  "nutrition": {
+    "calories": 400,
+    "protein": "17.3g",
+    "carbs": "44.5g",
+    "fat": "19g"
+  },
+  "tips": [
+    "Für eine vegane Variante einfach einen pflanzlichen Joghurt (z.B. Soja- oder Mandeljoghurt) verwenden. Der Geschmack bleibt wunderbar frisch!",
+    "Ein paar frische Minzblätter zum Dill geben, das verleiht dem Salat eine zusätzliche, überraschende Frische."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Tomaten-Gurken-Salat ein Hit ist",
+    "reasons": [
+      {
+        "title": "Kinderleicht und Blitzschnell",
+        "description": "Dieses Rezept ist so unglaublich einfach und schnell zubereitet, dass es perfekt für spontane Mahlzeiten oder eilige Tage ist."
+      },
+      {
+        "title": "Sommerliche Erfrischung pur",
+        "description": "Die Kombination aus saftigen Tomaten und knackigen Gurken, umhüllt von einem cremigen Dill-Dressing, ist einfach das Nonplusultra an heißen Tagen."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lasst es euch schmecken mit meinem liebsten Tomaten-Gurken-Salat!",
+    "subText": "Ich bin gespannt, wie er euch gefällt!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Das Gemüse vorbereiten",
+      "description": "Das A und O für einen guten Salat ist frisches und sauber geschnittenes Gemüse. Hier wird alles für die perfekte Größe zugeschnitten."
+    },
+    {
+      "title": "Dressing zubereiten",
+      "description": "Der Star des Salats ist das cremige Dill-Joghurt-Dressing, das dem Salat seine besondere Note verleiht. Hier werden alle Zutaten vermischt."
+    },
+    {
+      "title": "Salat anmachen & ziehen lassen",
+      "description": "Erst kurz vor dem Servieren wird das Dressing untergemischt, damit der Salat knackig bleibt und die Aromen sich optimal entfalten können."
+    }
+  ],
+  "servingSuggestion": "Dieser Tomaten-Gurken-Salat ist eine wunderbare Beilage zu Gegrilltem oder einfach pur als leichte Mahlzeit.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für Ihren Tomaten-Gurken-Salat",
+    "description": "Dieser vielseitige Salat passt hervorragend zu vielen vegetarischen Gerichten und Gelegenheiten.",
+    "note": "Experimentieren Sie und finden Sie Ihre Lieblingskombination!",
+    "items": [
+      {
+        "emoji": "🍔",
+        "title": "Zum Grillabend",
+        "description": "Ideal als frische Beilage zu vegetarischen Burgern, Grillkäse oder Gemüsespießen."
+      },
+      {
+        "emoji": "🥗",
+        "title": "Mit Halloumi oder Feta",
+        "description": "Servieren Sie den Salat als leichte Hauptmahlzeit mit gebratenem Halloumi oder zerbröseltem Feta."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wussten Sie schon?",
+    "description": "Gurken bestehen zu über 95% aus Wasser und sind somit perfekt, um uns an heißen Tagen zu hydrieren!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/tomaten-gurken-salat-zutaten.jpg",
+    "image1": "/images/Salads/tomaten-gurken-salat-frisch.jpg",
+    "image2": "/images/Salads/tomaten-gurken-salat-serviert.jpg",
+    "image3": "/images/Salads/tomaten-gurken-salat-nahaufnahme.jpg",
+    "image4": "/images/Salads/tomaten-gurken-salat-tisch.jpg",
+    "image5": "/images/Salads/tomaten-gurken-salat-bowl.jpg",
+    "image6": "/images/Salads/tomaten-gurken-salat-picknick.jpg",
+    "image7": "/images/Salads/tomaten-gurken-salat-garten.jpg"
+  }
 }
 ];
 
