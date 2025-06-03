@@ -4439,7 +4439,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Omas Grießnockerl: Ein Herzhaftes Suppen-Highlight",
     "seo_title": "Grießnockerl Rezept Oma – Luftig-Leichte Nockerl",
-    "image": "/images/Miscellaneous/griessNockerl.webp",
+    "image": "/images/Soups/griessNockerl.jpg",
     "prepTime": 20,
     "cookingTime": 15,
     "seo_keywords": [
@@ -4618,14 +4618,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass Grießnockerl in vielen europäischen Küchen Tradition haben? Sie sind ein einfaches, aber vielseitiges Gericht, das sich im Laufe der Zeit entwickelt hat. Unsere Grießnockerl sind eine Hommage an die traditionelle Küche und zeigen, wie köstlich und wärmend eine einfache Suppeneinlage sein kann!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/griessNockerlIngredient.webp",
-      "image1": "/images/Miscellaneous/griessNockerl1.webp",
-      "image2": "/images/Miscellaneous/griessNockerl2.webp",
-      "image3": "/images/Miscellaneous/griessNockerl3.webp",
-      "image4": "/images/Miscellaneous/griessNockerl4.webp",
-      "image5": "/images/Miscellaneous/griessNockerl5.webp",
-      "image6": "/images/Miscellaneous/griessNockerl6.webp",
-      "image7": "/images/Miscellaneous/griessNockerl7.webp"
+      "imageIngredient": "/images/Ingredients/griessnockerl-zutaten.jpg",
+      "image1": "/images/Soups/griessnockerl-in-gemuesebruehe-hausgemacht.jpg",
+      "image2": "/images/Soups/luftige-griessnockerl-in-suppe-serviert.jpg",
+      "image3": "/images/Soups/griessnockerl-rezept-einfach-und-schnell.jpg",
+      "image4": "/images/Soups/griessnockerl-mit-butter-und-muskatnuss.jpg",
+      "image5": "/images/Soups/klassische-griessnockerl-fuer-suppe.jpg",
+      "image6": "/images/Soups/griessnockerl-zubereitet-und-angerichtet.jpg",
+      "image7": "/images/Soups/griessnockerl-serviert-mit-kraeutern-und-bruehe.jpg"
     }
   },
   {
