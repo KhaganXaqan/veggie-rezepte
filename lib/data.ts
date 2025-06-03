@@ -4439,7 +4439,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Omas Grießnockerl: Ein Herzhaftes Suppen-Highlight",
     "seo_title": "Grießnockerl Rezept Oma – Luftig-Leichte Nockerl",
-    "image": "/images/Miscellaneous/griessNockerl.webp",
+    "image": "/images/Soups/griessNockerl.jpg",
     "prepTime": 20,
     "cookingTime": 15,
     "seo_keywords": [
@@ -4618,14 +4618,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass Grießnockerl in vielen europäischen Küchen Tradition haben? Sie sind ein einfaches, aber vielseitiges Gericht, das sich im Laufe der Zeit entwickelt hat. Unsere Grießnockerl sind eine Hommage an die traditionelle Küche und zeigen, wie köstlich und wärmend eine einfache Suppeneinlage sein kann!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/griessNockerlIngredient.webp",
-      "image1": "/images/Miscellaneous/griessNockerl1.webp",
-      "image2": "/images/Miscellaneous/griessNockerl2.webp",
-      "image3": "/images/Miscellaneous/griessNockerl3.webp",
-      "image4": "/images/Miscellaneous/griessNockerl4.webp",
-      "image5": "/images/Miscellaneous/griessNockerl5.webp",
-      "image6": "/images/Miscellaneous/griessNockerl6.webp",
-      "image7": "/images/Miscellaneous/griessNockerl7.webp"
+      "imageIngredient": "/images/Ingredients/griessnockerl-zutaten.jpg",
+      "image1": "/images/Soups/griessnockerl-in-gemuesebruehe-hausgemacht.jpg",
+      "image2": "/images/Soups/luftige-griessnockerl-in-suppe-serviert.jpg",
+      "image3": "/images/Soups/griessnockerl-rezept-einfach-und-schnell.jpg",
+      "image4": "/images/Soups/griessnockerl-mit-butter-und-muskatnuss.jpg",
+      "image5": "/images/Soups/klassische-griessnockerl-fuer-suppe.jpg",
+      "image6": "/images/Soups/griessnockerl-zubereitet-und-angerichtet.jpg",
+      "image7": "/images/Soups/griessnockerl-serviert-mit-kraeutern-und-bruehe.jpg"
     }
   },
   {
@@ -15079,6 +15079,268 @@ export const recipes: Recipe[] = [
     "image5": "/images/Salads/tomaten-gurken-salat-bowl.jpg",
     "image6": "/images/Salads/tomaten-gurken-salat-picknick.jpg",
     "image7": "/images/Salads/tomaten-gurken-salat-garten.jpg"
+  }
+},
+{
+  "title": "Cremige Pasta mit frischen Tomaten und Mozzarella",
+  "seo_title": "Pasta mit Tomaten & Mozzarella: Einfaches Sommerrezept",
+  "image": "/images/MainCourses/pasta-tomaten-mozzarella.jpg",
+  "prepTime": 15,
+  "cookingTime": 20,
+  "seo_keywords": [
+    "Pasta Tomaten Mozzarella",
+    "Nudeln mit Tomaten",
+    "Mozzarella Pasta",
+    "vegetarische Pasta",
+    "schnelle Pasta",
+    "Sommerpasta",
+    "italienische Pasta",
+    "pasta tomaten mozzarella",
+    "one pot pasta tomaten mozzarella",
+    "pasta tomaten mozzarella sauce",
+    "rezept pasta tomaten mozzarella"
+  ],
+  "rating": 4.7,
+  "reviews": 95,
+  "category": "Hauptgerichte",
+  "slug": "pasta-tomaten-mozzarella",
+  "tags": [
+    "Pasta",  
+    "schnell",
+    "italienisch",
+    "sommerlich"
+  ],
+  "createdDate": new Date("2025-05-25T11:00:00Z"),
+  "updatedDate": new Date("2025-06-03T18:00:00Z"),
+  "servings": 4,
+  "description": "Blitzschnelle Pasta mit frischen Tomaten, zartschmelzendem Mozzarella und Basilikum. Ein Traum!",
+  "descriptionOnImage": "Italienische Sonne auf dem Teller!",
+  "introductionParagraph": "Dieses Rezept für Pasta mit Tomaten und Mozzarella ist mein absoluter Retter an stressigen Tagen, wenn ich trotzdem etwas Herzhaftes und Wohltuendes zaubern möchte.",
+  "additionalParagraph": "Es ist so herrlich unkompliziert und doch voller Geschmack – genau das Richtige, um ein Stückchen italienische Lebensfreude in den Alltag zu bringen, selbst wenn die Zeit knapp ist.",
+  "ingredientsNeeded": [
+    {
+      "title": "Frische Kirschtomaten",
+      "description": "Sie platzen beim Kochen auf und bilden eine wunderbar saftige und süße Grundlage für die Soße."
+    },
+    {
+      "title": "Gute Pasta",
+      "description": "Die Wahl der Nudeln ist entscheidend! Ob Spaghetti, Penne oder Fusilli – sie saugen die Aromen perfekt auf."
+    },
+    {
+      "title": "Büffelmozzarella",
+      "description": "Sein cremiger Schmelz und die milde Note sind unverzichtbar für die authentische Geschmacksnote."
+    },
+    {
+      "title": "Frischer Basilikum",
+      "description": "Bringt das unverwechselbare Aroma der italienischen Küche und rundet das Gericht ab."
+    },
+    {
+      "title": "Knoblauch",
+      "description": "Verleiht der Soße Tiefe und Würze, ohne zu dominant zu sein."
+    },
+    {
+      "title": "Olivenöl",
+      "description": "Ein gutes Olivenöl ist die Basis jeder mediterranen Küche und verbindet alle Aromen harmonisch."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für die Pasta",
+      "description": "Die Grundzutaten für unser schnelles und leckeres Gericht.",
+      "ingredients": [
+        {
+          "amount": 400,
+          "unit": "g",
+          "name": "Pasta nach Wahl (z.B. Spaghetti, Penne)"
+        },
+        {
+          "amount": undefined,
+          "unit": "Prise",
+          "name": "Salz für das Nudelwasser"
+        }
+      ]
+    },
+    {
+      "title": "Für die Tomaten-Mozzarella-Soße",
+      "description": "Die aromatische Basis, die den Nudeln ihren unwiderstehlichen Geschmack verleiht.",
+      "ingredients": [
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "Kirschtomaten"
+        },
+        {
+          "amount": 2,
+          "unit": "Stück",
+          "name": "Knoblauchzehen"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Olivenöl extra vergine"
+        },
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "Büffelmozzarella"
+        },
+        {
+          "amount": undefined,
+          "unit": "Bund",
+          "name": "Frischer Basilikum"
+        },
+        {
+          "amount": undefined,
+          "unit": "Prise",
+          "name": "Salz"
+        },
+        {
+          "amount": undefined,
+          "unit": "Prise",
+          "name": "Frisch gemahlener schwarzer Pfeffer"
+        },
+        {
+          "amount": 50,
+          "unit": "ml",
+          "name": "Nudelkochwasser"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 400,
+      "unit": "g",
+      "name": "Pasta nach Wahl (z.B. Spaghetti, Penne)"
+    },
+    {
+      "amount": undefined,
+      "unit": "Prise",
+      "name": "Salz für das Nudelwasser"
+    },
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "Kirschtomaten"
+    },
+    {
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Knoblauchzehen"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Olivenöl extra vergine"
+    },
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "Büffelmozzarella"
+    },
+    {
+      "amount": undefined,
+      "unit": "Bund",
+      "name": "Frischer Basilikum"
+    },
+    {
+      "amount": undefined,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "amount": undefined,
+      "unit": "Prise",
+      "name": "Frisch gemahlener schwarzer Pfeffer"
+    },
+    {
+      "amount": 50,
+      "unit": "ml",
+      "name": "Nudelkochwasser"
+    }
+  ],
+  "instructions": [
+    "Reichlich Salzwasser für die Pasta zum Kochen bringen und die Pasta nach Packungsanweisung al dente kochen. Kurz vor Ende der Kochzeit etwa 50 ml Nudelkochwasser entnehmen.",
+    "Während die Pasta kocht, die Kirschtomaten halbieren und den Knoblauch fein hacken. Mozzarella abtropfen lassen und in mundgerechte Stücke zupfen oder schneiden.",
+    "In einer großen Pfanne das Olivenöl erhitzen. Den gehackten Knoblauch darin bei mittlerer Hitze ca. 1 Minute anbraten, bis er duftet. Achtung: Nicht braun werden lassen!",
+    "Die halbierten Kirschtomaten hinzufügen und unter gelegentlichem Rühren ca. 5-7 Minuten braten, bis sie leicht weich werden und aufplatzen.",
+    "Die abgegossene Pasta zusammen mit dem aufgefangenen Nudelkochwasser zu den Tomaten in die Pfanne geben und gut vermischen.",
+    "Den Mozzarella und die Hälfte des frischen Basilikums hinzufügen und unterheben, bis der Mozzarella leicht geschmolzen ist und die Soße cremig wird. Mit Salz und Pfeffer abschmecken.",
+    "Sofort auf Teller verteilen und mit dem restlichen frischen Basilikum garnieren. Servieren und genießen!"
+  ],
+  "nutrition": {
+    "calories": 2432,
+    "protein": "72.5g",
+    "carbs": "341g",
+    "fat": "89g"
+  },
+  "tips": [
+    "Für eine noch intensivere Tomatennote können Sie zusätzlich 1 EL Tomatenmark mit dem Knoblauch anbraten.",
+    "Streuen Sie vor dem Servieren etwas geriebenen Parmesan oder Pecorino über die Pasta für zusätzlichen Geschmack."
+  ],
+  "whyFavorite": {
+    "title": "Warum diese Pasta ein Muss ist",
+    "reasons": [
+      {
+        "title": "Urlaubsfeeling im Handumdrehen",
+        "description": "Dieses Gericht versetzt mich sofort in den letzten Italienurlaub zurück. Die frischen Aromen sind einfach pure Sonne!"
+      },
+      {
+        "title": "Perfekt für jede Gelegenheit",
+        "description": "Egal ob schnelles Abendessen, Mittagspause oder wenn Freunde spontan vorbeikommen – diese Pasta ist immer eine gute Idee und kommt super an."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Buon appetito mit diesem italienischen Klassiker!",
+    "subText": "Schreibt mir, wie es euch geschmeckt hat!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Pasta kochen und vorbereiten",
+      "description": "Zuerst die Nudeln kochen und alle Zutaten für die Soße schnittfertig machen."
+    },
+    {
+      "title": "Soße ansetzen",
+      "description": "Knoblauch und Tomaten in Olivenöl andünsten, bis die Tomaten schön weich sind und eine aromatische Basis bilden."
+    },
+    {
+      "title": "Alles vermischen und genießen",
+      "description": "Die gekochte Pasta mit der Tomatensoße und dem Mozzarella vermengen, damit sich alle Aromen perfekt verbinden und die Soße cremig wird."
+    }
+  ],
+  "servingSuggestion": "Servieren Sie die cremige Pasta mit frischen Tomaten und Mozzarella sofort, am besten noch warm, garniert mit frischem Basilikum.",
+  "servingSuggestions": {
+    "title": "Passende Beilagen und Ergänzungen",
+    "description": "Diese Pasta schmeckt wunderbar pur, lässt sich aber auch toll ergänzen.",
+    "note": "Ein Glas Rotwein dazu? Perfekt!",
+    "items": [
+      {
+        "emoji": "🥖",
+        "title": "Knuspriges Baguette",
+        "description": "Ideal zum Auftunken der leckeren Soße."
+      },
+      {
+        "emoji": "🥗",
+        "title": "Grüner Salat",
+        "description": "Ein einfacher Blattsalat mit Balsamico-Dressing rundet das Gericht ab."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wussten Sie schon?",
+    "description": "Die Kombination aus Tomate, Mozzarella und Basilikum repräsentiert die Farben der italienischen Flagge: Rot, Weiß und Grün!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/pasta-tomaten-mozzarella-zutaten.jpg",
+    "image1": "/images/MainCourses/pasta-tomaten-mozzarella-fertig.jpg",
+    "image2": "/images/MainCourses/pasta-tomaten-mozzarella-closeup.jpg",
+    "image3": "/images/MainCourses/pasta-tomaten-mozzarella-serviert.jpg",
+    "image4": "/images/MainCourses/pasta-tomaten-mozzarella-pfanne.jpg",
+    "image5": "/images/MainCourses/pasta-tomaten-mozzarella-basilikum.jpg",
+    "image6": "/images/MainCourses/pasta-tomaten-mozzarella-tisch.jpg",
+    "image7": "/images/MainCourses/pasta-tomaten-mozzarella-mozzarella.jpg"
   }
 }
 ];
