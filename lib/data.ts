@@ -15342,6 +15342,373 @@ export const recipes: Recipe[] = [
     "image6": "/images/MainCourses/pasta-tomaten-mozzarella-tisch.jpg",
     "image7": "/images/MainCourses/pasta-tomaten-mozzarella-mozzarella.jpg"
   }
+},
+{
+  "title": "Dein unwiderstehlicher Falafel Wrap – orientalische Genüsse selbst gemacht!",
+  "seo_title": "Falafel Wrap Rezept: Vegan, einfach & knusprig selber machen",
+  "image": "/images/MainCourses/falafel-wrap.jpeg",
+  "prepTime": 25,
+  "cookingTime": 20,
+  "seo_keywords": [
+    "falafel wrap",
+    "falafel wrap rezept",
+    "falafel wrap soße",
+    "was kommt in einen falafel wrap",
+    "falafel wrap rezept original",
+    "falafel wrap recipe",
+    "falafel wrap syrisch",
+    "rezept falafel wrap"
+  ],
+  "rating": 4.8,
+  "reviews": 567,
+  "category": "Hauptgerichte",
+  "slug": "falafel-wrap",
+  "tags": [
+    "Falafel",
+    "Wrap",        
+    "Orientalisch",
+    "Vegan"
+  ],
+  "createdDate": new Date("2025-06-05T18:00:00Z"),
+  "updatedDate": new Date("2025-06-05T18:10:00Z"),
+  "servings": 4,
+  "description": "Lerne, wie du einen köstlichen Falafel Wrap einfach selber machst – vegan & knusprig!",
+  "descriptionOnImage": "Knusprig, frisch & voller Geschmack!",
+  "introductionParagraph": "Ach, der Falafel Wrap! Dieses orientalische Gericht hat mein Herz im Sturm erobert und ist so vielseitig und lecker. Ich liebe es, wenn's mal schnell gehen muss!",
+  "additionalParagraph": "Einen Falafel Wrap selber zu machen, ist einfacher als du denkst und schmeckt einfach unvergleichlich frisch. So bringst du den Orient direkt auf deinen Teller.",
+"ingredientsNeeded": [
+    {
+      "title": "Getrocknete Kichererbsen",
+      "description": "Basis für Falafel: Getrocknete Kichererbsen unbedingt einweichen!"
+    },
+    {
+      "title": "Frische Kräuter",
+      "description": "Petersilie und Koriander für authentisches Aroma und grüne Farbe."
+    },
+    {
+      "title": "Zwiebel & Knoblauch",
+      "description": "Zwiebel und Knoblauchzehen: die aromatische Grundlage für den Teig."
+    },
+    {
+      "title": "Orientalische Gewürze",
+      "description": "Kreuzkümmel und Korianderpulver für den typisch orientalischen Geschmack."
+    },
+    {
+      "title": "Natron",
+      "description": "Natron macht die Falafel beim Ausbacken innen schön luftig."
+    },
+    {
+      "title": "Für die cremige Sauce",
+      "description": "Tahini, frischer Zitronensaft und Wasser für die klassische, erfrischende Sauce."
+    },
+    {
+      "title": "Frisches Gemüse",
+      "description": "Salat, Tomaten, Gurken und Rote Bete für Frische und Biss im Wrap."
+    },
+    {
+      "title": "Wraps & Öl",
+      "description": "Wraps als Hülle und Pflanzenöl zum knusprigen Ausbacken der Falafel."
+    },
+    {
+      "title": "Orientalische Gewürze",
+      "description": "Kreuzkümmel und Korianderpulver für den typisch orientalischen Geschmack."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für die Falafel",
+      "description": "Die Zutaten für deine knusprigen Kichererbsen-Bällchen.",
+      "ingredients": [
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "getrocknete Kichererbsen"
+        },
+        {
+          "amount": 1,
+          "unit": "Bund",
+          "name": "frische Petersilie"
+        },
+        {
+          "amount": 0.5,
+          "unit": "Bund",
+          "name": "frischer Koriander"
+        },
+        {
+          "amount": 2,
+          "unit": "Zehen",
+          "name": "Knoblauch"
+        },
+        {
+          "amount": 1,
+          "unit": "klein",
+          "name": "Zwiebel"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Kreuzkümmelpulver"
+        },
+        {
+          "amount": 0.5,
+          "unit": "TL",
+          "name": "Korianderpulver"
+        },
+        {
+          "amount": 0.5,
+          "unit": "TL",
+          "name": "Natron"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz und Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "ausreichend",
+          "name": "Pflanzenöl zum Frittieren"
+        }
+      ]
+    },
+    {
+      "title": "Für die Tahini-Sauce",
+      "description": "Die cremige Sauce, die perfekt zu Falafel passt.",
+      "ingredients": [
+        {
+          "amount": 4,
+          "unit": "EL",
+          "name": "Tahini"
+        },
+        {
+          "amount": 3,
+          "unit": "EL",
+          "name": "Zitronensaft"
+        },
+        {
+          "amount": 4,
+          "unit": "EL",
+          "name": "kaltes Wasser"
+        },
+        {
+          "amount": 1,
+          "unit": "Zehe",
+          "name": "Knoblauch (gepresst)"
+        },
+        {
+          "amount": 1,
+          "unit": "Prise",
+          "name": "Salz"
+        }
+      ]
+    },
+    {
+      "title": "Für den Wrap",
+      "description": "Alles, was du für die Füllung deiner Wraps brauchst.",
+      "ingredients": [
+        {
+          "amount": 4,
+          "unit": "Stück",
+          "name": "Wraps oder Fladenbrot"
+        },
+        {
+          "amount": 1,
+          "unit": "Kopf",
+          "name": "Salat (z.B. Römersalat)"
+        },
+        {
+          "amount": 2,
+          "unit": "Stück",
+          "name": "Tomaten"
+        },
+        {
+          "amount": 0.5,
+          "unit": "Stück",
+          "name": "Gurke"
+        },
+        {
+          "amount": undefined,
+          "unit": "optional",
+          "name": "eingelegte Rote Bete oder Essiggurken"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "getrocknete Kichererbsen"
+    },
+    {
+      "amount": 1,
+      "unit": "Bund",
+      "name": "frische Petersilie"
+    },
+    {
+      "amount": 0.5,
+      "unit": "Bund",
+      "name": "frischer Koriander"
+    },
+    {
+      "amount": 1,
+      "unit": "klein",
+      "name": "Zwiebel"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Kreuzkümmelpulver"
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "Korianderpulver"
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "Natron"
+    },
+    {
+      "amount": 4,
+      "unit": "EL",
+      "name": "Tahini"
+    },
+    {
+      "amount": 3,
+      "unit": "EL",
+      "name": "Zitronensaft"
+    },
+    {
+      "amount": 4,
+      "unit": "EL",
+      "name": "kaltes Wasser"
+    },    
+    {
+      "amount": 4,
+      "unit": "Stück",
+      "name": "Wraps oder Fladenbrot"
+    },
+    {
+      "amount": 1,
+      "unit": "Kopf",
+      "name": "Salat (z.B. Römersalat)"
+    },
+    {
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Tomaten"
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Gurke"
+    },
+    {
+      "amount": undefined,
+      "unit": "Zehen",
+      "name": "Knoblauch"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz und Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "ausreichend",
+      "name": "Pflanzenöl zum Frittieren"
+    },
+    {
+      "amount": undefined,
+      "unit": "optional",
+      "name": "eingelegte Rote Bete oder Essiggurken"
+    }
+  ],
+  "instructions": [
+    "Getrocknete Kichererbsen über Nacht (mindestens 12 Stunden) in reichlich kaltem Wasser einweichen. Am nächsten Tag das Wasser abgießen und gut abspülen.",
+    "Alle Falafel-Zutaten (eingeweichte Kichererbsen, Petersilie, Koriander, Knoblauch, Zwiebel, Kreuzkümmel, Korianderpulver, Natron, Salz, Pfeffer) in einer Küchenmaschine zu einer feinen, aber nicht zu matschigen Masse verarbeiten.",
+    "Die Falafel-Masse für ca. 30 Minuten im Kühlschrank ruhen lassen. Dann mit befeuchteten Händen oder einem Falafel-Former kleine Bällchen oder Patties formen.",
+    "Öl in einer tiefen Pfanne oder einem Topf auf 170-180°C erhitzen (alternativ Backofen auf 200°C Ober-/Unterhitze vorheizen).",
+    "Falafel portionsweise goldbraun und knusprig frittieren (ca. 3-5 Minuten pro Seite) oder im Ofen ca. 20-25 Minuten backen, dabei einmal wenden.",
+    "Für die Tahini-Sauce: Tahini, Zitronensaft, kaltes Wasser, gepressten Knoblauch und Salz verrühren, bis eine cremige Sauce entsteht. Bei Bedarf mehr Wasser hinzufügen.",
+    "Wraps oder Fladenbrot leicht erwärmen. Mit Salat, geschnittenem Gemüse, den Falafel und reichlich Tahini-Sauce belegen. Fest zusammenrollen und genießen!"
+  ],
+  "nutrition": {
+    "calories": 3050,
+    "protein": "95.6g",
+    "carbs": "348g",
+    "fat": "147g"
+  },
+  "tips": [
+    "Für besonders knusprige Falafel die frittierte Variante wählen. Wenn du es fettärmer magst, sind gebackene Falafel eine tolle Alternative.",
+    "Experimentiere mit weiteren Füllungen wie eingelegten Rübchen, scharfer Harissa-Sauce oder frischer Minze für noch mehr Geschmacksvielfalt."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Falafel Wrap so besonders ist",
+    "reasons": [
+      {
+        "title": "Knusprig & aromatisch",
+        "description": "Diese hausgemachten Falafel sind außen knusprig und innen herrlich würzig. Ein echtes Geschmackserlebnis!"
+      },
+      {
+        "title": "Gesund & sättigend",
+        "description": "Vollgepackt mit pflanzlichem Protein und frischem Gemüse ist dieser Wrap ein vollwertiges und sättigendes Gericht."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieser Falafel Wrap bringt dir ein Stück orientalische Freude!",
+    "subText": "Guten Appetit und viel Spaß beim Nachkochen!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kichererbsen vorbereiten & Masse mixen",
+      "description": "Der Schlüssel zu guten Falafeln sind eingeweichte, aber nicht gekochte Kichererbsen, die mit Kräutern und Gewürzen zu einer feinen Masse verarbeitet werden."
+    },
+    {
+      "title": "Falafel formen & zubereiten",
+      "description": "Die Ruhezeit lässt die Aromen ziehen. Ob frittiert oder gebacken, achte auf eine goldbraune, knusprige Oberfläche."
+    },
+    {
+      "title": "Sauce & Wrap zusammenstellen",
+      "description": "Während die Falafel garen, bereitest du die cremige Tahini-Sauce und das frische Gemüse vor. Dann nur noch alles im Wrap kunstvoll schichten und genießen!"
+    }
+  ],
+  "servingSuggestion": "Serviere den Falafel Wrap frisch zubereitet, eventuell mit einer zusätzlichen Beilage Hummus.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Falafel Wrap",
+    "description": "Dein Falafel Wrap ist schon ein vollwertiges Gericht, aber diese Beilagen machen ihn noch besser:",
+    "note": "So wird's ein Festmahl!",
+    "items": [
+      {
+        "emoji": "🥗",
+        "title": "Frischer Salat",
+        "description": "Ein einfacher grüner Salat mit Zitronen-Dressing ergänzt die Aromen wunderbar."
+      },
+      {
+        "emoji": "🥣",
+        "title": "Extra Dips",
+        "description": "Serviere kleine Schälchen mit Hummus, Baba Ghanoush oder einer scharfen Chilipaste dazu."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Falafel ist in vielen Ländern des Nahen Ostens ein beliebtes Streetfood und wird oft als 'vegetarischer Burger' bezeichnet."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/falafel-wrap-zutaten.jpeg",
+    "image1": "/images/MainCourses/veganer-falafel-wrap.jpeg",
+    "image2": "/images/MainCourses/falafel-selber-machen.jpeg",
+    "image3": "/images/MainCourses/einfacher-falafel-wrap.jpeg",
+    "image4": "/images/MainCourses/orientalischer-falafel-wrap.jpeg",
+    "image5": "/images/MainCourses/frische-falafel-wrap.jpeg",
+    "image6": "/images/MainCourses/kichererbsen-wrap-rezept.jpeg",
+    "image7": "/images/MainCourses/hausgemachter-falafel-wrap.jpeg"
+  }
 }
 ];
 
