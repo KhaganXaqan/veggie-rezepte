@@ -7985,7 +7985,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Zucchini Reis Auflauf",
     "seo_title": "Zucchini Reis Auflauf Rezept - Einfach & Vegetarisch",
-    "image": "/images/Miscellaneous/zucchini-reis-auflauf.webp",
+    "image": "/images/Miscellaneous/zucchini-reis-auflauf.jpg",
     "prepTime": 15,
     "cookingTime": 30,
     "seo_keywords": [
@@ -8259,20 +8259,20 @@ export const recipes: Recipe[] = [
       "description": "Zucchini gehören botanisch gesehen zu den Beerenfrüchten und nicht, wie oft angenommen, zum Gemüse!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/zucchini-reis-auflauf-zutaten.webp",
-      "image1": "/images/Miscellaneous/zucchini-reis-auflauf-rezept.webp",
-      "image2": "/images/Miscellaneous/einfacher-reis-zucchini-auflauf.webp",
-      "image3": "/images/Miscellaneous/vegetarischer-reisauflauf-zucchini.webp",
-      "image4": "/images/Miscellaneous/schneller-zucchini-auflauf-mit-reis.webp",
-      "image5": "/images/Miscellaneous/zucchini-auflauf-sommer.webp",
-      "image6": "/images/Miscellaneous/reisauflauf-vegetarisch.webp",
-      "image7": "/images/Miscellaneous/zucchini-tomaten-reis-auflauf.webp"
+      "imageIngredient": "/images/Ingredients/zucchini-reis-auflauf-zutaten.jpg",
+      "image1": "/images/Miscellaneous/zucchini-reis-auflauf-rezept.jpg",
+      "image2": "/images/Miscellaneous/einfacher-reis-zucchini-auflauf.jpg",
+      "image3": "/images/Miscellaneous/vegetarischer-reisauflauf-zucchini.jpg",
+      "image4": "/images/Miscellaneous/schneller-zucchini-auflauf-mit-reis.jpg",
+      "image5": "/images/Miscellaneous/zucchini-auflauf-sommer.jpg",
+      "image6": "/images/Miscellaneous/reisauflauf-vegetarisch.jpg",
+      "image7": "/images/Miscellaneous/zucchini-tomaten-reis-auflauf.jpg"
     }
   },
   {
     "title": "Gemüse Polenta Auflauf",
     "seo_title": "Vegetarischer Gemüse Polenta Auflauf - Einfaches Rezept",
-    "image": "/images/Miscellaneous/gemuese-polenta-auflauf.webp",
+    "image": "/images/Miscellaneous/gemuese-polenta-auflauf.jpg",
     "prepTime": 20,
     "cookingTime": 40,
     "seo_keywords": [
@@ -8550,20 +8550,20 @@ export const recipes: Recipe[] = [
       "description": "Polenta war lange Zeit ein Grundnahrungsmittel in Norditalien und ist extrem vielseitig – von cremig als Brei bis fest gebacken oder gegrillt."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/gemuese-polenta-auflauf-zutaten.webp",
-      "image1": "/images/Miscellaneous/gemuese-polenta-auflauf-rezept-vegetarisch.webp",
-      "image2": "/images/Miscellaneous/einfacher-gemuese-polenta.webp",
-      "image3": "/images/Miscellaneous/vegetarischer-polenta-auflauf-gemuese.webp",
-      "image4": "/images/Miscellaneous/schneller-gemuese-polenta-gratin.webp",
-      "image5": "/images/Miscellaneous/polenta-auflauf-mit-buntem-gemuese.webp",
-      "image6": "/images/Miscellaneous/gemuese-polenta-rezepte.webp",
-      "image7": "/images/Miscellaneous/herzhafter-polenta-gemuese-auflauf.webp"
+      "imageIngredient": "/images/Ingredients/gemuese-polenta-auflauf-zutaten.jpg",
+      "image1": "/images/Miscellaneous/gemuese-polenta-auflauf-rezept-vegetarisch.jpg",
+      "image2": "/images/Miscellaneous/einfacher-gemuese-polenta.jpg",
+      "image3": "/images/Miscellaneous/vegetarischer-polenta-auflauf-gemuese.jpg",
+      "image4": "/images/Miscellaneous/schneller-gemuese-polenta-gratin.jpg",
+      "image5": "/images/Miscellaneous/polenta-auflauf-mit-buntem-gemuese.jpg",
+      "image6": "/images/Miscellaneous/gemuese-polenta-rezepte.jpg",
+      "image7": "/images/Miscellaneous/herzhafter-polenta-gemuese-auflauf.jpg"
     }
   },
   {
     "title": "Spinat Käse Lasagne",
     "seo_title": "Spinatlasagne Rezept - Cremig, Käsig & Vegetarisch",
-    "image": "/images/Miscellaneous/spinat-kaese-lasagne.webp",
+    "image": "/images/Miscellaneous/spinat-kaese-lasagne.jpg",
     "prepTime": 30,
     "cookingTime": 45,
     "seo_keywords": [
@@ -8880,20 +8880,20 @@ export const recipes: Recipe[] = [
       "description": "Obwohl Lasagne heute typisch italienisch ist, gab es bereits im antiken Griechenland ein ähnliches Gericht mit Teigschichten!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spinat-kaese-lasagne-zutaten.webp",
-      "image1": "/images/Miscellaneous/spinatlasagne-rezept-vegetarisch.webp",
-      "image2": "/images/Miscellaneous/vegetarische-lasagne-spinat.webp",
-      "image3": "/images/Miscellaneous/spinat-kaese-lasagne-einfach.webp",
-      "image4": "/images/Miscellaneous/lasagne-mit-spinat-kaese.webp",
-      "image5": "/images/Miscellaneous/cremige-spinatlasagne.webp",
-      "image6": "/images/Miscellaneous/einfache-vegetarische-lasagne.webp",
-      "image7": "/images/Miscellaneous/spinatlasagne-ohne-fleisch.webp"
+      "imageIngredient": "/images/Ingredients/spinat-kaese-lasagne-zutaten.jpg",
+      "image1": "/images/Miscellaneous/spinatlasagne-rezept-vegetarisch.jpg",
+      "image2": "/images/Miscellaneous/vegetarische-lasagne-spinat.jpg",
+      "image3": "/images/Miscellaneous/spinat-kaese-lasagne-einfach.jpg",
+      "image4": "/images/Miscellaneous/lasagne-mit-spinat-kaese.jpg",
+      "image5": "/images/Miscellaneous/cremige-spinatlasagne.jpg",
+      "image6": "/images/Miscellaneous/einfache-vegetarische-lasagne.jpg",
+      "image7": "/images/Miscellaneous/spinatlasagne-ohne-fleisch.jpg"
     }
   },
   {
     "title": "Beeren Smoothie Bowl",
     "seo_title": "Smoothie Bowl Rezept Beeren - Schnell & Einfach selber machen",
-    "image": "/images/Frühstück/beeren-smoothie-bowl.webp",
+    "image": "/images/Frühstück/beeren-smoothie-bowl.jpg",
     "prepTime": 5,
     "cookingTime": 0,
     "seo_keywords": [
@@ -9111,20 +9111,20 @@ export const recipes: Recipe[] = [
       "description": "Smoothie Bowls wurden in den 2000er Jahren in den USA populär, aber die Idee, dickflüssige Fruchtpürees zu essen, gibt es schon viel länger, zum Beispiel Açaí Bowls in Brasilien."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/beeren-smoothie-bowl-zutaten.webp",
-      "image1": "/images/Frühstück/smoothie-bowl-rezepte-einfach.webp",
-      "image2": "/images/Frühstück/smoothie-bowl-selber-machen.webp",
-      "image3": "/images/Frühstück/gesundes-fruehstueck-smoothie-bowl.webp",
-      "image4": "/images/Frühstück/beeren-smoothie-bowl-rezept.webp",
-      "image5": "/images/Frühstück/schnelle-smoothie-bowl.webp",
-      "image6": "/images/Frühstück/vegetarische-smoothie-bowl.webp",
-      "image7": "/images/Frühstück/smoothie-bowl-mit-granola.webp"
+      "imageIngredient": "/images/Ingredients/beeren-smoothie-bowl-zutaten.jpg",
+      "image1": "/images/Frühstück/smoothie-bowl-rezepte-einfach.jpg",
+      "image2": "/images/Frühstück/smoothie-bowl-selber-machen.jpg",
+      "image3": "/images/Frühstück/gesundes-fruehstueck-smoothie-bowl.jpg",
+      "image4": "/images/Frühstück/beeren-smoothie-bowl-rezept.jpg",
+      "image5": "/images/Frühstück/schnelle-smoothie-bowl.jpg",
+      "image6": "/images/Frühstück/vegetarische-smoothie-bowl.jpg",
+      "image7": "/images/Frühstück/smoothie-bowl-mit-granola.jpg"
     }
   },
   {
     "title": "Beeren Overnight Oats",
     "seo_title": "Overnight Oats Beeren Rezept: Einfach & Gesund Frühstücken",
-    "image": "/images/Frühstück/beeren-overnight-oats.webp",
+    "image": "/images/Frühstück/beeren-overnight-oats.jpg",
     "prepTime": 5,
     "cookingTime": 0,
     "seo_keywords": [
@@ -9339,14 +9339,14 @@ export const recipes: Recipe[] = [
       "description": "Overnight Oats sind nicht nur super praktisch, sondern durch das Einweichen werden die Haferflocken auch leichter verdaulich!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/beeren-overnight-oats-zutaten.webp",
-      "image1": "/images/Frühstück/overnight-oats-mit-frischen-beeren.webp",
-      "image2": "/images/Frühstück/overnight-oats-rezept-einfach.webp",
-      "image3": "/images/Frühstück/gesundes-fruhstuck-mit-haferflocken.webp",
-      "image4": "/images/Frühstück/meal-prep-overnight-oats.webp",
-      "image5": "/images/Frühstück/beeren-bowl-fruhstuck.webp",
-      "image6": "/images/Frühstück/schnelles-fruhstuck-ideen.webp",
-      "image7": "/images/Frühstück/cremige-overnight-oats.webp"
+      "imageIngredient": "/images/Ingredients/beeren-overnight-oats-zutaten.jpg",
+      "image1": "/images/Frühstück/overnight-oats-mit-frischen-beeren.jpg",
+      "image2": "/images/Frühstück/overnight-oats-rezept-einfach.jpg",
+      "image3": "/images/Frühstück/gesundes-fruhstuck-mit-haferflocken.jpg",
+      "image4": "/images/Frühstück/meal-prep-overnight-oats.jpg",
+      "image5": "/images/Frühstück/beeren-bowl-fruhstuck.jpg",
+      "image6": "/images/Frühstück/schnelles-fruhstuck-ideen.jpg",
+      "image7": "/images/Frühstück/cremige-overnight-oats.jpg"
     }
   },
   {
