@@ -92,7 +92,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Flammkuchen",
     "seo_title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
-    "image": "/images/MainCourses/flammkuchen.webp",
+    "image": "/images/MainCourses/flammkuchen.jpeg",
     "prepTime": 30,
     "cookingTime": 12,
     "seo_keywords": [
@@ -311,14 +311,14 @@ export const recipes: Recipe[] = [
       description: "Wusstest du, dass der Flammkuchen ursprünglich als „Test-Teig“ genutzt wurde? 🔥 Früher haben Bäcker einen dünnen Teig in den Holzofen geschoben, um die Temperatur zu prüfen – wenn er in wenigen Minuten knusprig wurde, war der Ofen perfekt vorgeheizt! So entstand ganz nebenbei das köstliche Rezept für Flammkuchen. Heute gibt es ihn in vielen Variationen, aber ein vegetarischer Flammkuchen mit cremiger Basis und karamellisierten Zwiebeln ist einfach unschlagbar! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/flammkuchenIngredient.webp",
-      "image1": "/images/MainCourses/flammkuchen1.webp",
-      "image2": "/images/MainCourses/flammkuchen2.webp",
-      "image3": "/images/MainCourses/flammkuchen-variation1.webp",
-      "image4": "/images/MainCourses/flammkuchen-variation2.webp",
-      "image5": "/images/MainCourses/flammkuchen5.webp",
-      "image6": "/images/MainCourses/flammkuchen6.webp",
-      "image7": "/images/MainCourses/flammkuchen7.webp",
+      "imageIngredient": "/images/Ingredients/flammkuchen-zutaten.jpeg",
+      "image1": "/images/MainCourses/flammkuchen-vegetarisch-mit-zwiebeln-und-kaese.jpeg",
+      "image2": "/images/MainCourses/klassischer-flammkuchen-mit-creme-fraiche-und-senf.jpeg",
+      "image3": "/images/MainCourses/flammkuchen-variation-mit-gruyere-und-thymian.jpeg",
+      "image4": "/images/MainCourses/flammkuchen-ohne-fleisch-knusprig-und-duenn.jpeg",
+      "image5": "/images/MainCourses/flammkuchen-mit-cremiger-basis-und-zwiebeln.jpeg",
+      "image6": "/images/MainCourses/vegetarischer-flammkuchen-aus-dem-ofen.jpeg",
+      "image7": "/images/MainCourses/hausgemachter-flammkuchen-mit-kaese-und-zwiebeln.jpeg"
     }
   },
   {
@@ -3577,7 +3577,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Vegetarische Spinatknödel: Ein Herzhaftes Alpenländisches Gericht",
     "seo_title": "Vegetarische Spinatknödel: Einfaches Rezept aus den Alpen",
-    "image": "/images/Miscellaneous/spinatknoedel.webp",
+    "image": "/images/Miscellaneous/spinatknoedel.jpg",
     "prepTime": 40,
     "cookingTime": 25,
     "seo_keywords": [
@@ -3775,14 +3775,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass Knödel in vielen Kulturen weltweit existieren? Von italienischen Gnocchi bis zu japanischen Dango gibt es unzählige Variationen. Unsere vegetarischen Spinatknödel sind eine Hommage an die Alpenländische Tradition und zeigen, wie vielfältig vegetarische Knödel sein können!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spinatknoedelIngredient.webp",
-      "image1": "/images/Miscellaneous/spinatknoedel1.webp",
-      "image2": "/images/Miscellaneous/spinatknoedel2.webp",
-      "image3": "/images/Miscellaneous/spinatknoedel3.webp",
-      "image4": "/images/Miscellaneous/spinatknoedel4.webp",
-      "image5": "/images/Miscellaneous/spinatknoedel5.webp",
-      "image6": "/images/Miscellaneous/spinatknoedel6.webp",
-      "image7": "/images/Miscellaneous/spinatknoedel7.webp"
+      "imageIngredient": "/images/Ingredients/spinatknoedel-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/vegetarische-spinatknoedel-mit-bergkaese.jpg",
+      "image2": "/images/Miscellaneous/tiroler-spinatknoedel-klassisch-zubereitet.jpg",
+      "image3": "/images/Miscellaneous/spinatknoedel-mit-altbrot-und-kraeutern.jpg",
+      "image4": "/images/Miscellaneous/spinatknoedel-rezept-hausgemacht-und-herzhaft.jpg",
+      "image5": "/images/Miscellaneous/servierte-spinatknoedel-mit-geschmolzener-butter.jpg",
+      "image6": "/images/Miscellaneous/spinatknoedel-alpenkueche-vegetarisch.jpg",
+      "image7": "/images/Miscellaneous/knusprige-spinatknoedel-mit-zwiebel-und-knoblauch.jpg"
     }
   },
   {
@@ -9352,7 +9352,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Banana Bread",
     "seo_title": "Veganes Banana Bread Rezept Einfach - Saftig & Ohne Ei",
-    "image": "/images/Frühstück/banana-bread.webp",
+    "image": "/images/Frühstück/banana-bread.jpg",
     "prepTime": 15,
     "cookingTime": 55,
     "seo_keywords": [
@@ -9610,20 +9610,20 @@ export const recipes: Recipe[] = [
       "description": "Botanisch gesehen sind Bananen Beeren! Und sie sind die einzigen Früchte, deren Schale sich von selbst öffnet, wenn sie wirklich reif sind."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/banana-bread-zutaten.webp",
-      "image1": "/images/Frühstück/banana-bread.webp",
-      "image2": "/images/Frühstück/banana-bread-vegan-saftig.webp",
-      "image3": "/images/Frühstück/veganes-bananenbrot-ohne-ei.webp",
-      "image4": "/images/Frühstück/einfaches-veganes-banana-bread-backen.webp",
-      "image5": "/images/Frühstück/saftiges-veganes-bananenbrot.webp",
-      "image6": "/images/Frühstück/bestes-veganes-banana-bread.webp",
-      "image7": "/images/Frühstück/banana-bread-rezept-vegan.webp"
+      "imageIngredient": "/images/Ingredients/banana-bread-zutaten.jpg",
+      "image1": "/images/Frühstück/banana-bread.jpg",
+      "image2": "/images/Frühstück/banana-bread-vegan-saftig.jpg",
+      "image3": "/images/Frühstück/veganes-bananenbrot-ohne-ei.jpg",
+      "image4": "/images/Frühstück/einfaches-veganes-banana-bread-backen.jpg",
+      "image5": "/images/Frühstück/saftiges-veganes-bananenbrot.jpg",
+      "image6": "/images/Frühstück/bestes-veganes-banana-bread.jpg",
+      "image7": "/images/Frühstück/banana-bread-rezept-vegan.jpg"
     }
   },
   {
     "title": "Cremige Spargelcremesuppe aus Spargelfond – Schnell & Lecker!",
     "seo_title": "Spargelcremesuppe Rezept - Cremig & Einfach mit Fond",
-    "image": "/images/Soups/spargelcremesuppe.webp",
+    "image": "/images/Soups/spargelcremesuppe.jpg",
     "prepTime": 15,
     "cookingTime": 25,
     "seo_keywords": [
@@ -9943,20 +9943,20 @@ export const recipes: Recipe[] = [
       "description": "Weißer Spargel wird auch Bleichspargel genannt, weil er unter der Erde wächst und dadurch kein Sonnenlicht bekommt, das ihn grün färben würde."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spargelcremesuppe-zutaten.webp",
-      "image1": "/images/Soups/spargelcremesuppe-rezept-mit-fond.webp",
-      "image2": "/images/Soups/schnelle-spargelcremesuppe-kochen.webp",
-      "image3": "/images/Soups/rezept-spargelcremesuppe-einfach.webp",
-      "image4": "/images/Soups/spargelcremesuppe-aus-fond-selber-machen.webp",
-      "image5": "/images/Soups/weißer-spargel-suppe-cremig.webp",
-      "image6": "/images/Soups/spargelcremesuppe-als-hauptgericht-rezept.webp",
-      "image7": "/images/Soups/omas-spargelcremesuppe-schnell.webp"
+      "imageIngredient": "/images/Ingredients/spargelcremesuppe-zutaten.jpg",
+      "image1": "/images/Soups/spargelcremesuppe-rezept-mit-fond.jpg",
+      "image2": "/images/Soups/schnelle-spargelcremesuppe-kochen.jpg",
+      "image3": "/images/Soups/rezept-spargelcremesuppe-einfach.jpg",
+      "image4": "/images/Soups/spargelcremesuppe-aus-fond-selber-machen.jpg",
+      "image5": "/images/Soups/weißer-spargel-suppe-cremig.jpg",
+      "image6": "/images/Soups/spargelcremesuppe-als-hauptgericht-rezept.jpg",
+      "image7": "/images/Soups/omas-spargelcremesuppe-schnell.jpg"
     }
   },
   {
     "title": "Leuchtend Grüne Bärlauchcremesuppe",
     "seo_title": "Bärlauchcremesuppe Rezept - Cremig, Einfach & Saisonal kochen",
-    "image": "/images/Soups/baerlauchcremesuppe.webp",
+    "image": "/images/Soups/baerlauchcremesuppe.jpg",
     "prepTime": 10,
     "cookingTime": 15,
     "seo_keywords": [
@@ -10231,20 +10231,20 @@ export const recipes: Recipe[] = [
       "description": "Bärlauch wird auch 'Wildknoblauch' genannt und wächst bevorzugt in schattigen Laubwäldern. Achte beim Sammeln darauf, ihn nicht mit giftigen Maiglöckchen zu verwechseln!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/baerlauchcremesuppe-zutaten.webp",
-      "image1": "/images/Soups/baerlauchcremesuppe-rezept-einfach.webp",
-      "image2": "/images/Soups/cremige-baerlauchsuppe-kochen.webp",
-      "image3": "/images/Soups/rezept-baerlauchcremesuppe-saisonal.webp",
-      "image4": "/images/Soups/baerlauchsuppe-cremig-rezept.webp",
-      "image5": "/images/Soups/baerlauchcremesuppe-fruehling.webp",
-      "image6": "/images/Soups/schnelle-baerlauchcremesuppe.webp",
-      "image7": "/images/Soups/vegetarische-baerlauchsuppe.webp"
+      "imageIngredient": "/images/Ingredients/baerlauchcremesuppe-zutaten.jpg",
+      "image1": "/images/Soups/baerlauchcremesuppe-rezept-einfach.jpg",
+      "image2": "/images/Soups/cremige-baerlauchsuppe-kochen.jpg",
+      "image3": "/images/Soups/rezept-baerlauchcremesuppe-saisonal.jpg",
+      "image4": "/images/Soups/baerlauchsuppe-cremig-rezept.jpg",
+      "image5": "/images/Soups/baerlauchcremesuppe-fruehling.jpg",
+      "image6": "/images/Soups/schnelle-baerlauchcremesuppe.jpg",
+      "image7": "/images/Soups/vegetarische-baerlauchsuppe.jpg"
     }
   },
   {
     "title": "Himmlisch Cremiges Spargelrisotto",
     "seo_title": "Spargelrisotto Rezept - Cremig, Italienisch & Saisonal",
-    "image": "/images/MainCourses/spargelrisotto.webp",
+    "image": "/images/MainCourses/spargelrisotto.jpg",
     "prepTime": 20,
     "cookingTime": 25,
     "seo_keywords": [
@@ -10485,20 +10485,20 @@ export const recipes: Recipe[] = [
       "description": "Risotto stammt ursprünglich aus Norditalien und seine Cremigkeit entsteht nicht durch Sahne, sondern durch die langsame Freisetzung von Stärke aus dem Reis durch Rühren."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spargelrisotto-zutaten.webp",
-      "image1": "/images/MainCourses/spargelrisotto-rezept-cremig.webp",
-      "image2": "/images/MainCourses/italienisches-spargelrisotto.webp",
-      "image3": "/images/MainCourses/weisses-spargelrisotto-rezept.webp",
-      "image4": "/images/MainCourses/rezept-spargelrisotto-gruen-weiss.webp",
-      "image5": "/images/MainCourses/spargelrisotto-weisser-spargel.webp",
-      "image6": "/images/MainCourses/spargelrisotto-mit-gruenem-spargel.webp",
-      "image7": "/images/MainCourses/cremiges-risotto-spargelzeit.webp"
+      "imageIngredient": "/images/Ingredients/spargelrisotto-zutaten.jpg",
+      "image1": "/images/MainCourses/spargelrisotto-rezept-cremig.jpg",
+      "image2": "/images/MainCourses/italienisches-spargelrisotto.jpg",
+      "image3": "/images/MainCourses/weisses-spargelrisotto-rezept.jpg",
+      "image4": "/images/MainCourses/rezept-spargelrisotto-gruen-weiss.jpg",
+      "image5": "/images/MainCourses/spargelrisotto-weisser-spargel.jpg",
+      "image6": "/images/MainCourses/spargelrisotto-mit-gruenem-spargel.jpg",
+      "image7": "/images/MainCourses/cremiges-risotto-spargelzeit.jpg"
     }
   },
   {
     "title": "Einfacher Spargelsalat mit Vinaigrette",
     "seo_title": "Spargelsalat Rezept - Einfach, Saisonal & Perfekt für Frühling",
-    "image": "/images/Salads/spargelsalat-mit-vinaigrette.webp",
+    "image": "/images/Salads/spargelsalat-mit-vinaigrette.jpg",
     "prepTime": 15,
     "cookingTime": 15,
     "seo_keywords": [
@@ -10739,14 +10739,14 @@ export const recipes: Recipe[] = [
       "description": "Spargel wächst bis zu 7 cm pro Tag! Das macht die Ernte während der Saison zu einem ständigen Auf und Ab."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spargelsalat-mit-vinaigrette-zutaten.webp",
-      "image1": "/images/Salads/spargelsalat-rezept-einfach.webp",
-      "image2": "/images/Salads/spargelsalat-weiss-gruen.webp",
-      "image3": "/images/Salads/rezept-spargelsalat-dressing.webp",
-      "image4": "/images/Salads/saisonaler-spargelsalat.webp",
-      "image5": "/images/Salads/spargelsalat-fruehling.webp",
-      "image6": "/images/Salads/vegetarischer-spargelsalat.webp",
-      "image7": "/images/Salads/vegetarischer-spargelsalat-mit-vinaigrette.webp"
+      "imageIngredient": "/images/Ingredients/spargelsalat-mit-vinaigrette-zutaten.jpg",
+      "image1": "/images/Salads/spargelsalat-rezept-einfach.jpg",
+      "image2": "/images/Salads/spargelsalat-weiss-gruen.jpg",
+      "image3": "/images/Salads/rezept-spargelsalat-dressing.jpg",
+      "image4": "/images/Salads/saisonaler-spargelsalat.jpg",
+      "image5": "/images/Salads/spargelsalat-fruehling.jpg",
+      "image6": "/images/Salads/vegetarischer-spargelsalat.jpg",
+      "image7": "/images/Salads/vegetarischer-spargelsalat-mit-vinaigrette.jpg"
     }
   },
   {
