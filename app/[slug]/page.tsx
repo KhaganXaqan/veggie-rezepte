@@ -54,7 +54,17 @@ export async function generateMetadata(
     openGraph: {
       title: `${recipe.seo_title || recipe.title}`,
       description: recipe.description || '',
-      images: [recipe.image],
+      images: [
+        recipe.image,
+        recipe.images.image1,
+        recipe.images.image2,
+        recipe.images.image3,
+        recipe.images.image4,
+        recipe.images.image5,
+        recipe.images.image6,
+        recipe.images.image7,
+        recipe.images.imageIngredient
+      ],
       type: 'article',
       url: canonicalUrl,
     },

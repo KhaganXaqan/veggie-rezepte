@@ -92,7 +92,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Flammkuchen",
     "seo_title": "Herzhafter vegetarischer Flammkuchen mit cremiger Basis",
-    "image": "/images/MainCourses/flammkuchen.webp",
+    "image": "/images/MainCourses/flammkuchen.jpeg",
     "prepTime": 30,
     "cookingTime": 12,
     "seo_keywords": [
@@ -311,14 +311,14 @@ export const recipes: Recipe[] = [
       description: "Wusstest du, dass der Flammkuchen ursprünglich als „Test-Teig“ genutzt wurde? 🔥 Früher haben Bäcker einen dünnen Teig in den Holzofen geschoben, um die Temperatur zu prüfen – wenn er in wenigen Minuten knusprig wurde, war der Ofen perfekt vorgeheizt! So entstand ganz nebenbei das köstliche Rezept für Flammkuchen. Heute gibt es ihn in vielen Variationen, aber ein vegetarischer Flammkuchen mit cremiger Basis und karamellisierten Zwiebeln ist einfach unschlagbar! 😍"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/flammkuchenIngredient.webp",
-      "image1": "/images/MainCourses/flammkuchen1.webp",
-      "image2": "/images/MainCourses/flammkuchen2.webp",
-      "image3": "/images/MainCourses/flammkuchen-variation1.webp",
-      "image4": "/images/MainCourses/flammkuchen-variation2.webp",
-      "image5": "/images/MainCourses/flammkuchen5.webp",
-      "image6": "/images/MainCourses/flammkuchen6.webp",
-      "image7": "/images/MainCourses/flammkuchen7.webp",
+      "imageIngredient": "/images/Ingredients/flammkuchen-zutaten.jpeg",
+      "image1": "/images/MainCourses/flammkuchen-vegetarisch-mit-zwiebeln-und-kaese.jpeg",
+      "image2": "/images/MainCourses/klassischer-flammkuchen-mit-creme-fraiche-und-senf.jpeg",
+      "image3": "/images/MainCourses/flammkuchen-variation-mit-gruyere-und-thymian.jpeg",
+      "image4": "/images/MainCourses/flammkuchen-ohne-fleisch-knusprig-und-duenn.jpeg",
+      "image5": "/images/MainCourses/flammkuchen-mit-cremiger-basis-und-zwiebeln.jpeg",
+      "image6": "/images/MainCourses/vegetarischer-flammkuchen-aus-dem-ofen.jpeg",
+      "image7": "/images/MainCourses/hausgemachter-flammkuchen-mit-kaese-und-zwiebeln.jpeg"
     }
   },
   {
@@ -3577,7 +3577,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Vegetarische Spinatknödel: Ein Herzhaftes Alpenländisches Gericht",
     "seo_title": "Vegetarische Spinatknödel: Einfaches Rezept aus den Alpen",
-    "image": "/images/Miscellaneous/spinatknoedel.webp",
+    "image": "/images/Miscellaneous/spinatknoedel.jpg",
     "prepTime": 40,
     "cookingTime": 25,
     "seo_keywords": [
@@ -3775,14 +3775,14 @@ export const recipes: Recipe[] = [
       "description": "Wussten Sie, dass Knödel in vielen Kulturen weltweit existieren? Von italienischen Gnocchi bis zu japanischen Dango gibt es unzählige Variationen. Unsere vegetarischen Spinatknödel sind eine Hommage an die Alpenländische Tradition und zeigen, wie vielfältig vegetarische Knödel sein können!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spinatknoedelIngredient.webp",
-      "image1": "/images/Miscellaneous/spinatknoedel1.webp",
-      "image2": "/images/Miscellaneous/spinatknoedel2.webp",
-      "image3": "/images/Miscellaneous/spinatknoedel3.webp",
-      "image4": "/images/Miscellaneous/spinatknoedel4.webp",
-      "image5": "/images/Miscellaneous/spinatknoedel5.webp",
-      "image6": "/images/Miscellaneous/spinatknoedel6.webp",
-      "image7": "/images/Miscellaneous/spinatknoedel7.webp"
+      "imageIngredient": "/images/Ingredients/spinatknoedel-zutaten.jpeg",
+      "image1": "/images/Miscellaneous/vegetarische-spinatknoedel-mit-bergkaese.jpg",
+      "image2": "/images/Miscellaneous/tiroler-spinatknoedel-klassisch-zubereitet.jpg",
+      "image3": "/images/Miscellaneous/spinatknoedel-mit-altbrot-und-kraeutern.jpg",
+      "image4": "/images/Miscellaneous/spinatknoedel-rezept-hausgemacht-und-herzhaft.jpg",
+      "image5": "/images/Miscellaneous/servierte-spinatknoedel-mit-geschmolzener-butter.jpg",
+      "image6": "/images/Miscellaneous/spinatknoedel-alpenkueche-vegetarisch.jpg",
+      "image7": "/images/Miscellaneous/knusprige-spinatknoedel-mit-zwiebel-und-knoblauch.jpg"
     }
   },
   {
@@ -7985,7 +7985,7 @@ export const recipes: Recipe[] = [
   {
     "title": "Zucchini Reis Auflauf",
     "seo_title": "Zucchini Reis Auflauf Rezept - Einfach & Vegetarisch",
-    "image": "/images/Miscellaneous/zucchini-reis-auflauf.webp",
+    "image": "/images/Miscellaneous/zucchini-reis-auflauf.jpg",
     "prepTime": 15,
     "cookingTime": 30,
     "seo_keywords": [
@@ -8259,20 +8259,20 @@ export const recipes: Recipe[] = [
       "description": "Zucchini gehören botanisch gesehen zu den Beerenfrüchten und nicht, wie oft angenommen, zum Gemüse!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/zucchini-reis-auflauf-zutaten.webp",
-      "image1": "/images/Miscellaneous/zucchini-reis-auflauf-rezept.webp",
-      "image2": "/images/Miscellaneous/einfacher-reis-zucchini-auflauf.webp",
-      "image3": "/images/Miscellaneous/vegetarischer-reisauflauf-zucchini.webp",
-      "image4": "/images/Miscellaneous/schneller-zucchini-auflauf-mit-reis.webp",
-      "image5": "/images/Miscellaneous/zucchini-auflauf-sommer.webp",
-      "image6": "/images/Miscellaneous/reisauflauf-vegetarisch.webp",
-      "image7": "/images/Miscellaneous/zucchini-tomaten-reis-auflauf.webp"
+      "imageIngredient": "/images/Ingredients/zucchini-reis-auflauf-zutaten.jpg",
+      "image1": "/images/Miscellaneous/zucchini-reis-auflauf-rezept.jpg",
+      "image2": "/images/Miscellaneous/einfacher-reis-zucchini-auflauf.jpg",
+      "image3": "/images/Miscellaneous/vegetarischer-reisauflauf-zucchini.jpg",
+      "image4": "/images/Miscellaneous/schneller-zucchini-auflauf-mit-reis.jpg",
+      "image5": "/images/Miscellaneous/zucchini-auflauf-sommer.jpg",
+      "image6": "/images/Miscellaneous/reisauflauf-vegetarisch.jpg",
+      "image7": "/images/Miscellaneous/zucchini-tomaten-reis-auflauf.jpg"
     }
   },
   {
     "title": "Gemüse Polenta Auflauf",
     "seo_title": "Vegetarischer Gemüse Polenta Auflauf - Einfaches Rezept",
-    "image": "/images/Miscellaneous/gemuese-polenta-auflauf.webp",
+    "image": "/images/Miscellaneous/gemuese-polenta-auflauf.jpg",
     "prepTime": 20,
     "cookingTime": 40,
     "seo_keywords": [
@@ -8550,20 +8550,20 @@ export const recipes: Recipe[] = [
       "description": "Polenta war lange Zeit ein Grundnahrungsmittel in Norditalien und ist extrem vielseitig – von cremig als Brei bis fest gebacken oder gegrillt."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/gemuese-polenta-auflauf-zutaten.webp",
-      "image1": "/images/Miscellaneous/gemuese-polenta-auflauf-rezept-vegetarisch.webp",
-      "image2": "/images/Miscellaneous/einfacher-gemuese-polenta.webp",
-      "image3": "/images/Miscellaneous/vegetarischer-polenta-auflauf-gemuese.webp",
-      "image4": "/images/Miscellaneous/schneller-gemuese-polenta-gratin.webp",
-      "image5": "/images/Miscellaneous/polenta-auflauf-mit-buntem-gemuese.webp",
-      "image6": "/images/Miscellaneous/gemuese-polenta-rezepte.webp",
-      "image7": "/images/Miscellaneous/herzhafter-polenta-gemuese-auflauf.webp"
+      "imageIngredient": "/images/Ingredients/gemuese-polenta-auflauf-zutaten.jpg",
+      "image1": "/images/Miscellaneous/gemuese-polenta-auflauf-rezept-vegetarisch.jpg",
+      "image2": "/images/Miscellaneous/einfacher-gemuese-polenta.jpg",
+      "image3": "/images/Miscellaneous/vegetarischer-polenta-auflauf-gemuese.jpg",
+      "image4": "/images/Miscellaneous/schneller-gemuese-polenta-gratin.jpg",
+      "image5": "/images/Miscellaneous/polenta-auflauf-mit-buntem-gemuese.jpg",
+      "image6": "/images/Miscellaneous/gemuese-polenta-rezepte.jpg",
+      "image7": "/images/Miscellaneous/herzhafter-polenta-gemuese-auflauf.jpg"
     }
   },
   {
     "title": "Spinat Käse Lasagne",
     "seo_title": "Spinatlasagne Rezept - Cremig, Käsig & Vegetarisch",
-    "image": "/images/Miscellaneous/spinat-kaese-lasagne.webp",
+    "image": "/images/Miscellaneous/spinat-kaese-lasagne.jpg",
     "prepTime": 30,
     "cookingTime": 45,
     "seo_keywords": [
@@ -8880,20 +8880,20 @@ export const recipes: Recipe[] = [
       "description": "Obwohl Lasagne heute typisch italienisch ist, gab es bereits im antiken Griechenland ein ähnliches Gericht mit Teigschichten!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spinat-kaese-lasagne-zutaten.webp",
-      "image1": "/images/Miscellaneous/spinatlasagne-rezept-vegetarisch.webp",
-      "image2": "/images/Miscellaneous/vegetarische-lasagne-spinat.webp",
-      "image3": "/images/Miscellaneous/spinat-kaese-lasagne-einfach.webp",
-      "image4": "/images/Miscellaneous/lasagne-mit-spinat-kaese.webp",
-      "image5": "/images/Miscellaneous/cremige-spinatlasagne.webp",
-      "image6": "/images/Miscellaneous/einfache-vegetarische-lasagne.webp",
-      "image7": "/images/Miscellaneous/spinatlasagne-ohne-fleisch.webp"
+      "imageIngredient": "/images/Ingredients/spinat-kaese-lasagne-zutaten.jpg",
+      "image1": "/images/Miscellaneous/spinatlasagne-rezept-vegetarisch.jpg",
+      "image2": "/images/Miscellaneous/vegetarische-lasagne-spinat.jpg",
+      "image3": "/images/Miscellaneous/spinat-kaese-lasagne-einfach.jpg",
+      "image4": "/images/Miscellaneous/lasagne-mit-spinat-kaese.jpg",
+      "image5": "/images/Miscellaneous/cremige-spinatlasagne.jpg",
+      "image6": "/images/Miscellaneous/einfache-vegetarische-lasagne.jpg",
+      "image7": "/images/Miscellaneous/spinatlasagne-ohne-fleisch.jpg"
     }
   },
   {
     "title": "Beeren Smoothie Bowl",
     "seo_title": "Smoothie Bowl Rezept Beeren - Schnell & Einfach selber machen",
-    "image": "/images/Frühstück/beeren-smoothie-bowl.webp",
+    "image": "/images/Frühstück/beeren-smoothie-bowl.jpg",
     "prepTime": 5,
     "cookingTime": 0,
     "seo_keywords": [
@@ -9111,20 +9111,20 @@ export const recipes: Recipe[] = [
       "description": "Smoothie Bowls wurden in den 2000er Jahren in den USA populär, aber die Idee, dickflüssige Fruchtpürees zu essen, gibt es schon viel länger, zum Beispiel Açaí Bowls in Brasilien."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/beeren-smoothie-bowl-zutaten.webp",
-      "image1": "/images/Frühstück/smoothie-bowl-rezepte-einfach.webp",
-      "image2": "/images/Frühstück/smoothie-bowl-selber-machen.webp",
-      "image3": "/images/Frühstück/gesundes-fruehstueck-smoothie-bowl.webp",
-      "image4": "/images/Frühstück/beeren-smoothie-bowl-rezept.webp",
-      "image5": "/images/Frühstück/schnelle-smoothie-bowl.webp",
-      "image6": "/images/Frühstück/vegetarische-smoothie-bowl.webp",
-      "image7": "/images/Frühstück/smoothie-bowl-mit-granola.webp"
+      "imageIngredient": "/images/Ingredients/beeren-smoothie-bowl-zutaten.jpg",
+      "image1": "/images/Frühstück/smoothie-bowl-rezepte-einfach.jpg",
+      "image2": "/images/Frühstück/smoothie-bowl-selber-machen.jpg",
+      "image3": "/images/Frühstück/gesundes-fruehstueck-smoothie-bowl.jpg",
+      "image4": "/images/Frühstück/beeren-smoothie-bowl-rezept.jpg",
+      "image5": "/images/Frühstück/schnelle-smoothie-bowl.jpg",
+      "image6": "/images/Frühstück/vegetarische-smoothie-bowl.jpg",
+      "image7": "/images/Frühstück/smoothie-bowl-mit-granola.jpg"
     }
   },
   {
     "title": "Beeren Overnight Oats",
     "seo_title": "Overnight Oats Beeren Rezept: Einfach & Gesund Frühstücken",
-    "image": "/images/Frühstück/beeren-overnight-oats.webp",
+    "image": "/images/Frühstück/beeren-overnight-oats.jpg",
     "prepTime": 5,
     "cookingTime": 0,
     "seo_keywords": [
@@ -9339,20 +9339,20 @@ export const recipes: Recipe[] = [
       "description": "Overnight Oats sind nicht nur super praktisch, sondern durch das Einweichen werden die Haferflocken auch leichter verdaulich!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/beeren-overnight-oats-zutaten.webp",
-      "image1": "/images/Frühstück/overnight-oats-mit-frischen-beeren.webp",
-      "image2": "/images/Frühstück/overnight-oats-rezept-einfach.webp",
-      "image3": "/images/Frühstück/gesundes-fruhstuck-mit-haferflocken.webp",
-      "image4": "/images/Frühstück/meal-prep-overnight-oats.webp",
-      "image5": "/images/Frühstück/beeren-bowl-fruhstuck.webp",
-      "image6": "/images/Frühstück/schnelles-fruhstuck-ideen.webp",
-      "image7": "/images/Frühstück/cremige-overnight-oats.webp"
+      "imageIngredient": "/images/Ingredients/beeren-overnight-oats-zutaten.jpg",
+      "image1": "/images/Frühstück/overnight-oats-mit-frischen-beeren.jpg",
+      "image2": "/images/Frühstück/overnight-oats-rezept-einfach.jpg",
+      "image3": "/images/Frühstück/gesundes-fruhstuck-mit-haferflocken.jpg",
+      "image4": "/images/Frühstück/meal-prep-overnight-oats.jpg",
+      "image5": "/images/Frühstück/beeren-bowl-fruhstuck.jpg",
+      "image6": "/images/Frühstück/schnelles-fruhstuck-ideen.jpg",
+      "image7": "/images/Frühstück/cremige-overnight-oats.jpg"
     }
   },
   {
     "title": "Banana Bread",
     "seo_title": "Veganes Banana Bread Rezept Einfach - Saftig & Ohne Ei",
-    "image": "/images/Frühstück/banana-bread.webp",
+    "image": "/images/Frühstück/banana-bread.jpg",
     "prepTime": 15,
     "cookingTime": 55,
     "seo_keywords": [
@@ -9610,20 +9610,20 @@ export const recipes: Recipe[] = [
       "description": "Botanisch gesehen sind Bananen Beeren! Und sie sind die einzigen Früchte, deren Schale sich von selbst öffnet, wenn sie wirklich reif sind."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/banana-bread-zutaten.webp",
-      "image1": "/images/Frühstück/banana-bread.webp",
-      "image2": "/images/Frühstück/banana-bread-vegan-saftig.webp",
-      "image3": "/images/Frühstück/veganes-bananenbrot-ohne-ei.webp",
-      "image4": "/images/Frühstück/einfaches-veganes-banana-bread-backen.webp",
-      "image5": "/images/Frühstück/saftiges-veganes-bananenbrot.webp",
-      "image6": "/images/Frühstück/bestes-veganes-banana-bread.webp",
-      "image7": "/images/Frühstück/banana-bread-rezept-vegan.webp"
+      "imageIngredient": "/images/Ingredients/banana-bread-zutaten.jpg",
+      "image1": "/images/Frühstück/banana-bread.jpg",
+      "image2": "/images/Frühstück/banana-bread-vegan-saftig.jpg",
+      "image3": "/images/Frühstück/veganes-bananenbrot-ohne-ei.jpg",
+      "image4": "/images/Frühstück/einfaches-veganes-banana-bread-backen.jpg",
+      "image5": "/images/Frühstück/saftiges-veganes-bananenbrot.jpg",
+      "image6": "/images/Frühstück/bestes-veganes-banana-bread.jpg",
+      "image7": "/images/Frühstück/banana-bread-rezept-vegan.jpg"
     }
   },
   {
     "title": "Cremige Spargelcremesuppe aus Spargelfond – Schnell & Lecker!",
     "seo_title": "Spargelcremesuppe Rezept - Cremig & Einfach mit Fond",
-    "image": "/images/Soups/spargelcremesuppe.webp",
+    "image": "/images/Soups/spargelcremesuppe.jpg",
     "prepTime": 15,
     "cookingTime": 25,
     "seo_keywords": [
@@ -9943,20 +9943,20 @@ export const recipes: Recipe[] = [
       "description": "Weißer Spargel wird auch Bleichspargel genannt, weil er unter der Erde wächst und dadurch kein Sonnenlicht bekommt, das ihn grün färben würde."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spargelcremesuppe-zutaten.webp",
-      "image1": "/images/Soups/spargelcremesuppe-rezept-mit-fond.webp",
-      "image2": "/images/Soups/schnelle-spargelcremesuppe-kochen.webp",
-      "image3": "/images/Soups/rezept-spargelcremesuppe-einfach.webp",
-      "image4": "/images/Soups/spargelcremesuppe-aus-fond-selber-machen.webp",
-      "image5": "/images/Soups/weißer-spargel-suppe-cremig.webp",
-      "image6": "/images/Soups/spargelcremesuppe-als-hauptgericht-rezept.webp",
-      "image7": "/images/Soups/omas-spargelcremesuppe-schnell.webp"
+      "imageIngredient": "/images/Ingredients/spargelcremesuppe-zutaten.jpg",
+      "image1": "/images/Soups/spargelcremesuppe-rezept-mit-fond.jpg",
+      "image2": "/images/Soups/schnelle-spargelcremesuppe-kochen.jpg",
+      "image3": "/images/Soups/rezept-spargelcremesuppe-einfach.jpg",
+      "image4": "/images/Soups/spargelcremesuppe-aus-fond-selber-machen.jpg",
+      "image5": "/images/Soups/weißer-spargel-suppe-cremig.jpg",
+      "image6": "/images/Soups/spargelcremesuppe-als-hauptgericht-rezept.jpg",
+      "image7": "/images/Soups/omas-spargelcremesuppe-schnell.jpg"
     }
   },
   {
     "title": "Leuchtend Grüne Bärlauchcremesuppe",
     "seo_title": "Bärlauchcremesuppe Rezept - Cremig, Einfach & Saisonal kochen",
-    "image": "/images/Soups/baerlauchcremesuppe.webp",
+    "image": "/images/Soups/baerlauchcremesuppe.jpg",
     "prepTime": 10,
     "cookingTime": 15,
     "seo_keywords": [
@@ -10231,20 +10231,20 @@ export const recipes: Recipe[] = [
       "description": "Bärlauch wird auch 'Wildknoblauch' genannt und wächst bevorzugt in schattigen Laubwäldern. Achte beim Sammeln darauf, ihn nicht mit giftigen Maiglöckchen zu verwechseln!"
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/baerlauchcremesuppe-zutaten.webp",
-      "image1": "/images/Soups/baerlauchcremesuppe-rezept-einfach.webp",
-      "image2": "/images/Soups/cremige-baerlauchsuppe-kochen.webp",
-      "image3": "/images/Soups/rezept-baerlauchcremesuppe-saisonal.webp",
-      "image4": "/images/Soups/baerlauchsuppe-cremig-rezept.webp",
-      "image5": "/images/Soups/baerlauchcremesuppe-fruehling.webp",
-      "image6": "/images/Soups/schnelle-baerlauchcremesuppe.webp",
-      "image7": "/images/Soups/vegetarische-baerlauchsuppe.webp"
+      "imageIngredient": "/images/Ingredients/baerlauchcremesuppe-zutaten.jpg",
+      "image1": "/images/Soups/baerlauchcremesuppe-rezept-einfach.jpg",
+      "image2": "/images/Soups/cremige-baerlauchsuppe-kochen.jpg",
+      "image3": "/images/Soups/rezept-baerlauchcremesuppe-saisonal.jpg",
+      "image4": "/images/Soups/baerlauchsuppe-cremig-rezept.jpg",
+      "image5": "/images/Soups/baerlauchcremesuppe-fruehling.jpg",
+      "image6": "/images/Soups/schnelle-baerlauchcremesuppe.jpg",
+      "image7": "/images/Soups/vegetarische-baerlauchsuppe.jpg"
     }
   },
   {
     "title": "Himmlisch Cremiges Spargelrisotto",
     "seo_title": "Spargelrisotto Rezept - Cremig, Italienisch & Saisonal",
-    "image": "/images/MainCourses/spargelrisotto.webp",
+    "image": "/images/MainCourses/spargelrisotto.jpg",
     "prepTime": 20,
     "cookingTime": 25,
     "seo_keywords": [
@@ -10485,20 +10485,20 @@ export const recipes: Recipe[] = [
       "description": "Risotto stammt ursprünglich aus Norditalien und seine Cremigkeit entsteht nicht durch Sahne, sondern durch die langsame Freisetzung von Stärke aus dem Reis durch Rühren."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spargelrisotto-zutaten.webp",
-      "image1": "/images/MainCourses/spargelrisotto-rezept-cremig.webp",
-      "image2": "/images/MainCourses/italienisches-spargelrisotto.webp",
-      "image3": "/images/MainCourses/weisses-spargelrisotto-rezept.webp",
-      "image4": "/images/MainCourses/rezept-spargelrisotto-gruen-weiss.webp",
-      "image5": "/images/MainCourses/spargelrisotto-weisser-spargel.webp",
-      "image6": "/images/MainCourses/spargelrisotto-mit-gruenem-spargel.webp",
-      "image7": "/images/MainCourses/cremiges-risotto-spargelzeit.webp"
+      "imageIngredient": "/images/Ingredients/spargelrisotto-zutaten.jpg",
+      "image1": "/images/MainCourses/spargelrisotto-rezept-cremig.jpg",
+      "image2": "/images/MainCourses/italienisches-spargelrisotto.jpg",
+      "image3": "/images/MainCourses/weisses-spargelrisotto-rezept.jpg",
+      "image4": "/images/MainCourses/rezept-spargelrisotto-gruen-weiss.jpg",
+      "image5": "/images/MainCourses/spargelrisotto-weisser-spargel.jpg",
+      "image6": "/images/MainCourses/spargelrisotto-mit-gruenem-spargel.jpg",
+      "image7": "/images/MainCourses/cremiges-risotto-spargelzeit.jpg"
     }
   },
   {
     "title": "Einfacher Spargelsalat mit Vinaigrette",
     "seo_title": "Spargelsalat Rezept - Einfach, Saisonal & Perfekt für Frühling",
-    "image": "/images/Salads/spargelsalat-mit-vinaigrette.webp",
+    "image": "/images/Salads/spargelsalat-mit-vinaigrette.jpg",
     "prepTime": 15,
     "cookingTime": 15,
     "seo_keywords": [
@@ -10739,14 +10739,14 @@ export const recipes: Recipe[] = [
       "description": "Spargel wächst bis zu 7 cm pro Tag! Das macht die Ernte während der Saison zu einem ständigen Auf und Ab."
     },
     "images": {
-      "imageIngredient": "/images/Ingredients/spargelsalat-mit-vinaigrette-zutaten.webp",
-      "image1": "/images/Salads/spargelsalat-rezept-einfach.webp",
-      "image2": "/images/Salads/spargelsalat-weiss-gruen.webp",
-      "image3": "/images/Salads/rezept-spargelsalat-dressing.webp",
-      "image4": "/images/Salads/saisonaler-spargelsalat.webp",
-      "image5": "/images/Salads/spargelsalat-fruehling.webp",
-      "image6": "/images/Salads/vegetarischer-spargelsalat.webp",
-      "image7": "/images/Salads/vegetarischer-spargelsalat-mit-vinaigrette.webp"
+      "imageIngredient": "/images/Ingredients/spargelsalat-mit-vinaigrette-zutaten.jpg",
+      "image1": "/images/Salads/spargelsalat-rezept-einfach.jpg",
+      "image2": "/images/Salads/spargelsalat-weiss-gruen.jpg",
+      "image3": "/images/Salads/rezept-spargelsalat-dressing.jpg",
+      "image4": "/images/Salads/saisonaler-spargelsalat.jpg",
+      "image5": "/images/Salads/spargelsalat-fruehling.jpg",
+      "image6": "/images/Salads/vegetarischer-spargelsalat.jpg",
+      "image7": "/images/Salads/vegetarischer-spargelsalat-mit-vinaigrette.jpg"
     }
   },
   {
@@ -15341,6 +15341,373 @@ export const recipes: Recipe[] = [
     "image5": "/images/MainCourses/pasta-tomaten-mozzarella-basilikum.jpg",
     "image6": "/images/MainCourses/pasta-tomaten-mozzarella-tisch.jpg",
     "image7": "/images/MainCourses/pasta-tomaten-mozzarella-mozzarella.jpg"
+  }
+},
+{
+  "title": "Dein unwiderstehlicher Falafel Wrap – orientalische Genüsse selbst gemacht!",
+  "seo_title": "Falafel Wrap Rezept: Vegan, einfach & knusprig selber machen",
+  "image": "/images/MainCourses/falafel-wrap.jpeg",
+  "prepTime": 25,
+  "cookingTime": 20,
+  "seo_keywords": [
+    "falafel wrap",
+    "falafel wrap rezept",
+    "falafel wrap soße",
+    "was kommt in einen falafel wrap",
+    "falafel wrap rezept original",
+    "falafel wrap recipe",
+    "falafel wrap syrisch",
+    "rezept falafel wrap"
+  ],
+  "rating": 4.8,
+  "reviews": 567,
+  "category": "Hauptgerichte",
+  "slug": "falafel-wrap",
+  "tags": [
+    "Falafel",
+    "Wrap",        
+    "Orientalisch",
+    "Vegan"
+  ],
+  "createdDate": new Date("2025-06-05T18:00:00Z"),
+  "updatedDate": new Date("2025-06-05T18:10:00Z"),
+  "servings": 4,
+  "description": "Lerne, wie du einen köstlichen Falafel Wrap einfach selber machst – vegan & knusprig!",
+  "descriptionOnImage": "Knusprig, frisch & voller Geschmack!",
+  "introductionParagraph": "Ach, der Falafel Wrap! Dieses orientalische Gericht hat mein Herz im Sturm erobert und ist so vielseitig und lecker. Ich liebe es, wenn's mal schnell gehen muss!",
+  "additionalParagraph": "Einen Falafel Wrap selber zu machen, ist einfacher als du denkst und schmeckt einfach unvergleichlich frisch. So bringst du den Orient direkt auf deinen Teller.",
+"ingredientsNeeded": [
+    {
+      "title": "Getrocknete Kichererbsen",
+      "description": "Basis für Falafel: Getrocknete Kichererbsen unbedingt einweichen!"
+    },
+    {
+      "title": "Frische Kräuter",
+      "description": "Petersilie und Koriander für authentisches Aroma und grüne Farbe."
+    },
+    {
+      "title": "Zwiebel & Knoblauch",
+      "description": "Zwiebel und Knoblauchzehen: die aromatische Grundlage für den Teig."
+    },
+    {
+      "title": "Orientalische Gewürze",
+      "description": "Kreuzkümmel und Korianderpulver für den typisch orientalischen Geschmack."
+    },
+    {
+      "title": "Natron",
+      "description": "Natron macht die Falafel beim Ausbacken innen schön luftig."
+    },
+    {
+      "title": "Für die cremige Sauce",
+      "description": "Tahini, frischer Zitronensaft und Wasser für die klassische, erfrischende Sauce."
+    },
+    {
+      "title": "Frisches Gemüse",
+      "description": "Salat, Tomaten, Gurken und Rote Bete für Frische und Biss im Wrap."
+    },
+    {
+      "title": "Wraps & Öl",
+      "description": "Wraps als Hülle und Pflanzenöl zum knusprigen Ausbacken der Falafel."
+    },
+    {
+      "title": "Orientalische Gewürze",
+      "description": "Kreuzkümmel und Korianderpulver für den typisch orientalischen Geschmack."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für die Falafel",
+      "description": "Die Zutaten für deine knusprigen Kichererbsen-Bällchen.",
+      "ingredients": [
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "getrocknete Kichererbsen"
+        },
+        {
+          "amount": 1,
+          "unit": "Bund",
+          "name": "frische Petersilie"
+        },
+        {
+          "amount": 0.5,
+          "unit": "Bund",
+          "name": "frischer Koriander"
+        },
+        {
+          "amount": 2,
+          "unit": "Zehen",
+          "name": "Knoblauch"
+        },
+        {
+          "amount": 1,
+          "unit": "klein",
+          "name": "Zwiebel"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Kreuzkümmelpulver"
+        },
+        {
+          "amount": 0.5,
+          "unit": "TL",
+          "name": "Korianderpulver"
+        },
+        {
+          "amount": 0.5,
+          "unit": "TL",
+          "name": "Natron"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz und Pfeffer"
+        },
+        {
+          "amount": undefined,
+          "unit": "ausreichend",
+          "name": "Pflanzenöl zum Frittieren"
+        }
+      ]
+    },
+    {
+      "title": "Für die Tahini-Sauce",
+      "description": "Die cremige Sauce, die perfekt zu Falafel passt.",
+      "ingredients": [
+        {
+          "amount": 4,
+          "unit": "EL",
+          "name": "Tahini"
+        },
+        {
+          "amount": 3,
+          "unit": "EL",
+          "name": "Zitronensaft"
+        },
+        {
+          "amount": 4,
+          "unit": "EL",
+          "name": "kaltes Wasser"
+        },
+        {
+          "amount": 1,
+          "unit": "Zehe",
+          "name": "Knoblauch (gepresst)"
+        },
+        {
+          "amount": 1,
+          "unit": "Prise",
+          "name": "Salz"
+        }
+      ]
+    },
+    {
+      "title": "Für den Wrap",
+      "description": "Alles, was du für die Füllung deiner Wraps brauchst.",
+      "ingredients": [
+        {
+          "amount": 4,
+          "unit": "Stück",
+          "name": "Wraps oder Fladenbrot"
+        },
+        {
+          "amount": 1,
+          "unit": "Kopf",
+          "name": "Salat (z.B. Römersalat)"
+        },
+        {
+          "amount": 2,
+          "unit": "Stück",
+          "name": "Tomaten"
+        },
+        {
+          "amount": 0.5,
+          "unit": "Stück",
+          "name": "Gurke"
+        },
+        {
+          "amount": undefined,
+          "unit": "optional",
+          "name": "eingelegte Rote Bete oder Essiggurken"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "getrocknete Kichererbsen"
+    },
+    {
+      "amount": 1,
+      "unit": "Bund",
+      "name": "frische Petersilie"
+    },
+    {
+      "amount": 0.5,
+      "unit": "Bund",
+      "name": "frischer Koriander"
+    },
+    {
+      "amount": 1,
+      "unit": "klein",
+      "name": "Zwiebel"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Kreuzkümmelpulver"
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "Korianderpulver"
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "Natron"
+    },
+    {
+      "amount": 4,
+      "unit": "EL",
+      "name": "Tahini"
+    },
+    {
+      "amount": 3,
+      "unit": "EL",
+      "name": "Zitronensaft"
+    },
+    {
+      "amount": 4,
+      "unit": "EL",
+      "name": "kaltes Wasser"
+    },    
+    {
+      "amount": 4,
+      "unit": "Stück",
+      "name": "Wraps oder Fladenbrot"
+    },
+    {
+      "amount": 1,
+      "unit": "Kopf",
+      "name": "Salat (z.B. Römersalat)"
+    },
+    {
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Tomaten"
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Gurke"
+    },
+    {
+      "amount": undefined,
+      "unit": "Zehen",
+      "name": "Knoblauch"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz und Pfeffer"
+    },
+    {
+      "amount": undefined,
+      "unit": "ausreichend",
+      "name": "Pflanzenöl zum Frittieren"
+    },
+    {
+      "amount": undefined,
+      "unit": "optional",
+      "name": "eingelegte Rote Bete oder Essiggurken"
+    }
+  ],
+  "instructions": [
+    "Getrocknete Kichererbsen über Nacht (mindestens 12 Stunden) in reichlich kaltem Wasser einweichen. Am nächsten Tag das Wasser abgießen und gut abspülen.",
+    "Alle Falafel-Zutaten (eingeweichte Kichererbsen, Petersilie, Koriander, Knoblauch, Zwiebel, Kreuzkümmel, Korianderpulver, Natron, Salz, Pfeffer) in einer Küchenmaschine zu einer feinen, aber nicht zu matschigen Masse verarbeiten.",
+    "Die Falafel-Masse für ca. 30 Minuten im Kühlschrank ruhen lassen. Dann mit befeuchteten Händen oder einem Falafel-Former kleine Bällchen oder Patties formen.",
+    "Öl in einer tiefen Pfanne oder einem Topf auf 170-180°C erhitzen (alternativ Backofen auf 200°C Ober-/Unterhitze vorheizen).",
+    "Falafel portionsweise goldbraun und knusprig frittieren (ca. 3-5 Minuten pro Seite) oder im Ofen ca. 20-25 Minuten backen, dabei einmal wenden.",
+    "Für die Tahini-Sauce: Tahini, Zitronensaft, kaltes Wasser, gepressten Knoblauch und Salz verrühren, bis eine cremige Sauce entsteht. Bei Bedarf mehr Wasser hinzufügen.",
+    "Wraps oder Fladenbrot leicht erwärmen. Mit Salat, geschnittenem Gemüse, den Falafel und reichlich Tahini-Sauce belegen. Fest zusammenrollen und genießen!"
+  ],
+  "nutrition": {
+    "calories": 3050,
+    "protein": "95.6g",
+    "carbs": "348g",
+    "fat": "147g"
+  },
+  "tips": [
+    "Für besonders knusprige Falafel die frittierte Variante wählen. Wenn du es fettärmer magst, sind gebackene Falafel eine tolle Alternative.",
+    "Experimentiere mit weiteren Füllungen wie eingelegten Rübchen, scharfer Harissa-Sauce oder frischer Minze für noch mehr Geschmacksvielfalt."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Falafel Wrap so besonders ist",
+    "reasons": [
+      {
+        "title": "Knusprig & aromatisch",
+        "description": "Diese hausgemachten Falafel sind außen knusprig und innen herrlich würzig. Ein echtes Geschmackserlebnis!"
+      },
+      {
+        "title": "Gesund & sättigend",
+        "description": "Vollgepackt mit pflanzlichem Protein und frischem Gemüse ist dieser Wrap ein vollwertiges und sättigendes Gericht."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich hoffe, dieser Falafel Wrap bringt dir ein Stück orientalische Freude!",
+    "subText": "Guten Appetit und viel Spaß beim Nachkochen!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kichererbsen vorbereiten & Masse mixen",
+      "description": "Der Schlüssel zu guten Falafeln sind eingeweichte, aber nicht gekochte Kichererbsen, die mit Kräutern und Gewürzen zu einer feinen Masse verarbeitet werden."
+    },
+    {
+      "title": "Falafel formen & zubereiten",
+      "description": "Die Ruhezeit lässt die Aromen ziehen. Ob frittiert oder gebacken, achte auf eine goldbraune, knusprige Oberfläche."
+    },
+    {
+      "title": "Sauce & Wrap zusammenstellen",
+      "description": "Während die Falafel garen, bereitest du die cremige Tahini-Sauce und das frische Gemüse vor. Dann nur noch alles im Wrap kunstvoll schichten und genießen!"
+    }
+  ],
+  "servingSuggestion": "Serviere den Falafel Wrap frisch zubereitet, eventuell mit einer zusätzlichen Beilage Hummus.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Falafel Wrap",
+    "description": "Dein Falafel Wrap ist schon ein vollwertiges Gericht, aber diese Beilagen machen ihn noch besser:",
+    "note": "So wird's ein Festmahl!",
+    "items": [
+      {
+        "emoji": "🥗",
+        "title": "Frischer Salat",
+        "description": "Ein einfacher grüner Salat mit Zitronen-Dressing ergänzt die Aromen wunderbar."
+      },
+      {
+        "emoji": "🥣",
+        "title": "Extra Dips",
+        "description": "Serviere kleine Schälchen mit Hummus, Baba Ghanoush oder einer scharfen Chilipaste dazu."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Falafel ist in vielen Ländern des Nahen Ostens ein beliebtes Streetfood und wird oft als 'vegetarischer Burger' bezeichnet."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/falafel-wrap-zutaten.jpeg",
+    "image1": "/images/MainCourses/veganer-falafel-wrap.jpeg",
+    "image2": "/images/MainCourses/falafel-selber-machen.jpeg",
+    "image3": "/images/MainCourses/einfacher-falafel-wrap.jpeg",
+    "image4": "/images/MainCourses/orientalischer-falafel-wrap.jpeg",
+    "image5": "/images/MainCourses/frische-falafel-wrap.jpeg",
+    "image6": "/images/MainCourses/kichererbsen-wrap-rezept.jpeg",
+    "image7": "/images/MainCourses/hausgemachter-falafel-wrap.jpeg"
   }
 }
 ];
