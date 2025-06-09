@@ -10,8 +10,8 @@ export const categoryNames: { [key: string]: string } = {
 export const siteConfig = {
   name: "Veggie-Rezepte.de",
   description: "Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung.",
-  url: "https://www.veggie-rezepte.de",
-  ogImage: "https://www.veggie-rezepte.de/og.jpg",
+  url: "https://veggie-rezepte.de",
+  ogImage: "https://veggie-rezepte.de/og.jpg",
   links: {
     twitter: "https://twitter.com/veggierezepte",
     github: "https://github.com/yourusername/veggie-rezepte"

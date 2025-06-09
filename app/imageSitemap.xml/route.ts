@@ -11,7 +11,7 @@ type RecipeWithImages = Recipe & {
 };
 
 export async function GET() {
-  const baseUrl = 'https://www.veggie-rezepte.de'
+  const baseUrl = 'https://veggie-rezepte.de'
 
   // Helper to extract all image URLs from a recipe
   function extractAllImageUrls(recipe: RecipeWithImages) {
