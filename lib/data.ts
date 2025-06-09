@@ -15709,6 +15709,296 @@ export const recipes: Recipe[] = [
     "image6": "/images/MainCourses/kichererbsen-wrap-rezept.jpeg",
     "image7": "/images/MainCourses/hausgemachter-falafel-wrap.jpeg"
   }
+},
+{
+  "title": "Bester vegetarischer Dürüm mit Halloumi & Joghurt-Minz-Sauce",
+  "seo_title": "Dürüm vegetarisch: Rezept zum selber machen mit Halloumi",
+  "image": "/images/MainCourses/dueruem-vegetarisch.jpeg",
+  "prepTime": 20,
+  "cookingTime": 10,
+  "seo_keywords": [
+    "dürüm vegetarisch",
+    "dürüm vegetarisch kalorien",
+    "vegetarisch dürüm vegetarisch",
+    "rezept dürüm vegetarisch",
+    "dürüm vegetarisch selber machen",
+    "dürüm vegetarisch rezept",
+    "durum vegetarisch",
+    "dürüm vegetarisch gesund",
+    "dürum vegetarisch"
+  ],
+  "rating": 4.9,
+  "reviews": 212,
+  "category": "Hauptgerichte",
+  "slug": "vegetarischer-dueruem",
+  "tags": [
+    "Dürüm",
+    "Halloumi",
+    "Schnell"
+  ],
+  "createdDate": new Date("2025-06-08T19:00:00Z"),
+  "updatedDate": new Date("2025-06-08T20:15:00Z"),
+  "servings": 2,
+  "description": "Mein bestes Rezept für vegetarischen Dürüm mit würzigem Halloumi, frischem Salat und cremiger Joghurt-Sauce.",
+  "descriptionOnImage": "Vegetarischer Dürüm mit Halloumi",
+  "introductionParagraph": "Lust auf Döner, aber ohne Fleisch? Dieser vegetarische Dürüm mit Halloumi ist die perfekte, super leckere Alternative!",
+  "additionalParagraph": "Schnell gemacht, voller frischer Zutaten und mit einer unwiderstehlichen Sauce. Das musst du einfach probieren!",
+  "ingredientsNeeded": [
+    {
+      "title": "Halloumi",
+      "description": "Der Star dieses Dürüms! Der salzige Quietschkäse wird goldbraun angebraten und ist ein perfekter Fleischersatz."
+    },
+    {
+      "title": "Yufka-Teigfladen",
+      "description": "Die Basis für unseren Dürüm. Große, dünne Fladenbrote, die sich perfekt rollen lassen."
+    },
+    {
+      "title": "Frisches Gemüse",
+      "description": "Eisbergsalat, Tomate, Gurke und rote Zwiebeln sorgen für Frische und einen knackigen Biss in jedem Bissen."
+    },
+    {
+      "title": "Joghurt-Sauce",
+      "description": "Eine cremige Sauce aus Joghurt, frischer Minze und Zitronensaft rundet den Dürüm ab und sorgt für Saftigkeit."
+    },
+    {
+      "title": "Aromatische Marinade",
+      "description": "Olivenöl, Paprikapulver und Oregano umhüllen den Halloumi und sorgen für ein tolles Aroma beim Braten."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den marinierten Halloumi",
+      "description": "Die würzige Hauptkomponente unseres vegetarischen Dürüms.",
+      "ingredients": [
+        {
+          "amount": 200,
+          "unit": "g",
+          "name": "Halloumi"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Olivenöl"
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Paprikapulver (edelsüß)"
+        },
+        {
+          "amount": 0.5,
+          "unit": "TL",
+          "name": "getrockneter Oregano"
+        }
+      ]
+    },
+    {
+      "title": "Für die Joghurt-Minz-Sauce",
+      "description": "Eine erfrischende Sauce, die alles zusammenbringt.",
+      "ingredients": [
+        {
+          "amount": 150,
+          "unit": "g",
+          "name": "griechischer Joghurt"
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Zitronensaft"
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "frische Minze, gehackt"
+        },
+        {
+          "amount": undefined,
+          "unit": "",
+          "name": "Salz & Pfeffer"
+        }
+      ]
+    },
+    {
+      "title": "Für die Füllung & zum Servieren",
+      "description": "Frische Zutaten für den perfekten Genuss.",
+      "ingredients": [
+        {
+          "amount": 2,
+          "unit": "",
+          "name": "große Yufka-Teigfladen"
+        },
+        {
+          "amount": 0.25,
+          "unit": "",
+          "name": "Eisbergsalat, in Streifen"
+        },
+        {
+          "amount": 1,
+          "unit": "",
+          "name": "Tomate, gewürfelt"
+        },
+        {
+          "amount": 0.25,
+          "unit": "",
+          "name": "Salatgurke, gewürfelt"
+        },
+        {
+          "amount": 0.5,
+          "unit": "",
+          "name": "rote Zwiebel, in feinen Ringen"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Halloumi"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Olivenöl"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Paprikapulver (edelsüß)"
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "getrockneter Oregano"
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "griechischer Joghurt"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Zitronensaft"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "frische Minze, gehackt"
+    },
+    {
+      "amount": 2,
+      "unit": "",
+      "name": "große Yufka-Teigfladen"
+    },
+    {
+      "amount": 0.25,
+      "unit": "",
+      "name": "Eisbergsalat, in Streifen"
+    },
+    {
+      "amount": 1,
+      "unit": "",
+      "name": "Tomate, gewürfelt"
+    },
+    {
+      "amount": 0.25,
+      "unit": "",
+      "name": "Salatgurke, gewürfelt"
+    },
+    {
+      "amount": 0.5,
+      "unit": "",
+      "name": "rote Zwiebel, in feinen Ringen"
+    },
+    {
+      "amount": undefined,
+      "unit": "",
+      "name": "Salz & Pfeffer"
+    },
+  ],
+  "instructions": [
+    "Für die Sauce Joghurt, Zitronensaft und gehackte Minze verrühren. Mit Salz und Pfeffer abschmecken und beiseitestellen.",
+    "Halloumi trockentupfen und in ca. 1 cm dicke Scheiben schneiden. Olivenöl, Paprikapulver und Oregano in einer Schüssel mischen, Halloumi darin wenden.",
+    "Eine Pfanne erhitzen und die Halloumi-Scheiben von jeder Seite 2-3 Minuten goldbraun anbraten.",
+    "Yufka-Fladen kurz in der Pfanne oder Mikrowelle erwärmen, damit sie weicher werden.",
+    "Jeden Fladen mit der Joghurt-Sauce bestreichen, dabei einen Rand frei lassen. Mit Salat, Tomate, Gurke und Zwiebelringen belegen.",
+    "Den gebratenen Halloumi darauf verteilen, die Seiten einklappen und von unten fest aufrollen. Sofort genießen!"
+  ],
+  "nutrition": {
+    "calories": 1790,
+    "protein": "79g",
+    "carbs": "167,6g",
+    "fat": "101,5g"
+  },
+  "tips": [
+    "Für extra Schärfe kannst du etwas Pul Biber (türkische Chiliflocken) über die Füllung streuen oder in die Sauce rühren.",
+    "Auch anderes Gemüse wie gebratene Paprika oder Zucchini schmeckt hervorragend in diesem vegetarischen Dürüm."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Veggie-Dürüm ein Hit ist",
+    "reasons": [
+      {
+        "title": "Besser als gekauft",
+        "description": "Selbstgemacht schmeckt es einfach am besten! Du weißt genau, was drin ist: nur frische und leckere Zutaten."
+      },
+      {
+        "title": "Blitzschnell fertig",
+        "description": "In unter 30 Minuten hast du ein unglaublich befriedigendes und sättigendes Essen auf dem Tisch. Perfekt für den Feierabend."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dir deinen selbstgemachten Dürüm schmecken!",
+    "subText": "Ich bin gespannt, wie er dir gelingt!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Schritt 1: Saucen-Magie",
+      "description": "Wir starten mit der cremigen Joghurt-Minz-Sauce. Sie ist das Herzstück und sorgt für die perfekte Frische und Saftigkeit."
+    },
+    {
+      "title": "Schritt 2: Halloumi vorbereiten & braten",
+      "description": "Der Halloumi wird in einer simplen, aber aromatischen Marinade gewendet und dann goldbraun gebraten. Das sorgt für den würzigen Biss."
+    },
+    {
+      "title": "Schritt 3: Belegen & Rollen",
+      "description": "Jetzt kommt der große Moment: Wir schichten alle Komponenten – Sauce, Salat und den heißen Halloumi – auf den warmen Yufka-Fladen und rollen alles zu einem perfekten Dürüm."
+    }
+  ],
+  "servingSuggestion": "Genieße den Dürüm sofort, solange der Halloumi noch warm und der Salat frisch und knackig ist.",
+  "servingSuggestions": {
+    "title": "Was dazu passt",
+    "description": "Eigentlich ist der Dürüm schon eine komplette Mahlzeit, aber wenn du magst, passt Folgendes dazu:",
+    "note": "",
+    "items": [
+      {
+        "emoji": "🍟",
+        "title": "Pommes Frites",
+        "description": "Ein Klassiker wie im Imbiss! Ein paar knusprige Pommes als Beilage sind immer eine gute Idee."
+      },
+      {
+        "emoji": "🥤",
+        "title": "Ayran",
+        "description": "Das traditionelle türkische Joghurtgetränk passt perfekt und rundet das Geschmackserlebnis authentisch ab."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Was bedeutet Dürüm?",
+    "description": "Das Wort „Dürüm“ kommt aus dem Türkischen und bedeutet schlicht „Rolle“ oder „gewickelt“, was dieses leckere Gericht perfekt beschreibt."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/dueruem-vegetarisch-zutaten.jpeg",
+    "image1": "/images/MainCourses/vegetarischer-dueruem-rezept-einfach.jpeg",
+    "image2": "/images/MainCourses/dueruem-mit-halloumi-selber-machen.jpeg",
+    "image3": "/images/MainCourses/veggie-dueruem-gerollt.jpeg",
+    "image4": "/images/MainCourses/halloumi-anbraten-fuer-dueruem.jpeg",
+    "image5": "/images/MainCourses/joghurt-minz-sauce-rezept.jpeg",
+    "image6": "/images/MainCourses/yufka-rolle-vegetarisch-frisch.jpeg",
+    "image7": "/images/MainCourses/vegetarischer-dueruem-angeschnitten.jpeg"
+  }
 }
 ];
 
