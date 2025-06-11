@@ -15928,8 +15928,8 @@ export const recipes: Recipe[] = [
   "nutrition": {
     "calories": 1790,
     "protein": "79g",
-    "carbs": "167,6g",
-    "fat": "101,5g"
+    "carbs": "167.6g",
+    "fat": "101.5g"
   },
   "tips": [
     "Für extra Schärfe kannst du etwas Pul Biber (türkische Chiliflocken) über die Füllung streuen oder in die Sauce rühren.",
@@ -15998,6 +15998,187 @@ export const recipes: Recipe[] = [
     "image5": "/images/MainCourses/joghurt-minz-sauce-rezept.jpeg",
     "image6": "/images/MainCourses/yufka-rolle-vegetarisch-frisch.jpeg",
     "image7": "/images/MainCourses/vegetarischer-dueruem-angeschnitten.jpeg"
+  }
+},
+{
+  "title": "Cremiger Avocado-Limetten-Dip",
+  "seo_title": "Cremiger Avocado-Limetten-Dip: Das beste Rezept für Guacamole",
+  "image": "/images/Salads/avocado-limetten-dip.jpeg",
+  "prepTime": 10,
+  "cookingTime": 0,
+  "seo_keywords": [    
+    "Guacamole selber machen",
+    "veganer Dip",
+    "schneller Avocado Dip",
+    "Limetten Avocado Dip",
+    "einfacher Avocado Dip",
+    "mexikanischer Dip",
+    "avocado dip",
+    "avocado dip Rezept",
+    "avocado dip rezepte",
+    "rezept avocado dip",
+    "avocado dip vegan",
+    "avocado dip selber machen",
+    "avocado dip einfach",
+    "rezept für avocado dip"
+
+  ],
+  "rating": 4.8,
+  "reviews": 124,
+  "category": "Salate",
+  "slug": "avocado-dip",
+  "tags": [
+    "vegan",    
+    "schnell",
+    "party",
+    "mexikanisch",
+    "salate"
+  ],
+  "createdDate": new Date("2025-05-20T14:30:00Z"),
+  "updatedDate": new Date("2025-06-05T10:00:00Z"),
+  "servings": 4,
+  "description": "Blitzschneller, cremiger Avocado-Limetten-Dip – das beste Rezept für Guacamole!",
+  "descriptionOnImage": "Dein cremiger Avocado-Limetten-Dip, perfekt für jede Gelegenheit!",
+  "introductionParagraph": "Wer liebt sie nicht, diese herrlich cremige Guacamole? Mein Avocado-Limetten-Dip ist einfach unwiderstehlich und blitzschnell zubereitet. Perfekt für spontane Gäste oder einen gemütlichen Abend!",
+  "additionalParagraph": "Ich persönlich finde, nichts geht über einen frischen Avocado Dip. Dieses Rezept ist mein absoluter Favorit geworden, weil es so einfach ist und trotzdem diesen unglaublich vollen Geschmack hat, der einfach süchtig macht.",
+  "ingredientsNeeded": [
+    {
+      "title": "Reife Avocados",
+      "description": "Das Herzstück des Dips – sie sorgen für die unschlagbare Cremigkeit und den milden Geschmack."
+    },
+    {
+      "title": "Frische Limetten",
+      "description": "Der Saft der Limetten ist entscheidend für die Frische und verhindert gleichzeitig das Braunwerden der Avocados."
+    },
+    {
+      "title": "Rote Zwiebel",
+      "description": "Gibt dem Dip eine leichte Schärfe und sorgt für eine interessante Textur. Keine Sorge, sie ist nicht zu dominant!"
+    },
+    {
+      "title": "Koriander",
+      "description": "Unverzichtbar für den authentischen, frischen Geschmack. Wer ihn nicht mag, kann ihn aber auch weglassen."
+    },
+    {
+      "title": "Chilischote",
+      "description": "Für den gewissen Kick! Du kannst die Schärfe ganz nach Belieben anpassen."
+    },
+    {
+      "title": "Knoblauchzehe",
+      "description": "Verleiht dem Dip eine angenehme Würze."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Cremiger Avocado-Basis",
+      "description": "Die Grundlage für unseren wunderbaren Dip.",
+      "ingredients": [
+        { "amount": 3, "unit": "Stück", "name": "reife Avocados" },
+        { "amount": 1, "unit": "Stück", "name": "Limette (Saft)" },
+        { "amount": undefined, "unit": "Prise", "name": "Salz" },
+        { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    },
+    {
+      "title": "Aromatische Ergänzungen",
+      "description": "Diese Zutaten verleihen dem Dip seinen unverwechselbaren Geschmack.",
+      "ingredients": [
+        { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein gewürfelt)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+        { "amount": 0.5, "unit": "Stück", "name": "rote Chilischote (entkernt und fein gehackt)" },
+        { "amount": 1, "unit": "Stück", "name": "Knoblauchzehe (gepresst oder fein gerieben)" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 3, "unit": "Stück", "name": "reife Avocados" },
+    { "amount": 1, "unit": "Stück", "name": "Limette (Saft)" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein gewürfelt)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Chilischote (entkernt und fein gehackt)" },
+    { "amount": 1, "unit": "Stück", "name": "Knoblauchzehe (gepresst oder fein gerieben)" },
+    { "amount": undefined, "unit": "Prise", "name": "Salz" },
+    { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Die Avocados halbieren, den Kern entfernen und das Fruchtfleisch mit einem Löffel in eine Schüssel geben.",
+    "Das Avocadofleisch mit einer Gabel grob zerdrücken. Es soll noch leicht stückig sein.",
+    "Den Saft der Limette, Salz und Pfeffer hinzufügen und gut verrühren.",
+    "Rote Zwiebel, gehackten Koriander, gehackte Chilischote und gepressten Knoblauch dazugeben und vorsichtig unterheben.",
+    "Den Dip abschmecken und gegebenenfalls noch etwas Salz, Pfeffer oder Limettensaft hinzufügen. Sofort servieren oder abgedeckt im Kühlschrank lagern."
+  ],
+  "nutrition": {
+    "calories": 870,
+    "protein": "10.5g",
+    "carbs": "49.5g",
+    "fat": "77.1g"
+  },
+  "tips": [
+    "Um ein Braunwerden des Dips zu verhindern, drücke Frischhaltefolie direkt auf die Oberfläche des Dips, bevor du ihn in den Kühlschrank stellst.",
+    "Für eine rauchige Note kannst du eine Prise Kreuzkümmel hinzufügen."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Avocado-Dip einfach unschlagbar ist",
+    "reasons": [
+      {
+        "title": "Blitzschnell zubereitet",
+        "description": "In weniger als 10 Minuten steht dieser köstliche Dip auf dem Tisch – perfekt für unerwarteten Besuch oder als schneller Snack."
+      },
+      {
+        "title": "Frische Zutaten, bester Geschmack",
+        "description": "Die Kombination aus reifen Avocados, spritziger Limette und frischen Kräutern sorgt für ein unvergleichliches Geschmackserlebnis."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dir diesen Avocado-Limetten-Dip schmecken!",
+    "subText": "Ich bin gespannt, wie er dir gefällt!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Die Basis schaffen",
+      "description": "Avocados vorbereiten und die erste Geschmacksschicht mit Limette, Salz und Pfeffer anlegen."
+    },
+    {
+      "title": "Würze und Aroma hinzufügen",
+      "description": "Die feinen Zwiebel-, Koriander-, Chili- und Knoblauchstückchen unterheben, die dem Dip seinen charakteristischen Geschmack verleihen."
+    },
+    {
+      "title": "Perfektionierung",
+      "description": "Abschmecken und die Balance der Aromen finden, um den perfekten Dip zu kreieren."
+    }
+  ],
+  "servingSuggestion": "Serviere diesen cremigen Avocado-Limetten-Dip am besten mit knusprigen Tortilla-Chips oder als Beilage zu deinen Lieblings-Tacos.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Avocado-Dip",
+    "description": "Dieser vielseitige Dip passt hervorragend zu einer Vielzahl von Gerichten und Snacks.",
+    "note": "Probiere es einfach aus und finde deine Lieblingskombination!",
+    "items": [
+      {
+        "emoji": "🌮",
+        "title": "Tacos",
+        "description": "Ein Muss für jede Taco-Night! Er verleiht eine frische, cremige Komponente."
+      },
+      {
+        "emoji": "🍞",
+        "title": "Auf Brot oder Toast",
+        "description": "Ein einfacher, aber köstlicher Aufstrich für dein Frühstück oder Abendbrot – besonders lecker mit etwas Tomate."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Avocados sind botanisch gesehen Beeren und nicht, wie oft angenommen, ein Gemüse! Sie sind reich an gesunden Fetten und Vitaminen."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/avocado-dip-zutaten.jpeg",
+    "image1": "/images/Salads/cremiger-avocado-dip-tortilla-chips.jpeg",
+    "image2": "/images/Salads/frische-guacamole-textur-limette.jpeg",
+    "image3": "/images/Salads/avocado-zerdruecken-dip-zubereitung.jpeg",
+    "image4": "/images/Salads/alle-zutaten-avocado-dip-vorbereiten.jpeg",
+    "image5": "/images/Salads/veganer-avocado-dip-garniert.jpeg",
+    "image6": "/images/Salads/schneller-avocado-dip-snack-idee.jpeg",
+    "image7": "/images/Salads/einfacher-avocado-dip-party-snack.jpeg"
   }
 }
 ];
