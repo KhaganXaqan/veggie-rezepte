@@ -16180,6 +16180,185 @@ export const recipes: Recipe[] = [
     "image6": "/images/Salads/schneller-avocado-dip-snack-idee.jpeg",
     "image7": "/images/Salads/einfacher-avocado-dip-party-snack.jpeg"
   }
+},
+{
+  "title": "Erfrischender Tomatensalat mit roten Zwiebeln und Kräutern",
+  "seo_title": "Tomatensalat mit Zwiebeln: Dein bestes Rezept für den Sommer",
+  "image": "/images/Salads/tomatensalat-mit-zwiebeln.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "tomatensalat mit zwiebeln",
+    "omas tomatensalat mit zwiebeln",
+    "tomatensalat mit zwiebeln essig öl",
+    "tomatensalat mit zwiebeln einfach",
+    "einfacher tomatensalat mit zwiebeln",
+    "tomatensalat mit zwiebeln gesund",
+    "rezept tomatensalat mit zwiebeln",
+    "tomatensalat mit zwiebeln essig-öl",
+    "dressing tomatensalat mit zwiebeln",
+    "dressing für tomatensalat mit zwiebeln"
+  ],
+  "rating": 4.9,
+  "reviews": 98,
+  "category": "Salate",
+  "slug": "tomatensalat-mit-zwiebeln",
+  "tags": [    
+    "vegan",
+    "glutenfrei",
+    "Sommer",
+    "Beilage"
+  ],
+  "createdDate": new Date("2025-06-13T09:00:00Z"),
+  "updatedDate": new Date("2025-06-13T18:00:00Z"),
+  "servings": 4,
+  "description": "Blitzschneller Tomatensalat mit Zwiebeln: Dein perfekter Sommer-Klassiker!",
+  "descriptionOnImage": "So einfach, so lecker: Dein Tomatensalat mit Zwiebeln!",
+  "introductionParagraph": "Ach, was gibt es Schöneres als einen einfachen, aber unglaublich aromatischen Tomatensalat an einem warmen Sommertag? Dieses Rezept für Tomatensalat mit Zwiebeln ist für mich der Inbegriff von Sommerfrische!",
+  "additionalParagraph": "Ich liebe es, wie die Süße der reifen Tomaten auf die leichte Schärfe der roten Zwiebeln trifft und das Ganze von einem einfachen Dressing perfekt abgerundet wird. Es ist wirklich ein Klassiker, der einfach immer geht!",
+  "ingredientsNeeded": [
+    {
+      "title": "Reife Tomaten",
+      "description": "Sie sind der Star des Salats und sollten voll im Geschmack sein – je reifer, desto besser."
+    },
+    {
+      "title": "Rote Zwiebeln",
+      "description": "Sie geben dem Salat eine angenehme Schärfe und eine wunderschöne Farbe. Durch das Einlegen in Essig werden sie milder."
+    },
+    {
+      "title": "Frische Kräuter",
+      "description": "Petersilie und Basilikum verleihen dem Salat eine unvergleichliche Frische und ein mediterranes Aroma."
+    },
+    {
+      "title": "Gutes Olivenöl",
+      "description": "Ein hochwertiges Olivenöl ist entscheidend für den vollmundigen Geschmack des Dressings."
+    },
+    {
+      "title": "Weißweinessig",
+      "description": "Er sorgt für die nötige Säure und rundet das Dressing perfekt ab."
+    },
+    {
+      "title": "Senf",
+      "description": "Eine kleine Menge Senf emulgiert das Dressing und gibt ihm eine feine Würze."
+    },
+    {
+      "title": "Zucker oder Agavendicksaft",
+      "description": "Für die perfekte Balance wird ein Hauch Süße benötigt, der die Säure des Essigs harmonisiert."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Tomatensalat",
+      "description": "Die Hauptkomponenten für unseren erfrischenden Salat.",
+      "ingredients": [
+        { "amount": 800, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, z.B. Fleischtomaten und Kirschtomaten)" },
+        { "amount": 2, "unit": "Stück", "name": "rote Zwiebeln (mittelgroß)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frische glatte Petersilie (gehackt)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frisches Basilikum (Blätter gezupft)" }
+      ]
+    },
+    {
+      "title": "Für das Dressing",
+      "description": "Das einfache, aber geschmacksintensive Dressing.",
+      "ingredients": [
+        { "amount": 4, "unit": "EL", "name": "hochwertiges Olivenöl" },
+        { "amount": 2, "unit": "EL", "name": "Weißweinessig" },
+        { "amount": 1, "unit": "TL", "name": "Senf (mittelscharf)" },
+        { "amount": 0.5, "unit": "TL", "name": "Zucker oder Agavendicksaft" },
+        { "amount": undefined, "unit": "Prise", "name": "Salz" },
+        { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 800, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, z.B. Fleischtomaten und Kirschtomaten)" },
+    { "amount": 2, "unit": "Stück", "name": "rote Zwiebeln (mittelgroß)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frische glatte Petersilie (gehackt)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frisches Basilikum (Blätter gezupft)" },
+    { "amount": 4, "unit": "EL", "name": "hochwertiges Olivenöl" },
+    { "amount": 2, "unit": "EL", "name": "Weißweinessig" },
+    { "amount": 1, "unit": "TL", "name": "Senf (mittelscharf)" },
+    { "amount": 0.5, "unit": "TL", "name": "Zucker oder Agavendicksaft" },
+    { "amount": undefined, "unit": "Prise", "name": "Salz" },
+    { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Die Tomaten waschen und in mundgerechte Stücke schneiden. Größere Tomaten vierteln oder achteln, Kirschtomaten halbieren.",
+    "Die roten Zwiebeln schälen und in sehr feine Ringe oder halbe Ringe schneiden. Für einen milderen Geschmack kannst du die Zwiebelringe kurz in kaltem Wasser oder etwas Essig einlegen.",
+    "Petersilie grob hacken und Basilikumblätter zupfen.",
+    "Für das Dressing Olivenöl, Weißweinessig, Senf, Zucker, Salz und Pfeffer in einer kleinen Schüssel verquirlen, bis alles gut verbunden ist.",
+    "Tomaten, Zwiebeln und gehackte Petersilie in einer großen Salatschüssel vermischen. Das Dressing darüber gießen und alles gut vermengen. Die Basilikumblätter kurz vor dem Servieren unterheben.",
+    "Den Salat für mindestens 10-15 Minuten ziehen lassen, damit sich die Aromen entfalten können. Vor dem Servieren nochmals abschmecken."
+  ],
+  "nutrition": {
+    "calories": 757,
+    "protein": "11.1g",
+    "carbs": "50.9g",
+    "fat": "58.3g"
+  },
+  "tips": [
+    "Für eine noch intensivere Geschmacksnote kannst du den Tomatensalat schon 30 Minuten vor dem Servieren zubereiten und ziehen lassen. Das macht ihn noch aromatischer!",
+    "Experimentiere mit verschiedenen Tomatensorten – bunte Tomaten machen den Salat optisch besonders ansprechend."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Tomatensalat mit Zwiebeln ein Muss ist",
+    "reasons": [
+      {
+        "title": "Geschmacksexplosion in jedem Bissen",
+        "description": "Die Kombination aus süßen Tomaten und würzigen Zwiebeln, abgerundet mit frischen Kräutern und einem spritzigen Dressing, ist einfach unwiderstehlich."
+      },
+      {
+        "title": "Blitzschnell & unkompliziert",
+        "description": "Dieses Rezept beweist, dass die besten Dinge im Leben oft die einfachsten sind. Perfekt für spontane Grillabende oder als schnelle Beilage."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Guten Appetit mit deinem frischen Tomatensalat!",
+    "subText": "Ich hoffe, er schmeckt dir genauso gut wie mir!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Vorbereitung der Hauptzutaten",
+      "description": "Tomaten schneiden und Zwiebeln vorbereiten, um die Basis für den Salat zu schaffen."
+    },
+    {
+      "title": "Das Dressing anrühren",
+      "description": "Alle Zutaten für das Dressing vermischen, um eine perfekte Balance aus Süße, Säure und Würze zu erhalten."
+    },
+    {
+      "title": "Alles vereinen und ziehen lassen",
+      "description": "Die vorbereiteten Zutaten mit dem Dressing vermengen und dem Salat Zeit geben, damit sich die Aromen optimal entfalten können."
+    }
+  ],
+  "servingSuggestion": "Dieser Tomatensalat mit Zwiebeln ist eine fantastische Beilage zu Gegrilltem, aber auch solo mit etwas knusprigem Brot ein Hochgenuss.",
+  "servingSuggestions": {
+    "title": "Vielseitige Serviervorschläge",
+    "description": "Dein Tomatensalat mit Zwiebeln ist ein wahrer Alleskönner und passt zu vielen Gelegenheiten.",
+    "note": "Lass deiner Kreativität freien Lauf!",
+    "items": [
+      {
+        "emoji": "🧀",
+        "title": "Mit Feta oder Mozzarella",
+        "description": "Für eine zusätzliche Note mediterraner Köstlichkeit, einfach etwas gewürfelten Feta oder Mozzarella hinzufügen."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Interessante Tomaten-Fakten",
+    "description": "Wusstest du, dass Tomaten ursprünglich aus Südamerika stammen und im 16. Jahrhundert nach Europa kamen? Lange Zeit wurden sie nur als Zierpflanzen angesehen!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/tomatensalat-mit-zwiebeln-zutaten.jpeg",
+    "image1": "/images/Salads/tomatensalat-zwiebeln-frisch.jpeg",
+    "image2": "/images/Salads/einfacher-tomatensalat-serviert.jpeg",
+    "image3": "/images/Salads/sommersalat-tomatensalat-rezept.jpeg",
+    "image4": "/images/Salads/veganer-tomatensalat-zwiebeln.jpeg",
+    "image5": "/images/Salads/frischer-tomatensalat-nahaufnahme.jpeg",
+    "image6": "/images/Salads/schneller-tomatensalat-beilage.jpeg",
+    "image7": "/images/Salads/salatbeilage-tomate-zwiebel.jpeg"
+  }
 }
 ];
 
