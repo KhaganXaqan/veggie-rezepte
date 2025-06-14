@@ -16359,6 +16359,219 @@ export const recipes: Recipe[] = [
     "image6": "/images/Salads/schneller-tomatensalat-beilage.jpeg",
     "image7": "/images/Salads/salatbeilage-tomate-zwiebel.jpeg"
   }
+},
+{
+  "title": "Asiatischer Glasnudelsalat mit knackigem Gemüse",
+  "seo_title": "Glasnudelsalat Rezept: Vegan, schnell & voller Aroma",
+  "image": "/images/Salads/glasnudelsalat.png",
+  "prepTime": 20,
+  "cookingTime": 5,
+  "seo_keywords": [    
+    "glasnudelsalat",
+    "glasnudelsalat rezept",
+    "asiatischer glasnudelsalat",
+    "rezept glasnudelsalat",
+    "glasnudelsalat vegan",
+    "glasnudelsalat asiatisch",
+    "glasnudelsalat mit tofu",
+    "glasnudelsalat rezepte"
+  ],
+  "rating": 4.7,
+  "reviews": 75,
+  "category": "Salate",
+  "slug": "glasnudelsalat",
+  "tags": [
+    "vegan",
+    "asiatisch",
+    "schnell",
+    "leicht",
+    "frisch"
+  ],
+  "createdDate": new Date("2025-06-14T10:00:00Z"),
+  "updatedDate": new Date("2025-06-14T11:45:00Z"),
+  "servings": 4,
+  "description": "Erfrischender, veganer Glasnudelsalat – schnell zubereitet und voller asiatischer Aromen!",
+  "descriptionOnImage": "Dein einfacher & leckerer Glasnudelsalat für jeden Tag!",
+  "introductionParagraph": "Ach, dieser Glasnudelsalat ist einfach fantastisch, wenn es schnell gehen muss und man trotzdem etwas Besonderes möchte! Er ist leicht, knackig und strotzt nur so vor asiatischen Aromen, die meine Küche immer in einen kleinen Urlaub verwandeln.",
+  "additionalParagraph": "Ich liebe es, wie die Glasnudeln das Dressing aufsaugen und das bunte Gemüse für den unwiderstehlichen Biss sorgt. Es ist das perfekte Gericht für heiße Tage oder als leichte Beilage, die einfach jeden begeistert. Und das Beste? Er ist blitzschnell fertig!",
+  "ingredientsNeeded": [
+    {
+      "title": "Glasnudeln",
+      "description": "Die Grundlage des Salats, sie sind leicht und nehmen die Aromen des Dressings wunderbar auf."
+    },
+    {
+      "title": "Frisches Gemüse (Gurke, Karotte, Paprika)",
+      "description": "Knackige Gurke, süße Karotten und farbenfrohe Paprika sorgen für eine bunte Vielfalt an Texturen und wichtigen Vitaminen."
+    },
+    {
+      "title": "Sojasauce",
+      "description": "Die Basis des asiatischen Dressings, die für Tiefe und Umami-Geschmack sorgt."
+    },
+    {
+      "title": "Limette",
+      "description": "Der Saft der Limette verleiht dem Dressing eine frische, zitrusartige Note und belebt den gesamten Salat."
+    },
+    {
+      "title": "Erdnussbutter",
+      "description": "Für eine cremige Textur und einen nussigen Geschmack im Dressing – ein absolutes Highlight und sorgt für Sättigung!"
+    },
+    {
+      "title": "Ingwer und Knoblauch",
+      "description": "Diese aromatischen Wurzeln geben dem Dressing seine würzige, unverwechselbare Note und Frische."
+    },
+    {
+      "title": "Frischer Koriander",
+      "description": "Unverzichtbar für den authentisch asiatischen Geschmack und eine frische Kräuternote."
+    },
+    {
+      "title": "Reisessig",
+      "description": "Verleiht dem Dressing eine milde Säure, die perfekt mit den anderen asiatischen Aromen harmoniert."
+    },
+    {
+      "title": "Ahornsirup oder Agavendicksaft",
+      "description": "Eine natürliche Süße, die die Balance im Dressing herstellt und die Aromen abrundet."
+    },
+    {
+      "title": "Sesamöl",
+      "description": "Röstet die Aromen im Dressing und sorgt für einen typisch asiatischen Duft und Geschmack."
+    },
+    {
+      "title": "Rote Chilischote",
+      "description": "Für den optionalen Schärfekick, der dem Salat eine aufregende Note verleiht."
+    },
+    {
+      "title": "Geröstete Erdnüsse",
+      "description": "Bieten einen tollen Crunch und eine zusätzliche nussige Geschmacksdimension als Topping."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Glasnudelsalat",
+      "description": "Die Basis und das knackige Gemüse für unseren Salat.",
+      "ingredients": [
+        { "amount": 150, "unit": "g", "name": "Glasnudeln" },
+        { "amount": 1, "unit": "Stück", "name": "Gurke (halbiert, entkernt, in feine Streifen geschnitten)" },
+        { "amount": 2, "unit": "Stück", "name": "Karotten (geschält, in feine Streifen geschnitten)" },
+        { "amount": 1, "unit": "Stück", "name": "rote Paprika (entkernt, in feine Streifen geschnitten)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+        { "amount": 2, "unit": "EL", "name": "geröstete Erdnüsse (gehackt, optional)" }
+      ]
+    },
+    {
+      "title": "Für das cremige Erdnuss-Dressing",
+      "description": "Das Herzstück des Salats, das ihm seinen unwiderstehlichen asiatischen Geschmack verleiht.",
+      "ingredients": [
+        { "amount": 4, "unit": "EL", "name": "Sojasauce" },
+        { "amount": 2, "unit": "EL", "name": "Erdnussbutter (cremig)" },
+        { "amount": 2, "unit": "EL", "name": "Limettensaft (frisch gepresst)" },
+        { "amount": 1, "unit": "EL", "name": "Reisessig" },
+        { "amount": 1, "unit": "EL", "name": "Ahornsirup oder Agavendicksaft" },
+        { "amount": 1, "unit": "TL", "name": "geriebener Ingwer" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "amount": 0.5, "unit": "Stück", "name": "rote Chilischote (fein gehackt, optional)" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 150, "unit": "g", "name": "Glasnudeln" },
+    { "amount": 1, "unit": "Stück", "name": "Gurke (halbiert, entkernt, in feine Streifen geschnitten)" },
+    { "amount": 2, "unit": "Stück", "name": "Karotten (geschält, in feine Streifen geschnitten)" },
+    { "amount": 1, "unit": "Stück", "name": "rote Paprika (entkernt, in feine Streifen geschnitten)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+    { "amount": 2, "unit": "EL", "name": "geröstete Erdnüsse (gehackt, optional)" },
+    { "amount": 4, "unit": "EL", "name": "Sojasauce" },
+    { "amount": 2, "unit": "EL", "name": "Erdnussbutter (cremig)" },
+    { "amount": 2, "unit": "EL", "name": "Limettensaft (frisch gepresst)" },
+    { "amount": 1, "unit": "EL", "name": "Reisessig" },
+    { "amount": 1, "unit": "EL", "name": "Ahornsirup oder Agavendicksaft" },
+    { "amount": 1, "unit": "TL", "name": "geriebener Ingwer" },
+    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+    { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Chilischote (fein gehackt, optional)" }
+  ],
+  "instructions": [
+    "Die Glasnudeln nach Packungsanweisung zubereiten. Meistens bedeutet das, sie mit kochendem Wasser zu übergießen und 3-5 Minuten ziehen zu lassen. Anschließend abgießen, kurz mit kaltem Wasser abschrecken und mit einer Schere etwas kürzen.",
+    "Gurke, Karotten und Paprika in sehr feine Streifen schneiden. Je feiner, desto besser integrieren sie sich in den Salat.",
+    "Für das Dressing alle Zutaten (Sojasauce, Erdnussbutter, Limettensaft, Reisessig, Ahornsirup, Ingwer, Knoblauch, Sesamöl, optional Chili) in einer kleinen Schüssel gründlich verrühren, bis ein cremiges und homogenes Dressing entsteht.",
+    "In einer großen Schüssel die vorbereiteten Glasnudeln und das geschnittene Gemüse vermischen. Den gehackten Koriander hinzufügen.",
+    "Das Dressing über den Salat gießen und alles gut vermengen, sodass alle Zutaten gleichmäßig mit dem Dressing bedeckt sind.",
+    "Den Glasnudelsalat für mindestens 10-15 Minuten im Kühlschrank ziehen lassen, damit die Aromen gut durchziehen können. Vor dem Servieren mit gehackten Erdnüssen bestreuen."
+  ],
+  "nutrition": {
+    "calories": 1215,
+    "protein": "24.6g",
+    "carbs": "189.6g",
+    "fat": "42.5g"
+  },
+  "tips": [
+    "Für zusätzliche Proteine kannst du gebratenen Tofu oder Edamame zum Salat geben. Das macht ihn noch sättigender!",
+    "Wenn du keine frische Chilischote hast, kannst du auch eine Prise Chiliflocken oder Sriracha-Sauce ins Dressing geben."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Glasnudelsalat einfach perfekt ist",
+    "reasons": [
+      {
+        "title": "Leichtigkeit trifft Geschmack",
+        "description": "Dieser Salat ist wunderbar leicht und doch unglaublich geschmacksintensiv – eine perfekte Kombination für eine gesunde und sättigende Mahlzeit."
+      },
+      {
+        "title": "Vielseitig & Anzupassen",
+        "description": "Ob mit Tofu, Garnelen oder einfach nur Gemüse – dieser Glasnudelsalat lässt sich super anpassen und ist immer ein Hit."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass es dir schmecken mit diesem wunderbaren Glasnudelsalat!",
+    "subText": "Ich bin gespannt auf dein Feedback!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Nudeln und Gemüse vorbereiten",
+      "description": "Die Glasnudeln garen und das frische Gemüse für den Salat fein schneiden."
+    },
+    {
+      "title": "Das cremige Erdnuss-Dressing zaubern",
+      "description": "Alle Zutaten für das Dressing vermischen, um die Basis für den einzigartigen asiatischen Geschmack zu schaffen."
+    },
+    {
+      "title": "Alles zusammenführen und ziehen lassen",
+      "description": "Nudeln und Gemüse mit dem Dressing vermengen und dem Salat Zeit geben, damit er seine vollen Aromen entfalten kann."
+    }
+  ],
+  "servingSuggestion": "Serviere den Glasnudelsalat als leichte Hauptmahlzeit, als Beilage zu asiatischen Gerichten oder als Teil eines sommerlichen Buffets.",
+  "servingSuggestions": {
+    "title": "Passende Begleiter für deinen Glasnudelsalat",
+    "description": "Dieser asiatische Glasnudelsalat ist unglaublich vielseitig und schmeckt mit verschiedenen Ergänzungen noch besser.",
+    "note": "Probiere doch mal deine Lieblingszutaten aus!",
+    "items": [
+      {
+        "emoji": "🥢",
+        "title": "Mit Tofu",
+        "description": "Für eine proteinreichere Mahlzeit einfach gewürfelten, knusprig gebratenen Tofu hinzufügen."
+      },
+      {
+        "emoji": "🍜",
+        "title": "Als Sommerrollen-Füllung",
+        "description": "Die Salatfüllung eignet sich auch hervorragend, um damit frische Sommerrollen zu füllen – ein Gedicht!"
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Interessantes über Glasnudeln",
+    "description": "Wusstest du, dass Glasnudeln, auch Zellophan-Nudeln genannt, hauptsächlich aus Stärke von Mungbohnen, Süßkartoffeln oder Reis hergestellt werden? Sie sind von Natur aus glutenfrei!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/glasnudelsalat-zutaten.jpeg",
+    "image1": "/images/Salads/asiatischer-glasnudelsalat-vegan.png",
+    "image2": "/images/Salads/glasnudelsalat-mit-gemuese.png",
+    "image3": "/images/Salads/schneller-glasnudelsalat-dressing.png",
+    "image4": "/images/Salads/gesunder-glasnudelsalat-sommer.png",
+    "image5": "/images/Salads/bunter-glasnudelsalat-frisch.png",
+    "image6": "/images/Salads/glasnudelsalat-schuessel.png",
+    "image7": "/images/Salads/glasnudelsalat-servierfertig.png"
+  }
 }
 ];
 
