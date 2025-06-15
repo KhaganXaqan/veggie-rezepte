@@ -16563,7 +16563,7 @@ export const recipes: Recipe[] = [
     "description": "Wusstest du, dass Glasnudeln, auch Zellophan-Nudeln genannt, hauptsächlich aus Stärke von Mungbohnen, Süßkartoffeln oder Reis hergestellt werden? Sie sind von Natur aus glutenfrei!"
   },
   "images": {
-    "imageIngredient": "/images/Ingredients/glasnudelsalat-zutaten.jpeg",
+    "imageIngredient": "/images/Ingredients/glasnudelsalat-zutaten.png",
     "image1": "/images/Salads/asiatischer-glasnudelsalat-vegan.png",
     "image2": "/images/Salads/glasnudelsalat-mit-gemuese.png",
     "image3": "/images/Salads/schneller-glasnudelsalat-dressing.png",
@@ -16571,6 +16571,190 @@ export const recipes: Recipe[] = [
     "image5": "/images/Salads/bunter-glasnudelsalat-frisch.png",
     "image6": "/images/Salads/glasnudelsalat-schuessel.png",
     "image7": "/images/Salads/glasnudelsalat-servierfertig.png"
+  }
+},
+{
+  "title": "Bunter Kichererbsensalat mit mediterranem Flair",
+  "seo_title": "Kichererbsensalat Rezept: Schnell, vegan & proteinreich",
+  "image": "/images/Salads/kichererbsensalat.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "kichererbsensalat",
+    "kichererbsensalat rezept",
+    "schneller kichererbsensalat",
+    "kichererbsensalat orientalisch",
+    "rezept kichererbsensalat",
+    "kichererbsensalat einfach",
+    "kichererbsensalat vegan",
+    "der beste kichererbsensalat",
+    "mediterraner kichererbsensalat",
+    "klassischer kichererbsensalat",
+    "orientalischer kichererbsensalat"
+  ],
+  "rating": 4.8,
+  "reviews": 112,
+  "category": "Salate",
+  "slug": "kichererbsensalat",
+  "tags": [
+    "vegan",
+    "proteinreich",
+    "schnell",
+    "mediterran"
+  ],
+  "createdDate": new Date("2025-06-15T13:00:00Z"),
+  "updatedDate": new Date("2025-06-15T13:05:00Z"),
+  "servings": 6,
+  "description": "Dein einfacher Kichererbsensalat: Vegan, proteinreich und blitzschnell fertig!",
+  "descriptionOnImage": "Dieser Kichererbsensalat bringt mediterrane Sonne auf deinen Teller!",
+  "introductionParagraph": "Ich liebe diesen Kichererbsensalat! Er ist so wunderbar einfach zuzubereiten und doch so voller Geschmack. Perfekt, wenn es mal schnell gehen muss, aber man trotzdem etwas Richtiges und Gesundes auf den Tisch bringen möchte.",
+  "additionalParagraph": "Für mich ist er die ideale Beilage zum Grillen, ein tolles Mittagessen für unterwegs oder einfach ein leichter Snack zwischendurch. Die Kombination aus den zarten Kichererbsen, knackigem Gemüse und dem frischen Dressing ist einfach unschlagbar.",
+  "ingredientsNeeded": [
+    {
+      "title": "Kichererbsen aus der Dose",
+      "description": "Sie sind die Hauptzutat, super praktisch und liefern eine ordentliche Portion pflanzliches Protein und Ballaststoffe."
+    },
+    {
+      "title": "Buntes Gemüse (Gurke, Paprika, Tomaten, Zwiebel)",
+      "description": "Frisches, knackiges Gemüse sorgt für Farbe, Vitamine und einen angenehmen Biss im Salat."
+    },
+    {
+      "title": "Frische Petersilie",
+      "description": "Verleiht dem Salat eine aromatische Frische und einen schönen grünen Farbtupfer."
+    },
+    {
+      "title": "Olivenöl",
+      "description": "Ein gutes, natives Olivenöl bildet die Basis für unser mediterranes Dressing und sorgt für gesunde Fette."
+    },
+    {
+      "title": "Zitronensaft",
+      "description": "Frisch gepresster Zitronensaft bringt die notwendige Säure ins Dressing und hebt die Aromen hervor."
+    },
+    {
+      "title": "Knoblauch",
+      "description": "Eine feine Knoblauchnote rundet das Dressing ab und passt perfekt zu den mediterranen Aromen."
+    },
+    {
+      "title": "Kreuzkümmel",
+      "description": "Dieses Gewürz verleiht dem Salat eine typisch orientalische, warme und erdige Note, die hervorragend zu Kichererbsen passt."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Kichererbsensalat",
+      "description": "Die Hauptbestandteile des Salats für eine bunte und nahrhafte Mischung.",
+      "ingredients": [
+        { "amount": 2, "unit": "Dosen", "name": "Kichererbsen (je 400g Abtropfgewicht, gespült und abgetropft)" },
+        { "amount": 0.5, "unit": "Stück", "name": "Gurke (gewürfelt)" },
+        { "amount": 1, "unit": "Stück", "name": "rote Paprika (gewürfelt)" },
+        { "amount": 200, "unit": "g", "name": "Kirschtomaten (halbiert)" },
+        { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein gewürfelt)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frische glatte Petersilie (gehackt)" }
+      ]
+    },
+    {
+      "title": "Für das Zitronen-Knoblauch-Dressing",
+      "description": "Ein leichtes und aromatisches Dressing, das dem Salat seinen mediterranen Geschmack verleiht.",
+      "ingredients": [
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 2, "unit": "EL", "name": "Zitronensaft (frisch gepresst)" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst oder fein gerieben)" },
+        { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (gemahlen, optional)" },
+        { "amount": "", "unit": "Prise", "name": "Salz" },
+        { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 2, "unit": "Dosen", "name": "Kichererbsen (je 400g Abtropfgewicht, gespült und abgetropft)" },
+    { "amount": 0.5, "unit": "Stück", "name": "Gurke (gewürfelt)" },
+    { "amount": 1, "unit": "Stück", "name": "rote Paprika (gewürfelt)" },
+    { "amount": 200, "unit": "g", "name": "Kirschtomaten (halbiert)" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein gewürfelt)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frische glatte Petersilie (gehackt)" },
+    { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+    { "amount": 2, "unit": "EL", "name": "Zitronensaft (frisch gepresst)" },
+    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst oder fein gerieben)" },
+    { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (gemahlen, optional)" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Die Kichererbsen gründlich unter kaltem Wasser abspülen und gut abtropfen lassen. Das ist wichtig, um den Geschmack zu neutralisieren.",
+    "Gurke, rote Paprika und Kirschtomaten waschen und in mundgerechte Würfel bzw. Hälften schneiden. Die rote Zwiebel sehr fein würfeln und die Petersilie hacken.",
+    "In einer großen Salatschüssel die vorbereiteten Kichererbsen, das gewürfelte Gemüse, die Zwiebel und die gehackte Petersilie vermischen.",
+    "Für das Dressing Olivenöl, Zitronensaft, gepressten Knoblauch, optional gemahlenen Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel gut verrühren, bis sich alle Zutaten verbunden haben.",
+    "Das Dressing über den Kichererbsensalat gießen und alles sorgfältig vermengen, sodass das Gemüse und die Kichererbsen gleichmäßig mit dem Dressing benetzt sind.",
+    "Den Salat für mindestens 10 Minuten ziehen lassen, damit die Aromen gut durchziehen können. Vor dem Servieren nochmals abschmecken und bei Bedarf nachwürzen."
+  ],
+  "nutrition": {
+    "calories": 1730,
+    "protein": "67.9g",
+    "carbs": "234.3g",
+    "fat": "59.45g"
+  },
+  "tips": [
+    "Für eine zusätzliche Textur und noch mehr Geschmack kannst du den Kichererbsensalat mit gerösteten Pinienkernen oder gehackten Walnüssen bestreuen.",
+    "Der Salat schmeckt am besten, wenn er ein bisschen durchgezogen ist. Perfekt also für die Meal Prep oder wenn Gäste kommen."
+  ],
+  "whyFavorite": {
+    "title": "Darum ist dieser Kichererbsensalat ein Liebling!",
+    "reasons": [
+      {
+        "title": "Proteinreich und sättigend",
+        "description": "Dank der Kichererbsen ist dieser Salat nicht nur lecker, sondern auch eine wunderbare pflanzliche Proteinquelle, die lange satt hält."
+      },
+      {
+        "title": "Perfekt für jede Gelegenheit",
+        "description": "Ob als Hauptgericht, leichte Beilage zum Grillen oder für das Buffet – dieser bunte Salat ist immer eine gute Wahl und super vorzubereiten."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dir diesen herrlichen Kichererbsensalat schmecken!",
+    "subText": "Ich bin gespannt, welche mediterranen Träume er bei dir weckt!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Vorbereitung der Basis",
+      "description": "Kichererbsen spülen und das Gemüse für den Salat schnibbeln, um die Grundlage zu legen."
+    },
+    {
+      "title": "Das Dressing anrühren",
+      "description": "Alle Zutaten für das aromatische Zitronen-Knoblauch-Dressing vermischen."
+    },
+    {
+      "title": "Vereinen und ziehen lassen",
+      "description": "Alle Salatzutaten und das Dressing miteinander vermengen und dem Salat Zeit geben, damit sich die Aromen perfekt verbinden."
+    }
+  ],
+  "servingSuggestion": "Dieser vielseitige Kichererbsensalat schmeckt fantastisch als Beilage zu Gegrilltem, als leichtes Mittagessen mit Fladenbrot oder als proteinreicher Snack.",
+  "servingSuggestions": {
+    "title": "Ideale Begleiter für deinen Kichererbsensalat",
+    "description": "Dieser frische Salat ist ein wahrer Alleskönner und lässt sich hervorragend kombinieren.",
+    "note": "Probiere doch mal deine Lieblingskombination aus!",
+    "items": [
+      {
+        "emoji": "🥙",
+        "title": "Im Pitabrot",
+        "description": "Fülle den Salat in ein aufgewärmtes Pitabrot oder Fladenbrot für ein schnelles, sättigendes Gericht."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes über Kichererbsen",
+    "description": "Kichererbsen sind nicht nur lecker und vielseitig, sondern auch echte Kraftpakete! Sie sind reich an pflanzlichem Protein, Ballaststoffen und Eisen – eine tolle Bereicherung für jede Ernährung."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/kichererbsensalat-zutaten.jpeg",
+    "image1": "/images/Salads/kichererbsensalat-mediterran.jpeg",
+    "image2": "/images/Salads/veganer-kichererbsensalat-schnell.jpeg",
+    "image3": "/images/Salads/proteinreicher-kichererbsensalat.jpeg",
+    "image4": "/images/Salads/gesunder-kichererbsensalat-rezept.jpeg",
+    "image5": "/images/Salads/kichererbsensalat-sommer.jpeg",
+    "image6": "/images/Salads/bunter-kichererbsensalat-frisch.jpeg",
+    "image7": "/images/Salads/kichererbsen-salat-serviert.jpeg"
   }
 }
 ];
