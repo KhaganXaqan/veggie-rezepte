@@ -15928,8 +15928,8 @@ export const recipes: Recipe[] = [
   "nutrition": {
     "calories": 1790,
     "protein": "79g",
-    "carbs": "167,6g",
-    "fat": "101,5g"
+    "carbs": "167.6g",
+    "fat": "101.5g"
   },
   "tips": [
     "Für extra Schärfe kannst du etwas Pul Biber (türkische Chiliflocken) über die Füllung streuen oder in die Sauce rühren.",
@@ -15998,6 +15998,763 @@ export const recipes: Recipe[] = [
     "image5": "/images/MainCourses/joghurt-minz-sauce-rezept.jpeg",
     "image6": "/images/MainCourses/yufka-rolle-vegetarisch-frisch.jpeg",
     "image7": "/images/MainCourses/vegetarischer-dueruem-angeschnitten.jpeg"
+  }
+},
+{
+  "title": "Cremiger Avocado-Limetten-Dip",
+  "seo_title": "Cremiger Avocado-Limetten-Dip: Das beste Rezept für Guacamole",
+  "image": "/images/Salads/avocado-limetten-dip.jpeg",
+  "prepTime": 10,
+  "cookingTime": 0,
+  "seo_keywords": [    
+    "Guacamole selber machen",
+    "veganer Dip",
+    "schneller Avocado Dip",
+    "Limetten Avocado Dip",
+    "einfacher Avocado Dip",
+    "mexikanischer Dip",
+    "avocado dip",
+    "avocado dip Rezept",
+    "avocado dip rezepte",
+    "rezept avocado dip",
+    "avocado dip vegan",
+    "avocado dip selber machen",
+    "avocado dip einfach",
+    "rezept für avocado dip"
+
+  ],
+  "rating": 4.8,
+  "reviews": 124,
+  "category": "Salate",
+  "slug": "avocado-dip",
+  "tags": [
+    "vegan",    
+    "schnell",
+    "party",
+    "mexikanisch",
+    "salate"
+  ],
+  "createdDate": new Date("2025-05-20T14:30:00Z"),
+  "updatedDate": new Date("2025-06-05T10:00:00Z"),
+  "servings": 4,
+  "description": "Blitzschneller, cremiger Avocado-Limetten-Dip – das beste Rezept für Guacamole!",
+  "descriptionOnImage": "Dein cremiger Avocado-Limetten-Dip, perfekt für jede Gelegenheit!",
+  "introductionParagraph": "Wer liebt sie nicht, diese herrlich cremige Guacamole? Mein Avocado-Limetten-Dip ist einfach unwiderstehlich und blitzschnell zubereitet. Perfekt für spontane Gäste oder einen gemütlichen Abend!",
+  "additionalParagraph": "Ich persönlich finde, nichts geht über einen frischen Avocado Dip. Dieses Rezept ist mein absoluter Favorit geworden, weil es so einfach ist und trotzdem diesen unglaublich vollen Geschmack hat, der einfach süchtig macht.",
+  "ingredientsNeeded": [
+    {
+      "title": "Reife Avocados",
+      "description": "Das Herzstück des Dips – sie sorgen für die unschlagbare Cremigkeit und den milden Geschmack."
+    },
+    {
+      "title": "Frische Limetten",
+      "description": "Der Saft der Limetten ist entscheidend für die Frische und verhindert gleichzeitig das Braunwerden der Avocados."
+    },
+    {
+      "title": "Rote Zwiebel",
+      "description": "Gibt dem Dip eine leichte Schärfe und sorgt für eine interessante Textur. Keine Sorge, sie ist nicht zu dominant!"
+    },
+    {
+      "title": "Koriander",
+      "description": "Unverzichtbar für den authentischen, frischen Geschmack. Wer ihn nicht mag, kann ihn aber auch weglassen."
+    },
+    {
+      "title": "Chilischote",
+      "description": "Für den gewissen Kick! Du kannst die Schärfe ganz nach Belieben anpassen."
+    },
+    {
+      "title": "Knoblauchzehe",
+      "description": "Verleiht dem Dip eine angenehme Würze."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Cremiger Avocado-Basis",
+      "description": "Die Grundlage für unseren wunderbaren Dip.",
+      "ingredients": [
+        { "amount": 3, "unit": "Stück", "name": "reife Avocados" },
+        { "amount": 1, "unit": "Stück", "name": "Limette (Saft)" },
+        { "amount": undefined, "unit": "Prise", "name": "Salz" },
+        { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    },
+    {
+      "title": "Aromatische Ergänzungen",
+      "description": "Diese Zutaten verleihen dem Dip seinen unverwechselbaren Geschmack.",
+      "ingredients": [
+        { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein gewürfelt)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+        { "amount": 0.5, "unit": "Stück", "name": "rote Chilischote (entkernt und fein gehackt)" },
+        { "amount": 1, "unit": "Stück", "name": "Knoblauchzehe (gepresst oder fein gerieben)" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 3, "unit": "Stück", "name": "reife Avocados" },
+    { "amount": 1, "unit": "Stück", "name": "Limette (Saft)" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein gewürfelt)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Chilischote (entkernt und fein gehackt)" },
+    { "amount": 1, "unit": "Stück", "name": "Knoblauchzehe (gepresst oder fein gerieben)" },
+    { "amount": undefined, "unit": "Prise", "name": "Salz" },
+    { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Die Avocados halbieren, den Kern entfernen und das Fruchtfleisch mit einem Löffel in eine Schüssel geben.",
+    "Das Avocadofleisch mit einer Gabel grob zerdrücken. Es soll noch leicht stückig sein.",
+    "Den Saft der Limette, Salz und Pfeffer hinzufügen und gut verrühren.",
+    "Rote Zwiebel, gehackten Koriander, gehackte Chilischote und gepressten Knoblauch dazugeben und vorsichtig unterheben.",
+    "Den Dip abschmecken und gegebenenfalls noch etwas Salz, Pfeffer oder Limettensaft hinzufügen. Sofort servieren oder abgedeckt im Kühlschrank lagern."
+  ],
+  "nutrition": {
+    "calories": 870,
+    "protein": "10.5g",
+    "carbs": "49.5g",
+    "fat": "77.1g"
+  },
+  "tips": [
+    "Um ein Braunwerden des Dips zu verhindern, drücke Frischhaltefolie direkt auf die Oberfläche des Dips, bevor du ihn in den Kühlschrank stellst.",
+    "Für eine rauchige Note kannst du eine Prise Kreuzkümmel hinzufügen."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Avocado-Dip einfach unschlagbar ist",
+    "reasons": [
+      {
+        "title": "Blitzschnell zubereitet",
+        "description": "In weniger als 10 Minuten steht dieser köstliche Dip auf dem Tisch – perfekt für unerwarteten Besuch oder als schneller Snack."
+      },
+      {
+        "title": "Frische Zutaten, bester Geschmack",
+        "description": "Die Kombination aus reifen Avocados, spritziger Limette und frischen Kräutern sorgt für ein unvergleichliches Geschmackserlebnis."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dir diesen Avocado-Limetten-Dip schmecken!",
+    "subText": "Ich bin gespannt, wie er dir gefällt!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Die Basis schaffen",
+      "description": "Avocados vorbereiten und die erste Geschmacksschicht mit Limette, Salz und Pfeffer anlegen."
+    },
+    {
+      "title": "Würze und Aroma hinzufügen",
+      "description": "Die feinen Zwiebel-, Koriander-, Chili- und Knoblauchstückchen unterheben, die dem Dip seinen charakteristischen Geschmack verleihen."
+    },
+    {
+      "title": "Perfektionierung",
+      "description": "Abschmecken und die Balance der Aromen finden, um den perfekten Dip zu kreieren."
+    }
+  ],
+  "servingSuggestion": "Serviere diesen cremigen Avocado-Limetten-Dip am besten mit knusprigen Tortilla-Chips oder als Beilage zu deinen Lieblings-Tacos.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Avocado-Dip",
+    "description": "Dieser vielseitige Dip passt hervorragend zu einer Vielzahl von Gerichten und Snacks.",
+    "note": "Probiere es einfach aus und finde deine Lieblingskombination!",
+    "items": [
+      {
+        "emoji": "🌮",
+        "title": "Tacos",
+        "description": "Ein Muss für jede Taco-Night! Er verleiht eine frische, cremige Komponente."
+      },
+      {
+        "emoji": "🍞",
+        "title": "Auf Brot oder Toast",
+        "description": "Ein einfacher, aber köstlicher Aufstrich für dein Frühstück oder Abendbrot – besonders lecker mit etwas Tomate."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Avocados sind botanisch gesehen Beeren und nicht, wie oft angenommen, ein Gemüse! Sie sind reich an gesunden Fetten und Vitaminen."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/avocado-dip-zutaten.jpeg",
+    "image1": "/images/Salads/cremiger-avocado-dip-tortilla-chips.jpeg",
+    "image2": "/images/Salads/frische-guacamole-textur-limette.jpeg",
+    "image3": "/images/Salads/avocado-zerdruecken-dip-zubereitung.jpeg",
+    "image4": "/images/Salads/alle-zutaten-avocado-dip-vorbereiten.jpeg",
+    "image5": "/images/Salads/veganer-avocado-dip-garniert.jpeg",
+    "image6": "/images/Salads/schneller-avocado-dip-snack-idee.jpeg",
+    "image7": "/images/Salads/einfacher-avocado-dip-party-snack.jpeg"
+  }
+},
+{
+  "title": "Erfrischender Tomatensalat mit roten Zwiebeln und Kräutern",
+  "seo_title": "Tomatensalat mit Zwiebeln: Dein bestes Rezept für den Sommer",
+  "image": "/images/Salads/tomatensalat-mit-zwiebeln.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "tomatensalat mit zwiebeln",
+    "omas tomatensalat mit zwiebeln",
+    "tomatensalat mit zwiebeln essig öl",
+    "tomatensalat mit zwiebeln einfach",
+    "einfacher tomatensalat mit zwiebeln",
+    "tomatensalat mit zwiebeln gesund",
+    "rezept tomatensalat mit zwiebeln",
+    "tomatensalat mit zwiebeln essig-öl",
+    "dressing tomatensalat mit zwiebeln",
+    "dressing für tomatensalat mit zwiebeln"
+  ],
+  "rating": 4.9,
+  "reviews": 98,
+  "category": "Salate",
+  "slug": "tomatensalat-mit-zwiebeln",
+  "tags": [    
+    "vegan",
+    "glutenfrei",
+    "Sommer",
+    "Beilage"
+  ],
+  "createdDate": new Date("2025-06-13T09:00:00Z"),
+  "updatedDate": new Date("2025-06-13T18:00:00Z"),
+  "servings": 4,
+  "description": "Blitzschneller Tomatensalat mit Zwiebeln: Dein perfekter Sommer-Klassiker!",
+  "descriptionOnImage": "So einfach, so lecker: Dein Tomatensalat mit Zwiebeln!",
+  "introductionParagraph": "Ach, was gibt es Schöneres als einen einfachen, aber unglaublich aromatischen Tomatensalat an einem warmen Sommertag? Dieses Rezept für Tomatensalat mit Zwiebeln ist für mich der Inbegriff von Sommerfrische!",
+  "additionalParagraph": "Ich liebe es, wie die Süße der reifen Tomaten auf die leichte Schärfe der roten Zwiebeln trifft und das Ganze von einem einfachen Dressing perfekt abgerundet wird. Es ist wirklich ein Klassiker, der einfach immer geht!",
+  "ingredientsNeeded": [
+    {
+      "title": "Reife Tomaten",
+      "description": "Sie sind der Star des Salats und sollten voll im Geschmack sein – je reifer, desto besser."
+    },
+    {
+      "title": "Rote Zwiebeln",
+      "description": "Sie geben dem Salat eine angenehme Schärfe und eine wunderschöne Farbe. Durch das Einlegen in Essig werden sie milder."
+    },
+    {
+      "title": "Frische Kräuter",
+      "description": "Petersilie und Basilikum verleihen dem Salat eine unvergleichliche Frische und ein mediterranes Aroma."
+    },
+    {
+      "title": "Gutes Olivenöl",
+      "description": "Ein hochwertiges Olivenöl ist entscheidend für den vollmundigen Geschmack des Dressings."
+    },
+    {
+      "title": "Weißweinessig",
+      "description": "Er sorgt für die nötige Säure und rundet das Dressing perfekt ab."
+    },
+    {
+      "title": "Senf",
+      "description": "Eine kleine Menge Senf emulgiert das Dressing und gibt ihm eine feine Würze."
+    },
+    {
+      "title": "Zucker oder Agavendicksaft",
+      "description": "Für die perfekte Balance wird ein Hauch Süße benötigt, der die Säure des Essigs harmonisiert."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Tomatensalat",
+      "description": "Die Hauptkomponenten für unseren erfrischenden Salat.",
+      "ingredients": [
+        { "amount": 800, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, z.B. Fleischtomaten und Kirschtomaten)" },
+        { "amount": 2, "unit": "Stück", "name": "rote Zwiebeln (mittelgroß)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frische glatte Petersilie (gehackt)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frisches Basilikum (Blätter gezupft)" }
+      ]
+    },
+    {
+      "title": "Für das Dressing",
+      "description": "Das einfache, aber geschmacksintensive Dressing.",
+      "ingredients": [
+        { "amount": 4, "unit": "EL", "name": "hochwertiges Olivenöl" },
+        { "amount": 2, "unit": "EL", "name": "Weißweinessig" },
+        { "amount": 1, "unit": "TL", "name": "Senf (mittelscharf)" },
+        { "amount": 0.5, "unit": "TL", "name": "Zucker oder Agavendicksaft" },
+        { "amount": undefined, "unit": "Prise", "name": "Salz" },
+        { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 800, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, z.B. Fleischtomaten und Kirschtomaten)" },
+    { "amount": 2, "unit": "Stück", "name": "rote Zwiebeln (mittelgroß)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frische glatte Petersilie (gehackt)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frisches Basilikum (Blätter gezupft)" },
+    { "amount": 4, "unit": "EL", "name": "hochwertiges Olivenöl" },
+    { "amount": 2, "unit": "EL", "name": "Weißweinessig" },
+    { "amount": 1, "unit": "TL", "name": "Senf (mittelscharf)" },
+    { "amount": 0.5, "unit": "TL", "name": "Zucker oder Agavendicksaft" },
+    { "amount": undefined, "unit": "Prise", "name": "Salz" },
+    { "amount": undefined, "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Die Tomaten waschen und in mundgerechte Stücke schneiden. Größere Tomaten vierteln oder achteln, Kirschtomaten halbieren.",
+    "Die roten Zwiebeln schälen und in sehr feine Ringe oder halbe Ringe schneiden. Für einen milderen Geschmack kannst du die Zwiebelringe kurz in kaltem Wasser oder etwas Essig einlegen.",
+    "Petersilie grob hacken und Basilikumblätter zupfen.",
+    "Für das Dressing Olivenöl, Weißweinessig, Senf, Zucker, Salz und Pfeffer in einer kleinen Schüssel verquirlen, bis alles gut verbunden ist.",
+    "Tomaten, Zwiebeln und gehackte Petersilie in einer großen Salatschüssel vermischen. Das Dressing darüber gießen und alles gut vermengen. Die Basilikumblätter kurz vor dem Servieren unterheben.",
+    "Den Salat für mindestens 10-15 Minuten ziehen lassen, damit sich die Aromen entfalten können. Vor dem Servieren nochmals abschmecken."
+  ],
+  "nutrition": {
+    "calories": 757,
+    "protein": "11.1g",
+    "carbs": "50.9g",
+    "fat": "58.3g"
+  },
+  "tips": [
+    "Für eine noch intensivere Geschmacksnote kannst du den Tomatensalat schon 30 Minuten vor dem Servieren zubereiten und ziehen lassen. Das macht ihn noch aromatischer!",
+    "Experimentiere mit verschiedenen Tomatensorten – bunte Tomaten machen den Salat optisch besonders ansprechend."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Tomatensalat mit Zwiebeln ein Muss ist",
+    "reasons": [
+      {
+        "title": "Geschmacksexplosion in jedem Bissen",
+        "description": "Die Kombination aus süßen Tomaten und würzigen Zwiebeln, abgerundet mit frischen Kräutern und einem spritzigen Dressing, ist einfach unwiderstehlich."
+      },
+      {
+        "title": "Blitzschnell & unkompliziert",
+        "description": "Dieses Rezept beweist, dass die besten Dinge im Leben oft die einfachsten sind. Perfekt für spontane Grillabende oder als schnelle Beilage."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Guten Appetit mit deinem frischen Tomatensalat!",
+    "subText": "Ich hoffe, er schmeckt dir genauso gut wie mir!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Vorbereitung der Hauptzutaten",
+      "description": "Tomaten schneiden und Zwiebeln vorbereiten, um die Basis für den Salat zu schaffen."
+    },
+    {
+      "title": "Das Dressing anrühren",
+      "description": "Alle Zutaten für das Dressing vermischen, um eine perfekte Balance aus Süße, Säure und Würze zu erhalten."
+    },
+    {
+      "title": "Alles vereinen und ziehen lassen",
+      "description": "Die vorbereiteten Zutaten mit dem Dressing vermengen und dem Salat Zeit geben, damit sich die Aromen optimal entfalten können."
+    }
+  ],
+  "servingSuggestion": "Dieser Tomatensalat mit Zwiebeln ist eine fantastische Beilage zu Gegrilltem, aber auch solo mit etwas knusprigem Brot ein Hochgenuss.",
+  "servingSuggestions": {
+    "title": "Vielseitige Serviervorschläge",
+    "description": "Dein Tomatensalat mit Zwiebeln ist ein wahrer Alleskönner und passt zu vielen Gelegenheiten.",
+    "note": "Lass deiner Kreativität freien Lauf!",
+    "items": [
+      {
+        "emoji": "🧀",
+        "title": "Mit Feta oder Mozzarella",
+        "description": "Für eine zusätzliche Note mediterraner Köstlichkeit, einfach etwas gewürfelten Feta oder Mozzarella hinzufügen."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Interessante Tomaten-Fakten",
+    "description": "Wusstest du, dass Tomaten ursprünglich aus Südamerika stammen und im 16. Jahrhundert nach Europa kamen? Lange Zeit wurden sie nur als Zierpflanzen angesehen!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/tomatensalat-mit-zwiebeln-zutaten.jpeg",
+    "image1": "/images/Salads/tomatensalat-zwiebeln-frisch.jpeg",
+    "image2": "/images/Salads/einfacher-tomatensalat-serviert.jpeg",
+    "image3": "/images/Salads/sommersalat-tomatensalat-rezept.jpeg",
+    "image4": "/images/Salads/veganer-tomatensalat-zwiebeln.jpeg",
+    "image5": "/images/Salads/frischer-tomatensalat-nahaufnahme.jpeg",
+    "image6": "/images/Salads/schneller-tomatensalat-beilage.jpeg",
+    "image7": "/images/Salads/salatbeilage-tomate-zwiebel.jpeg"
+  }
+},
+{
+  "title": "Asiatischer Glasnudelsalat mit knackigem Gemüse",
+  "seo_title": "Glasnudelsalat Rezept: Vegan, schnell & voller Aroma",
+  "image": "/images/Salads/glasnudelsalat.png",
+  "prepTime": 20,
+  "cookingTime": 5,
+  "seo_keywords": [    
+    "glasnudelsalat",
+    "glasnudelsalat rezept",
+    "asiatischer glasnudelsalat",
+    "rezept glasnudelsalat",
+    "glasnudelsalat vegan",
+    "glasnudelsalat asiatisch",
+    "glasnudelsalat mit tofu",
+    "glasnudelsalat rezepte"
+  ],
+  "rating": 4.7,
+  "reviews": 75,
+  "category": "Salate",
+  "slug": "glasnudelsalat",
+  "tags": [
+    "vegan",
+    "asiatisch",
+    "schnell",
+    "leicht",
+    "frisch"
+  ],
+  "createdDate": new Date("2025-06-14T10:00:00Z"),
+  "updatedDate": new Date("2025-06-14T11:45:00Z"),
+  "servings": 4,
+  "description": "Erfrischender, veganer Glasnudelsalat – schnell zubereitet und voller asiatischer Aromen!",
+  "descriptionOnImage": "Dein einfacher & leckerer Glasnudelsalat für jeden Tag!",
+  "introductionParagraph": "Ach, dieser Glasnudelsalat ist einfach fantastisch, wenn es schnell gehen muss und man trotzdem etwas Besonderes möchte! Er ist leicht, knackig und strotzt nur so vor asiatischen Aromen, die meine Küche immer in einen kleinen Urlaub verwandeln.",
+  "additionalParagraph": "Ich liebe es, wie die Glasnudeln das Dressing aufsaugen und das bunte Gemüse für den unwiderstehlichen Biss sorgt. Es ist das perfekte Gericht für heiße Tage oder als leichte Beilage, die einfach jeden begeistert. Und das Beste? Er ist blitzschnell fertig!",
+  "ingredientsNeeded": [
+    {
+      "title": "Glasnudeln",
+      "description": "Die Grundlage des Salats, sie sind leicht und nehmen die Aromen des Dressings wunderbar auf."
+    },
+    {
+      "title": "Frisches Gemüse (Gurke, Karotte, Paprika)",
+      "description": "Knackige Gurke, süße Karotten und farbenfrohe Paprika sorgen für eine bunte Vielfalt an Texturen und wichtigen Vitaminen."
+    },
+    {
+      "title": "Sojasauce",
+      "description": "Die Basis des asiatischen Dressings, die für Tiefe und Umami-Geschmack sorgt."
+    },
+    {
+      "title": "Limette",
+      "description": "Der Saft der Limette verleiht dem Dressing eine frische, zitrusartige Note und belebt den gesamten Salat."
+    },
+    {
+      "title": "Erdnussbutter",
+      "description": "Für eine cremige Textur und einen nussigen Geschmack im Dressing – ein absolutes Highlight und sorgt für Sättigung!"
+    },
+    {
+      "title": "Ingwer und Knoblauch",
+      "description": "Diese aromatischen Wurzeln geben dem Dressing seine würzige, unverwechselbare Note und Frische."
+    },
+    {
+      "title": "Frischer Koriander",
+      "description": "Unverzichtbar für den authentisch asiatischen Geschmack und eine frische Kräuternote."
+    },
+    {
+      "title": "Reisessig",
+      "description": "Verleiht dem Dressing eine milde Säure, die perfekt mit den anderen asiatischen Aromen harmoniert."
+    },
+    {
+      "title": "Ahornsirup oder Agavendicksaft",
+      "description": "Eine natürliche Süße, die die Balance im Dressing herstellt und die Aromen abrundet."
+    },
+    {
+      "title": "Sesamöl",
+      "description": "Röstet die Aromen im Dressing und sorgt für einen typisch asiatischen Duft und Geschmack."
+    },
+    {
+      "title": "Rote Chilischote",
+      "description": "Für den optionalen Schärfekick, der dem Salat eine aufregende Note verleiht."
+    },
+    {
+      "title": "Geröstete Erdnüsse",
+      "description": "Bieten einen tollen Crunch und eine zusätzliche nussige Geschmacksdimension als Topping."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Glasnudelsalat",
+      "description": "Die Basis und das knackige Gemüse für unseren Salat.",
+      "ingredients": [
+        { "amount": 150, "unit": "g", "name": "Glasnudeln" },
+        { "amount": 1, "unit": "Stück", "name": "Gurke (halbiert, entkernt, in feine Streifen geschnitten)" },
+        { "amount": 2, "unit": "Stück", "name": "Karotten (geschält, in feine Streifen geschnitten)" },
+        { "amount": 1, "unit": "Stück", "name": "rote Paprika (entkernt, in feine Streifen geschnitten)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+        { "amount": 2, "unit": "EL", "name": "geröstete Erdnüsse (gehackt, optional)" }
+      ]
+    },
+    {
+      "title": "Für das cremige Erdnuss-Dressing",
+      "description": "Das Herzstück des Salats, das ihm seinen unwiderstehlichen asiatischen Geschmack verleiht.",
+      "ingredients": [
+        { "amount": 4, "unit": "EL", "name": "Sojasauce" },
+        { "amount": 2, "unit": "EL", "name": "Erdnussbutter (cremig)" },
+        { "amount": 2, "unit": "EL", "name": "Limettensaft (frisch gepresst)" },
+        { "amount": 1, "unit": "EL", "name": "Reisessig" },
+        { "amount": 1, "unit": "EL", "name": "Ahornsirup oder Agavendicksaft" },
+        { "amount": 1, "unit": "TL", "name": "geriebener Ingwer" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "amount": 0.5, "unit": "Stück", "name": "rote Chilischote (fein gehackt, optional)" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 150, "unit": "g", "name": "Glasnudeln" },
+    { "amount": 1, "unit": "Stück", "name": "Gurke (halbiert, entkernt, in feine Streifen geschnitten)" },
+    { "amount": 2, "unit": "Stück", "name": "Karotten (geschält, in feine Streifen geschnitten)" },
+    { "amount": 1, "unit": "Stück", "name": "rote Paprika (entkernt, in feine Streifen geschnitten)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+    { "amount": 2, "unit": "EL", "name": "geröstete Erdnüsse (gehackt, optional)" },
+    { "amount": 4, "unit": "EL", "name": "Sojasauce" },
+    { "amount": 2, "unit": "EL", "name": "Erdnussbutter (cremig)" },
+    { "amount": 2, "unit": "EL", "name": "Limettensaft (frisch gepresst)" },
+    { "amount": 1, "unit": "EL", "name": "Reisessig" },
+    { "amount": 1, "unit": "EL", "name": "Ahornsirup oder Agavendicksaft" },
+    { "amount": 1, "unit": "TL", "name": "geriebener Ingwer" },
+    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+    { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Chilischote (fein gehackt, optional)" }
+  ],
+  "instructions": [
+    "Die Glasnudeln nach Packungsanweisung zubereiten. Meistens bedeutet das, sie mit kochendem Wasser zu übergießen und 3-5 Minuten ziehen zu lassen. Anschließend abgießen, kurz mit kaltem Wasser abschrecken und mit einer Schere etwas kürzen.",
+    "Gurke, Karotten und Paprika in sehr feine Streifen schneiden. Je feiner, desto besser integrieren sie sich in den Salat.",
+    "Für das Dressing alle Zutaten (Sojasauce, Erdnussbutter, Limettensaft, Reisessig, Ahornsirup, Ingwer, Knoblauch, Sesamöl, optional Chili) in einer kleinen Schüssel gründlich verrühren, bis ein cremiges und homogenes Dressing entsteht.",
+    "In einer großen Schüssel die vorbereiteten Glasnudeln und das geschnittene Gemüse vermischen. Den gehackten Koriander hinzufügen.",
+    "Das Dressing über den Salat gießen und alles gut vermengen, sodass alle Zutaten gleichmäßig mit dem Dressing bedeckt sind.",
+    "Den Glasnudelsalat für mindestens 10-15 Minuten im Kühlschrank ziehen lassen, damit die Aromen gut durchziehen können. Vor dem Servieren mit gehackten Erdnüssen bestreuen."
+  ],
+  "nutrition": {
+    "calories": 1215,
+    "protein": "24.6g",
+    "carbs": "189.6g",
+    "fat": "42.5g"
+  },
+  "tips": [
+    "Für zusätzliche Proteine kannst du gebratenen Tofu oder Edamame zum Salat geben. Das macht ihn noch sättigender!",
+    "Wenn du keine frische Chilischote hast, kannst du auch eine Prise Chiliflocken oder Sriracha-Sauce ins Dressing geben."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Glasnudelsalat einfach perfekt ist",
+    "reasons": [
+      {
+        "title": "Leichtigkeit trifft Geschmack",
+        "description": "Dieser Salat ist wunderbar leicht und doch unglaublich geschmacksintensiv – eine perfekte Kombination für eine gesunde und sättigende Mahlzeit."
+      },
+      {
+        "title": "Vielseitig & Anzupassen",
+        "description": "Ob mit Tofu, Garnelen oder einfach nur Gemüse – dieser Glasnudelsalat lässt sich super anpassen und ist immer ein Hit."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass es dir schmecken mit diesem wunderbaren Glasnudelsalat!",
+    "subText": "Ich bin gespannt auf dein Feedback!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Nudeln und Gemüse vorbereiten",
+      "description": "Die Glasnudeln garen und das frische Gemüse für den Salat fein schneiden."
+    },
+    {
+      "title": "Das cremige Erdnuss-Dressing zaubern",
+      "description": "Alle Zutaten für das Dressing vermischen, um die Basis für den einzigartigen asiatischen Geschmack zu schaffen."
+    },
+    {
+      "title": "Alles zusammenführen und ziehen lassen",
+      "description": "Nudeln und Gemüse mit dem Dressing vermengen und dem Salat Zeit geben, damit er seine vollen Aromen entfalten kann."
+    }
+  ],
+  "servingSuggestion": "Serviere den Glasnudelsalat als leichte Hauptmahlzeit, als Beilage zu asiatischen Gerichten oder als Teil eines sommerlichen Buffets.",
+  "servingSuggestions": {
+    "title": "Passende Begleiter für deinen Glasnudelsalat",
+    "description": "Dieser asiatische Glasnudelsalat ist unglaublich vielseitig und schmeckt mit verschiedenen Ergänzungen noch besser.",
+    "note": "Probiere doch mal deine Lieblingszutaten aus!",
+    "items": [
+      {
+        "emoji": "🥢",
+        "title": "Mit Tofu",
+        "description": "Für eine proteinreichere Mahlzeit einfach gewürfelten, knusprig gebratenen Tofu hinzufügen."
+      },
+      {
+        "emoji": "🍜",
+        "title": "Als Sommerrollen-Füllung",
+        "description": "Die Salatfüllung eignet sich auch hervorragend, um damit frische Sommerrollen zu füllen – ein Gedicht!"
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Interessantes über Glasnudeln",
+    "description": "Wusstest du, dass Glasnudeln, auch Zellophan-Nudeln genannt, hauptsächlich aus Stärke von Mungbohnen, Süßkartoffeln oder Reis hergestellt werden? Sie sind von Natur aus glutenfrei!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/glasnudelsalat-zutaten.png",
+    "image1": "/images/Salads/asiatischer-glasnudelsalat-vegan.png",
+    "image2": "/images/Salads/glasnudelsalat-mit-gemuese.png",
+    "image3": "/images/Salads/schneller-glasnudelsalat-dressing.png",
+    "image4": "/images/Salads/gesunder-glasnudelsalat-sommer.png",
+    "image5": "/images/Salads/bunter-glasnudelsalat-frisch.png",
+    "image6": "/images/Salads/glasnudelsalat-schuessel.png",
+    "image7": "/images/Salads/glasnudelsalat-servierfertig.png"
+  }
+},
+{
+  "title": "Bunter Kichererbsensalat mit mediterranem Flair",
+  "seo_title": "Kichererbsensalat Rezept: Schnell, vegan & proteinreich",
+  "image": "/images/Salads/kichererbsensalat.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "kichererbsensalat",
+    "kichererbsensalat rezept",
+    "schneller kichererbsensalat",
+    "kichererbsensalat orientalisch",
+    "rezept kichererbsensalat",
+    "kichererbsensalat einfach",
+    "kichererbsensalat vegan",
+    "der beste kichererbsensalat",
+    "mediterraner kichererbsensalat",
+    "klassischer kichererbsensalat",
+    "orientalischer kichererbsensalat"
+  ],
+  "rating": 4.8,
+  "reviews": 112,
+  "category": "Salate",
+  "slug": "kichererbsensalat",
+  "tags": [
+    "vegan",
+    "proteinreich",
+    "schnell",
+    "mediterran"
+  ],
+  "createdDate": new Date("2025-06-15T13:00:00Z"),
+  "updatedDate": new Date("2025-06-15T13:05:00Z"),
+  "servings": 6,
+  "description": "Dein einfacher Kichererbsensalat: Vegan, proteinreich und blitzschnell fertig!",
+  "descriptionOnImage": "Dieser Kichererbsensalat bringt mediterrane Sonne auf deinen Teller!",
+  "introductionParagraph": "Ich liebe diesen Kichererbsensalat! Er ist so wunderbar einfach zuzubereiten und doch so voller Geschmack. Perfekt, wenn es mal schnell gehen muss, aber man trotzdem etwas Richtiges und Gesundes auf den Tisch bringen möchte.",
+  "additionalParagraph": "Für mich ist er die ideale Beilage zum Grillen, ein tolles Mittagessen für unterwegs oder einfach ein leichter Snack zwischendurch. Die Kombination aus den zarten Kichererbsen, knackigem Gemüse und dem frischen Dressing ist einfach unschlagbar.",
+  "ingredientsNeeded": [
+    {
+      "title": "Kichererbsen aus der Dose",
+      "description": "Sie sind die Hauptzutat, super praktisch und liefern eine ordentliche Portion pflanzliches Protein und Ballaststoffe."
+    },
+    {
+      "title": "Buntes Gemüse (Gurke, Paprika, Tomaten, Zwiebel)",
+      "description": "Frisches, knackiges Gemüse sorgt für Farbe, Vitamine und einen angenehmen Biss im Salat."
+    },
+    {
+      "title": "Frische Petersilie",
+      "description": "Verleiht dem Salat eine aromatische Frische und einen schönen grünen Farbtupfer."
+    },
+    {
+      "title": "Olivenöl",
+      "description": "Ein gutes, natives Olivenöl bildet die Basis für unser mediterranes Dressing und sorgt für gesunde Fette."
+    },
+    {
+      "title": "Zitronensaft",
+      "description": "Frisch gepresster Zitronensaft bringt die notwendige Säure ins Dressing und hebt die Aromen hervor."
+    },
+    {
+      "title": "Knoblauch",
+      "description": "Eine feine Knoblauchnote rundet das Dressing ab und passt perfekt zu den mediterranen Aromen."
+    },
+    {
+      "title": "Kreuzkümmel",
+      "description": "Dieses Gewürz verleiht dem Salat eine typisch orientalische, warme und erdige Note, die hervorragend zu Kichererbsen passt."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Kichererbsensalat",
+      "description": "Die Hauptbestandteile des Salats für eine bunte und nahrhafte Mischung.",
+      "ingredients": [
+        { "amount": 2, "unit": "Dosen", "name": "Kichererbsen (je 400g Abtropfgewicht, gespült und abgetropft)" },
+        { "amount": 0.5, "unit": "Stück", "name": "Gurke (gewürfelt)" },
+        { "amount": 1, "unit": "Stück", "name": "rote Paprika (gewürfelt)" },
+        { "amount": 200, "unit": "g", "name": "Kirschtomaten (halbiert)" },
+        { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein gewürfelt)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frische glatte Petersilie (gehackt)" }
+      ]
+    },
+    {
+      "title": "Für das Zitronen-Knoblauch-Dressing",
+      "description": "Ein leichtes und aromatisches Dressing, das dem Salat seinen mediterranen Geschmack verleiht.",
+      "ingredients": [
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 2, "unit": "EL", "name": "Zitronensaft (frisch gepresst)" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst oder fein gerieben)" },
+        { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (gemahlen, optional)" },
+        { "amount": "", "unit": "Prise", "name": "Salz" },
+        { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 2, "unit": "Dosen", "name": "Kichererbsen (je 400g Abtropfgewicht, gespült und abgetropft)" },
+    { "amount": 0.5, "unit": "Stück", "name": "Gurke (gewürfelt)" },
+    { "amount": 1, "unit": "Stück", "name": "rote Paprika (gewürfelt)" },
+    { "amount": 200, "unit": "g", "name": "Kirschtomaten (halbiert)" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein gewürfelt)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frische glatte Petersilie (gehackt)" },
+    { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+    { "amount": 2, "unit": "EL", "name": "Zitronensaft (frisch gepresst)" },
+    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst oder fein gerieben)" },
+    { "amount": 0.5, "unit": "TL", "name": "Kreuzkümmel (gemahlen, optional)" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Die Kichererbsen gründlich unter kaltem Wasser abspülen und gut abtropfen lassen. Das ist wichtig, um den Geschmack zu neutralisieren.",
+    "Gurke, rote Paprika und Kirschtomaten waschen und in mundgerechte Würfel bzw. Hälften schneiden. Die rote Zwiebel sehr fein würfeln und die Petersilie hacken.",
+    "In einer großen Salatschüssel die vorbereiteten Kichererbsen, das gewürfelte Gemüse, die Zwiebel und die gehackte Petersilie vermischen.",
+    "Für das Dressing Olivenöl, Zitronensaft, gepressten Knoblauch, optional gemahlenen Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel gut verrühren, bis sich alle Zutaten verbunden haben.",
+    "Das Dressing über den Kichererbsensalat gießen und alles sorgfältig vermengen, sodass das Gemüse und die Kichererbsen gleichmäßig mit dem Dressing benetzt sind.",
+    "Den Salat für mindestens 10 Minuten ziehen lassen, damit die Aromen gut durchziehen können. Vor dem Servieren nochmals abschmecken und bei Bedarf nachwürzen."
+  ],
+  "nutrition": {
+    "calories": 1730,
+    "protein": "67.9g",
+    "carbs": "234.3g",
+    "fat": "59.45g"
+  },
+  "tips": [
+    "Für eine zusätzliche Textur und noch mehr Geschmack kannst du den Kichererbsensalat mit gerösteten Pinienkernen oder gehackten Walnüssen bestreuen.",
+    "Der Salat schmeckt am besten, wenn er ein bisschen durchgezogen ist. Perfekt also für die Meal Prep oder wenn Gäste kommen."
+  ],
+  "whyFavorite": {
+    "title": "Darum ist dieser Kichererbsensalat ein Liebling!",
+    "reasons": [
+      {
+        "title": "Proteinreich und sättigend",
+        "description": "Dank der Kichererbsen ist dieser Salat nicht nur lecker, sondern auch eine wunderbare pflanzliche Proteinquelle, die lange satt hält."
+      },
+      {
+        "title": "Perfekt für jede Gelegenheit",
+        "description": "Ob als Hauptgericht, leichte Beilage zum Grillen oder für das Buffet – dieser bunte Salat ist immer eine gute Wahl und super vorzubereiten."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dir diesen herrlichen Kichererbsensalat schmecken!",
+    "subText": "Ich bin gespannt, welche mediterranen Träume er bei dir weckt!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Vorbereitung der Basis",
+      "description": "Kichererbsen spülen und das Gemüse für den Salat schnibbeln, um die Grundlage zu legen."
+    },
+    {
+      "title": "Das Dressing anrühren",
+      "description": "Alle Zutaten für das aromatische Zitronen-Knoblauch-Dressing vermischen."
+    },
+    {
+      "title": "Vereinen und ziehen lassen",
+      "description": "Alle Salatzutaten und das Dressing miteinander vermengen und dem Salat Zeit geben, damit sich die Aromen perfekt verbinden."
+    }
+  ],
+  "servingSuggestion": "Dieser vielseitige Kichererbsensalat schmeckt fantastisch als Beilage zu Gegrilltem, als leichtes Mittagessen mit Fladenbrot oder als proteinreicher Snack.",
+  "servingSuggestions": {
+    "title": "Ideale Begleiter für deinen Kichererbsensalat",
+    "description": "Dieser frische Salat ist ein wahrer Alleskönner und lässt sich hervorragend kombinieren.",
+    "note": "Probiere doch mal deine Lieblingskombination aus!",
+    "items": [
+      {
+        "emoji": "🥙",
+        "title": "Im Pitabrot",
+        "description": "Fülle den Salat in ein aufgewärmtes Pitabrot oder Fladenbrot für ein schnelles, sättigendes Gericht."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wissenswertes über Kichererbsen",
+    "description": "Kichererbsen sind nicht nur lecker und vielseitig, sondern auch echte Kraftpakete! Sie sind reich an pflanzlichem Protein, Ballaststoffen und Eisen – eine tolle Bereicherung für jede Ernährung."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/kichererbsensalat-zutaten.jpeg",
+    "image1": "/images/Salads/kichererbsensalat-mediterran.jpeg",
+    "image2": "/images/Salads/veganer-kichererbsensalat-schnell.jpeg",
+    "image3": "/images/Salads/proteinreicher-kichererbsensalat.jpeg",
+    "image4": "/images/Salads/gesunder-kichererbsensalat-rezept.jpeg",
+    "image5": "/images/Salads/kichererbsensalat-sommer.jpeg",
+    "image6": "/images/Salads/bunter-kichererbsensalat-frisch.jpeg",
+    "image7": "/images/Salads/kichererbsen-salat-serviert.jpeg"
   }
 }
 ];
