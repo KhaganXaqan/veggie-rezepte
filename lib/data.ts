@@ -16945,6 +16945,200 @@ export const recipes: Recipe[] = [
     "image6": "/images/Salads/panzanella-serviert.jpeg",
     "image7": "/images/Salads/altes-brot-verwerten-salat.jpeg"
   }
+},
+{
+  "title": "Erfrischender Asiatischer Nudelsalat mit Mie-Nudeln",
+  "seo_title": "Asiatischer Nudelsalat: Mie Nudeln, Gemüse & Soja-Dressing",
+  "image": "/images/Salads/asiatischer-nudelsalat-serviert.jpeg",
+  "prepTime": 20,
+  "cookingTime": 10,
+  "seo_keywords": [
+    "asiatischer nudelsalat",
+    "rezept asiatischer nudelsalat",
+    "asiatischer nudelsalat rezept",
+    "asiatischer nudelsalat vegan",
+    "asiatischer nudelsalat sesam",
+    "asiatischer nudelsalat dressing"
+  ],
+  "rating": 4.6,
+  "reviews": 98,
+  "category": "Salate",
+  "slug": "asiatischer-nudelsalat-mit-mie-nudeln",
+  "tags": [
+    "asiatisch",
+    "vegan",
+    "schnell",
+    "frisch",
+    "Sommer"
+  ],
+  "createdDate": new Date("2025-06-17T17:15:00Z"),
+  "updatedDate": new Date("2025-06-17T17:20:00Z"),
+  "servings": 4,
+  "description": "Blitzschneller asiatischer Nudelsalat mit Mie-Nudeln und knackigem Gemüse. Vegan & lecker!",
+  "descriptionOnImage": "Dein einfacher Asiatischer Nudelsalat für heiße Tage!",
+  "introductionParagraph": "Dieser asiatische Nudelsalat mit Mie-Nudeln ist für mich die perfekte Lösung, wenn der Heißhunger auf etwas Leichtes, aber dennoch Sättigendes kommt! Er ist herrlich frisch und die Aromen nehmen dich direkt mit auf eine kulinarische Reise nach Asien.",
+  "additionalParagraph": "Ich liebe es, wie das knackige Gemüse und die zarten Mie-Nudeln mit dem würzigen Dressing harmonieren. Er ist unglaublich wandelbar und eignet sich hervorragend für ein schnelles Mittagessen, als Beilage oder für das nächste Gartenfest. Einfach zubereitet, aber so voller Geschmack!",
+  "ingredientsNeeded": [
+    {
+      "title": "Mie-Nudeln",
+      "description": "Die Basis des Salats, sie sind schnell gar und nehmen das Dressing wunderbar auf."
+    },
+    {
+      "title": "Buntes Gemüse (Karotten, Gurke, Paprika, Rotkohl)",
+      "description": "Für die Farbe, den Biss und eine Extraportion Vitamine. Je mehr Vielfalt, desto besser!"
+    },
+    {
+      "title": "Frühlingszwiebeln & Koriander",
+      "description": "Diese frischen Kräuter und Zwiebeln verleihen dem Salat seine typisch asiatische Frische und Würze."
+    },
+    {
+      "title": "Sojasauce",
+      "description": "Die salzige Umami-Komponente, die das Herzstück des Dressings bildet."
+    },
+    {
+      "title": "Reisessig",
+      "description": "Bringt eine milde Säure ins Dressing, die perfekt mit den anderen Aromen harmoniert."
+    },
+    {
+      "title": "Sesamöl",
+      "description": "Verleiht dem Dressing sein charakteristisches, nussiges Aroma und eine seidige Textur."
+    },
+    {
+      "title": "Ingwer & Knoblauch",
+      "description": "Die Aromaträger schlechthin für den authentisch asiatischen Geschmackskick."
+    },
+    {
+      "title": "Ahornsirup",
+      "description": "Ein Hauch von Süße, der die Balance im Dressing herstellt und die würzigen und sauren Noten wunderbar abrundet."
+    },
+    {
+      "title": "Chiliflocken",
+      "description": "Für alle, die es gerne etwas schärfer mögen! Sie sorgen für eine angenehme Würze und einen kleinen Kick im Dressing."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Nudelsalat",
+      "description": "Die Grundzutaten für unseren farbenfrohen und sättigenden Salat.",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "Mie-Nudeln" },
+        { "amount": 2, "unit": "Stück", "name": "Karotten (julienniert oder geraspelt)" },
+        { "amount": 0.5, "unit": "Stück", "name": "Gurke (in feine Streifen geschnitten)" },
+        { "amount": 1, "unit": "Stück", "name": "rote Paprika (in feine Streifen geschnitten)" },
+        { "amount": 100, "unit": "g", "name": "Rotkohl (fein gehobelt oder geschnitten)" },
+        { "amount": 3, "unit": "Stück", "name": "Frühlingszwiebeln (in feine Ringe geschnitten)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+        { "amount": 2, "unit": "EL", "name": "gerösteter Sesam (zum Bestreuen, optional)" }
+      ]
+    },
+    {
+      "title": "Für das asiatische Dressing",
+      "description": "Das würzige Dressing, das dem Salat seinen unverwechselbaren Geschmack verleiht.",
+      "ingredients": [
+        { "amount": 5, "unit": "EL", "name": "Sojasauce" },
+        { "amount": 2, "unit": "EL", "name": "Reisessig" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "amount": 1, "unit": "EL", "name": "Ahornsirup oder Agavendicksaft" },
+        { "amount": 1, "unit": "TL", "name": "frischer Ingwer (gerieben)" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+        { "amount": 0.5, "unit": "TL", "name": "Chiliflocken (optional, nach Geschmack)" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 250, "unit": "g", "name": "Mie-Nudeln" },
+    { "amount": 2, "unit": "Stück", "name": "Karotten (julienniert oder geraspelt)" },
+    { "amount": 0.5, "unit": "Stück", "name": "Gurke (in feine Streifen geschnitten)" },
+    { "amount": 1, "unit": "Stück", "name": "rote Paprika (in feine Streifen geschnitten)" },
+    { "amount": 100, "unit": "g", "name": "Rotkohl (fein gehobelt oder geschnitten)" },
+    { "amount": 3, "unit": "Stück", "name": "Frühlingszwiebeln (in feine Ringe geschnitten)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+    { "amount": 2, "unit": "EL", "name": "gerösteter Sesam (zum Bestreuen, optional)" },
+    { "amount": 5, "unit": "EL", "name": "Sojasauce" },
+    { "amount": 2, "unit": "EL", "name": "Reisessig" },
+    { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+    { "amount": 1, "unit": "EL", "name": "Ahornsirup oder Agavendicksaft" },
+    { "amount": 1, "unit": "TL", "name": "frischer Ingwer (gerieben)" },
+    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+    { "amount": 0.5, "unit": "TL", "name": "Chiliflocken (optional, nach Geschmack)" }
+  ],
+  "instructions": [
+    "Die Mie-Nudeln nach Packungsanweisung zubereiten. Meistens werden sie mit kochendem Wasser übergossen und ziehen dann einige Minuten. Anschließend abgießen, kurz mit kaltem Wasser abschrecken und gut abtropfen lassen.",
+    "Während die Nudeln ziehen, das Gemüse vorbereiten: Karotten, Gurke, Paprika und Rotkohl in sehr feine Streifen schneiden. Frühlingszwiebeln in feine Ringe schneiden und den Koriander hacken.",
+    "Für das Dressing alle Zutaten (Sojasauce, Reisessig, Sesamöl, Ahornsirup, Ingwer, Knoblauch, optional Chiliflocken) in einer kleinen Schüssel gut verrühren, bis das Dressing homogen ist.",
+    "In einer großen Salatschüssel die abgekühlten Mie-Nudeln mit dem geschnittenen Gemüse, den Frühlingszwiebeln und dem gehackten Koriander vermischen.",
+    "Das zubereitete Dressing über den Nudelsalat gießen und alles gründlich vermengen, sodass alle Zutaten gut mit dem Dressing benetzt sind.",
+    "Den asiatischen Nudelsalat für mindestens 15-20 Minuten im Kühlschrank ziehen lassen, damit sich die Aromen voll entfalten können. Vor dem Servieren mit geröstetem Sesam bestreuen."
+  ],
+  "nutrition": {
+    "calories": 1399,
+    "protein": "40.95g",
+    "carbs": "239.5g",
+    "fat": "28.95g"
+  },
+  "tips": [
+    "Für mehr Protein kannst du gebratene Tofuwürfel oder Edamame zum Salat hinzufügen.",
+    "Wenn du es gerne schärfer magst, erhöhe einfach die Menge der Chiliflocken oder gib etwas Sriracha zum Dressing."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Asiatische Nudelsalat einfach unwiderstehlich ist!",
+    "reasons": [
+      {
+        "title": "Leicht und doch sättigend",
+        "description": "Dieser Nudelsalat ist eine perfekte Mischung aus Leichtigkeit und Sättigung, ideal für ein gesundes Mittag- oder Abendessen."
+      },
+      {
+        "title": "Aromen wie aus dem Lieblingsrestaurant",
+        "description": "Die Kombination aus Ingwer, Knoblauch und Sesamöl verleiht diesem Salat einen authentischen Geschmack, der an dein Lieblings-Asia-Restaurant erinnert."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dich von diesem köstlichen Asiatischen Nudelsalat verzaubern!",
+    "subText": "Ich bin gespannt, welche deiner Geschmacksknospen er kitzelt!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Nudeln und Gemüse vorbereiten",
+      "description": "Mie-Nudeln kochen und das gesamte Gemüse fein schneiden, um die Basis des Salats zu legen."
+    },
+    {
+      "title": "Dressing anrühren",
+      "description": "Alle Zutaten für das aromatische asiatische Dressing sorgfältig miteinander vermischen."
+    },
+    {
+      "title": "Zusammenfügen und ziehen lassen",
+      "description": "Nudeln und Gemüse mit dem Dressing vermengen und dem Salat Zeit geben, damit alle Aromen perfekt miteinander harmonieren können."
+    }
+  ],
+  "servingSuggestion": "Serviere den asiatischen Nudelsalat als leichte Hauptmahlzeit, als Beilage zu gebratenem Tofu oder als Teil eines asiatischen Buffets.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Asiatischen Nudelsalat",
+    "description": "Dieser vielseitige Nudelsalat harmoniert mit vielen verschiedenen Ergänzungen.",
+    "note": "Werde kreativ und probiere deine Lieblingskombinationen aus!",
+    "items": [
+      {
+        "emoji": "🥢",
+        "title": "Mit knusprigem Tofu",
+        "description": "Gebratener oder gebackener Tofu passt hervorragend dazu und macht den Salat noch sättigender."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Mie-Nudeln sind eine Art Eiernudeln, die ihren Ursprung in China haben und in vielen asiatischen Küchen verbreitet sind. Ihr Name 'Mie' bedeutet einfach 'Nudeln'!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/asiatischer-nudelsalat-mie-nudeln-zutaten.jpeg",
+    "image1": "/images/Salads/asiatischer-nudelsalat-gemuese.jpeg",
+    "image2": "/images/Salads/mie-nudeln-salat-rezept.jpeg",
+    "image3": "/images/Salads/veganer-asiatischer-nudelsalat.jpeg",
+    "image4": "/images/Salads/schneller-nudelsalat-dressing.jpeg",
+    "image5": "/images/Salads/gesunder-asiatischer-salat.jpeg",
+    "image6": "/images/Salads/sommersalat-mie-nudeln.jpeg",
+    "image7": "/images/Salads/asiatischer-nudelsalat-mie-nudeln.jpeg"
+  }
 }
 ];
 
