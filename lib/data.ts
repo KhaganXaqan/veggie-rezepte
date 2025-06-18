@@ -17170,7 +17170,7 @@ export const recipes: Recipe[] = [
   "createdDate": new Date("2025-06-18T18:45:00Z"),
   "updatedDate": new Date("2025-06-18T18:50:00Z"),
   "servings": 6,
-  "description": "Das beste Coleslaw Rezept: Cremiger amerikanischer Krautsalat.",
+  "description": "Das beste Coleslaw Rezept: Cremiger amerikanischer Krautsalat, perfekt für Grillabende.",
   "descriptionOnImage": "Dein cremiger Coleslaw – so schmeckt Amerika!",
   "introductionParagraph": "Ach, mein Herz schlägt höher, wenn ich an diesen amerikanischen Krautsalat denke! Coleslaw ist einfach die perfekte Ergänzung zu so vielen Gerichten. Diese cremige Variante ist mein absoluter Favorit und immer ein Hit, egal ob beim Grillen oder einfach als Beilage.",
   "additionalParagraph": "Ich liebe es, wie das knackige Kraut und die süßen Karotten in dem cremigen Dressing verschmelzen. Es ist wirklich einfach zuzubereiten und schmeckt am besten, wenn er eine Weile durchgezogen ist. So ein unverzichtbarer Begleiter für den Sommer und darüber hinaus!",
