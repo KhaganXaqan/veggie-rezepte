@@ -17139,6 +17139,178 @@ export const recipes: Recipe[] = [
     "image6": "/images/Salads/sommersalat-mie-nudeln.jpeg",
     "image7": "/images/Salads/asiatischer-nudelsalat-mie-nudeln.jpeg"
   }
+},
+{
+  "title": "Klassischer Amerikanischer Coleslaw",
+  "seo_title": "Coleslaw Rezept: Amerikanischer Krautsalat mit Karotten",
+  "image": "/images/Salads/coleslaw-amerikanischer-krautsalat.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "amerikanischer krautsalat",
+    "original amerikanischer krautsalat",
+    "amerikanischer krautsalat rezept",
+    "amerikanischer krautsalat coleslaw rezept",
+    "rezept amerikanischer krautsalat",
+    "amerikanischer krautsalat coleslaw",
+    "coleslaw amerikanischer krautsalat",
+    "amerikanischer krautsalat rezepte"
+  ],
+  "rating": 4.7,
+  "reviews": 180,
+  "category": "Salate",
+  "slug": "coleslaw-amerikanischer-krautsalat",
+  "tags": [
+    "amerikanisch",
+    "klassisch",
+    "Beilage",
+    "sommer",
+    "vegetarisch"
+  ],
+  "createdDate": new Date("2025-06-18T18:45:00Z"),
+  "updatedDate": new Date("2025-06-18T18:50:00Z"),
+  "servings": 6,
+  "description": "Das beste Coleslaw Rezept: Cremiger amerikanischer Krautsalat.",
+  "descriptionOnImage": "Dein cremiger Coleslaw – so schmeckt Amerika!",
+  "introductionParagraph": "Ach, mein Herz schlägt höher, wenn ich an diesen amerikanischen Krautsalat denke! Coleslaw ist einfach die perfekte Ergänzung zu so vielen Gerichten. Diese cremige Variante ist mein absoluter Favorit und immer ein Hit, egal ob beim Grillen oder einfach als Beilage.",
+  "additionalParagraph": "Ich liebe es, wie das knackige Kraut und die süßen Karotten in dem cremigen Dressing verschmelzen. Es ist wirklich einfach zuzubereiten und schmeckt am besten, wenn er eine Weile durchgezogen ist. So ein unverzichtbarer Begleiter für den Sommer und darüber hinaus!",
+  "ingredientsNeeded": [
+    {
+      "title": "Weißkohl",
+      "description": "Die Hauptzutat, die dem Coleslaw seine knackige Textur und den frischen Geschmack verleiht. Fein geschnitten ist er perfekt."
+    },
+    {
+      "title": "Karotten",
+      "description": "Sie bringen nicht nur eine wunderschöne Farbe, sondern auch eine leichte Süße und zusätzlichen Biss in den Salat."
+    },
+    {
+      "title": "Mayonnaise",
+      "description": "Sie bildet die cremige Basis des Dressings und sorgt für die typische Konsistenz und den vollen Geschmack."
+    },
+    {
+      "title": "Essig (Apfelessig oder Weißweinessig)",
+      "description": "Verleiht dem Dressing die nötige Säure, die den schweren Geschmack der Mayonnaise ausgleicht und den Krautsalat erfrischend macht."
+    },
+    {
+      "title": "Zucker",
+      "description": "Ein Hauch von Süße ist entscheidend, um die Aromen abzurunden und dem Coleslaw seinen unverwechselbaren Geschmack zu geben."
+    },
+    {
+      "title": "Senf (Dijonsenf)",
+      "description": "Bringt eine leichte Schärfe und Würze ins Dressing, die den Geschmack komplexer macht."
+    },
+    {
+      "title": "Milch (oder pflanzliche Alternative)",
+      "description": "Macht das Dressing geschmeidiger und leichter, ohne den cremigen Charakter zu verlieren."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Krautsalat",
+      "description": "Die knackige Basis unseres Coleslaws.",
+      "ingredients": [
+        { "amount": 0.5, "unit": "Kopf", "name": "Weißkohl (ca. 700g, fein gehobelt oder geschnitten)" },
+        { "amount": 2, "unit": "Stück", "name": "Karotten (geschält und grob geraspelt)" }
+      ]
+    },
+    {
+      "title": "Für das cremige Dressing",
+      "description": "Das Herzstück des Coleslaws – cremig, süß-sauer und unwiderstehlich.",
+      "ingredients": [
+        { "amount": 200, "unit": "g", "name": "Mayonnaise (vegane Mayo für eine vegane Variante)" },
+        { "amount": 2, "unit": "EL", "name": "Apfelessig oder Weißweinessig" },
+        { "amount": 2, "unit": "EL", "name": "Zucker" },
+        { "amount": 1, "unit": "TL", "name": "Dijonsenf" },
+        { "amount": 3, "unit": "EL", "name": "Milch (oder ungesüßte pflanzliche Alternative)" },
+        { "amount": "", "unit": "Prise", "name": "Salz" },
+        { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 0.5, "unit": "Kopf", "name": "Weißkohl (ca. 700g, fein gehobelt oder geschnitten)" },
+    { "amount": 2, "unit": "Stück", "name": "Karotten (geschält und grob geraspelt)" },
+    { "amount": 200, "unit": "g", "name": "Mayonnaise (vegane Mayo für eine vegane Variante)" },
+    { "amount": 2, "unit": "EL", "name": "Apfelessig oder Weißweinessig" },
+    { "amount": 2, "unit": "EL", "name": "Zucker" },
+    { "amount": 1, "unit": "TL", "name": "Dijonsenf" },
+    { "amount": 3, "unit": "EL", "name": "Milch (oder ungesüßte pflanzliche Alternative)" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Den Weißkohl putzen und sehr fein hobeln oder mit einem scharfen Messer in feine Streifen schneiden. Je feiner, desto besser wird der Coleslaw. Die Karotten schälen und grob raspeln.",
+    "Kohl und Karotten in einer großen Schüssel gut miteinander vermischen.",
+    "In einer kleineren Schüssel für das Dressing Mayonnaise, Essig, Zucker, Dijonsenf, Milch, Salz und Pfeffer gründlich verrühren, bis eine homogene und cremige Masse entsteht.",
+    "Das Dressing über das Kohl-Karotten-Gemisch gießen und alles sorgfältig miteinander vermengen. Am besten geht das mit den Händen, um sicherzustellen, dass jede Kohl- und Karottenstreifen gut mit Dressing bedeckt ist.",
+    "Den Coleslaw abdecken und für mindestens 1 Stunde, besser aber 2-3 Stunden oder sogar über Nacht, im Kühlschrank durchziehen lassen. So können die Aromen wunderbar verschmelzen und der Kohl wird zarter.",
+    "Vor dem Servieren den Coleslaw nochmals gut umrühren und bei Bedarf mit etwas Salz und Pfeffer abschmecken."
+  ],
+  "nutrition": {
+    "calories": 1758,
+    "protein": "13.3g",
+    "carbs": "80g",
+    "fat": "156.9g"
+  },
+  "tips": [
+    "Für einen noch intensiveren Geschmack kannst du eine Prise Selleriesamen zum Dressing hinzufügen. Das ist ein Geheimtipp für authentischen Coleslaw!",
+    "Wenn du keine Milch zur Hand hast, funktioniert auch ein Schuss Buttermilch oder sogar etwas Wasser, um das Dressing zu verdünnen."
+  ],
+  "whyFavorite": {
+    "title": "Darum wirst du diesen Coleslaw lieben!",
+    "reasons": [
+      {
+        "title": "Cremig, knackig, unwiderstehlich",
+        "description": "Die ideale Balance aus knackigem Gemüse und dem süß-säuerlichen, cremigen Dressing macht diesen Coleslaw zum absoluten Genuss. So schmeckt der Sommer!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dir diesen herrlichen Coleslaw schmecken!",
+    "subText": "Ich bin gespannt, zu welchem Gericht er bei dir zum Star wird!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kohl und Karotten vorbereiten",
+      "description": "Kohl und Karotten fein schneiden oder hobeln, um die knackige Basis für den Salat zu schaffen."
+    },
+    {
+      "title": "Cremiges Dressing zubereiten",
+      "description": "Alle Zutaten für das Dressing gründlich verrühren, damit es schön cremig und geschmackvoll wird."
+    },
+    {
+      "title": "Vermischen und durchziehen lassen",
+      "description": "Das Gemüse mit dem Dressing vermengen und dem Salat ausreichend Zeit geben, damit er durchzieht und die Aromen sich voll entfalten."
+    }
+  ],
+  "servingSuggestion": "Coleslaw ist die ultimative Beilage zu Burgern, Pommes oder als frische Komponente in Sandwiches und Wraps.",
+  "servingSuggestions": {
+    "title": "Was passt zu Coleslaw?",
+    "description": "Dieser vielseitige Krautsalat ist der perfekte Partner für viele herzhafte Speisen.",
+    "note": "Probiere deine Lieblingskombination aus!",
+    "items": [
+      {
+        "emoji": "🥗",
+        "title": "Als leichte Beilage",
+        "description": "Egal ob zu Ofenkartoffeln oder Grillgemüse – Coleslaw ist immer eine erfrischende und beliebte Beilage."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Der Name 'Coleslaw' stammt vom niederländischen Wort 'koolsla' ab, was wörtlich 'Kohlsalat' bedeutet. Er kam mit niederländischen Siedlern nach Amerika!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/coleslaw-amerikanischer-krautsalat-zutaten.jpeg",
+    "image1": "/images/Salads/coleslaw-cremig.jpeg",
+    "image2": "/images/Salads/amerikanischer-krautsalat-rezept.jpeg",
+    "image3": "/images/Salads/krautsalat.jpeg",
+    "image4": "/images/Salads/einfacher-coleslaw.jpeg",
+    "image5": "/images/Salads/coleslaw-selber-machen.jpeg",
+    "image6": "/images/Salads/coleslaw-frisch.jpeg",
+    "image7": "/images/Salads/coleslaw-serviert.jpeg"
+  }
 }
 ];
 
