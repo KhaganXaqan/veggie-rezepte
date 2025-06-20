@@ -17311,6 +17311,193 @@ export const recipes: Recipe[] = [
     "image6": "/images/Salads/coleslaw-frisch.jpeg",
     "image7": "/images/Salads/coleslaw-serviert.jpeg"
   }
+},
+{
+  "title": "Sommerlicher Gnocchi-Salat mit grünem Pesto",
+  "seo_title": "Gnocchisalat Rezept: Einfach, schnell & mediterraner Aromen",
+  "image": "/images/Salads/gnocchisalat-mit-pesto.jpeg",
+  "prepTime": 15,
+  "cookingTime": 5,
+  "seo_keywords": [
+    "Gnocchisalat",
+    "Gnocchi Salat Rezept",
+    "Pesto Gnocchi Salat",
+    "italienischer Gnocchisalat",
+    "vegetarischer Gnocchisalat",
+    "einfacher Gnocchisalat",
+    "sommerlicher Salat",
+    "gnocchisalat mit pesto",
+    "gnocchisalat mit rucola",
+    "rezept gnocchisalat",
+    "bunter gnocchisalat hello fresh"
+  ],
+  "rating": 4.8,
+  "reviews": 112,
+  "category": "Salate",
+  "slug": "gnocchisalat-mit-pesto",
+  "tags": [
+    "italienisch",
+    "schnell",
+    "mediterran",
+    "Sommer"
+  ],
+  "createdDate": new Date("2025-06-20T15:45:00Z"),
+  "updatedDate": new Date("2025-06-20T15:50:00Z"),
+  "servings": 4,
+  "description": "Blitzschneller Gnocchisalat mit frischem Pesto, sonnengereiften Tomaten & Mozzarella.",
+  "descriptionOnImage": "Dein einfacher Gnocchisalat: Mediterrane Leichtigkeit in einer Schüssel!",
+  "introductionParagraph": "Ach, dieser Gnocchi-Salat mit Pesto ist für mich der Inbegriff des italienischen Sommers! Er ist so unglaublich unkompliziert, aber die Aromen sind einfach himmlisch. Ein echtes Wohlfühlrezept, das ich immer wieder gerne mache.",
+  "additionalParagraph": "Ich liebe die zarten Gnocchi in Kombination mit dem aromatischen Pesto und den frischen Tomaten und Mozzarella. Er ist perfekt für ein schnelles Mittagessen, ein leichtes Abendessen oder als Highlight auf dem Buffet. Du wirst ihn lieben, versprochen!",
+  "ingredientsNeeded": [
+    {
+      "title": "Gnocchi aus dem Kühlregal",
+      "description": "Die Basis des Salats – sie sind wunderbar zart, schnell gar und bilden eine tolle Alternative zu Nudeln."
+    },
+    {
+      "title": "Grünes Pesto (Basilikumpesto)",
+      "description": "Das Herzstück des Geschmacks! Ein gutes Pesto verleiht dem Salat seine intensive, kräutrige und nussige Note."
+    },
+    {
+      "title": "Kirschtomaten",
+      "description": "Sie bringen eine fruchtige Süße und eine frische Säure in den Salat, die perfekt mit den anderen Zutaten harmoniert."
+    },
+    {
+      "title": "Mozzarella-Kugeln (Mini)",
+      "description": "Die kleinen Käsebällchen sind herrlich cremig, mild und ergänzen die mediterranen Aromen auf wunderbare Weise."
+    },
+    {
+      "title": "Rucola",
+      "description": "Seine leicht pfeffrige Note sorgt für eine spannende Geschmackskontraste und Frische im Salat."
+    },
+    {
+      "title": "Pinienkerne",
+      "description": "Geröstet bringen sie einen feinen Crunch und ein nussiges Aroma, das den Salat geschmacklich abrundet."
+    },
+    {
+      "title": "Olivenöl",
+      "description": "Ein hochwertiges Olivenöl extra vergine ist unerlässlich für das Dressing, da es die Aromen des Pestos unterstreicht und eine seidige Textur verleiht."
+    },
+    {
+      "title": "Zitronensaft",
+      "description": "Frisch gepresster Zitronensaft sorgt für eine spritzige Frische und eine ausgleichende Säure im Dressing, die den Gesamtgeschmack aufhellt."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Gnocchi-Salat",
+      "description": "Die Hauptkomponenten dieses einfachen, aber köstlichen Salats.",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Gnocchi aus dem Kühlregal" },
+        { "amount": 250, "unit": "g", "name": "Kirschtomaten (halbiert)" },
+        { "amount": 125, "unit": "g", "name": "Mini-Mozzarella-Kugeln (abgetropft)" },
+        { "amount": 50, "unit": "g", "name": "Rucola" },
+        { "amount": 2, "unit": "EL", "name": "Pinienkerne (geröstet)" }
+      ]
+    },
+    {
+      "title": "Für das Pesto-Dressing",
+      "description": "Das aromatische Dressing, das alles zusammenbringt.",
+      "ingredients": [
+        { "amount": 150, "unit": "g", "name": "Grünes Pesto (Basilikumpesto)" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl extra vergine" },
+        { "amount": 1, "unit": "EL", "name": "Zitronensaft (frisch gepresst)" },
+        { "amount": "", "unit": "Prise", "name": "Salz und Pfeffer (nach Geschmack)" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 500, "unit": "g", "name": "Gnocchi aus dem Kühlregal" },
+    { "amount": 250, "unit": "g", "name": "Kirschtomaten (halbiert)" },
+    { "amount": 125, "unit": "g", "name": "Mini-Mozzarella-Kugeln (abgetropft)" },
+    { "amount": 50, "unit": "g", "name": "Rucola" },
+    { "amount": 2, "unit": "EL", "name": "Pinienkerne (geröstet)" },
+    { "amount": 150, "unit": "g", "name": "Grünes Pesto (Basilikumpesto)" },
+    { "amount": 2, "unit": "EL", "name": "Olivenöl extra vergine" },
+    { "amount": 1, "unit": "EL", "name": "Zitronensaft (frisch gepresst)" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "Pfeffer" }
+  ],
+  "instructions": [
+    "Die Gnocchi nach Packungsanweisung in reichlich Salzwasser gar kochen. Das dauert meist nur 2-3 Minuten, bis sie an der Oberfläche schwimmen. Sofort abgießen und unter kaltem Wasser abschrecken, damit sie nicht zusammenkleben. Gut abtropfen lassen.",
+    "Während die Gnocchi kochen, die Kirschtomaten halbieren und die Mini-Mozzarella-Kugeln abtropfen lassen. Den Rucola waschen und trockenschleudern. Pinienkerne in einer trockenen Pfanne ohne Fett goldbraun rösten und beiseitestellen.",
+    "Für das Pesto-Dressing in einer großen Salatschüssel das Pesto mit Olivenöl und Zitronensaft verrühren. Mit Salz und Pfeffer abschmecken.",
+    "Die abgekühlten Gnocchi, die halbierten Kirschtomaten und die Mozzarella-Kugeln zum Dressing in die Schüssel geben. Alles vorsichtig vermengen, sodass alle Zutaten gut mit dem Pesto umhüllt sind.",
+    "Kurz vor dem Servieren den Rucola unterheben und den Salat mit den gerösteten Pinienkernen bestreuen. Sofort servieren oder für ca. 30 Minuten im Kühlschrank ziehen lassen, damit sich die Aromen verbinden."
+  ],
+  "nutrition": {
+    "calories": 2255,
+    "protein": "51.95g",
+    "carbs": "171.7g",
+    "fat": "144.1g"
+  },
+  "tips": [
+    "Für eine noch frischere Note kannst du vor dem Servieren noch etwas frischen Basilikum hinzufügen.",
+    "Wenn du keine Pinienkerne magst, passen auch Walnüsse oder Mandeln hervorragend zu diesem Gnocchisalat."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Gnocchi-Salat ein Hit ist!",
+    "reasons": [
+      {
+        "title": "Blitzschnell & unkompliziert",
+        "description": "Dieses Gnocchi Salat Rezept ist super schnell zubereitet und perfekt für spontane Sommerabende oder das nächste Picknick. Wenig Aufwand, maximaler Genuss!"
+      },
+      {
+        "title": "Mediterraner Urlaub auf dem Teller",
+        "description": "Die Kombination aus zarten Gnocchi, aromatischem Pesto, saftigen Tomaten und cremigem Mozzarella bringt dir das Urlaubsgefühl direkt nach Hause."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich wünsche dir viel Freude beim Genießen dieses Gnocchi-Salats!",
+    "subText": "Lass es dir schmecken und genieße die mediterranen Vibes!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Gnocchi & Toppings vorbereiten",
+      "description": "Gnocchi kochen und abkühlen lassen, während Kirschtomaten, Mozzarella und Rucola vorbereitet werden."
+    },
+    {
+      "title": "Pesto-Dressing anrühren",
+      "description": "Pesto mit Olivenöl und Zitronensaft zu einem aromatischen Dressing vermischen."
+    },
+    {
+      "title": "Alles vermengen & genießen",
+      "description": "Gekochte Gnocchi und vorbereitete Zutaten mit dem Dressing vermischen und den Salat mit gerösteten Pinienkernen abrunden."
+    }
+  ],
+  "servingSuggestion": "Serviere den Gnocchisalat als leichte Hauptspeise, als Beilage zu Grillgemüse oder als Highlight auf jedem Buffet.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Gnocchi-Salat",
+    "description": "Dieser vielseitige Salat lässt sich wunderbar kombinieren und anpassen.",
+    "note": "Experimentiere gerne mit weiteren Zutaten wie Oliven oder getrockneten Tomaten!",
+    "items": [
+      {
+        "emoji": "🥖",
+        "title": "Frisches Baguette",
+        "description": "Ein knuspriges Baguette ist perfekt, um das restliche Pesto-Dressing aufzutunken."
+      },
+      {
+        "emoji": "🌱",
+        "title": "Gegrilltes Gemüse",
+        "description": "Eine Auswahl an gegrilltem Zucchini, Aubergine oder Paprika passt hervorragend als Beilage."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Gnocchi sind kleine Klößchen, die ursprünglich aus Kartoffeln hergestellt werden. Ihre Herkunft ist Italien, wo sie in vielen regionalen Varianten zu finden sind."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/gnocchisalat-mit-pesto-zutaten.jpeg",
+    "image1": "/images/Salads/gnocchisalat-frisch.jpeg",
+    "image2": "/images/Salads/pesto-gnocchi-salat.jpeg",
+    "image3": "/images/Salads/italienischer-gnocchisalat.jpeg",
+    "image4": "/images/Salads/einfacher-gnocchisalat.jpeg",
+    "image5": "/images/Salads/sommerlicher-gnocchisalat.jpeg",
+    "image6": "/images/Salads/vegetarischer-gnocchisalat.jpeg",
+    "image7": "/images/Salads/gnocchisalat-serviert.jpeg"
+  }
 }
 ];
 
