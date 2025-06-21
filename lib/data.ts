@@ -17130,13 +17130,15 @@ export const recipes: Recipe[] = [
   "prepTime": 10,
   "cookingTime": 0,
   "seo_keywords": [
-    "Sylter Dressing Rezept",
-    "Sylter Salatdressing",
-    "cremiges Dressing",
-    "vegetarisches Dressing",
-    "Salatdressing selber machen",
-    "Dressing für Salate",
-    "klassisch Sylter Art"
+    "sylter dressing",
+    "sylter dressing rezept",
+    "sylter dressing original",
+    "rezept sylter dressing",
+    "salat mit sylter dressing",
+    "sylter dressing selber machen",
+    "sylter dressing original rezept",
+    "sylter dressing zutaten",
+    "sylter dressing nährwerte"
   ],
   "rating": 4.9,
   "reviews": 250,
