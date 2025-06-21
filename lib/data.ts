@@ -16758,195 +16758,6 @@ export const recipes: Recipe[] = [
   }
 },
 {
-  "title": "Authentischer Panzanella-Brotsalat aus der Toskana",
-  "seo_title": "Panzanella: Original italienischer Brotsalat für den Sommer",
-  "image": "/images/Salads/panzanella-brotsalat.jpeg",
-  "prepTime": 20,
-  "cookingTime": 15,
-  "seo_keywords": [
-    "brotsalat",
-    "brotsalat rezept",
-    "italienischer brotsalat",
-    "brotsalat rezept einfach",
-    "brotsalat rezept mit altem brot",
-    "mediterraner brotsalat",
-    "brotsalat italienisch",
-    "rezept brotsalat",
-    "brotsalat rezepte",
-    "italienischer brotsalat original rezept",
-    "italienischer brotsalat rezept"
-  ],
-  "rating": 4.9,
-  "reviews": 155,
-  "category": "Salate",
-  "slug": "panzanella-brotsalat",
-  "tags": [
-    "italienisch",
-    "vegetarisch",
-    "Sommer",
-    "Salate",
-    "Resteverwertung"
-  ],
-  "createdDate": new Date("2025-06-16T19:20:00Z"),
-  "updatedDate": new Date("2025-06-16T19:25:00Z"),
-  "servings": 4,
-  "description": "Original Panzanella Rezept: Italienischer Brotsalat mit frischen Tomaten und Basilikum.",
-  "descriptionOnImage": "Dein perfekter Panzanella für einen Hauch von Toskana!",
-  "introductionParagraph": "Ach, Panzanella! Dieser italienische Brotsalat ist für mich die pure Sommerliebe. Er ist die perfekte Mischung aus knusprig und saftig und schmeckt nach sonnengereiften Tomaten und frischem Basilikum – einfach Urlaub auf dem Teller!",
-  "additionalParagraph": "Das Schöne an diesem Rezept ist, dass es altes Brot rettet und in etwas Wunderbares verwandelt. Es ist so ein unkompliziertes Gericht, das man wunderbar vorbereiten kann und das bei jedem Grillabend oder Picknick für Begeisterung sorgt. Ein echtes Stück Toskana!",
-  "ingredientsNeeded": [
-    {
-      "title": "Altbackenes Brot",
-      "description": "Die Seele des Panzanella! Es saugt das Dressing und die Säfte des Gemüses auf und wird dabei unwiderstehlich. Ciabatta oder Sauerteigbrot eignen sich am besten."
-    },
-    {
-      "title": "Reife Tomaten",
-      "description": "Je aromatischer die Tomaten, desto besser der Salat! Sie geben dem Panzanella seine Saftigkeit und Süße."
-    },
-    {
-      "title": "Gurke",
-      "description": "Knackig und erfrischend, fügt die Gurke eine wichtige Textur und Feuchtigkeit hinzu."
-    },
-    {
-      "title": "Rote Zwiebel",
-      "description": "Bringt eine leichte Schärfe und Würze ins Spiel, die wunderbar mit den anderen Zutaten harmoniert."
-    },
-    {
-      "title": "Frischer Basilikum",
-      "description": "Unverzichtbar für den authentisch italienischen Geschmack und ein herrliches Aroma."
-    },
-    {
-      "title": "Hochwertiges Olivenöl",
-      "description": "Ein gutes extra natives Olivenöl ist entscheidend für das Dressing und den Gesamtgeschmack."
-    },
-    {
-      "title": "Rotweinessig",
-      "description": "Verleiht dem Dressing die nötige Säure und Tiefe, die den Salat perfekt abrundet."
-    },
-    {
-      "title": "Knoblauch",
-      "description": "Eine feine Knoblauchnote rundet das Dressing ab und passt perfekt zu den mediterranen Aromen. Er sorgt für die würzige Basis des Dressings."
-    }
-  ],
-  "ingredientGroups": [
-    {
-      "title": "Für den Brotsalat",
-      "description": "Die Basis und das frische Gemüse für den klassischen Panzanella.",
-      "ingredients": [
-        { "amount": 300, "unit": "g", "name": "altbackenes Weißbrot (z.B. Ciabatta oder Sauerteigbrot)" },
-        { "amount": 500, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, gewürfelt)" },
-        { "amount": 0.5, "unit": "Stück", "name": "Gurke (geschält, entkernt, gewürfelt)" },
-        { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein geschnitten)" },
-        { "amount": 0.5, "unit": "Bund", "name": "frischer Basilikum (Blätter gezupft)" }
-      ]
-    },
-    {
-      "title": "Für das Dressing",
-      "description": "Das einfache, aber geschmacksintensive Vinaigrette-Dressing.",
-      "ingredients": [
-        { "amount": 4, "unit": "EL", "name": "extra natives Olivenöl" },
-        { "amount": 2, "unit": "EL", "name": "Rotweinessig" },
-        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
-        { "amount": "", "unit": "Prise", "name": "Salz" },
-        { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
-      ]
-    }
-  ],
-  "ingredients": [
-    { "amount": 300, "unit": "g", "name": "altbackenes Weißbrot (z.B. Ciabatta oder Sauerteigbrot)" },
-    { "amount": 500, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, gewürfelt)" },
-    { "amount": 0.5, "unit": "Stück", "name": "Gurke (geschält, entkernt, gewürfelt)" },
-    { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein geschnitten)" },
-    { "amount": 0.5, "unit": "Bund", "name": "frischer Basilikum (Blätter gezupft)" },
-    { "amount": 4, "unit": "EL", "name": "extra natives Olivenöl" },
-    { "amount": 2, "unit": "EL", "name": "Rotweinessig" },
-    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
-    { "amount": "", "unit": "Prise", "name": "Salz" },
-    { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
-  ],
-  "instructions": [
-    "Das altbackene Brot in ca. 2-3 cm große Würfel schneiden. In einer großen Pfanne 1 EL Olivenöl erhitzen und die Brotwürfel darin bei mittlerer Hitze goldbraun und knusprig rösten. Alternativ kannst du sie auch im Ofen rösten. Beiseite stellen und abkühlen lassen.",
-    "Die Tomaten und Gurke waschen und in ähnliche Würfel wie das Brot schneiden. Die rote Zwiebel halbieren und in sehr feine Scheiben oder Würfel schneiden. Basilikumblätter grob zerzupfen oder hacken.",
-    "In einer großen Salatschüssel die gerösteten Brotwürfel, gewürfelte Tomaten, Gurken und Zwiebeln vermengen. Die Basilikumblätter hinzufügen.",
-    "Für das Dressing Olivenöl, Rotweinessig, gepressten Knoblauch, Salz und frisch gemahlenen Pfeffer in einer kleinen Schüssel gut verrühren.",
-    "Das Dressing über den Salat gießen und alles vorsichtig vermengen, sodass das Brot das Dressing und die Gemüsesäfte aufsaugen kann.",
-    "Den Panzanella für mindestens 20-30 Minuten, idealerweise länger (bis zu 2 Stunden), bei Raumtemperatur ziehen lassen. Das Brot soll weich werden, aber noch etwas Biss haben. Vor dem Servieren nochmals abschmecken."
-  ],
-  "nutrition": {
-    "calories": 1443.5,
-    "protein": "33.5g",
-    "carbs": "183.8g",
-    "fat": "69.35g"
-  },
-  "tips": [
-    "Verwende wirklich altbackenes Brot – frisches Brot wird zu matschig. Wenn du kein altbackenes Brot hast, kannst du frisches Brot kurz toasten oder im Ofen bei niedriger Temperatur trocknen.",
-    "Die Qualität der Tomaten ist entscheidend für einen guten Panzanella. Wähle reife, aromatische Sommertomaten."
-  ],
-  "whyFavorite": {
-    "title": "Warum dieser Panzanella dein neuer Sommerliebling wird!",
-    "reasons": [
-      {
-        "title": "Geschmack wie in der Toskana",
-        "description": "Dieses Panzanella-Rezept fängt den authentischen Geschmack Italiens ein – frisch, aromatisch und herrlich sommerlich."
-      },
-      {
-        "title": "Geniale Resteverwertung",
-        "description": "Die perfekte Art, altes Brot sinnvoll und lecker zu verwerten, statt es wegzuwerfen. Nachhaltig und köstlich!"
-      }
-    ]
-  },
-  "handwrittenMessage": {
-    "mainText": "Buon appetito mit deinem hausgemachten Panzanella!",
-    "subText": "Ich hoffe, er bringt dir ein Stück Italien nach Hause!",
-    "signature": "Dein Veggie-Rezepte Team"
-  },
-  "steps": [
-    {
-      "title": "Brot rösten",
-      "description": "Altbackenes Brot in Würfel schneiden und knusprig rösten, damit es später die Säfte optimal aufnehmen kann."
-    },
-    {
-      "title": "Gemüse vorbereiten",
-      "description": "Tomaten, Gurken und Zwiebeln schneiden und Basilikum zupfen, um alle frischen Komponenten vorzubereiten."
-    },
-    {
-      "title": "Dressing anrühren und vermischen",
-      "description": "Alle Dressing-Zutaten verrühren und den Salat damit vermischen, damit die Aromen gut einziehen."
-    },
-    {
-      "title": "Ziehen lassen für vollen Geschmack",
-      "description": "Dem Panzanella ausreichend Zeit geben, damit das Brot weich wird und alle Geschmäcker sich harmonisch verbinden können."
-    }
-  ],
-  "servingSuggestion": "Panzanella ist ein wunderbares leichtes Mittagessen, eine erfrischende Beilage zum Grillen oder Teil eines mediterranen Buffets.",
-  "servingSuggestions": {
-    "title": "Perfekte Begleiter für deinen Panzanella",
-    "description": "Dieser italienische Brotsalat ist vielseitig und passt zu vielen Gelegenheiten.",
-    "note": "Probiere diese Kombinationen aus!",
-    "items": [
-      {
-        "emoji": "🧀",
-        "title": "Mit Mozzarella oder Feta",
-        "description": "Für eine cremigere Note einfach gewürfelten Mozzarella oder zerbröselten Feta unter den Salat mischen."
-      },
-    ]
-  },
-  "funFact": {
-    "title": "Die Geschichte des Panzanella",
-    "description": "Wusstest du, dass Panzanella ursprünglich ein Arme-Leute-Essen aus der Toskana war? Bauern nutzten altbackenes Brot, um es nicht verschwenden zu müssen, und verwandelten es in diesen köstlichen Salat."
-  },
-  "images": {
-    "imageIngredient": "/images/Ingredients/panzanella-brotsalat-zutaten.jpeg",
-    "image1": "/images/Salads/italienischer-brotsalat-sommer.jpeg",
-    "image2": "/images/Salads/panzanella-original-rezept.jpeg",
-    "image3": "/images/Salads/sommerlicher-panzanella-einfach.jpeg",
-    "image4": "/images/Salads/vegetarischer-brotsalat-rezept.jpeg",
-    "image5": "/images/Salads/panzanella-mit-basilikum.jpeg",
-    "image6": "/images/Salads/panzanella-serviert.jpeg",
-    "image7": "/images/Salads/altes-brot-verwerten-salat.jpeg"
-  }
-},
-{
   "title": "Erfrischender Asiatischer Nudelsalat mit Mie-Nudeln",
   "seo_title": "Asiatischer Nudelsalat: Mie Nudeln, Gemüse & Soja-Dressing",
   "image": "/images/Salads/asiatischer-nudelsalat-serviert.jpeg",
@@ -17310,6 +17121,365 @@ export const recipes: Recipe[] = [
     "image5": "/images/Salads/coleslaw-selber-machen.jpeg",
     "image6": "/images/Salads/coleslaw-frisch.jpeg",
     "image7": "/images/Salads/coleslaw-serviert.jpeg"
+  }
+},
+{
+  "title": "Original Sylter Dressing",
+  "seo_title": "Sylter Dressing Rezept: Das Original selbstgemacht vegetarisch",
+  "image": "/images/Salads/sylter-dressing.jpeg",
+  "prepTime": 10,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "Sylter Dressing Rezept",
+    "Sylter Salatdressing",
+    "cremiges Dressing",
+    "vegetarisches Dressing",
+    "Salatdressing selber machen",
+    "Dressing für Salate",
+    "klassisch Sylter Art"
+  ],
+  "rating": 4.9,
+  "reviews": 250,
+  "category": "Salate",
+  "slug": "sylter-dressing",
+  "tags": [
+    "klassisch",    
+    "Dressings",
+    "schnell",
+    "einfach"
+  ],
+  "createdDate": new Date("2025-06-21T10:00:00Z"),
+  "updatedDate": new Date("2025-06-21T14:00:00Z"),
+  "servings": 4,
+  "description": "Cremiges Sylter Dressing selber machen: Einfach, schnell & vegetarisch für jeden Salat.",
+  "descriptionOnImage": "Dein Sylter Lieblingsdressing – einfach selbstgemacht!",
+  "introductionParagraph": "Ach, kennt ihr das auch? Manchmal braucht ein einfacher Salat nur das gewisse Etwas, um zum Star des Essens zu werden. Und für mich ist das ganz klar das Sylter Dressing! Diese cremige Köstlichkeit ist einfach unvergleichlich.",
+  "additionalParagraph": "Ich liebe die Balance aus Süße, Säure und Würze, die es jedem grünen Salat verleiht. Es ist so einfach zuzubereiten und schmeckt tausendmal besser als jede Fertigvariante. Probiert es aus, ihr werdet es nicht bereuen!",
+  "ingredientsNeeded": [
+    {
+      "title": "Pflanzliche Mayonnaise",
+      "description": "Die Basis für die Cremigkeit! Eine gute Mayonnaise sorgt für die unwiderstehliche Textur dieses Dressings."
+    },
+    {
+      "title": "Joghurt (Natur, ungesüßt)",
+      "description": "Bringt eine leichte Frische und mildert die Reichhaltigkeit der Mayonnaise, für ein ausgewogenes Geschmacksprofil."
+    },
+    {
+      "title": "Schalotten",
+      "description": "Fein gehackte Schalotten verleihen dem Dressing eine subtile Schärfe und eine angenehme Würze, die typisch für Sylter Dressing ist."
+    },
+    {
+      "title": "Kräuter (frischer Dill & Schnittlauch)",
+      "description": "Diese Kräuter sind essenziell für das frische, nordische Aroma und die charakteristische Optik."
+    },
+    {
+      "title": "Weißweinessig",
+      "description": "Sorgt für die notwendige Säure und Frische, die das Dressing ausbalanciert und lebendig macht."
+    },
+    {
+      "title": "Zucker",
+      "description": "Ein kleiner Hauch Süße ist entscheidend, um die Aromen abzurunden und dem Dressing seinen typisch harmonischen Geschmack zu geben."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für das Sylter Dressing",
+      "description": "Die Zutaten für unser unwiderstehliches cremiges Dressing.",
+      "ingredients": [
+        { "amount": 150, "unit": "g", "name": "Pflanzliche Mayonnaise" },
+        { "amount": 100, "unit": "g", "name": "Naturjoghurt (ungesüßt, 1,5% Fett)" },
+        { "amount": 1, "unit": "Stück", "name": "Schalotte (sehr fein gewürfelt)" },
+        { "amount": 2, "unit": "EL", "name": "Frischer Dill (gehackt)" },
+        { "amount": 1, "unit": "EL", "name": "Frischer Schnittlauch (in feinen Röllchen)" },
+        { "amount": 2, "unit": "EL", "name": "Weißweinessig" },
+        { "amount": 1, "unit": "TL", "name": "Zucker" },
+        { "amount": "", "unit": "Prise", "name": "Salz" },
+        { "amount": "", "unit": "Prise", "name": "Frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 150, "unit": "g", "name": "Pflanzliche Mayonnaise" },
+    { "amount": 100, "unit": "g", "name": "Naturjoghurt (ungesüßt, 1,5% Fett)" },
+    { "amount": 1, "unit": "Stück", "name": "Schalotte (sehr fein gewürfelt)" },
+    { "amount": 2, "unit": "EL", "name": "Frischer Dill (gehackt)" },
+    { "amount": 1, "unit": "EL", "name": "Frischer Schnittlauch (in feinen Röllchen)" },
+    { "amount": 2, "unit": "EL", "name": "Weißweinessig" },
+    { "amount": 1, "unit": "TL", "name": "Zucker" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "Frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Die Schalotte sehr fein würfeln. Je feiner, desto besser, damit sie sich gut im Dressing verteilt.",
+    "Dill und Schnittlauch waschen, trocken schütteln und fein hacken bzw. in feine Röllchen schneiden.",
+    "In einer mittelgroßen Schüssel die pflanzliche Mayonnaise und den Naturjoghurt verrühren, bis eine glatte Masse entsteht.",
+    "Die fein gewürfelte Schalotte, den gehackten Dill und den Schnittlauch zum Mayonnaise-Joghurt-Mix geben.",
+    "Weißweinessig und Zucker hinzufügen und alles gründlich mit einem Schneebesen verrühren, bis das Dressing gut emulgiert ist.",
+    "Mit Salz und frisch gemahlenem schwarzem Pfeffer abschmecken. Sei hier ruhig großzügig und probiere, bis es perfekt ist!",
+    "Das Sylter Dressing vor dem Servieren mindestens 15-30 Minuten im Kühlschrank ziehen lassen, damit sich die Aromen voll entfalten können. So schmeckt es am allerbesten!"
+  ],
+  "nutrition": {
+    "calories": 771.5,
+    "protein": "8.7g",
+    "carbs": "24.5g",
+    "fat": "69.15g"
+  },
+  "tips": [
+    "Für eine noch cremigere Textur und etwas mehr Süße kannst du einen Teelöffel Agavendicksaft oder Ahornsirup anstelle von Zucker verwenden.",
+    "Wenn du keine frischen Kräuter hast, kannst du auch getrocknete verwenden, aber reduziere die Menge auf etwa die Hälfte, da sie intensiver sind."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieses Sylter Dressing ein Volltreffer ist!",
+    "reasons": [
+      {
+        "title": "Cremig-frischer Klassiker",
+        "description": "Dieses Sylter Dressing ist einfach ein zeitloser Favorit! Die perfekte Balance aus Süße, Säure und feinen Kräutern macht jeden Salat zu einem Erlebnis."
+      },
+      {
+        "title": "Blitzschnell & vielseitig",
+        "description": "In weniger als 10 Minuten zubereitet, ist dieses Salatdressing selber machen so einfach. Es passt wunderbar zu grünem Salat, Kartoffelsalat oder sogar als Dip!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Guten Appetit mit deinem selbstgemachten Sylter Dressing!",
+    "subText": "Ich bin gespannt, welche Salate du damit verzauberst!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Vorbereitung der Zutaten",
+      "description": "Schalotte und frische Kräuter fein schneiden, um alle Aromen optimal freizusetzen."
+    },
+    {
+      "title": "Dressingbasis verrühren",
+      "description": "Mayonnaise und Joghurt zu einer glatten, cremigen Grundlage verbinden."
+    },
+    {
+      "title": "Aromen vereinen & abschmecken",
+      "description": "Alle Zutaten gründlich vermischen, das Dressing perfekt würzen und die Aromen harmonisieren lassen."
+    }
+  ],
+  "servingSuggestion": "Dieses klassische Sylter Dressing ist die perfekte Ergänzung für jeden gemischten grünen Salat oder einen leckeren Kartoffelsalat.",
+  "servingSuggestions": {
+    "title": "Perfekte Kombis für dein Sylter Dressing",
+    "description": "Dieses vielseitige Dressing passt zu einer Vielzahl von Gerichten und Salaten.",
+    "note": "Probiere es auch als Dip für Gemüse-Sticks!",
+    "items": [
+      {
+        "emoji": "🥗",
+        "title": "Klassischer Grüner Salat",
+        "description": "Ein einfacher grüner Blattsalat mit Gurke und Tomaten wird durch das Sylter Dressing zum Genuss."
+      },
+      {
+        "emoji": "🥔",
+        "title": "Deutscher Kartoffelsalat",
+        "description": "Verleihe deinem Kartoffelsalat eine cremige Note à la Sylt – eine leckere Alternative zur Essig-Öl-Variante."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Das Sylter Dressing wurde auf der deutschen Nordseeinsel Sylt populär und ist dort in vielen Restaurants ein fester Bestandteil der Speisekarten geworden."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/sylter-dressing-zutaten.jpeg",
+    "image1": "/images/Salads/sylter-dressing-cremig.jpeg",
+    "image2": "/images/Salads/sylter-salatdressing.jpeg",
+    "image3": "/images/Salads/dressing-selber-machen-sylt.jpeg",
+    "image4": "/images/Salads/vegetarisches-dressing.jpeg",
+    "image5": "/images/Salads/sylter-dressing-salat.jpeg",
+    "image6": "/images/Salads/einfaches-sylter-dressing.jpeg",
+    "image7": "/images/Salads/sylter-dressing-closeup.jpeg"
+  }
+},
+{
+  "title": "Authentischer Panzanella-Brotsalat aus der Toskana",
+  "seo_title": "Panzanella: Original italienischer Brotsalat für den Sommer",
+  "image": "/images/Salads/panzanella-brotsalat.jpeg",
+  "prepTime": 20,
+  "cookingTime": 15,
+  "seo_keywords": [
+    "brotsalat",
+    "brotsalat rezept",
+    "italienischer brotsalat",
+    "brotsalat rezept einfach",
+    "brotsalat rezept mit altem brot",
+    "mediterraner brotsalat",
+    "brotsalat italienisch",
+    "rezept brotsalat",
+    "brotsalat rezepte",
+    "italienischer brotsalat original rezept",
+    "italienischer brotsalat rezept"
+  ],
+  "rating": 4.9,
+  "reviews": 155,
+  "category": "Salate",
+  "slug": "panzanella-brotsalat",
+  "tags": [
+    "italienisch",
+    "vegetarisch",
+    "Sommer",
+    "Salate",
+    "Resteverwertung"
+  ],
+  "createdDate": new Date("2025-06-16T19:20:00Z"),
+  "updatedDate": new Date("2025-06-16T19:25:00Z"),
+  "servings": 4,
+  "description": "Original Panzanella Rezept: Italienischer Brotsalat mit frischen Tomaten und Basilikum.",
+  "descriptionOnImage": "Dein perfekter Panzanella für einen Hauch von Toskana!",
+  "introductionParagraph": "Ach, Panzanella! Dieser italienische Brotsalat ist für mich die pure Sommerliebe. Er ist die perfekte Mischung aus knusprig und saftig und schmeckt nach sonnengereiften Tomaten und frischem Basilikum – einfach Urlaub auf dem Teller!",
+  "additionalParagraph": "Das Schöne an diesem Rezept ist, dass es altes Brot rettet und in etwas Wunderbares verwandelt. Es ist so ein unkompliziertes Gericht, das man wunderbar vorbereiten kann und das bei jedem Grillabend oder Picknick für Begeisterung sorgt. Ein echtes Stück Toskana!",
+  "ingredientsNeeded": [
+    {
+      "title": "Altbackenes Brot",
+      "description": "Die Seele des Panzanella! Es saugt das Dressing und die Säfte des Gemüses auf und wird dabei unwiderstehlich. Ciabatta oder Sauerteigbrot eignen sich am besten."
+    },
+    {
+      "title": "Reife Tomaten",
+      "description": "Je aromatischer die Tomaten, desto besser der Salat! Sie geben dem Panzanella seine Saftigkeit und Süße."
+    },
+    {
+      "title": "Gurke",
+      "description": "Knackig und erfrischend, fügt die Gurke eine wichtige Textur und Feuchtigkeit hinzu."
+    },
+    {
+      "title": "Rote Zwiebel",
+      "description": "Bringt eine leichte Schärfe und Würze ins Spiel, die wunderbar mit den anderen Zutaten harmoniert."
+    },
+    {
+      "title": "Frischer Basilikum",
+      "description": "Unverzichtbar für den authentisch italienischen Geschmack und ein herrliches Aroma."
+    },
+    {
+      "title": "Hochwertiges Olivenöl",
+      "description": "Ein gutes extra natives Olivenöl ist entscheidend für das Dressing und den Gesamtgeschmack."
+    },
+    {
+      "title": "Rotweinessig",
+      "description": "Verleiht dem Dressing die nötige Säure und Tiefe, die den Salat perfekt abrundet."
+    },
+    {
+      "title": "Knoblauch",
+      "description": "Eine feine Knoblauchnote rundet das Dressing ab und passt perfekt zu den mediterranen Aromen. Er sorgt für die würzige Basis des Dressings."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Brotsalat",
+      "description": "Die Basis und das frische Gemüse für den klassischen Panzanella.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "altbackenes Weißbrot (z.B. Ciabatta oder Sauerteigbrot)" },
+        { "amount": 500, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, gewürfelt)" },
+        { "amount": 0.5, "unit": "Stück", "name": "Gurke (geschält, entkernt, gewürfelt)" },
+        { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein geschnitten)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frischer Basilikum (Blätter gezupft)" }
+      ]
+    },
+    {
+      "title": "Für das Dressing",
+      "description": "Das einfache, aber geschmacksintensive Vinaigrette-Dressing.",
+      "ingredients": [
+        { "amount": 4, "unit": "EL", "name": "extra natives Olivenöl" },
+        { "amount": 2, "unit": "EL", "name": "Rotweinessig" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+        { "amount": "", "unit": "Prise", "name": "Salz" },
+        { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 300, "unit": "g", "name": "altbackenes Weißbrot (z.B. Ciabatta oder Sauerteigbrot)" },
+    { "amount": 500, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, gewürfelt)" },
+    { "amount": 0.5, "unit": "Stück", "name": "Gurke (geschält, entkernt, gewürfelt)" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein geschnitten)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frischer Basilikum (Blätter gezupft)" },
+    { "amount": 4, "unit": "EL", "name": "extra natives Olivenöl" },
+    { "amount": 2, "unit": "EL", "name": "Rotweinessig" },
+    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Das altbackene Brot in ca. 2-3 cm große Würfel schneiden. In einer großen Pfanne 1 EL Olivenöl erhitzen und die Brotwürfel darin bei mittlerer Hitze goldbraun und knusprig rösten. Alternativ kannst du sie auch im Ofen rösten. Beiseite stellen und abkühlen lassen.",
+    "Die Tomaten und Gurke waschen und in ähnliche Würfel wie das Brot schneiden. Die rote Zwiebel halbieren und in sehr feine Scheiben oder Würfel schneiden. Basilikumblätter grob zerzupfen oder hacken.",
+    "In einer großen Salatschüssel die gerösteten Brotwürfel, gewürfelte Tomaten, Gurken und Zwiebeln vermengen. Die Basilikumblätter hinzufügen.",
+    "Für das Dressing Olivenöl, Rotweinessig, gepressten Knoblauch, Salz und frisch gemahlenen Pfeffer in einer kleinen Schüssel gut verrühren.",
+    "Das Dressing über den Salat gießen und alles vorsichtig vermengen, sodass das Brot das Dressing und die Gemüsesäfte aufsaugen kann.",
+    "Den Panzanella für mindestens 20-30 Minuten, idealerweise länger (bis zu 2 Stunden), bei Raumtemperatur ziehen lassen. Das Brot soll weich werden, aber noch etwas Biss haben. Vor dem Servieren nochmals abschmecken."
+  ],
+  "nutrition": {
+    "calories": 1443.5,
+    "protein": "33.5g",
+    "carbs": "183.8g",
+    "fat": "69.35g"
+  },
+  "tips": [
+    "Verwende wirklich altbackenes Brot – frisches Brot wird zu matschig. Wenn du kein altbackenes Brot hast, kannst du frisches Brot kurz toasten oder im Ofen bei niedriger Temperatur trocknen.",
+    "Die Qualität der Tomaten ist entscheidend für einen guten Panzanella. Wähle reife, aromatische Sommertomaten."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Panzanella dein neuer Sommerliebling wird!",
+    "reasons": [
+      {
+        "title": "Geschmack wie in der Toskana",
+        "description": "Dieses Panzanella-Rezept fängt den authentischen Geschmack Italiens ein – frisch, aromatisch und herrlich sommerlich."
+      },
+      {
+        "title": "Geniale Resteverwertung",
+        "description": "Die perfekte Art, altes Brot sinnvoll und lecker zu verwerten, statt es wegzuwerfen. Nachhaltig und köstlich!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Buon appetito mit deinem hausgemachten Panzanella!",
+    "subText": "Ich hoffe, er bringt dir ein Stück Italien nach Hause!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Brot rösten",
+      "description": "Altbackenes Brot in Würfel schneiden und knusprig rösten, damit es später die Säfte optimal aufnehmen kann."
+    },
+    {
+      "title": "Gemüse vorbereiten",
+      "description": "Tomaten, Gurken und Zwiebeln schneiden und Basilikum zupfen, um alle frischen Komponenten vorzubereiten."
+    },
+    {
+      "title": "Dressing anrühren und vermischen",
+      "description": "Alle Dressing-Zutaten verrühren und den Salat damit vermischen, damit die Aromen gut einziehen."
+    },
+    {
+      "title": "Ziehen lassen für vollen Geschmack",
+      "description": "Dem Panzanella ausreichend Zeit geben, damit das Brot weich wird und alle Geschmäcker sich harmonisch verbinden können."
+    }
+  ],
+  "servingSuggestion": "Panzanella ist ein wunderbares leichtes Mittagessen, eine erfrischende Beilage zum Grillen oder Teil eines mediterranen Buffets.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Panzanella",
+    "description": "Dieser italienische Brotsalat ist vielseitig und passt zu vielen Gelegenheiten.",
+    "note": "Probiere diese Kombinationen aus!",
+    "items": [
+      {
+        "emoji": "🧀",
+        "title": "Mit Mozzarella oder Feta",
+        "description": "Für eine cremigere Note einfach gewürfelten Mozzarella oder zerbröselten Feta unter den Salat mischen."
+      },
+    ]
+  },
+  "funFact": {
+    "title": "Die Geschichte des Panzanella",
+    "description": "Wusstest du, dass Panzanella ursprünglich ein Arme-Leute-Essen aus der Toskana war? Bauern nutzten altbackenes Brot, um es nicht verschwenden zu müssen, und verwandelten es in diesen köstlichen Salat."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/panzanella-brotsalat-zutaten.jpeg",
+    "image1": "/images/Salads/italienischer-brotsalat-sommer.jpeg",
+    "image2": "/images/Salads/panzanella-original-rezept.jpeg",
+    "image3": "/images/Salads/sommerlicher-panzanella-einfach.jpeg",
+    "image4": "/images/Salads/vegetarischer-brotsalat-rezept.jpeg",
+    "image5": "/images/Salads/panzanella-mit-basilikum.jpeg",
+    "image6": "/images/Salads/panzanella-serviert.jpeg",
+    "image7": "/images/Salads/altes-brot-verwerten-salat.jpeg"
   }
 },
 {
