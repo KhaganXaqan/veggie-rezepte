@@ -148,16 +148,16 @@ export function SiteHeader() {
               {hoveredItem === 'jahreszeiten' && (
                 <div className="absolute right-0 top-full w-[200px] z-40 border-r-[3px] border-r-black shadow-[0_3px_0_0_rgba(0,0,0,0.9)]" style={dropdownStyle}>
                   <div className="py-4 px-4 flex flex-col space-y-3">
-                    <Link href="/rezepte/alle?tag=Frühling" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                    <Link href="/rezepte/alle?tag=Frühlingshaft" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Frühlingsrezepte
                     </Link>
-                    <Link href="/rezepte/alle?tag=Sommer" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                    <Link href="/rezepte/alle?tag=Sommerlich" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Sommerrezepte
                     </Link>
-                    <Link href="/rezepte/alle?tag=Herbst" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                    <Link href="/rezepte/alle?tag=Herbstlich" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Herbstrezepte
                     </Link>
-                    <Link href="/rezepte/alle?tag=Winter" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
+                    <Link href="/rezepte/alle?tag=Winterlich" className="text-lg font-medium text-black hover:text-[#db747a] hover:underline">
                       Winterrezepte
                     </Link>
                   </div>

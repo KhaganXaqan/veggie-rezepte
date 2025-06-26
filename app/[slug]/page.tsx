@@ -39,7 +39,7 @@ export async function generateMetadata(
   // Base URL for canonical links
   const baseUrl = process.env.NODE_ENV === 'development'
     ? 'http://localhost:3000'
-    : 'https://www.veggie-rezepte.de';
+    : 'https://veggie-rezepte.de';
 
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;

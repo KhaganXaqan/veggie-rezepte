@@ -9,6 +9,7 @@ import { recipes } from "@/lib/data"
 import { useSearchParams } from "next/navigation"
 import type { Recipe } from "@/lib/data"
 import Head from 'next/head'
+import Script from 'next/script'
 
 export default function AllRecipes() {
   const searchParams = useSearchParams()
@@ -17,7 +18,14 @@ export default function AllRecipes() {
   
   const [searchQuery, setSearchQuery] = useState(initialQuery)
   const [selectedTags, setSelectedTags] = useState<string[]>(initialTag ? [initialTag] : [])
-  
+
+  useEffect(() => {
+    const tagFromParams = searchParams.get('tag') || ""
+    const queryFromParams = searchParams.get('q') || ""
+    setSelectedTags(tagFromParams ? tagFromParams.split(',') : [])
+    setSearchQuery(queryFromParams)
+  }, [searchParams])
+
   // Get all unique tags from recipes
   const allTags = Array.from(new Set(recipes.flatMap(recipe => recipe.tags || [])))
   
@@ -43,6 +51,59 @@ export default function AllRecipes() {
 
   // Get the base URL for canonical link
   const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veggie-rezepte.de';
+  
+  // Generate structured data
+  const generateStructuredData = () => {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: 'Alle Vegetarischen Rezepte',
+      description: 'Entdecke alle vegetarischen Rezepte - von Hauptgerichten über Suppen bis zu Desserts. Einfach, lecker und gesund!',
+      url: `${baseUrl}/rezepte/alle`,
+      mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: filteredRecipes.length,
+        itemListElement: filteredRecipes.slice(0, 20).map((recipe, index) => ({
+          '@type': 'Recipe',
+          position: index + 1,
+          name: recipe.title,
+          url: `${baseUrl}/${recipe.slug}`,
+          image: recipe.image,
+          description: recipe.description,
+          author: {
+            '@type': 'Organization',
+            name: 'Veggie Rezepte'
+          },
+          recipeCategory: recipe.category,
+          recipeCuisine: 'Vegetarisch',
+          prepTime: `PT${recipe.prepTime || 30}M`,
+          recipeYield: `${recipe.servings || 4} Portionen`,
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: recipe.rating || 4.5,
+            reviewCount: recipe.reviews || 50
+          }
+        }))
+      },
+      breadcrumb: {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: baseUrl
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Alle Rezepte',
+            item: `${baseUrl}/rezepte/alle`
+          }
+        ]
+      }
+    };
+  };
   
   // Update URL and canonical link when filters change
   useEffect(() => {
@@ -79,10 +140,10 @@ export default function AllRecipes() {
     }
     
     const description = selectedTags.length > 0
-      ? `Entdecke unsere ${selectedTags.join(', ')} Rezepte - vegetarisch, lecker und einfach zuzubereiten.`
+      ? `Entdecke ${filteredRecipes.length} ${selectedTags.join(', ')} Rezepte - vegetarisch, lecker und einfach zuzubereiten.`
       : searchQuery
-        ? `Rezepte mit ${searchQuery} - vegetarisch, lecker und einfach zuzubereiten.`
-        : 'Entdecke alle vegetarischen Rezepte - von Hauptgerichten über Suppen bis zu Desserts. Einfach, lecker und gesund!';
+        ? `${filteredRecipes.length} Rezepte mit ${searchQuery} - vegetarisch, lecker und einfach zuzubereiten.`
+        : `Entdecke alle ${filteredRecipes.length} vegetarischen Rezepte - von Hauptgerichten über Suppen bis zu Desserts. Einfach, lecker und gesund!`;
     
     metaDescription.setAttribute('content', description);
     
@@ -105,7 +166,7 @@ export default function AllRecipes() {
     // Update OpenGraph tags
     updateOpenGraphTags(description);
     
-  }, [searchQuery, selectedTags, baseUrl]);
+  }, [searchQuery, selectedTags, baseUrl, filteredRecipes.length]);
   
   // Helper function to update OpenGraph tags
   const updateOpenGraphTags = (description: string) => {
@@ -151,17 +212,17 @@ export default function AllRecipes() {
   
   // Dynamic description based on filters
   const pageDescription = selectedTags.length > 0
-    ? `Entdecke unsere ${selectedTags.join(', ')} Rezepte - vegetarisch, lecker und einfach zuzubereiten.`
+    ? `Entdecke ${filteredRecipes.length} ${selectedTags.join(', ')} Rezepte - vegetarisch, lecker und einfach zuzubereiten.`
     : searchQuery
-      ? `Rezepte mit ${searchQuery} - vegetarisch, lecker und einfach zuzubereiten.`
-      : 'Entdecke alle vegetarischen Rezepte - von Hauptgerichten über Suppen bis zu Desserts. Einfach, lecker und gesund!';
+      ? `${filteredRecipes.length} Rezepte mit ${searchQuery} - vegetarisch, lecker und einfach zuzubereiten.`
+      : `Entdecke alle ${filteredRecipes.length} vegetarischen Rezepte - von Hauptgerichten über Suppen bis zu Desserts. Einfach, lecker und gesund!`;
   
   // Dynamic title based on filters
   const pageTitle = selectedTags.length > 0 
-    ? `${selectedTags.join(', ')} Rezepte | Veggie-Rezepte` 
+    ? `${selectedTags.join(', ')} Rezepte | Veggie Rezepte` 
     : searchQuery 
-      ? `${searchQuery} Rezepte | Veggie-Rezepte` 
-      : 'Alle Rezepte | Vegetarische & Vegane Gerichte | Veggie-Rezepte';
+      ? `${searchQuery} Rezepte | Veggie Rezepte` 
+      : 'Alle Rezepte | Vegetarische & Vegane Gerichte | Veggie Rezepte';
   
   return (
     <>
@@ -178,12 +239,39 @@ export default function AllRecipes() {
         <meta name="twitter:description" content={pageDescription} />
       </Head>
       
+      {/* Add structured data script */}
+      <Script
+        id="all-recipes-structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateStructuredData()) }}
+      />
+      
       <div className="min-h-screen flex flex-col bg-white">
         <SiteHeader />
         <main className="flex-1 bg-white">
           <div className="container py-8">
             <div className="max-w-2xl mx-auto mb-8">
-              <h1 className="text-4xl font-['Montserrat'] font-bold uppercase mb-8 !text-black">Alle Rezepte</h1>
+              <nav aria-label="Breadcrumb" className="mb-4">
+                <ol className="flex items-center space-x-2 text-sm text-gray-600">
+                  <li><a href="/" className="hover:text-[#0b3558]">Home</a></li>
+                  <li><span className="mx-2">›</span></li>
+                  <li className="text-[#0b3558] font-medium">Alle Rezepte</li>
+                </ol>
+              </nav>
+              
+              <h1 className="text-4xl font-['Montserrat'] font-bold uppercase mb-4 !text-black">
+                {selectedTags.length > 0 ? `${selectedTags.join(' & ')} Rezepte` : 'Alle Rezepte'}
+              </h1>
+              
+              <p className="text-lg text-gray-600 mb-6">
+                {selectedTags.length > 0 
+                  ? `${filteredRecipes.length} ${selectedTags.join(' & ')} Rezepte gefunden`
+                  : searchQuery
+                    ? `${filteredRecipes.length} Rezepte für "${searchQuery}" gefunden`
+                    : `Entdecke alle ${filteredRecipes.length} vegetarischen Rezepte - von schnellen Alltagsgerichten bis zu besonderen Leckereien.`
+                }
+              </p>
+              
               <Input
                 type="search"
                 placeholder="Nach Rezepten suchen..."
@@ -205,6 +293,26 @@ export default function AllRecipes() {
                   </Badge>
                 ))}
               </div>
+              
+              {/* Results Summary */}
+              {(selectedTags.length > 0 || searchQuery) && (
+                <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-600">
+                      {filteredRecipes.length} Rezepte gefunden
+                    </span>
+                    <button 
+                      onClick={() => {
+                        setSearchQuery('')
+                        setSelectedTags([])
+                      }}
+                      className="text-sm text-[#0b3558] hover:underline"
+                    >
+                      Filter zurücksetzen
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
@@ -221,7 +329,19 @@ export default function AllRecipes() {
           {filteredRecipes.length === 0 && (
             <div className="container">
               <div className="text-center text-black/70 py-12">
-                Keine Rezepte gefunden. Versuche es mit anderen Suchbegriffen.
+                <h2 className="text-xl font-semibold mb-2">Keine Rezepte gefunden</h2>
+                <p className="text-gray-600 mb-4">
+                  Versuche es mit anderen Suchbegriffen oder entferne einige Filter.
+                </p>
+                <button 
+                  onClick={() => {
+                    setSearchQuery('')
+                    setSelectedTags([])
+                  }}
+                  className="bg-[#0b3558] text-white px-6 py-2 rounded-full hover:bg-[#f9d24f] hover:text-black transition-colors"
+                >
+                  Alle Rezepte anzeigen
+                </button>
               </div>
             </div>
           )}
@@ -229,4 +349,4 @@ export default function AllRecipes() {
       </div>
     </>
   )
-} 
+}

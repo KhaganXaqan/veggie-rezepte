@@ -15,12 +15,12 @@ const inter = InterFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.veggie-rezepte.de'),
+  metadataBase: new URL('https://veggie-rezepte.de'),
   title: {
     default: 'Veggie Rezepte - Entdecke köstliche vegetarische Gerichte',
     template: '%s | Veggie Rezepte'
   },
-  description: 'Deine Plattform für vegetarische Rezepte, Kochanleitungen und eine gesunde Ernährung.',
+  description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche. Von einfachen Alltagsgerichten bis zu festlichen Menüs - alles vegetarisch, lecker und mit detaillierten Kochanleitungen.',
   icons: {
     icon: [
       { url: '/images/logo/favicon.ico', sizes: 'any' },
@@ -43,10 +43,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'de_DE',
-    url: 'https://www.veggie-rezepte.de',
+    url: 'https://veggie-rezepte.de',
     siteName: 'Veggie Rezepte',
     title: 'Veggie Rezepte - Köstliche vegetarische Gerichte',
-    description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche.',
+    description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche. Von einfachen Alltagsgerichten bis zu festlichen Menüs - alles vegetarisch, lecker und mit detaillierten Kochanleitungen.',
     images: [{
       url: '/images/logo/og-image.jpg',
       width: 1200,
@@ -57,16 +57,23 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Veggie Rezepte',
-    description: 'Entdecke köstliche vegetarische Gerichte',
+    description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche',
     images: ['/images/logo/og-image.jpg'],
   },
-  keywords: 'vegetarische rezepte, veggie rezepte, deutsche küche, kochen, vegetarisch',
+  keywords: 'vegetarische rezepte, veggie rezepte, deutsche küche, kochen, vegetarisch, gesunde ernährung, vegetarische gerichte, rezepte ohne fleisch',
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
   alternates: {
-    canonical: siteConfig.url,
+    canonical: 'https://veggie-rezepte.de',
   },
 };
 
@@ -82,6 +89,28 @@ export default function RootLayout({
         <link 
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+        />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378654958981077"
+          crossOrigin="anonymous"
+        />
+        <Script
+          id="schema-org"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Veggie Rezepte",
+              "url": "https://veggie-rezepte.de",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://veggie-rezepte.de/rezepte/alle?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
         />
       </head>
       <body className={cn("min-h-screen bg-white font-sans antialiased", inter.className)}>
