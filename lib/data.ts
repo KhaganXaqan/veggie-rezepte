@@ -115,7 +115,15 @@ export const recipes: Recipe[] = [
     "reviews": 133,
     "category": "Hauptgerichte",
     "slug": "flammkuchen",
-    "tags": ["Traditionell", "Hauptgerichte", "Flammkuchen"],
+    "tags": [
+      "Hauptgericht",
+      "Schnell",
+      "Einfach",
+      "Käse",
+      "Party",
+      "Deutsch",
+      "Klassiker"
+    ],
     "createdDate": new Date('2025-02-17T00:00:00'),
     "updatedDate": new Date('2025-03-20T00:00:00'),
     "servings": 2,
@@ -343,7 +351,16 @@ export const recipes: Recipe[] = [
     "reviews": 120,
     "category": "Hauptgerichte",
     "slug": "kartoffelpuffer",
-    "tags": ["Traditionell", "Kartoffeln", "Snack", "Hauptgericht", "Beilage", "Vegetarisch"],
+    "tags": [
+      "Traditionell",
+      "Kartoffeln",
+      "Snack",
+      "Hauptgericht",
+      "Deutsch",
+      "Klassiker",
+      "Schnell",
+      "Einfach",
+    ],
     "createdDate": new Date('2025-02-20T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
@@ -570,7 +587,14 @@ export const recipes: Recipe[] = [
     "reviews": 150,
     "category": "Suppen",
     "slug": "gemuesesuppe",
-    "tags": ["Traditionell", "Suppe", "Gemüse"],
+    "tags": [
+      "Traditionell",
+      "Suppe",
+      "Gemüse",
+      "Schnell",
+      "Einfach",
+      "Suppe"
+    ],
     "createdDate": new Date('2025-02-17T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
@@ -792,7 +816,13 @@ export const recipes: Recipe[] = [
     "reviews": 174,
     "category": "Hauptgerichte",
     "slug": "kartoffelkloesse",
-    "tags": ["Traditionell", "Beilage", "Kartoffeln"],
+    "tags": [
+      "Traditionell",
+      "Kartoffeln",
+      "Deutsch",
+      "Klassiker",
+      "Einfach"
+    ],
     "createdDate": new Date('2025-02-18T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
@@ -1011,7 +1041,12 @@ export const recipes: Recipe[] = [
     "reviews": 102,
     "category": "Hauptgerichte",
     "slug": "semmelknoedel",
-    "tags": ["Traditionell", "Beilage", "Kartoffeln"],
+    "tags": [
+      "Traditionell",
+      "Deutsch",
+      "Klassiker",
+      "Einfach",
+    ],
     "createdDate": new Date('2025-02-15T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
@@ -1225,7 +1260,13 @@ export const recipes: Recipe[] = [
     "reviews": 230,
     "category": "Hauptgerichte",
     "slug": "quinoa-buddha-bowl",
-    "tags": ["Modern", "Gesund", "Bowl"],
+    "tags": [
+      "Schnell",
+      "Einfach",
+      "Proteine",
+      "Sommerlich",
+      "Hauptgericht"
+    ],
     "createdDate": new Date('2025-02-20T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 2,
@@ -1472,7 +1513,15 @@ export const recipes: Recipe[] = [
     "reviews": 178,
     "category": "Hauptgerichte",
     "slug": "kaesespaetzle",
-    "tags": ["Traditionell", "Pasta", "Käse"],
+    "tags": [
+      "Traditionell",
+      "Pasta",
+      "Käse",
+      "Deutsch",
+      "Herzhaft",
+      "Klassiker",
+      "Ofen",
+    ],
     "createdDate": new Date('2025-02-21T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
@@ -1698,7 +1747,14 @@ export const recipes: Recipe[] = [
     "reviews": 123,
     "category": "Hauptgerichte",
     "slug": "pilzgulasch",
-    "tags": ["Traditionell", "Pilze", "Hauptgericht"],
+    "tags": [
+      "Traditionell",
+      "Pilze",
+      "Hauptgericht",
+      "Herzhaft",
+      "Herbstlich",
+      "Winterlich",
+    ],
     "createdDate": new Date('2025-02-23T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 2,
@@ -1938,7 +1994,14 @@ export const recipes: Recipe[] = [
     "reviews": 153,
     "category": "Hauptgerichte",
     "slug": "gemuese-curry",
-    "tags": ["Asiatisch", "Proteinreich", "Cremig", "Meal Prep", "Glutenfrei"],
+    "tags": [
+      "Asiatisch",
+      "Proteine",
+      "Cremig",
+      "Schnell",
+      "Einfach",
+      "Hauptgericht"
+  ],
     "createdDate": new Date('2025-02-10T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 4,
@@ -2209,7 +2272,14 @@ export const recipes: Recipe[] = [
     "reviews": 175,
     "category": "Hauptgerichte",
     "slug": "brokkoli-quiche",
-    "tags": ["Französisch", "Gebäck", "Gemüse"],
+    "tags": [
+      "Französisch",
+      "Gemüse",
+      "Herzhaft",
+      "Proteine",
+      "Cremig",
+      "Ofen"
+    ],
     "createdDate": new Date('2025-02-14T00:00:00'),
     "updatedDate": new Date('2025-05-21T00:00:00'),
     "servings": 9,
@@ -2439,7 +2509,15 @@ export const recipes: Recipe[] = [
     "reviews": 144,
     "category": "Hauptgerichte",
     "slug": "ratatouille",
-    "tags": ["Französisch", "Gemüse", "Hauptgericht"],
+    "tags": [
+      "Französisch",
+      "Gemüse",
+      "Hauptgericht",
+      "Mediterran",
+      "Sommerlich",
+      "Einfach",
+      "Klassiker"
+    ],
     "servings": 2,
     "createdDate": new Date('2025-02-14T00:00:00'),
     "updatedDate": new Date('2025-03-27T00:00:00'),
@@ -2678,7 +2756,15 @@ export const recipes: Recipe[] = [
     "reviews": 210,
     "category": "Hauptgerichte",
     "slug": "gefuellte-paprika",
-    "tags": ["Traditionell", "Gemüse", "Hauptgericht"],
+    "tags": [
+      "Traditionell",
+      "Gemüse",
+      "Hauptgericht",
+      "Mediterran",
+      "Proteine",
+      "Einfach",
+      "Ofen",
+    ],
     "createdDate": new Date('2025-02-12T00:00:00'),
     "updatedDate": new Date('2025-03-28T00:00:00'),
     "servings": 4,
@@ -2924,7 +3010,12 @@ export const recipes: Recipe[] = [
     "reviews": 187,
     "category": "Aufläufe",
     "slug": "gemuese-strudel",
-    "tags": ["Traditionell", "Gebäck", "Gemüse"],
+    "tags": [
+      "Traditionell",      
+      "Gemüse",
+      "Mediterran",      
+      "Ofen",
+    ],
     "createdDate": new Date('2025-02-17T00:00:00'),
     "updatedDate": new Date('2025-03-28T00:00:00'),
     "servings": 4,
@@ -3171,7 +3262,14 @@ export const recipes: Recipe[] = [
     "reviews": 210,
     "category": "Hauptgerichte",
     "slug": "linsen-bolognese",
-    "tags": ["Pasta", "Italienisch", "Proteinreich"],
+    "tags": [
+      "Pasta",
+      "Italienisch",
+      "Proteine",
+      "Vegan",
+      "Herzhaft",
+      "Einfach"
+    ],
     "createdDate": new Date("2025-02-20T00:00:00"),
     "updatedDate": new Date("2025-03-30T00:00:00"),
     "servings": 3,
@@ -3395,7 +3493,14 @@ export const recipes: Recipe[] = [
     "reviews": 150,
     "category": "Desserts",
     "slug": "dubai-schokolade",
-    "tags": ["Vegetarisch", "Schokolade", "Dubai", "Exotisch", "Milchschokolade"],
+    "tags": [
+      "Schokolade",
+      "Dubai",
+      "Dessert",
+      "Süß",
+      "Einfach",
+      "Orientalisch"
+    ],
     "createdDate": new Date("2025-03-05T00:00:00"),
     "updatedDate": new Date("2025-03-30T00:00:00"),
     "servings": 4,
@@ -3599,7 +3704,14 @@ export const recipes: Recipe[] = [
     "reviews": 180,
     "category": "Hauptgerichte",
     "slug": "spinatknoedel",
-    "tags": ["Traditionell", "Spinat", "Knödel"],
+    "tags": [
+      "Traditionell",
+      "Spinat",
+      "Herzhaft",
+      "Einfach",
+      "Käse",
+      "Hauptgericht"
+    ],
     "createdDate": new Date("2025-02-10T00:00:00"),
     "updatedDate": new Date("2025-04-01T00:00:00"),
     "servings": 4,
@@ -3811,7 +3923,17 @@ export const recipes: Recipe[] = [
     "reviews": 156,
     "category": "Frühstück",
     "slug": "shakshuka",
-    "tags": ["Frühstück", "Orientalisch", "Eier", "Tomaten"],
+    "tags": [
+      "Frühstück",
+      "Orientalisch",
+      "Einfach",
+      "Schnell",
+      "Proteine",
+      "Israelisch",
+      "Afrikanisch",
+      "Mediterran",
+      "Herzhaft"
+    ],
     "createdDate": new Date('2025-04-01T00:00:00'),
     "updatedDate": new Date('2025-04-01T00:00:00'),
     "servings": 3,
@@ -4042,7 +4164,16 @@ export const recipes: Recipe[] = [
     "reviews": 1280,
     "category": "Suppen",
     "slug": "suesskartoffel-kokos-suppe",
-    "tags": ["Süßkartoffel-Kokos-Suppe", "Süßkartoffelsuppe", "Kokosmilch", "Einfach", "Rezept", "Vegan", "Suppe"],
+    "tags": [
+      "Suppe",
+      "Vegan",
+      "Asiatisch",
+      "Cremig",
+      "Einfach",
+      "Herbstlich",
+      "Winterlich",
+      "Kartoffel"
+    ],
     "createdDate": new Date("2025-03-25T00:00:00.000Z"),
     "updatedDate": new Date("2025-04-10T00:00:00.000Z"),
     "servings": 5,
@@ -4251,7 +4382,15 @@ export const recipes: Recipe[] = [
     "reviews": 220,
     "category": "Suppen",
     "slug": "kuerbissuppe",
-    "tags": ["Herbst", "Suppe", "Kürbis", "vegetarisch", "einfach", "Oma-Rezept"],
+    "tags": [
+      "Suppe",
+      "Vegetarisch",
+      "Cremig",
+      "Einfach",
+      "Herbstlich",
+      "Winterlich",
+      "Klassiker"
+    ],
     "createdDate": new Date("2025-03-20T00:00:00.000Z"),
     "updatedDate": new Date("2025-04-10T00:00:00.000Z"),
     "servings": 6,
@@ -4458,7 +4597,16 @@ export const recipes: Recipe[] = [
     "reviews": 2528,
     "category": "Suppen",
     "slug": "griessnockerl",
-    "tags": ["Traditionell", "Suppe", "Beilage"],
+    "tags": [
+      "Suppe",
+      "Klassiker",
+      "Einfach",
+      "Schnell",
+      "Herzhaft",
+      "Frühlingshaft",
+      "Herbstlich",
+      "Winterlich"
+    ],
     "createdDate": new Date("2025-03-05T00:00:00"),
     "updatedDate": new Date("2025-04-04T00:00:00"),
     "servings": 3,
@@ -4650,7 +4798,16 @@ export const recipes: Recipe[] = [
     "reviews": 188,
     "category": "Salate",
     "slug": "gemuese-couscous-salat",
-    "tags": ["Salate", "Orientalisch", "Couscous"],
+    "tags": [
+      "Salat",
+      "Vegan",
+      "Mediterran",
+      "Einfach",
+      "Schnell",
+      "Sommerlich",
+      "Grillen",
+      "Hauptgericht",
+    ],
     "createdDate": new Date("2025-04-01T11:00:00Z"),
     "updatedDate": new Date("2025-04-04T14:30:00Z"),
     "servings": 4,
@@ -4874,7 +5031,17 @@ export const recipes: Recipe[] = [
     "reviews": 215,
     "category": "Salate",
     "slug": "bunter-quinoa-salat",
-    "tags": ["Salat", "Gesund", "Quinoa"],
+    "tags": [
+      "Salat",
+      "Vegan",
+      "Proteine",
+      "Einfach",
+      "Schnell",
+      "Frühlingshaft",
+      "Sommerlich",
+      "Herbstlich",
+      "Hauptgericht"
+    ],
     "createdDate": new Date("2025-04-02T09:30:00Z"),
     "updatedDate": new Date("2025-04-04T15:00:00Z"),
     "servings": 3,
@@ -5110,7 +5277,15 @@ export const recipes: Recipe[] = [
     "reviews": 255,
     "category": "Salate",
     "slug": "griechischer-bauernsalat",
-    "tags": ["Griechisch", "Salat", "Mediterran"],
+    "tags": [
+      "Salat",      
+      "Griechisch",
+      "Mediterran",
+      "Sommerlich",
+      "Einfach",
+      "Schnell",
+      "Hauptgericht",
+    ],
     "createdDate": new Date("2025-03-28T14:00:00Z"),
     "updatedDate": new Date("2025-04-04T16:00:00Z"),
     "servings": 4,
@@ -5334,7 +5509,16 @@ export const recipes: Recipe[] = [
     "reviews": 312,
     "category": "Salate",
     "slug": "mediterraner-nudelsalat",
-    "tags": ["Salat", "Pasta", "Mediterran"],
+    "tags": [
+      "Salat",
+      "Mediterran",      
+      "Sommerlich",
+      "Grillen",
+      "Picknick",
+      "Party",
+      "Einfach",
+      "Schnell",
+    ],
     "createdDate": new Date("2025-03-15T10:00:00Z"),
     "updatedDate": new Date("2025-05-06T11:30:00Z"),
     "servings": 6,
@@ -5583,7 +5767,14 @@ export const recipes: Recipe[] = [
     "reviews": 87,
     "category": "Frühstück",
     "slug": "franzoesische-crepes-granola-nuesse",
-    "tags": ["Frühstück", "Französisch", "Süß"],
+    "tags": [
+      "Frühstück",
+      "Süß",      
+      "Einfach",
+      "Schnell",
+      "Französisch",
+      "Dessert"
+    ],
     "createdDate": new Date("2025-03-01T10:00:00Z"),
     "updatedDate": new Date("2025-10-05T12:00:00Z"),
     "servings": 4,
@@ -5798,11 +5989,15 @@ export const recipes: Recipe[] = [
     "category": "Desserts",
     "slug": "beeren-crumble",
     "tags": [
-      "Beeren",
-      "Crumble",
       "Dessert",
-      "einfach",
-      "schnell"
+      "Süß",
+      "Fruchtig",
+      "Einfach",
+      "Schnell",
+      "Sommerlich",
+      "Herbstlich",
+      "Winterlich",
+      "Kaffeezeit",
     ],
     "createdDate": new Date("2025-03-01T10:00:00Z"),
     "updatedDate": new Date("2025-05-10T12:00:00Z"),
@@ -6016,11 +6211,13 @@ export const recipes: Recipe[] = [
     "category": "Desserts",
     "slug": "bestes-schokoladen-mousse-rezept-klassisch-einfach",
     "tags": [
-      "Schokoladen-Mousse",
-      "Mousse au Chocolat",
-      "Klassiker",
+      "Dessert",
       "Schokolade",
-      "Dessert"
+      "Französisch",
+      "Einfach",
+      "Party",
+      "Festlich",
+      "Süß"    
     ],
     "createdDate": new Date("2024-03-02T11:00:00Z"),
     "updatedDate": new Date("2025-05-10T02:00:00Z"),
@@ -6287,11 +6484,15 @@ export const recipes: Recipe[] = [
     "category": "Desserts",
     "slug": "omas-bester-gezogener-apfelstrudel-rezept",
     "tags": [
-      "Apfelstrudel",
-      "Gezogener Teig",
-      "Österreichische Küche",
       "Dessert",
-      "Backen"
+      "Kuchen",
+      "Österreichisch",
+      "Klassisch",     
+      "Ofen",
+      "Tradition",
+      "Kaffeezeit",
+      "Winterlich",
+      "Herbstlich"
     ],
     "createdDate": new Date("2025-03-11T10:00:00Z"),
     "updatedDate": new Date("2025-04-12T18:15:00Z"),
@@ -6547,12 +6748,13 @@ export const recipes: Recipe[] = [
     "reviews": 312,
     "category": "Frühstück",
     "slug": "klassisches-ruehrei-rezept",
-    "tags": [
-      "Rührei",
+    "tags": [ 
       "Frühstück",
-      "Eier",
+      "Klassisch",
+      "Cremig",
+      "Einfach",
       "Schnell",
-      "Einfach"
+      "Herzhaft"    
     ],
     "createdDate": new Date("2025-02-12T09:30:00Z"),
     "updatedDate": new Date("2025-05-10T19:55:01Z"),
@@ -6765,11 +6967,13 @@ export const recipes: Recipe[] = [
     "category": "Desserts",
     "slug": "bestes-zimtschnecken-rezept-saftig",
     "tags": [
-      "Zimtschnecken",
-      "Hefeteig",
-      "Backen",
       "Dessert",
-      "Kaffee und Kuchen"
+      "Süß",
+      "Käse",
+      "Klassisch",      
+      "Ofen",
+      "Fluffig",
+      "Kaffeezeit",
     ],
     "createdDate": new Date("2025-02-16T10:00:00Z"),
     "updatedDate": new Date("2025-05-10T23:50:00Z"),
@@ -7027,11 +7231,14 @@ export const recipes: Recipe[] = [
     "category": "Desserts",
     "slug": "cremiges-rhabarber-kompott-vanille-zitrone",
     "tags": [
-      "Frühling",
       "Dessert",
+      "Kompott",            
+      "Fruchtig",
+      "Sauer",
+      "Süß",
       "Einfach",
-      "Traditionell",
-      "Frucht"
+      "Schnell",
+      "Frühling"    
     ],
     "createdDate": new Date("2025-02-12T14:30:00Z"),
     "updatedDate": new Date("2025-05-10T16:15:00Z"),
@@ -7302,11 +7509,12 @@ export const recipes: Recipe[] = [
     "category": "Frühstück",
     "slug": "knusper-granola-nuesse-rezept",
     "tags": [
-      "Granola",
-      "Nüsse",
       "Frühstück",
-      "Gesund",
-      "Selber machen"
+      "Gesund",      
+      "Haferflocken",
+      "Snack",
+      "Süß",
+      "Ofen"
     ],
     "createdDate": new Date("2025-02-02T20:00:00Z"),
     "updatedDate": new Date("2025-05-10T22:42:00Z"),
@@ -7543,7 +7751,20 @@ export const recipes: Recipe[] = [
     "reviews": 187,
     "category": "Aufläufe",
     "slug": "kartoffelgratin",
-    "tags": ["Traditionell", "Auflauf", "Kartoffeln"],
+    "tags": [      
+      "Auflauf",
+      "Kartoffeln",      
+      "Hauptgericht",
+      "Französisch",
+      "Käse",
+      "Sahne",
+      "Cremig",
+      "Traditionell",
+      "Klassiker",
+      "Herzhaft",
+      "Einfach",
+      "Ofen",      
+    ],
     "createdDate": new Date("2025-02-10T10:00:00Z"),
     "updatedDate": new Date("2025-05-10T12:00:00Z"),
     "servings": 7,
@@ -7776,9 +7997,14 @@ export const recipes: Recipe[] = [
     "tags": [
       "Blumenkohl",
       "Auflauf",
-      "Käse",
-      "Vegetarisch",
-      "Familienrezept"
+      "Käse",      
+      "Hauptgericht",
+      "Beilage",
+      "Cremig",
+      "Herzhaft",
+      "Einfach",
+      "Schnell",          
+      "Ofen"
     ],
     "createdDate": new Date("2025-03-10T14:30:00Z"),
     "updatedDate": new Date("2025-05-10T10:00:00Z"),
@@ -8001,12 +8227,17 @@ export const recipes: Recipe[] = [
     "reviews": 98,
     "category": "Aufläufe",
     "slug": "zucchini-reis-auflauf",
-    "tags": [
-      "Zucchini",
-      "Reis",
-      "Auflauf",
-      "Vegetarisch",
-      "Sommerküche"
+    "tags": [      
+      "Reis",        
+      "Einfach",
+      "Schnell",
+      "Sommerlich",
+      "Gemüse",
+      "Resteverwertung",
+      "Hauptgericht",
+      "Ofen",
+      "Käse",    
+      "Herzhaft"
     ],
     "createdDate": new Date("2025-03-01T12:00:00Z"),
     "updatedDate": new Date("2025-04-20T14:00:00Z"),
@@ -8289,11 +8520,18 @@ export const recipes: Recipe[] = [
     "category": "Aufläufe",
     "slug": "gemuese-polenta-auflauf",
     "tags": [
-      "Gemüse",
       "Polenta",
-      "Auflauf",
-      "Vegetarisch",
-      "Einfach"
+      "Gemüse",            
+      "Einfach",
+      "Schnell",
+      "Herzhaft",
+      "Familienrezept",
+      "Saisonal",
+      "Ofen",
+      "Käse",
+      "Wohlfühlessen",
+      "Mediterran",
+      "Maisgrieß"
     ],
     "createdDate": new Date("2025-02-17T15:00:00Z"),
     "updatedDate": new Date("2025-04-20T15:00:00Z"),
@@ -8580,11 +8818,16 @@ export const recipes: Recipe[] = [
     "category": "Aufläufe",
     "slug": "spinat-kaese-lasagne",
     "tags": [
-      "Spinat",
-      "Käse",
       "Lasagne",
-      "Vegetarisch",
-      "Auflauf"
+      "Spinat",
+      "Käse",      
+      "Italienisch",  
+      "Cremig",      
+      "Einfach",
+      "Hauptgericht",
+      "Ofen",
+      "Ricotta",            
+      "Mozzarella"
     ],
     "createdDate": new Date("2025-04-20T15:50:00Z"),
     "updatedDate": new Date("2025-04-20T15:50:00Z"),
@@ -8909,12 +9152,17 @@ export const recipes: Recipe[] = [
     "reviews": 155,
     "category": "Frühstück",
     "slug": "beeren-smoothie-bowl",
-    "tags": [
-      "Smoothie Bowl",
+    "tags": [      
+      "Beeren",
       "Frühstück",
       "Gesund",
-      "Beeren",
-      "Vegan (Optional)"
+      "Vegan",      
+      "Einfach",
+      "Schnell",      
+      "Energie-Booster",
+      "Banane",
+      "Kalorienarm",
+      "Sommerlich"
     ],
     "createdDate": new Date("2025-02-11T12:10:00Z"),
     "updatedDate": new Date("2025-04-20T12:10:00Z"),
@@ -9140,12 +9388,15 @@ export const recipes: Recipe[] = [
     "reviews": 125,
     "category": "Frühstück",
     "slug": "beeren-overnight-oats",
-    "tags": [
-      "Overnight Oats",
+    "tags": [      
       "Beeren",
+      "Haferflocken",
       "Frühstück",
-      "Meal Prep",
-      "Vegetarisch"
+      "Gesund",
+      "Einfach",
+      "Schnell",      
+      "Cremig",      
+      "Vegan"      
     ],
     "createdDate": new Date("2025-02-15T09:00:00Z"),
     "updatedDate": new Date("2025-04-20T11:30:00Z"),
@@ -9369,11 +9620,17 @@ export const recipes: Recipe[] = [
     "category": "Frühstück",
     "slug": "banana-bread",
     "tags": [
-      "Vegan",
-      "Backen",
-      "Bananen",
+      "Banana",
+      "Vegan",           
+      "Ofen",
+      "Frühstück",
       "Kuchen",
-      "Frühstück"
+      "Einfach",
+      "Saftig",
+      "Süß",    
+      "Pflanzlich",
+      "Zimt",      
+      "Kaffeezeit"
     ],
     "createdDate": new Date("2025-02-15T13:00:00Z"),
     "updatedDate": new Date("2025-04-20T13:00:00Z"),
@@ -9643,12 +9900,14 @@ export const recipes: Recipe[] = [
     "reviews": 280,
     "category": "Suppen",
     "slug": "cremige-spargelcremesuppe-aus-spargelfond",
-    "tags": [
+    "tags": [      
       "Spargel",
       "Suppe",
-      "Saisonal",
+      "Cremig",
+      "Einfach",
       "Schnell",
-      "Cremesuppe"
+      "Frühling",      
+      "Hauptgericht"      
     ],
     "createdDate": new Date("2025-04-21T16:50:00Z"),
     "updatedDate": new Date("2025-04-21T16:50:00Z"),
@@ -9972,12 +10231,15 @@ export const recipes: Recipe[] = [
     "reviews": 110,
     "category": "Suppen",
     "slug": "leuchtend-gruene-baerlauchcremesuppe",
-    "tags": [
+    "tags": [      
       "Bärlauch",
       "Suppe",
-      "Saisonal",
-      "Vegetarisch",
-      "Frühling"
+      "Cremig",
+      "Einfach",      
+      "Frühling",            
+      "Knoblauch",
+      "Grün",
+      "Schnell"      
     ],
     "createdDate": new Date("2025-04-22T18:30:00Z"),
     "updatedDate": new Date("2025-04-22T18:30:00Z"),
@@ -10260,12 +10522,17 @@ export const recipes: Recipe[] = [
     "reviews": 180,
     "category": "Hauptgerichte",
     "slug": "himmlisch-cremiges-spargelrisotto",
-    "tags": [
-      "Spargel",
+    "tags": [      
       "Risotto",
-      "Italienisch",
-      "Saisonal",
-      "Vegetarisch"
+      "Spargel",
+      "Cremig",
+      "Italienisch",      
+      "Hauptgericht",      
+      "Reis",
+      "Parmesan",
+      "Wein",
+      "Frühling",
+      "Einfach"
     ],
     "createdDate": new Date("2025-04-23T21:20:00Z"),
     "updatedDate": new Date("2025-04-23T21:20:00Z"),
@@ -10514,12 +10781,13 @@ export const recipes: Recipe[] = [
     "reviews": 95,
     "category": "Salate",
     "slug": "einfacher-spargelsalat-mit-vinaigrette",
-    "tags": [
-      "Spargel",
+    "tags": [      
       "Salat",
-      "Saisonal",
-      "Vegetarisch",
-      "Frühling"
+      "Spargel",
+      "Vinaigrette",
+      "Einfach",      
+      "Frühling",      
+      "Dressing"          
     ],
     "createdDate": new Date("2025-04-24T19:50:00Z"),
     "updatedDate": new Date("2025-04-24T19:50:00Z"),
@@ -10768,12 +11036,15 @@ export const recipes: Recipe[] = [
     "reviews": 150,
     "category": "Desserts",
     "slug": "sommerliches-erdbeer-tiramisu-im-glas",
-    "tags": [
-      "Erdbeeren",
+    "tags": [      
       "Tiramisu",
+      "Erdbeeren",
       "Dessert",
-      "Sommer",
-      "Einfach"
+      "Sommerlich",
+      "Einfach",
+      "Fruchtig",
+      "Cremig",      
+      "Italienisch"      
     ],
     "createdDate": new Date("2025-04-27T09:00:00Z"),
     "updatedDate": new Date("2025-04-27T09:00:00Z"),
@@ -11020,13 +11291,16 @@ export const recipes: Recipe[] = [
   "reviews": 230,
   "category": "Desserts",
   "slug": "cremiger-kaesekuchen-mit-sommerbeeren",
-  "tags": [
-    "Käsekuchen",
-    "Beeren",
-    "Backen",
-    "Saisonal",
-    "Sommer",
-    "Desserts"
+  "tags": [    
+    "Beeren",    
+    "Dessert",
+    "Kuchen",    
+    "Cremig",
+    "Einfach",    
+    "Käse",      
+    "Ofen",
+    "Sommerlich",
+    "Fruchtig"
   ],
   "createdDate": new Date("2025-04-28T10:00:00Z"),
   "updatedDate": new Date("2025-04-28T10:00:00Z"),
@@ -11299,12 +11573,16 @@ export const recipes: Recipe[] = [
   "reviews": 130,
   "category": "Aufläufe",
   "slug": "tomaten-mozzarella-auflauf",
-  "tags": [
+  "tags": [        
     "Tomaten",
-    "Mozzarella",
-    "Auflauf",
-    "Vegetarisch",
-    "Italienisch"
+    "Mozzarella",    
+    "Einfach",
+    "Cremig",
+    "Schnell",
+    "Italienisch",    
+    "Hauptgericht",
+    "Ofen",
+    "Käse"
   ],
   "createdDate": new Date("2025-04-29T19:55:00Z"),
   "updatedDate": new Date("2025-04-29T19:55:00Z"),
@@ -11515,13 +11793,15 @@ export const recipes: Recipe[] = [
   "reviews": 75,
   "category": "Hauptgerichte",
   "slug": "kartoffel-spargel-blech-mit-ziegenkaese",
-  "tags": [
+  "tags": [  
     "Kartoffeln",
-    "Spargel",
-    "Blechgericht",
-    "Saisonal",
-    "Vegetarisch",
-    "Hauptgerichte"
+    "Spargel",    
+    "Einfach",
+    "Hauptgericht",
+    "Schnell",
+    "Frühling",
+    "Käse",
+    "Ofen"
   ],
   "createdDate": new Date("2025-04-30T19:15:00Z"),
   "updatedDate": new Date("2025-04-30T19:15:00Z"),
@@ -11749,13 +12029,13 @@ export const recipes: Recipe[] = [
   "reviews": 410,
   "category": "Hauptgerichte",
   "slug": "omas-bestes-cremiges-kartoffelpueree",
-  "tags": [
-    "Kartoffeln",
+  "tags": [    
     "Püree",
-    "Beilage",
-    "Klassiker",
-    "Vegetarisch",
-    "Hauptgerichte"
+    "Kartoffeln",    
+    "Cremig",    
+    "Einfach",
+    "Klassiker",   
+    "Hauptgericht" 
   ],
   "createdDate": new Date("2025-05-01T12:20:00Z"),
   "updatedDate": new Date("2025-05-01T12:20:00Z"),
@@ -11952,11 +12232,14 @@ export const recipes: Recipe[] = [
   "category": "Salate",
   "slug": "kartoffelsalat-rezept-mit-mayo",
   "tags": [
-    "Kartoffeln",
-    "Salate",
-    "Klassiker",
-    "Beilage",
-    "Sommer"
+    "Salat",    
+    "Salat",
+    "Klassisch",
+    "Cremig",        
+    "Party",
+    "Grillen",
+    "Einfach",    
+    "Deutsch",    
   ],
   "createdDate": new Date("2025-05-02T13:15:00Z"),
   "updatedDate": new Date("2025-05-02T13:15:00Z"),
@@ -12201,13 +12484,14 @@ export const recipes: Recipe[] = [
   "reviews": 190,
   "category": "Salate",
   "slug": "cremiger-gurkensalat",
-  "tags": [
-    "Gurke",
-    "Salate",
-    "Klassiker",
-    "Beilage",
-    "Sommer",
-    "Vegetarisch"
+  "tags": [    
+    "Salat",
+    "Cremig",    
+    "Klassisch",  
+    "Einfach",    
+    "Sommerlich",    
+    "Sauer",    
+    "Deutsch"    
   ],
   "createdDate": new Date("2025-05-03T10:30:00Z"),
   "updatedDate": new Date("2025-05-03T10:30:00Z"),
@@ -12427,11 +12711,14 @@ export const recipes: Recipe[] = [
   "reviews": 160,
   "category": "Hauptgerichte",
   "slug": "veganes-chili-sin-carne-mit-linsen",
-  "tags": [
-    "Chili",
-    "Eintopf",
-    "Linsen",
-    "Hauptgerichte"
+  "tags": [    
+    "Linsen",    
+    "Vegan",    
+    "Hauptgericht",
+    "Einfach",
+    "Herzhaft",    
+    "Schnell",
+    "Winterlich"    
   ],
   "createdDate": new Date("2025-05-04T15:45:00Z"),
   "updatedDate": new Date("2025-05-04T15:45:00Z"),
@@ -12736,13 +13023,14 @@ export const recipes: Recipe[] = [
   "reviews": 350,
   "category": "Suppen",
   "slug": "kartoffelsuppe",
-  "tags": [
-    "Kartoffeln",
-    "Suppe",
-    "Klassiker",
-    "Vegetarisch",
-    "Einfach",
-    "Salate"
+  "tags": [    
+    "Suppe",    
+    "Cremig",
+    "Einfach",    
+    "Klassisch",    
+    "Herbstlich",
+    "Winterlich",
+    "Kartoffeln"
   ],
   "createdDate": new Date("2025-05-05T14:00:00Z"),
   "updatedDate": new Date("2025-05-05T14:00:00Z"),
@@ -12981,11 +13269,13 @@ export const recipes: Recipe[] = [
   "category": "Hauptgerichte",
   "slug": "falafel",
   "tags": [
-    "Falafel",    
-    "Orientalisch",
-    "Kichererbsen",
-    "Selber machen",
-    "Hauptgerichte"
+    "Falafel",
+    "Vegan",    
+    "Orientalisch",    
+    "Hauptgericht",
+    "Einfach",
+    "Klassiker",
+    "Proteine"
   ],
   "createdDate": new Date("2025-05-06T09:00:00Z"),
   "updatedDate": new Date("2025-05-06T09:00:00Z"),
@@ -13272,12 +13562,16 @@ export const recipes: Recipe[] = [
   "reviews": 210,
   "category": "Salate",
   "slug": "italienischer-nudelsalat",
-  "tags": [
-    "Nudelsalat",
+  "tags": [    
     "Italienisch",
-    "Sommer",
-    "Einfach",    
-    "Salate"
+    "Salat",    
+    "Einfach",
+    "Sommerlich",    
+    "Mediterran",
+    "Mozzarella",
+    "Tomaten",    
+    "Party",    
+    "Schnell"
   ],
   "createdDate": new Date("2025-05-08T18:00:00Z"),
   "updatedDate": new Date("2025-05-08T18:00:00Z"),
@@ -13560,10 +13854,13 @@ export const recipes: Recipe[] = [
   "tags": [
     "Kartoffelsalat",
     "Schwäbisch",
-    "Vegetarisch",
-    "Beilage",
+    "Salat",
+    "Vegetarisch",    
+    "Klassisch",
+    "Einfach",    
+    "Kartoffeln",
     "Traditionell",
-    "Salate"
+    "Deutsch"    
   ],
   "createdDate": new Date("2025-05-11T14:00:00Z"),
   "updatedDate": new Date("2025-05-11T14:00:00Z" ),
@@ -13818,10 +14115,14 @@ export const recipes: Recipe[] = [
   "slug": "hummus",
   "tags": [
     "Hummus",
-    "Vegan",
-    "Orientalisch",
-    "Einfach",
-    "Frühstück"
+    "Vegan",  
+    "Dip",    
+    "Einfach",    
+    "Cremig",    
+    "Orientalisch",    
+    "Frühstück",    
+    "Party",
+    "Proteine",    
   ],
   "createdDate": new Date("2025-05-12T10:00:00Z"),
   "updatedDate": new Date("2025-05-12T14:30:00Z"),
@@ -14111,9 +14412,11 @@ export const recipes: Recipe[] = [
     "Remoulade",
     "Sauce",
     "Klassiker",
-    "Salate",
-    "Einfach",
-    "Vegetarisch"
+    "Salat",
+    "Einfach",    
+    "Dip",    
+    "Cremig",
+    "Schnell"    
   ],
   "createdDate": new Date("2025-05-13T19:00:00Z"),
   "updatedDate": new Date("2025-05-13T19:00:00Z"),
@@ -14372,12 +14675,13 @@ export const recipes: Recipe[] = [
   "reviews": 487,
   "category": "Desserts",
   "slug": "kaiserschmarrn",
-  "tags": [
-    "Kaiserschmarrn",
+  "tags": [    
+    "Dessert",
+    "Süß",
     "Österreichisch",
-    "Süßspeise",
-    "Desserts",
-    "Einfach"
+    "Einfach",
+    "Fluffig",    
+    "Klassiker"    
   ],
   "createdDate": new Date("2025-05-26T08:00:00Z"),
   "updatedDate": new Date("2025-05-26T12:00:00Z"),
@@ -14639,12 +14943,15 @@ export const recipes: Recipe[] = [
   "reviews": 312,
   "category": "Frühstück",
   "slug": "gruener-smoothie",
-  "tags": [
+  "tags": [    
     "Smoothie",
-    "Grün",
-    "Gesund",
-    "Vegan",
-    "Frühstück"
+    "Gesund",    
+    "Einfach",
+    "Frühstück",
+    "Banane",
+    "Schnell",    
+    "Obst",
+    "Gemüse"    
   ],
   "createdDate": new Date("2025-06-01T09:00:00Z"),
   "updatedDate": new Date("2025-06-01T10:30:00Z"),
@@ -14854,11 +15161,15 @@ export const recipes: Recipe[] = [
   "reviews": 128,
   "category": "Salate",
   "slug": "tomaten-gurken-salat",
-  "tags": [
-    "Salate",
-    "Sommer",
-    "schnell",
-    "Beilage"
+  "tags": [    
+    "Salat",
+    "Sommerlich",    
+    "Dill",
+    "Dressing",    
+    "Einfach",
+    "Schnell",
+    "Mediterran",
+    "Nordisch"
   ],
   "createdDate": new Date("2025-05-20T14:30:00Z"),
   "updatedDate": new Date("2025-05-28T10:15:00Z"),
@@ -15105,10 +15416,15 @@ export const recipes: Recipe[] = [
   "category": "Hauptgerichte",
   "slug": "pasta-tomaten-mozzarella",
   "tags": [
-    "Pasta",  
-    "schnell",
-    "italienisch",
-    "sommerlich"
+    "Pasta",    
+    "Mozzarella",    
+    "Schnell",
+    "Sommerlich",
+    "Italienisch",
+    "Hauptgericht",
+    "Einfach",
+    "Cremig",
+    "Mediterran"
   ],
   "createdDate": new Date("2025-05-25T11:00:00Z"),
   "updatedDate": new Date("2025-06-03T18:00:00Z"),
@@ -15363,11 +15679,16 @@ export const recipes: Recipe[] = [
   "reviews": 567,
   "category": "Hauptgerichte",
   "slug": "falafel-wrap",
-  "tags": [
+  "tags": [    
     "Falafel",
-    "Wrap",        
-    "Orientalisch",
-    "Vegan"
+    "Wrap",
+    "Vegan",
+    "Orientalisch",    
+    "Einfach",
+    "Hauptgericht",    
+    "Nahöstlich",
+    "Schnell",
+    "Proteine",    
   ],
   "createdDate": new Date("2025-06-05T18:00:00Z"),
   "updatedDate": new Date("2025-06-05T18:10:00Z"),
@@ -15733,8 +16054,14 @@ export const recipes: Recipe[] = [
   "slug": "vegetarischer-dueruem",
   "tags": [
     "Dürüm",
-    "Halloumi",
-    "Schnell"
+    "Vegetarisch",
+    "Türkisch",
+    "Wrap",
+    "Schnell",
+    "Einfach",
+    "Hauptgericht",    
+    "Sommerlich",
+    "Käse",
   ],
   "createdDate": new Date("2025-06-08T19:00:00Z"),
   "updatedDate": new Date("2025-06-08T20:15:00Z"),
@@ -16027,12 +16354,17 @@ export const recipes: Recipe[] = [
   "reviews": 124,
   "category": "Salate",
   "slug": "avocado-dip",
-  "tags": [
-    "vegan",    
-    "schnell",
-    "party",
-    "mexikanisch",
-    "salate"
+  "tags": [    
+    "Vegan",
+    "Schnell",
+    "Einfach",
+    "Dip",
+    "Snack",
+    "Mexikanisch",
+    "Party",
+    "Sommerlich",
+    "Chili",    
+    "Cremig",
   ],
   "createdDate": new Date("2025-05-20T14:30:00Z"),
   "updatedDate": new Date("2025-06-05T10:00:00Z"),
@@ -16203,11 +16535,15 @@ export const recipes: Recipe[] = [
   "reviews": 98,
   "category": "Salate",
   "slug": "tomatensalat-mit-zwiebeln",
-  "tags": [    
-    "vegan",
-    "glutenfrei",
-    "Sommer",
-    "Beilage"
+  "tags": [     
+    "Salat",
+    "Sommerlich",
+    "Einfach",
+    "Schnell",
+    "Vegan",
+    "Mediterran",
+    "Klassiker",
+    "Grillen",
   ],
   "createdDate": new Date("2025-06-13T09:00:00Z"),
   "updatedDate": new Date("2025-06-13T18:00:00Z"),
@@ -16380,12 +16716,15 @@ export const recipes: Recipe[] = [
   "reviews": 75,
   "category": "Salate",
   "slug": "glasnudelsalat",
-  "tags": [
-    "vegan",
-    "asiatisch",
-    "schnell",
-    "leicht",
-    "frisch"
+  "tags": [    
+    "Asiatisch",
+    "Vegan",
+    "Schnell",
+    "Salat",    
+    "Sommerlich",
+    "Hauptgericht",
+    "Kartoffeln",
+    "Reis"
   ],
   "createdDate": new Date("2025-06-14T10:00:00Z"),
   "updatedDate": new Date("2025-06-14T11:45:00Z"),
@@ -16596,11 +16935,14 @@ export const recipes: Recipe[] = [
   "reviews": 112,
   "category": "Salate",
   "slug": "kichererbsensalat",
-  "tags": [
-    "vegan",
-    "proteinreich",
-    "schnell",
-    "mediterran"
+  "tags": [    
+    "Salat",
+    "Vegan",
+    "Proteine",
+    "Schnell",
+    "Mediterran",    
+    "Sommerlich",
+    "Einfach"
   ],
   "createdDate": new Date("2025-06-15T13:00:00Z"),
   "updatedDate": new Date("2025-06-15T13:05:00Z"),
@@ -16755,6 +17097,932 @@ export const recipes: Recipe[] = [
     "image5": "/images/Salads/kichererbsensalat-sommer.jpeg",
     "image6": "/images/Salads/bunter-kichererbsensalat-frisch.jpeg",
     "image7": "/images/Salads/kichererbsen-salat-serviert.jpeg"
+  }
+},
+{
+  "title": "Erfrischender Asiatischer Nudelsalat mit Mie-Nudeln",
+  "seo_title": "Asiatischer Nudelsalat: Mie Nudeln, Gemüse & Soja-Dressing",
+  "image": "/images/Salads/asiatischer-nudelsalat-serviert.jpeg",
+  "prepTime": 20,
+  "cookingTime": 10,
+  "seo_keywords": [
+    "asiatischer nudelsalat",
+    "rezept asiatischer nudelsalat",
+    "asiatischer nudelsalat rezept",
+    "asiatischer nudelsalat vegan",
+    "asiatischer nudelsalat sesam",
+    "asiatischer nudelsalat dressing"
+  ],
+  "rating": 4.6,
+  "reviews": 98,
+  "category": "Salate",
+  "slug": "asiatischer-nudelsalat-mit-mie-nudeln",
+  "tags": [
+    "Asiatisch", 
+    "Salat",
+    "Vegan",
+    "Schnell",
+    "Einfach",
+    "Sommerlich",
+    "Hauptgericht",
+  ],
+  "createdDate": new Date("2025-06-17T17:15:00Z"),
+  "updatedDate": new Date("2025-06-17T17:20:00Z"),
+  "servings": 4,
+  "description": "Blitzschneller asiatischer Nudelsalat mit Mie-Nudeln und knackigem Gemüse. Vegan & lecker!",
+  "descriptionOnImage": "Dein einfacher Asiatischer Nudelsalat für heiße Tage!",
+  "introductionParagraph": "Dieser asiatische Nudelsalat mit Mie-Nudeln ist für mich die perfekte Lösung, wenn der Heißhunger auf etwas Leichtes, aber dennoch Sättigendes kommt! Er ist herrlich frisch und die Aromen nehmen dich direkt mit auf eine kulinarische Reise nach Asien.",
+  "additionalParagraph": "Ich liebe es, wie das knackige Gemüse und die zarten Mie-Nudeln mit dem würzigen Dressing harmonieren. Er ist unglaublich wandelbar und eignet sich hervorragend für ein schnelles Mittagessen, als Beilage oder für das nächste Gartenfest. Einfach zubereitet, aber so voller Geschmack!",
+  "ingredientsNeeded": [
+    {
+      "title": "Mie-Nudeln",
+      "description": "Die Basis des Salats, sie sind schnell gar und nehmen das Dressing wunderbar auf."
+    },
+    {
+      "title": "Buntes Gemüse (Karotten, Gurke, Paprika, Rotkohl)",
+      "description": "Für die Farbe, den Biss und eine Extraportion Vitamine. Je mehr Vielfalt, desto besser!"
+    },
+    {
+      "title": "Frühlingszwiebeln & Koriander",
+      "description": "Diese frischen Kräuter und Zwiebeln verleihen dem Salat seine typisch asiatische Frische und Würze."
+    },
+    {
+      "title": "Sojasauce",
+      "description": "Die salzige Umami-Komponente, die das Herzstück des Dressings bildet."
+    },
+    {
+      "title": "Reisessig",
+      "description": "Bringt eine milde Säure ins Dressing, die perfekt mit den anderen Aromen harmoniert."
+    },
+    {
+      "title": "Sesamöl",
+      "description": "Verleiht dem Dressing sein charakteristisches, nussiges Aroma und eine seidige Textur."
+    },
+    {
+      "title": "Ingwer & Knoblauch",
+      "description": "Die Aromaträger schlechthin für den authentisch asiatischen Geschmackskick."
+    },
+    {
+      "title": "Ahornsirup",
+      "description": "Ein Hauch von Süße, der die Balance im Dressing herstellt und die würzigen und sauren Noten wunderbar abrundet."
+    },
+    {
+      "title": "Chiliflocken",
+      "description": "Für alle, die es gerne etwas schärfer mögen! Sie sorgen für eine angenehme Würze und einen kleinen Kick im Dressing."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Nudelsalat",
+      "description": "Die Grundzutaten für unseren farbenfrohen und sättigenden Salat.",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "Mie-Nudeln" },
+        { "amount": 2, "unit": "Stück", "name": "Karotten (julienniert oder geraspelt)" },
+        { "amount": 0.5, "unit": "Stück", "name": "Gurke (in feine Streifen geschnitten)" },
+        { "amount": 1, "unit": "Stück", "name": "rote Paprika (in feine Streifen geschnitten)" },
+        { "amount": 100, "unit": "g", "name": "Rotkohl (fein gehobelt oder geschnitten)" },
+        { "amount": 3, "unit": "Stück", "name": "Frühlingszwiebeln (in feine Ringe geschnitten)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+        { "amount": 2, "unit": "EL", "name": "gerösteter Sesam (zum Bestreuen, optional)" }
+      ]
+    },
+    {
+      "title": "Für das asiatische Dressing",
+      "description": "Das würzige Dressing, das dem Salat seinen unverwechselbaren Geschmack verleiht.",
+      "ingredients": [
+        { "amount": 5, "unit": "EL", "name": "Sojasauce" },
+        { "amount": 2, "unit": "EL", "name": "Reisessig" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "amount": 1, "unit": "EL", "name": "Ahornsirup oder Agavendicksaft" },
+        { "amount": 1, "unit": "TL", "name": "frischer Ingwer (gerieben)" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+        { "amount": 0.5, "unit": "TL", "name": "Chiliflocken (optional, nach Geschmack)" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 250, "unit": "g", "name": "Mie-Nudeln" },
+    { "amount": 2, "unit": "Stück", "name": "Karotten (julienniert oder geraspelt)" },
+    { "amount": 0.5, "unit": "Stück", "name": "Gurke (in feine Streifen geschnitten)" },
+    { "amount": 1, "unit": "Stück", "name": "rote Paprika (in feine Streifen geschnitten)" },
+    { "amount": 100, "unit": "g", "name": "Rotkohl (fein gehobelt oder geschnitten)" },
+    { "amount": 3, "unit": "Stück", "name": "Frühlingszwiebeln (in feine Ringe geschnitten)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frischer Koriander (gehackt)" },
+    { "amount": 2, "unit": "EL", "name": "gerösteter Sesam (zum Bestreuen, optional)" },
+    { "amount": 5, "unit": "EL", "name": "Sojasauce" },
+    { "amount": 2, "unit": "EL", "name": "Reisessig" },
+    { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+    { "amount": 1, "unit": "EL", "name": "Ahornsirup oder Agavendicksaft" },
+    { "amount": 1, "unit": "TL", "name": "frischer Ingwer (gerieben)" },
+    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+    { "amount": 0.5, "unit": "TL", "name": "Chiliflocken (optional, nach Geschmack)" }
+  ],
+  "instructions": [
+    "Die Mie-Nudeln nach Packungsanweisung zubereiten. Meistens werden sie mit kochendem Wasser übergossen und ziehen dann einige Minuten. Anschließend abgießen, kurz mit kaltem Wasser abschrecken und gut abtropfen lassen.",
+    "Während die Nudeln ziehen, das Gemüse vorbereiten: Karotten, Gurke, Paprika und Rotkohl in sehr feine Streifen schneiden. Frühlingszwiebeln in feine Ringe schneiden und den Koriander hacken.",
+    "Für das Dressing alle Zutaten (Sojasauce, Reisessig, Sesamöl, Ahornsirup, Ingwer, Knoblauch, optional Chiliflocken) in einer kleinen Schüssel gut verrühren, bis das Dressing homogen ist.",
+    "In einer großen Salatschüssel die abgekühlten Mie-Nudeln mit dem geschnittenen Gemüse, den Frühlingszwiebeln und dem gehackten Koriander vermischen.",
+    "Das zubereitete Dressing über den Nudelsalat gießen und alles gründlich vermengen, sodass alle Zutaten gut mit dem Dressing benetzt sind.",
+    "Den asiatischen Nudelsalat für mindestens 15-20 Minuten im Kühlschrank ziehen lassen, damit sich die Aromen voll entfalten können. Vor dem Servieren mit geröstetem Sesam bestreuen."
+  ],
+  "nutrition": {
+    "calories": 1399,
+    "protein": "40.95g",
+    "carbs": "239.5g",
+    "fat": "28.95g"
+  },
+  "tips": [
+    "Für mehr Protein kannst du gebratene Tofuwürfel oder Edamame zum Salat hinzufügen.",
+    "Wenn du es gerne schärfer magst, erhöhe einfach die Menge der Chiliflocken oder gib etwas Sriracha zum Dressing."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Asiatische Nudelsalat einfach unwiderstehlich ist!",
+    "reasons": [
+      {
+        "title": "Leicht und doch sättigend",
+        "description": "Dieser Nudelsalat ist eine perfekte Mischung aus Leichtigkeit und Sättigung, ideal für ein gesundes Mittag- oder Abendessen."
+      },
+      {
+        "title": "Aromen wie aus dem Lieblingsrestaurant",
+        "description": "Die Kombination aus Ingwer, Knoblauch und Sesamöl verleiht diesem Salat einen authentischen Geschmack, der an dein Lieblings-Asia-Restaurant erinnert."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dich von diesem köstlichen Asiatischen Nudelsalat verzaubern!",
+    "subText": "Ich bin gespannt, welche deiner Geschmacksknospen er kitzelt!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Nudeln und Gemüse vorbereiten",
+      "description": "Mie-Nudeln kochen und das gesamte Gemüse fein schneiden, um die Basis des Salats zu legen."
+    },
+    {
+      "title": "Dressing anrühren",
+      "description": "Alle Zutaten für das aromatische asiatische Dressing sorgfältig miteinander vermischen."
+    },
+    {
+      "title": "Zusammenfügen und ziehen lassen",
+      "description": "Nudeln und Gemüse mit dem Dressing vermengen und dem Salat Zeit geben, damit alle Aromen perfekt miteinander harmonieren können."
+    }
+  ],
+  "servingSuggestion": "Serviere den asiatischen Nudelsalat als leichte Hauptmahlzeit, als Beilage zu gebratenem Tofu oder als Teil eines asiatischen Buffets.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Asiatischen Nudelsalat",
+    "description": "Dieser vielseitige Nudelsalat harmoniert mit vielen verschiedenen Ergänzungen.",
+    "note": "Werde kreativ und probiere deine Lieblingskombinationen aus!",
+    "items": [
+      {
+        "emoji": "🥢",
+        "title": "Mit knusprigem Tofu",
+        "description": "Gebratener oder gebackener Tofu passt hervorragend dazu und macht den Salat noch sättigender."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Mie-Nudeln sind eine Art Eiernudeln, die ihren Ursprung in China haben und in vielen asiatischen Küchen verbreitet sind. Ihr Name 'Mie' bedeutet einfach 'Nudeln'!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/asiatischer-nudelsalat-mie-nudeln-zutaten.jpeg",
+    "image1": "/images/Salads/asiatischer-nudelsalat-gemuese.jpeg",
+    "image2": "/images/Salads/mie-nudeln-salat-rezept.jpeg",
+    "image3": "/images/Salads/veganer-asiatischer-nudelsalat.jpeg",
+    "image4": "/images/Salads/schneller-nudelsalat-dressing.jpeg",
+    "image5": "/images/Salads/gesunder-asiatischer-salat.jpeg",
+    "image6": "/images/Salads/sommersalat-mie-nudeln.jpeg",
+    "image7": "/images/Salads/asiatischer-nudelsalat-mie-nudeln.jpeg"
+  }
+},
+{
+  "title": "Klassischer Amerikanischer Coleslaw",
+  "seo_title": "Coleslaw Rezept: Amerikanischer Krautsalat mit Karotten",
+  "image": "/images/Salads/coleslaw-amerikanischer-krautsalat.jpeg",
+  "prepTime": 15,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "amerikanischer krautsalat",
+    "original amerikanischer krautsalat",
+    "amerikanischer krautsalat rezept",
+    "amerikanischer krautsalat coleslaw rezept",
+    "rezept amerikanischer krautsalat",
+    "amerikanischer krautsalat coleslaw",
+    "coleslaw amerikanischer krautsalat",
+    "amerikanischer krautsalat rezepte"
+  ],
+  "rating": 4.7,
+  "reviews": 180,
+  "category": "Salate",
+  "slug": "coleslaw-amerikanischer-krautsalat",
+  "tags": [
+    "Amerikanisch",
+    "Salat",
+    "Sommerlich",
+    "Grillen",
+    "Cremig",
+    "Einfach",
+    "Schnell",
+  ],
+  "createdDate": new Date("2025-06-18T18:45:00Z"),
+  "updatedDate": new Date("2025-06-18T18:50:00Z"),
+  "servings": 6,
+  "description": "Das beste Coleslaw Rezept: Cremiger amerikanischer Krautsalat, perfekt für Grillabende.",
+  "descriptionOnImage": "Dein cremiger Coleslaw – so schmeckt Amerika!",
+  "introductionParagraph": "Ach, mein Herz schlägt höher, wenn ich an diesen amerikanischen Krautsalat denke! Coleslaw ist einfach die perfekte Ergänzung zu so vielen Gerichten. Diese cremige Variante ist mein absoluter Favorit und immer ein Hit, egal ob beim Grillen oder einfach als Beilage.",
+  "additionalParagraph": "Ich liebe es, wie das knackige Kraut und die süßen Karotten in dem cremigen Dressing verschmelzen. Es ist wirklich einfach zuzubereiten und schmeckt am besten, wenn er eine Weile durchgezogen ist. So ein unverzichtbarer Begleiter für den Sommer und darüber hinaus!",
+  "ingredientsNeeded": [
+    {
+      "title": "Weißkohl",
+      "description": "Die Hauptzutat, die dem Coleslaw seine knackige Textur und den frischen Geschmack verleiht. Fein geschnitten ist er perfekt."
+    },
+    {
+      "title": "Karotten",
+      "description": "Sie bringen nicht nur eine wunderschöne Farbe, sondern auch eine leichte Süße und zusätzlichen Biss in den Salat."
+    },
+    {
+      "title": "Mayonnaise",
+      "description": "Sie bildet die cremige Basis des Dressings und sorgt für die typische Konsistenz und den vollen Geschmack."
+    },
+    {
+      "title": "Essig (Apfelessig oder Weißweinessig)",
+      "description": "Verleiht dem Dressing die nötige Säure, die den schweren Geschmack der Mayonnaise ausgleicht und den Krautsalat erfrischend macht."
+    },
+    {
+      "title": "Zucker",
+      "description": "Ein Hauch von Süße ist entscheidend, um die Aromen abzurunden und dem Coleslaw seinen unverwechselbaren Geschmack zu geben."
+    },
+    {
+      "title": "Senf (Dijonsenf)",
+      "description": "Bringt eine leichte Schärfe und Würze ins Dressing, die den Geschmack komplexer macht."
+    },
+    {
+      "title": "Milch (oder pflanzliche Alternative)",
+      "description": "Macht das Dressing geschmeidiger und leichter, ohne den cremigen Charakter zu verlieren."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Krautsalat",
+      "description": "Die knackige Basis unseres Coleslaws.",
+      "ingredients": [
+        { "amount": 0.5, "unit": "Kopf", "name": "Weißkohl (ca. 700g, fein gehobelt oder geschnitten)" },
+        { "amount": 2, "unit": "Stück", "name": "Karotten (geschält und grob geraspelt)" }
+      ]
+    },
+    {
+      "title": "Für das cremige Dressing",
+      "description": "Das Herzstück des Coleslaws – cremig, süß-sauer und unwiderstehlich.",
+      "ingredients": [
+        { "amount": 200, "unit": "g", "name": "Mayonnaise (vegane Mayo für eine vegane Variante)" },
+        { "amount": 2, "unit": "EL", "name": "Apfelessig oder Weißweinessig" },
+        { "amount": 2, "unit": "EL", "name": "Zucker" },
+        { "amount": 1, "unit": "TL", "name": "Dijonsenf" },
+        { "amount": 3, "unit": "EL", "name": "Milch (oder ungesüßte pflanzliche Alternative)" },
+        { "amount": "", "unit": "Prise", "name": "Salz" },
+        { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 0.5, "unit": "Kopf", "name": "Weißkohl (ca. 700g, fein gehobelt oder geschnitten)" },
+    { "amount": 2, "unit": "Stück", "name": "Karotten (geschält und grob geraspelt)" },
+    { "amount": 200, "unit": "g", "name": "Mayonnaise (vegane Mayo für eine vegane Variante)" },
+    { "amount": 2, "unit": "EL", "name": "Apfelessig oder Weißweinessig" },
+    { "amount": 2, "unit": "EL", "name": "Zucker" },
+    { "amount": 1, "unit": "TL", "name": "Dijonsenf" },
+    { "amount": 3, "unit": "EL", "name": "Milch (oder ungesüßte pflanzliche Alternative)" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Den Weißkohl putzen und sehr fein hobeln oder mit einem scharfen Messer in feine Streifen schneiden. Je feiner, desto besser wird der Coleslaw. Die Karotten schälen und grob raspeln.",
+    "Kohl und Karotten in einer großen Schüssel gut miteinander vermischen.",
+    "In einer kleineren Schüssel für das Dressing Mayonnaise, Essig, Zucker, Dijonsenf, Milch, Salz und Pfeffer gründlich verrühren, bis eine homogene und cremige Masse entsteht.",
+    "Das Dressing über das Kohl-Karotten-Gemisch gießen und alles sorgfältig miteinander vermengen. Am besten geht das mit den Händen, um sicherzustellen, dass jede Kohl- und Karottenstreifen gut mit Dressing bedeckt ist.",
+    "Den Coleslaw abdecken und für mindestens 1 Stunde, besser aber 2-3 Stunden oder sogar über Nacht, im Kühlschrank durchziehen lassen. So können die Aromen wunderbar verschmelzen und der Kohl wird zarter.",
+    "Vor dem Servieren den Coleslaw nochmals gut umrühren und bei Bedarf mit etwas Salz und Pfeffer abschmecken."
+  ],
+  "nutrition": {
+    "calories": 1758,
+    "protein": "13.3g",
+    "carbs": "80g",
+    "fat": "156.9g"
+  },
+  "tips": [
+    "Für einen noch intensiveren Geschmack kannst du eine Prise Selleriesamen zum Dressing hinzufügen. Das ist ein Geheimtipp für authentischen Coleslaw!",
+    "Wenn du keine Milch zur Hand hast, funktioniert auch ein Schuss Buttermilch oder sogar etwas Wasser, um das Dressing zu verdünnen."
+  ],
+  "whyFavorite": {
+    "title": "Darum wirst du diesen Coleslaw lieben!",
+    "reasons": [
+      {
+        "title": "Cremig, knackig, unwiderstehlich",
+        "description": "Die ideale Balance aus knackigem Gemüse und dem süß-säuerlichen, cremigen Dressing macht diesen Coleslaw zum absoluten Genuss. So schmeckt der Sommer!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Lass dir diesen herrlichen Coleslaw schmecken!",
+    "subText": "Ich bin gespannt, zu welchem Gericht er bei dir zum Star wird!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Kohl und Karotten vorbereiten",
+      "description": "Kohl und Karotten fein schneiden oder hobeln, um die knackige Basis für den Salat zu schaffen."
+    },
+    {
+      "title": "Cremiges Dressing zubereiten",
+      "description": "Alle Zutaten für das Dressing gründlich verrühren, damit es schön cremig und geschmackvoll wird."
+    },
+    {
+      "title": "Vermischen und durchziehen lassen",
+      "description": "Das Gemüse mit dem Dressing vermengen und dem Salat ausreichend Zeit geben, damit er durchzieht und die Aromen sich voll entfalten."
+    }
+  ],
+  "servingSuggestion": "Coleslaw ist die ultimative Beilage zu Burgern, Pommes oder als frische Komponente in Sandwiches und Wraps.",
+  "servingSuggestions": {
+    "title": "Was passt zu Coleslaw?",
+    "description": "Dieser vielseitige Krautsalat ist der perfekte Partner für viele herzhafte Speisen.",
+    "note": "Probiere deine Lieblingskombination aus!",
+    "items": [
+      {
+        "emoji": "🥗",
+        "title": "Als leichte Beilage",
+        "description": "Egal ob zu Ofenkartoffeln oder Grillgemüse – Coleslaw ist immer eine erfrischende und beliebte Beilage."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Der Name 'Coleslaw' stammt vom niederländischen Wort 'koolsla' ab, was wörtlich 'Kohlsalat' bedeutet. Er kam mit niederländischen Siedlern nach Amerika!"
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/coleslaw-amerikanischer-krautsalat-zutaten.jpeg",
+    "image1": "/images/Salads/coleslaw-cremig.jpeg",
+    "image2": "/images/Salads/amerikanischer-krautsalat-rezept.jpeg",
+    "image3": "/images/Salads/krautsalat.jpeg",
+    "image4": "/images/Salads/einfacher-coleslaw.jpeg",
+    "image5": "/images/Salads/coleslaw-selber-machen.jpeg",
+    "image6": "/images/Salads/coleslaw-frisch.jpeg",
+    "image7": "/images/Salads/coleslaw-serviert.jpeg"
+  }
+},
+{
+  "title": "Original Sylter Dressing",
+  "seo_title": "Sylter Dressing Rezept: Das Original selbstgemacht vegetarisch",
+  "image": "/images/Salads/sylter-dressing.jpeg",
+  "prepTime": 10,
+  "cookingTime": 0,
+  "seo_keywords": [
+    "sylter dressing",
+    "sylter dressing rezept",
+    "sylter dressing original",
+    "rezept sylter dressing",
+    "salat mit sylter dressing",
+    "sylter dressing selber machen",
+    "sylter dressing original rezept",
+    "sylter dressing zutaten",
+    "sylter dressing nährwerte"
+  ],
+  "rating": 4.9,
+  "reviews": 250,
+  "category": "Salate",
+  "slug": "sylter-dressing",
+  "tags": [    
+    "Dressing",
+    "Cremig",    
+    "Einfach",
+    "Schnell",
+    "Weine",
+    "Süß",
+    "Sauer",
+    "Deutsch",
+    "Klassiker",
+    "Dip", 
+  ],
+  "createdDate": new Date("2025-06-21T10:00:00Z"),
+  "updatedDate": new Date("2025-06-21T14:00:00Z"),
+  "servings": 4,
+  "description": "Cremiges Sylter Dressing selber machen: Einfach, schnell & vegetarisch für jeden Salat.",
+  "descriptionOnImage": "Dein Sylter Lieblingsdressing – einfach selbstgemacht!",
+  "introductionParagraph": "Ach, kennt ihr das auch? Manchmal braucht ein einfacher Salat nur das gewisse Etwas, um zum Star des Essens zu werden. Und für mich ist das ganz klar das Sylter Dressing! Diese cremige Köstlichkeit ist einfach unvergleichlich.",
+  "additionalParagraph": "Ich liebe die Balance aus Süße, Säure und Würze, die es jedem grünen Salat verleiht. Es ist so einfach zuzubereiten und schmeckt tausendmal besser als jede Fertigvariante. Probiert es aus, ihr werdet es nicht bereuen!",
+  "ingredientsNeeded": [
+    {
+      "title": "Pflanzliche Mayonnaise",
+      "description": "Die Basis für die Cremigkeit! Eine gute Mayonnaise sorgt für die unwiderstehliche Textur dieses Dressings."
+    },
+    {
+      "title": "Joghurt (Natur, ungesüßt)",
+      "description": "Bringt eine leichte Frische und mildert die Reichhaltigkeit der Mayonnaise, für ein ausgewogenes Geschmacksprofil."
+    },
+    {
+      "title": "Schalotten",
+      "description": "Fein gehackte Schalotten verleihen dem Dressing eine subtile Schärfe und eine angenehme Würze, die typisch für Sylter Dressing ist."
+    },
+    {
+      "title": "Kräuter (frischer Dill & Schnittlauch)",
+      "description": "Diese Kräuter sind essenziell für das frische, nordische Aroma und die charakteristische Optik."
+    },
+    {
+      "title": "Weißweinessig",
+      "description": "Sorgt für die notwendige Säure und Frische, die das Dressing ausbalanciert und lebendig macht."
+    },
+    {
+      "title": "Zucker",
+      "description": "Ein kleiner Hauch Süße ist entscheidend, um die Aromen abzurunden und dem Dressing seinen typisch harmonischen Geschmack zu geben."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für das Sylter Dressing",
+      "description": "Die Zutaten für unser unwiderstehliches cremiges Dressing.",
+      "ingredients": [
+        { "amount": 150, "unit": "g", "name": "Pflanzliche Mayonnaise" },
+        { "amount": 100, "unit": "g", "name": "Naturjoghurt (ungesüßt, 1,5% Fett)" },
+        { "amount": 1, "unit": "Stück", "name": "Schalotte (sehr fein gewürfelt)" },
+        { "amount": 2, "unit": "EL", "name": "Frischer Dill (gehackt)" },
+        { "amount": 1, "unit": "EL", "name": "Frischer Schnittlauch (in feinen Röllchen)" },
+        { "amount": 2, "unit": "EL", "name": "Weißweinessig" },
+        { "amount": 1, "unit": "TL", "name": "Zucker" },
+        { "amount": "", "unit": "Prise", "name": "Salz" },
+        { "amount": "", "unit": "Prise", "name": "Frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 150, "unit": "g", "name": "Pflanzliche Mayonnaise" },
+    { "amount": 100, "unit": "g", "name": "Naturjoghurt (ungesüßt, 1,5% Fett)" },
+    { "amount": 1, "unit": "Stück", "name": "Schalotte (sehr fein gewürfelt)" },
+    { "amount": 2, "unit": "EL", "name": "Frischer Dill (gehackt)" },
+    { "amount": 1, "unit": "EL", "name": "Frischer Schnittlauch (in feinen Röllchen)" },
+    { "amount": 2, "unit": "EL", "name": "Weißweinessig" },
+    { "amount": 1, "unit": "TL", "name": "Zucker" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "Frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Die Schalotte sehr fein würfeln. Je feiner, desto besser, damit sie sich gut im Dressing verteilt.",
+    "Dill und Schnittlauch waschen, trocken schütteln und fein hacken bzw. in feine Röllchen schneiden.",
+    "In einer mittelgroßen Schüssel die pflanzliche Mayonnaise und den Naturjoghurt verrühren, bis eine glatte Masse entsteht.",
+    "Die fein gewürfelte Schalotte, den gehackten Dill und den Schnittlauch zum Mayonnaise-Joghurt-Mix geben.",
+    "Weißweinessig und Zucker hinzufügen und alles gründlich mit einem Schneebesen verrühren, bis das Dressing gut emulgiert ist.",
+    "Mit Salz und frisch gemahlenem schwarzem Pfeffer abschmecken. Sei hier ruhig großzügig und probiere, bis es perfekt ist!",
+    "Das Sylter Dressing vor dem Servieren mindestens 15-30 Minuten im Kühlschrank ziehen lassen, damit sich die Aromen voll entfalten können. So schmeckt es am allerbesten!"
+  ],
+  "nutrition": {
+    "calories": 771.5,
+    "protein": "8.7g",
+    "carbs": "24.5g",
+    "fat": "69.15g"
+  },
+  "tips": [
+    "Für eine noch cremigere Textur und etwas mehr Süße kannst du einen Teelöffel Agavendicksaft oder Ahornsirup anstelle von Zucker verwenden.",
+    "Wenn du keine frischen Kräuter hast, kannst du auch getrocknete verwenden, aber reduziere die Menge auf etwa die Hälfte, da sie intensiver sind."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieses Sylter Dressing ein Volltreffer ist!",
+    "reasons": [
+      {
+        "title": "Cremig-frischer Klassiker",
+        "description": "Dieses Sylter Dressing ist einfach ein zeitloser Favorit! Die perfekte Balance aus Süße, Säure und feinen Kräutern macht jeden Salat zu einem Erlebnis."
+      },
+      {
+        "title": "Blitzschnell & vielseitig",
+        "description": "In weniger als 10 Minuten zubereitet, ist dieses Salatdressing selber machen so einfach. Es passt wunderbar zu grünem Salat, Kartoffelsalat oder sogar als Dip!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Guten Appetit mit deinem selbstgemachten Sylter Dressing!",
+    "subText": "Ich bin gespannt, welche Salate du damit verzauberst!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Vorbereitung der Zutaten",
+      "description": "Schalotte und frische Kräuter fein schneiden, um alle Aromen optimal freizusetzen."
+    },
+    {
+      "title": "Dressingbasis verrühren",
+      "description": "Mayonnaise und Joghurt zu einer glatten, cremigen Grundlage verbinden."
+    },
+    {
+      "title": "Aromen vereinen & abschmecken",
+      "description": "Alle Zutaten gründlich vermischen, das Dressing perfekt würzen und die Aromen harmonisieren lassen."
+    }
+  ],
+  "servingSuggestion": "Dieses klassische Sylter Dressing ist die perfekte Ergänzung für jeden gemischten grünen Salat oder einen leckeren Kartoffelsalat.",
+  "servingSuggestions": {
+    "title": "Perfekte Kombis für dein Sylter Dressing",
+    "description": "Dieses vielseitige Dressing passt zu einer Vielzahl von Gerichten und Salaten.",
+    "note": "Probiere es auch als Dip für Gemüse-Sticks!",
+    "items": [
+      {
+        "emoji": "🥗",
+        "title": "Klassischer Grüner Salat",
+        "description": "Ein einfacher grüner Blattsalat mit Gurke und Tomaten wird durch das Sylter Dressing zum Genuss."
+      },
+      {
+        "emoji": "🥔",
+        "title": "Deutscher Kartoffelsalat",
+        "description": "Verleihe deinem Kartoffelsalat eine cremige Note à la Sylt – eine leckere Alternative zur Essig-Öl-Variante."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Das Sylter Dressing wurde auf der deutschen Nordseeinsel Sylt populär und ist dort in vielen Restaurants ein fester Bestandteil der Speisekarten geworden."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/sylter-dressing-zutaten.jpeg",
+    "image1": "/images/Salads/sylter-dressing-cremig.jpeg",
+    "image2": "/images/Salads/sylter-salatdressing.jpeg",
+    "image3": "/images/Salads/dressing-selber-machen-sylt.jpeg",
+    "image4": "/images/Salads/vegetarisches-dressing.jpeg",
+    "image5": "/images/Salads/sylter-dressing-salat.jpeg",
+    "image6": "/images/Salads/einfaches-sylter-dressing.jpeg",
+    "image7": "/images/Salads/sylter-dressing-closeup.jpeg"
+  }
+},
+{
+  "title": "Authentischer Panzanella-Brotsalat aus der Toskana",
+  "seo_title": "Panzanella: Original italienischer Brotsalat für den Sommer",
+  "image": "/images/Salads/panzanella-brotsalat.jpeg",
+  "prepTime": 20,
+  "cookingTime": 15,
+  "seo_keywords": [
+    "brotsalat",
+    "brotsalat rezept",
+    "italienischer brotsalat",
+    "brotsalat rezept einfach",
+    "brotsalat rezept mit altem brot",
+    "mediterraner brotsalat",
+    "brotsalat italienisch",
+    "rezept brotsalat",
+    "brotsalat rezepte",
+    "italienischer brotsalat original rezept",
+    "italienischer brotsalat rezept"
+  ],
+  "rating": 4.9,
+  "reviews": 155,
+  "category": "Salate",
+  "slug": "panzanella-brotsalat",
+  "tags": [
+    "Italienisch",
+    "Salat",
+    "Sommerlich",    
+    "Einfach",
+    "Weine",
+    "Mediterran",
+    "Grillen",
+  ],
+  "createdDate": new Date("2025-06-16T19:20:00Z"),
+  "updatedDate": new Date("2025-06-16T19:25:00Z"),
+  "servings": 4,
+  "description": "Original Panzanella Rezept: Italienischer Brotsalat mit frischen Tomaten und Basilikum.",
+  "descriptionOnImage": "Dein perfekter Panzanella für einen Hauch von Toskana!",
+  "introductionParagraph": "Ach, Panzanella! Dieser italienische Brotsalat ist für mich die pure Sommerliebe. Er ist die perfekte Mischung aus knusprig und saftig und schmeckt nach sonnengereiften Tomaten und frischem Basilikum – einfach Urlaub auf dem Teller!",
+  "additionalParagraph": "Das Schöne an diesem Rezept ist, dass es altes Brot rettet und in etwas Wunderbares verwandelt. Es ist so ein unkompliziertes Gericht, das man wunderbar vorbereiten kann und das bei jedem Grillabend oder Picknick für Begeisterung sorgt. Ein echtes Stück Toskana!",
+  "ingredientsNeeded": [
+    {
+      "title": "Altbackenes Brot",
+      "description": "Die Seele des Panzanella! Es saugt das Dressing und die Säfte des Gemüses auf und wird dabei unwiderstehlich. Ciabatta oder Sauerteigbrot eignen sich am besten."
+    },
+    {
+      "title": "Reife Tomaten",
+      "description": "Je aromatischer die Tomaten, desto besser der Salat! Sie geben dem Panzanella seine Saftigkeit und Süße."
+    },
+    {
+      "title": "Gurke",
+      "description": "Knackig und erfrischend, fügt die Gurke eine wichtige Textur und Feuchtigkeit hinzu."
+    },
+    {
+      "title": "Rote Zwiebel",
+      "description": "Bringt eine leichte Schärfe und Würze ins Spiel, die wunderbar mit den anderen Zutaten harmoniert."
+    },
+    {
+      "title": "Frischer Basilikum",
+      "description": "Unverzichtbar für den authentisch italienischen Geschmack und ein herrliches Aroma."
+    },
+    {
+      "title": "Hochwertiges Olivenöl",
+      "description": "Ein gutes extra natives Olivenöl ist entscheidend für das Dressing und den Gesamtgeschmack."
+    },
+    {
+      "title": "Rotweinessig",
+      "description": "Verleiht dem Dressing die nötige Säure und Tiefe, die den Salat perfekt abrundet."
+    },
+    {
+      "title": "Knoblauch",
+      "description": "Eine feine Knoblauchnote rundet das Dressing ab und passt perfekt zu den mediterranen Aromen. Er sorgt für die würzige Basis des Dressings."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Brotsalat",
+      "description": "Die Basis und das frische Gemüse für den klassischen Panzanella.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "altbackenes Weißbrot (z.B. Ciabatta oder Sauerteigbrot)" },
+        { "amount": 500, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, gewürfelt)" },
+        { "amount": 0.5, "unit": "Stück", "name": "Gurke (geschält, entkernt, gewürfelt)" },
+        { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein geschnitten)" },
+        { "amount": 0.5, "unit": "Bund", "name": "frischer Basilikum (Blätter gezupft)" }
+      ]
+    },
+    {
+      "title": "Für das Dressing",
+      "description": "Das einfache, aber geschmacksintensive Vinaigrette-Dressing.",
+      "ingredients": [
+        { "amount": 4, "unit": "EL", "name": "extra natives Olivenöl" },
+        { "amount": 2, "unit": "EL", "name": "Rotweinessig" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+        { "amount": "", "unit": "Prise", "name": "Salz" },
+        { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 300, "unit": "g", "name": "altbackenes Weißbrot (z.B. Ciabatta oder Sauerteigbrot)" },
+    { "amount": 500, "unit": "g", "name": "reife Tomaten (verschiedene Sorten, gewürfelt)" },
+    { "amount": 0.5, "unit": "Stück", "name": "Gurke (geschält, entkernt, gewürfelt)" },
+    { "amount": 0.5, "unit": "Stück", "name": "rote Zwiebel (sehr fein geschnitten)" },
+    { "amount": 0.5, "unit": "Bund", "name": "frischer Basilikum (Blätter gezupft)" },
+    { "amount": 4, "unit": "EL", "name": "extra natives Olivenöl" },
+    { "amount": 2, "unit": "EL", "name": "Rotweinessig" },
+    { "amount": 1, "unit": "Zehe", "name": "Knoblauch (gepresst)" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "frisch gemahlener schwarzer Pfeffer" }
+  ],
+  "instructions": [
+    "Das altbackene Brot in ca. 2-3 cm große Würfel schneiden. In einer großen Pfanne 1 EL Olivenöl erhitzen und die Brotwürfel darin bei mittlerer Hitze goldbraun und knusprig rösten. Alternativ kannst du sie auch im Ofen rösten. Beiseite stellen und abkühlen lassen.",
+    "Die Tomaten und Gurke waschen und in ähnliche Würfel wie das Brot schneiden. Die rote Zwiebel halbieren und in sehr feine Scheiben oder Würfel schneiden. Basilikumblätter grob zerzupfen oder hacken.",
+    "In einer großen Salatschüssel die gerösteten Brotwürfel, gewürfelte Tomaten, Gurken und Zwiebeln vermengen. Die Basilikumblätter hinzufügen.",
+    "Für das Dressing Olivenöl, Rotweinessig, gepressten Knoblauch, Salz und frisch gemahlenen Pfeffer in einer kleinen Schüssel gut verrühren.",
+    "Das Dressing über den Salat gießen und alles vorsichtig vermengen, sodass das Brot das Dressing und die Gemüsesäfte aufsaugen kann.",
+    "Den Panzanella für mindestens 20-30 Minuten, idealerweise länger (bis zu 2 Stunden), bei Raumtemperatur ziehen lassen. Das Brot soll weich werden, aber noch etwas Biss haben. Vor dem Servieren nochmals abschmecken."
+  ],
+  "nutrition": {
+    "calories": 1443.5,
+    "protein": "33.5g",
+    "carbs": "183.8g",
+    "fat": "69.35g"
+  },
+  "tips": [
+    "Verwende wirklich altbackenes Brot – frisches Brot wird zu matschig. Wenn du kein altbackenes Brot hast, kannst du frisches Brot kurz toasten oder im Ofen bei niedriger Temperatur trocknen.",
+    "Die Qualität der Tomaten ist entscheidend für einen guten Panzanella. Wähle reife, aromatische Sommertomaten."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Panzanella dein neuer Sommerliebling wird!",
+    "reasons": [
+      {
+        "title": "Geschmack wie in der Toskana",
+        "description": "Dieses Panzanella-Rezept fängt den authentischen Geschmack Italiens ein – frisch, aromatisch und herrlich sommerlich."
+      },
+      {
+        "title": "Geniale Resteverwertung",
+        "description": "Die perfekte Art, altes Brot sinnvoll und lecker zu verwerten, statt es wegzuwerfen. Nachhaltig und köstlich!"
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Buon appetito mit deinem hausgemachten Panzanella!",
+    "subText": "Ich hoffe, er bringt dir ein Stück Italien nach Hause!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Brot rösten",
+      "description": "Altbackenes Brot in Würfel schneiden und knusprig rösten, damit es später die Säfte optimal aufnehmen kann."
+    },
+    {
+      "title": "Gemüse vorbereiten",
+      "description": "Tomaten, Gurken und Zwiebeln schneiden und Basilikum zupfen, um alle frischen Komponenten vorzubereiten."
+    },
+    {
+      "title": "Dressing anrühren und vermischen",
+      "description": "Alle Dressing-Zutaten verrühren und den Salat damit vermischen, damit die Aromen gut einziehen."
+    },
+    {
+      "title": "Ziehen lassen für vollen Geschmack",
+      "description": "Dem Panzanella ausreichend Zeit geben, damit das Brot weich wird und alle Geschmäcker sich harmonisch verbinden können."
+    }
+  ],
+  "servingSuggestion": "Panzanella ist ein wunderbares leichtes Mittagessen, eine erfrischende Beilage zum Grillen oder Teil eines mediterranen Buffets.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Panzanella",
+    "description": "Dieser italienische Brotsalat ist vielseitig und passt zu vielen Gelegenheiten.",
+    "note": "Probiere diese Kombinationen aus!",
+    "items": [
+      {
+        "emoji": "🧀",
+        "title": "Mit Mozzarella oder Feta",
+        "description": "Für eine cremigere Note einfach gewürfelten Mozzarella oder zerbröselten Feta unter den Salat mischen."
+      },
+    ]
+  },
+  "funFact": {
+    "title": "Die Geschichte des Panzanella",
+    "description": "Wusstest du, dass Panzanella ursprünglich ein Arme-Leute-Essen aus der Toskana war? Bauern nutzten altbackenes Brot, um es nicht verschwenden zu müssen, und verwandelten es in diesen köstlichen Salat."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/panzanella-brotsalat-zutaten.jpeg",
+    "image1": "/images/Salads/italienischer-brotsalat-sommer.jpeg",
+    "image2": "/images/Salads/panzanella-original-rezept.jpeg",
+    "image3": "/images/Salads/sommerlicher-panzanella-einfach.jpeg",
+    "image4": "/images/Salads/vegetarischer-brotsalat-rezept.jpeg",
+    "image5": "/images/Salads/panzanella-mit-basilikum.jpeg",
+    "image6": "/images/Salads/panzanella-serviert.jpeg",
+    "image7": "/images/Salads/altes-brot-verwerten-salat.jpeg"
+  }
+},
+{
+  "title": "Sommerlicher Gnocchi-Salat mit grünem Pesto",
+  "seo_title": "Gnocchisalat Rezept: Einfach, schnell & mediterraner Aromen",
+  "image": "/images/Salads/gnocchisalat-mit-pesto.jpeg",
+  "prepTime": 15,
+  "cookingTime": 5,
+  "seo_keywords": [
+    "Gnocchisalat",
+    "Gnocchi Salat Rezept",
+    "Pesto Gnocchi Salat",
+    "italienischer Gnocchisalat",
+    "vegetarischer Gnocchisalat",
+    "einfacher Gnocchisalat",
+    "sommerlicher Salat",
+    "gnocchisalat mit pesto",
+    "gnocchisalat mit rucola",
+    "rezept gnocchisalat",
+    "bunter gnocchisalat hello fresh"
+  ],
+  "rating": 4.8,
+  "reviews": 112,
+  "category": "Salate",
+  "slug": "gnocchisalat-mit-pesto",
+  "tags": [
+    "italienisch",
+    "schnell",
+    "mediterran",
+    "Sommerlich"
+  ],
+  "createdDate": new Date("2025-06-20T15:45:00Z"),
+  "updatedDate": new Date("2025-06-20T15:50:00Z"),
+  "servings": 4,
+  "description": "Blitzschneller Gnocchisalat mit frischem Pesto, sonnengereiften Tomaten & Mozzarella.",
+  "descriptionOnImage": "Dein einfacher Gnocchisalat: Mediterrane Leichtigkeit in einer Schüssel!",
+  "introductionParagraph": "Ach, dieser Gnocchi-Salat mit Pesto ist für mich der Inbegriff des italienischen Sommers! Er ist so unglaublich unkompliziert, aber die Aromen sind einfach himmlisch. Ein echtes Wohlfühlrezept, das ich immer wieder gerne mache.",
+  "additionalParagraph": "Ich liebe die zarten Gnocchi in Kombination mit dem aromatischen Pesto und den frischen Tomaten und Mozzarella. Er ist perfekt für ein schnelles Mittagessen, ein leichtes Abendessen oder als Highlight auf dem Buffet. Du wirst ihn lieben, versprochen!",
+  "ingredientsNeeded": [
+    {
+      "title": "Gnocchi aus dem Kühlregal",
+      "description": "Die Basis des Salats – sie sind wunderbar zart, schnell gar und bilden eine tolle Alternative zu Nudeln."
+    },
+    {
+      "title": "Grünes Pesto (Basilikumpesto)",
+      "description": "Das Herzstück des Geschmacks! Ein gutes Pesto verleiht dem Salat seine intensive, kräutrige und nussige Note."
+    },
+    {
+      "title": "Kirschtomaten",
+      "description": "Sie bringen eine fruchtige Süße und eine frische Säure in den Salat, die perfekt mit den anderen Zutaten harmoniert."
+    },
+    {
+      "title": "Mozzarella-Kugeln (Mini)",
+      "description": "Die kleinen Käsebällchen sind herrlich cremig, mild und ergänzen die mediterranen Aromen auf wunderbare Weise."
+    },
+    {
+      "title": "Rucola",
+      "description": "Seine leicht pfeffrige Note sorgt für eine spannende Geschmackskontraste und Frische im Salat."
+    },
+    {
+      "title": "Pinienkerne",
+      "description": "Geröstet bringen sie einen feinen Crunch und ein nussiges Aroma, das den Salat geschmacklich abrundet."
+    },
+    {
+      "title": "Olivenöl",
+      "description": "Ein hochwertiges Olivenöl extra vergine ist unerlässlich für das Dressing, da es die Aromen des Pestos unterstreicht und eine seidige Textur verleiht."
+    },
+    {
+      "title": "Zitronensaft",
+      "description": "Frisch gepresster Zitronensaft sorgt für eine spritzige Frische und eine ausgleichende Säure im Dressing, die den Gesamtgeschmack aufhellt."
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "title": "Für den Gnocchi-Salat",
+      "description": "Die Hauptkomponenten dieses einfachen, aber köstlichen Salats.",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Gnocchi aus dem Kühlregal" },
+        { "amount": 250, "unit": "g", "name": "Kirschtomaten (halbiert)" },
+        { "amount": 125, "unit": "g", "name": "Mini-Mozzarella-Kugeln (abgetropft)" },
+        { "amount": 50, "unit": "g", "name": "Rucola" },
+        { "amount": 2, "unit": "EL", "name": "Pinienkerne (geröstet)" }
+      ]
+    },
+    {
+      "title": "Für das Pesto-Dressing",
+      "description": "Das aromatische Dressing, das alles zusammenbringt.",
+      "ingredients": [
+        { "amount": 150, "unit": "g", "name": "Grünes Pesto (Basilikumpesto)" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl extra vergine" },
+        { "amount": 1, "unit": "EL", "name": "Zitronensaft (frisch gepresst)" },
+        { "amount": "", "unit": "Prise", "name": "Salz und Pfeffer (nach Geschmack)" }
+      ]
+    }
+  ],
+  "ingredients": [
+    { "amount": 500, "unit": "g", "name": "Gnocchi aus dem Kühlregal" },
+    { "amount": 250, "unit": "g", "name": "Kirschtomaten (halbiert)" },
+    { "amount": 125, "unit": "g", "name": "Mini-Mozzarella-Kugeln (abgetropft)" },
+    { "amount": 50, "unit": "g", "name": "Rucola" },
+    { "amount": 2, "unit": "EL", "name": "Pinienkerne (geröstet)" },
+    { "amount": 150, "unit": "g", "name": "Grünes Pesto (Basilikumpesto)" },
+    { "amount": 2, "unit": "EL", "name": "Olivenöl extra vergine" },
+    { "amount": 1, "unit": "EL", "name": "Zitronensaft (frisch gepresst)" },
+    { "amount": "", "unit": "Prise", "name": "Salz" },
+    { "amount": "", "unit": "Prise", "name": "Pfeffer" }
+  ],
+  "instructions": [
+    "Die Gnocchi nach Packungsanweisung in reichlich Salzwasser gar kochen. Das dauert meist nur 2-3 Minuten, bis sie an der Oberfläche schwimmen. Sofort abgießen und unter kaltem Wasser abschrecken, damit sie nicht zusammenkleben. Gut abtropfen lassen.",
+    "Während die Gnocchi kochen, die Kirschtomaten halbieren und die Mini-Mozzarella-Kugeln abtropfen lassen. Den Rucola waschen und trockenschleudern. Pinienkerne in einer trockenen Pfanne ohne Fett goldbraun rösten und beiseitestellen.",
+    "Für das Pesto-Dressing in einer großen Salatschüssel das Pesto mit Olivenöl und Zitronensaft verrühren. Mit Salz und Pfeffer abschmecken.",
+    "Die abgekühlten Gnocchi, die halbierten Kirschtomaten und die Mozzarella-Kugeln zum Dressing in die Schüssel geben. Alles vorsichtig vermengen, sodass alle Zutaten gut mit dem Pesto umhüllt sind.",
+    "Kurz vor dem Servieren den Rucola unterheben und den Salat mit den gerösteten Pinienkernen bestreuen. Sofort servieren oder für ca. 30 Minuten im Kühlschrank ziehen lassen, damit sich die Aromen verbinden."
+  ],
+  "nutrition": {
+    "calories": 2255,
+    "protein": "51.95g",
+    "carbs": "171.7g",
+    "fat": "144.1g"
+  },
+  "tips": [
+    "Für eine noch frischere Note kannst du vor dem Servieren noch etwas frischen Basilikum hinzufügen.",
+    "Wenn du keine Pinienkerne magst, passen auch Walnüsse oder Mandeln hervorragend zu diesem Gnocchisalat."
+  ],
+  "whyFavorite": {
+    "title": "Warum dieser Gnocchi-Salat ein Hit ist!",
+    "reasons": [
+      {
+        "title": "Blitzschnell & unkompliziert",
+        "description": "Dieses Gnocchi Salat Rezept ist super schnell zubereitet und perfekt für spontane Sommerabende oder das nächste Picknick. Wenig Aufwand, maximaler Genuss!"
+      },
+      {
+        "title": "Mediterraner Urlaub auf dem Teller",
+        "description": "Die Kombination aus zarten Gnocchi, aromatischem Pesto, saftigen Tomaten und cremigem Mozzarella bringt dir das Urlaubsgefühl direkt nach Hause."
+      }
+    ]
+  },
+  "handwrittenMessage": {
+    "mainText": "Ich wünsche dir viel Freude beim Genießen dieses Gnocchi-Salats!",
+    "subText": "Lass es dir schmecken und genieße die mediterranen Vibes!",
+    "signature": "Dein Veggie-Rezepte Team"
+  },
+  "steps": [
+    {
+      "title": "Gnocchi & Toppings vorbereiten",
+      "description": "Gnocchi kochen und abkühlen lassen, während Kirschtomaten, Mozzarella und Rucola vorbereitet werden."
+    },
+    {
+      "title": "Pesto-Dressing anrühren",
+      "description": "Pesto mit Olivenöl und Zitronensaft zu einem aromatischen Dressing vermischen."
+    },
+    {
+      "title": "Alles vermengen & genießen",
+      "description": "Gekochte Gnocchi und vorbereitete Zutaten mit dem Dressing vermischen und den Salat mit gerösteten Pinienkernen abrunden."
+    }
+  ],
+  "servingSuggestion": "Serviere den Gnocchisalat als leichte Hauptspeise, als Beilage zu Grillgemüse oder als Highlight auf jedem Buffet.",
+  "servingSuggestions": {
+    "title": "Perfekte Begleiter für deinen Gnocchi-Salat",
+    "description": "Dieser vielseitige Salat lässt sich wunderbar kombinieren und anpassen.",
+    "note": "Experimentiere gerne mit weiteren Zutaten wie Oliven oder getrockneten Tomaten!",
+    "items": [
+      {
+        "emoji": "🥖",
+        "title": "Frisches Baguette",
+        "description": "Ein knuspriges Baguette ist perfekt, um das restliche Pesto-Dressing aufzutunken."
+      },
+      {
+        "emoji": "🌱",
+        "title": "Gegrilltes Gemüse",
+        "description": "Eine Auswahl an gegrilltem Zucchini, Aubergine oder Paprika passt hervorragend als Beilage."
+      }
+    ]
+  },
+  "funFact": {
+    "title": "Wusstest du schon?",
+    "description": "Gnocchi sind kleine Klößchen, die ursprünglich aus Kartoffeln hergestellt werden. Ihre Herkunft ist Italien, wo sie in vielen regionalen Varianten zu finden sind."
+  },
+  "images": {
+    "imageIngredient": "/images/Ingredients/gnocchisalat-mit-pesto-zutaten.jpeg",
+    "image1": "/images/Salads/gnocchisalat-frisch.jpeg",
+    "image2": "/images/Salads/pesto-gnocchi-salat.jpeg",
+    "image3": "/images/Salads/italienischer-gnocchisalat.jpeg",
+    "image4": "/images/Salads/einfacher-gnocchisalat.jpeg",
+    "image5": "/images/Salads/sommerlicher-gnocchisalat.jpeg",
+    "image6": "/images/Salads/vegetarischer-gnocchisalat.jpeg",
+    "image7": "/images/Salads/gnocchisalat-serviert.jpeg"
   }
 }
 ];
