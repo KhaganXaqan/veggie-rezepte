@@ -35,11 +35,8 @@ export async function generateMetadata(
     };
   }  
   
-
   // Base URL for canonical links
-  const baseUrl = process.env.NODE_ENV === 'development'
-    ? 'http://localhost:3000'
-    : 'https://veggie-rezepte.de';
+  const baseUrl = 'https://veggie-rezepte.de';
 
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
@@ -51,31 +48,47 @@ export async function generateMetadata(
     title: `${recipe.seo_title || recipe.title}`,
     description: recipe.description || '',
     keywords: keywordsString,
+    authors: [{ name: 'Veggie Rezepte Team' }],
+    creator: 'Veggie Rezepte',
+    publisher: 'Veggie Rezepte',
     openGraph: {
       title: `${recipe.seo_title || recipe.title}`,
       description: recipe.description || '',
       images: [
-        recipe.image,
-        recipe.images.image1,
-        recipe.images.image2,
-        recipe.images.image3,
-        recipe.images.image4,
-        recipe.images.image5,
-        recipe.images.image6,
-        recipe.images.image7,
-        recipe.images.imageIngredient
+        {
+          url: recipe.image,
+          width: 1200,
+          height: 630,
+          alt: recipe.title,
+        },
+        {
+          url: recipe.images.image1,
+          width: 800,
+          height: 600,
+          alt: `${recipe.title} Zubereitung`,
+        }
       ],
       type: 'article',
       url: canonicalUrl,
+      siteName: 'Veggie Rezepte',
+      locale: 'de_DE',
     },
     twitter: {
       card: 'summary_large_image',
       title: `${recipe.seo_title || recipe.title}`,
       description: recipe.description || '',
       images: [recipe.image],
+      creator: '@veggierezepte',
     },
     alternates: {
       canonical: canonicalUrl,
+    },
+    other: {
+      'article:published_time': recipe.createdDate?.toISOString(),
+      'article:modified_time': recipe.updatedDate?.toISOString(),
+      'article:author': 'Veggie Rezepte Team',
+      'article:section': recipe.category,
+      'article:tag': recipe.tags?.join(', '),
     },
   }
 }
@@ -87,16 +100,10 @@ export async function generateStructuredData({ params }: RecipePageProps) {
 
   let recipe = recipesData.find((r) => r.slug === slug);
   
-
   if (!recipe) return null;
 
-  // Determine if we're in development or production
-  const isDevelopment = process.env.NODE_ENV === 'development';
-
-  // Set the base URL based on environment
-  const baseUrl = isDevelopment
-    ? 'http://localhost:3000'
-    : 'https://veggie-rezepte.de';
+  // Set the base URL
+  const baseUrl = 'https://veggie-rezepte.de';
 
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
@@ -104,36 +111,76 @@ export async function generateStructuredData({ params }: RecipePageProps) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
+    '@id': canonicalUrl,
     name: recipe.title,
-    image: recipe.image,
+    image: [
+      recipe.image,
+      recipe.images.image1,
+      recipe.images.image2,
+      recipe.images.image3
+    ],
     description: recipe.description || '',
     author: {
       '@type': 'Organization',
-      name: 'Veggie-Rezepte'
+      '@id': `${baseUrl}/#organization`,
+      name: 'Veggie Rezepte',
+      url: baseUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/images/logo/logo.png`
+      }
     },
-    datePublished: new Date().toISOString().split('T')[0],
+    publisher: {
+      '@type': 'Organization',
+      '@id': `${baseUrl}/#organization`
+    },
+    datePublished: recipe.createdDate?.toISOString(),
+    dateModified: recipe.updatedDate?.toISOString(),
     recipeCategory: recipe.category,
     recipeCuisine: 'Vegetarisch',
     prepTime: `PT${recipe.prepTime || 30}M`,
-    cookTime: 'PT30M',
+    cookTime: `PT${recipe.cookingTime || 30}M`,
+    totalTime: `PT${(recipe.prepTime || 30) + (recipe.cookingTime || 30)}M`,
     recipeYield: `${recipe.servings || 4} Portionen`,
+    keywords: recipe.seo_keywords ? recipe.seo_keywords.join(', ') : 'vegetarisch, rezept',
     nutrition: recipe.nutrition ? {
       '@type': 'NutritionInformation',
       calories: `${recipe.nutrition.calories} kcal`,
-      proteinContent: `${recipe.nutrition.protein}g`,
-      carbohydrateContent: `${recipe.nutrition.carbs}g`,
-      fatContent: `${recipe.nutrition.fat}g`
+      proteinContent: `${recipe.nutrition.protein}`,
+      carbohydrateContent: `${recipe.nutrition.carbs}`,
+      fatContent: `${recipe.nutrition.fat}`
     } : undefined,
     recipeIngredient: recipe.ingredients.map(ing =>
-      `${ing.amount || ''} ${ing.unit || ''} ${ing.name}`
+      `${ing.amount || ''} ${ing.unit || ''} ${ing.name}`.trim()
     ),
     recipeInstructions: recipe.instructions.map((step, index) => ({
       '@type': 'HowToStep',
       position: index + 1,
-      text: step
+      text: step,
+      name: `Schritt ${index + 1}`,
+      url: `${canonicalUrl}#step-${index + 1}`
     })),
-    keywords: recipe.seo_keywords ? recipe.seo_keywords.join(', ') : 'vegetarisch, rezept',
-    mainEntityOfPage: canonicalUrl
+    aggregateRating: recipe.rating ? {
+      '@type': 'AggregateRating',
+      ratingValue: recipe.rating,
+      reviewCount: recipe.reviews || 50,
+      bestRating: 5,
+      worstRating: 1
+    } : undefined,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': canonicalUrl
+    },
+    url: canonicalUrl,
+    isPartOf: {
+      '@type': 'WebSite',
+      '@id': `${baseUrl}/#website`
+    },
+    inLanguage: 'de-DE',
+    potentialAction: {
+      '@type': 'CookAction',
+      target: canonicalUrl
+    }
   };
 }
 
@@ -245,15 +292,15 @@ export default async function RecipePage({ params }: RecipePageProps) {
               {/* Main Content - Left Column (8/12) */}
               <div className="lg:col-span-8 border-r border-black lg:pr-10">
                 {/* Breadcrumb Navigation - Moved to top */}
-                <div className="w-full text-gray-500 text-sm mb-0">
-                  <div className="flex items-center gap-1">
-                    <a href="/rezepte/alle" className="hover:text-[#0b3558] transition-colors">Rezepte</a>
-                    <span className="text-xs">»</span>
-                    <a href="/kategorien" className="hover:text-[#0b3558] transition-colors">Kategorien</a>
-                    <span className="text-xs">»</span>
-                    <a href={`/kategorien/${normalizedCategory}`} className="hover:text-[#0b3558] transition-colors">{validRecipe.category}</a>
-                  </div>
-                </div>
+                <nav aria-label="Breadcrumb" className="w-full text-gray-500 text-sm mb-0">
+                  <ol className="flex items-center gap-1">
+                    <li><a href="/rezepte/alle" className="hover:text-[#0b3558] transition-colors">Rezepte</a></li>
+                    <li><span className="text-xs">»</span></li>
+                    <li><a href="/kategorien" className="hover:text-[#0b3558] transition-colors">Kategorien</a></li>
+                    <li><span className="text-xs">»</span></li>
+                    <li><a href={`/kategorien/${normalizedCategory}`} className="hover:text-[#0b3558] transition-colors">{validRecipe.category}</a></li>
+                  </ol>
+                </nav>
 
                 {/* Images before Similar Recipes */}
                 <div className="flex flex-col items-center gap-8 mt-2 mb-8">
@@ -272,7 +319,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         <div className="w-16 h-16 overflow-hidden">
                           <img
                             src="/images/logo/logo.png"
-                            alt="Autor"
+                            alt="Veggie Rezepte Logo"
                             className="w-full h-full object-contain"
                           />
                         </div>
@@ -360,7 +407,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         decoding="async"
                         itemProp="contentUrl"
                         src={validRecipe.image}
-                        alt={validRecipe.image.split("/").pop()?.split(".")[0]}
+                        alt={`${validRecipe.title} - Vegetarisches ${validRecipe.category} Rezept`}
                         className="w-full h-full object-cover"
                         sizes="(max-width: 768px) 100vw, 1200px"
                         style={{ maxHeight: '100%' }}
@@ -385,7 +432,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         decoding="async"
                         itemProp="contentUrl"
                         src={validRecipe.images.image1} 
-                        alt={validRecipe.images.image1.split("/").pop()?.split(".")[0]} 
+                        alt={`${validRecipe.title} Zubereitung Schritt 1`} 
                         className="w-full h-full object-cover object-center"
                         sizes="(max-width: 768px) 100vw, 49vw" 
                       />
@@ -398,7 +445,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         decoding="async"
                         itemProp="contentUrl"
                         src={validRecipe.images.image2} 
-                        alt={validRecipe.images.image2.split("/").pop()?.split(".")[0]} 
+                        alt={`${validRecipe.title} Zubereitung Schritt 2`} 
                         className="w-full h-full object-cover object-center"
                         sizes="(max-width: 768px) 100vw, 49vw"
                       />
@@ -412,7 +459,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         Benötigte Zutaten
                       </h2>
                       <p className="text-lg text-black leading-relaxed font-normal mb-1">
-                        Hier ist alles, was du für dieses einfache Rezept brauchst {validRecipe.title}:
+                        Hier ist alles, was du für dieses einfache Rezept {validRecipe.title} brauchst:
                       </p>
                       <div className="space-y-4">
                         <ul className="list-disc pl-5">
@@ -435,7 +482,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                         decoding="async"
                         itemProp="contentUrl"
                         src={validRecipe.images.imageIngredient} 
-                        alt={validRecipe.images.imageIngredient.split("/").pop()?.split(".")[0]} 
+                        alt={`${validRecipe.title} Zutaten`} 
                         className="w-full h-full object-cover object-center"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 49vw, 1200px"
                       />
@@ -464,38 +511,40 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   </div>
 
                   {/* Empfohlener Beitrag */}
-                  <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
-                    <a href={`/${randomRecipe.slug}`} className="block p-6 bg-[#f9d24f]/30">
-                      <div className="flex items-start gap-6">
-                        <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
-                          <img
-                          width="1200"
-                          height="800"
-                          loading="lazy"
-                          decoding="async"
-                          itemProp="contentUrl"
-                            src={randomRecipe.image}
-                            alt={randomRecipe.image.split("/").pop()?.split(".")[0]}
-                            className="w-full h-full object-cover"
-                          />
+                  {randomRecipe && (
+                    <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
+                      <a href={`/${randomRecipe.slug}`} className="block p-6 bg-[#f9d24f]/30">
+                        <div className="flex items-start gap-6">
+                          <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
+                            <img
+                            width="1200"
+                            height="800"
+                            loading="lazy"
+                            decoding="async"
+                            itemProp="contentUrl"
+                              src={randomRecipe.image}
+                              alt={`${randomRecipe.title} - Empfohlenes Rezept`}
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                          <div className="flex-grow">
+                            <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
+                              Empfohlener Beitrag
+                            </span>
+                            <h4 className="font-bold text-xl text-[#0b3558] mb-3">
+                              <span className='hover:text-[#f9d24f] transition-colors"'>{randomRecipe.title}</span>
+                            </h4>
+                            <p className="text-lg text-black leading-relaxed font-normal mb-10 line-clamp-2">
+                              {randomRecipe.description}
+                            </p>
+                            <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#f9d24f] hover:text-black transition-colors">
+                              Zum Beitrag
+                            </button>
+                          </div>
                         </div>
-                        <div className="flex-grow">
-                          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
-                            Empfohlener Beitrag
-                          </span>
-                          <h4 className="font-bold text-xl text-[#0b3558] mb-3">
-                            <span className='hover:text-[#f9d24f] transition-colors"'>{randomRecipe.title}</span>
-                          </h4>
-                          <p className="text-lg text-black leading-relaxed font-normal mb-10 line-clamp-2">
-                            {randomRecipe.description}
-                          </p>
-                          <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#f9d24f] hover:text-black transition-colors">
-                            Zum Beitrag
-                          </button>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                      </a>
+                    </div>
+                  )}
 
 
                   <div className="w-full ">
@@ -523,7 +572,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       loading="lazy"
                       decoding="async"
                       itemProp="contentUrl"
-                      src={validRecipe.images.image3} alt={validRecipe.images.image3.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      src={validRecipe.images.image3} alt={`${validRecipe.title} Zubereitung Schritt 3`} className="w-full h-full object-cover object-center" />
                     </div>
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
                       <img 
@@ -532,7 +581,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       loading="lazy"
                       decoding="async"
                       itemProp="contentUrl"
-                      src={validRecipe.images.image4} alt={validRecipe.images.image4.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      src={validRecipe.images.image4} alt={`${validRecipe.title} Zubereitung Schritt 4`} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
 
@@ -583,7 +632,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     decoding="async"
                     itemProp="contentUrl"
                       src={validRecipe.images.image5}
-                      alt={validRecipe.images.image5.split("/").pop()?.split(".")[0]}
+                      alt={`${validRecipe.title} Schritt für Schritt Anleitung`}
                       className="w-full h-[960px] rounded-lg"
                     />
                   </div>
@@ -608,7 +657,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                               decoding="async"
                               itemProp="contentUrl"
                                 src={recommendedRecipe.image}
-                                alt={recommendedRecipe.title}
+                                alt={`${recommendedRecipe.title} - Ähnliches Rezept`}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
 
@@ -696,7 +745,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       loading="lazy"
                       decoding="async"
                       itemProp="contentUrl"
-                      src={validRecipe.images.image6} alt={validRecipe.images.image6.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      src={validRecipe.images.image6} alt={`${validRecipe.title} Zubereitung Schritt 5`} className="w-full h-full object-cover object-center" />
                     </div>
                     <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
                       <img
@@ -705,7 +754,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                       loading="lazy"
                       decoding="async"
                       itemProp="contentUrl" 
-                      src={validRecipe.images.image7} alt={ validRecipe.images.image7.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                      src={validRecipe.images.image7} alt={`${validRecipe.title} Zubereitung Schritt 6`} className="w-full h-full object-cover object-center" />
                     </div>
                   </div>
 
@@ -722,7 +771,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           decoding="async"
                           itemProp="contentUrl"
                             src={validRecipe.image}
-                            alt={validRecipe.image.split("/").pop()?.split(".")[0]}
+                            alt={`${validRecipe.title} - Rezeptkarte`}
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -755,7 +804,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                                 ))}
                               </div>
                               <span className="ml-2 text-sm font-normal text-black">{validRecipe.rating || 0}</span>
-                              <span className="ml-1 text-gray-500 text-xs">aus 93 Bewertungen</span>
+                              <span className="ml-1 text-gray-500 text-xs">aus {validRecipe.reviews} Bewertungen</span>
                             </div>
 
                             <p className="text-xl text-black mb-6 pr-8 md:pr-5 leading-relaxed font-normal">{validRecipe.description}</p>
@@ -811,7 +860,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                               decoding="async"
                               itemProp="contentUrl"
                                 src={recommendedRecipe.image}
-                                alt={recommendedRecipe.title}
+                                alt={`${recommendedRecipe.title} - Weiteres empfohlenes Rezept`}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
                             </div>
@@ -847,7 +896,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                               decoding="async"
                               itemProp="contentUrl"
                               src={popularRecipe.image}
-                              alt={popularRecipe.title}
+                              alt={`${popularRecipe.title} - Beliebtes Rezept`}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                             />
                           </div>
@@ -884,17 +933,17 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   <div>
                     <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Folge uns</h3>
                     <div className="flex gap-4">
-                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors">
+                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors" aria-label="Facebook">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
                         </svg>
                       </a>
-                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors">
+                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors" aria-label="Pinterest">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.889-2.889-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
                         </svg>
                       </a>
-                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors">
+                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors" aria-label="Instagram">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.889-2.889-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
                         </svg>
