@@ -105,8 +105,7 @@ export function normalizeIngredientName(name: string): string {
     'peperoni': 'peperoni',
     'oliven': 'olive',
     'kapern': 'kaper',
-    'cornichons': 'cornichon',
-    'gurken': 'gurke',
+    'cornichons': 'cornichon',        
     'tomatenmark': 'tomatenmark',
     'passierte tomaten': 'passierte tomate',
     'dosentomaten': 'dosentomate',
@@ -193,8 +192,12 @@ export function normalizeIngredientName(name: string): string {
     'rotwein': 'rotwein',
     'bier': 'bier',
     'cognac': 'cognac',
-    'rum': 'rum',
-    'likör': 'likör'
+    'rum': 'rum',    
+    'likör': 'likör',
+    'risotto': 'risotto',
+    'pasta': 'pasta',    
+    'paprika': 'paprika',
+    'rise': 'rise'
   }
   
   // Apply singular mapping
@@ -298,6 +301,35 @@ export function getIngredientSuggestions(input: string, allIngredients: string[]
       ingredient.toLowerCase().includes(normalizedInput)
     )
     .slice(0, limit)
+}
+
+// Get the most common ingredients from all recipes
+export function getPopularIngredients(limit: number = 18) {
+  const ingredientCounts: { [key: string]: number } = {}
+
+  recipes.forEach(recipe => {
+    const uniqueIngredients = new Set<string>()
+    
+    const allRecipeIngredients = [
+      ...recipe.ingredients,
+      ...(recipe.ingredientGroups ? recipe.ingredientGroups.flatMap(g => g.ingredients) : [])
+    ];
+
+    allRecipeIngredients.forEach(ingredient => {
+      const normalized = normalizeIngredientName(ingredient.name)
+      if (normalized) uniqueIngredients.add(normalized)
+    })
+
+    // Count each unique ingredient once per recipe to find which ingredients are most versatile
+    uniqueIngredients.forEach(ingredient => {
+      ingredientCounts[ingredient] = (ingredientCounts[ingredient] || 0) + 1
+    })
+  })
+
+  return Object.entries(ingredientCounts)
+    .sort(([, countA], [, countB]) => countB - countA)
+    .slice(0, limit)
+    .map(([ingredient]) => ingredient)
 }
 
 // Get all unique ingredients from recipes
