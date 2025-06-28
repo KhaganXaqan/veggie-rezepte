@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
@@ -611,3 +612,5 @@ export default async function Home() {
     </>
   )
 }
+=======
+>>>>>>> parent of 270cb20 (Updated page.tsx)
