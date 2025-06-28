@@ -39,16 +39,13 @@ export function RecipeCardMasonry({
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 292px"
             loading="lazy"
             itemProp="image"
-            quality={85}
-            placeholder="blur"
-            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
           />
         </Link>
       </div>
       <div className="fav-recipe-card-title">
         <Link 
           href={`/${recipe.slug}`} 
-          className="!text-black font-['Montserrat'] text-sm sm:text-base md:text-lg font-bold uppercase hover:text-[#db747a] transition-colors duration-200"
+          className="!text-black font-['Montserrat'] text-sm sm:text-base md:text-lg font-bold uppercase hover:text-[#db747a]"
           itemProp="name"
         >
           {recipe.title}
@@ -76,7 +73,7 @@ export function RecipeCardMasonry({
       <div className="details-link">
         <Link 
           href={`/${recipe.slug}`} 
-          className="text-[#db747a] font-bold text-xs sm:text-sm hover:text-[#db747a]/80 transition-colors duration-200"
+          className="text-[#db747a] font-bold text-xs sm:text-sm hover:text-[#db747a]/80"
           aria-label={`Vollständiges Rezept für ${recipe.title} anzeigen`}
         >
           Rezeptdetails <i className="fas fa-arrow-right" aria-hidden="true"></i>
