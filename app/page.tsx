@@ -459,7 +459,7 @@ export default async function Home() {
             { recipes: breakfast, title: "Frühstück Rezepte", slug: "fruehstueck", description: "Gesunde vegetarische Frühstücksideen" },
             { recipes: desserts, title: "Desserts Rezepte", slug: "desserts", description: "Süße vegetarische Nachspeisen" },
             { recipes: casseroles, title: "Aufläufe Rezepte", slug: "auflaeufe", description: "Herzhafte vegetarische Aufläufe" }
-          ].filter(Boolean).map((section, sectionIndex) => (
+          ].map((section, sectionIndex) => (
             <section key={section.slug} className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative" aria-label={section.description}>
               <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
                 <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
