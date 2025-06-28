@@ -75,6 +75,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://veggie-rezepte.de',
   },
+  verification: {
+    google: 'your-google-verification-code',
+  },
 };
 
 export default function RootLayout({
@@ -104,10 +107,19 @@ export default function RootLayout({
               "@type": "WebSite",
               "name": "Veggie Rezepte",
               "url": "https://veggie-rezepte.de",
+              "description": "Entdecke köstliche vegetarische Rezepte für jeden Tag",
               "potentialAction": {
                 "@type": "SearchAction",
                 "target": "https://veggie-rezepte.de/rezepte/alle?q={search_term_string}",
                 "query-input": "required name=search_term_string"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Veggie Rezepte",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://veggie-rezepte.de/images/logo/logo.png"
+                }
               }
             })
           }}
@@ -116,8 +128,8 @@ export default function RootLayout({
       <body className={cn("min-h-screen bg-white font-sans antialiased", inter.className)}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light"
+          enableSystem={false}
           disableTransitionOnChange
         >
           <div className="relative flex min-h-screen flex-col bg-white">
