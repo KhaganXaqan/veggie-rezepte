@@ -6,7 +6,7 @@ import { RecipeInstructions } from '@/components/recipe-instructions'
 import { RecipeNutrition } from '@/components/recipe-nutrition'
 import { RecipeSimilar } from '@/components/recipe-similar'
 import { RecipeComments } from '@/components/recipe-comments'
-import { ReviewSystem } from '@/components/review-system'
+import { RecipeInteractionButtons } from '@/components/recipe-interaction-buttons'
 import { Separator } from '@/components/ui/separator'
 import { SiteHeader } from "@/components/site-header"
 import { brandColors } from "@/lib/theme"
@@ -20,228 +20,121 @@ type RecipePageProps = {
   }
 }
 
-// Enhanced metadata generation with comprehensive SEO
+// Generate metadata for the page
 export async function generateMetadata(
   { params }: { params: { slug: string } }
 ): Promise<Metadata> {
+  // First await the params object before accessing its properties
   const { slug } = await params;
+  
   const recipe = recipesData.find((r) => r.slug === slug);
 
   if (!recipe) {
     return {
-      title: 'Rezept nicht gefunden - Veggie Rezepte',
-      description: 'Das angeforderte vegetarische Rezept konnte nicht gefunden werden.',
-      robots: {
-        index: false,
-        follow: false,
-      },
+      title: 'Recipe Not Found - Veggie Rezepte',
+      description: 'The requested recipe could not be found.',
     };
   }  
+  
 
+  // Base URL for canonical links
   const baseUrl = process.env.NODE_ENV === 'development'
     ? 'http://localhost:3000'
     : 'https://veggie-rezepte.de';
 
+  // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
-  
-  // Enhanced keywords with long-tail variations
-  const enhancedKeywords = [
-    ...(recipe.seo_keywords || []),
-    `${recipe.title} rezept`,
-    `${recipe.title} vegetarisch`,
-    `${recipe.title} zubereitung`,
-    `${recipe.title} kochen`,
-    `vegetarisches ${recipe.category.toLowerCase()}`,
-    `${recipe.category.toLowerCase()} vegetarisch`,
-    `${recipe.category.toLowerCase()} rezept`,
-    'vegetarische küche',
-    'veggie rezepte',
-    'fleischlos kochen',
-    'gesunde ernährung',
-    ...(recipe.tags || []).map(tag => `${tag.toLowerCase()} rezept`),
-    ...(recipe.prepTime ? [`${recipe.prepTime} minuten rezept`, 'schnelles rezept'] : []),
-    ...(recipe.servings ? [`${recipe.servings} portionen`, `rezept für ${recipe.servings} personen`] : [])
-  ];
 
-  const keywordsString = [...new Set(enhancedKeywords)].join(', ');
-
-  // Enhanced description with more details
-  const enhancedDescription = `${recipe.description} ⏱️ Zubereitungszeit: ${recipe.prepTime || 30} Min | 🍽️ Portionen: ${recipe.servings || 4} | 📊 Bewertung: ${recipe.rating || 4.5}/5 ⭐ | Kategorie: ${recipe.category} | Jetzt kostenlos nachkochen!`;
+  // Prepare keywords from recipe's SEO keywords
+  const keywordsString = recipe.seo_keywords ? recipe.seo_keywords.join(', ') : 'vegetarisch, rezept';
 
   return {
-    title: `${recipe.seo_title || recipe.title} | Vegetarisches Rezept | Veggie Rezepte`,
-    description: enhancedDescription,
+    title: `${recipe.seo_title || recipe.title}`,
+    description: recipe.description || '',
     keywords: keywordsString,
-    authors: [{ name: 'Veggie Rezepte Team' }],
-    creator: 'Veggie Rezepte',
-    publisher: 'Veggie Rezepte',
     openGraph: {
-      title: `${recipe.seo_title || recipe.title} | Vegetarisches Rezept`,
-      description: enhancedDescription,
+      title: `${recipe.seo_title || recipe.title}`,
+      description: recipe.description || '',
       images: [
-        {
-          url: recipe.image,
-          width: 1200,
-          height: 630,
-          alt: `${recipe.title} - Vegetarisches ${recipe.category} Rezept`,
-        },
-        ...(recipe.images ? Object.values(recipe.images).map(img => ({
-          url: img,
-          width: 800,
-          height: 600,
-          alt: `${recipe.title} Zubereitungsschritt`,
-        })) : [])
+        recipe.image,
+        recipe.images.image1,
+        recipe.images.image2,
+        recipe.images.image3,
+        recipe.images.image4,
+        recipe.images.image5,
+        recipe.images.image6,
+        recipe.images.image7,
+        recipe.images.imageIngredient
       ],
       type: 'article',
       url: canonicalUrl,
-      siteName: 'Veggie Rezepte',
-      locale: 'de_DE',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${recipe.seo_title || recipe.title} | Vegetarisches Rezept`,
-      description: enhancedDescription,
+      title: `${recipe.seo_title || recipe.title}`,
+      description: recipe.description || '',
       images: [recipe.image],
-      creator: '@veggierezepte',
     },
     alternates: {
       canonical: canonicalUrl,
     },
-    robots: {
-      index: true,
-      follow: true,
-      nocache: false,
-      googleBot: {
-        index: true,
-        follow: true,
-        noimageindex: false,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
-    other: {
-      'article:author': 'Veggie Rezepte Team',
-      'article:publisher': 'https://veggie-rezepte.de',
-      'article:section': recipe.category,
-      'article:tag': recipe.tags?.join(', ') || '',
-      'recipe:category': recipe.category,
-      'recipe:cuisine': 'Vegetarisch',
-      'recipe:prep_time': `${recipe.prepTime || 30}`,
-      'recipe:cook_time': `${recipe.cookingTime || 30}`,
-      'recipe:total_time': `${(recipe.prepTime || 30) + (recipe.cookingTime || 30)}`,
-      'recipe:yield': `${recipe.servings || 4}`,
-      'recipe:rating': `${recipe.rating || 4.5}`,
-    },
   }
 }
 
-// Enhanced structured data with comprehensive Recipe schema
+// Generate structured data for recipe
 export async function generateStructuredData({ params }: RecipePageProps) {
+  // First await the params object before accessing its properties
   const { slug } = await params;
+
   let recipe = recipesData.find((r) => r.slug === slug);
+  
 
   if (!recipe) return null;
 
+  // Determine if we're in development or production
   const isDevelopment = process.env.NODE_ENV === 'development';
+
+  // Set the base URL based on environment
   const baseUrl = isDevelopment
     ? 'http://localhost:3000'
     : 'https://veggie-rezepte.de';
 
+  // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
 
   return {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
-    '@id': canonicalUrl,
-    'name': recipe.title,
-    'image': [
-      recipe.image,
-      ...(recipe.images ? Object.values(recipe.images) : [])
-    ],
-    'description': recipe.description || '',
-    'author': {
+    name: recipe.title,
+    image: recipe.image,
+    description: recipe.description || '',
+    author: {
       '@type': 'Organization',
-      '@id': 'https://veggie-rezepte.de/#organization',
-      'name': 'Veggie Rezepte',
-      'url': 'https://veggie-rezepte.de',
-      'logo': {
-        '@type': 'ImageObject',
-        'url': 'https://veggie-rezepte.de/images/logo/logo.png'
-      }
+      name: 'Veggie-Rezepte'
     },
-    'publisher': {
-      '@id': 'https://veggie-rezepte.de/#organization'
-    },
-    'datePublished': recipe.createdDate?.toISOString() || new Date().toISOString(),
-    'dateModified': recipe.updatedDate?.toISOString() || recipe.createdDate?.toISOString() || new Date().toISOString(),
-    'recipeCategory': recipe.category,
-    'recipeCuisine': 'Vegetarisch',
-    'recipeYield': [`${recipe.servings || 4} Portionen`, `${recipe.servings || 4}`],
-    'prepTime': `PT${recipe.prepTime || 30}M`,
-    'cookTime': `PT${recipe.cookingTime || 30}M`,
-    'totalTime': `PT${(recipe.prepTime || 30) + (recipe.cookingTime || 30)}M`,
-    'keywords': [
-      ...(recipe.seo_keywords || []),
-      recipe.category,
-      'vegetarisch',
-      'veggie rezepte',
-      ...(recipe.tags || [])
-    ].join(', '),
-    'nutrition': recipe.nutrition ? {
+    datePublished: new Date().toISOString().split('T')[0],
+    recipeCategory: recipe.category,
+    recipeCuisine: 'Vegetarisch',
+    prepTime: `PT${recipe.prepTime || 30}M`,
+    cookTime: 'PT30M',
+    recipeYield: `${recipe.servings || 4} Portionen`,
+    nutrition: recipe.nutrition ? {
       '@type': 'NutritionInformation',
-      'calories': `${recipe.nutrition.calories} kcal`,
-      'proteinContent': recipe.nutrition.protein,
-      'carbohydrateContent': recipe.nutrition.carbs,
-      'fatContent': recipe.nutrition.fat,
-      'servingSize': '1 Portion'
+      calories: `${recipe.nutrition.calories} kcal`,
+      proteinContent: `${recipe.nutrition.protein}g`,
+      carbohydrateContent: `${recipe.nutrition.carbs}g`,
+      fatContent: `${recipe.nutrition.fat}g`
     } : undefined,
-    'recipeIngredient': recipe.ingredients.map(ing =>
-      `${ing.amount || ''} ${ing.unit || ''} ${ing.name}`.trim()
+    recipeIngredient: recipe.ingredients.map(ing =>
+      `${ing.amount || ''} ${ing.unit || ''} ${ing.name}`
     ),
-    'recipeInstructions': recipe.instructions.map((step, index) => ({
+    recipeInstructions: recipe.instructions.map((step, index) => ({
       '@type': 'HowToStep',
-      'position': index + 1,
-      'text': step,
-      'name': `Schritt ${index + 1}`,
-      'url': `${canonicalUrl}#step-${index + 1}`
+      position: index + 1,
+      text: step
     })),
-    'aggregateRating': recipe.rating ? {
-      '@type': 'AggregateRating',
-      'ratingValue': recipe.rating,
-      'reviewCount': recipe.reviews || 50,
-      'bestRating': 5,
-      'worstRating': 1
-    } : undefined,
-    'video': recipe.videoUrl ? {
-      '@type': 'VideoObject',
-      'name': `${recipe.title} - Zubereitungsvideo`,
-      'description': `Schritt-für-Schritt Video-Anleitung für ${recipe.title}`,
-      'contentUrl': recipe.videoUrl,
-      'embedUrl': recipe.videoUrl,
-      'uploadDate': recipe.createdDate?.toISOString() || new Date().toISOString(),
-      'duration': 'PT5M',
-      'thumbnail': {
-        '@type': 'ImageObject',
-        'url': recipe.image
-      }
-    } : undefined,
-    'mainEntityOfPage': {
-      '@type': 'WebPage',
-      '@id': canonicalUrl
-    },
-    'url': canonicalUrl,
-    'sameAs': [
-      `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(canonicalUrl)}`,
-    ],
-    'isPartOf': {
-      '@type': 'WebSite',
-      '@id': 'https://veggie-rezepte.de/#website'
-    },
-    'potentialAction': {
-      '@type': 'CookAction',
-      'target': canonicalUrl
-    }
+    keywords: recipe.seo_keywords ? recipe.seo_keywords.join(', ') : 'vegetarisch, rezept',
+    mainEntityOfPage: canonicalUrl
   };
 }
 
@@ -254,6 +147,7 @@ export function generateStaticParams() {
 }
 
 export default async function RecipePage({ params }: RecipePageProps) {
+  // First await the params object before accessing its properties
   const { slug } = await params;
 
   let recipe: Recipe | null = null;
@@ -264,13 +158,17 @@ export default async function RecipePage({ params }: RecipePageProps) {
     notFound();
   }
 
+  // After notFound(), recipe is guaranteed to be non-null
   const validRecipe = recipe;
+
+  // Generate structured data for this recipe
   const structuredData = await generateStructuredData({ params });
 
-  // Get related recipes
+  // Get a random recipe for Empfohlener Beitrag
   const otherRecipes = recipesData.filter(r => r.slug !== slug)
   const randomRecipe = otherRecipes[Math.floor(Math.random() * otherRecipes.length)]
 
+  // Get random recipes from the same category for Empfohlene Beiträge
   const recipesFromSameCategory = recipesData.filter(r =>
     r.slug !== slug &&
     r.category === validRecipe.category
@@ -283,6 +181,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   
   const normalizedCategory = categoryMap[validRecipe.category.toLowerCase()] || validRecipe.category.toLowerCase();
 
+  // Get 3 random recipes from the filtered list
   const getRandomRecipes = (arr: typeof recipesData, count: number) => {
     const shuffled = [...arr].sort(() => 0.5 - Math.random())
     return shuffled.slice(0, count)
@@ -291,8 +190,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const recommendedRecipes = getRandomRecipes(recipesFromSameCategory, 3)
   const recommendedRecipes2 = getRandomRecipes(otherRecipes, 6)
 
-  // Enhanced star rating component
+  // Render a single horizontally-filled star
   function HorizontalStar({ fill, index }: { fill: number; index: number }) {
+    // Clamp fill between 0 and 1
     const fillPct = Math.max(0, Math.min(1, fill));
     return (
       <svg
@@ -305,14 +205,16 @@ export default async function RecipePage({ params }: RecipePageProps) {
         focusable="false"
         style={{ display: 'block' }}
       >
+        {/* Background: white star with gray border */}
         <path
           d="M12 2.5l3.09 6.26 6.91.99-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.62l-5-4.87 6.91-.99L12 2.5z"
           fill="#fff"
           stroke="#D1D5DB"
           strokeWidth={1}
         />
+        {/* Foreground: yellow fill, clipped to fillPct width */}
         <defs>
-          <clipPath id={`star-clip-${index}`}>
+          <clipPath id={`star-clip-${index}`}> {/* Unique per star */}
             <rect x="0" y="0" width={24 * fillPct} height="24" />
           </clipPath>
         </defs>
@@ -327,6 +229,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
   return (
     <>
+      {/* Add structured data script */}
       {structuredData && (
         <Script
           id="recipe-structured-data"
@@ -335,201 +238,122 @@ export default async function RecipePage({ params }: RecipePageProps) {
         />
       )}
 
-      {/* Analytics tracking script */}
-      <Script id="recipe-analytics" strategy="afterInteractive">
-        {`
-          if (typeof window !== 'undefined' && window.trackRecipeView) {
-            window.trackRecipeView('${validRecipe.title}', '${validRecipe.category}', 'medium');
-          }
-        `}
-      </Script>
-
       <div className="min-h-screen flex flex-col">
         <SiteHeader />
-        <main className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 py-8">
-          <article itemScope itemType="https://schema.org/Recipe">
-            {/* Enhanced breadcrumb with structured data */}
-            <nav aria-label="Breadcrumb" className="mb-4" itemScope itemType="https://schema.org/BreadcrumbList">
-              <ol className="flex items-center space-x-2 text-sm text-gray-600">
-                <li itemScope itemType="https://schema.org/ListItem" itemProp="itemListElement">
-                  <a href="/" className="hover:text-[#0b3558] transition-colors" itemProp="item">
-                    <span itemProp="name">Home</span>
-                  </a>
-                  <meta itemProp="position" content="1" />
-                </li>
-                <li><span className="mx-2">›</span></li>
-                <li itemScope itemType="https://schema.org/ListItem" itemProp="itemListElement">
-                  <a href="/rezepte/alle" className="hover:text-[#0b3558] transition-colors" itemProp="item">
-                    <span itemProp="name">Rezepte</span>
-                  </a>
-                  <meta itemProp="position" content="2" />
-                </li>
-                <li><span className="mx-2">›</span></li>
-                <li itemScope itemType="https://schema.org/ListItem" itemProp="itemListElement">
-                  <a href="/kategorien" className="hover:text-[#0b3558] transition-colors" itemProp="item">
-                    <span itemProp="name">Kategorien</span>
-                  </a>
-                  <meta itemProp="position" content="3" />
-                </li>
-                <li><span className="mx-2">›</span></li>
-                <li itemScope itemType="https://schema.org/ListItem" itemProp="itemListElement">
-                  <a href={`/kategorien/${normalizedCategory}`} className="hover:text-[#0b3558] transition-colors" itemProp="item">
-                    <span itemProp="name">{validRecipe.category}</span>
-                  </a>
-                  <meta itemProp="position" content="4" />
-                </li>
-                <li><span className="mx-2">›</span></li>
-                <li itemScope itemType="https://schema.org/ListItem" itemProp="itemListElement">
-                  <span className="text-[#0b3558] font-medium" itemProp="name">{validRecipe.title}</span>
-                  <meta itemProp="position" content="5" />
-                </li>
-              </ol>
-            </nav>
-
+        <div className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 py-8">
+          <article>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
               {/* Main Content - Left Column (8/12) */}
               <div className="lg:col-span-8 border-r border-black lg:pr-10">
-                <div className="flex flex-col items-center gap-8 mt-2 mb-8">
-                  {/* Enhanced title with proper heading hierarchy */}
-                  <header>
-                    <h1 className="font-black text-5xl uppercase text-black w-full tracking-tight leading-tight" itemProp="name">
-                      {validRecipe.title}
-                    </h1>
-                  </header>
+                {/* Breadcrumb Navigation - Moved to top */}
+                <div className="w-full text-gray-500 text-sm mb-0">
+                  <div className="flex items-center gap-1">
+                    <a href="/rezepte/alle" className="hover:text-[#0b3558] transition-colors">Rezepte</a>
+                    <span className="text-xs">»</span>
+                    <a href="/kategorien" className="hover:text-[#0b3558] transition-colors">Kategorien</a>
+                    <span className="text-xs">»</span>
+                    <a href={`/kategorien/${normalizedCategory}`} className="hover:text-[#0b3558] transition-colors">{validRecipe.category}</a>
+                  </div>
+                </div>
 
-                  {/* Enhanced author and rating section */}
+                {/* Images before Similar Recipes */}
+                <div className="flex flex-col items-center gap-8 mt-2 mb-8">
+
+                  {/* Title - Large and Bold */}
+                  <h1 className="font-black text-5xl uppercase text-black w-full tracking-tight leading-tight">
+                    {validRecipe.title}
+                  </h1>
+
+
+                  {/* Author Information and Ratings Section - Two Column Layout */}
                   <div className="w-full grid grid-cols-2 gap-4">
+                    {/* Left Column - Author Info and Action Buttons */}
                     <div className="flex flex-col">
                       <div className="flex items-start gap-4">
                         <div className="w-16 h-16 overflow-hidden">
                           <img
                             src="/images/logo/logo.png"
-                            alt="Veggie Rezepte Logo"
+                            alt="Autor"
                             className="w-full h-full object-contain"
-                            width="64"
-                            height="64"
                           />
                         </div>
-                        <div itemScope itemType="https://schema.org/Organization" itemProp="author">
+                        <div>
                           <div className="flex items-center gap-2">
                             <span className="text-gray-700">Von</span>
-                            <span className="font-bold text-gray-900" itemProp="name">Veggie Rezepte</span>
+                            <span className="font-bold text-gray-900">Veggie Rezepte</span>
                           </div>
                           <div className="text-gray-500 text-xs">
-                            <span>Veröffentlicht am </span>
-                            <time itemProp="datePublished" dateTime={validRecipe.createdDate?.toISOString()}>
-                              {validRecipe.createdDate?.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
-                            </time>
+                            <span>Veröffentlicht am {validRecipe.createdDate?.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
                           </div>
                           <div className="text-gray-500 text-xs">
-                            <span>Aktualisiert am </span>
-                            <time itemProp="dateModified" dateTime={validRecipe.updatedDate?.toISOString()}>
-                              {validRecipe.updatedDate?.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
-                            </time>
+                            <span>Aktualisiert am {validRecipe.updatedDate?.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
                           </div>
                         </div>
                       </div>
 
-                      {/* Enhanced action buttons */}
-                      <div className="flex items-center gap-4 mt-4">
-                        <a
-                          href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://veggie-rezepte.de/${validRecipe.slug}`)}&media=${encodeURIComponent(`https://veggie-rezepte.de${validRecipe.image}`)}&description=${encodeURIComponent(`✨ ${validRecipe.title.toUpperCase()} ✨\n\n${validRecipe.description} #veggierezepte #vegetarisch #rezept`)}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="border border-black py-2.5 px-6 font-bold text-black hover:bg-gray-100 transition-colors duration-200 text-center rounded-md text-sm"
-                          aria-label={`${validRecipe.title} auf Pinterest teilen`}
-                          onClick={() => {
-                            if (typeof window !== 'undefined' && window.trackRecipeInteraction) {
-                              window.trackRecipeInteraction('pinterest_share', validRecipe.title);
-                            }
-                          }}
-                        >
-                          REZEPT PINNEN
-                        </a>
-                        <a
-                          href="#recipe-card"
-                          className="border border-black bg-[#f9d24f] py-2.5 px-6 font-bold text-black hover:bg-[#f0c840] transition-colors duration-200 flex items-center justify-center rounded-md text-sm shadow-[2px_2px_0px_rgba(0,0,0,0.8)]"
-                          aria-label="Zum Rezept springen"
-                          onClick={() => {
-                            if (typeof window !== 'undefined' && window.trackRecipeInteraction) {
-                              window.trackRecipeInteraction('jump_to_recipe', validRecipe.title);
-                            }
-                          }}
-                        >
-                          ZUM REZEPT ↓
-                        </a>
-                      </div>
+                      {/* Action Buttons - Now using Client Component */}
+                      <RecipeInteractionButtons 
+                        recipe={{
+                          title: validRecipe.title,
+                          slug: validRecipe.slug,
+                          image: validRecipe.image,
+                          description: validRecipe.description || ''
+                        }}
+                      />
                     </div>
 
-                    {/* Enhanced rating and metadata */}
+                    {/* Right Column - Rating Stars and Recipe Metadata */}
                     <div className="flex flex-col items-end">
-                      {validRecipe.rating && (
-                        <div 
-                          className="flex items-center gap-2 mb-2" 
-                          title={`Bewertung: ${validRecipe.rating} von 5 Sternen`} 
-                          aria-label={`Bewertung: ${validRecipe.rating} von 5 Sternen`}
-                          itemScope 
-                          itemType="https://schema.org/AggregateRating"
-                          itemProp="aggregateRating"
-                        >
-                          <div className="flex" role="img" aria-label={`${validRecipe.rating} von 5 Sternen`}>
-                            {[...Array(5)].map((_, i) => {
-                              const rating = validRecipe.rating || 0;
-                              const fill = Math.max(0, Math.min(1, rating - i));
-                              return <HorizontalStar key={i} fill={fill} index={i} />;
-                            })}
-                          </div>
-                          <span className="ml-2 text-sm font-normal text-black" itemProp="ratingValue">{validRecipe.rating}</span>
-                          <span className="ml-1 text-gray-500 text-xs">
-                            aus <span itemProp="reviewCount">{validRecipe.reviews}</span> Bewertungen
-                          </span>
-                          <meta itemProp="bestRating" content="5" />
-                          <meta itemProp="worstRating" content="1" />
+                      {/* Rating Stars */}
+                      <div className="flex items-center gap-2 mb-2" title={`Rating: ${validRecipe.rating || 0} out of 5`} aria-label={`Bewertung: ${validRecipe.rating || 0} von 5 Sternen`}>
+                        <div className="flex">
+                          {[...Array(5)].map((_, i) => {
+                            const rating = validRecipe.rating || 0;
+                            // Calculate fill for this star: 1 = full, 0 = empty, fraction = partial
+                            const fill = Math.max(0, Math.min(1, rating - i));
+                            return <HorizontalStar key={i} fill={fill} index={i} />;
+                          })}
                         </div>
-                      )}
+                        <span className="ml-2 text-sm font-normal text-black">{validRecipe.rating || 0}</span>
+                        <span className="ml-1 text-gray-500 text-xs">aus {validRecipe.reviews} Bewertungen</span>
+                      </div>
 
-                      {/* Enhanced recipe metadata */}
+                      {/* Recipe Metadata */}
                       <div className="flex items-center gap-6">
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Zubereitung</span>
-                          <span className="text-xs" itemProp="prepTime" content={`PT${validRecipe.prepTime}M`}>
-                            {validRecipe.prepTime} Min
-                          </span>
+                          <span className="text-xs">{validRecipe.prepTime} Min</span>
                         </div>
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Kochzeit</span>
-                          <span className="text-xs" itemProp="cookTime" content={`PT${validRecipe.cookingTime}M`}>
-                            {validRecipe.cookingTime} Min
-                          </span>
+                          <span className="text-xs">{validRecipe.cookingTime} Min</span>
                         </div>
                         <div className="flex flex-col items-center">
                           <span className="text-black text-[10px] uppercase tracking-wide font-bold">Portionen</span>
-                          <span className="text-xs" itemProp="recipeYield">
-                            {validRecipe.servings}
-                          </span>
+                          <span className="text-xs">{validRecipe.servings}</span>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  {/* Enhanced introduction with proper markup */}
-                  <div className="w-full">
-                    <div className="text-lg text-black leading-relaxed font-normal" itemProp="description">
+                  {/* Introduction Paragraph */}
+                  <div className="w-full ">
+                    <div className="text-lg text-black leading-relaxed font-normal">
                       {validRecipe.introductionParagraph}
                     </div>
                   </div>
 
-                  {/* Enhanced recipe header image */}
-                  <div className="w-full">
+                  {/* Recipe Header Image */}
+                  <div className="w-full ">
                     <div className="w-full h-[960px] rounded-2xl overflow-hidden">
                       <img
                         width="1200"
                         height="800"
                         loading="lazy"
                         decoding="async"
-                        itemProp="image"
+                        itemProp="contentUrl"
                         src={validRecipe.image}
-                        alt={`${validRecipe.title} - Vegetarisches ${validRecipe.category} Rezept fertig zubereitet`}
+                        alt={validRecipe.image.split("/").pop()?.split(".")[0]}
                         className="w-full h-full object-cover"
                         sizes="(max-width: 768px) 100vw, 1200px"
                         style={{ maxHeight: '100%' }}
@@ -537,32 +361,373 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </div>
 
-                  {/* Additional content sections... */}
-                  {/* (keeping the existing content structure but adding the review system) */}
+                  {/* Additional Paragraph */}
+                  <div className="w-full mb-1">
+                    <div className="text-lg text-black leading-relaxed font-normal">
+                      {validRecipe.additionalParagraph}
+                    </div>
+                  </div>
 
-                  {/* Enhanced recipe card section */}
-                  <section id="recipe-card" className="mb-8 w-full" itemScope itemType="https://schema.org/Recipe">
+                  {/* Recipe Images 1*/}
+                  <div className="flex justify-center gap-4 w-full mb-1">
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img 
+                        width="800"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        itemProp="contentUrl"
+                        src={validRecipe.images.image1} 
+                        alt={validRecipe.images.image1.split("/").pop()?.split(".")[0]} 
+                        className="w-full h-full object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, 49vw" 
+                      />
+                    </div>
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img
+                        width="800"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        itemProp="contentUrl"
+                        src={validRecipe.images.image2} 
+                        alt={validRecipe.images.image2.split("/").pop()?.split(".")[0]} 
+                        className="w-full h-full object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, 49vw"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Ingredients Needed */}
+                  {validRecipe.ingredientsNeeded && (
+                    <div className="w-full mb-1">
+                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
+                        Benötigte Zutaten
+                      </h2>
+                      <p className="text-lg text-black leading-relaxed font-normal mb-1">
+                        Hier ist alles, was du für dieses einfache Rezept brauchst {validRecipe.title}:
+                      </p>
+                      <div className="space-y-4">
+                        <ul className="list-disc pl-5">
+                          {validRecipe.ingredientsNeeded.map((ingredient, index) => (
+                            <li key={index} className="text-black text-lg text-black leading-relaxed mb-2"> {/* Added mb-4 for spacing */}
+                              <strong className="font-semibold ">{ingredient.title}:</strong> {ingredient.description}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  )}
+                  {/* Ingredients Image */}
+                  <div className="flex justify-center gap-4 w-full mb-4">
+                    <div className="w-[98%] h-[543px] rounded-2xl overflow-hidden">
+                      <img 
+                        width="1200"
+                        height="800"
+                        loading="lazy"
+                        decoding="async"
+                        itemProp="contentUrl"
+                        src={validRecipe.images.imageIngredient} 
+                        alt={validRecipe.images.imageIngredient.split("/").pop()?.split(".")[0]} 
+                        className="w-full h-full object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 49vw, 1200px"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Ingredients Section */}
+                  <div className="w-full ">
+                    {recipe.ingredientGroups?.map((group, index) => (
+                      <div key={index} className="mb-6">
+                        <h2 className="font-black text-xl uppercase text-black w-full tracking-tight leading-tight mb-4">
+                          {group.title}
+                        </h2>
+                        <p className="text-lg text-black leading-relaxed font-normal mb-4">
+                          {group.description}
+                        </p>
+                        <ul className="list-disc pl-6 space-y-2">
+                          {group.ingredients.map((ingredient, i) => (
+                            <li key={i} className="text-lg text-black leading-relaxed font-normal">
+                              {ingredient.amount && <span className="font-medium">{ingredient.amount} {ingredient.unit}</span>} {ingredient.name}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Empfohlener Beitrag */}
+                  <div className="w-full mx-auto mb-4 border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden">
+                    <a href={`/${randomRecipe.slug}`} className="block p-6 bg-[#f9d24f]/30">
+                      <div className="flex items-start gap-6">
+                        <div className="w-1/3 aspect-square rounded-lg overflow-hidden flex-shrink-0">
+                          <img
+                          width="1200"
+                          height="800"
+                          loading="lazy"
+                          decoding="async"
+                          itemProp="contentUrl"
+                            src={randomRecipe.image}
+                            alt={randomRecipe.image.split("/").pop()?.split(".")[0]}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex-grow">
+                          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-2 block">
+                            Empfohlener Beitrag
+                          </span>
+                          <h4 className="font-bold text-xl text-[#0b3558] mb-3">
+                            <span className='hover:text-[#f9d24f] transition-colors"'>{randomRecipe.title}</span>
+                          </h4>
+                          <p className="text-lg text-black leading-relaxed font-normal mb-10 line-clamp-2">
+                            {randomRecipe.description}
+                          </p>
+                          <button className="bg-[#0b3558] text-white px-6 py-2 rounded-full font-medium hover:bg-[#f9d24f] hover:text-black transition-colors">
+                            Zum Beitrag
+                          </button>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+
+                  <div className="w-full ">
+                    {/* Tipps und Variationen */}
+                    {validRecipe.tips && (
+                      <div className="mt-4">
+                        <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-1">
+                          Tipps und Variationen
+                        </h2>
+                        <ul className="list-disc pl-6 space-y-2">
+                          {validRecipe.tips.map((tip, index) => (
+                            <li key={index} className="text-lg text-black leading-relaxed font-normal">{tip}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Recipe Images 2*/}
+                  <div className="flex justify-center gap-4 w-full mb-1">
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img 
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.image3} alt={validRecipe.images.image3.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                    </div>
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img 
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.image4} alt={validRecipe.images.image4.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                    </div>
+                  </div>
+
+
+                  {/* Fun Fact */}
+                  <div className="w-full mx-auto mb-1 border border-black rounded-lg overflow-hidden">
+                    <div className="p-6 bg-[#f9d24f]/30">
+                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-4">
+                        {validRecipe.funFact.title}
+                      </h2>
+                      <p className="text-lg text-black leading-relaxed font-normal mb-1">
+                        {validRecipe.funFact.description}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Serving Suggestions */}
+                  {validRecipe.servingSuggestions && (
+                    <div className="w-full mb-1">
+                      <h2 className="font-black text-4xl uppercase text-black w-full tracking-tight leading-tight mb-2">
+                        {validRecipe.servingSuggestions.title}
+                      </h2>
+                      <p className="text-lg text-black leading-relaxed font-normal mb-1">
+                        {validRecipe.servingSuggestions.description}
+                      </p>
+                      <div className="space-y-2">
+                        {validRecipe.servingSuggestions.items.map((item, index) => (
+                          <div key={index} className="flex items-start gap-3">
+                            <span className="text-3xl">{item.emoji}</span>
+                            <div>
+                              <strong className="font-semibold ">{item.title}</strong> {item.description}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <p className="text-lg text-black leading-relaxed font-normal mt-1">
+                        {validRecipe.servingSuggestions.note}
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Schritt für Schritt - Recipe */}
+                  <div className="w-full mx-auto mb-1">
+                    <img
+                    width="1200"
+                    height="800"
+                    loading="lazy"
+                    decoding="async"
+                    itemProp="contentUrl"
+                      src={validRecipe.images.image5}
+                      alt={validRecipe.images.image5.split("/").pop()?.split(".")[0]}
+                      className="w-full h-[960px] rounded-lg"
+                    />
+                  </div>
+
+
+                  {/* Empfohlene Beiträge - Grid with 3 images */}
+                  <div className="w-full mx-auto mb-8">
+                    <div className="flex items-center gap-4 mb-6">
+                      <span className="font-serif font-bold text-sm font-lg text-gray-500 tracking-wider">
+                        Empfohlene {recipe.category}
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-3 gap-4">
+                      {recommendedRecipes.map((recommendedRecipe, index) => (
+                        <a href={`/${recommendedRecipe.slug}`} className="block border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden" key={index}>
+                          <div className="relative group bg-[#f9d24f]/30 p-4">
+                            <div className="w-full aspect-square rounded-lg overflow-hidden">
+                              <img
+                              width="1200"
+                              height="800"
+                              loading="lazy"
+                              decoding="async"
+                              itemProp="contentUrl"
+                                src={recommendedRecipe.image}
+                                alt={recommendedRecipe.title}
+                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                              />
+
+                            </div>
+                            <div className="mt-4">
+                              <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#f9d24f] transition-colors">
+                                {recommendedRecipe.title}
+                              </h4>
+                              <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
+                                {recommendedRecipe.description}
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Why Recipe is a Favorite */}
+                  {validRecipe.whyFavorite && (
+                    <div className="w-full mx-auto mb-1">
+                      <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-1">
+                        {validRecipe.whyFavorite.title}
+                      </h2>
+                      <ul className="space-y-4">
+                        {validRecipe.whyFavorite.reasons.map((reason, index) => (
+                          <li key={index} className="flex items-start gap-3">
+                            <span className="text-[#0b3558] font-bold text-xl leading-none mt-1">•</span>
+                            <div>
+                              <span className="font-semibold text-gray-800">{reason.title}</span>
+                              <p className="text-lg text-black leading-relaxed font-normal mt-1">{reason.description}</p>
+                            </div>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Handwritten-style message */}
+                  {validRecipe.handwrittenMessage && (
+                    <div className="mb-8 w-full">
+                      <div className="flex justify-center">
+                        <div className="relative max-w-md transform rotate-[-1deg]">
+                          <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                            <div
+                              className="relative z-10 font-['Segoe_Script','Brush_Script_MT',cursive] text-center"
+                              style={{
+                                textShadow: '0px 0px 1px rgba(0,0,0,0.1)',
+                                color: '#000000',
+                                lineHeight: '1.6'
+                              }}
+                            >
+                              <p className="text-2xl mb-3">{validRecipe.handwrittenMessage.mainText}</p>
+                              <p className="text-xl mt-4">{validRecipe.handwrittenMessage.subText}</p>
+
+                              {/* Handwritten signature */}
+                              <div className="mt-8 flex justify-end">
+                                <div
+                                  className="font-['Segoe_Script','Brush_Script_MT',cursive] text-right text-[#f9d24f]"
+                                  style={{ transform: 'rotate(-3deg)' }}
+                                >
+                                  <span className="text-3xl font-semibold">{validRecipe.handwrittenMessage.signature}</span>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* Decorative elements */}
+                            <div className="absolute -top-2 -right-2 w-8 h-8 bg-[#f9d24f]/40 rounded-full"></div>
+                            <div className="absolute -bottom-3 -left-3 w-10 h-10 bg-[#f9d24f]/30 rounded-full"></div>
+                          </div>
+
+                          {/* Paper tape effect */}
+                          <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-[#db747a]/20 rounded-sm"></div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Recipe Images 3*/}
+                  <div className="flex justify-center gap-4 w-full mb-1">
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img 
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl"
+                      src={validRecipe.images.image6} alt={validRecipe.images.image6.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                    </div>
+                    <div className="w-[49%] h-[543px] rounded-2xl overflow-hidden">
+                      <img
+                      width="1200"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
+                      itemProp="contentUrl" 
+                      src={validRecipe.images.image7} alt={ validRecipe.images.image7.split("/").pop()?.split(".")[0]} className="w-full h-full object-cover object-center" />
+                    </div>
+                  </div>
+
+                  {/* Recipes details card*/}
+                  <section id="recipe-card" className="mb-8 w-full">
                     <div className="bg-white border-2 border-gray-800 rounded-lg overflow-visible relative" style={{ boxShadow: `5px 5px 0 ${brandColors.primary.yellowRGBA}` }}>
-                      {/* Recipe card content with enhanced structured data */}
+                      {/* Image positioned to extend outside the box */}
                       <div className="absolute -top-5 right-6 z-0">
                         <div style={{ width: '268px', height: '268px', minWidth: '268px', minHeight: '268px' }} className="rounded-lg overflow-hidden border-2 border-gray-200 flex-shrink-0 shadow-md">
                           <img
-                            width="1200"
-                            height="800"
-                            loading="lazy"
-                            decoding="async"
-                            itemProp="image"
+                          width="1200"
+                          height="800"
+                          loading="lazy"
+                          decoding="async"
+                          itemProp="contentUrl"
                             src={validRecipe.image}
-                            alt={`${validRecipe.title} - Fertiges vegetarisches Gericht`}
+                            alt={validRecipe.image.split("/").pop()?.split(".")[0]}
                             className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
 
+                      {/* Recipe Card Header with Image */}
                       <div className="flex flex-col md:flex-row border-b border-gray-200 relative">
+                        {/* Content with title on top */}
                         <div className="w-full md:w-2/3 z-10">
+                          {/* Full-width yellow title banner with border */}
                           <div className="w-full mt-4 pt-4 pb-4 px-5 mb-4 -ml-5 rounded-lg" style={{ backgroundColor: brandColors.primary.yellow }}>
-                            <h2 className="text-3xl md:text-4xl font-black uppercase text-white" itemProp="name"
+                            <h2 className="text-3xl md:text-4xl font-black uppercase text-white"
                               style={{
                                 textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -3px 3px 0 #000, 2px 2px 0 #000',
                                 fontFamily: 'Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif',
@@ -574,28 +739,23 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           </div>
 
                           <div className="px-5 pb-6">
-                            {validRecipe.rating && (
-                              <div className="flex items-center mb-4" itemScope itemType="https://schema.org/AggregateRating" itemProp="aggregateRating">
-                                <div className="flex text-yellow-400" role="img" aria-label={`${validRecipe.rating} von 5 Sternen`}>
-                                  {[...Array(5)].map((_, i) => (
-                                    <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill={i < Math.floor(validRecipe.rating || 0) ? "currentColor" : "rgba(209, 213, 219, 0.5)"}>
-                                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                                    </svg>
-                                  ))}
-                                </div>
-                                <span className="ml-2 text-sm font-normal text-black" itemProp="ratingValue">{validRecipe.rating}</span>
-                                <span className="ml-1 text-gray-500 text-xs">aus <span itemProp="reviewCount">{validRecipe.reviews || 93}</span> Bewertungen</span>
-                                <meta itemProp="bestRating" content="5" />
-                                <meta itemProp="worstRating" content="1" />
+                            <div className="flex items-center mb-4">
+                              <div className="flex text-yellow-400">
+                                {[...Array(5)].map((_, i) => (
+                                  <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill={i < Math.floor(validRecipe.rating || 0) ? "currentColor" : "rgba(209, 213, 219, 0.5)"}>
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                  </svg>
+                                ))}
                               </div>
-                            )}
+                              <span className="ml-2 text-sm font-normal text-black">{validRecipe.rating || 0}</span>
+                              <span className="ml-1 text-gray-500 text-xs">aus 93 Bewertungen</span>
+                            </div>
 
-                            <p className="text-xl text-black mb-6 pr-8 md:pr-5 leading-relaxed font-normal" itemProp="description">
-                              {validRecipe.description}
-                            </p>
+                            <p className="text-xl text-black mb-6 pr-8 md:pr-5 leading-relaxed font-normal">{validRecipe.description}</p>
                           </div>
                         </div>
 
+                        {/* Spacer div to maintain layout height */}
                         <div className="hidden md:block md:w-1/3 h-[300px]"></div>
                       </div>
 
@@ -607,6 +767,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                           cookTime={validRecipe.cookingTime ? parseInt(String(validRecipe.cookingTime)) : undefined}
                         />
 
+                        {/* Instructions */}
                         <RecipeInstructions
                           instructions={validRecipe.instructions}
                           tips={validRecipe.tips}
@@ -625,35 +786,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                   </section>
 
-                  {/* Enhanced Review System */}
-                  <ReviewSystem 
-                    recipeId={validRecipe.slug}
-                    recipeName={validRecipe.title}
-                    averageRating={validRecipe.rating}
-                    totalReviews={validRecipe.reviews}
-                  />
-
-                  {/* Hidden structured data for additional recipe properties */}
-                  <div className="sr-only" aria-hidden="true">
-                    <span itemProp="recipeCategory">{validRecipe.category}</span>
-                    <span itemProp="recipeCuisine">Vegetarisch</span>
-                    <span itemProp="keywords">{validRecipe.seo_keywords?.join(', ')}</span>
-                    <time itemProp="totalTime" dateTime={`PT${(validRecipe.prepTime || 30) + (validRecipe.cookingTime || 30)}M`}>
-                      {(validRecipe.prepTime || 30) + (validRecipe.cookingTime || 30)} Minuten
-                    </time>
-                    {validRecipe.nutrition && (
-                      <div itemProp="nutrition" itemScope itemType="https://schema.org/NutritionInformation">
-                        <span itemProp="calories">{validRecipe.nutrition.calories} kcal</span>
-                        <span itemProp="proteinContent">{validRecipe.nutrition.protein}</span>
-                        <span itemProp="carbohydrateContent">{validRecipe.nutrition.carbs}</span>
-                        <span itemProp="fatContent">{validRecipe.nutrition.fat}</span>
-                        <span itemProp="servingSize">1 Portion</span>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Recommended recipes section */}
-                  <div className="w-full">
+                  <div className="w-full ">
                     <div className="mt-4">
                       <h2 className="font-black text-3xl uppercase text-black w-full tracking-tight leading-tight mb-3">
                         Empfohlene Beiträge
@@ -661,151 +794,111 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     </div>
                     <div className="grid grid-cols-3 gap-4">
                       {recommendedRecipes2.map((recommendedRecipe, index) => (
-                        <article key={index} className="block border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden h-full" itemScope itemType="https://schema.org/Recipe">
-                          <a href={`/${recommendedRecipe.slug}`} className="relative group bg-[#f9d24f]/30 p-4 h-full flex flex-col" aria-label={`Rezept für ${recommendedRecipe.title}`}>
+                        <a href={`/${recommendedRecipe.slug}`} className="block border border-black rounded-lg shadow-[4px_4px_0px_rgba(249,210,79,0.6)] overflow-hidden h-full" key={index}>
+                          <div className="relative group bg-[#f9d24f]/30 p-4 h-full flex flex-col">
                             <div className="w-full aspect-square rounded-lg overflow-hidden">
                               <img
-                                width="1200"
-                                height="800"
-                                loading="lazy"
-                                decoding="async"
-                                itemProp="image"
+                              width="1200"
+                              height="800"
+                              loading="lazy"
+                              decoding="async"
+                              itemProp="contentUrl"
                                 src={recommendedRecipe.image}
-                                alt={`${recommendedRecipe.title} - Vegetarisches ${recommendedRecipe.category} Rezept`}
+                                alt={recommendedRecipe.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
                             </div>
                             <div className="mt-4 flex-grow">
-                              <h3 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#f9d24f] transition-colors" itemProp="name">
+                              <h4 className="font-bold text-lg text-[#0b3558] mb-2 group-hover:text-[#f9d24f] transition-colors">
                                 {recommendedRecipe.title}
-                              </h3>
-                              <p className="text-lg text-black leading-relaxed font-normal line-clamp-2" itemProp="description">
+                              </h4>
+                              <p className="text-lg text-black leading-relaxed font-normal line-clamp-2">
                                 {recommendedRecipe.description}
                               </p>
                             </div>
-                            <meta itemProp="recipeCategory" content={recommendedRecipe.category} />
-                          </a>
-                        </article>
+                          </div>
+                        </a>
                       ))}
                     </div>
                   </div>
                 </div>
               </div>
-
-              {/* Enhanced Right Column (4/12) */}
-              <aside className="lg:col-span-4" role="complementary" aria-label="Zusätzliche Informationen">
+              {/* Right Column (4/12) */}
+              <div className="lg:col-span-4">
+                {/* Right Column Content */}
                 <div className="pr-4 pb-8">
-                  <section className="mb-8">
+                  <div className="mb-8">
                     <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Beliebte Rezepte</h3>
                     <div className="space-y-4">
                       {otherRecipes.slice(0, 5).map((popularRecipe, index) => (
-                        <article key={index} className="flex items-start gap-3 group" itemScope itemType="https://schema.org/Recipe">
-                          <a href={`/${popularRecipe.slug}`} className="flex items-start gap-3 group w-full" aria-label={`Rezept für ${popularRecipe.title}`}>
-                            <div className="w-20 h-20 rounded-md overflow-hidden flex-shrink-0">
-                              <img
-                                width="1200"
-                                height="800"
-                                loading="lazy"
-                                decoding="async"
-                                itemProp="image"
-                                src={popularRecipe.image}
-                                alt={`${popularRecipe.title} - Vegetarisches ${popularRecipe.category} Rezept`}
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                              />
-                            </div>
-                            <div>
-                              <h4 className="font-bold text-[#0b3558] group-hover:text-[#f9d24f] transition-colors" itemProp="name">
-                                {popularRecipe.title}
-                              </h4>
-                              <p className="text-sm text-gray-600 line-clamp-2" itemProp="description">
-                                {popularRecipe.description}
-                              </p>
-                            </div>
-                            <meta itemProp="recipeCategory" content={popularRecipe.category} />
-                          </a>
-                        </article>
+                        <a key={index} href={`/${popularRecipe.slug}`} className="flex items-start gap-3 group">
+                          <div className="w-20 h-20 rounded-md overflow-hidden flex-shrink-0">
+                            <img
+                              width="1200"
+                              height="800"
+                              loading="lazy"
+                              decoding="async"
+                              itemProp="contentUrl"
+                              src={popularRecipe.image}
+                              alt={popularRecipe.title}
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-[#0b3558] group-hover:text-[#f9d24f] transition-colors">
+                              {popularRecipe.title}
+                            </h4>
+                            <p className="text-sm text-gray-600 line-clamp-2">
+                              {popularRecipe.description}
+                            </p>
+                          </div>
+                        </a>
                       ))}
                     </div>
-                  </section>
+                  </div>
 
-                  <section className="mb-8">
+                  <div className="mb-8">
                     <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
                       <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-3">Newsletter</h3>
                       <p className="text-gray-600 mb-4">Erhalte die neuesten Rezepte direkt in dein Postfach!</p>
-                      <form className="space-y-3" aria-label="Newsletter Anmeldung" onSubmit={(e) => {
-                        e.preventDefault();
-                        if (typeof window !== 'undefined' && window.trackNewsletterSignup) {
-                          window.trackNewsletterSignup();
-                        }
-                      }}>
-                        <label htmlFor="newsletter-email" className="sr-only">E-Mail-Adresse</label>
+                      <div className="space-y-3">
                         <input
-                          id="newsletter-email"
                           type="email"
                           placeholder="Deine Email-Adresse"
                           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f9d24f]"
-                          required
-                          aria-describedby="newsletter-description"
                         />
-                        <p id="newsletter-description" className="sr-only">
-                          Melde dich für unseren Newsletter an, um die neuesten vegetarischen Rezepte zu erhalten
-                        </p>
-                        <button 
-                          type="submit"
-                          className="w-full bg-[#0b3558] text-white py-2 rounded-md hover:bg-[#f9d24f] hover:text-black transition-colors"
-                          aria-label="Für Newsletter anmelden"
-                        >
+                        <button className="w-full bg-[#0b3558] text-white py-2 rounded-md hover:bg-[#f9d24f] hover:text-black transition-colors">
                           Abonnieren
                         </button>
-                      </form>
-                    </div>
-                  </section>
-
-                  <section>
-                    <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Folge uns</h3>
-                    <nav aria-label="Social Media Links">
-                      <div className="flex gap-4">
-                        <a 
-                          href="https://www.facebook.com/veggierezepte" 
-                          className="text-[#0b3558] hover:text-[#f9d24f] transition-colors"
-                          aria-label="Folge uns auf Facebook"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
-                          </svg>
-                        </a>
-                        <a 
-                          href="https://www.pinterest.com/veggierezepte" 
-                          className="text-[#0b3558] hover:text-[#f9d24f] transition-colors"
-                          aria-label="Folge uns auf Pinterest"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.889-2.889-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
-                          </svg>
-                        </a>
-                        <a 
-                          href="https://www.instagram.com/veggierezepte" 
-                          className="text-[#0b3558] hover:text-[#f9d24f] transition-colors"
-                          aria-label="Folge uns auf Instagram"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                          </svg>
-                        </a>
                       </div>
-                    </nav>
-                  </section>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="font-serif text-xl font-semibold text-[#0b3558] mb-4">Folge uns</h3>
+                    <div className="flex gap-4">
+                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+                        </svg>
+                      </a>
+                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.889-2.889-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
+                        </svg>
+                      </a>
+                      <a href="#" className="text-[#0b3558] hover:text-[#f9d24f] transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.889-2.889-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </aside>
+              </div>
             </div>
           </article>
-        </main>
+        </div>
       </div>
     </>
   )
