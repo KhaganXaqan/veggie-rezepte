@@ -17961,7 +17961,7 @@ export const recipes: Recipe[] = [
     "Wenn du keine Pinienkerne magst, passen auch Walnüsse oder Mandeln hervorragend zu diesem Gnocchisalat."
   ],
   "whyFavorite": {
-    "title": "Warum dieser Gnocchi-Salat ein Hit ist!",
+    "title": "Warum dieser Gnocchi-Salat ein Hit ist.",
     "reasons": [
       {
         "title": "Blitzschnell & unkompliziert",
