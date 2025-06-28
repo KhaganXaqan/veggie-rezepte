@@ -24,7 +24,7 @@ export function RecipeCardMasonry({
     : (positionInRow === 1 || positionInRow === 2) // Second row pattern
 
   // Generate proper alt text for SEO
-  const altText = `${recipe.title} - Vegetarisches ${recipe.category} Rezept mit ${recipe.prepTime || 30} Minuten Zubereitungszeit`
+  const altText = `${recipe.title} - Vegetarisches Rezept mit ${recipe.prepTime || 30} Minuten Zubereitungszeit`
 
   return (
     <article className={`fav-recipe-card ${isTall ? 'tall' : 'short'}`} itemScope itemType="https://schema.org/Recipe">
@@ -68,12 +68,6 @@ export function RecipeCardMasonry({
             <span itemProp="reviewCount">{recipe.reviews || 50}</span>
           </div>
         )}
-        <div itemProp="nutrition" itemScope itemType="https://schema.org/NutritionInformation">
-          <span itemProp="calories">{recipe.nutrition?.calories}</span>
-          <span itemProp="proteinContent">{recipe.nutrition?.protein}</span>
-          <span itemProp="carbohydrateContent">{recipe.nutrition?.carbs}</span>
-          <span itemProp="fatContent">{recipe.nutrition?.fat}</span>
-        </div>
       </div>
       
       <div className="details-link">
