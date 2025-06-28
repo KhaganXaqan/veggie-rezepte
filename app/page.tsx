@@ -408,7 +408,11 @@ export default async function Home() {
               )}
 
               <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<<<<<<< HEAD
                 {[soups[0], salads[0], breakfast[0], desserts[0]].filter(Boolean).map((recipe: Recipe) => (
+=======
+                {[soups[0], salads[0], breakfast[0], desserts[0]].map((recipe: Recipe) => (
+>>>>>>> parent of 490ef09 (Fix undefined slug error in homepage)
                   <article key={recipe.slug} className="post-summary post-summary--quinary" itemScope itemType="https://schema.org/Recipe">
                     <Link href={`/${recipe.slug}`} className="block" aria-label={`Rezept für ${recipe.title} - ${recipe.description}`}>
                       <div className="post-summary__image relative w-full lg:w-[368px] aspect-[4/3] overflow-hidden rounded-lg">
@@ -538,7 +542,11 @@ export default async function Home() {
               ) : (
                 // Standard grid layout
                 <div className="block-post-listing__inner grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+<<<<<<< HEAD
                   {section.recipes.slice(0, sectionIndex === 0 ? 8 : 4).filter(Boolean).map((recipe: Recipe) => (
+=======
+                  {section.recipes.slice(0, sectionIndex === 0 ? 8 : 4).map((recipe: Recipe) => (
+>>>>>>> parent of 490ef09 (Fix undefined slug error in homepage)
                     <article key={recipe.slug} className="post-summary post-summary--quinary" itemScope itemType="https://schema.org/Recipe">
                       <Link href={`/${recipe.slug}`} className="block" aria-label={`Rezept für ${recipe.title}`}>
                         <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
