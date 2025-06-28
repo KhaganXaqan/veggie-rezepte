@@ -17,6 +17,7 @@ export default function robots(): MetadataRoute.Robots {
           '/search?*',
           '/rezepte/alle?*'
         ],
+        crawlDelay: 1,
       },
       {
         userAgent: 'Googlebot',
@@ -35,11 +36,36 @@ export default function robots(): MetadataRoute.Robots {
           '/admin/*',
           '/private/*'
         ],
+      },
+      {
+        userAgent: 'facebookexternalhit',
+        allow: '/',
+        disallow: [
+          '/api/*',
+          '/admin/*'
+        ],
+      },
+      {
+        userAgent: 'Twitterbot',
+        allow: '/',
+        disallow: [
+          '/api/*',
+          '/admin/*'
+        ],
+      },
+      {
+        userAgent: 'PinterestBot',
+        allow: '/',
+        disallow: [
+          '/api/*',
+          '/admin/*'
+        ],
       }
     ],
     sitemap: [
       `${baseUrl}/sitemap.xml`,
-      `${baseUrl}/imageSitemap.xml`
+      `${baseUrl}/imageSitemap.xml`,
+      `${baseUrl}/videoSitemap.xml`
     ],
     host: baseUrl,
   }

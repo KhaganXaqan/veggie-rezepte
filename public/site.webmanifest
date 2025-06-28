@@ -1,21 +1,64 @@
 {
-  "name": "Veggie-Rezepte.de",
-  "short_name": "Veggie-Rezepte",
-  "description": "Deine Plattform für vegetarische Rezepte",
+  "name": "Veggie Rezepte - Vegetarische Küche",
+  "short_name": "Veggie Rezepte",
+  "description": "Entdecke über 1000 köstliche vegetarische Rezepte für jeden Tag",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#00884f",
+  "theme_color": "#f9d24f",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "de",
+  "categories": ["food", "lifestyle", "health"],
   "icons": [
     {
       "src": "/images/logo/icon-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/images/logo/icon-512x512.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo/apple-touch-icon.png",
+      "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Alle Rezepte",
+      "short_name": "Rezepte",
+      "description": "Durchstöbere alle vegetarischen Rezepte",
+      "url": "/rezepte/alle",
+      "icons": [{ "src": "/images/logo/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Kategorien",
+      "short_name": "Kategorien",
+      "description": "Rezepte nach Kategorien",
+      "url": "/kategorien",
+      "icons": [{ "src": "/images/logo/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Schnelle Rezepte",
+      "short_name": "Schnell",
+      "description": "Rezepte unter 30 Minuten",
+      "url": "/rezepte/alle?tag=Schnell",
+      "icons": [{ "src": "/images/logo/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/logo/og-image.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Veggie Rezepte Homepage"
     }
   ]
 }

@@ -5,6 +5,7 @@ import { Inter as InterFont } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Analytics } from '@vercel/analytics/react';
+import { AnalyticsWrapper } from '@/components/analytics-wrapper';
 import { siteConfig } from '@/lib/constants';
 import Script from 'next/script';
 import { cn } from '@/lib/utils';
@@ -110,9 +111,13 @@ export const metadata: Metadata = {
   category: 'food',
   classification: 'Vegetarian Recipes',
   verification: {
-    google: 'your-google-verification-code',
+    google: 'your-google-search-console-verification-code',
     yandex: 'your-yandex-verification-code',
     yahoo: 'your-yahoo-verification-code',
+    other: {
+      'msvalidate.01': 'your-bing-verification-code',
+      'pinterest-site-verification': 'your-pinterest-verification-code',
+    },
   },
 };
 
@@ -128,15 +133,22 @@ export default function RootLayout({
         <meta name="theme-color" content="#f9d24f" />
         <meta name="color-scheme" content="light" />
         <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         
-        {/* Preconnect to external domains */}
+        {/* Enhanced preconnect for performance */}
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         
         {/* DNS prefetch for performance */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//images.unsplash.com" />
         
         {/* Font loading optimization */}
         <link 
@@ -145,6 +157,92 @@ export default function RootLayout({
           media="print"
           onLoad="this.media='all'"
         />
+        
+        {/* Google Tag Manager */}
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-XXXXXXX');
+            `,
+          }}
+        />
+        
+        {/* Google Analytics 4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XXXXXXXXXX', {
+              page_title: document.title,
+              page_location: window.location.href,
+              content_group1: 'Recipes',
+              content_group2: 'Vegetarian',
+              custom_map: {
+                'custom_parameter_1': 'recipe_category',
+                'custom_parameter_2': 'recipe_difficulty'
+              },
+              send_page_view: true,
+              anonymize_ip: true,
+              allow_google_signals: false,
+              allow_ad_personalization_signals: false
+            });
+            
+            // Enhanced ecommerce tracking for recipe interactions
+            gtag('config', 'G-XXXXXXXXXX', {
+              custom_map: {'custom_parameter_1': 'recipe_view'}
+            });
+            
+            // Track recipe views
+            function trackRecipeView(recipeName, category, difficulty) {
+              gtag('event', 'recipe_view', {
+                'recipe_name': recipeName,
+                'recipe_category': category,
+                'recipe_difficulty': difficulty,
+                'content_type': 'recipe'
+              });
+            }
+            
+            // Track recipe interactions
+            function trackRecipeInteraction(action, recipeName) {
+              gtag('event', action, {
+                'recipe_name': recipeName,
+                'content_type': 'recipe'
+              });
+            }
+            
+            // Track search queries
+            function trackSearch(searchTerm, resultsCount) {
+              gtag('event', 'search', {
+                'search_term': searchTerm,
+                'results_count': resultsCount
+              });
+            }
+            
+            // Track newsletter signups
+            function trackNewsletterSignup() {
+              gtag('event', 'newsletter_signup', {
+                'method': 'website_form'
+              });
+            }
+            
+            // Make functions globally available
+            window.trackRecipeView = trackRecipeView;
+            window.trackRecipeInteraction = trackRecipeInteraction;
+            window.trackSearch = trackSearch;
+            window.trackNewsletterSignup = trackNewsletterSignup;
+          `}
+        </Script>
         
         {/* Google Ads */}
         <Script
@@ -206,13 +304,20 @@ export default function RootLayout({
                     "https://www.facebook.com/veggierezepte",
                     "https://www.instagram.com/veggierezepte",
                     "https://www.pinterest.com/veggierezepte",
-                    "https://www.youtube.com/@veggierezepte"
+                    "https://www.youtube.com/@veggierezepte",
+                    "https://twitter.com/veggierezepte"
                   ],
                   "contactPoint": {
                     "@type": "ContactPoint",
                     "contactType": "customer service",
                     "areaServed": "DE",
-                    "availableLanguage": "German"
+                    "availableLanguage": "German",
+                    "email": "info@veggie-rezepte.de"
+                  },
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "DE",
+                    "addressLocality": "Deutschland"
                   }
                 }
               ]
@@ -220,25 +325,31 @@ export default function RootLayout({
           }}
         />
         
-        {/* Google Analytics 4 */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
+        {/* Hotjar Tracking Code */}
+        <Script id="hotjar" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'GA_MEASUREMENT_ID', {
-              page_title: document.title,
-              page_location: window.location.href,
-              content_group1: 'Recipes'
-            });
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:XXXXXXX,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `}
         </Script>
       </head>
       <body className={cn("min-h-screen bg-white font-sans antialiased", inter.className)}>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe 
+            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+            height="0" 
+            width="0" 
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+        
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
@@ -255,6 +366,7 @@ export default function RootLayout({
           </div>
           <Toaster />
           <Analytics />
+          <AnalyticsWrapper />
         </ThemeProvider>
       </body>
     </html>
