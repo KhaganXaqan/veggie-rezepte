@@ -111,16 +111,16 @@ export function MobileNav() {
               </div>
               <AccordionContent>
                 <div className="flex flex-col gap-2 pl-2 sm:pl-4">
-                  <Link href="/rezepte/alle?tag=Frühling" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
+                  <Link href="/rezepte/alle?tag=Frühlingshaft" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
                     Frühling
                   </Link>
-                  <Link href="/rezepte/alle?tag=Sommer" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
+                  <Link href="/rezepte/alle?tag=Sommerlich" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
                     Sommer
                   </Link>
-                  <Link href="/rezepte/alle?tag=Herbst" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
+                  <Link href="/rezepte/alle?tag=Herbstlich" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
                     Herbst
                   </Link>
-                  <Link href="/rezepte/alle?tag=Winter" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
+                  <Link href="/rezepte/alle?tag=Winterlich" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
                     Winter
                   </Link>
                 </div>

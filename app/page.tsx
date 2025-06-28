@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
@@ -409,11 +408,7 @@ export default async function Home() {
               )}
 
               <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-<<<<<<< HEAD
                 {[soups[0], salads[0], breakfast[0], desserts[0]].filter(Boolean).map((recipe: Recipe) => (
-=======
-                {[soups[0], salads[0], breakfast[0], desserts[0]].map((recipe: Recipe) => (
->>>>>>> parent of 490ef09 (Fix undefined slug error in homepage)
                   <article key={recipe.slug} className="post-summary post-summary--quinary" itemScope itemType="https://schema.org/Recipe">
                     <Link href={`/${recipe.slug}`} className="block" aria-label={`Rezept für ${recipe.title} - ${recipe.description}`}>
                       <div className="post-summary__image relative w-full lg:w-[368px] aspect-[4/3] overflow-hidden rounded-lg">
@@ -459,7 +454,7 @@ export default async function Home() {
             { recipes: breakfast, title: "Frühstück Rezepte", slug: "fruehstueck", description: "Gesunde vegetarische Frühstücksideen" },
             { recipes: desserts, title: "Desserts Rezepte", slug: "desserts", description: "Süße vegetarische Nachspeisen" },
             { recipes: casseroles, title: "Aufläufe Rezepte", slug: "auflaeufe", description: "Herzhafte vegetarische Aufläufe" }
-          ].map((section, sectionIndex) => (
+          ].filter(Boolean).map((section, sectionIndex) => (
             <section key={section.slug} className="block-post-listing layout-echo mx-4 sm:mx-auto max-w-[1168px] mt-[50px] mb-[50px] lg:mb-[65px] relative" aria-label={section.description}>
               <header className="flex relative overflow-hidden mb-[1.5rem] w-full">
                 <h2 className="font-['Montserrat'] font-extrabold leading-[28px] sm:leading-[33.59px] text-[28px] sm:text-[33.59px] uppercase m-0 relative inline-block text-black after:content-[''] after:absolute after:left-[calc(100%+22px)] after:top-[calc(50%-1.5px)] after:h-[3px] after:w-screen after:bg-brand">
@@ -543,11 +538,7 @@ export default async function Home() {
               ) : (
                 // Standard grid layout
                 <div className="block-post-listing__inner grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-<<<<<<< HEAD
                   {section.recipes.slice(0, sectionIndex === 0 ? 8 : 4).filter(Boolean).map((recipe: Recipe) => (
-=======
-                  {section.recipes.slice(0, sectionIndex === 0 ? 8 : 4).map((recipe: Recipe) => (
->>>>>>> parent of 490ef09 (Fix undefined slug error in homepage)
                     <article key={recipe.slug} className="post-summary post-summary--quinary" itemScope itemType="https://schema.org/Recipe">
                       <Link href={`/${recipe.slug}`} className="block" aria-label={`Rezept für ${recipe.title}`}>
                         <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
@@ -602,7 +593,7 @@ export default async function Home() {
                 <li><Link href="/about" className="hover:text-[#0b3558] transition-colors">Über uns</Link></li>
                 <li><Link href="/contact" className="hover:text-[#0b3558] transition-colors">Kontakt</Link></li>
                 <li><Link href="/faq" className="hover:text-[#0b3558] transition-colors">FAQ</Link></li>
-                <li><Link href="/datenschutz" className="hover:text-[#0b3558] transition-colors">Datenschutz</Link></li>
+                <li><Link href="/datenschutz" className="hover:text-[#0b3558] transition-colors">Datenschutz</Link></li>Add commentMore actions
                 <li><Link href="/impressum" className="hover:text-[#0b3558] transition-colors">Impressum</Link></li>
               </ul>
             </nav>
@@ -612,5 +603,3 @@ export default async function Home() {
     </>
   )
 }
-=======
->>>>>>> parent of 270cb20 (Updated page.tsx)
