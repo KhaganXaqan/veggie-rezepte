@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useMemo } from 'react'
-import { Search, X, ChefHat, Clock, Star, Sparkles } from 'lucide-react'
+import { Search, X, ChefHat, Clock, Star, Sparkles, CheckCircle, AlertCircle } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -187,7 +187,7 @@ function ResultsDisplay({ results }: { results: { exactMatches: any[], partialMa
           <p className="text-gray-600 mb-6">Diese Rezepte kannst du mit deinen Zutaten direkt kochen.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {exactMatches.map(match => (
-              <RecipeCard key={match.recipe.slug} recipe={match.recipe} />
+              <ExactMatchCard key={match.recipe.slug} {...match} />
             ))}
           </div>
         </div>
@@ -208,11 +208,11 @@ function ResultsDisplay({ results }: { results: { exactMatches: any[], partialMa
   )
 }
 
-// Recipe Card for exact matches
-function RecipeCard({ recipe }: { recipe: Recipe }) {
+// Recipe Card for exact matches with enhanced messaging
+function ExactMatchCard({ recipe, matchType, extraIngredients }: { recipe: Recipe; matchType: string; extraIngredients: string[] }) {
   return (
     <Link href={`/${recipe.slug}`} className="block group">
-      <Card className="overflow-hidden h-full flex flex-col hover:shadow-xl transition-shadow duration-300 rounded-lg">
+      <Card className="overflow-hidden h-full flex flex-col hover:shadow-xl transition-shadow duration-300 rounded-lg border-2 border-green-200">
         <div className="aspect-[4/3] relative overflow-hidden">
           <Image
             src={recipe.image}
@@ -221,12 +221,29 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
+          <div className="absolute top-2 right-2">
+            <div className="bg-green-500 text-white px-2 py-1 rounded-full text-xs font-bold flex items-center">
+              <CheckCircle className="h-3 w-3 mr-1" />
+              {matchType === 'exact' ? 'Perfekt' : 'Komplett'}
+            </div>
+          </div>
         </div>
         <CardContent className="p-4 flex flex-col flex-grow">
           <h3 className="font-semibold text-lg text-[#0b3558] group-hover:text-[#f9d24f] transition-colors line-clamp-2 mb-2 flex-grow">
             {recipe.title}
           </h3>
-          <div className="flex items-center gap-4 text-sm text-gray-500 mt-2">
+          
+          {matchType === 'exact' ? (
+            <p className="text-sm text-green-700 mb-3 font-medium">
+              ✓ Du kannst <strong>{recipe.title}</strong> kochen, weil alle benötigten Zutaten vorhanden sind.
+            </p>
+          ) : (
+            <p className="text-sm text-blue-700 mb-3">
+              ✓ Du kannst <strong>{recipe.title}</strong> kochen. Du hast sogar extra Zutaten: <strong>{extraIngredients.join(', ')}</strong>.
+            </p>
+          )}
+          
+          <div className="flex items-center gap-4 text-sm text-gray-500 mt-auto">
             <span className="flex items-center gap-1.5">
               <Clock className="h-4 w-4" />
               {recipe.prepTime} Min
@@ -247,7 +264,7 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
 // Card for partial matches, highlighting missing ingredients
 function PartialMatchCard({ recipe, matchPercentage, foundIngredients, missingIngredients }: { recipe: Recipe; matchPercentage: number; foundIngredients: string[]; missingIngredients: string[] }) {
   return (
-    <Card className="overflow-hidden transition-shadow hover:shadow-lg">
+    <Card className="overflow-hidden transition-shadow hover:shadow-lg border-l-4 border-l-orange-400">
       <div className="flex flex-col sm:flex-row">
         <div className="sm:w-40 sm:h-auto h-48 relative flex-shrink-0">
           <Image
@@ -263,18 +280,21 @@ function PartialMatchCard({ recipe, matchPercentage, foundIngredients, missingIn
             <Link href={`/${recipe.slug}`} className="font-semibold text-lg text-[#0b3558] hover:text-[#f9d24f] transition-colors line-clamp-2">
               {recipe.title}
             </Link>
-            <Badge variant="secondary" className={`ml-2 flex-shrink-0 ${
-              matchPercentage >= 75 ? 'bg-green-100 text-green-800' :
-              matchPercentage >= 50 ? 'bg-yellow-100 text-yellow-800' :
-              'bg-orange-100 text-orange-800'
-            }`}>
-              {matchPercentage}% Match
-            </Badge>
+            <div className="flex items-center gap-2 ml-2 flex-shrink-0">
+              <Badge variant="secondary" className={`${
+                matchPercentage >= 75 ? 'bg-green-100 text-green-800' :
+                matchPercentage >= 50 ? 'bg-yellow-100 text-yellow-800' :
+                'bg-orange-100 text-orange-800'
+              }`}>
+                {matchPercentage}% Match
+              </Badge>
+              <AlertCircle className="h-4 w-4 text-orange-500" />
+            </div>
           </div>
           
           <p className="text-sm text-gray-600 mb-3">
-            Du kannst <strong>{recipe.title}</strong> kochen, wenn du noch hast: 
-            <strong className="text-orange-600">{missingIngredients.map(ing => ing.charAt(0).toUpperCase() + ing.slice(1)).join(', ')}</strong>.
+            Du kannst <strong>{recipe.title}</strong> kochen, wenn du noch diese Zutaten hinzufügst: 
+            <strong className="text-orange-600"> {missingIngredients.join(', ')}</strong>.
           </p>
 
           <div className="space-y-1 text-sm">

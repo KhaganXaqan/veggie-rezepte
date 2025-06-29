@@ -24,6 +24,16 @@ export function extractAllIngredients() {
         })
       })
     }
+
+    // Extract from ingredientsNeeded if they exist
+    if (recipe.ingredientsNeeded) {
+      recipe.ingredientsNeeded.forEach(ingredient => {
+        const normalized = normalizeIngredientName(ingredient.title)
+        if (normalized) {
+          ingredientSet.add(normalized)
+        }
+      })
+    }
   })
   
   return Array.from(ingredientSet).sort()
@@ -213,7 +223,7 @@ export function normalizeIngredientName(name: string): string {
   return normalized
 }
 
-// Find recipes that contain specific ingredients
+// Find recipes that contain specific ingredients based on ingredientsNeeded
 export function findRecipesByIngredients(selectedIngredients: string[]) {
   if (selectedIngredients.length === 0) {
     return {
@@ -227,60 +237,90 @@ export function findRecipesByIngredients(selectedIngredients: string[]) {
   const partialMatches: any[] = []
   
   recipes.forEach(recipe => {
-    // Get all ingredients from the recipe
-    const recipeIngredients = new Set<string>()
-    
-    recipe.ingredients.forEach(ingredient => {
-      const normalized = normalizeIngredientName(ingredient.name)
-      if (normalized) {
-        recipeIngredients.add(normalized)
-      }
-    })
-    
-    if (recipe.ingredientGroups) {
-      recipe.ingredientGroups.forEach(group => {
-        group.ingredients.forEach(ingredient => {
-          const normalized = normalizeIngredientName(ingredient.name)
-          if (normalized) {
-            recipeIngredients.add(normalized)
-          }
-        })
-      })
+    // Skip recipes without ingredientsNeeded
+    if (!recipe.ingredientsNeeded || recipe.ingredientsNeeded.length === 0) {
+      return
+    }
+
+    // Get all ingredient titles from the recipe's ingredientsNeeded
+    const recipeIngredientTitles = recipe.ingredientsNeeded.map(ingredient => 
+      normalizeIngredientName(ingredient.title)
+    ).filter(title => title.length > 0)
+
+    if (recipeIngredientTitles.length === 0) {
+      return
     }
     
-    // Check how many selected ingredients are in this recipe
-    const foundIngredients = normalizedSelected.filter(ing => recipeIngredients.has(ing))
-    const missingIngredients = normalizedSelected.filter(ing => !recipeIngredients.has(ing))
+    // Check how many selected ingredients match the recipe's needed ingredients
+    const foundIngredients = normalizedSelected.filter(selectedIng => 
+      recipeIngredientTitles.some(recipeIng => 
+        recipeIng.includes(selectedIng) || selectedIng.includes(recipeIng)
+      )
+    )
+
+    // Check how many recipe ingredients are missing from user selection
+    const missingIngredients = recipeIngredientTitles.filter(recipeIng => 
+      !normalizedSelected.some(selectedIng => 
+        recipeIng.includes(selectedIng) || selectedIng.includes(recipeIng)
+      )
+    )
+
+    // Check for extra ingredients (user has more than recipe needs)
+    const extraIngredients = normalizedSelected.filter(selectedIng => 
+      !recipeIngredientTitles.some(recipeIng => 
+        recipeIng.includes(selectedIng) || selectedIng.includes(recipeIng)
+      )
+    )
     
-    if (foundIngredients.length === normalizedSelected.length) {
-      // Exact match - recipe contains all selected ingredients
+    if (foundIngredients.length === 0) {
+      return // No overlap, skip this recipe
+    }
+
+    // Map back to original ingredient names for display
+    const foundOriginal = selectedIngredients.filter(original => 
+      foundIngredients.includes(normalizeIngredientName(original))
+    )
+
+    const missingOriginal = recipe.ingredientsNeeded
+      .filter(ingredient => missingIngredients.includes(normalizeIngredientName(ingredient.title)))
+      .map(ingredient => ingredient.title)
+
+    const extraOriginal = selectedIngredients.filter(original => 
+      extraIngredients.includes(normalizeIngredientName(original))
+    )
+
+    if (missingIngredients.length === 0) {
+      // Exact match or superset - user has all needed ingredients
       exactMatches.push({
         recipe,
         matchPercentage: 100,
-        foundIngredients: selectedIngredients,
-        missingIngredients: []
+        foundIngredients: foundOriginal,
+        missingIngredients: [],
+        extraIngredients: extraOriginal,
+        matchType: extraOriginal.length > 0 ? 'superset' : 'exact'
       })
-    } else if (foundIngredients.length > 0) {
-      // Partial match - recipe contains some selected ingredients
-      const matchPercentage = Math.round((foundIngredients.length / normalizedSelected.length) * 100)
-      
-      // Map back to original ingredient names for display
-      const foundOriginal = selectedIngredients.filter(original => 
-        foundIngredients.includes(normalizeIngredientName(original))
-      )
-      const missingOriginal = selectedIngredients.filter(original => 
-        missingIngredients.includes(normalizeIngredientName(original))
-      )
+    } else {
+      // Partial match - some ingredients missing
+      const matchPercentage = Math.round((foundIngredients.length / recipeIngredientTitles.length) * 100)
       
       partialMatches.push({
         recipe,
         matchPercentage,
         foundIngredients: foundOriginal,
-        missingIngredients: missingOriginal
+        missingIngredients: missingOriginal,
+        extraIngredients: extraOriginal,
+        matchType: 'partial'
       })
     }
   })
   
+  // Sort exact matches: exact matches first, then supersets
+  exactMatches.sort((a, b) => {
+    if (a.matchType === 'exact' && b.matchType === 'superset') return -1
+    if (a.matchType === 'superset' && b.matchType === 'exact') return 1
+    return a.extraIngredients.length - b.extraIngredients.length
+  })
+
   // Sort partial matches by match percentage (highest first)
   partialMatches.sort((a, b) => b.matchPercentage - a.matchPercentage)
   
@@ -310,17 +350,31 @@ export function getPopularIngredients(limit: number = 18) {
   recipes.forEach(recipe => {
     const uniqueIngredients = new Set<string>()
     
-    const allRecipeIngredients = [
-      ...recipe.ingredients,
-      ...(recipe.ingredientGroups ? recipe.ingredientGroups.flatMap(g => g.ingredients) : [])
-    ];
-
-    allRecipeIngredients.forEach(ingredient => {
+    // Count from main ingredients
+    recipe.ingredients.forEach(ingredient => {
       const normalized = normalizeIngredientName(ingredient.name)
       if (normalized) uniqueIngredients.add(normalized)
     })
 
-    // Count each unique ingredient once per recipe to find which ingredients are most versatile
+    // Count from ingredient groups
+    if (recipe.ingredientGroups) {
+      recipe.ingredientGroups.forEach(group => {
+        group.ingredients.forEach(ingredient => {
+          const normalized = normalizeIngredientName(ingredient.name)
+          if (normalized) uniqueIngredients.add(normalized)
+        })
+      })
+    }
+
+    // Count from ingredientsNeeded
+    if (recipe.ingredientsNeeded) {
+      recipe.ingredientsNeeded.forEach(ingredient => {
+        const normalized = normalizeIngredientName(ingredient.title)
+        if (normalized) uniqueIngredients.add(normalized)
+      })
+    }
+
+    // Count each unique ingredient once per recipe
     uniqueIngredients.forEach(ingredient => {
       ingredientCounts[ingredient] = (ingredientCounts[ingredient] || 0) + 1
     })
