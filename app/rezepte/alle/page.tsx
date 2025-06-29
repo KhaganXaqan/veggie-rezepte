@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 import { SiteHeader } from "@/components/site-header"
 import { RecipeCardMasonry } from "@/components/recipe-card-masonry"
 import { Input } from "@/components/ui/input"
@@ -14,7 +14,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 import { Clock, TrendingUp, Sparkles, Filter, AlertCircle, CheckCircle } from 'lucide-react'
 
-export default function AllRecipes() {
+function AllRecipesContent() {
   const searchParams = useSearchParams()
   const initialTag = searchParams.get('tag') || ""
   const initialQuery = searchParams.get('q') || ""
@@ -402,5 +402,39 @@ export default function AllRecipes() {
         </main>
       </div>
     </>
+  )
+}
+
+export default function AllRecipes() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex flex-col bg-white">
+        <SiteHeader />
+        <main className="flex-1 bg-white">
+          <div className="container py-8">
+            <div className="max-w-4xl mx-auto mb-8">
+              <div className="animate-pulse">
+                <div className="h-8 bg-gray-200 rounded w-1/4 mb-4"></div>
+                <div className="h-12 bg-gray-200 rounded w-3/4 mb-4"></div>
+                <div className="h-4 bg-gray-200 rounded w-1/2 mb-6"></div>
+                <div className="flex gap-2 mb-4">
+                  <div className="h-10 bg-gray-200 rounded w-20"></div>
+                  <div className="h-10 bg-gray-200 rounded w-20"></div>
+                  <div className="h-10 bg-gray-200 rounded w-20"></div>
+                </div>
+                <div className="h-10 bg-gray-200 rounded w-full mb-4"></div>
+                <div className="flex gap-2 flex-wrap">
+                  {Array.from({ length: 8 }).map((_, i) => (
+                    <div key={i} className="h-8 bg-gray-200 rounded w-16"></div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    }>
+      <AllRecipesContent />
+    </Suspense>
   )
 }
