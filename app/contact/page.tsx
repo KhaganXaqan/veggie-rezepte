@@ -43,28 +43,7 @@ export default function ContactPage() {
           
           <div>
             <h2 className="text-2xl font-semibold mb-6">Kontaktinformationen</h2>
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <MapPin className="w-6 h-6 text-[#db747a] mt-1" />
-                <div>
-                  <h3 className="font-medium">Adresse</h3>
-                  <p className="text-gray-600">
-                    Veggie Rezepte GmbH<br />
-                    Kochstraße 123<br />
-                    10115 Berlin<br />
-                    Deutschland
-                  </p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <Phone className="w-6 h-6 text-[#db747a] mt-1" />
-                <div>
-                  <h3 className="font-medium">Telefon</h3>
-                  <p className="text-gray-600">+49 30 123456789</p>
-                </div>
-              </div>
-              
+            <div className="space-y-6"> 
               <div className="flex items-start space-x-4">
                 <Mail className="w-6 h-6 text-[#db747a] mt-1" />
                 <div>
