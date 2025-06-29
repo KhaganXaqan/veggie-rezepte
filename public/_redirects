@@ -1,0 +1,6 @@
+# Netlify redirects file
+# Redirect non-www to www
+https://veggie-rezepte.de/* https://www.veggie-rezepte.de/:splat 301!
+
+# Handle trailing slashes
+/*/  /:splat  301!
