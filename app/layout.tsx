@@ -150,14 +150,6 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//images.unsplash.com" />
         
-        {/* Font loading optimization */}
-        <link 
-          rel="stylesheet" 
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-          media="print"
-          onLoad="this.media='all'"
-        />
-        
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
