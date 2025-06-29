@@ -169,14 +169,8 @@ export async function generateStructuredData({ params }: RecipePageProps) {
       bestRating: '5',
       worstRating: '1'
     } : undefined,
-    video: recipe.videoUrl ? {
-      '@type': 'VideoObject',
-      name: `${recipe.title} - Video Anleitung`,
-      description: `Schritt-für-Schritt Video-Anleitung für ${recipe.title}`,
-      thumbnailUrl: recipe.image,
-      contentUrl: recipe.videoUrl,
-      uploadDate: recipe.createdDate ? recipe.createdDate.toISOString() : new Date().toISOString()
-    } : undefined,
+    // Remove video section since videoUrl doesn't exist in Recipe type
+    // If you want to add video support, you'll need to add videoUrl to the Recipe type first
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': canonicalUrl

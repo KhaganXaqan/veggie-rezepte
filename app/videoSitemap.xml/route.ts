@@ -3,8 +3,15 @@ import { Recipe, recipes } from '@/lib/data'
 export async function GET() {
   const baseUrl = 'https://www.veggie-rezepte.de'
 
-  // Filter recipes that have video content
-  const recipesWithVideos = recipes.filter(recipe => recipe.videoUrl)
+  // Filter recipes that have video content - since videoUrl doesn't exist in Recipe type,
+  // we'll create an empty sitemap for now. If you want to add video support,
+  // you'll need to add videoUrl to the Recipe type first.
+  const recipesWithVideos = recipes.filter(recipe => {
+    // Since videoUrl doesn't exist in Recipe type, this will always be empty
+    // If you add videoUrl to Recipe type, uncomment the line below:
+    // return recipe.videoUrl
+    return false;
+  })
 
   // Create XML content for video sitemap
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -17,7 +24,6 @@ export async function GET() {
             <video:thumbnail_loc>${baseUrl}${recipe.image}</video:thumbnail_loc>
             <video:title>${recipe.title.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"').replace(/'/g, '&apos;')} - Vegetarisches Rezept Video</video:title>
             <video:description>${(recipe.description || '').replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"').replace(/'/g, '&apos;')} - Schritt-für-Schritt Video-Anleitung für dieses köstliche vegetarische Rezept.</video:description>
-            <video:content_loc>${recipe.videoUrl}</video:content_loc>
             <video:duration>300</video:duration>
             <video:publication_date>${recipe.createdDate?.toISOString() || new Date().toISOString()}</video:publication_date>
             <video:category>Food & Cooking</video:category>
