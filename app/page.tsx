@@ -374,32 +374,28 @@ export default async function Home() {
             <div className="block-post-listing__inner grid grid-cols-1 lg:grid-cols-12 gap-6">
               {casseroles[0] && (
                 <article className="post-summary post-summary--quinary lg:col-span-4" itemScope itemType="https://schema.org/Recipe">
-                  <Link href={`/${casseroles[0].slug}`} className="block h-full" aria-label={`Rezept für ${casseroles[0].title} - ${casseroles[0].description}`}>
-                    <div className="post-summary__image relative w-full lg:w-[368px] h-full overflow-hidden rounded-lg">
+                  <Link href={`/${casseroles[0].slug}`} className="block h-full group" aria-label={`Rezept für ${casseroles[0].title} - ${casseroles[0].description}`}>
+                    <div className="post-summary__image relative w-full aspect-[4/3] overflow-hidden rounded-lg mb-4">
                       <Image
                         alt={`${casseroles[0].title} - Vegetarisches Auflauf Rezept mit ${casseroles[0].prepTime} Minuten Zubereitungszeit`}
                         loading="lazy"
                         decoding="async"
                         fill
-                        className="object-cover"
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
                         src={casseroles[0].image}
                         sizes="(max-width: 768px) 100vw, 368px"
                         itemProp="image"
                       />
-                      <div className="absolute bottom-5 left-5 flex flex-col gap-0.5">
-                        <div className="bg-white px-3 py-[7px] w-fit whitespace-normal mr-[20px]">
-                          <h3 className="post-summary__title text-3xl font-bold font-['Montserrat'] uppercase text-black" itemProp="name">
-                            <span className="inline-block">{casseroles[0].title}</span>
-                          </h3>
-                        </div>
-                        {casseroles[0].prepTime && (
-                          <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                            <span className="text-xs text-black/80 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${casseroles[0].prepTime}M`}>
-                              {casseroles[0].prepTime} Min
-                            </span>
-                          </div>
-                        )}
-                      </div>
+                    </div>
+                    <div className="post-summary__content">
+                      <h3 className="post-summary__title text-2xl font-bold font-['Montserrat'] uppercase text-black mb-2" itemProp="name">
+                        {casseroles[0].title}
+                      </h3>
+                      {casseroles[0].prepTime && (
+                        <span className="text-sm text-black/80 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${casseroles[0].prepTime}M`}>
+                          {casseroles[0].prepTime} Min
+                        </span>
+                      )}
                     </div>
                     <meta itemProp="description" content={casseroles[0].description} />
                     <meta itemProp="recipeCategory" content={casseroles[0].category} />
@@ -410,32 +406,28 @@ export default async function Home() {
               <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[soups[0], salads[0], breakfast[0], desserts[0]].filter(Boolean).map((recipe: Recipe) => (
                   <article key={recipe.slug} className="post-summary post-summary--quinary" itemScope itemType="https://schema.org/Recipe">
-                    <Link href={`/${recipe.slug}`} className="block" aria-label={`Rezept für ${recipe.title} - ${recipe.description}`}>
-                      <div className="post-summary__image relative w-full lg:w-[368px] aspect-[4/3] overflow-hidden rounded-lg">
+                    <Link href={`/${recipe.slug}`} className="block group" aria-label={`Rezept für ${recipe.title} - ${recipe.description}`}>
+                      <div className="post-summary__image relative w-full aspect-[4/3] overflow-hidden rounded-lg mb-3">
                         <Image
                           alt={`${recipe.title} - Vegetarisches ${recipe.category} Rezept mit ${recipe.prepTime} Minuten Zubereitungszeit`}
                           loading="lazy"
                           decoding="async"
                           fill
-                          className="object-cover"
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
                           src={recipe.image}
                           sizes="(max-width: 768px) 50vw, 368px"
                           itemProp="image"
                         />
-                        <div className="absolute bottom-5 left-5 flex flex-col gap-0.5">
-                          <div className="bg-white px-3 py-[7px] inline-block mr-[20px]">
-                            <h3 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase text-black" itemProp="name">
-                              <span>{recipe.title}</span>
-                            </h3>
-                          </div>
-                          {recipe.prepTime && (
-                            <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                              <span className="text-[10px] text-black/70 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${recipe.prepTime}M`}>
-                                {recipe.prepTime} Min
-                              </span>
-                            </div>
-                          )}
-                        </div>
+                      </div>
+                      <div className="post-summary__content">
+                        <h3 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase text-black mb-1" itemProp="name">
+                          {recipe.title}
+                        </h3>
+                        {recipe.prepTime && (
+                          <span className="text-xs text-black/70 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${recipe.prepTime}M`}>
+                            {recipe.prepTime} Min
+                          </span>
+                        )}
                       </div>
                       <meta itemProp="description" content={recipe.description} />
                       <meta itemProp="recipeCategory" content={recipe.category} />
@@ -467,32 +459,28 @@ export default async function Home() {
                 <div className="block-post-listing__inner grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6">
                   {section.recipes[0] && (
                     <article className="post-summary post-summary--quinary lg:col-span-4" itemScope itemType="https://schema.org/Recipe">
-                      <Link href={`/${section.recipes[0].slug}`} className="block h-full" aria-label={`Rezept für ${section.recipes[0].title}`}>
-                        <div className="post-summary__image relative w-full lg:w-[368px] h-full overflow-hidden rounded-lg">
+                      <Link href={`/${section.recipes[0].slug}`} className="block h-full group" aria-label={`Rezept für ${section.recipes[0].title}`}>
+                        <div className="post-summary__image relative w-full aspect-[4/3] overflow-hidden rounded-lg mb-4">
                           <Image
                             alt={`${section.recipes[0].title} - Vegetarisches ${section.recipes[0].category} Rezept`}
                             loading="lazy"
                             decoding="async"
                             fill
-                            className="object-cover"
+                            className="object-cover group-hover:scale-105 transition-transform duration-300"
                             src={section.recipes[0].image}
                             sizes="(max-width: 768px) 100vw, 368px"
                             itemProp="image"
                           />
-                          <div className="absolute bottom-5 left-5 flex flex-col gap-0.5">
-                            <div className="bg-white px-3 py-[7px] w-fit whitespace-normal mr-[20px]">
-                              <h3 className="post-summary__title text-2xl sm:text-3xl font-bold font-['Montserrat'] uppercase text-black" itemProp="name">
-                                <span className="inline-block">{section.recipes[0].title}</span>
-                              </h3>
-                            </div>
-                            {section.recipes[0].prepTime && (
-                              <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                                <span className="text-xs text-black/80 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${section.recipes[0].prepTime}M`}>
-                                  {section.recipes[0].prepTime} Min
-                                </span>
-                              </div>
-                            )}
-                          </div>
+                        </div>
+                        <div className="post-summary__content">
+                          <h3 className="post-summary__title text-2xl sm:text-3xl font-bold font-['Montserrat'] uppercase text-black mb-2" itemProp="name">
+                            {section.recipes[0].title}
+                          </h3>
+                          {section.recipes[0].prepTime && (
+                            <span className="text-sm text-black/80 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${section.recipes[0].prepTime}M`}>
+                              {section.recipes[0].prepTime} Min
+                            </span>
+                          )}
                         </div>
                         <meta itemProp="description" content={section.recipes[0].description} />
                       </Link>
@@ -502,32 +490,28 @@ export default async function Home() {
                   <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {section.recipes.slice(1, 5).filter(Boolean).map((recipe: Recipe) => (
                       <article key={recipe.slug} className="post-summary post-summary--quinary" itemScope itemType="https://schema.org/Recipe">
-                        <Link href={`/${recipe.slug}`} className="block" aria-label={`Rezept für ${recipe.title}`}>
-                          <div className="post-summary__image relative w-full lg:w-[368px] aspect-[4/3] overflow-hidden rounded-lg">
+                        <Link href={`/${recipe.slug}`} className="block group" aria-label={`Rezept für ${recipe.title}`}>
+                          <div className="post-summary__image relative w-full aspect-[4/3] overflow-hidden rounded-lg mb-3">
                             <Image
                               alt={`${recipe.title} - Vegetarisches ${recipe.category} Rezept`}
                               loading="lazy"
                               decoding="async"
                               fill
-                              className="object-cover"
+                              className="object-cover group-hover:scale-105 transition-transform duration-300"
                               src={recipe.image}
                               sizes="(max-width: 768px) 100vw, 368px"
                               itemProp="image"
                             />
-                            <div className="absolute bottom-5 left-5 flex flex-col gap-0.5">
-                              <div className="bg-white px-3 py-[7px] inline-block mr-[20px]">
-                                <h3 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase text-black" itemProp="name">
-                                  <span>{recipe.title}</span>
-                                </h3>
-                              </div>
-                              {recipe.prepTime && (
-                                <div className="bg-white px-2 py-0 w-fit mr-[20px]">
-                                  <span className="text-[10px] text-black/70 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${recipe.prepTime}M`}>
-                                    {recipe.prepTime} Min
-                                  </span>
-                                </div>
-                              )}
-                            </div>
+                          </div>
+                          <div className="post-summary__content">
+                            <h3 className="post-summary__title text-lg font-bold font-['Montserrat'] uppercase text-black mb-1" itemProp="name">
+                              {recipe.title}
+                            </h3>
+                            {recipe.prepTime && (
+                              <span className="text-xs text-black/70 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${recipe.prepTime}M`}>
+                                {recipe.prepTime} Min
+                              </span>
+                            )}
                           </div>
                           <meta itemProp="description" content={recipe.description} />
                         </Link>
@@ -536,26 +520,26 @@ export default async function Home() {
                   </div>
                 </div>
               ) : (
-                // Standard grid layout
+                // Standard grid layout with text below images
                 <div className="block-post-listing__inner grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
                   {section.recipes.slice(0, sectionIndex === 0 ? 8 : 4).filter(Boolean).map((recipe: Recipe) => (
                     <article key={recipe.slug} className="post-summary post-summary--quinary" itemScope itemType="https://schema.org/Recipe">
-                      <Link href={`/${recipe.slug}`} className="block" aria-label={`Rezept für ${recipe.title}`}>
-                        <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg">
+                      <Link href={`/${recipe.slug}`} className="block group" aria-label={`Rezept für ${recipe.title}`}>
+                        <div className="post-summary__image relative aspect-[4/3] overflow-hidden rounded-lg mb-3">
                           <Image
                             alt={`${recipe.title} - Vegetarisches ${recipe.category} Rezept`}
                             loading="lazy"
                             decoding="async"
                             fill
-                            className="object-cover"
+                            className="object-cover group-hover:scale-105 transition-transform duration-300"
                             src={recipe.image}
                             sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
                             itemProp="image"
                           />
                         </div>
-                        <div className="post-summary__content mt-4">
-                          <h3 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black" itemProp="name">
-                            <span>{recipe.title}</span>
+                        <div className="post-summary__content">
+                          <h3 className="post-summary__title text-base sm:text-lg font-bold font-['Montserrat'] uppercase text-black mb-1" itemProp="name">
+                            {recipe.title}
                           </h3>
                           {recipe.prepTime && (
                             <span className="text-xs sm:text-sm text-black/70 font-['Montserrat'] uppercase" itemProp="prepTime" content={`PT${recipe.prepTime}M`}>
@@ -593,7 +577,7 @@ export default async function Home() {
                 <li><Link href="/about" className="hover:text-[#0b3558] transition-colors">Über uns</Link></li>
                 <li><Link href="/contact" className="hover:text-[#0b3558] transition-colors">Kontakt</Link></li>
                 <li><Link href="/faq" className="hover:text-[#0b3558] transition-colors">FAQ</Link></li>
-                <li><Link href="/datenschutz" className="hover:text-[#0b3558] transition-colors">Datenschutz</Link></li>Add commentMore actions
+                <li><Link href="/datenschutz" className="hover:text-[#0b3558] transition-colors">Datenschutz</Link></li>
                 <li><Link href="/impressum" className="hover:text-[#0b3558] transition-colors">Impressum</Link></li>
               </ul>
             </nav>
