@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 import { SiteHeader } from "@/components/site-header"
 import { IngredientFilter } from "@/components/ingredient-filter"
-import { ChefHat, Utensils } from "lucide-react"
+import { ChefHat, Utensils, Sparkles, Target, Clock, Heart } from "lucide-react"
 import Script from 'next/script'
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -103,65 +103,69 @@ export default async function ZutatenFilterPage() {
         />
       )}
       
-      <div className="min-h-screen flex flex-col bg-white">
+      <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 via-white to-gray-50">
         <SiteHeader />
-        <main className="flex-1 bg-white">
-          <div className="container max-w-7xl mx-auto px-8 md:px-12 lg:px-16 py-12">
-            {/* Header Section */}
+        <main className="flex-1">
+          <div className="container max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12">
+            {/* Enhanced Header Section */}
             <div className="text-center mb-12">
               <nav aria-label="Breadcrumb" className="mb-6">
                 <ol className="flex items-center justify-center space-x-2 text-sm text-gray-600">
-                  <li><a href="/" className="hover:text-[#0b3558]">Home</a></li>
+                  <li><a href="/" className="hover:text-[#0b3558] transition-colors">Home</a></li>
                   <li><span className="mx-2">›</span></li>
                   <li className="text-[#0b3558] font-medium">Zutaten-Filter</li>
                 </ol>
               </nav>
               
               <div className="flex items-center justify-center gap-4 mb-6">
-                <div className="w-16 h-16 bg-[#f9d24f] rounded-full flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#f9d24f] to-[#f0c840] rounded-2xl flex items-center justify-center shadow-lg">
                   <ChefHat className="h-8 w-8 text-[#0b3558]" />
                 </div>
-                <h1 className="text-4xl md:text-5xl font-bold text-[#0b3558]">
+                <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#0b3558] to-[#f9d24f] bg-clip-text text-transparent">
                   Zutaten-Filter
                 </h1>
-                <div className="w-16 h-16 bg-[#f9d24f] rounded-full flex items-center justify-center">
-                  <Utensils className="h-8 w-8 text-[#0b3558]" />
+                <div className="w-16 h-16 bg-gradient-to-br from-[#0b3558] to-[#2563eb] rounded-2xl flex items-center justify-center shadow-lg">
+                  <Utensils className="h-8 w-8 text-white" />
                 </div>
               </div>
               
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
                 Gib deine verfügbaren Zutaten ein und entdecke, welche leckeren vegetarischen Rezepte du damit zubereiten kannst. 
                 Unser intelligenter Filter zeigt dir perfekte Treffer und hilfreiche Vorschläge.
               </p>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto text-center">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <div className="w-12 h-12 bg-[#0b3558] rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-lg">1</span>
+              {/* Enhanced Feature Cards */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#f9d24f]/30">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#0b3558] to-[#2563eb] rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <Target className="text-white font-bold text-lg h-7 w-7" />
                   </div>
-                  <h3 className="font-semibold text-[#0b3558] mb-2">Zutaten eingeben</h3>
-                  <p className="text-gray-600 text-sm">
-                    Tippe deine verfügbaren Zutaten ein oder wähle aus beliebten Optionen
+                  <h3 className="font-bold text-[#0b3558] mb-3 text-lg">Intelligente Erkennung</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Gib Zutaten in beliebiger Form ein - "große rote Zwiebel" oder "Cherrytomaten". 
+                    Unser System erkennt automatisch die Grundzutaten.
                   </p>
                 </div>
                 
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <div className="w-12 h-12 bg-[#0b3558] rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-lg">2</span>
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#f9d24f]/30">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#f9d24f] to-[#f0c840] rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <Sparkles className="text-[#0b3558] font-bold text-lg h-7 w-7" />
                   </div>
-                  <h3 className="font-semibold text-[#0b3558] mb-2">Rezepte entdecken</h3>
-                  <p className="text-gray-600 text-sm">
-                    Sieh perfekte Treffer und Vorschläge mit fehlenden Zutaten
+                  <h3 className="font-bold text-[#0b3558] mb-3 text-lg">Perfekte Treffer</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Sieh sofort, welche Rezepte du mit deinen Zutaten komplett zubereiten kannst, 
+                    plus hilfreiche Vorschläge mit fehlenden Zutaten.
                   </p>
                 </div>
                 
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <div className="w-12 h-12 bg-[#0b3558] rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-lg">3</span>
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#f9d24f]/30">
+                  <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <Clock className="text-white font-bold text-lg h-7 w-7" />
                   </div>
-                  <h3 className="font-semibold text-[#0b3558] mb-2">Lecker kochen</h3>
-                  <p className="text-gray-600 text-sm">
-                    Wähle ein Rezept und koche etwas Fantastisches!
+                  <h3 className="font-bold text-[#0b3558] mb-3 text-lg">Sofort loslegen</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Wähle ein Rezept und koche sofort los! Alle Rezepte enthalten detaillierte 
+                    Anleitungen und Nährwertangaben.
                   </p>
                 </div>
               </div>
@@ -170,31 +174,38 @@ export default async function ZutatenFilterPage() {
             {/* Filter Component */}
             <IngredientFilter />
             
-            {/* Additional Info */}
-            <div className="mt-16 bg-gradient-to-r from-[#0b3558] to-[#f9d24f] rounded-2xl p-8 text-center">
-              <h2 className="text-2xl font-bold text-white mb-4">
-                Nie wieder "Was soll ich kochen?"
-              </h2>
-              <p className="text-white/90 text-lg max-w-2xl mx-auto mb-6">
-                Mit unserem Zutaten-Filter findest du immer das perfekte Rezept für deine verfügbaren Zutaten. 
-                Reduziere Lebensmittelverschwendung und entdecke neue Lieblingsgerichte!
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
-                <div className="bg-white/10 rounded-lg p-4">
-                  <div className="text-2xl font-bold text-white">500+</div>
-                  <div className="text-white/80 text-sm">Vegetarische Rezepte</div>
+            {/* Enhanced Bottom CTA */}
+            <div className="mt-20 bg-gradient-to-r from-[#0b3558] via-[#2563eb] to-[#f9d24f] rounded-3xl p-8 md:p-12 text-center relative overflow-hidden">
+              <div className="absolute inset-0 bg-black/10"></div>
+              <div className="relative z-10">
+                <div className="flex items-center justify-center gap-3 mb-6">
+                  <Heart className="h-8 w-8 text-white" />
+                  <h2 className="text-3xl md:text-4xl font-bold text-white">
+                    Nie wieder "Was soll ich kochen?"
+                  </h2>
+                  <Heart className="h-8 w-8 text-white" />
                 </div>
-                <div className="bg-white/10 rounded-lg p-4">
-                  <div className="text-2xl font-bold text-white">200+</div>
-                  <div className="text-white/80 text-sm">Verschiedene Zutaten</div>
-                </div>
-                <div className="bg-white/10 rounded-lg p-4">
-                  <div className="text-2xl font-bold text-white">100%</div>
-                  <div className="text-white/80 text-sm">Vegetarisch</div>
-                </div>
-                <div className="bg-white/10 rounded-lg p-4">
-                  <div className="text-2xl font-bold text-white">0€</div>
-                  <div className="text-white/80 text-sm">Kostenlos nutzen</div>
+                <p className="text-white/90 text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed">
+                  Mit unserem Zutaten-Filter findest du immer das perfekte Rezept für deine verfügbaren Zutaten. 
+                  Reduziere Lebensmittelverschwendung und entdecke neue Lieblingsgerichte!
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-4xl mx-auto">
+                  <div className="bg-white/15 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/20">
+                    <div className="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
+                    <div className="text-white/80 text-sm md:text-base">Vegetarische Rezepte</div>
+                  </div>
+                  <div className="bg-white/15 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/20">
+                    <div className="text-3xl md:text-4xl font-bold text-white mb-2">200+</div>
+                    <div className="text-white/80 text-sm md:text-base">Verschiedene Zutaten</div>
+                  </div>
+                  <div className="bg-white/15 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/20">
+                    <div className="text-3xl md:text-4xl font-bold text-white mb-2">100%</div>
+                    <div className="text-white/80 text-sm md:text-base">Vegetarisch</div>
+                  </div>
+                  <div className="bg-white/15 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/20">
+                    <div className="text-3xl md:text-4xl font-bold text-white mb-2">0€</div>
+                    <div className="text-white/80 text-sm md:text-base">Kostenlos nutzen</div>
+                  </div>
                 </div>
               </div>
             </div>
