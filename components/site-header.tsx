@@ -127,6 +127,14 @@ export function SiteHeader() {
                     Alle Rezepte
                   </Link>
                   <Link 
+                    href="/zutaten-filter" 
+                    className="text-lg font-medium text-black hover:text-[#db747a] hover:underline transition-colors"
+                    role="menuitem"
+                    aria-label="Rezepte nach verfügbaren Zutaten finden"
+                  >
+                    Zutaten-Filter
+                  </Link>
+                  <Link 
                     href="/rezepte/alle?sort=newest" 
                     className="text-lg font-medium text-black hover:text-[#db747a] hover:underline transition-colors"
                     role="menuitem"
@@ -149,14 +157,6 @@ export function SiteHeader() {
                     aria-label="Schnelle vegetarische Rezepte unter 30 Minuten"
                   >
                     Schnelle
-                  </Link>
-                  <Link 
-                    href="/rezepte/alle?tag=einfach" 
-                    className="text-lg font-medium text-black hover:text-[#db747a] hover:underline transition-colors"
-                    role="menuitem"
-                    aria-label="Einfache vegetarische Rezepte für Anfänger"
-                  >
-                    Einfache
                   </Link>
                 </div>
               </div>

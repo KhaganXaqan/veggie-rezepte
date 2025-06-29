@@ -52,6 +52,9 @@ export function MobileNav() {
                   <Link href="/rezepte/alle" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
                     Alle Rezepte
                   </Link>
+                  <Link href="/zutaten-filter" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
+                    Zutaten-Filter
+                  </Link>
                   <Link href="/rezepte/alle?sort=newest" className="px-4 sm:px-7 py-2 text-base sm:text-lg text-black hover:text-[#db747a] hover:underline min-h-[44px] flex items-center">
                     Neueste Rezepte
                   </Link>
