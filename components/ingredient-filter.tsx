@@ -10,7 +10,8 @@ import {
   ALL_INGREDIENTS, 
   findRecipesByIngredients, 
   getIngredientSuggestions, 
-  getPopularIngredients 
+  getPopularIngredients,
+  normalizeIngredientName
 } from '@/lib/ingredient-utils'
 import type { Recipe } from '@/lib/data'
 import Link from 'next/link'
@@ -80,7 +81,7 @@ export function IngredientFilter() {
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
           <Input
             type="text"
-            placeholder="Zutat eingeben (z.B. Tomaten, Zwiebeln, Käse...)"
+            placeholder="Zutat eingeben (z.B. große rote Zwiebel, Cherrytomaten, Paprikaschoten...)"
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
             onKeyDown={handleKeyDown}
@@ -110,6 +111,7 @@ export function IngredientFilter() {
         <div className="mt-4 space-y-4">
           {selectedIngredients.length > 0 && (
             <div className="flex items-center gap-2 flex-wrap">
+              <span className="font-medium text-sm text-gray-600 mr-2">Ausgewählt:</span>
               {selectedIngredients.map(ingredient => (
                 <Badge key={ingredient} variant="secondary" className="text-base bg-blue-100 text-blue-800 hover:bg-blue-200 py-1 px-3">
                   {ingredient.charAt(0).toUpperCase() + ingredient.slice(1)}
@@ -127,7 +129,7 @@ export function IngredientFilter() {
           <div className="flex items-center gap-2 flex-wrap">
             <span className="font-medium text-sm text-gray-600 mr-2">Beliebt:</span>
             {popularIngredients
-              .filter(ing => !selectedIngredients.includes(ing))
+              .filter(ing => !selectedIngredients.some(selected => normalizeIngredientName(selected) === normalizeIngredientName(ing)))
               .slice(0, 12)
               .map(ingredient => (
                 <Button key={ingredient} variant="outline" size="sm" onClick={() => addIngredient(ingredient)} className="text-gray-700">
@@ -156,7 +158,10 @@ function InitialStatePrompt() {
     <div className="text-center py-16 px-6 border-2 border-dashed border-gray-300 rounded-lg bg-gray-50">
       <ChefHat className="mx-auto h-16 w-16 text-gray-400" />
       <h3 className="mt-4 text-2xl font-semibold text-gray-800">Was ist in deinem Kühlschrank?</h3>
-      <p className="mt-2 text-lg text-gray-600">Wähle oben deine Zutaten aus, um passende Rezepte zu finden.</p>
+      <p className="mt-2 text-lg text-gray-600">
+        Gib deine Zutaten ein - auch mit Beschreibungen wie "große rote Zwiebel" oder "Cherrytomaten". 
+        Unser System erkennt automatisch die Grundzutaten.
+      </p>
     </div>
   )
 }
@@ -171,7 +176,10 @@ function ResultsDisplay({ results }: { results: { exactMatches: any[], partialMa
       <div className="text-center py-16 px-6">
         <ChefHat className="mx-auto h-16 w-16 text-gray-400" />
         <h3 className="mt-4 text-2xl font-semibold text-gray-800">Keine Rezepte gefunden</h3>
-        <p className="mt-2 text-lg text-gray-600">Versuche, andere oder weniger Zutaten auszuwählen.</p>
+        <p className="mt-2 text-lg text-gray-600">
+          Versuche, andere oder weniger Zutaten auszuwählen. Du kannst auch Varianten eingeben wie 
+          "Cherrytomaten" statt "Tomaten" oder "rote Zwiebel" statt "Zwiebel".
+        </p>
       </div>
     )
   }
