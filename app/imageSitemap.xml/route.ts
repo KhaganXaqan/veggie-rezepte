@@ -11,7 +11,7 @@ type RecipeWithImages = Recipe & {
 };
 
 export async function GET() {
-  const baseUrl = 'https://veggie-rezepte.de'
+  const baseUrl = 'https://www.veggie-rezepte.de'
 
   // Helper to extract all image URLs from a recipe
   function extractAllImageUrls(recipe: RecipeWithImages) {
@@ -43,8 +43,8 @@ export async function GET() {
           ${imageUrls.map(imgUrl => `
             <image:image>
               <image:loc>${baseUrl}${imgUrl}</image:loc>
-              <image:title>${recipe.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;')}</image:title>
-              <image:caption>${recipe.description?.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;') || ''}</image:caption>
+              <image:title>${recipe.title.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"').replace(/'/g, '&apos;')}</image:title>
+              <image:caption>${recipe.description?.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"').replace(/'/g, '&apos;') || ''}</image:caption>
             </image:image>
           `).join('')}
         </url>
@@ -59,4 +59,4 @@ export async function GET() {
       'Cache-Control': 'public, max-age=3600',
     },
   })
-} 
+}

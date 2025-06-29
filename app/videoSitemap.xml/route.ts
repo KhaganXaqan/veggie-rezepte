@@ -1,7 +1,7 @@
 import { Recipe, recipes } from '@/lib/data'
 
 export async function GET() {
-  const baseUrl = 'https://veggie-rezepte.de'
+  const baseUrl = 'https://www.veggie-rezepte.de'
 
   // Filter recipes that have video content
   const recipesWithVideos = recipes.filter(recipe => recipe.videoUrl)
@@ -15,12 +15,12 @@ export async function GET() {
           <loc>${baseUrl}/${recipe.slug}</loc>
           <video:video>
             <video:thumbnail_loc>${baseUrl}${recipe.image}</video:thumbnail_loc>
-            <video:title>${recipe.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;')} - Vegetarisches Rezept Video</video:title>
-            <video:description>${(recipe.description || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;')} - Schritt-für-Schritt Video-Anleitung für dieses köstliche vegetarische Rezept.</video:description>
+            <video:title>${recipe.title.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"').replace(/'/g, '&apos;')} - Vegetarisches Rezept Video</video:title>
+            <video:description>${(recipe.description || '').replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"').replace(/'/g, '&apos;')} - Schritt-für-Schritt Video-Anleitung für dieses köstliche vegetarische Rezept.</video:description>
             <video:content_loc>${recipe.videoUrl}</video:content_loc>
             <video:duration>300</video:duration>
             <video:publication_date>${recipe.createdDate?.toISOString() || new Date().toISOString()}</video:publication_date>
-            <video:category>Food &amp; Cooking</video:category>
+            <video:category>Food & Cooking</video:category>
             <video:tag>vegetarisch</video:tag>
             <video:tag>rezept</video:tag>
             <video:tag>${recipe.category.toLowerCase()}</video:tag>

@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { recipes } from '@/lib/data'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://veggie-rezepte.de'
+  const baseUrl = 'https://www.veggie-rezepte.de'
   const currentDate = new Date().toISOString()
 
   // Base routes with priorities and change frequencies
@@ -58,7 +58,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8
   }))
 
-  // Recipe routes with dynamic priorities based on rating and recency
+  // Recipe routes with dynamic priorities based on rating and category
   const recipeRoutes = recipes.map((recipe) => {
     // Calculate priority based on rating and category
     let priority = 0.6

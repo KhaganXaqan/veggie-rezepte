@@ -37,10 +37,8 @@ export async function generateMetadata(
   }  
   
 
-  // Base URL for canonical links
-  const baseUrl = process.env.NODE_ENV === 'development'
-    ? 'http://localhost:3000'
-    : 'https://veggie-rezepte.de';
+  // Base URL for canonical links - always use www
+  const baseUrl = 'https://www.veggie-rezepte.de';
 
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;
@@ -91,13 +89,8 @@ export async function generateStructuredData({ params }: RecipePageProps) {
 
   if (!recipe) return null;
 
-  // Determine if we're in development or production
-  const isDevelopment = process.env.NODE_ENV === 'development';
-
-  // Set the base URL based on environment
-  const baseUrl = isDevelopment
-    ? 'http://localhost:3000'
-    : 'https://veggie-rezepte.de';
+  // Always use www for consistency
+  const baseUrl = 'https://www.veggie-rezepte.de';
 
   // Ensure canonical URL is properly set
   const canonicalUrl = `${baseUrl}/${slug}`;

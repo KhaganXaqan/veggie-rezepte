@@ -17,7 +17,7 @@ const inter = InterFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://veggie-rezepte.de'),
+  metadataBase: new URL('https://www.veggie-rezepte.de'),
   title: {
     default: 'Veggie Rezepte - Entdecke köstliche vegetarische Gerichte',
     template: '%s | Veggie Rezepte'
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'de_DE',
-    url: 'https://veggie-rezepte.de',
+    url: 'https://www.veggie-rezepte.de',
     siteName: 'Veggie Rezepte',
     title: 'Veggie Rezepte - Köstliche vegetarische Gerichte',
     description: 'Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche. Von einfachen Alltagsgerichten bis zu festlichen Menüs - alles vegetarisch, lecker und mit detaillierten Kochanleitungen.',
@@ -103,9 +103,9 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://veggie-rezepte.de',
+    canonical: 'https://www.veggie-rezepte.de',
     languages: {
-      'de-DE': 'https://veggie-rezepte.de',
+      'de-DE': 'https://www.veggie-rezepte.de',
     },
   },
   category: 'food',
@@ -263,19 +263,19 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "WebSite",
-                  "@id": "https://veggie-rezepte.de/#website",
-                  "url": "https://veggie-rezepte.de",
+                  "@id": "https://www.veggie-rezepte.de/#website",
+                  "url": "https://www.veggie-rezepte.de",
                   "name": "Veggie Rezepte",
                   "description": "Entdecke über 1000 getestete vegetarische Rezepte aus der deutschen Küche",
                   "publisher": {
-                    "@id": "https://veggie-rezepte.de/#organization"
+                    "@id": "https://www.veggie-rezepte.de/#organization"
                   },
                   "potentialAction": [
                     {
                       "@type": "SearchAction",
                       "target": {
                         "@type": "EntryPoint",
-                        "urlTemplate": "https://veggie-rezepte.de/rezepte/alle?q={search_term_string}"
+                        "urlTemplate": "https://www.veggie-rezepte.de/rezepte/alle?q={search_term_string}"
                       },
                       "query-input": "required name=search_term_string"
                     }
@@ -284,21 +284,21 @@ export default function RootLayout({
                 },
                 {
                   "@type": "Organization",
-                  "@id": "https://veggie-rezepte.de/#organization",
+                  "@id": "https://www.veggie-rezepte.de/#organization",
                   "name": "Veggie Rezepte",
-                  "url": "https://veggie-rezepte.de",
+                  "url": "https://www.veggie-rezepte.de",
                   "logo": {
                     "@type": "ImageObject",
                     "inLanguage": "de-DE",
-                    "@id": "https://veggie-rezepte.de/#/schema/logo/image/",
-                    "url": "https://veggie-rezepte.de/images/logo/logo.png",
-                    "contentUrl": "https://veggie-rezepte.de/images/logo/logo.png",
+                    "@id": "https://www.veggie-rezepte.de/#/schema/logo/image/",
+                    "url": "https://www.veggie-rezepte.de/images/logo/logo.png",
+                    "contentUrl": "https://www.veggie-rezepte.de/images/logo/logo.png",
                     "width": 200,
                     "height": 200,
                     "caption": "Veggie Rezepte"
                   },
                   "image": {
-                    "@id": "https://veggie-rezepte.de/#/schema/logo/image/"
+                    "@id": "https://www.veggie-rezepte.de/#/schema/logo/image/"
                   },
                   "sameAs": [
                     "https://www.facebook.com/veggierezepte",
