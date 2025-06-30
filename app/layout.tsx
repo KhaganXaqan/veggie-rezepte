@@ -5,6 +5,7 @@ import { Inter as InterFont } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Analytics } from '@vercel/analytics/react';
+import { Suspense } from 'react';
 import { AnalyticsWrapper } from '@/components/analytics-wrapper';
 import { siteConfig } from '@/lib/constants';
 import Script from 'next/script';
@@ -358,7 +359,9 @@ export default function RootLayout({
           </div>
           <Toaster />
           <Analytics />
-          <AnalyticsWrapper />
+          <Suspense fallback={null}>
+            <AnalyticsWrapper />
+          </Suspense>
         </ThemeProvider>
       </body>
     </html>
